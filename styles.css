@@ -3046,13 +3046,28 @@ img, video {
 }
 
 .acc-num {
-  font-family: "Outfit", sans-serif !important;
-  font-size: 0.95rem !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 0.82rem !important;
   font-weight: 800 !important;
   color: #00B67A !important;
-  letter-spacing: 0.05em !important;
+  background: rgba(0, 182, 122, 0.08) !important;
+  border: 1px solid rgba(0, 182, 122, 0.25) !important;
+  border-radius: 8px !important;
+  padding: 0.35rem 0.75rem !important;
+  letter-spacing: 0.06em !important;
   flex-shrink: 0 !important;
-  min-width: 28px !important;
+  min-width: 40px !important;
+  text-align: center !important;
+  transition: all 0.25s ease !important;
+}
+
+.accordion-item.active .acc-num {
+  background: #00B67A !important;
+  color: #FFFFFF !important;
+  border-color: #00B67A !important;
 }
 
 .acc-title {
