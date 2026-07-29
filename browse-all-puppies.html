@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browse All Available Puppies | PawHaven</title>
+  
+  <!-- Google Fonts: Nunito & Figtree & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Design System Styles -->
+  <link rel="stylesheet" href="styles.css?v=27" />
+</head>
+<body class="browse-page-body" style="background-color: #FAF9F6; font-family: 'Nunito', sans-serif; margin:0;">
+
+  <!-- ==========================================================================
+       1. Navigation Header
+       ========================================================================== -->
+  <header class="header header-static">
+    <div class="container">
+      <div class="nav-container-box">
+        <a href="index.html" class="logo">
+          <i class="fa-solid fa-paw logo-icon"></i> PawHaven
+        </a>
+
+        <nav class="nav-center-wrapper">
+          <ul class="nav-links">
+            <li><a href="browse-all-puppies.html" class="nav-link active">Browse all puppies</a></li>
+            <li><a href="index.html#reviews-section" class="nav-link">Reviews</a></li>
+            <li><a href="index.html#ofa-section" class="nav-link">OFA Certification</a></li>
+            <li><a href="index.html#delivery-section" class="nav-link">Delivery Process & Care</a></li>
+          </ul>
+        </nav>
+
+        <a href="contact.html" class="btn-nav-contact">
+          <i class="fa-solid fa-envelope"></i> Contact Us
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="content" style="padding-top: 2rem; padding-bottom: 5rem;">
+    <div class="container">
+
+      <!-- ======================================================================
+           2. Hero Header Banner
+           ====================================================================== -->
+      <div style="background: linear-gradient(135deg, #012B3A 0%, #00455B 100%); border-radius: 28px; padding: 3.5rem 3rem; color: #FFFFFF; margin-bottom: 2.5rem; box-shadow: 0 16px 40px rgba(1,43,58,0.18); position: relative; overflow: hidden;">
+        <span style="display: inline-block; background: rgba(0, 182, 122, 0.2); color: #5CF6BE; font-size: 0.85rem; font-weight: 800; padding: 0.45rem 1.1rem; border-radius: 50px; letter-spacing: 0.04em; margin-bottom: 1rem;">
+          <i class="fa-solid fa-sparkles text-amber"></i> Complete Puppy Collection
+        </span>
+        <h1 style="font-size: 2.8rem; font-weight: 900; color: #FFFFFF; margin: 0 0 0.75rem 0; line-height: 1.15;">Browse All Available Puppies</h1>
+        <p style="font-size: 1.1rem; color: rgba(255, 255, 255, 0.85); max-width: 720px; margin: 0; line-height: 1.6; font-weight: 500;">
+          Explore our complete selection of ethically raised, USDA-vetted puppies. Every puppy is backed by a 10-Year Health Commitment and white glove flight chaperone delivery.
+        </p>
+      </div>
+
+      <!-- ======================================================================
+           3. Multi-Filter & Search Bar Controls
+           ====================================================================== -->
+      <div style="background: #FFFFFF; padding: 1.5rem 2rem; border-radius: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.05); margin-bottom: 3rem;">
+        <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+          
+          <!-- Search Input -->
+          <div style="flex: 1.5; min-width: 260px; display: flex; align-items: center; gap: 0.6rem; background: #F7F9F8; border: 1.5px solid rgba(0,0,0,0.08); padding: 0.75rem 1.2rem; border-radius: 50px;">
+            <i class="fa-solid fa-magnifying-glass" style="color: #00B67A;"></i>
+            <input type="text" id="browseSearchInput" style="border:none; background:transparent; outline:none; font-family:'Nunito', sans-serif; font-size:0.95rem; font-weight:700; color:#012B3A; width:100%;" placeholder="Search by puppy name or breed..." />
+          </div>
+
+          <!-- Breed Select Dropdown -->
+          <div style="flex: 1; min-width: 200px; display: flex; align-items: center; gap: 0.6rem; background: #F7F9F8; border: 1.5px solid rgba(0,0,0,0.08); padding: 0.75rem 1.2rem; border-radius: 50px;">
+            <i class="fa-solid fa-dog" style="color: #00B67A;"></i>
+            <select id="browseBreedSelect" style="border:none; background:transparent; outline:none; font-family:'Nunito', sans-serif; font-size:0.95rem; font-weight:700; color:#012B3A; width:100%; cursor:pointer;">
+              <option value="">All Breeds</option>
+            </select>
+          </div>
+
+          <!-- Gender Pills -->
+          <div style="display: flex; gap: 0.4rem; background: #F7F9F8; padding: 0.3rem; border-radius: 50px; border: 1.5px solid rgba(0,0,0,0.08);">
+            <button class="browse-gender-pill active" data-gender="all" style="border:none; background:#00B67A; color:#FFF; font-family:'Nunito', sans-serif; font-size:0.88rem; font-weight:800; padding:0.5rem 1.1rem; border-radius:50px; cursor:pointer;">All</button>
+            <button class="browse-gender-pill" data-gender="Female" style="border:none; background:transparent; color:#666; font-family:'Nunito', sans-serif; font-size:0.88rem; font-weight:800; padding:0.5rem 1.1rem; border-radius:50px; cursor:pointer;"><i class="fa-solid fa-venus"></i> Female</button>
+            <button class="browse-gender-pill" data-gender="Male" style="border:none; background:transparent; color:#666; font-family:'Nunito', sans-serif; font-size:0.88rem; font-weight:800; padding:0.5rem 1.1rem; border-radius:50px; cursor:pointer;"><i class="fa-solid fa-mars"></i> Male</button>
+          </div>
+
+          <!-- Sort Select -->
+          <div style="flex: 1; min-width: 200px; display: flex; align-items: center; gap: 0.6rem; background: #F7F9F8; border: 1.5px solid rgba(0,0,0,0.08); padding: 0.75rem 1.2rem; border-radius: 50px;">
+            <i class="fa-solid fa-arrow-down-short-wide" style="color: #00B67A;"></i>
+            <select id="browseSortSelect" style="border:none; background:transparent; outline:none; font-family:'Nunito', sans-serif; font-size:0.95rem; font-weight:700; color:#012B3A; width:100%; cursor:pointer;">
+              <option value="recommended">Sort: Recommended</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="age-youngest">Age: Youngest</option>
+            </select>
+          </div>
+
+          <!-- Reset Filter Button -->
+          <button id="browseResetBtn" style="border:none; background:rgba(0,0,0,0.05); color:#4F4F4F; font-family:'Nunito', sans-serif; font-size:0.9rem; font-weight:800; padding:0.75rem 1.2rem; border-radius:50px; cursor:pointer;" title="Reset All Filters">
+            <i class="fa-solid fa-rotate-left"></i> Reset
+          </button>
+
+        </div>
+
+        <!-- Filter Counter -->
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid rgba(0,0,0,0.06); font-size: 0.95rem; font-weight: 700; color: #012B3A;">
+          <span>Showing <strong id="resultsCount">0</strong> available puppies</span>
+          <span style="color:#666; font-size:0.85rem;"><i class="fa-solid fa-circle-check text-green"></i> 100% USDA Vetted &amp; Microchipped</span>
+        </div>
+      </div>
+
+      <!-- ======================================================================
+           4. All Puppies Catalog Grid
+           ====================================================================== -->
+      <div class="available-puppies-grid" id="browsePuppiesGrid">
+        <!-- Rendered dynamically via JS -->
+      </div>
+
+      <!-- Empty Results Fallback -->
+      <div id="noResultsBox" style="display: none; text-align: center; padding: 4rem 2rem; background: #FFFFFF; border-radius: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); margin-top: 2rem;">
+        <i class="fa-solid fa-paw" style="font-size: 3rem; color: #BDBDBD; margin-bottom: 1rem;"></i>
+        <h3 style="font-size: 1.5rem; color: #012B3A; margin-bottom: 0.5rem;">No puppies matched your search criteria</h3>
+        <p style="color: #666; margin-bottom: 1.5rem;">Try searching for a different breed or adjusting your price filters.</p>
+        <button class="btn-primary" onclick="resetBrowseFilters()">Reset Filters</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       5. Footer & Sticky WhatsApp
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="footer-logo">PawHaven</a>
+          <p style="color:rgba(255,255,255,0.6); margin-top:0.5rem; max-width:320px; font-size:0.9rem;">
+            Ethical canine adoption connecting verified USDA breeders with caring homes.
+          </p>
+        </div>
+
+        <div style="display:flex; gap:3rem;">
+          <div>
+            <h5 style="color:#fff; margin-bottom:1rem;">Explore</h5>
+            <div style="display:flex; flex-direction:column; gap:0.5rem; font-size:0.9rem; opacity:0.75;">
+              <a href="browse-all-puppies.html">Browse all puppies</a>
+              <a href="index.html#reviews-section">Puppy parents reviews</a>
+              <a href="index.html#ofa-section">OFA Certification</a>
+              <a href="index.html#delivery-section">Delivery process & care</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 PawHaven Inc. All Rights Reserved.</div>
+        <div>10-Year Health Guarantee • USDA Licensed Partner Network</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Sticky WhatsApp Button -->
+  <a href="https://wa.me/15550192834?text=Hello%20PawHaven%2C%20I%20am%20interested%20in%20adopting%20a%20puppy!" target="_blank" rel="noopener noreferrer" class="whatsapp-sticky-btn" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-icon-wrapper">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <span class="whatsapp-tooltip">Chat with us</span>
+  </a>
+
+  <!-- Scripts -->
+  <script src="data/siteData.js?v=7"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const puppies = SITE_DATA.puppies || [];
+      const grid = document.getElementById('browsePuppiesGrid');
+      const searchInput = document.getElementById('browseSearchInput');
+      const breedSelect = document.getElementById('browseBreedSelect');
+      const sortSelect = document.getElementById('browseSortSelect');
+      const resultsCount = document.getElementById('resultsCount');
+      const noResults = document.getElementById('noResultsBox');
+      const genderPills = document.querySelectorAll('.browse-gender-pill');
+
+      let currentGender = 'all';
+
+      // Populate Breed Dropdown
+      const uniqueBreeds = [...new Set(puppies.map(p => p.breed))].sort();
+      uniqueBreeds.forEach(b => {
+        const opt = document.createElement('option');
+        opt.value = b;
+        opt.textContent = b + ' (' + puppies.filter(p => p.breed === b).length + ')';
+        breedSelect.appendChild(opt);
+      });
+
+      // Read initial breed from URL if coming from Favorite Breeds
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlBreed = urlParams.get('breed');
+      if (urlBreed) {
+        breedSelect.value = urlBreed;
+      }
+
+      // Filter Engine
+      function renderBrowseGrid() {
+        const query = searchInput.value.toLowerCase().trim();
+        const selectedBreed = breedSelect.value;
+        const sortBy = sortSelect.value;
+
+        let filtered = puppies.filter(p => {
+          if (query && !p.name.toLowerCase().includes(query) && !p.breed.toLowerCase().includes(query)) return false;
+          if (selectedBreed && p.breed !== selectedBreed) return false;
+          if (currentGender !== 'all' && p.gender !== currentGender) return false;
+          return true;
+        });
+
+        // Sorting
+        if (sortBy === 'price-low') filtered.sort((a,b) => a.price - b.price);
+        if (sortBy === 'price-high') filtered.sort((a,b) => b.price - a.price);
+        if (sortBy === 'age-youngest') filtered.sort((a,b) => parseInt(a.age) - parseInt(b.age));
+
+        resultsCount.textContent = filtered.length;
+
+        if (filtered.length === 0) {
+          grid.style.display = 'none';
+          noResults.style.display = 'block';
+        } else {
+          grid.style.display = 'grid';
+          noResults.style.display = 'none';
+
+          grid.innerHTML = filtered.map(p => `
+            <a href="puppy-details.html?id=${p.id}" class="available-puppy-card" style="text-decoration: none; color: inherit; display: block; cursor: pointer;">
+              <div class="available-puppy-media">
+                <img src="${p.image}" alt="${p.name}" class="available-puppy-img" loading="lazy" />
+                <span class="puppy-fav-badge"><i class="fa-regular fa-heart"></i></span>
+                <div class="puppy-video-badge"><i class="fa-solid fa-video"></i></div>
+              </div>
+
+              <div class="available-puppy-info">
+                <div class="puppy-card-breed-label">${p.breed}</div>
+                <h3 class="puppy-card-name-label">${p.name}</h3>
+                <div class="puppy-card-specs-label">${p.gender} · ${p.age}</div>
+                <div class="puppy-card-status-label">${p.status || 'Ready to go home'}</div>
+                <div style="font-size:1.3rem; font-weight:900; color:#00B67A; margin-top:0.4rem;">$${p.price.toLocaleString()}</div>
+                <span class="btn-card-reserve" style="margin-top: 0.8rem; width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5rem; border: none; font-family: 'Nunito', sans-serif;">
+                  View ${p.name}'s Details <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          `).join('');
+        }
+      }
+
+      // Event Listeners
+      searchInput.addEventListener('input', renderBrowseGrid);
+      breedSelect.addEventListener('change', renderBrowseGrid);
+      sortSelect.addEventListener('change', renderBrowseGrid);
+
+      genderPills.forEach(pill => {
+        pill.addEventListener('click', function() {
+          genderPills.forEach(p => {
+            p.classList.remove('active');
+            p.style.background = 'transparent';
+            p.style.color = '#666';
+          });
+          this.classList.add('active');
+          this.style.background = '#00B67A';
+          this.style.color = '#FFFFFF';
+          currentGender = this.getAttribute('data-gender');
+          renderBrowseGrid();
+        });
+      });
+
+      window.resetBrowseFilters = function() {
+        searchInput.value = '';
+        breedSelect.value = '';
+        sortSelect.value = 'recommended';
+        currentGender = 'all';
+        genderPills.forEach(p => {
+          p.classList.remove('active');
+          p.style.background = 'transparent';
+          p.style.color = '#666';
+        });
+        genderPills[0].classList.add('active');
+        genderPills[0].style.background = '#00B67A';
+        genderPills[0].style.color = '#FFFFFF';
+        renderBrowseGrid();
+      };
+
+      document.getElementById('browseResetBtn').addEventListener('click', window.resetBrowseFilters);
+
+      // Initial Render
+      renderBrowseGrid();
+    });
+  </script>
+</body>
+</html>
