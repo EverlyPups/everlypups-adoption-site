@@ -196,6 +196,13 @@
         breedSelect.appendChild(opt);
       });
 
+      // Read initial breed from URL if coming from Favorite Breeds
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlBreed = urlParams.get('breed');
+      if (urlBreed) {
+        breedSelect.value = urlBreed;
+      }
+
       // Filter Engine
       function renderBrowseGrid() {
         const query = searchInput.value.toLowerCase().trim();
