@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const isFav = state.favorites.includes(p.id);
 
       return `
-        <div class="available-puppy-card" onclick="openDetail(${p.id})" style="cursor: pointer;">
+        <a href="puppy-details.html?id=${p.id}" class="available-puppy-card" style="text-decoration: none; color: inherit; display: block; cursor: pointer;">
           <div class="available-puppy-media">
             <img src="${p.image}" alt="${p.name}" class="available-puppy-img" loading="lazy" />
             
@@ -216,11 +216,11 @@ document.addEventListener('DOMContentLoaded', () => {
             <h3 class="puppy-card-name-label">${p.name}</h3>
             <div class="puppy-card-specs-label">${p.gender} · ${p.age}</div>
             <div class="puppy-card-status-label">${p.status || 'Ready to go home'}</div>
-            <button class="btn-card-reserve" style="margin-top: 0.8rem; width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5rem; border: none; font-family: 'Nunito', sans-serif;">
+            <span class="btn-card-reserve" style="margin-top: 0.8rem; width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5rem; border: none; font-family: 'Nunito', sans-serif;">
               View Details <i class="fa-solid fa-arrow-right"></i>
-            </button>
+            </span>
           </div>
-        </div>
+        </a>
       `;
     }).join('');
   }
