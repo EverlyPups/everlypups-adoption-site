@@ -186,12 +186,15 @@
 
       let currentGender = 'all';
 
-      // Populate Breed Dropdown
-      const uniqueBreeds = [...new Set(puppies.map(p => p.breed))].sort();
-      uniqueBreeds.forEach(b => {
+      // Populate Breed Dropdown with full 83 breeds list
+      const allBreedsList = SITE_DATA.allFilterBreeds || [];
+      const fullBreedsSet = [...new Set([...allBreedsList, ...puppies.map(p => p.breed)])].sort();
+
+      fullBreedsSet.forEach(b => {
+        const count = puppies.filter(p => p.breed === b).length;
         const opt = document.createElement('option');
         opt.value = b;
-        opt.textContent = b + ' (' + puppies.filter(p => p.breed === b).length + ')';
+        opt.textContent = count > 0 ? `${b} (${count})` : b;
         breedSelect.appendChild(opt);
       });
 
