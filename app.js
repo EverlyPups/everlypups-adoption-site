@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    catalogGrid.innerHTML = state.filteredPuppies.map(p => {
+    catalogGrid.innerHTML = state.filteredPuppies.slice(0, 8).map(p => {
       const isFav = state.favorites.includes(p.id);
 
       return `
