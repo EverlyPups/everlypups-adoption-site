@@ -1721,13 +1721,14 @@ img, video {
 
 .modal-content {
   background: #FFFFFF;
-  width: 90%;
-  max-width: 800px;
-  max-height: 90vh;
-  border-radius: var(--radius-lg);
-  padding: 3rem;
+  width: 92%;
+  max-width: 960px;
+  max-height: 92vh;
+  border-radius: 28px;
+  padding: 2.2rem 2.5rem;
   overflow-y: auto;
   position: relative;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.22);
 }
 
 .modal-close-btn {
