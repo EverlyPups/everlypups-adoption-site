@@ -324,7 +324,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   window.filterByBreed = function(breedName) {
-    window.location.href = `browse-puppies.html?breed=${encodeURIComponent(breedName)}`;
+    state.filters.breeds = [breedName];
+    populateFilters();
+    applyFilters();
+    document.getElementById('catalog-section').scrollIntoView({ behavior: 'smooth' });
   };
 
   window.resetFilters = function() {
