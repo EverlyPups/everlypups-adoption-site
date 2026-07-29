@@ -2895,3 +2895,236 @@ img, video {
     justify-content: center !important;
   }
 }
+
+/* ==========================================================================
+   25. Editorial FAQ Section Styling (.contact-faq-section)
+   ========================================================================== */
+.contact-faq-section {
+  padding: 5.5rem 0 6.5rem 0 !important;
+  background: #FFFFFF !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.contact-faq-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1.35fr !important;
+  gap: 5rem !important;
+  align-items: start !important;
+}
+
+/* --- LEFT COLUMN --- */
+.faq-left-col {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.4rem !important;
+  position: sticky !important;
+  top: 2rem !important;
+}
+
+.faq-badge-label {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  background: rgba(0, 182, 122, 0.08) !important;
+  color: #00B67A !important;
+  font-size: 0.8rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  padding: 0.4rem 0.95rem !important;
+  border-radius: 50px !important;
+  width: fit-content !important;
+  border: 1px solid rgba(0, 182, 122, 0.2) !important;
+}
+
+.faq-section-heading {
+  font-size: 2.6rem !important;
+  line-height: 1.15 !important;
+  font-weight: 900 !important;
+  color: #012B3A !important;
+  margin: 0 !important;
+  letter-spacing: -0.02em !important;
+}
+
+.faq-section-subtext {
+  font-size: 1.08rem !important;
+  line-height: 1.65 !important;
+  color: #4F4F4F !important;
+  margin: 0 !important;
+  font-weight: 500 !important;
+}
+
+/* Support Card */
+.faq-support-card {
+  background: linear-gradient(135deg, #012B3A 0%, #063C4F 100%) !important;
+  color: #FFFFFF !important;
+  padding: 2.2rem 2rem !important;
+  border-radius: 24px !important;
+  box-shadow: 0 14px 35px rgba(1, 43, 58, 0.22) !important;
+  margin-top: 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.9rem !important;
+}
+
+.support-card-icon {
+  width: 46px !important;
+  height: 46px !important;
+  background: rgba(92, 246, 190, 0.15) !important;
+  color: #5CF6BE !important;
+  border-radius: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.25rem !important;
+}
+
+.support-card-title {
+  font-size: 1.25rem !important;
+  font-weight: 800 !important;
+  margin: 0 !important;
+  color: #FFFFFF !important;
+}
+
+.support-card-desc {
+  font-size: 0.92rem !important;
+  line-height: 1.6 !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  margin: 0 !important;
+}
+
+.btn-support-contact {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.6rem !important;
+  background: #00B67A !important;
+  color: #FFFFFF !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  padding: 0.85rem 1.6rem !important;
+  border-radius: 50px !important;
+  text-decoration: none !important;
+  width: fit-content !important;
+  margin-top: 0.4rem !important;
+  box-shadow: 0 6px 18px rgba(0, 182, 122, 0.35) !important;
+  transition: all 0.25s ease !important;
+}
+
+.btn-support-contact:hover {
+  background: #009E69 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 10px 24px rgba(0, 182, 122, 0.45) !important;
+}
+
+/* --- RIGHT COLUMN: Refined Editorial Accordion --- */
+.editorial-accordion {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.accordion-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease !important;
+}
+
+.accordion-header {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.5rem !important;
+  padding: 1.6rem 0.5rem !important;
+  background: transparent !important;
+  border: none !important;
+  cursor: pointer !important;
+  text-align: left !important;
+  outline: none !important;
+  transition: all 0.25s ease !important;
+}
+
+.acc-num {
+  font-family: "Outfit", sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  color: #00B67A !important;
+  letter-spacing: 0.05em !important;
+  flex-shrink: 0 !important;
+  min-width: 28px !important;
+}
+
+.acc-title {
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  color: #012B3A !important;
+  flex-grow: 1 !important;
+  line-height: 1.35 !important;
+  transition: color 0.25s ease !important;
+}
+
+.accordion-item.active .acc-title,
+.accordion-header:hover .acc-title {
+  color: #00B67A !important;
+}
+
+.acc-icon {
+  width: 34px !important;
+  height: 34px !important;
+  border-radius: 50% !important;
+  background: #FAF9F6 !important;
+  color: #012B3A !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 0.9rem !important;
+  flex-shrink: 0 !important;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.accordion-item.active .acc-icon {
+  background: #00B67A !important;
+  color: #FFFFFF !important;
+  transform: rotate(45deg) !important;
+}
+
+.accordion-content {
+  max-height: 0 !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease, padding 0.3s ease !important;
+  padding: 0 0.5rem 0 3.25rem !important;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 300px !important;
+  opacity: 1 !important;
+  padding: 0 0.5rem 1.6rem 3.25rem !important;
+}
+
+.acc-text {
+  font-size: 1.02rem !important;
+  line-height: 1.7 !important;
+  color: #4F4F4F !important;
+  margin: 0 !important;
+  font-weight: 500 !important;
+}
+
+/* Mobile Responsiveness for FAQ Section */
+@media (max-width: 992px) {
+  .contact-faq-grid {
+    grid-template-columns: 1fr !important;
+    gap: 3.5rem !important;
+  }
+  .faq-left-col {
+    position: relative !important;
+    top: 0 !important;
+  }
+  .faq-section-heading {
+    font-size: 2.1rem !important;
+  }
+  .accordion-content {
+    padding-left: 0.5rem !important;
+  }
+}

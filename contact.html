@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Editorial Design System & Contact Page Styles -->
-  <link rel="stylesheet" href="styles.css?v=18" />
+  <link rel="stylesheet" href="styles.css?v=19" />
 </head>
 <body class="contact-page-body">
 
@@ -172,6 +172,161 @@
       </div>
     </section>
 
+    <!-- ==========================================================================
+         Dedicated FAQ Section Below Contact Form
+         ========================================================================== -->
+    <section class="contact-faq-section" id="contact-faq">
+      <div class="container">
+        <div class="contact-faq-grid">
+          
+          <!-- LEFT COLUMN: Heading & Support Card -->
+          <div class="faq-left-col">
+            <div class="faq-badge-label">
+              <i class="fa-solid fa-circle-question"></i> FAQs
+            </div>
+            <h2 class="faq-section-heading">Answers Before You Adopt</h2>
+            <p class="faq-section-subtext">
+              Find answers to the most common questions about our puppies, adoption process, health records, payments, and delivery.
+            </p>
+
+            <!-- Highlighted Support Card -->
+            <div class="faq-support-card">
+              <div class="support-card-icon">
+                <i class="fa-solid fa-headset"></i>
+              </div>
+              <h4 class="support-card-title">Need More Help?</h4>
+              <p class="support-card-desc">
+                Our adoption specialists are happy to answer any questions and guide you through the adoption process.
+              </p>
+              <a href="#adoptionContactForm" onclick="scrollToForm(event)" class="btn-support-contact">
+                Contact Our Team <i class="fa-solid fa-arrow-up"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- RIGHT COLUMN: Editorial Accordion -->
+          <div class="faq-right-col">
+            <div class="editorial-accordion" id="contactAccordion">
+              
+              <!-- Item 01 -->
+              <div class="accordion-item active">
+                <button class="accordion-header" aria-expanded="true" onclick="toggleAccordion(this)">
+                  <span class="acc-num">01</span>
+                  <span class="acc-title">How do I reserve a puppy?</span>
+                  <span class="acc-icon"><i class="fa-solid fa-plus"></i></span>
+                </button>
+                <div class="accordion-content">
+                  <p class="acc-text">
+                    Browse our available puppies, select your puppy of choice, and fill out our quick adoption inquiry form. Our team will verify availability and guide you through reserving your puppy.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 02 -->
+              <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false" onclick="toggleAccordion(this)">
+                  <span class="acc-num">02</span>
+                  <span class="acc-title">What health checks do your puppies receive?</span>
+                  <span class="acc-icon"><i class="fa-solid fa-plus"></i></span>
+                </button>
+                <div class="accordion-content">
+                  <p class="acc-text">
+                    Every puppy undergoes a nose-to-tail veterinary examination, receives age-appropriate vaccinations, deworming, microchipping, and comes with a 10-Year Health Guarantee.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 03 -->
+              <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false" onclick="toggleAccordion(this)">
+                  <span class="acc-num">03</span>
+                  <span class="acc-title">How does payment work?</span>
+                  <span class="acc-icon"><i class="fa-solid fa-plus"></i></span>
+                </button>
+                <div class="accordion-content">
+                  <p class="acc-text">
+                    We do not collect payment during reservation. Once your reservation is confirmed, we send you an official invoice with secure payment instructions.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 04 -->
+              <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false" onclick="toggleAccordion(this)">
+                  <span class="acc-num">04</span>
+                  <span class="acc-title">Do you accept credit card payments?</span>
+                  <span class="acc-icon"><i class="fa-solid fa-plus"></i></span>
+                </button>
+                <div class="accordion-content">
+                  <p class="acc-text">
+                    We never store or process credit card information. Payments are completed using the secure payment method provided on your invoice.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 05 -->
+              <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false" onclick="toggleAccordion(this)">
+                  <span class="acc-num">05</span>
+                  <span class="acc-title">How long does delivery take?</span>
+                  <span class="acc-icon"><i class="fa-solid fa-plus"></i></span>
+                </button>
+                <div class="accordion-content">
+                  <p class="acc-text">
+                    Nationwide travel typically takes 2 to 5 business days after health clearance. Our USDA temperature-controlled travel nanny accompanies your puppy from our campus to your home.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 06 -->
+              <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false" onclick="toggleAccordion(this)">
+                  <span class="acc-num">06</span>
+                  <span class="acc-title">Can I visit the puppy before adopting?</span>
+                  <span class="acc-icon"><i class="fa-solid fa-plus"></i></span>
+                </button>
+                <div class="accordion-content">
+                  <p class="acc-text">
+                    Yes! You are welcome to schedule an in-person visit at our Greenfield Adoption Campus in Ohio, or request a live video call session with your adoption specialist.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 07 -->
+              <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false" onclick="toggleAccordion(this)">
+                  <span class="acc-num">07</span>
+                  <span class="acc-title">What comes with my puppy?</span>
+                  <span class="acc-icon"><i class="fa-solid fa-plus"></i></span>
+                </button>
+                <div class="accordion-content">
+                  <p class="acc-text">
+                    Your puppy arrives with complete health records, AKC/registration papers, a starter kit (premium food, blanket with mom's scent, favorite toy), and lifetime 24/7 specialist support.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 08 -->
+              <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false" onclick="toggleAccordion(this)">
+                  <span class="acc-num">08</span>
+                  <span class="acc-title">What happens after I make payment?</span>
+                  <span class="acc-icon"><i class="fa-solid fa-plus"></i></span>
+                </button>
+                <div class="accordion-content">
+                  <p class="acc-text">
+                    Once payment is received, your adoption coordinator confirms your travel itinerary, sends daily video updates, and coordinates seamless doorstep or airport delivery.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- ==========================================================================
@@ -268,6 +423,34 @@
     function handleContactSubmit(event) {
       event.preventDefault();
       alert('Thank you! Your inquiry has been sent successfully. An adoption specialist will contact you shortly.');
+    }
+
+    function toggleAccordion(headerBtn) {
+      const item = headerBtn.closest('.accordion-item');
+      const accordion = item.parentElement;
+      const isAlreadyActive = item.classList.contains('active');
+
+      // Close all other accordion items (Single-Open behavior)
+      accordion.querySelectorAll('.accordion-item').forEach(function(el) {
+        el.classList.remove('active');
+        const btn = el.querySelector('.accordion-header');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+      });
+
+      // Toggle current item
+      if (!isAlreadyActive) {
+        item.classList.add('active');
+        headerBtn.setAttribute('aria-expanded', 'true');
+      }
+    }
+
+    function scrollToForm(e) {
+      e.preventDefault();
+      const formEl = document.getElementById('fullName');
+      if (formEl) {
+        formEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        formEl.focus();
+      }
     }
   </script>
 </body>
