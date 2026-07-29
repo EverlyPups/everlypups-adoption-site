@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Editorial Design System & Contact Page Styles -->
-  <link rel="stylesheet" href="styles.css?v=15" />
+  <link rel="stylesheet" href="styles.css?v=16" />
 </head>
 <body class="contact-page-body">
 
@@ -158,8 +158,8 @@
                   <textarea id="contactMessage" rows="4" placeholder="Tell us about your home, preferred timeline, or any specific questions..." required></textarea>
                 </div>
 
-                <!-- Primary CTA Button -->
-                <button type="submit" class="btn-submit-inquiry">
+                <!-- Primary CTA Button (Default state: #B8E8D7, Active state: #00B67A) -->
+                <button type="submit" id="btnSubmitInquiry" class="btn-submit-inquiry disabled-state" disabled>
                   <span>Send My Inquiry</span>
                   <i class="fa-solid fa-paper-plane"></i>
                 </button>
@@ -230,28 +230,44 @@
     <span class="whatsapp-tooltip">Chat with us</span>
   </a>
 
-  <!-- Inline Contact Form Script -->
+  <!-- Inline Contact Form Two-State Validation Script -->
   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('adoptionContactForm');
+      const submitBtn = document.getElementById('btnSubmitInquiry');
+
+      function validateFormState() {
+        if (!form || !submitBtn) return;
+        const requiredInputs = form.querySelectorAll('[required]');
+        let allValid = true;
+
+        requiredInputs.forEach(function(input) {
+          if (!input.value || !input.value.trim()) {
+            allValid = false;
+          }
+        });
+
+        if (allValid) {
+          submitBtn.classList.add('is-active');
+          submitBtn.classList.remove('disabled-state');
+          submitBtn.removeAttribute('disabled');
+        } else {
+          submitBtn.classList.remove('is-active');
+          submitBtn.classList.add('disabled-state');
+          submitBtn.setAttribute('disabled', 'disabled');
+        }
+      }
+
+      if (form) {
+        form.addEventListener('input', validateFormState);
+        form.addEventListener('change', validateFormState);
+        validateFormState();
+      }
+    });
+
     function handleContactSubmit(event) {
       event.preventDefault();
-      const nameInput = document.getElementById('fullName').value.trim() || 'Friend';
-      
-      const form = document.getElementById('adoptionContactForm');
-      const successCard = document.getElementById('contactSuccessCard');
-      const userNameSpan = document.getElementById('successUserName');
-
-      userNameSpan.textContent = nameInput;
-      form.style.display = 'none';
-      successCard.style.display = 'flex';
-    }
-
-    function resetContactForm() {
-      const form = document.getElementById('adoptionContactForm');
-      const successCard = document.getElementById('contactSuccessCard');
-
-      form.reset();
-      form.style.display = 'flex';
-      successCard.style.display = 'none';
+      alert('Thank you! Your inquiry has been sent successfully. An adoption specialist will contact you shortly.');
     }
   </script>
 </body>

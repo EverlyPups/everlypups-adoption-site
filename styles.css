@@ -2793,21 +2793,30 @@ img, video {
   justify-content: center !important;
   gap: 0.75rem !important;
   width: 100% !important;
-  background: #00B67A !important;
+  background: #B8E8D7 !important;
   color: #FFFFFF !important;
-  font-family: "Nunito", sans-serif !important;
+  font-family: 'Nunito', sans-serif !important;
   font-size: 1.05rem !important;
   font-weight: 800 !important;
   padding: 1.1rem 2rem !important;
   border-radius: 50px !important;
   border: none !important;
-  cursor: pointer !important;
+  cursor: not-allowed !important;
   margin-top: 0.8rem !important;
-  box-shadow: 0 8px 22px rgba(0, 182, 122, 0.35) !important;
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-shadow: none !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-.btn-submit-inquiry:hover {
+.btn-submit-inquiry.is-active,
+.btn-submit-inquiry:not(.disabled-state):not(:disabled) {
+  background: #00B67A !important;
+  color: #FFFFFF !important;
+  cursor: pointer !important;
+  box-shadow: 0 8px 22px rgba(0, 182, 122, 0.35) !important;
+}
+
+.btn-submit-inquiry.is-active:hover,
+.btn-submit-inquiry:not(.disabled-state):not(:disabled):hover {
   background: #009E69 !important;
   transform: translateY(-2px) !important;
   box-shadow: 0 12px 28px rgba(0, 182, 122, 0.45) !important;
