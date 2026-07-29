@@ -3143,3 +3143,462 @@ img, video {
     padding-left: 0.5rem !important;
   }
 }
+
+/* ==========================================================================
+   26. Puppy Details Page Styling (.puppy-detail-page-body & .puppy-detail-grid)
+   ========================================================================== */
+.puppy-detail-page-body {
+  background-color: #FAF9F6 !important;
+  color: #333333 !important;
+  font-family: "Nunito", sans-serif !important;
+  margin: 0 !important;
+}
+
+.puppy-detail-main-wrapper {
+  padding-top: 1.5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+/* Breadcrumb */
+.detail-breadcrumb {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+  font-size: 0.9rem !important;
+  font-weight: 700 !important;
+  color: #666666 !important;
+  margin-bottom: 2rem !important;
+}
+
+.back-link {
+  color: #00B67A !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.4rem !important;
+  transition: transform 0.2s ease !important;
+}
+
+.back-link:hover {
+  transform: translateX(-3px) !important;
+  color: #009E69 !important;
+}
+
+.bc-sep {
+  color: #BDBDBD !important;
+}
+
+.bc-active {
+  color: #012B3A !important;
+}
+
+/* Main Detail Grid */
+.puppy-detail-grid {
+  display: grid !important;
+  grid-template-columns: 1.15fr 1fr !important;
+  gap: 3.5rem !important;
+  align-items: start !important;
+  margin-bottom: 3.5rem !important;
+}
+
+/* Gallery Column */
+.puppy-gallery-col {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.2rem !important;
+}
+
+.main-image-frame {
+  position: relative !important;
+  width: 100% !important;
+  height: 480px !important;
+  border-radius: 28px !important;
+  overflow: hidden !important;
+  background: #FFFFFF !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+.main-puppy-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  transition: transform 0.4s ease !important;
+}
+
+.gallery-status-badge {
+  position: absolute !important;
+  top: 1.2rem !important;
+  left: 1.2rem !important;
+  background: rgba(1, 43, 58, 0.88) !important;
+  backdrop-filter: blur(8px) !important;
+  color: #5CF6BE !important;
+  font-size: 0.82rem !important;
+  font-weight: 800 !important;
+  padding: 0.45rem 1rem !important;
+  border-radius: 50px !important;
+  letter-spacing: 0.04em !important;
+}
+
+.gallery-social-proof {
+  position: absolute !important;
+  bottom: 1.2rem !important;
+  left: 1.2rem !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(8px) !important;
+  color: #012B3A !important;
+  font-size: 0.85rem !important;
+  font-weight: 800 !important;
+  padding: 0.45rem 1.1rem !important;
+  border-radius: 50px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+.gallery-thumbnails-row {
+  display: flex !important;
+  gap: 0.9rem !important;
+  overflow-x: auto !important;
+}
+
+.thumb-img {
+  width: 90px !important;
+  height: 80px !important;
+  border-radius: 16px !important;
+  object-fit: cover !important;
+  cursor: pointer !important;
+  border: 2.5px solid transparent !important;
+  transition: all 0.25s ease !important;
+  background: #FFFFFF !important;
+}
+
+.thumb-img.active,
+.thumb-img:hover {
+  border-color: #00B67A !important;
+  transform: translateY(-2px) !important;
+}
+
+.detail-qa-strip {
+  display: flex !important;
+  justify-content: space-between !important;
+  background: #FFFFFF !important;
+  padding: 1.2rem 1.5rem !important;
+  border-radius: 20px !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04) !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  margin-top: 0.5rem !important;
+}
+
+.qa-item {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+  font-size: 0.84rem !important;
+  font-weight: 800 !important;
+  color: #012B3A !important;
+}
+
+.qa-item i {
+  color: #00B67A !important;
+  font-size: 1.1rem !important;
+}
+
+/* Info Column */
+.puppy-info-col {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.6rem !important;
+}
+
+.detail-breed-tag {
+  display: inline-block !important;
+  background: rgba(0, 182, 122, 0.1) !important;
+  color: #00B67A !important;
+  font-size: 0.85rem !important;
+  font-weight: 800 !important;
+  padding: 0.4rem 1rem !important;
+  border-radius: 50px !important;
+  letter-spacing: 0.04em !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.detail-puppy-name {
+  font-size: 3rem !important;
+  font-weight: 900 !important;
+  color: #012B3A !important;
+  margin: 0 0 0.3rem 0 !important;
+  line-height: 1.1 !important;
+}
+
+.detail-subtext {
+  font-size: 1.05rem !important;
+  color: #666666 !important;
+  margin: 0 !important;
+  font-weight: 600 !important;
+}
+
+/* Price Box */
+.detail-price-box {
+  background: #FFFFFF !important;
+  padding: 1.8rem 2rem !important;
+  border-radius: 24px !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06) !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 1rem !important;
+}
+
+.price-label {
+  display: block !important;
+  font-size: 0.78rem !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  color: #828282 !important;
+  letter-spacing: 0.05em !important;
+}
+
+.price-val {
+  font-size: 2.2rem !important;
+  font-weight: 900 !important;
+  color: #00B67A !important;
+  line-height: 1.1 !important;
+  margin: 0.15rem 0 !important;
+}
+
+.price-guarantee-note {
+  font-size: 0.82rem !important;
+  color: #4F4F4F !important;
+  font-weight: 700 !important;
+}
+
+.btn-reserve-hero {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.75rem !important;
+  background: #00B67A !important;
+  color: #FFFFFF !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  padding: 1rem 2rem !important;
+  border-radius: 50px !important;
+  text-decoration: none !important;
+  box-shadow: 0 8px 22px rgba(0, 182, 122, 0.35) !important;
+  white-space: nowrap !important;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.btn-reserve-hero:hover {
+  background: #009E69 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 12px 28px rgba(0, 182, 122, 0.45) !important;
+}
+
+/* Specs Grid */
+.puppy-specs-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 1rem !important;
+}
+
+.spec-card {
+  background: #FFFFFF !important;
+  padding: 1.1rem 1.2rem !important;
+  border-radius: 18px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.spec-label {
+  display: block !important;
+  font-size: 0.75rem !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  color: #828282 !important;
+  letter-spacing: 0.04em !important;
+}
+
+.spec-val {
+  display: block !important;
+  font-size: 1rem !important;
+  font-weight: 800 !important;
+  color: #012B3A !important;
+  margin-top: 0.25rem !important;
+}
+
+/* Breeder Info Card */
+.breeder-info-card {
+  background: #FFFFFF !important;
+  padding: 1.8rem !important;
+  border-radius: 24px !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05) !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.breeder-card-header {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
+  margin-bottom: 1.2rem !important;
+}
+
+.breeder-star-icon {
+  width: 44px !important;
+  height: 44px !important;
+  background: rgba(0, 182, 122, 0.12) !important;
+  color: #00B67A !important;
+  border-radius: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.3rem !important;
+}
+
+.breeder-title {
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  color: #012B3A !important;
+  margin: 0 0 0.15rem 0 !important;
+}
+
+.breeder-name {
+  font-size: 0.88rem !important;
+  color: #666666 !important;
+  margin: 0 !important;
+  font-weight: 600 !important;
+}
+
+.parents-row {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 0.8rem !important;
+  padding-top: 1rem !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+.parent-item {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.2rem !important;
+}
+
+.parent-role {
+  font-size: 0.72rem !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  color: #828282 !important;
+}
+
+.parent-breed {
+  font-size: 0.88rem !important;
+  font-weight: 700 !important;
+  color: #012B3A !important;
+}
+
+/* Sections Grid: Story & Included */
+.puppy-detail-sections-grid {
+  display: grid !important;
+  grid-template-columns: 1.2fr 1fr !important;
+  gap: 2.5rem !important;
+  margin-bottom: 4rem !important;
+}
+
+.detail-story-card,
+.detail-included-card {
+  background: #FFFFFF !important;
+  padding: 2.2rem 2.2rem !important;
+  border-radius: 24px !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05) !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.story-card-title,
+.included-card-title {
+  font-size: 1.4rem !important;
+  font-weight: 900 !important;
+  color: #012B3A !important;
+  margin: 0 0 1.2rem 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+}
+
+.story-card-text {
+  font-size: 1.05rem !important;
+  line-height: 1.75 !important;
+  color: #4F4F4F !important;
+  margin: 0 !important;
+  font-weight: 500 !important;
+}
+
+.included-checklist {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.9rem !important;
+}
+
+.included-checklist li {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.75rem !important;
+  font-size: 0.98rem !important;
+  font-weight: 700 !important;
+  color: #012B3A !important;
+}
+
+.check-icon {
+  color: #00B67A !important;
+  font-size: 1rem !important;
+}
+
+/* Related Puppies Section */
+.related-puppies-section {
+  padding-top: 2rem !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.related-section-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 2rem !important;
+}
+
+.related-section-header h2 {
+  font-size: 2rem !important;
+  font-weight: 900 !important;
+  color: #012B3A !important;
+  margin: 0 !important;
+}
+
+.link-view-all {
+  color: #00B67A !important;
+  font-weight: 800 !important;
+  text-decoration: none !important;
+  font-size: 1rem !important;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 992px) {
+  .puppy-detail-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2.5rem !important;
+  }
+  .main-image-frame {
+    height: 360px !important;
+  }
+  .puppy-specs-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .puppy-detail-sections-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+  .parents-row {
+    grid-template-columns: 1fr !important;
+  }
+}

@@ -196,8 +196,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     catalogGrid.innerHTML = state.filteredPuppies.map(p => {
       const isFav = state.favorites.includes(p.id);
+
       return `
-        <div class="available-puppy-card" onclick="openDetail(${p.id})">
+        <div class="available-puppy-card" onclick="window.location.href='puppy-details.html?id=${p.id}'" style="cursor: pointer;">
           <div class="available-puppy-media">
             <img src="${p.image}" alt="${p.name}" class="available-puppy-img" loading="lazy" />
             
@@ -215,10 +216,13 @@ document.addEventListener('DOMContentLoaded', () => {
             <h3 class="puppy-card-name-label">${p.name}</h3>
             <div class="puppy-card-specs-label">${p.gender} · ${p.age}</div>
             <div class="puppy-card-status-label">${p.status || 'Ready to go home'}</div>
+            <a href="puppy-details.html?id=${p.id}" class="btn-card-reserve" style="margin-top: 0.8rem; width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5rem; text-decoration: none;">
+              View Details <i class="fa-solid fa-arrow-right"></i>
+            </a>
           </div>
         </div>
       `;
-    }).join('');
+    }).join('');;
   }
 
   // ------------------------------------------------------------------------
@@ -506,40 +510,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   window.openDetail = function(id) {
-    const puppy = state.puppies.find(p => p.id === id);
-    if (!puppy) return;
-
-    modalBody.innerHTML = `
-      <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: center;">
-        <div>
-          <img src="${puppy.image}" id="modal-main-img" style="width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:16px; margin-bottom:1rem;" />
-          <div style="display:flex; gap:0.5rem;">
-            ${puppy.gallery.map(g => `
-              <img src="${g}" style="width:70px; height:70px; object-fit:cover; border-radius:8px; cursor:pointer;" onclick="document.getElementById('modal-main-img').src='${g}'" />
-            `).join('')}
-          </div>
-        </div>
-        <div>
-          <h2 style="font-size:2.2rem; font-weight:800; margin-bottom:0.25rem;">${puppy.name}</h2>
-          <div style="font-size:1.1rem; color:var(--brand-primary); font-weight:700; margin-bottom:1.5rem;">${puppy.breed} • ${puppy.gender}</div>
-
-          <div style="background:var(--bg-surface); padding:1rem; border-radius:12px; display:grid; grid-template-columns:1fr 1fr; gap:0.75rem; font-size:0.9rem; margin-bottom:1.5rem;">
-            <div><strong>Age:</strong> ${puppy.age}</div>
-            <div><strong>Weight:</strong> ${puppy.weight}</div>
-            <div><strong>Location:</strong> ${puppy.location}</div>
-            <div><strong>Price:</strong> $${puppy.price.toLocaleString()}</div>
-          </div>
-
-          <p style="color:var(--text-secondary); margin-bottom:2rem; font-size:0.95rem;">${puppy.description}</p>
-
-          <button class="btn-primary" style="width:100%; justify-content:center;" onclick="openReserve(${puppy.id})">
-            Reserve ${puppy.name}
-          </button>
-        </div>
-      </div>
-    `;
-
-    detailModal.classList.add('active');
+    window.location.href = `puppy-details.html?id=${id}`;
   };
 
   window.openReserve = function(id) {

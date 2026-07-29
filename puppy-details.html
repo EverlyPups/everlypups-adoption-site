@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="pageTitle">Puppy Details | PawHaven</title>
+  
+  <!-- Google Fonts: Nunito & Figtree & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Editorial Design System Styles -->
+  <link rel="stylesheet" href="styles.css?v=25" />
+</head>
+<body class="puppy-detail-page-body">
+
+  <!-- ==========================================================================
+       1. Navigation Header
+       ========================================================================== -->
+  <header class="header header-static">
+    <div class="container">
+      <div class="nav-container-box">
+        <a href="index.html" class="logo">
+          <i class="fa-solid fa-paw logo-icon"></i> PawHaven
+        </a>
+
+        <nav class="nav-center-wrapper">
+          <ul class="nav-links">
+            <li><a href="index.html#catalog-section" class="nav-link">Browse Available Puppies</a></li>
+            <li><a href="index.html#reviews-section" class="nav-link">Reviews</a></li>
+            <li><a href="index.html#ofa-section" class="nav-link">OFA Certification</a></li>
+            <li><a href="index.html#delivery-section" class="nav-link">Delivery Process & Care</a></li>
+          </ul>
+        </nav>
+
+        <a href="contact.html" class="btn-nav-contact">
+          <i class="fa-solid fa-envelope"></i> Contact Us
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="content" class="puppy-detail-main-wrapper">
+    <div class="container">
+      
+      <!-- Back Navigation & Breadcrumb -->
+      <div class="detail-breadcrumb">
+        <a href="index.html#catalog-section" class="back-link">
+          <i class="fa-solid fa-arrow-left"></i> Back to Available Puppies
+        </a>
+        <span class="bc-sep">/</span>
+        <span id="bcBreed">Puppy</span>
+        <span class="bc-sep">/</span>
+        <span id="bcName" class="bc-active">Details</span>
+      </div>
+
+      <!-- ======================================================================
+           2. Main Puppy Detail Hero Grid
+           ====================================================================== -->
+      <div class="puppy-detail-grid">
+        
+        <!-- LEFT COLUMN: Image Gallery Carousel -->
+        <div class="puppy-gallery-col">
+          <div class="main-image-frame">
+            <img id="mainPuppyImage" src="" alt="Puppy Photo" class="main-puppy-img" />
+            <div id="puppyStatusBadge" class="gallery-status-badge">Ready to go home</div>
+            <div class="gallery-social-proof">
+              <i class="fa-solid fa-fire text-amber"></i> <span id="viewingCount">4 families are viewing</span>
+            </div>
+          </div>
+
+          <!-- Gallery Thumbnails -->
+          <div class="gallery-thumbnails-row" id="galleryThumbnails">
+            <!-- Populated via JS -->
+          </div>
+
+          <!-- Quality Assurance Highlights -->
+          <div class="detail-qa-strip">
+            <div class="qa-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span>10-Yr Health Commitment</span>
+            </div>
+            <div class="qa-item">
+              <i class="fa-solid fa-microchip"></i>
+              <span>Microchipped</span>
+            </div>
+            <div class="qa-item">
+              <i class="fa-solid fa-plane-arrival"></i>
+              <span>Flight Chaperone Travel</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: Puppy Overview Specs & Reserve Action -->
+        <div class="puppy-info-col">
+          
+          <div class="puppy-header-info">
+            <div class="detail-breed-tag" id="puppyBreedTag">Puppy Breed</div>
+            <h1 class="detail-puppy-name" id="puppyName">Puppy Name</h1>
+            <p class="detail-subtext" id="puppySubtext">Meet your new best friend.</p>
+          </div>
+
+          <!-- Price & Reserve Row -->
+          <div class="detail-price-box">
+            <div>
+              <span class="price-label">Bring Home Fee</span>
+              <div class="price-val" id="puppyPrice">$0,000</div>
+              <span class="price-guarantee-note"><i class="fa-solid fa-circle-check text-green"></i> Backed by PawHaven 10-Year Guarantee</span>
+            </div>
+
+            <a href="contact.html" id="btnReservePuppy" class="btn-reserve-hero">
+              <span>Reserve <span id="reservePuppyName">Puppy</span></span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Quick Specifications Key-Value Grid -->
+          <div class="puppy-specs-grid">
+            <div class="spec-card">
+              <span class="spec-label">Gender</span>
+              <span class="spec-val" id="specGender">Male</span>
+            </div>
+            <div class="spec-card">
+              <span class="spec-label">Age</span>
+              <span class="spec-val" id="specAge">8 weeks</span>
+            </div>
+            <div class="spec-card">
+              <span class="spec-label">Birthday</span>
+              <span class="spec-val" id="specBirthday">May 1, 2026</span>
+            </div>
+            <div class="spec-card">
+              <span class="spec-label">Color</span>
+              <span class="spec-val" id="specColor">Classic</span>
+            </div>
+            <div class="spec-card">
+              <span class="spec-label">Current Weight</span>
+              <span class="spec-val" id="specWeight">4.0 lbs</span>
+            </div>
+            <div class="spec-card">
+              <span class="spec-label">Est. Adult Weight</span>
+              <span class="spec-val" id="specEstWeight">8 - 14 lbs</span>
+            </div>
+          </div>
+
+          <!-- Breeder & Parent Overview Box -->
+          <div class="breeder-info-card">
+            <div class="breeder-card-header">
+              <i class="fa-solid fa-award breeder-star-icon"></i>
+              <div>
+                <h4 class="breeder-title">USDA Star Breeder Verified</h4>
+                <p class="breeder-name" id="breederName">Partner Breeder Network</p>
+              </div>
+            </div>
+            <div class="parents-row">
+              <div class="parent-item">
+                <span class="parent-role">Mom (Dam)</span>
+                <span class="parent-breed" id="momBreed">Mother Breed</span>
+              </div>
+              <div class="parent-item">
+                <span class="parent-role">Dad (Sire)</span>
+                <span class="parent-breed" id="dadBreed">Father Breed</span>
+              </div>
+              <div class="parent-item">
+                <span class="parent-role">Microchip ID</span>
+                <span class="parent-breed" id="microchipId">985141000000000</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- ======================================================================
+           3. Detailed Biography & What's Included Section
+           ====================================================================== -->
+      <div class="puppy-detail-sections-grid">
+        
+        <!-- Story & Personality -->
+        <div class="detail-story-card">
+          <h3 class="story-card-title"><i class="fa-solid fa-heart text-red"></i> About <span id="storyPuppyName">Puppy</span></h3>
+          <p class="story-card-text" id="puppyDescription">
+            Detailed puppy description...
+          </p>
+        </div>
+
+        <!-- What's Included Checklist -->
+        <div class="detail-included-card">
+          <h3 class="included-card-title"><i class="fa-solid fa-gift text-green"></i> What's Included</h3>
+          <ul class="included-checklist">
+            <li><i class="fa-solid fa-check check-icon"></i> 10-Year Health Commitment & Guarantee</li>
+            <li><i class="fa-solid fa-check check-icon"></i> Complete Nose-to-Tail Veterinary Health Record</li>
+            <li><i class="fa-solid fa-check check-icon"></i> Microchipped for Lifetime Safety</li>
+            <li><i class="fa-solid fa-check check-icon"></i> Up-to-date Vaccinations & Deworming</li>
+            <li><i class="fa-solid fa-check check-icon"></i> White Glove Travel Chaperone Options</li>
+            <li><i class="fa-solid fa-check check-icon"></i> Starter Kit (Mom scent blanket, food, toy)</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- ======================================================================
+           4. Other Available Puppies Carousel / Recommendations
+           ====================================================================== -->
+      <section class="related-puppies-section">
+        <div class="related-section-header">
+          <h2>More Available Puppies You'll Love</h2>
+          <a href="index.html#catalog-section" class="link-view-all">View All <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="available-puppies-grid" id="relatedPuppiesGrid">
+          <!-- Populated via JS -->
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       5. Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="footer-logo">PawHaven</a>
+          <p style="color:rgba(255,255,255,0.6); margin-top:0.5rem; max-width:320px; font-size:0.9rem;">
+            Ethical canine adoption connecting verified USDA breeders with caring homes.
+          </p>
+        </div>
+
+        <div style="display:flex; gap:3rem;">
+          <div>
+            <h5 style="color:#fff; margin-bottom:1rem;">Explore</h5>
+            <div style="display:flex; flex-direction:column; gap:0.5rem; font-size:0.9rem; opacity:0.75;">
+              <a href="index.html#catalog-section">Browse available puppies</a>
+              <a href="index.html#reviews-section">Puppy parents reviews</a>
+              <a href="index.html#ofa-section">OFA Certification</a>
+              <a href="index.html#delivery-section">Delivery process & care</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 PawHaven Inc. All Rights Reserved.</div>
+        <div>10-Year Health Guarantee • USDA Licensed Partner Network</div>
+      </div>
+
+      <div class="footer-legal-info-nonclickable" style="margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.08); font-size: 0.85rem; color: #828282; font-family: 'Nunito', sans-serif; line-height: 1.6; text-align: left;">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; row-gap: 0.2rem;">
+          <span>Terms of Use</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+          <span>Privacy Policy</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+          <span>Sitemap</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+          <span>Accredited BBB</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+          <span>Do Not Sell My Personal Information</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+          <span>California and Maryland site</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+        </div>
+        <div style="margin-top: 0.25rem;">
+          <span>Nationwide (Non-California, Non-Maryland) Site</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Sticky WhatsApp Button -->
+  <a href="https://wa.me/15550192834?text=Hello%20PawHaven%2C%20I%20am%20interested%20in%20adopting%20a%20puppy!" target="_blank" rel="noopener noreferrer" class="whatsapp-sticky-btn" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-icon-wrapper">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <span class="whatsapp-tooltip">Chat with us</span>
+  </a>
+
+  <!-- Script Imports -->
+  <script src="data/siteData.js?v=4"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const puppyId = parseInt(urlParams.get('id')) || 817786;
+
+      const puppy = SITE_DATA.puppies.find(p => p.id === puppyId) || SITE_DATA.puppies[0];
+
+      if (puppy) {
+        // Page Title & Header
+        document.getElementById('pageTitle').textContent = puppy.name + ' - ' + puppy.breed + ' | PawHaven';
+        document.getElementById('bcBreed').textContent = puppy.breed;
+        document.getElementById('bcName').textContent = puppy.name;
+
+        // Image & Badges
+        const mainImg = document.getElementById('mainPuppyImage');
+        mainImg.src = puppy.image;
+        mainImg.alt = puppy.name + ' ' + puppy.breed;
+        document.getElementById('puppyStatusBadge').textContent = puppy.status || 'Ready to go home';
+
+        // Thumbnails
+        const thumbRow = document.getElementById('galleryThumbnails');
+        thumbRow.innerHTML = '';
+        const gallery = puppy.gallery || [puppy.image];
+        gallery.forEach((imgUrl, idx) => {
+          const thumb = document.createElement('img');
+          thumb.src = imgUrl;
+          thumb.className = 'thumb-img' + (idx === 0 ? ' active' : '');
+          thumb.onclick = function() {
+            mainImg.src = imgUrl;
+            document.querySelectorAll('.thumb-img').forEach(t => t.classList.remove('active'));
+            thumb.classList.add('active');
+          };
+          thumbRow.appendChild(thumb);
+        });
+
+        // Overview Text
+        document.getElementById('puppyBreedTag').textContent = puppy.breed + (puppy.variety ? ' • ' + puppy.variety : '');
+        document.getElementById('puppyName').textContent = puppy.name;
+        document.getElementById('puppySubtext').textContent = puppy.gender + ' • ' + puppy.age + ' • ' + puppy.location;
+
+        // Price & Reserve CTA
+        document.getElementById('puppyPrice').textContent = '$' + puppy.price.toLocaleString();
+        document.getElementById('reservePuppyName').textContent = puppy.name;
+        const btnReserve = document.getElementById('btnReservePuppy');
+        btnReserve.href = 'contact.html?breed=' + encodeURIComponent(puppy.breed) + '&puppy=' + encodeURIComponent(puppy.name);
+
+        // Specs Grid
+        document.getElementById('specGender').textContent = puppy.gender;
+        document.getElementById('specAge').textContent = puppy.age;
+        document.getElementById('specBirthday').textContent = puppy.birthday || 'N/A';
+        document.getElementById('specColor').textContent = puppy.color || 'Standard';
+        document.getElementById('specWeight').textContent = puppy.weight || '3.5 lbs';
+        document.getElementById('specEstWeight').textContent = puppy.estAdultWeight || '8 - 15 lbs';
+
+        // Breeder Specs
+        document.getElementById('breederName').textContent = puppy.breeder || 'USDA Certified Partner Breeder';
+        document.getElementById('momBreed').textContent = puppy.momBreed || puppy.breed + ' (Mom)';
+        document.getElementById('dadBreed').textContent = puppy.dadBreed || puppy.breed + ' (Dad)';
+        document.getElementById('microchipId').textContent = puppy.microchip || '98514100' + puppy.id;
+
+        // Description Story
+        document.getElementById('storyPuppyName').textContent = puppy.name;
+        document.getElementById('puppyDescription').textContent = puppy.description;
+
+        // Render Related Puppies Grid (4 other puppies)
+        const relatedGrid = document.getElementById('relatedPuppiesGrid');
+        if (relatedGrid) {
+          relatedGrid.innerHTML = '';
+          const otherPuppies = SITE_DATA.puppies.filter(p => p.id !== puppy.id).slice(0, 4);
+          otherPuppies.forEach(p => {
+            const card = document.createElement('article');
+            card.className = 'puppy-card';
+            card.innerHTML = `
+              <div class="puppy-card-img-wrap">
+                <img src="${p.image}" alt="${p.name}" class="puppy-card-img" />
+                <span class="puppy-badge">${p.status || 'Ready'}</span>
+              </div>
+              <div class="puppy-card-body">
+                <div class="puppy-card-header">
+                  <h3 class="puppy-card-name">${p.name}</h3>
+                  <span class="puppy-card-price">$${p.price.toLocaleString()}</span>
+                </div>
+                <p class="puppy-card-breed">${p.breed}</p>
+                <div class="puppy-card-meta">
+                  <span><i class="fa-solid fa-venus-mars"></i> ${p.gender}</span>
+                  <span><i class="fa-solid fa-cake-candles"></i> ${p.age}</span>
+                  <span><i class="fa-solid fa-location-dot"></i> ${p.location}</span>
+                </div>
+                <a href="puppy-details.html?id=${p.id}" class="btn-card-reserve">
+                  View ${p.name}'s Details <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            `;
+            relatedGrid.appendChild(card);
+          });
+        }
+      }
+    });
+  </script>
+</body>
+</html>
