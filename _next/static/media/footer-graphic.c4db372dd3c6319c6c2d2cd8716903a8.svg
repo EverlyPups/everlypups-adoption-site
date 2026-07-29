@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 176" fill="none" preserveAspectRatio="none">
+  <!-- Soft Mint Background Wave -->
+  <path d="M0 60C240 110 480 30 720 60C960 90 1200 50 1440 80V176H0V60Z" fill="#88F288" opacity="0.45"/>
+  <!-- Light Green Middle Wave -->
+  <path d="M0 80C320 30 640 120 960 70C1200 30 1360 80 1440 65V176H0V80Z" fill="#5CF6BE" opacity="0.65"/>
+  <!-- Vibrant Green Foreground Wave -->
+  <path d="M0 100C280 60 560 120 840 75C1120 30 1320 90 1440 75V176H0V100Z" fill="#219653"/>
+  <!-- Deep Emerald Bottom Wave -->
+  <path d="M0 120C360 90 720 140 1080 110C1280 90 1380 115 1440 110V176H0V120Z" fill="#1B7A43"/>
+
+  <!-- Character & Dog Walking Vector Illustration on Left -->
+  <g transform="translate(40, 60)">
+    <!-- Flowers -->
+    <circle cx="10" cy="85" r="7" fill="#DEFDF2" />
+    <circle cx="6" cy="82" r="4" fill="#5CF6BE" />
+    <circle cx="14" cy="88" r="3" fill="#2EDCF4" />
+
+    <circle cx="35" cy="95" r="9" fill="#E3FFE3" />
+    <circle cx="30" cy="90" r="5" fill="#73FF73" />
+    <circle cx="40" cy="98" r="4" fill="#5CF6BE" />
+
+    <!-- Person Walking -->
+    <circle cx="100" cy="20" r="7" fill="#012B3A" />
+    <path d="M94 20C94 15 100 12 105 15C107 20 103 23 99 23Z" fill="#012B3A" />
+    <path d="M93 28L107 28L111 53L89 53Z" fill="#FFFFFF" stroke="#012B3A" stroke-width="1.5"/>
+    <path d="M89 53L70 80L77 83L95 60L110 80L117 77L101 53Z" fill="#2EDCF4" />
+    <path d="M65 80L75 83L70 87Z" fill="#FFFFFF" stroke="#012B3A" />
+    <path d="M110 80L120 79L115 85Z" fill="#FFFFFF" stroke="#012B3A" />
+
+    <!-- Leash Line -->
+    <path d="M122 42 Q150 55 170 65" stroke="#F7AF22" stroke-width="2" stroke-dasharray="3 1" />
+
+    <!-- Fluffy White Puppy -->
+    <ellipse cx="170" cy="67" rx="14" ry="10" fill="#FFFFFF" stroke="#012B3A" stroke-width="1.5" />
+    <circle cx="181" cy="59" r="8" fill="#FFFFFF" stroke="#012B3A" stroke-width="1.5" />
+    <path d="M177 53C173 51 171 59 175 60Z" fill="#012B3A" />
+    <circle cx="184" cy="58" r="1.2" fill="#012B3A" />
+    <circle cx="187" cy="60" r="1.5" fill="#012B3A" />
+    <rect x="174" y="63" width="4" height="6" rx="1" fill="#F7AF22" />
+    <path d="M157 65 Q153 55 159 57" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <line x1="161" y1="76" x2="159" y2="85" stroke="#012B3A" stroke-width="2" stroke-linecap="round" />
+    <line x1="167" y1="76" x2="169" y2="85" stroke="#012B3A" stroke-width="2" stroke-linecap="round" />
+    <line x1="173" y1="76" x2="171" y2="85" stroke="#012B3A" stroke-width="2" stroke-linecap="round" />
+    <line x1="179" y1="76" x2="181" y2="85" stroke="#012B3A" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>
