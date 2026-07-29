@@ -3603,3 +3603,229 @@ img, video {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* ==========================================================================
+   27. Browse All Puppies Page Styling (.browse-page-body & .browse-filter-bar-card)
+   ========================================================================== */
+.browse-page-body {
+  background-color: #FAF9F6 !important;
+  color: #333333 !important;
+  font-family: "Nunito", sans-serif !important;
+  margin: 0 !important;
+}
+
+.browse-main-wrapper {
+  padding-top: 2rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.browse-hero-banner {
+  background: linear-gradient(135deg, #012B3A 0%, #00455B 100%) !important;
+  border-radius: 28px !important;
+  padding: 3.5rem 3rem !important;
+  color: #FFFFFF !important;
+  margin-bottom: 2.5rem !important;
+  box-shadow: 0 16px 40px rgba(1, 43, 58, 0.2) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.browse-hero-banner::after {
+  content: "" !important;
+  position: absolute !important;
+  top: -50% !important;
+  right: -20% !important;
+  width: 500px !important;
+  height: 500px !important;
+  background: radial-gradient(circle, rgba(0, 182, 122, 0.18) 0%, transparent 70%) !important;
+  pointer-events: none !important;
+}
+
+.browse-badge-tag {
+  display: inline-block !important;
+  background: rgba(0, 182, 122, 0.2) !important;
+  color: #5CF6BE !important;
+  font-size: 0.85rem !important;
+  font-weight: 800 !important;
+  padding: 0.45rem 1.1rem !important;
+  border-radius: 50px !important;
+  letter-spacing: 0.04em !important;
+  margin-bottom: 1rem !important;
+}
+
+.browse-title {
+  font-size: 2.8rem !important;
+  font-weight: 900 !important;
+  color: #FFFFFF !important;
+  margin: 0 0 0.75rem 0 !important;
+  line-height: 1.15 !important;
+}
+
+.browse-subtitle {
+  font-size: 1.1rem !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  max-width: 720px !important;
+  margin: 0 !important;
+  line-height: 1.6 !important;
+  font-weight: 500 !important;
+}
+
+/* Filter Bar Card */
+.browse-filter-bar-card {
+  background: #FFFFFF !important;
+  padding: 1.5rem 2rem !important;
+  border-radius: 24px !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06) !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  margin-bottom: 3rem !important;
+}
+
+.filter-controls-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
+  flex-wrap: wrap !important;
+}
+
+.filter-input-wrap {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+  background: #F7F9F8 !important;
+  border: 1.5px solid rgba(0, 0, 0, 0.08) !important;
+  padding: 0.75rem 1.2rem !important;
+  border-radius: 50px !important;
+  transition: all 0.2s ease !important;
+}
+
+.filter-input-wrap:focus-within {
+  border-color: #00B67A !important;
+  background: #FFFFFF !important;
+  box-shadow: 0 0 0 4px rgba(0, 182, 122, 0.12) !important;
+}
+
+.search-wrap {
+  flex: 1.5 !important;
+  min-width: 260px !important;
+}
+
+.breed-select-wrap,
+.sort-wrap {
+  flex: 1 !important;
+  min-width: 200px !important;
+}
+
+.filter-icon {
+  color: #00B67A !important;
+  font-size: 1rem !important;
+}
+
+.filter-text-input {
+  border: none !important;
+  background: transparent !important;
+  outline: none !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  color: #012B3A !important;
+  width: 100% !important;
+}
+
+.filter-dropdown {
+  border: none !important;
+  background: transparent !important;
+  outline: none !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  color: #012B3A !important;
+  width: 100% !important;
+  cursor: pointer !important;
+}
+
+/* Gender Pills */
+.gender-pills-wrap {
+  display: flex !important;
+  gap: 0.4rem !important;
+  background: #F7F9F8 !important;
+  padding: 0.3rem !important;
+  border-radius: 50px !important;
+  border: 1.5px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.browse-gender-pill {
+  border: none !important;
+  background: transparent !important;
+  color: #666666 !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 0.88rem !important;
+  font-weight: 800 !important;
+  padding: 0.5rem 1.1rem !important;
+  border-radius: 50px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.browse-gender-pill.active {
+  background: #00B67A !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 12px rgba(0, 182, 122, 0.28) !important;
+}
+
+.btn-reset-filters {
+  border: none !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  color: #4F4F4F !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 0.9rem !important;
+  font-weight: 800 !important;
+  padding: 0.75rem 1.2rem !important;
+  border-radius: 50px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-reset-filters:hover {
+  background: rgba(0, 0, 0, 0.1) !important;
+  color: #012B3A !important;
+}
+
+.browse-results-counter {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-top: 1.2rem !important;
+  padding-top: 1rem !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.06) !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  color: #012B3A !important;
+}
+
+.no-results-card {
+  text-align: center !important;
+  padding: 4rem 2rem !important;
+  background: #FFFFFF !important;
+  border-radius: 24px !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05) !important;
+  margin-top: 2rem !important;
+}
+
+.no-results-icon {
+  font-size: 3rem !important;
+  color: #BDBDBD !important;
+  margin-bottom: 1rem !important;
+}
+
+@media (max-width: 992px) {
+  .browse-hero-banner {
+    padding: 2.5rem 1.8rem !important;
+  }
+  .browse-title {
+    font-size: 2rem !important;
+  }
+  .filter-controls-row {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+}
