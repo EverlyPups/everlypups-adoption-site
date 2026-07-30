@@ -3603,5 +3603,46 @@ img, video {
     grid-template-columns: 1fr !important;
   }
 }
+/* ==========================================================================
+   28. Pagination Bar Styling (Matching User Design Spec)
+   ========================================================================== */
+.pagination-btn {
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  background: #F4F4F4 !important;
+  border: 1.5px solid transparent !important;
+  color: #333333 !important;
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
 
+.pagination-btn:hover:not(:disabled):not(.active) {
+  background: #EAEAEA !important;
+  color: #000000 !important;
+}
 
+.pagination-btn.active {
+  background: #FFFFFF !important;
+  border: 2px solid #222222 !important;
+  color: #222222 !important;
+  font-weight: 800 !important;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.35 !important;
+  cursor: not-allowed !important;
+}
+
+.pagination-ellipsis {
+  color: #666666 !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  padding: 0 0.25rem !important;
+}

@@ -146,6 +146,11 @@
         <button class="btn-primary" onclick="resetBrowseFilters()">Reset Filters</button>
       </div>
 
+      <!-- Pagination Bar -->
+      <div id="paginationContainer" style="display: flex; align-items: center; justify-content: center; gap: 0.6rem; margin-top: 3.5rem; margin-bottom: 1.5rem;">
+        <!-- Rendered dynamically via JS -->
+      </div>
+
     </div>
   </main>
 
@@ -308,6 +313,101 @@
         }
       });
 
+      let currentPage = 1;
+      const itemsPerPage = 8;
+
+      // Pagination Renderer
+      function renderPagination(totalPages) {
+        const pagContainer = document.getElementById('paginationContainer');
+        if (!pagContainer) return;
+
+        if (totalPages <= 1) {
+          pagContainer.style.display = 'none';
+          return;
+        }
+        pagContainer.style.display = 'flex';
+
+        let html = '';
+
+        // Previous button
+        html += `
+          <button class="pagination-btn" id="prevPageBtn" ${currentPage === 1 ? 'disabled' : ''} aria-label="Previous Page">
+            <i class="fa-solid fa-arrow-left-long"></i>
+          </button>
+        `;
+
+        // Generate Page Numbers Array
+        let pagesToShow = [];
+        if (totalPages <= 7) {
+          for (let i = 1; i <= totalPages; i++) pagesToShow.push(i);
+        } else {
+          if (currentPage <= 4) {
+            pagesToShow = [1, 2, 3, 4, 5, '...', totalPages];
+          } else if (currentPage >= totalPages - 3) {
+            pagesToShow = [1, '...', totalPages - 4, totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+          } else {
+            pagesToShow = [1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages];
+          }
+        }
+
+        pagesToShow.forEach(p => {
+          if (p === '...') {
+            html += `<span class="pagination-ellipsis">...</span>`;
+          } else {
+            const isActive = p === currentPage;
+            html += `
+              <button class="pagination-btn ${isActive ? 'active' : ''}" data-page="${p}">
+                ${p}
+              </button>
+            `;
+          }
+        });
+
+        // Next button
+        html += `
+          <button class="pagination-btn" id="nextPageBtn" ${currentPage === totalPages ? 'disabled' : ''} aria-label="Next Page">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        `;
+
+        pagContainer.innerHTML = html;
+
+        // Click Handlers
+        const pageBtns = pagContainer.querySelectorAll('.pagination-btn[data-page]');
+        pageBtns.forEach(btn => {
+          btn.addEventListener('click', function() {
+            const pageNum = parseInt(this.getAttribute('data-page'));
+            if (pageNum !== currentPage) {
+              currentPage = pageNum;
+              renderBrowseGrid();
+              document.getElementById('browsePuppiesGrid').scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        });
+
+        const prevBtn = document.getElementById('prevPageBtn');
+        if (prevBtn) {
+          prevBtn.addEventListener('click', function() {
+            if (currentPage > 1) {
+              currentPage--;
+              renderBrowseGrid();
+              document.getElementById('browsePuppiesGrid').scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        }
+
+        const nextBtn = document.getElementById('nextPageBtn');
+        if (nextBtn) {
+          nextBtn.addEventListener('click', function() {
+            if (currentPage < totalPages) {
+              currentPage++;
+              renderBrowseGrid();
+              document.getElementById('browsePuppiesGrid').scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        }
+      }
+
       // Filter Engine
       function renderBrowseGrid() {
         const query = searchInput.value.toLowerCase().trim();
@@ -328,14 +428,21 @@
 
         resultsCount.textContent = filtered.length;
 
+        const totalPages = Math.ceil(filtered.length / itemsPerPage) || 1;
+        if (currentPage > totalPages) currentPage = 1;
+
         if (filtered.length === 0) {
           grid.style.display = 'none';
           noResults.style.display = 'block';
+          renderPagination(0);
         } else {
           grid.style.display = 'grid';
           noResults.style.display = 'none';
 
-          grid.innerHTML = filtered.map(p => `
+          const startIndex = (currentPage - 1) * itemsPerPage;
+          const pageFiltered = filtered.slice(startIndex, startIndex + itemsPerPage);
+
+          grid.innerHTML = pageFiltered.map(p => `
             <a href="puppy-details.html?id=${p.id}" class="available-puppy-card" style="text-decoration: none; color: inherit; display: block; cursor: pointer;">
               <div class="available-puppy-media">
                 <img src="${p.image}" alt="${p.name}" class="available-puppy-img" loading="lazy" />
@@ -355,18 +462,21 @@
               </div>
             </a>
           `).join('');
+
+          renderPagination(totalPages);
         }
       }
 
       // Event Listeners
-      searchInput.addEventListener('input', renderBrowseGrid);
-      sortSelect.addEventListener('change', renderBrowseGrid);
+      searchInput.addEventListener('input', () => { currentPage = 1; renderBrowseGrid(); });
+      sortSelect.addEventListener('change', () => { currentPage = 1; renderBrowseGrid(); });
 
       genderPills.forEach(pill => {
         pill.addEventListener('click', function() {
           genderPills.forEach(p => p.classList.remove('active'));
           this.classList.add('active');
           currentGender = this.getAttribute('data-gender');
+          currentPage = 1;
           renderBrowseGrid();
         });
       });
@@ -377,6 +487,7 @@
         customBreedLabel.textContent = 'All Breeds (83)';
         sortSelect.value = 'recommended';
         currentGender = 'all';
+        currentPage = 1;
         genderPills.forEach(p => p.classList.remove('active'));
         genderPills[0].classList.add('active');
         renderBreedOptions();
