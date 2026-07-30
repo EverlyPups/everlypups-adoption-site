@@ -1085,13 +1085,13 @@ var SITE_DATA = {
         "breed": "Beagle",
         "breedGroup": "Hound",
         "gender": "Male",
-        "age": "6 weeks",
-        "birthday": "May 20, 2026",
-        "color": "Red & White Hound",
+        "age": "11 weeks",
+        "birthday": "May 18, 2026",
+        "color": "Black, Tan & White",
         "status": "Ready to go home",
-        "weight": "3.9 lbs",
-        "estAdultWeight": "18 - 28 lbs",
-        "price": 2950,
+        "weight": "4.4 lbs",
+        "estAdultWeight": "18 - 30 lbs",
+        "price": 3092,
         "hypoallergenic": false,
         "image": "https://photos.puppyspot.com/6/listing/824676/photo/505042785_medium.jpg",
         "gallery": [
@@ -1105,7 +1105,7 @@ var SITE_DATA = {
         "momBreed": "Beagle (20 lbs)",
         "dadBreed": "Beagle (24 lbs)",
         "microchip": "98514100824676",
-        "description": "Meet Rusty! Rusty is an adorable Male Beagle puppy with warm chestnut and white coat tones and a happy tail that never stops wagging. He has a playful spirit, loves meeting new friends, and is wonderfully gentle with children. Complete with a 10-Year Health Commitment, microchip, and full vet certification."
+        "description": "Meet Rusty! Rusty is an exceptionally handsome Male Beagle puppy with a rich Black, Tan & White coat, soft expressive eyes, and classic velvety floppy ears. Born from champion bloodlines and raised with care by a USDA Licensed Star Breeder, Rusty is energetic, play-loving, and adores outdoor exploring as well as cozy lap cuddles. He is 100% vet-checked, microchipped, up-to-date on vaccinations, and backed by our signature 10-Year Health Guarantee!"
     },
     {
         "id": 824599,
