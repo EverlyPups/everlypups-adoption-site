@@ -1064,14 +1064,15 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "4.2 lbs",
         "estAdultWeight": "20 - 30 lbs",
-        "price": 2450,
+        "price": 1500,
         "hypoallergenic": false,
-        "image": "https://photos.puppyspot.com/5/listing/816975/photo/504972804_medium.jpg",
+        "image": "images/puppies/barnaby/barnaby-2.png",
         "gallery": [
-            "https://photos.puppyspot.com/5/listing/816975/photo/504972804_medium.jpg",
-            "https://photos.puppyspot.com/5/listing/816975/photo/504972807_medium.jpg",
-            "https://photos.puppyspot.com/5/listing/816975/photo/504972806_medium.jpg",
-            "https://photos.puppyspot.com/5/listing/816975/photo/504972805_medium.jpg"
+            "images/puppies/barnaby/barnaby-2.png",
+            "images/puppies/barnaby/barnaby-4.png",
+            "images/puppies/barnaby/barnaby-5.png",
+            "images/puppies/barnaby/barnaby-3.png",
+            "images/puppies/barnaby/barnaby-1.png"
         ],
         "location": "Columbus, OH",
         "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
