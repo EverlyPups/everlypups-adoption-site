@@ -1001,25 +1001,27 @@ var SITE_DATA = {
         "breed": "Beagle",
         "breedGroup": "Hound",
         "gender": "Male",
-        "age": "8 weeks",
-        "birthday": "May 2026",
-        "color": "Tri-Color Classic",
+        "age": "11 weeks",
+        "birthday": "May 18, 2026",
+        "color": "Black, Tan & White",
         "status": "Ready to go home",
-        "weight": "3.5 lbs",
+        "weight": "4.5 lbs",
         "estAdultWeight": "18 - 30 lbs",
-        "price": 1650,
+        "price": 3092,
         "hypoallergenic": false,
         "image": "https://photos.puppyspot.com/7/listing/824677/photo/505042776_medium.jpg",
         "gallery": [
             "https://photos.puppyspot.com/7/listing/824677/photo/505042776_medium.jpg",
-            "https://photos.puppyspot.com/7/listing/824677/photo/505042776_large.jpg"
+            "https://photos.puppyspot.com/7/listing/824677/photo/505042783_medium.jpg",
+            "https://photos.puppyspot.com/7/listing/824677/photo/505042780_medium.jpg",
+            "https://photos.puppyspot.com/7/listing/824677/photo/505042781_medium.jpg"
         ],
         "location": "Columbus, OH",
-        "breeder": "USDA Certified Star Breeder (10+ Yrs Experience)",
+        "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
         "momBreed": "Beagle (20 lbs)",
         "dadBreed": "Beagle (24 lbs)",
         "microchip": "98514100824677",
-        "description": "Meet Scout! A sweet, curious Beagle puppy with iconic floppy ears, soft brown eyes, and an affectionate personality. Scout loves trailing scent paths, playing fetch in the garden, and snuggling up after playtime. Fully vet-checked, microchipped, and up-to-date on vaccinations."
+        "description": "Meet Scout! Scout is an exceptionally handsome Male Beagle puppy with a rich Black, Tan & White coat, soft soulful eyes, and iconic velvety floppy ears. Raised with love and utmost care by a USDA Licensed Star Breeder with champion bloodlines, Scout is energetic, curious, and loves nose-to-ground exploring as well as cozy lap cuddles. He comes 100% vet-checked, microchipped, fully vaccinated, and backed by our signature 10-Year Health Guarantee!"
     },
     {
         "id": 824597,
