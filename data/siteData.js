@@ -86,6 +86,61 @@ var SITE_DATA = {
 
   puppies: [
     {
+        "id": 823560,
+        "name": "Journey",
+        "breed": "Akita",
+        "breedGroup": "Working",
+        "gender": "Female",
+        "age": "11 weeks",
+        "birthday": "May 5, 2026",
+        "color": "Red & White",
+        "status": "Ready to go home",
+        "weight": "14.5 lbs",
+        "estAdultWeight": "70 - 100 lbs",
+        "price": 3848,
+        "hypoallergenic": false,
+        "image": "images/puppies/akita/journey-1.jpg",
+        "gallery": [
+            "images/puppies/akita/journey-1.jpg",
+            "images/puppies/akita/journey-2.jpg",
+            "images/puppies/akita/journey-3.jpg",
+            "images/puppies/akita/journey-4.jpg",
+            "images/puppies/akita/journey-5.jpg"
+        ],
+        "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
+        "momBreed": "Akita (75 lbs)",
+        "dadBreed": "Akita (95 lbs)",
+        "microchip": "98514100823560",
+        "description": "Meet Journey! Journey is a majestic, courageous Female Akita puppy with a plush coat and noble presence. Bred from a distinguished Champion Bloodline, she is incredibly loyal, calm, and affectionate with her family. Journey comes 100% health checked by a licensed veterinarian, microchipped, and up-to-date on all vaccinations."
+    },
+    {
+        "id": 823559,
+        "name": "Jaron",
+        "breed": "Akita",
+        "breedGroup": "Working",
+        "gender": "Female",
+        "age": "11 weeks",
+        "birthday": "May 5, 2026",
+        "color": "Pinto & White",
+        "status": "Ready to go home",
+        "weight": "15.0 lbs",
+        "estAdultWeight": "70 - 100 lbs",
+        "price": 3848,
+        "hypoallergenic": false,
+        "image": "images/puppies/akita/jaron-1.jpg",
+        "gallery": [
+            "images/puppies/akita/jaron-1.jpg",
+            "images/puppies/akita/jaron-2.jpg",
+            "images/puppies/akita/jaron-3.jpg",
+            "images/puppies/akita/jaron-4.jpg"
+        ],
+        "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
+        "momBreed": "Akita (75 lbs)",
+        "dadBreed": "Akita (95 lbs)",
+        "microchip": "98514100823559",
+        "description": "Meet Jaron! Jaron is a stunning, intelligent Female Akita puppy who combines gentle grace with protective loyalty. With her expressive dark eyes and fluffy coat, Jaron loves family play and quiet companionship. She comes 100% health checked by a licensed veterinarian, microchipped, and up-to-date on all vaccinations."
+    },
+    {
         "id": 817786,
         "name": "Ian",
         "breed": "Havamalt",
@@ -1196,48 +1251,59 @@ var SITE_DATA = {
 ],
 
   breeds: [
-    { name: "Goldendoodle", group: "Hybrid" },
-    { name: "Bernedoodle", group: "Hybrid" },
-    { name: "Cavapoo", group: "Hybrid" },
-    { name: "Golden Retriever", group: "Sporting" },
-    { name: "Maltipoo", group: "Hybrid" },
-    { name: "Poodle", group: "Non-Sporting" },
-    { name: "Dachshund", group: "Hound" },
-    { name: "Cavalier King Charles Spaniel", group: "Companion" },
-    { name: "Labrador Retriever", group: "Sporting" },
-    { name: "French Bulldog", group: "Companion" },
-    { name: "German Shepherd", group: "Herding" },
-    { name: "Yorkshire Terrier", group: "Toy" }
-  ],
-
-  faqs: [
     {
-      question: "How does PawHaven vet breeders?",
-      answer: "Every breeder in our network undergoes rigorous background checks, facility evaluations, and unannounced USDA compliance audits."
+        "name": "Goldendoodle",
+        "group": "Hybrid"
     },
     {
-      question: "What is included with the 10-Year Health Guarantee?",
-      answer: "Our 10-Year Health Guarantee covers congenital and hereditary conditions to give your family long-term peace of mind."
+        "name": "Bernedoodle",
+        "group": "Hybrid"
     },
     {
-      question: "How does flight chaperone travel work?",
-      answer: "A dedicated puppy chaperone accompanies your puppy in-cabin during travel directly to your nearest major airport."
+        "name": "Cavapoo",
+        "group": "Hybrid"
     },
     {
-      question: "Are there local puppy sales near me?",
-      answer: "Yes, we offer nationwide delivery, so no matter where you are, you can get a puppy from Premier Pups."
+        "name": "Golden Retriever",
+        "group": "Sporting"
     },
     {
-      question: "What should I expect when ordering a puppy from our nationwide \"puppy sales near me\" service?",
-      answer: "Expect a simple ordering process, timely nationwide delivery, and the peace of mind of a 10-year health guarantee on your new puppy."
+        "name": "Maltipoo",
+        "group": "Hybrid"
     },
     {
-      question: "What steps do we take to ensure the health and well-being of our puppies?",
-      answer: "We work closely with dedicated, professional dog breeders who utilize premium quality health screening practices. Each puppy is guaranteed a 10-year health plan that underscores our commitment to their longevity."
+        "name": "Poodle",
+        "group": "Non-Sporting"
     },
     {
-      question: "What type of veterinary care do the puppies receive before sale?",
-      answer: "Prior to sale, our puppies receive comprehensive veterinary care including vaccinations, de-worming, and thorough nose-to-tail health checks to ensure they are in perfect health when they arrive at their new homes."
+        "name": "Dachshund",
+        "group": "Hound"
+    },
+    {
+        "name": "Cavalier King Charles Spaniel",
+        "group": "Companion"
+    },
+    {
+        "name": "Labrador Retriever",
+        "group": "Sporting"
+    },
+    {
+        "name": "French Bulldog",
+        "group": "Companion"
+    },
+    {
+        "name": "German Shepherd",
+        "group": "Herding"
+    },
+    {
+        "name": "Yorkshire Terrier",
+        "group": "Toy"
+    },
+    {
+        "name": "Akita",
+        "group": "Working",
+        "image": "images/puppies/akita/journey-1.jpg",
+        "popular": true
     }
-  ]
+]
 };
