@@ -251,7 +251,7 @@
   </a>
 
   <!-- Scripts -->
-  <script src="data/siteData.js?v=16"></script>
+  <script src="data/siteData.js?v=17"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const puppies = SITE_DATA.puppies || [];
@@ -502,7 +502,7 @@
               <div class="available-puppy-media">
                 <img src="${p.image}" alt="${p.name}" class="available-puppy-img" loading="lazy" />
                 <span class="puppy-fav-badge"><i class="fa-regular fa-heart"></i></span>
-                <div class="puppy-video-badge"><i class="fa-solid fa-video"></i></div>
+                ${(p.hasVideo || p.videoUrl) ? `<div class="puppy-video-badge" title="Live Video Available"><i class="fa-solid fa-video"></i></div>` : ''}
               </div>
 
               <div class="available-puppy-info">

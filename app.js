@@ -216,9 +216,11 @@ document.addEventListener('DOMContentLoaded', () => {
               <i class="fa-${isFav ? 'solid' : 'regular'} fa-heart"></i>
             </button>
 
-            <div class="puppy-video-badge" title="Live Video Available">
-              <i class="fa-solid fa-video"></i>
-            </div>
+            ${(p.hasVideo || p.videoUrl) ? `
+              <div class="puppy-video-badge" title="Live Video Available">
+                <i class="fa-solid fa-video"></i>
+              </div>
+            ` : ''}
           </div>
 
           <div class="available-puppy-info">

@@ -109,7 +109,8 @@ var SITE_DATA = {
         "momBreed": "Havamalt (Mom)",
         "dadBreed": "Havamalt (Dad)",
         "microchip": "98514100817786",
-        "description": "Meet Ian! A sweet, playful Havamalt puppy looking for a loving forever family. Ian is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
+        "description": "Meet Ian! A sweet, playful Havamalt puppy looking for a loving forever family. Ian is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations.",
+        "hasVideo": true
     },
     {
         "id": 822590,
@@ -1021,7 +1022,8 @@ var SITE_DATA = {
         "momBreed": "Beagle (20 lbs)",
         "dadBreed": "Beagle (24 lbs)",
         "microchip": "98514100824677",
-        "description": "Meet Scout! Scout is an exceptionally handsome Male Beagle puppy with a rich Black, Tan & White coat, soft soulful eyes, and iconic velvety floppy ears. Raised with love and utmost care by a USDA Licensed Star Breeder with champion bloodlines, Scout is energetic, curious, and loves nose-to-ground exploring as well as cozy lap cuddles. He comes 100% vet-checked, microchipped, fully vaccinated, and backed by our signature 10-Year Health Guarantee!"
+        "description": "Meet Scout! Scout is an exceptionally handsome Male Beagle puppy with a rich Black, Tan & White coat, soft soulful eyes, and iconic velvety floppy ears. Raised with love and utmost care by a USDA Licensed Star Breeder with champion bloodlines, Scout is energetic, curious, and loves nose-to-ground exploring as well as cozy lap cuddles. He comes 100% vet-checked, microchipped, fully vaccinated, and backed by our signature 10-Year Health Guarantee!",
+        "hasVideo": true
     },
     {
         "id": 824597,
@@ -1049,7 +1051,8 @@ var SITE_DATA = {
         "momBreed": "Beagle (20 lbs)",
         "dadBreed": "Beagle (24 lbs)",
         "microchip": "98514100824597",
-        "description": "Meet Finn! Finn is a charming, playful Male Beagle puppy with striking tri-color markings, deep brown expressive eyes, and soft velvety ears. Raised in a loving home environment by a licensed USDA Star Breeder, Finn is energetic, sweet-natured, and loves cuddles after a fun game of chase. Vet-checked, microchipped, fully vaccinated, and backed by a 10-Year Health Guarantee!"
+        "description": "Meet Finn! Finn is a charming, playful Male Beagle puppy with striking tri-color markings, deep brown expressive eyes, and soft velvety ears. Raised in a loving home environment by a licensed USDA Star Breeder, Finn is energetic, sweet-natured, and loves cuddles after a fun game of chase. Vet-checked, microchipped, fully vaccinated, and backed by a 10-Year Health Guarantee!",
+        "hasVideo": true
     },
     {
         "id": 816975,
