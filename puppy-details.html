@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Editorial Design System Styles -->
-  <link rel="stylesheet" href="styles.css?v=25" />
+  <link rel="stylesheet" href="styles.css?v=19" />
 </head>
 <body class="puppy-detail-page-body">
 
@@ -64,9 +64,9 @@
       <div class="puppy-detail-grid">
         
         <!-- LEFT COLUMN: Image Gallery Carousel -->
-        <div class="puppy-gallery-col">
-          <div class="main-image-frame">
-            <img id="mainPuppyImage" src="" alt="Puppy Photo" class="main-puppy-img" />
+        <div class="puppy-gallery-col" style="width: 485px; max-width: 100%;">
+          <div class="main-image-frame" style="width: 485px; height: 485px; max-width: 100%; aspect-ratio: 1/1;">
+            <img id="mainPuppyImage" src="" alt="Puppy Photo" class="main-puppy-img" style="width: 485px; height: 485px; max-width: 100%; object-fit: cover;" />
             <div id="puppyStatusBadge" class="gallery-status-badge">Ready to go home</div>
             <div class="gallery-social-proof">
               <i class="fa-solid fa-fire text-amber"></i> <span id="viewingCount">4 families are viewing</span>
@@ -276,7 +276,7 @@
   </a>
 
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=18"></script>
+  <script src="data/siteData.js?v=19"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
