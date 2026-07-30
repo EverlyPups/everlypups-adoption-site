@@ -3284,28 +3284,59 @@ img, video {
 }
 
 .detail-qa-strip {
-  display: flex !important;
-  justify-content: space-between !important;
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 0.8rem !important;
   background: #FFFFFF !important;
-  padding: 1.2rem 1.5rem !important;
-  border-radius: 20px !important;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04) !important;
-  border: 1px solid rgba(0, 0, 0, 0.05) !important;
-  margin-top: 0.5rem !important;
+  padding: 1.1rem 1.2rem !important;
+  border-radius: 22px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05) !important;
+  border: 1px solid rgba(0, 0, 0, 0.06) !important;
+  margin-top: 0.8rem !important;
+  width: 485px !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 .qa-item {
   display: flex !important;
+  flex-direction: column !important;
   align-items: center !important;
-  gap: 0.6rem !important;
-  font-size: 0.84rem !important;
-  font-weight: 800 !important;
-  color: #012B3A !important;
+  text-align: center !important;
+  gap: 0.45rem !important;
+  padding: 0.75rem 0.4rem !important;
+  background: #F8FAFC !important;
+  border-radius: 16px !important;
+  border: 1px solid rgba(0, 0, 0, 0.03) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease !important;
 }
 
-.qa-item i {
+.qa-item:hover {
+  transform: translateY(-2px) !important;
+  background: #FFFFFF !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06) !important;
+}
+
+.qa-item-icon-bubble {
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 50% !important;
+  background: rgba(0, 182, 122, 0.12) !important;
   color: #00B67A !important;
-  font-size: 1.1rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.05rem !important;
+  flex-shrink: 0 !important;
+}
+
+.qa-item span {
+  font-size: 0.76rem !important;
+  font-weight: 800 !important;
+  color: #012B3A !important;
+  line-height: 1.25 !important;
+  white-space: normal !important;
+  text-align: center !important;
 }
 
 /* Info Column */

@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Editorial Design System Styles -->
-  <link rel="stylesheet" href="styles.css?v=19" />
+  <link rel="stylesheet" href="styles.css?v=23" />
 </head>
 <body class="puppy-detail-page-body">
 
@@ -81,16 +81,16 @@
           <!-- Quality Assurance Highlights -->
           <div class="detail-qa-strip">
             <div class="qa-item">
-              <i class="fa-solid fa-shield-halved"></i>
+              <div class="qa-item-icon-bubble"><i class="fa-solid fa-shield-halved"></i></div>
               <span>10-Yr Health Commitment</span>
             </div>
             <div class="qa-item">
-              <i class="fa-solid fa-microchip"></i>
-              <span>Microchipped</span>
+              <div class="qa-item-icon-bubble"><i class="fa-solid fa-microchip"></i></div>
+              <span>Microchipped Safety</span>
             </div>
             <div class="qa-item">
-              <i class="fa-solid fa-plane-arrival"></i>
-              <span>Flight Chaperone Travel</span>
+              <div class="qa-item-icon-bubble"><i class="fa-solid fa-plane-arrival"></i></div>
+              <span>Flight Chaperone</span>
             </div>
           </div>
         </div>
@@ -276,7 +276,7 @@
   </a>
 
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=22"></script>
+  <script src="data/siteData.js?v=23"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -329,7 +329,7 @@
         // Overview Text
         document.getElementById('puppyBreedTag').textContent = puppy.breed + (puppy.variety ? ' • ' + puppy.variety : '');
         document.getElementById('puppyName').textContent = puppy.name;
-        document.getElementById('puppySubtext').textContent = puppy.gender + ' • ' + puppy.age + ' • ' + puppy.location;
+        document.getElementById('puppySubtext').textContent = puppy.gender + ' • ' + puppy.age;
 
         // Price & Reserve CTA
         document.getElementById('puppyPrice').textContent = '$' + puppy.price.toLocaleString();
@@ -377,7 +377,6 @@
                 <div class="puppy-card-meta">
                   <span><i class="fa-solid fa-venus-mars"></i> ${p.gender}</span>
                   <span><i class="fa-solid fa-cake-candles"></i> ${p.age}</span>
-                  <span><i class="fa-solid fa-location-dot"></i> ${p.location}</span>
                 </div>
                 <a href="puppy-details.html?id=${p.id}" class="btn-card-reserve">
                   View ${p.name}'s Details <i class="fa-solid fa-arrow-right"></i>
