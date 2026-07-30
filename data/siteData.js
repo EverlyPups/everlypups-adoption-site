@@ -1066,13 +1066,13 @@ var SITE_DATA = {
         "estAdultWeight": "20 - 30 lbs",
         "price": 1500,
         "hypoallergenic": false,
-        "image": "images/puppies/barnaby/barnaby-hq-1.png",
+        "image": "images/puppies/barnaby/barnaby-real-1.jpg",
         "gallery": [
-            "images/puppies/barnaby/barnaby-hq-1.png",
-            "images/puppies/barnaby/barnaby-hq-2.png",
-            "images/puppies/barnaby/barnaby-hq-3.png",
-            "images/puppies/barnaby/barnaby-hq-4.png",
-            "images/puppies/barnaby/barnaby-hq-5.png"
+            "images/puppies/barnaby/barnaby-real-1.jpg",
+            "images/puppies/barnaby/barnaby-real-2.jpg",
+            "images/puppies/barnaby/barnaby-real-3.jpg",
+            "images/puppies/barnaby/barnaby-real-4.jpg",
+            "images/puppies/barnaby/barnaby-real-5.jpg"
         ],
         "location": "Columbus, OH",
         "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
