@@ -1056,7 +1056,7 @@ var SITE_DATA = {
         "name": "Barnaby",
         "breed": "Beagle",
         "breedGroup": "Hound",
-        "gender": "Male",
+        "gender": "Female",
         "age": "10 weeks",
         "birthday": "May 12, 2026",
         "color": "Black, Tan & White",
@@ -1077,7 +1077,7 @@ var SITE_DATA = {
         "momBreed": "Beagle (20 lbs)",
         "dadBreed": "Beagle (24 lbs)",
         "microchip": "98514100816975",
-        "description": "Meet Barnaby! Barnaby is a gentle, affectionate Male Beagle puppy who brings joy wherever he goes. With his traditional hound markings and curious nose, Barnaby loves outdoor exploring and snuggling close during naptime. He comes 100% health checked by a licensed veterinarian, microchipped, and up-to-date on all shots."
+        "description": "Meet Barnaby! Barnaby is a gentle, affectionate Female Beagle puppy who brings joy wherever he goes. With his traditional hound markings and curious nose, Barnaby loves outdoor exploring and snuggling close during naptime. He comes 100% health checked by a licensed veterinarian, microchipped, and up-to-date on all shots."
     },
     {
         "id": 824676,
@@ -1168,7 +1168,7 @@ var SITE_DATA = {
         "name": "Dolly",
         "breed": "Beagle",
         "breedGroup": "Hound",
-        "gender": "Male",
+        "gender": "Female",
         "age": "8 weeks",
         "birthday": "May 16, 2026",
         "color": "Black, Tan & White",
@@ -1189,7 +1189,7 @@ var SITE_DATA = {
         "momBreed": "Beagle (20 lbs)",
         "dadBreed": "Beagle (24 lbs)",
         "microchip": "98514100824598",
-        "description": "Meet Dolly! Dolly is a cheerful Male Beagle puppy with vibrant tri-color markings and soft floppy ears. He is adventurous, friendly, and always eager to learn new tricks. Dolly is 100% vet-examined, microchipped, up-to-date on vaccinations, and comes with a 10-Year Health Commitment."
+        "description": "Meet Dolly! Dolly is a cheerful Female Beagle puppy with vibrant tri-color markings and soft floppy ears. He is adventurous, friendly, and always eager to learn new tricks. Dolly is 100% vet-examined, microchipped, up-to-date on vaccinations, and comes with a 10-Year Health Commitment."
     }
 ],
 
