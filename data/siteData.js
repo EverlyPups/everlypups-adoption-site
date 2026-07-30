@@ -97,7 +97,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "14.5 lbs",
         "estAdultWeight": "70 - 100 lbs",
-        "price": 3848,
+        "price": 1800,
         "hypoallergenic": false,
         "image": "images/puppies/akita/journey-1.jpg",
         "gallery": [
@@ -125,7 +125,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "15.0 lbs",
         "estAdultWeight": "70 - 100 lbs",
-        "price": 3848,
+        "price": 1800,
         "hypoallergenic": false,
         "image": "images/puppies/akita/jaron-1.jpg",
         "gallery": [
