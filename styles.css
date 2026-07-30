@@ -3604,66 +3604,51 @@ img, video {
   }
 }
 /* ==========================================================================
-   28. Pagination Bar Styling (Matching User Design Spec)
+   28. Pagination Bar Styling (Exact Match to User Design Screenshot)
    ========================================================================== */
 .pagination-btn {
-  width: 44px !important;
-  height: 44px !important;
+  width: 42px !important;
+  height: 42px !important;
   border-radius: 50% !important;
   background: #F4F4F4 !important;
-  border: 2px solid transparent !important;
-  color: #333333 !important;
-  font-family: 'Nunito', sans-serif !important;
+  border: 1.8px solid transparent !important;
+  color: #2D3748 !important;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif !important;
   font-size: 0.95rem !important;
   font-weight: 700 !important;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
   cursor: pointer !important;
-  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1) !important;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
-  position: relative !important;
-}
-
-/* Hover Effect for Inactive Buttons */
-.pagination-btn:hover:not(:disabled):not(.active) {
-  background: #E8ECE9 !important;
-  color: #00B67A !important;
-  border-color: #00B67A !important;
-  transform: translateY(-2px) !important;
-  box-shadow: 0 6px 16px rgba(0, 182, 122, 0.16) !important;
-}
-
-/* Currently Open / Active Page Style - Distinct Black Circle Ring + Dot Indicator */
-.pagination-btn.active {
-  background: #FFFFFF !important;
-  border: 2.5px solid #000000 !important;
-  color: #000000 !important;
-  font-weight: 900 !important;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.14) !important;
-  transform: scale(1.08) !important;
-}
-
-.pagination-btn.active::after {
-  content: "" !important;
-  position: absolute !important;
-  bottom: -6px !important;
-  width: 6px !important;
-  height: 6px !important;
-  background: #00B67A !important;
-  border-radius: 50% !important;
-}
-
-.pagination-btn:disabled {
-  opacity: 0.3 !important;
-  cursor: not-allowed !important;
-  transform: none !important;
+  transition: all 0.15s ease !important;
+  outline: none !important;
   box-shadow: none !important;
 }
 
+.pagination-btn:hover:not(:disabled):not(.active) {
+  background: #E2E8F0 !important;
+  color: #1A202C !important;
+}
+
+/* Active Page: Thin dark circle ring around the gray circle button */
+.pagination-btn.active {
+  background: #F4F4F4 !important;
+  border: 1.8px solid #2D3748 !important;
+  color: #1A202C !important;
+  font-weight: 800 !important;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+  background: #F8F8F8 !important;
+  color: #A0AEC0 !important;
+}
+
 .pagination-ellipsis {
-  color: #666666 !important;
+  color: #2D3748 !important;
   font-size: 1.1rem !important;
-  font-weight: 700 !important;
-  padding: 0 0.25rem !important;
+  font-weight: 800 !important;
+  padding: 0 0.35rem !important;
+  user-select: none !important;
 }
