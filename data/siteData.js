@@ -1190,32 +1190,6 @@ var SITE_DATA = {
         "dadBreed": "Beagle (24 lbs)",
         "microchip": "98514100824598",
         "description": "Meet Dolly! Dolly is a cheerful Male Beagle puppy with vibrant tri-color markings and soft floppy ears. He is adventurous, friendly, and always eager to learn new tricks. Dolly is 100% vet-examined, microchipped, up-to-date on vaccinations, and comes with a 10-Year Health Commitment."
-    },
-    {
-        "id": 815157,
-        "name": "Otis",
-        "breed": "Beagle",
-        "breedGroup": "Hound",
-        "gender": "Female",
-        "age": "10 weeks",
-        "birthday": "May 2026",
-        "color": "Lemon & White",
-        "status": "Ready to go home",
-        "weight": "5.6 lbs",
-        "estAdultWeight": "18 - 30 lbs",
-        "price": 2000,
-        "hypoallergenic": false,
-        "image": "https://photos.puppyspot.com/7/listing/815157/photo/505010766_thumbnail.JPG",
-        "gallery": [
-            "https://photos.puppyspot.com/7/listing/815157/photo/505010766_thumbnail.JPG",
-            "https://photos.puppyspot.com/7/listing/815157/photo/505010766_thumbnail.JPG"
-        ],
-        "location": "Columbus, OH",
-        "breeder": "USDA Certified Star Breeder (10+ Yrs Experience)",
-        "momBreed": "Beagle (20 lbs)",
-        "dadBreed": "Beagle (24 lbs)",
-        "microchip": "98514100815157",
-        "description": "Meet Otis! A sweet, curious Beagle puppy with iconic floppy ears, soft brown eyes, and an affectionate personality. Otis loves trailing scent paths, playing fetch in the garden, and snuggling up after playtime. Fully vet-checked, microchipped, and up-to-date on vaccinations."
     }
 ],
 
