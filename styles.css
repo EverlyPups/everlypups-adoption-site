@@ -3611,7 +3611,7 @@ img, video {
   height: 44px !important;
   border-radius: 50% !important;
   background: #F4F4F4 !important;
-  border: 1.5px solid transparent !important;
+  border: 2px solid transparent !important;
   color: #333333 !important;
   font-family: 'Nunito', sans-serif !important;
   font-size: 0.95rem !important;
@@ -3620,24 +3620,45 @@ img, video {
   align-items: center !important;
   justify-content: center !important;
   cursor: pointer !important;
-  transition: all 0.2s ease !important;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
+  position: relative !important;
 }
 
+/* Hover Effect for Inactive Buttons */
 .pagination-btn:hover:not(:disabled):not(.active) {
-  background: #EAEAEA !important;
-  color: #000000 !important;
+  background: #E8ECE9 !important;
+  color: #00B67A !important;
+  border-color: #00B67A !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(0, 182, 122, 0.16) !important;
 }
 
+/* Currently Open / Active Page Style - Distinct Black Circle Ring + Dot Indicator */
 .pagination-btn.active {
   background: #FFFFFF !important;
-  border: 2px solid #222222 !important;
-  color: #222222 !important;
-  font-weight: 800 !important;
+  border: 2.5px solid #000000 !important;
+  color: #000000 !important;
+  font-weight: 900 !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.14) !important;
+  transform: scale(1.08) !important;
+}
+
+.pagination-btn.active::after {
+  content: "" !important;
+  position: absolute !important;
+  bottom: -6px !important;
+  width: 6px !important;
+  height: 6px !important;
+  background: #00B67A !important;
+  border-radius: 50% !important;
 }
 
 .pagination-btn:disabled {
-  opacity: 0.35 !important;
+  opacity: 0.3 !important;
   cursor: not-allowed !important;
+  transform: none !important;
+  box-shadow: none !important;
 }
 
 .pagination-ellipsis {
