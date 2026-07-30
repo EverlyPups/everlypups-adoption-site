@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const isFav = state.favorites.includes(p.id);
 
       return `
-        <a href="puppy-details.html?id=${p.id}" class="available-puppy-card" style="text-decoration: none; color: inherit; display: block; cursor: pointer;">
+        <a href="puppy-details.html?id=${p.id}&breed=${encodeURIComponent(p.breed)}" class="available-puppy-card" style="text-decoration: none; color: inherit; display: block; cursor: pointer;">
           <div class="available-puppy-media">
             <img src="${p.image}" alt="${p.name}" class="available-puppy-img" loading="lazy" />
             

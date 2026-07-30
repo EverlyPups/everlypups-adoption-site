@@ -49,8 +49,8 @@
       
       <!-- Back Navigation & Breadcrumb -->
       <div class="detail-breadcrumb">
-        <a href="index.html#catalog-section" class="back-link">
-          <i class="fa-solid fa-arrow-left"></i> Back to Available Puppies
+        <a href="browse-all-puppies.html" class="back-link" id="detailBackLink">
+          <i class="fa-solid fa-arrow-left"></i> <span id="backLinkText">Back to Available Puppies</span>
         </a>
         <span class="bc-sep">/</span>
         <span id="bcBreed">Puppy</span>
@@ -276,7 +276,7 @@
   </a>
 
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=13"></script>
+  <script src="data/siteData.js?v=14"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -285,6 +285,20 @@
       const puppy = SITE_DATA.puppies.find(p => p.id === puppyId) || SITE_DATA.puppies[0];
 
       if (puppy) {
+        // Dynamic Back Link to Breed Page
+        const targetBreed = urlParams.get('breed') || puppy.breed;
+        const backLinkEl = document.getElementById('detailBackLink');
+        const backLinkTextEl = document.getElementById('backLinkText');
+
+        if (targetBreed) {
+          if (backLinkEl) {
+            backLinkEl.href = `browse-all-puppies.html?breed=${encodeURIComponent(targetBreed)}`;
+          }
+          if (backLinkTextEl) {
+            backLinkTextEl.textContent = `Back to ${targetBreed} Puppies`;
+          }
+        }
+
         // Page Title & Header
         document.getElementById('pageTitle').textContent = puppy.name + ' - ' + puppy.breed + ' | PawHaven';
         document.getElementById('bcBreed').textContent = puppy.breed;
