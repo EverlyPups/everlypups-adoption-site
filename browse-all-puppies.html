@@ -14,7 +14,62 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Design System Styles -->
-  <link rel="stylesheet" href="styles.css?v=27" />
+  <link rel="stylesheet" href="styles.css?v=28" />
+
+  <style>
+    /* Explicit Pagination Button Styles */
+    .pagination-btn {
+      width: 42px !important;
+      height: 42px !important;
+      min-width: 42px !important;
+      min-height: 42px !important;
+      border-radius: 50% !important;
+      background: #F4F4F4 !important;
+      border: 1.8px solid transparent !important;
+      color: #2D3748 !important;
+      font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif !important;
+      font-size: 0.95rem !important;
+      font-weight: 700 !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      cursor: pointer !important;
+      transition: all 0.15s ease !important;
+      outline: none !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      line-height: 1 !important;
+    }
+
+    .pagination-btn:hover:not(:disabled):not(.active) {
+      background: #E2E8F0 !important;
+      color: #1A202C !important;
+    }
+
+    /* Active Page: Thin dark circle ring around the gray circle button */
+    .pagination-btn.active {
+      background: #F4F4F4 !important;
+      border: 1.8px solid #2D3748 !important;
+      color: #1A202C !important;
+      font-weight: 800 !important;
+    }
+
+    .pagination-btn:disabled {
+      opacity: 0.4 !important;
+      cursor: not-allowed !important;
+      background: #F8F8F8 !important;
+      color: #A0AEC0 !important;
+    }
+
+    .pagination-ellipsis {
+      color: #2D3748 !important;
+      font-size: 1.1rem !important;
+      font-weight: 800 !important;
+      padding: 0 0.35rem !important;
+      user-select: none !important;
+    }
+  </style>
 </head>
 <body class="browse-page-body" style="background-color: #FAF9F6; font-family: 'Nunito', sans-serif; margin:0;">
 
@@ -331,7 +386,7 @@
 
         // Previous button
         html += `
-          <button class="pagination-btn" id="prevPageBtn" ${currentPage === 1 ? 'disabled' : ''} aria-label="Previous Page">
+          <button class="pagination-btn" id="prevPageBtn" ${currentPage === 1 ? 'disabled' : ''} aria-label="Previous Page" style="width:42px; height:42px; border-radius:50%; background:#F4F4F4; border:1.8px solid transparent; color:#2D3748; font-family:'Nunito', sans-serif; font-size:0.95rem; font-weight:700; display:inline-flex; align-items:center; justify-content:center; cursor:pointer;">
             <i class="fa-solid fa-arrow-left"></i>
           </button>
         `;
@@ -352,11 +407,11 @@
 
         pagesToShow.forEach(p => {
           if (p === '...') {
-            html += `<span class="pagination-ellipsis">...</span>`;
+            html += `<span class="pagination-ellipsis" style="color:#2D3748; font-size:1.1rem; font-weight:800; padding:0 0.35rem;">...</span>`;
           } else {
             const isActive = p === currentPage;
             html += `
-              <button class="pagination-btn ${isActive ? 'active' : ''}" data-page="${p}">
+              <button class="pagination-btn ${isActive ? 'active' : ''}" data-page="${p}" style="width:42px; height:42px; border-radius:50%; background:#F4F4F4; border:${isActive ? '1.8px solid #2D3748' : '1.8px solid transparent'}; color:#1A202C; font-family:'Nunito', sans-serif; font-size:0.95rem; font-weight:${isActive ? '800' : '700'}; display:inline-flex; align-items:center; justify-content:center; cursor:pointer;">
                 ${p}
               </button>
             `;
@@ -365,7 +420,7 @@
 
         // Next button
         html += `
-          <button class="pagination-btn" id="nextPageBtn" ${currentPage === totalPages ? 'disabled' : ''} aria-label="Next Page">
+          <button class="pagination-btn" id="nextPageBtn" ${currentPage === totalPages ? 'disabled' : ''} aria-label="Next Page" style="width:42px; height:42px; border-radius:50%; background:#F4F4F4; border:1.8px solid transparent; color:#2D3748; font-family:'Nunito', sans-serif; font-size:0.95rem; font-weight:700; display:inline-flex; align-items:center; justify-content:center; cursor:pointer;">
             <i class="fa-solid fa-arrow-right"></i>
           </button>
         `;
