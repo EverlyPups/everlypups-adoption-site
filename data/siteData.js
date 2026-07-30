@@ -1112,14 +1112,14 @@ var SITE_DATA = {
         "name": "Clover",
         "breed": "Beagle",
         "breedGroup": "Hound",
-        "gender": "Male",
+        "gender": "Female",
         "age": "6 weeks",
         "birthday": "May 24, 2026",
-        "color": "Lemon & White",
+        "color": "Black, Tan & White",
         "status": "Ready to go home",
         "weight": "3.6 lbs",
-        "estAdultWeight": "18 - 26 lbs",
-        "price": 1742,
+        "estAdultWeight": "18 - 28 lbs",
+        "price": 3092,
         "hypoallergenic": false,
         "image": "https://photos.puppyspot.com/9/listing/824599/photo/505046059_medium.jpg",
         "gallery": [
@@ -1133,7 +1133,7 @@ var SITE_DATA = {
         "momBreed": "Beagle (20 lbs)",
         "dadBreed": "Beagle (24 lbs)",
         "microchip": "98514100824599",
-        "description": "Meet Clover! Clover is a sweet, gentle Male Beagle puppy with rare lemon and white coat coloring and a heart full of love. He is quiet, observant, and adores being held. Vet-checked nose-to-tail, microchipped, fully vaccinated, and ready to brighten your home."
+        "description": "Meet Clover! Clover is an adorable Female Beagle puppy with a gorgeous Black, Tan & White coat, expressive eyes, and classic velvety floppy ears. Born from champion bloodlines and raised with care by a USDA Licensed Star Breeder, Clover is sweet, gentle, and loves cuddling up after playful outdoor explorations. Clover is 100% vet-checked, microchipped, up-to-date on vaccinations, and comes with our signature 10-Year Health Guarantee!"
     },
     {
         "id": 824635,
