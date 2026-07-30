@@ -71,12 +71,30 @@
           <input type="text" id="browseSearchInput" style="border:none; outline:none; background:transparent; font-family:'Nunito', sans-serif; font-size:0.9rem; font-weight:700; color:#333; width:100%;" placeholder="Search name or breed..." />
         </div>
 
-        <!-- Breed Select Pill -->
-        <div class="filter-pill-btn" style="padding: 0.5rem 1.1rem; flex: 1; min-width: 200px;">
-          <i class="fa-solid fa-dog" style="color: #00B67A;"></i>
-          <select id="browseBreedSelect" style="border:none; outline:none; background:transparent; font-family:'Nunito', sans-serif; font-size:0.9rem; font-weight:700; color:#333; width:100%; cursor:pointer;">
-            <option value="">All Breeds (83)</option>
-          </select>
+        <!-- Custom Custom Breed Selector Pill & Floating Card -->
+        <div class="custom-breed-dropdown-wrapper" style="position: relative; flex: 1; min-width: 210px;">
+          <button type="button" class="filter-pill-btn" id="customBreedTriggerBtn" style="width: 100%; justify-content: space-between; padding: 0.55rem 1.1rem; cursor: pointer;">
+            <span style="display: flex; align-items: center; gap: 0.5rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+              <i class="fa-solid fa-dog" style="color: #00B67A;"></i>
+              <span id="customBreedLabel">All Breeds (83)</span>
+            </span>
+            <i class="fa-solid fa-chevron-down" style="font-size: 0.75rem; color: #888; margin-left: 0.5rem;"></i>
+          </button>
+
+          <!-- Floating Breed Popover Card -->
+          <div class="custom-breed-menu-card" id="customBreedMenu" style="display: none; position: absolute; top: calc(100% + 8px); left: 0; min-width: 290px; max-width: 320px; background: #FFFFFF; border-radius: 20px; box-shadow: 0 14px 40px rgba(0,0,0,0.14); border: 1px solid rgba(0,0,0,0.08); padding: 0.85rem; z-index: 999;">
+            
+            <!-- Quick Search Input inside Breed Dropdown -->
+            <div style="display: flex; align-items: center; gap: 0.5rem; background: #F7F9F8; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0.45rem 0.85rem; margin-bottom: 0.6rem;">
+              <i class="fa-solid fa-magnifying-glass" style="font-size: 0.8rem; color: #00B67A;"></i>
+              <input type="text" id="breedFilterSearchInput" placeholder="Filter 83 breeds..." style="border:none; outline:none; background:transparent; font-family:'Nunito', sans-serif; font-size:0.85rem; font-weight:700; width:100%; color:#012B3A;" />
+            </div>
+
+            <!-- Scrollable List of 83 Breeds -->
+            <div id="customBreedOptionsList" style="max-height: 280px; overflow-y: auto; display: flex; flex-direction: column; gap: 0.25rem; padding-right: 0.2rem;">
+              <!-- Dynamically populated via JS -->
+            </div>
+          </div>
         </div>
 
         <!-- Sort Select Pill -->
@@ -179,37 +197,121 @@
       const puppies = SITE_DATA.puppies || [];
       const grid = document.getElementById('browsePuppiesGrid');
       const searchInput = document.getElementById('browseSearchInput');
-      const breedSelect = document.getElementById('browseBreedSelect');
       const sortSelect = document.getElementById('browseSortSelect');
       const resultsCount = document.getElementById('resultsCount');
       const noResults = document.getElementById('noResultsBox');
       const genderPills = document.querySelectorAll('.browse-gender-pill');
 
-      let currentGender = 'all';
+      const customBreedTriggerBtn = document.getElementById('customBreedTriggerBtn');
+      const customBreedMenu = document.getElementById('customBreedMenu');
+      const customBreedLabel = document.getElementById('customBreedLabel');
+      const customBreedOptionsList = document.getElementById('customBreedOptionsList');
+      const breedFilterSearchInput = document.getElementById('breedFilterSearchInput');
 
-      // Populate Breed Dropdown with full 83 breeds list
+      let currentGender = 'all';
+      let selectedBreedValue = '';
+
+      // Populate Custom Breed Options List
       const allBreedsList = SITE_DATA.allFilterBreeds || [];
       const fullBreedsSet = [...new Set([...allBreedsList, ...puppies.map(p => p.breed)])].sort();
 
-      fullBreedsSet.forEach(b => {
-        const count = puppies.filter(p => p.breed === b).length;
-        const opt = document.createElement('option');
-        opt.value = b;
-        opt.textContent = count > 0 ? `${b} (${count})` : b;
-        breedSelect.appendChild(opt);
-      });
+      function renderBreedOptions(filterText = '') {
+        const query = filterText.toLowerCase().trim();
+        
+        let html = `
+          <div class="custom-breed-option-item ${selectedBreedValue === '' ? 'active' : ''}" data-value="" style="display: flex; align-items: center; justify-content: space-between; padding: 0.55rem 0.75rem; border-radius: 10px; font-size: 0.88rem; font-weight: 700; cursor: pointer; transition: all 0.15s ease; background: ${selectedBreedValue === '' ? '#EBFBF5' : 'transparent'}; color: ${selectedBreedValue === '' ? '#00B67A' : '#333333'};">
+            <span>All Breeds (83)</span>
+            ${selectedBreedValue === '' ? '<i class="fa-solid fa-check" style="color: #00B67A;"></i>' : ''}
+          </div>
+        `;
+
+        fullBreedsSet.forEach(b => {
+          if (query && !b.toLowerCase().includes(query)) return;
+
+          const count = puppies.filter(p => p.breed === b).length;
+          const isSelected = selectedBreedValue === b;
+
+          html += `
+            <div class="custom-breed-option-item ${isSelected ? 'active' : ''}" data-value="${b}" style="display: flex; align-items: center; justify-content: space-between; padding: 0.55rem 0.75rem; border-radius: 10px; font-size: 0.88rem; font-weight: 700; cursor: pointer; transition: all 0.15s ease; background: ${isSelected ? '#EBFBF5' : 'transparent'}; color: ${isSelected ? '#00B67A' : '#333333'};">
+              <span style="display: flex; align-items: center; gap: 0.5rem;">
+                ${b} ${count > 0 ? `<span style="background: rgba(0, 182, 122, 0.12); color: #00B67A; font-size: 0.75rem; font-weight: 800; padding: 0.15rem 0.5rem; border-radius: 50px;">${count}</span>` : ''}
+              </span>
+              ${isSelected ? '<i class="fa-solid fa-check" style="color: #00B67A;"></i>' : ''}
+            </div>
+          `;
+        });
+
+        if (html === '') {
+          html = `<div style="padding:0.75rem; color:#888; font-size:0.85rem; text-align:center;">No matching breeds</div>`;
+        }
+
+        customBreedOptionsList.innerHTML = html;
+
+        // Attach item click handlers
+        const items = customBreedOptionsList.querySelectorAll('.custom-breed-option-item');
+        items.forEach(item => {
+          item.addEventListener('mouseenter', () => {
+            if (!item.classList.contains('active')) {
+              item.style.background = '#FAF9F6';
+              item.style.color = '#00B67A';
+            }
+          });
+          item.addEventListener('mouseleave', () => {
+            if (!item.classList.contains('active')) {
+              item.style.background = 'transparent';
+              item.style.color = '#333333';
+            }
+          });
+          item.addEventListener('click', () => {
+            selectedBreedValue = item.getAttribute('data-value');
+            customBreedLabel.textContent = selectedBreedValue ? `${selectedBreedValue} (${puppies.filter(p => p.breed === selectedBreedValue).length})` : 'All Breeds (83)';
+            customBreedMenu.style.display = 'none';
+            renderBrowseGrid();
+          });
+        });
+      }
+
+      // Initial populate
+      renderBreedOptions();
 
       // Read initial breed from URL if coming from Favorite Breeds
       const urlParams = new URLSearchParams(window.location.search);
       const urlBreed = urlParams.get('breed');
-      if (urlBreed) {
-        breedSelect.value = urlBreed;
+      if (urlBreed && fullBreedsSet.includes(urlBreed)) {
+        selectedBreedValue = urlBreed;
+        const count = puppies.filter(p => p.breed === urlBreed).length;
+        customBreedLabel.textContent = `${urlBreed} (${count})`;
+        renderBreedOptions();
       }
+
+      // Filter input inside popover
+      breedFilterSearchInput.addEventListener('input', (e) => {
+        renderBreedOptions(e.target.value);
+      });
+
+      // Toggle dropdown menu
+      customBreedTriggerBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = customBreedMenu.style.display === 'block';
+        customBreedMenu.style.display = isOpen ? 'none' : 'block';
+        if (!isOpen) {
+          breedFilterSearchInput.value = '';
+          renderBreedOptions('');
+          setTimeout(() => breedFilterSearchInput.focus(), 50);
+        }
+      });
+
+      // Close popover when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!customBreedTriggerBtn.contains(e.target) && !customBreedMenu.contains(e.target)) {
+          customBreedMenu.style.display = 'none';
+        }
+      });
 
       // Filter Engine
       function renderBrowseGrid() {
         const query = searchInput.value.toLowerCase().trim();
-        const selectedBreed = breedSelect.value;
+        const selectedBreed = selectedBreedValue;
         const sortBy = sortSelect.value;
 
         let filtered = puppies.filter(p => {
@@ -258,7 +360,6 @@
 
       // Event Listeners
       searchInput.addEventListener('input', renderBrowseGrid);
-      breedSelect.addEventListener('change', renderBrowseGrid);
       sortSelect.addEventListener('change', renderBrowseGrid);
 
       genderPills.forEach(pill => {
@@ -272,11 +373,13 @@
 
       window.resetBrowseFilters = function() {
         searchInput.value = '';
-        breedSelect.value = '';
+        selectedBreedValue = '';
+        customBreedLabel.textContent = 'All Breeds (83)';
         sortSelect.value = 'recommended';
         currentGender = 'all';
         genderPills.forEach(p => p.classList.remove('active'));
         genderPills[0].classList.add('active');
+        renderBreedOptions();
         renderBrowseGrid();
       };
 
