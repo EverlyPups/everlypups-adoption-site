@@ -194,7 +194,17 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    catalogGrid.innerHTML = state.filteredPuppies.slice(0, 8).map(p => {
+    const isFiltered = Boolean(
+      state.filters.search !== '' ||
+      state.filters.breeds.length > 0 ||
+      state.filters.genders.length > 0 ||
+      state.filters.maxPrice < 3500 ||
+      state.filters.sortBy !== 'recommended'
+    );
+
+    const displayList = isFiltered ? state.filteredPuppies : state.filteredPuppies.slice(0, 8);
+
+    catalogGrid.innerHTML = displayList.map(p => {
       const isFav = state.favorites.includes(p.id);
 
       return `
@@ -360,6 +370,27 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         state.filters.breeds = [];
       }
+      populateFilters();
+      applyFilters();
+      document.getElementById('catalog-section').scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+
+  if (inlineSearch) {
+    inlineSearch.addEventListener('input', () => {
+      state.filters.search = inlineSearch.value.trim();
+      applyFilters();
+    });
+    inlineSearch.addEventListener('keyup', (e) => {
+      if (e.key === 'Enter' && btnInlineSearch) {
+        btnInlineSearch.click();
+      }
+    });
+  }
+
+  if (inlineBreed) {
+    inlineBreed.addEventListener('change', () => {
+      state.filters.breeds = inlineBreed.value ? [inlineBreed.value] : [];
       populateFilters();
       applyFilters();
       document.getElementById('catalog-section').scrollIntoView({ behavior: 'smooth' });
