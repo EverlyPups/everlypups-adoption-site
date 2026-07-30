@@ -1141,25 +1141,27 @@ var SITE_DATA = {
         "breed": "Beagle",
         "breedGroup": "Hound",
         "gender": "Female",
-        "age": "8 weeks",
-        "birthday": "May 2026",
-        "color": "Lemon & White",
+        "age": "6 weeks",
+        "birthday": "May 24, 2026",
+        "color": "Black, Tan & White",
         "status": "Ready to go home",
-        "weight": "5.0 lbs",
-        "estAdultWeight": "18 - 30 lbs",
-        "price": 1900,
+        "weight": "3.5 lbs",
+        "estAdultWeight": "18 - 28 lbs",
+        "price": 3092,
         "hypoallergenic": false,
         "image": "https://photos.puppyspot.com/5/listing/824635/photo/505042775_medium.jpg",
         "gallery": [
             "https://photos.puppyspot.com/5/listing/824635/photo/505042775_medium.jpg",
-            "https://photos.puppyspot.com/5/listing/824635/photo/505042775_large.jpg"
+            "https://photos.puppyspot.com/5/listing/824635/photo/505042774_medium.jpg",
+            "https://photos.puppyspot.com/5/listing/824635/photo/505042772_medium.jpg",
+            "https://photos.puppyspot.com/5/listing/824635/photo/505042773_medium.jpg"
         ],
         "location": "Columbus, OH",
-        "breeder": "USDA Certified Star Breeder (10+ Yrs Experience)",
+        "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
         "momBreed": "Beagle (20 lbs)",
         "dadBreed": "Beagle (24 lbs)",
         "microchip": "98514100824635",
-        "description": "Meet Penny! A sweet, curious Beagle puppy with iconic floppy ears, soft brown eyes, and an affectionate personality. Penny loves trailing scent paths, playing fetch in the garden, and snuggling up after playtime. Fully vet-checked, microchipped, and up-to-date on vaccinations."
+        "description": "Meet Penny! Penny is an adorable Female Beagle puppy with a rich Black, Tan & White coat, soft soulful eyes, and iconic velvety floppy ears. Raised with love and utmost care by a USDA Licensed Star Breeder with champion bloodlines, Penny is playful, inquisitive, and loves cuddle sessions after energetic garden explorations. She comes 100% vet-checked, microchipped, fully vaccinated, and backed by our signature 10-Year Health Guarantee!"
     },
     {
         "id": 824598,
