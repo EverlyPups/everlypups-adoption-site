@@ -241,11 +241,7 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504981039_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981039_medium.jpg",
-        "https://photos.puppyspot.com/8/listing/823648/photo/504981040_medium.jpg",
-        "https://photos.puppyspot.com/8/listing/823648/photo/504981041_medium.jpg",
-        "https://photos.puppyspot.com/8/listing/823648/photo/504981042_medium.jpg",
-        "https://photos.puppyspot.com/8/listing/823648/photo/504981043_medium.jpg"
+        "images/puppies/american-shepadoodle/504981039_medium.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -269,11 +265,7 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504981012_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981012_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/823646/photo/504981013_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/823646/photo/504981014_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/823646/photo/504981015_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/823646/photo/504981016_medium.jpg"
+        "images/puppies/american-shepadoodle/504981012_medium.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -297,11 +289,7 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504981053_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981053_medium.jpg",
-        "https://photos.puppyspot.com/9/listing/823649/photo/504981054_medium.jpg",
-        "https://photos.puppyspot.com/9/listing/823649/photo/504981055_medium.jpg",
-        "https://photos.puppyspot.com/9/listing/823649/photo/504981056_medium.jpg",
-        "https://photos.puppyspot.com/9/listing/823649/photo/504981057_medium.jpg"
+        "images/puppies/american-shepadoodle/504981053_medium.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -325,11 +313,7 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504972942_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504972942_medium.jpg",
-        "https://photos.puppyspot.com/8/listing/823438/photo/504972943_medium.jpg",
-        "https://photos.puppyspot.com/8/listing/823438/photo/504972944_medium.jpg",
-        "https://photos.puppyspot.com/8/listing/823438/photo/504972945_medium.jpg",
-        "https://photos.puppyspot.com/8/listing/823438/photo/504972946_medium.jpg"
+        "images/puppies/american-shepadoodle/504972942_medium.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -351,12 +335,10 @@ var SITE_DATA = {
       "estAdultWeight": "22 - 30 lbs",
       "price": 2197,
       "hypoallergenic": false,
-      "image": "images/puppies/american-corgi/505027610_medium.JPG",
+      "image": "images/puppies/corgi/505027610_medium.JPG",
       "gallery": [
-        "images/puppies/american-corgi/505027610_medium.JPG",
-        "https://photos.puppyspot.com/3/listing/824933/photo/505027608_medium.JPG",
-        "https://photos.puppyspot.com/3/listing/824933/photo/505027606_medium.JPG",
-        "https://photos.puppyspot.com/3/listing/824933/photo/505027613_medium.JPG"
+        "images/puppies/corgi/505027610_medium.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
       "momBreed": "American Corgi (24 lbs)",
@@ -378,12 +360,10 @@ var SITE_DATA = {
       "estAdultWeight": "22 - 30 lbs",
       "price": 2197,
       "hypoallergenic": false,
-      "image": "images/puppies/american-corgi/505027577_medium.JPG",
+      "image": "images/puppies/corgi/505027577_medium.JPG",
       "gallery": [
-        "images/puppies/american-corgi/505027577_medium.JPG",
-        "https://photos.puppyspot.com/0/listing/824930/photo/505027575_medium.JPG",
-        "https://photos.puppyspot.com/0/listing/824930/photo/505027581_medium.JPG",
-        "https://photos.puppyspot.com/0/listing/824930/photo/505027579_medium.JPG"
+        "images/puppies/corgi/505027577_medium.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
       "momBreed": "American Corgi (24 lbs)",
@@ -405,12 +385,10 @@ var SITE_DATA = {
       "estAdultWeight": "22 - 28 lbs",
       "price": 2397,
       "hypoallergenic": false,
-      "image": "images/puppies/american-corgi/505027598_medium.JPG",
+      "image": "images/puppies/corgi/505027598_medium.JPG",
       "gallery": [
-        "images/puppies/american-corgi/505027598_medium.JPG",
-        "https://photos.puppyspot.com/2/listing/824932/photo/505027600_medium.JPG",
-        "https://photos.puppyspot.com/2/listing/824932/photo/505027604_medium.JPG",
-        "https://photos.puppyspot.com/2/listing/824932/photo/505027602_medium.JPG"
+        "images/puppies/corgi/505027598_medium.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Line)",
       "momBreed": "American Corgi (23 lbs)",
@@ -432,12 +410,10 @@ var SITE_DATA = {
       "estAdultWeight": "22 - 30 lbs",
       "price": 2197,
       "hypoallergenic": false,
-      "image": "images/puppies/american-corgi/505027589_medium.JPG",
+      "image": "images/puppies/corgi/505027589_medium.JPG",
       "gallery": [
-        "images/puppies/american-corgi/505027589_medium.JPG",
-        "https://photos.puppyspot.com/1/listing/824931/photo/505027583_medium.JPG",
-        "https://photos.puppyspot.com/1/listing/824931/photo/505027585_medium.JPG",
-        "https://photos.puppyspot.com/1/listing/824931/photo/505027587_medium.JPG"
+        "images/puppies/corgi/505027589_medium.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
@@ -459,12 +435,10 @@ var SITE_DATA = {
       "estAdultWeight": "24 - 32 lbs",
       "price": 2397,
       "hypoallergenic": false,
-      "image": "images/puppies/american-corgi/505019933_medium.JPG",
+      "image": "images/puppies/corgi/505019933_medium.JPG",
       "gallery": [
-        "images/puppies/american-corgi/505019933_medium.JPG",
-        "https://photos.puppyspot.com/1/listing/823131/photo/505019935_medium.JPG",
-        "https://photos.puppyspot.com/1/listing/823131/photo/505019936_medium.JPG",
-        "https://photos.puppyspot.com/1/listing/823131/photo/505019934_medium.JPG"
+        "images/puppies/corgi/505019933_medium.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (25 lbs)",
@@ -486,12 +460,10 @@ var SITE_DATA = {
       "estAdultWeight": "24 - 32 lbs",
       "price": 2397,
       "hypoallergenic": false,
-      "image": "images/puppies/american-corgi/505019906_medium.JPG",
+      "image": "images/puppies/corgi/505019906_medium.JPG",
       "gallery": [
-        "images/puppies/american-corgi/505019906_medium.JPG",
-        "https://photos.puppyspot.com/0/listing/823130/photo/505019903_medium.JPG",
-        "https://photos.puppyspot.com/0/listing/823130/photo/505019904_medium.JPG",
-        "https://photos.puppyspot.com/0/listing/823130/photo/505019905_medium.JPG"
+        "images/puppies/corgi/505019906_medium.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (25 lbs)",
@@ -513,12 +485,10 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 32 lbs",
       "price": 2397,
       "hypoallergenic": false,
-      "image": "images/puppies/american-corgi/504960872_medium.JPG",
+      "image": "images/puppies/corgi/504960872_medium.JPG",
       "gallery": [
-        "images/puppies/american-corgi/504960872_medium.JPG",
-        "https://photos.puppyspot.com/2/listing/823132/photo/504960874_medium.JPG",
-        "https://photos.puppyspot.com/2/listing/823132/photo/504960876_medium.JPG",
-        "https://photos.puppyspot.com/2/listing/823132/photo/504960878_medium.JPG"
+        "images/puppies/corgi/504960872_medium.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (25 lbs)",
@@ -540,12 +510,10 @@ var SITE_DATA = {
       "estAdultWeight": "22 - 30 lbs",
       "price": 2297,
       "hypoallergenic": false,
-      "image": "images/puppies/american-corgi/505032454_medium.jpg",
+      "image": "images/puppies/corgi/505032454_medium.jpg",
       "gallery": [
-        "images/puppies/american-corgi/505032454_medium.jpg",
-        "https://photos.puppyspot.com/7/listing/823017/photo/505032456_medium.jpg",
-        "https://photos.puppyspot.com/7/listing/823017/photo/505032455_medium.jpg",
-        "https://photos.puppyspot.com/7/listing/823017/photo/505032453_medium.jpg"
+        "images/puppies/corgi/505032454_medium.jpg",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
@@ -567,12 +535,10 @@ var SITE_DATA = {
       "estAdultWeight": "22 - 30 lbs",
       "price": 2297,
       "hypoallergenic": false,
-      "image": "images/puppies/american-corgi/504955703_medium.jpg",
+      "image": "images/puppies/corgi/504955703_medium.jpg",
       "gallery": [
-        "images/puppies/american-corgi/504955703_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/823016/photo/504955705_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/823016/photo/504955707_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/823016/photo/504955709_medium.jpg"
+        "images/puppies/corgi/504955703_medium.jpg",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
@@ -594,12 +560,10 @@ var SITE_DATA = {
       "estAdultWeight": "22 - 30 lbs",
       "price": 2297,
       "hypoallergenic": false,
-      "image": "images/puppies/american-corgi/505032440_medium.jpg",
+      "image": "images/puppies/corgi/505032440_medium.jpg",
       "gallery": [
-        "images/puppies/american-corgi/505032440_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/823226/photo/505032443_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/823226/photo/505032444_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/823226/photo/505032447_medium.jpg"
+        "images/puppies/corgi/505032440_medium.jpg",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
