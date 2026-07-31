@@ -272,12 +272,12 @@ var SITE_DATA = {
       "dadBreed": "Standard Poodle (60 lbs)",
       "microchip": "98514100823645",
       "description": "Meet Weston! Weston is a handsome, intelligent Male American Shepadoodle puppy with a velvety brown coat and teal ribbon accent. Raised by a USDA Certified Star Breeder, he combines the high intelligence of a Poodle with the loyalty and protective instinct of a German Shepherd.",
-      "image": "images/puppies/american-shepadoodle/504981001_medium.jpg",
+      "image": "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981001_medium.jpg",
-        "images/puppies/american-shepadoodle/weston-thumb-2.jpg",
-        "images/puppies/american-shepadoodle/weston-thumb-3.jpg",
-        "images/puppies/american-shepadoodle/weston-thumb-4.jpg"
+        "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
+        "images/puppies/american-shepadoodle/weston-large-504981003.jpg",
+        "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
+        "images/puppies/american-shepadoodle/weston-large-504981001.jpg"
       ]
     },
     {
@@ -299,12 +299,12 @@ var SITE_DATA = {
       "dadBreed": "Standard Poodle (60 lbs)",
       "microchip": "98514100823646",
       "description": "Meet Ace! Ace is a friendly, athletic Male American Shepadoodle puppy. Playful, loving, and quick to learn, Ace is eager to bring warmth and joy to a loving home. Fully vet-checked and microchipped.",
-      "image": "images/puppies/american-shepadoodle/504981012_medium.jpg",
+      "image": "images/puppies/american-shepadoodle/ace-large-504981012.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981012_medium.jpg",
-        "images/puppies/american-shepadoodle/ace-thumb-2.jpg",
-        "images/puppies/american-shepadoodle/ace-thumb-3.jpg",
-        "images/puppies/american-shepadoodle/ace-thumb-4.jpg"
+        "images/puppies/american-shepadoodle/ace-large-504981012.jpg",
+        "images/puppies/american-shepadoodle/ace-large-504981014.jpg",
+        "images/puppies/american-shepadoodle/ace-large-504981012.jpg",
+        "images/puppies/american-shepadoodle/ace-large-504981012.jpg"
       ]
     },
     {
@@ -326,12 +326,12 @@ var SITE_DATA = {
       "dadBreed": "Standard Poodle (60 lbs)",
       "microchip": "98514100823649",
       "description": "Meet Molly! Molly is a sweet Female American Shepadoodle puppy with an affectionate personality and plush coat. Great with kids and active families, Molly is 100% health checked.",
-      "image": "images/puppies/american-shepadoodle/504981053_medium.jpg",
+      "image": "images/puppies/american-shepadoodle/molly-large-504981053.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981053_medium.jpg",
-        "images/puppies/american-shepadoodle/molly-thumb-2.jpg",
-        "images/puppies/american-shepadoodle/molly-thumb-3.jpg",
-        "images/puppies/american-shepadoodle/molly-thumb-4.jpg"
+        "images/puppies/american-shepadoodle/molly-large-504981053.jpg",
+        "images/puppies/american-shepadoodle/molly-large-504981053.jpg",
+        "images/puppies/american-shepadoodle/molly-large-504981053.jpg",
+        "images/puppies/american-shepadoodle/molly-large-504981053.jpg"
       ]
     },
     {
@@ -353,12 +353,12 @@ var SITE_DATA = {
       "dadBreed": "Standard Poodle (60 lbs)",
       "microchip": "98514100823438",
       "description": "Meet Trent! Trent is a loyal Male American Shepadoodle puppy who is calm, confident, and eager to please. Microchipped, up to date on all shots, and ready for adventure!",
-      "image": "images/puppies/american-shepadoodle/504972942_medium.jpg",
+      "image": "images/puppies/american-shepadoodle/trent-large-504972942.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504972942_medium.jpg",
-        "images/puppies/american-shepadoodle/trent-thumb-2.jpg",
-        "images/puppies/american-shepadoodle/trent-thumb-3.jpg",
-        "images/puppies/american-shepadoodle/trent-thumb-4.jpg"
+        "images/puppies/american-shepadoodle/trent-large-504972942.jpg",
+        "images/puppies/american-shepadoodle/trent-large-504972942.jpg",
+        "images/puppies/american-shepadoodle/trent-large-504972942.jpg",
+        "images/puppies/american-shepadoodle/trent-large-504972942.jpg"
       ]
     },
     {
