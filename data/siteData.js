@@ -298,12 +298,13 @@ var SITE_DATA = {
       "dadBreed": "Standard Poodle (60 lbs)",
       "microchip": "98514100823648",
       "description": "Meet Caleb! Caleb is a charming Sable & White Male American Shepadoodle puppy with a blue bow tie. Raised with early neurological stimulation, he has a gentle, curious nature and loves family cuddles.",
-      "image": "images/puppies/american-shepadoodle/caleb-real-1.jpg",
+      "image": "images/puppies/american-shepadoodle/caleb-studio-user-1.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/caleb-real-1.jpg",
-        "images/puppies/american-shepadoodle/caleb-real-2.jpg",
-        "images/puppies/american-shepadoodle/caleb-real-3.jpg",
-        "images/puppies/american-shepadoodle/caleb-real-4.jpg"
+        "images/puppies/american-shepadoodle/caleb-studio-user-1.jpg",
+        "images/puppies/american-shepadoodle/caleb-studio-user-2.jpg",
+        "images/puppies/american-shepadoodle/caleb-studio-user-3.jpg",
+        "images/puppies/american-shepadoodle/caleb-studio-user-4.jpg",
+        "images/puppies/american-shepadoodle/caleb-studio-user-5.jpg"
       ]
     },
     {
