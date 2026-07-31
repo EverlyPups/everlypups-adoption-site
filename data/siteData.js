@@ -239,12 +239,12 @@ var SITE_DATA = {
       "estAdultWeight": "45 - 70 lbs",
       "price": 2497,
       "hypoallergenic": true,
-      "image": "images/puppies/american-shepadoodle/504981039_medium.jpg",
+      "image": "images/puppies/american-shepadoodle/weston-studio-1.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981039_medium.jpg",
-        "images/puppies/american-shepadoodle/weston-2.jpg",
-        "images/puppies/american-shepadoodle/weston-3.jpg",
-        "images/puppies/american-shepadoodle/weston-4.jpg"
+        "images/puppies/american-shepadoodle/weston-studio-1.jpg",
+        "images/puppies/american-shepadoodle/weston-studio-2.jpg",
+        "images/puppies/american-shepadoodle/weston-studio-3.jpg",
+        "images/puppies/american-shepadoodle/weston-studio-4.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -266,12 +266,12 @@ var SITE_DATA = {
       "estAdultWeight": "50 - 75 lbs",
       "price": 2497,
       "hypoallergenic": true,
-      "image": "images/puppies/american-shepadoodle/504981012_medium.jpg",
+      "image": "images/puppies/american-shepadoodle/ace-studio-1.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981012_medium.jpg",
-        "images/puppies/american-shepadoodle/ace-2.jpg",
-        "images/puppies/american-shepadoodle/ace-3.jpg",
-        "images/puppies/american-shepadoodle/ace-4.jpg"
+        "images/puppies/american-shepadoodle/ace-studio-1.jpg",
+        "images/puppies/american-shepadoodle/ace-studio-2.jpg",
+        "images/puppies/american-shepadoodle/ace-studio-3.jpg",
+        "images/puppies/american-shepadoodle/ace-studio-4.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -293,12 +293,12 @@ var SITE_DATA = {
       "estAdultWeight": "45 - 65 lbs",
       "price": 2697,
       "hypoallergenic": true,
-      "image": "images/puppies/american-shepadoodle/504981053_medium.jpg",
+      "image": "images/puppies/american-shepadoodle/molly-studio-1.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981053_medium.jpg",
-        "images/puppies/american-shepadoodle/molly-2.jpg",
-        "images/puppies/american-shepadoodle/molly-3.jpg",
-        "images/puppies/american-shepadoodle/molly-4.jpg"
+        "images/puppies/american-shepadoodle/molly-studio-1.jpg",
+        "images/puppies/american-shepadoodle/molly-studio-2.jpg",
+        "images/puppies/american-shepadoodle/molly-studio-3.jpg",
+        "images/puppies/american-shepadoodle/molly-studio-4.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -320,12 +320,12 @@ var SITE_DATA = {
       "estAdultWeight": "50 - 75 lbs",
       "price": 2897,
       "hypoallergenic": true,
-      "image": "images/puppies/american-shepadoodle/504972942_medium.jpg",
+      "image": "images/puppies/american-shepadoodle/trent-studio-1.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504972942_medium.jpg",
-        "images/puppies/american-shepadoodle/trent-2.jpg",
-        "images/puppies/american-shepadoodle/trent-3.jpg",
-        "images/puppies/american-shepadoodle/trent-4.jpg"
+        "images/puppies/american-shepadoodle/trent-studio-1.jpg",
+        "images/puppies/american-shepadoodle/trent-studio-2.jpg",
+        "images/puppies/american-shepadoodle/trent-studio-3.jpg",
+        "images/puppies/american-shepadoodle/trent-studio-4.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
