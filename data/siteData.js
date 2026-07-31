@@ -226,6 +226,34 @@ var SITE_DATA = {
   ],
   "puppies": [
     {
+      "id": 823648,
+      "name": "Caleb",
+      "breed": "American Shepadoodle",
+      "breedGroup": "Hybrid / Working",
+      "gender": "Male",
+      "age": "8 weeks",
+      "birthday": "June 4, 2026",
+      "color": "Black & Tan",
+      "status": "Ready to go home",
+      "weight": "7.0 lbs",
+      "estAdultWeight": "45 - 70 lbs",
+      "price": 2497,
+      "hypoallergenic": true,
+      "image": "images/puppies/american-shepadoodle/caleb-studio-user-1.jpg",
+      "gallery": [
+        "images/puppies/american-shepadoodle/caleb-studio-user-1.jpg",
+        "images/puppies/american-shepadoodle/caleb-studio-user-2.jpg",
+        "images/puppies/american-shepadoodle/caleb-studio-user-3.jpg",
+        "images/puppies/american-shepadoodle/caleb-studio-user-4.jpg",
+        "images/puppies/american-shepadoodle/caleb-studio-user-5.jpg"
+      ],
+      "breeder": "USDA Certified Star Breeder",
+      "momBreed": "German Shepherd (65 lbs)",
+      "dadBreed": "Standard Poodle (60 lbs)",
+      "microchip": "98514100823648",
+      "description": "Meet Caleb! Caleb is a charming Black & Tan Male American Shepadoodle puppy wearing a sparkling blue bow tie. Raised with early neurological stimulation, he has a gentle, curious nature and loves family cuddles."
+    },
+    {
       "id": 823645,
       "name": "Weston",
       "breed": "American Shepadoodle",
@@ -277,34 +305,6 @@ var SITE_DATA = {
         "images/puppies/american-shepadoodle/ace-thumb-2.jpg",
         "images/puppies/american-shepadoodle/ace-thumb-3.jpg",
         "images/puppies/american-shepadoodle/ace-thumb-4.jpg"
-      ]
-    },
-    {
-      "id": 823648,
-      "name": "Caleb",
-      "breed": "American Shepadoodle",
-      "breedGroup": "Hybrid / Working",
-      "gender": "Male",
-      "age": "8 weeks",
-      "birthday": "June 4, 2026",
-      "color": "Black & Tan",
-      "status": "Ready to go home",
-      "weight": "7.0 lbs",
-      "estAdultWeight": "45 - 70 lbs",
-      "price": 2497,
-      "hypoallergenic": true,
-      "breeder": "USDA Certified Star Breeder",
-      "momBreed": "German Shepherd (65 lbs)",
-      "dadBreed": "Standard Poodle (60 lbs)",
-      "microchip": "98514100823648",
-      "description": "Meet Caleb! Caleb is a charming Sable & White Male American Shepadoodle puppy with a blue bow tie. Raised with early neurological stimulation, he has a gentle, curious nature and loves family cuddles.",
-      "image": "images/puppies/american-shepadoodle/caleb-studio-user-1.jpg",
-      "gallery": [
-        "images/puppies/american-shepadoodle/caleb-studio-user-1.jpg",
-        "images/puppies/american-shepadoodle/caleb-studio-user-2.jpg",
-        "images/puppies/american-shepadoodle/caleb-studio-user-3.jpg",
-        "images/puppies/american-shepadoodle/caleb-studio-user-4.jpg",
-        "images/puppies/american-shepadoodle/caleb-studio-user-5.jpg"
       ]
     },
     {
