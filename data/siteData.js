@@ -226,28 +226,28 @@ var SITE_DATA = {
   ],
   "puppies": [
     {
-      "id": 823645,
+      "id": 823648,
       "name": "Weston",
       "breed": "American Shepadoodle",
       "breedGroup": "Hybrid / Working",
       "gender": "Male",
       "age": "8 weeks",
       "birthday": "June 4, 2026",
-      "color": "Black & Tan",
+      "color": "Sable & White",
       "status": "Ready to go home",
-      "weight": "7.2 lbs",
-      "estAdultWeight": "50 - 75 lbs",
+      "weight": "7.0 lbs",
+      "estAdultWeight": "45 - 70 lbs",
       "price": 2497,
       "hypoallergenic": true,
-      "image": "images/puppies/american-shepadoodle/504981001_medium.jpg",
+      "image": "images/puppies/american-shepadoodle/504981039_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981001_medium.jpg"
+        "images/puppies/american-shepadoodle/504981039_medium.jpg"
       ],
-      "breeder": "USDA Certified Star Breeder (Standard Shepadoodle)",
+      "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
       "dadBreed": "Standard Poodle (60 lbs)",
-      "microchip": "98514100823645",
-      "description": "Meet Weston! Weston is a handsome, intelligent Male American Shepadoodle puppy with a velvety Black & Tan coat. Raised by a USDA Certified Star Breeder, he combines the high intelligence of a Poodle with the loyalty and protective instinct of a German Shepherd."
+      "microchip": "98514100823648",
+      "description": "Meet Weston! Weston is an adorable Male American Shepadoodle puppy with a gorgeous Sable & White coat. Raised with love by a USDA Certified Star Breeder, he is intelligent, energetic, and eager to join a loving family. Fully health checked and microchipped."
     },
     {
       "id": 823646,
@@ -272,30 +272,6 @@ var SITE_DATA = {
       "dadBreed": "Standard Poodle (60 lbs)",
       "microchip": "98514100823646",
       "description": "Meet Ace! Ace is a friendly, athletic Male American Shepadoodle puppy. Playful, loving, and quick to learn, Ace is eager to bring warmth and joy to a loving home. Fully vet-checked and microchipped."
-    },
-    {
-      "id": 823648,
-      "name": "Caleb",
-      "breed": "American Shepadoodle",
-      "breedGroup": "Hybrid / Working",
-      "gender": "Male",
-      "age": "8 weeks",
-      "birthday": "June 4, 2026",
-      "color": "Sable & White",
-      "status": "Ready to go home",
-      "weight": "7.0 lbs",
-      "estAdultWeight": "45 - 70 lbs",
-      "price": 2497,
-      "hypoallergenic": true,
-      "image": "images/puppies/american-shepadoodle/504981039_medium.jpg",
-      "gallery": [
-        "images/puppies/american-shepadoodle/504981039_medium.jpg"
-      ],
-      "breeder": "USDA Certified Star Breeder",
-      "momBreed": "German Shepherd (65 lbs)",
-      "dadBreed": "Standard Poodle (60 lbs)",
-      "microchip": "98514100823648",
-      "description": "Meet Caleb! Caleb is a charming Sable & White Male American Shepadoodle puppy. Raised with early neurological stimulation, he has a gentle, curious nature and loves family cuddles."
     },
     {
       "id": 823649,
