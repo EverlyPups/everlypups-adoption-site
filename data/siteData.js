@@ -287,7 +287,7 @@ var SITE_DATA = {
       "gender": "Male",
       "age": "8 weeks",
       "birthday": "June 4, 2026",
-      "color": "Sable & White",
+      "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "7.0 lbs",
       "estAdultWeight": "45 - 70 lbs",
@@ -298,12 +298,12 @@ var SITE_DATA = {
       "dadBreed": "Standard Poodle (60 lbs)",
       "microchip": "98514100823648",
       "description": "Meet Caleb! Caleb is a charming Sable & White Male American Shepadoodle puppy with a blue bow tie. Raised with early neurological stimulation, he has a gentle, curious nature and loves family cuddles.",
-      "image": "images/puppies/american-shepadoodle/504981039_medium.jpg",
+      "image": "images/puppies/american-shepadoodle/caleb-real-1.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981039_medium.jpg",
-        "images/puppies/american-shepadoodle/caleb-thumb-2.jpg",
-        "images/puppies/american-shepadoodle/caleb-thumb-3.jpg",
-        "images/puppies/american-shepadoodle/caleb-thumb-4.jpg"
+        "images/puppies/american-shepadoodle/caleb-real-1.jpg",
+        "images/puppies/american-shepadoodle/caleb-real-2.jpg",
+        "images/puppies/american-shepadoodle/caleb-real-3.jpg",
+        "images/puppies/american-shepadoodle/caleb-real-4.jpg"
       ]
     },
     {
