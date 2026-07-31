@@ -65,12 +65,17 @@
         
         <!-- LEFT COLUMN: Image Gallery Carousel -->
         <div class="puppy-gallery-col" style="width: 485px; max-width: 100%;">
-          <div class="main-image-frame" style="width: 485px; height: 485px; max-width: 100%; aspect-ratio: 1/1;">
+          <div class="main-image-frame" style="width: 485px; height: 485px; max-width: 100%; aspect-ratio: 1/1; position: relative;">
             <img id="mainPuppyImage" src="" alt="Puppy Photo" class="main-puppy-img" style="width: 485px; height: 485px; max-width: 100%; object-fit: cover;" />
             <div id="puppyStatusBadge" class="gallery-status-badge">Ready to go home</div>
             <div class="gallery-social-proof">
               <i class="fa-solid fa-fire text-amber"></i> <span id="viewingCount">4 families are viewing</span>
             </div>
+
+            <!-- Video Play Button Overlay -->
+            <button id="btnPlayPuppyVideo" class="detail-play-video-btn" onclick="openPuppyVideoModal()" style="display: none;">
+              <i class="fa-solid fa-circle-play"></i> Watch Live Video
+            </button>
           </div>
 
           <!-- Gallery Thumbnails -->
@@ -268,23 +273,64 @@
   </footer>
 
   <!-- Floating Sticky WhatsApp Button -->
-  <a href="https://wa.me/15550192834?text=Hello%20PawHaven%2C%20I%20am%20interested%20in%20adopting%20a%20puppy!" target="_blank" rel="noopener noreferrer" class="whatsapp-sticky-btn" aria-label="Chat on WhatsApp">
-    <div class="whatsapp-icon-wrapper">
-      <i class="fa-brands fa-whatsapp"></i>
-    </div>
+  <a href="https://wa.me/15551234567?text=Hi%20PawHaven!%20I'm%20interested%20in%20adopting%20a%20puppy." target="_blank" class="floating-whatsapp-btn" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
     <span class="whatsapp-tooltip">Chat with us</span>
   </a>
 
+  <!-- Interactive Puppy Video Modal -->
+  <div id="puppyVideoModal" class="puppy-video-modal-backdrop" onclick="closePuppyVideoModal(event)">
+    <div class="puppy-video-modal-card" onclick="event.stopPropagation()">
+      <button class="puppy-video-modal-close" onclick="closePuppyVideoModal(event)">&times;</button>
+      <div id="puppyVideoPlayerContainer" class="puppy-video-player-frame">
+        <!-- Video element rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=25"></script>
+  <script src="data/siteData.js?v=24"></script>
   <script>
+    window.currentPuppyVideoUrl = '';
+
+    function openPuppyVideoModal() {
+      const modal = document.getElementById('puppyVideoModal');
+      const container = document.getElementById('puppyVideoPlayerContainer');
+      const videoSrc = window.currentPuppyVideoUrl || 'https://assets.mixkit.co/videos/preview/mixkit-playful-corgi-puppy-in-the-grass-42618-large.mp4';
+      
+      container.innerHTML = `
+        <video controls autoplay loop playsinline class="puppy-modal-video-element">
+          <source src="${videoSrc}" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      `;
+      modal.classList.add('active');
+    }
+
+    function closePuppyVideoModal(e) {
+      if (e) e.stopPropagation();
+      const modal = document.getElementById('puppyVideoModal');
+      const container = document.getElementById('puppyVideoPlayerContainer');
+      container.innerHTML = '';
+      modal.classList.remove('active');
+    }
+
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
-      const puppyId = parseInt(urlParams.get('id')) || 817786;
+      const puppyId = parseInt(urlParams.get('id')) || 824933;
 
       const puppy = SITE_DATA.puppies.find(p => p.id === puppyId) || SITE_DATA.puppies[0];
 
       if (puppy) {
+        // Video Availability & Play Button
+        window.currentPuppyVideoUrl = puppy.videoUrl || '';
+        const btnPlayVideo = document.getElementById('btnPlayPuppyVideo');
+        if (puppy.hasVideo || puppy.videoUrl) {
+          if (btnPlayVideo) btnPlayVideo.style.display = 'flex';
+        } else {
+          if (btnPlayVideo) btnPlayVideo.style.display = 'none';
+        }
+
         // Dynamic Back Link to Breed Page
         const targetBreed = urlParams.get('breed') || puppy.breed;
         const backLinkEl = document.getElementById('detailBackLink');
