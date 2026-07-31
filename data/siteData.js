@@ -163,8 +163,6 @@ var SITE_DATA = {
       "estAdultWeight": "22 - 28 lbs",
       "price": 2500,
       "hypoallergenic": false,
-      "hasVideo": true,
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-playful-corgi-puppy-in-the-grass-42618-large.mp4",
       "image": "images/puppies/corgi/505027610_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027610_medium.JPG",
@@ -190,8 +188,6 @@ var SITE_DATA = {
       "estAdultWeight": "24 - 30 lbs",
       "price": 2500,
       "hypoallergenic": false,
-      "hasVideo": true,
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-playful-corgi-puppy-in-the-grass-42618-large.mp4",
       "image": "images/puppies/corgi/505027577_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027577_medium.JPG",
@@ -217,8 +213,6 @@ var SITE_DATA = {
       "estAdultWeight": "22 - 28 lbs",
       "price": 2500,
       "hypoallergenic": false,
-      "hasVideo": true,
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-playful-corgi-puppy-in-the-grass-42618-large.mp4",
       "image": "images/puppies/corgi/505027598_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027598_medium.JPG",
@@ -244,8 +238,6 @@ var SITE_DATA = {
       "estAdultWeight": "20 - 26 lbs",
       "price": 2500,
       "hypoallergenic": false,
-      "hasVideo": true,
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-playful-corgi-puppy-in-the-grass-42618-large.mp4",
       "image": "images/puppies/corgi/505027589_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027589_medium.JPG",
@@ -271,8 +263,6 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 30 lbs",
       "price": 2500,
       "hypoallergenic": false,
-      "hasVideo": true,
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-playful-corgi-puppy-in-the-grass-42618-large.mp4",
       "image": "images/puppies/corgi/505019933_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505019933_medium.JPG",
@@ -298,8 +288,6 @@ var SITE_DATA = {
       "estAdultWeight": "26 - 32 lbs",
       "price": 2500,
       "hypoallergenic": false,
-      "hasVideo": true,
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-playful-corgi-puppy-in-the-grass-42618-large.mp4",
       "image": "images/puppies/corgi/505019906_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505019906_medium.JPG",
@@ -325,8 +313,6 @@ var SITE_DATA = {
       "estAdultWeight": "24 - 30 lbs",
       "price": 2500,
       "hypoallergenic": false,
-      "hasVideo": true,
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-playful-corgi-puppy-in-the-grass-42618-large.mp4",
       "image": "images/puppies/corgi/504960872_medium.JPG",
       "gallery": [
         "images/puppies/corgi/504960872_medium.JPG",
@@ -352,8 +338,6 @@ var SITE_DATA = {
       "estAdultWeight": "23 - 29 lbs",
       "price": 2500,
       "hypoallergenic": false,
-      "hasVideo": true,
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-playful-corgi-puppy-in-the-grass-42618-large.mp4",
       "image": "images/puppies/corgi/505032454_medium.jpg",
       "gallery": [
         "images/puppies/corgi/505032454_medium.jpg",
@@ -379,8 +363,6 @@ var SITE_DATA = {
       "estAdultWeight": "24 - 30 lbs",
       "price": 2500,
       "hypoallergenic": false,
-      "hasVideo": true,
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-playful-corgi-puppy-in-the-grass-42618-large.mp4",
       "image": "images/puppies/corgi/504955703_medium.jpg",
       "gallery": [
         "images/puppies/corgi/504955703_medium.jpg",
@@ -406,8 +388,6 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 31 lbs",
       "price": 2500,
       "hypoallergenic": false,
-      "hasVideo": true,
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-playful-corgi-puppy-in-the-grass-42618-large.mp4",
       "image": "images/puppies/corgi/505032440_medium.jpg",
       "gallery": [
         "images/puppies/corgi/505032440_medium.jpg",
