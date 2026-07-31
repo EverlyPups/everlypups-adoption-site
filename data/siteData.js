@@ -246,7 +246,10 @@ var SITE_DATA = {
       "description": "Meet Weston! Weston is a handsome, intelligent Male American Shepadoodle puppy with a velvety brown coat and teal ribbon accent. Raised by a USDA Certified Star Breeder, he combines the high intelligence of a Poodle with the loyalty and protective instinct of a German Shepherd.",
       "image": "images/puppies/american-shepadoodle/504981001_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981001_medium.jpg"
+        "images/puppies/american-shepadoodle/504981001_medium.jpg",
+        "images/puppies/american-shepadoodle/weston-thumb-2.jpg",
+        "images/puppies/american-shepadoodle/weston-thumb-3.jpg",
+        "images/puppies/american-shepadoodle/weston-thumb-4.jpg"
       ]
     },
     {
@@ -270,7 +273,10 @@ var SITE_DATA = {
       "description": "Meet Ace! Ace is a friendly, athletic Male American Shepadoodle puppy. Playful, loving, and quick to learn, Ace is eager to bring warmth and joy to a loving home. Fully vet-checked and microchipped.",
       "image": "images/puppies/american-shepadoodle/504981012_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981012_medium.jpg"
+        "images/puppies/american-shepadoodle/504981012_medium.jpg",
+        "images/puppies/american-shepadoodle/ace-thumb-2.jpg",
+        "images/puppies/american-shepadoodle/ace-thumb-3.jpg",
+        "images/puppies/american-shepadoodle/ace-thumb-4.jpg"
       ]
     },
     {
@@ -294,7 +300,10 @@ var SITE_DATA = {
       "description": "Meet Caleb! Caleb is a charming Sable & White Male American Shepadoodle puppy with a blue bow tie. Raised with early neurological stimulation, he has a gentle, curious nature and loves family cuddles.",
       "image": "images/puppies/american-shepadoodle/504981039_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981039_medium.jpg"
+        "images/puppies/american-shepadoodle/504981039_medium.jpg",
+        "images/puppies/american-shepadoodle/caleb-thumb-2.jpg",
+        "images/puppies/american-shepadoodle/caleb-thumb-3.jpg",
+        "images/puppies/american-shepadoodle/caleb-thumb-4.jpg"
       ]
     },
     {
@@ -318,7 +327,10 @@ var SITE_DATA = {
       "description": "Meet Molly! Molly is a sweet Female American Shepadoodle puppy with an affectionate personality and plush coat. Great with kids and active families, Molly is 100% health checked.",
       "image": "images/puppies/american-shepadoodle/504981053_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981053_medium.jpg"
+        "images/puppies/american-shepadoodle/504981053_medium.jpg",
+        "images/puppies/american-shepadoodle/molly-thumb-2.jpg",
+        "images/puppies/american-shepadoodle/molly-thumb-3.jpg",
+        "images/puppies/american-shepadoodle/molly-thumb-4.jpg"
       ]
     },
     {
@@ -342,7 +354,10 @@ var SITE_DATA = {
       "description": "Meet Trent! Trent is a loyal Male American Shepadoodle puppy who is calm, confident, and eager to please. Microchipped, up to date on all shots, and ready for adventure!",
       "image": "images/puppies/american-shepadoodle/504972942_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504972942_medium.jpg"
+        "images/puppies/american-shepadoodle/504972942_medium.jpg",
+        "images/puppies/american-shepadoodle/trent-thumb-2.jpg",
+        "images/puppies/american-shepadoodle/trent-thumb-3.jpg",
+        "images/puppies/american-shepadoodle/trent-thumb-4.jpg"
       ]
     },
     {
