@@ -97,7 +97,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "5.2 lbs",
         "estAdultWeight": "20 - 30 lbs",
-        "price": 2497,
+        "price": 1850,
         "hypoallergenic": false,
         "image": "https://photos.puppyspot.com/3/listing/824933/photo/505027610.JPG",
         "gallery": [
@@ -124,7 +124,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "5.2 lbs",
         "estAdultWeight": "20 - 30 lbs",
-        "price": 2497,
+        "price": 1800,
         "hypoallergenic": false,
         "image": "https://photos.puppyspot.com/0/listing/824930/photo/505027577.JPG",
         "gallery": [
@@ -151,7 +151,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "5.2 lbs",
         "estAdultWeight": "20 - 30 lbs",
-        "price": 2697,
+        "price": 1890,
         "hypoallergenic": false,
         "image": "https://photos.puppyspot.com/2/listing/824932/photo/505027598.JPG",
         "gallery": [
@@ -178,7 +178,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "5.2 lbs",
         "estAdultWeight": "20 - 30 lbs",
-        "price": 2497,
+        "price": 1825,
         "hypoallergenic": false,
         "image": "https://photos.puppyspot.com/1/listing/824931/photo/505027589.JPG",
         "gallery": [
@@ -205,7 +205,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "5.2 lbs",
         "estAdultWeight": "20 - 30 lbs",
-        "price": 2897,
+        "price": 1875,
         "hypoallergenic": false,
         "image": "https://photos.puppyspot.com/1/listing/823131/photo/505019933.JPG",
         "gallery": [
@@ -232,7 +232,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "5.2 lbs",
         "estAdultWeight": "20 - 30 lbs",
-        "price": 2897,
+        "price": 1850,
         "hypoallergenic": false,
         "image": "https://photos.puppyspot.com/0/listing/823130/photo/505019906.JPG",
         "gallery": [
@@ -259,7 +259,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "5.2 lbs",
         "estAdultWeight": "20 - 30 lbs",
-        "price": 2897,
+        "price": 1880,
         "hypoallergenic": false,
         "image": "https://photos.puppyspot.com/2/listing/823132/photo/504960872.JPG",
         "gallery": [
@@ -286,7 +286,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "5.2 lbs",
         "estAdultWeight": "20 - 30 lbs",
-        "price": 2597,
+        "price": 1890,
         "hypoallergenic": false,
         "image": "images/puppies/american-corgi/simon-1.jpg",
         "gallery": [
@@ -313,7 +313,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "5.2 lbs",
         "estAdultWeight": "20 - 30 lbs",
-        "price": 2697,
+        "price": 1820,
         "hypoallergenic": false,
         "image": "images/puppies/american-corgi/silas-1.jpg",
         "gallery": [
@@ -340,7 +340,7 @@ var SITE_DATA = {
         "status": "Ready to go home",
         "weight": "5.2 lbs",
         "estAdultWeight": "20 - 30 lbs",
-        "price": 2497,
+        "price": 1800,
         "hypoallergenic": false,
         "image": "images/puppies/american-corgi/stettson-1.jpg",
         "gallery": [
