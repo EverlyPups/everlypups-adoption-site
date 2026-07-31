@@ -246,7 +246,10 @@ var SITE_DATA = {
       "description": "Meet Weston! Weston is a handsome, intelligent Male American Shepadoodle puppy with a velvety Black & Tan coat. Raised by a USDA Certified Star Breeder, he combines the high intelligence of a Poodle with the loyalty and protective instinct of a German Shepherd.",
       "image": "images/puppies/american-shepadoodle/504981001_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981001_medium.jpg"
+        "images/puppies/american-shepadoodle/504981001_medium.jpg",
+        "images/puppies/american-shepadoodle/weston-view-2.jpg",
+        "images/puppies/american-shepadoodle/weston-view-3.jpg",
+        "images/puppies/american-shepadoodle/weston-view-4.jpg"
       ]
     },
     {
@@ -270,7 +273,10 @@ var SITE_DATA = {
       "description": "Meet Ace! Ace is a friendly, athletic Male American Shepadoodle puppy. Playful, loving, and quick to learn, Ace is eager to bring warmth and joy to a loving home. Fully vet-checked and microchipped.",
       "image": "images/puppies/american-shepadoodle/504981012_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981012_medium.jpg"
+        "images/puppies/american-shepadoodle/504981012_medium.jpg",
+        "images/puppies/american-shepadoodle/ace-view-2.jpg",
+        "images/puppies/american-shepadoodle/ace-view-3.jpg",
+        "images/puppies/american-shepadoodle/ace-view-4.jpg"
       ]
     },
     {
@@ -294,7 +300,10 @@ var SITE_DATA = {
       "description": "Meet Caleb! Caleb is a charming Sable & White Male American Shepadoodle puppy with a plush coat. Raised with early neurological stimulation, he has a gentle, curious nature and loves family cuddles.",
       "image": "images/puppies/american-shepadoodle/504981039_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981039_medium.jpg"
+        "images/puppies/american-shepadoodle/504981039_medium.jpg",
+        "images/puppies/american-shepadoodle/caleb-view-2.jpg",
+        "images/puppies/american-shepadoodle/caleb-view-3.jpg",
+        "images/puppies/american-shepadoodle/caleb-view-4.jpg"
       ]
     },
     {
@@ -318,7 +327,10 @@ var SITE_DATA = {
       "description": "Meet Molly! Molly is a sweet Female American Shepadoodle puppy with an affectionate personality and plush coat. Great with kids and active families, Molly is 100% health checked.",
       "image": "images/puppies/american-shepadoodle/504981053_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981053_medium.jpg"
+        "images/puppies/american-shepadoodle/504981053_medium.jpg",
+        "images/puppies/american-shepadoodle/molly-view-2.jpg",
+        "images/puppies/american-shepadoodle/molly-view-3.jpg",
+        "images/puppies/american-shepadoodle/molly-view-4.jpg"
       ]
     },
     {
@@ -342,7 +354,10 @@ var SITE_DATA = {
       "description": "Meet Trent! Trent is a loyal Male American Shepadoodle puppy who is calm, confident, and eager to please. Microchipped, up to date on all shots, and ready for adventure!",
       "image": "images/puppies/american-shepadoodle/504972942_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504972942_medium.jpg"
+        "images/puppies/american-shepadoodle/504972942_medium.jpg",
+        "images/puppies/american-shepadoodle/trent-view-2.jpg",
+        "images/puppies/american-shepadoodle/trent-view-3.jpg",
+        "images/puppies/american-shepadoodle/trent-view-4.jpg"
       ]
     },
     {
@@ -362,10 +377,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505027610_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027610_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg",
-        "images/puppies/american-corgi/darcy-2.JPG",
-        "images/puppies/american-corgi/darcy-3.JPG",
-        "images/puppies/american-corgi/darcy-4.JPG"
+        "images/puppies/american-corgi/darcy-view-2.JPG",
+        "images/puppies/american-corgi/darcy-view-3.JPG",
+        "images/puppies/american-corgi/darcy-view-4.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
       "momBreed": "American Corgi (24 lbs)",
@@ -390,10 +405,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505027577_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027577_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg",
-        "images/puppies/american-corgi/dare-2.JPG",
-        "images/puppies/american-corgi/dare-3.JPG",
-        "images/puppies/american-corgi/dare-4.JPG"
+        "images/puppies/american-corgi/dare-view-2.JPG",
+        "images/puppies/american-corgi/dare-view-3.JPG",
+        "images/puppies/american-corgi/dare-view-4.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
       "momBreed": "American Corgi (24 lbs)",
@@ -418,10 +433,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505027598_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027598_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg",
-        "images/puppies/american-corgi/daffy-2.JPG",
-        "images/puppies/american-corgi/daffy-3.JPG",
-        "images/puppies/american-corgi/daffy-4.JPG"
+        "images/puppies/american-corgi/daffy-view-2.JPG",
+        "images/puppies/american-corgi/daffy-view-3.JPG",
+        "images/puppies/american-corgi/daffy-view-4.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Line)",
       "momBreed": "American Corgi (23 lbs)",
@@ -446,10 +461,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505027589_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027589_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg",
-        "images/puppies/american-corgi/dixie-2.JPG",
-        "images/puppies/american-corgi/dixie-3.JPG",
-        "images/puppies/american-corgi/dixie-4.JPG"
+        "images/puppies/american-corgi/dixie-view-2.JPG",
+        "images/puppies/american-corgi/dixie-view-3.JPG",
+        "images/puppies/american-corgi/dixie-view-4.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
@@ -474,10 +489,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505019933_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505019933_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg",
-        "images/puppies/american-corgi/dune-2.JPG",
-        "images/puppies/american-corgi/dune-3.JPG",
-        "images/puppies/american-corgi/dune-4.JPG"
+        "images/puppies/american-corgi/dune-view-2.JPG",
+        "images/puppies/american-corgi/dune-view-3.JPG",
+        "images/puppies/american-corgi/dune-view-4.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (25 lbs)",
@@ -502,10 +517,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505019906_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505019906_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg",
-        "images/puppies/american-corgi/dawman-2.JPG",
-        "images/puppies/american-corgi/dawman-3.JPG",
-        "images/puppies/american-corgi/dawman-4.JPG"
+        "images/puppies/american-corgi/dawman-view-2.JPG",
+        "images/puppies/american-corgi/dawman-view-3.JPG",
+        "images/puppies/american-corgi/dawman-view-4.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (25 lbs)",
@@ -530,10 +545,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/504960872_medium.JPG",
       "gallery": [
         "images/puppies/corgi/504960872_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg",
-        "images/puppies/american-corgi/dekman-2.JPG",
-        "images/puppies/american-corgi/dekman-3.JPG",
-        "images/puppies/american-corgi/dekman-4.JPG"
+        "images/puppies/american-corgi/dekman-view-2.JPG",
+        "images/puppies/american-corgi/dekman-view-3.JPG",
+        "images/puppies/american-corgi/dekman-view-4.JPG",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (25 lbs)",
@@ -558,10 +573,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505032454_medium.jpg",
       "gallery": [
         "images/puppies/corgi/505032454_medium.jpg",
-        "images/puppies/corgi/502526496_large.jpg",
-        "images/puppies/american-corgi/simon-2.jpg",
-        "images/puppies/american-corgi/simon-3.jpg",
-        "images/puppies/american-corgi/simon-4.jpg"
+        "images/puppies/american-corgi/simon-view-2.jpg",
+        "images/puppies/american-corgi/simon-view-3.jpg",
+        "images/puppies/american-corgi/simon-view-4.jpg",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
@@ -586,10 +601,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/504955703_medium.jpg",
       "gallery": [
         "images/puppies/corgi/504955703_medium.jpg",
-        "images/puppies/corgi/502526496_large.jpg",
-        "images/puppies/american-corgi/silas-2.jpg",
-        "images/puppies/american-corgi/silas-3.jpg",
-        "images/puppies/american-corgi/silas-4.jpg"
+        "images/puppies/american-corgi/silas-view-2.jpg",
+        "images/puppies/american-corgi/silas-view-3.jpg",
+        "images/puppies/american-corgi/silas-view-4.jpg",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
@@ -614,10 +629,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505032440_medium.jpg",
       "gallery": [
         "images/puppies/corgi/505032440_medium.jpg",
-        "images/puppies/corgi/502526496_large.jpg",
-        "images/puppies/american-corgi/stettson-2.jpg",
-        "images/puppies/american-corgi/stettson-3.jpg",
-        "images/puppies/american-corgi/stettson-4.jpg"
+        "images/puppies/american-corgi/stettson-view-2.jpg",
+        "images/puppies/american-corgi/stettson-view-3.jpg",
+        "images/puppies/american-corgi/stettson-view-4.jpg",
+        "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
@@ -642,10 +657,10 @@ var SITE_DATA = {
       "image": "images/puppies/akita/journey-1.jpg",
       "gallery": [
         "images/puppies/akita/journey-1.jpg",
-        "images/puppies/akita/journey-2.jpg",
-        "images/puppies/akita/journey-3.jpg",
-        "images/puppies/akita/journey-4.jpg",
-        "images/puppies/akita/journey-5.jpg"
+        "images/puppies/akita/journey-view-2.jpg",
+        "images/puppies/akita/journey-view-3.jpg",
+        "images/puppies/akita/journey-view-4.jpg",
+        "images/puppies/akita/journey-2.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
       "momBreed": "Akita (75 lbs)",
@@ -670,9 +685,10 @@ var SITE_DATA = {
       "image": "images/puppies/akita/jaron-1.jpg",
       "gallery": [
         "images/puppies/akita/jaron-1.jpg",
-        "images/puppies/akita/jaron-2.jpg",
-        "images/puppies/akita/jaron-3.jpg",
-        "images/puppies/akita/jaron-4.jpg"
+        "images/puppies/akita/jaron-view-2.jpg",
+        "images/puppies/akita/jaron-view-3.jpg",
+        "images/puppies/akita/jaron-view-4.jpg",
+        "images/puppies/akita/jaron-2.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
       "momBreed": "Akita (75 lbs)",
@@ -1664,10 +1680,10 @@ var SITE_DATA = {
       "image": "images/puppies/barnaby/barnaby-real-1.jpg",
       "gallery": [
         "images/puppies/barnaby/barnaby-real-1.jpg",
-        "images/puppies/barnaby/barnaby-real-2.jpg",
-        "images/puppies/barnaby/barnaby-real-3.jpg",
-        "images/puppies/barnaby/barnaby-real-4.jpg",
-        "images/puppies/barnaby/barnaby-real-5.jpg"
+        "images/puppies/beagle/barnaby-view-2.jpg",
+        "images/puppies/beagle/barnaby-view-3.jpg",
+        "images/puppies/beagle/barnaby-view-4.jpg",
+        "images/puppies/barnaby/barnaby-real-2.jpg"
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",

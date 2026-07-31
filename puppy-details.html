@@ -276,7 +276,7 @@
   </a>
 
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=43"></script>
+  <script src="data/siteData.js?v=44"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -313,23 +313,20 @@
         // Thumbnails
         const thumbRow = document.getElementById('galleryThumbnails');
         thumbRow.innerHTML = '';
-        const gallery = puppy.gallery || [puppy.image];
-        if (gallery.length > 1) {
-          thumbRow.style.display = 'flex';
-          gallery.forEach((imgUrl, idx) => {
-            const thumb = document.createElement('img');
-            thumb.src = imgUrl;
-            thumb.className = 'thumb-img' + (idx === 0 ? ' active' : '');
-            thumb.onclick = function() {
-              mainImg.src = imgUrl;
-              document.querySelectorAll('.thumb-img').forEach(t => t.classList.remove('active'));
-              thumb.classList.add('active');
-            };
-            thumbRow.appendChild(thumb);
-          });
-        } else {
-          thumbRow.style.display = 'none';
-        }
+        const gallery = (puppy.gallery && puppy.gallery.length > 0) ? puppy.gallery : [puppy.image];
+        thumbRow.style.display = 'flex';
+        gallery.forEach((imgUrl, idx) => {
+          const thumb = document.createElement('img');
+          thumb.src = imgUrl;
+          thumb.className = 'thumb-img' + (idx === 0 ? ' active' : '');
+          thumb.alt = (puppy.name || 'Puppy') + ' preview photo ' + (idx + 1);
+          thumb.onclick = function() {
+            mainImg.src = imgUrl;
+            document.querySelectorAll('.thumb-img').forEach(t => t.classList.remove('active'));
+            thumb.classList.add('active');
+          };
+          thumbRow.appendChild(thumb);
+        });
 
         // Overview Text
         document.getElementById('puppyBreedTag').textContent = puppy.breed + (puppy.variety ? ' • ' + puppy.variety : '');
