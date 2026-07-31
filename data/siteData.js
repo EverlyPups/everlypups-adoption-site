@@ -1221,6 +1221,18 @@ const SITE_DATA = {
         "group": "Working",
         "image": "images/puppies/akita/journey-1.jpg",
         "popular": true
+    },
+    {
+        "id": 14,
+        "name": "American Corgi",
+        "slug": "american-corgi",
+        "group": "Herding",
+        "image": "https://photos.puppyspot.com/assets/breed-collections/2/breed-collection-hero-image/phpel2ks8kp88901bGaeHG6a3407c70d41e7.39092651.png",
+        "description": "Energetic, affectionate, and highly intelligent, American Corgis are beloved herding companions known for their short legs and big personalities.",
+        "popularityRank": "Top 15 Most Popular",
+        "lifespan": "12 - 15 years",
+        "adultWeight": "20 - 30 lbs",
+        "temperament": "Intelligent, Affectionate, Alert, Friendly"
     }
 ]
 };
