@@ -225,7 +225,7 @@ var SITE_DATA = {
       "status": "Ready by Aug. 20",
       "weight": "3.2 lbs",
       "estAdultWeight": "22 - 30 lbs",
-      "price": 2497,
+      "price": 2197,
       "hypoallergenic": false,
       "image": "images/puppies/american-corgi/505027610_medium.JPG",
       "gallery": [
@@ -252,7 +252,7 @@ var SITE_DATA = {
       "status": "Ready by Aug. 20",
       "weight": "3.5 lbs",
       "estAdultWeight": "22 - 30 lbs",
-      "price": 2497,
+      "price": 2197,
       "hypoallergenic": false,
       "image": "images/puppies/american-corgi/505027577_medium.JPG",
       "gallery": [
@@ -279,7 +279,7 @@ var SITE_DATA = {
       "status": "Ready by Aug. 20",
       "weight": "3.1 lbs",
       "estAdultWeight": "22 - 28 lbs",
-      "price": 2697,
+      "price": 2397,
       "hypoallergenic": false,
       "image": "images/puppies/american-corgi/505027598_medium.JPG",
       "gallery": [
@@ -306,7 +306,7 @@ var SITE_DATA = {
       "status": "Ready by Aug. 20",
       "weight": "3.3 lbs",
       "estAdultWeight": "22 - 30 lbs",
-      "price": 2497,
+      "price": 2197,
       "hypoallergenic": false,
       "image": "images/puppies/american-corgi/505027589_medium.JPG",
       "gallery": [
@@ -333,7 +333,7 @@ var SITE_DATA = {
       "status": "Ready to go home",
       "weight": "9.2 lbs",
       "estAdultWeight": "24 - 32 lbs",
-      "price": 2897,
+      "price": 2397,
       "hypoallergenic": false,
       "image": "images/puppies/american-corgi/505019933_medium.JPG",
       "gallery": [
@@ -360,7 +360,7 @@ var SITE_DATA = {
       "status": "Ready to go home",
       "weight": "9.5 lbs",
       "estAdultWeight": "24 - 32 lbs",
-      "price": 2897,
+      "price": 2397,
       "hypoallergenic": false,
       "image": "images/puppies/american-corgi/505019906_medium.JPG",
       "gallery": [
@@ -387,7 +387,7 @@ var SITE_DATA = {
       "status": "Ready to go home",
       "weight": "9.8 lbs",
       "estAdultWeight": "25 - 32 lbs",
-      "price": 2897,
+      "price": 2397,
       "hypoallergenic": false,
       "image": "images/puppies/american-corgi/504960872_medium.JPG",
       "gallery": [
@@ -414,7 +414,7 @@ var SITE_DATA = {
       "status": "Ready to go home",
       "weight": "5.4 lbs",
       "estAdultWeight": "22 - 30 lbs",
-      "price": 2497,
+      "price": 2297,
       "hypoallergenic": false,
       "image": "images/puppies/american-corgi/505032454_medium.jpg",
       "gallery": [
@@ -441,7 +441,7 @@ var SITE_DATA = {
       "status": "Ready to go home",
       "weight": "5.6 lbs",
       "estAdultWeight": "22 - 30 lbs",
-      "price": 2497,
+      "price": 2297,
       "hypoallergenic": false,
       "image": "images/puppies/american-corgi/504955703_medium.jpg",
       "gallery": [
@@ -468,7 +468,7 @@ var SITE_DATA = {
       "status": "Ready to go home",
       "weight": "5.5 lbs",
       "estAdultWeight": "22 - 30 lbs",
-      "price": 2497,
+      "price": 2297,
       "hypoallergenic": false,
       "image": "images/puppies/american-corgi/505032440_medium.jpg",
       "gallery": [
