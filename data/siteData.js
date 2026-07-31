@@ -241,7 +241,11 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504981039_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981039_medium.jpg"
+        "images/puppies/american-shepadoodle/504981039_medium.jpg",
+        "https://photos.puppyspot.com/8/listing/823648/photo/504981040_medium.jpg",
+        "https://photos.puppyspot.com/8/listing/823648/photo/504981041_medium.jpg",
+        "https://photos.puppyspot.com/8/listing/823648/photo/504981042_medium.jpg",
+        "https://photos.puppyspot.com/8/listing/823648/photo/504981043_medium.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -265,7 +269,11 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504981012_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981012_medium.jpg"
+        "images/puppies/american-shepadoodle/504981012_medium.jpg",
+        "https://photos.puppyspot.com/6/listing/823646/photo/504981013_medium.jpg",
+        "https://photos.puppyspot.com/6/listing/823646/photo/504981014_medium.jpg",
+        "https://photos.puppyspot.com/6/listing/823646/photo/504981015_medium.jpg",
+        "https://photos.puppyspot.com/6/listing/823646/photo/504981016_medium.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -289,7 +297,11 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504981053_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981053_medium.jpg"
+        "images/puppies/american-shepadoodle/504981053_medium.jpg",
+        "https://photos.puppyspot.com/9/listing/823649/photo/504981054_medium.jpg",
+        "https://photos.puppyspot.com/9/listing/823649/photo/504981055_medium.jpg",
+        "https://photos.puppyspot.com/9/listing/823649/photo/504981056_medium.jpg",
+        "https://photos.puppyspot.com/9/listing/823649/photo/504981057_medium.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -313,7 +325,11 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504972942_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504972942_medium.jpg"
+        "images/puppies/american-shepadoodle/504972942_medium.jpg",
+        "https://photos.puppyspot.com/8/listing/823438/photo/504972943_medium.jpg",
+        "https://photos.puppyspot.com/8/listing/823438/photo/504972944_medium.jpg",
+        "https://photos.puppyspot.com/8/listing/823438/photo/504972945_medium.jpg",
+        "https://photos.puppyspot.com/8/listing/823438/photo/504972946_medium.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
