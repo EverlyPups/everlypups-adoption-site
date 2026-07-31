@@ -239,13 +239,13 @@ var SITE_DATA = {
       "estAdultWeight": "45 - 70 lbs",
       "price": 2497,
       "hypoallergenic": true,
-      "image": "images/puppies/american-shepadoodle/caleb-studio-user-1.jpg",
+      "image": "images/puppies/american-shepadoodle/caleb-link-823648-504981041.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/caleb-studio-user-1.jpg",
-        "images/puppies/american-shepadoodle/caleb-studio-user-2.jpg",
-        "images/puppies/american-shepadoodle/caleb-studio-user-3.jpg",
-        "images/puppies/american-shepadoodle/caleb-studio-user-4.jpg",
-        "images/puppies/american-shepadoodle/caleb-studio-user-5.jpg"
+        "images/puppies/american-shepadoodle/caleb-link-823648-504981041.jpg",
+        "images/puppies/american-shepadoodle/caleb-link-823648-504981043.jpg",
+        "images/puppies/american-shepadoodle/caleb-link-823648-504981045.jpg",
+        "images/puppies/american-shepadoodle/caleb-link-823648-504981047.jpg",
+        "images/puppies/american-shepadoodle/caleb-link-823648-504981049.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
