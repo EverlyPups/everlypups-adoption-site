@@ -241,7 +241,10 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504981039_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981039_medium.jpg"
+        "images/puppies/american-shepadoodle/504981039_medium.jpg",
+        "images/puppies/american-shepadoodle/weston-2.jpg",
+        "images/puppies/american-shepadoodle/weston-3.jpg",
+        "images/puppies/american-shepadoodle/weston-4.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -265,7 +268,10 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504981012_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981012_medium.jpg"
+        "images/puppies/american-shepadoodle/504981012_medium.jpg",
+        "images/puppies/american-shepadoodle/ace-2.jpg",
+        "images/puppies/american-shepadoodle/ace-3.jpg",
+        "images/puppies/american-shepadoodle/ace-4.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -289,7 +295,10 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504981053_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504981053_medium.jpg"
+        "images/puppies/american-shepadoodle/504981053_medium.jpg",
+        "images/puppies/american-shepadoodle/molly-2.jpg",
+        "images/puppies/american-shepadoodle/molly-3.jpg",
+        "images/puppies/american-shepadoodle/molly-4.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -313,7 +322,10 @@ var SITE_DATA = {
       "hypoallergenic": true,
       "image": "images/puppies/american-shepadoodle/504972942_medium.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/504972942_medium.jpg"
+        "images/puppies/american-shepadoodle/504972942_medium.jpg",
+        "images/puppies/american-shepadoodle/trent-2.jpg",
+        "images/puppies/american-shepadoodle/trent-3.jpg",
+        "images/puppies/american-shepadoodle/trent-4.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "German Shepherd (65 lbs)",
@@ -338,7 +350,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505027610_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027610_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg"
+        "images/puppies/corgi/502526496_large.jpg",
+        "images/puppies/american-corgi/darcy-2.JPG",
+        "images/puppies/american-corgi/darcy-3.JPG",
+        "images/puppies/american-corgi/darcy-4.JPG"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
       "momBreed": "American Corgi (24 lbs)",
@@ -363,7 +378,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505027577_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027577_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg"
+        "images/puppies/corgi/502526496_large.jpg",
+        "images/puppies/american-corgi/dare-2.JPG",
+        "images/puppies/american-corgi/dare-3.JPG",
+        "images/puppies/american-corgi/dare-4.JPG"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
       "momBreed": "American Corgi (24 lbs)",
@@ -388,7 +406,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505027598_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027598_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg"
+        "images/puppies/corgi/502526496_large.jpg",
+        "images/puppies/american-corgi/daffy-2.JPG",
+        "images/puppies/american-corgi/daffy-3.JPG",
+        "images/puppies/american-corgi/daffy-4.JPG"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Line)",
       "momBreed": "American Corgi (23 lbs)",
@@ -413,7 +434,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505027589_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505027589_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg"
+        "images/puppies/corgi/502526496_large.jpg",
+        "images/puppies/american-corgi/dixie-2.JPG",
+        "images/puppies/american-corgi/dixie-3.JPG",
+        "images/puppies/american-corgi/dixie-4.JPG"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
@@ -438,7 +462,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505019933_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505019933_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg"
+        "images/puppies/corgi/502526496_large.jpg",
+        "images/puppies/american-corgi/dune-2.JPG",
+        "images/puppies/american-corgi/dune-3.JPG",
+        "images/puppies/american-corgi/dune-4.JPG"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (25 lbs)",
@@ -463,7 +490,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505019906_medium.JPG",
       "gallery": [
         "images/puppies/corgi/505019906_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg"
+        "images/puppies/corgi/502526496_large.jpg",
+        "images/puppies/american-corgi/dawman-2.JPG",
+        "images/puppies/american-corgi/dawman-3.JPG",
+        "images/puppies/american-corgi/dawman-4.JPG"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (25 lbs)",
@@ -488,7 +518,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/504960872_medium.JPG",
       "gallery": [
         "images/puppies/corgi/504960872_medium.JPG",
-        "images/puppies/corgi/502526496_large.jpg"
+        "images/puppies/corgi/502526496_large.jpg",
+        "images/puppies/american-corgi/dekman-2.JPG",
+        "images/puppies/american-corgi/dekman-3.JPG",
+        "images/puppies/american-corgi/dekman-4.JPG"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (25 lbs)",
@@ -513,7 +546,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505032454_medium.jpg",
       "gallery": [
         "images/puppies/corgi/505032454_medium.jpg",
-        "images/puppies/corgi/502526496_large.jpg"
+        "images/puppies/corgi/502526496_large.jpg",
+        "images/puppies/american-corgi/simon-2.jpg",
+        "images/puppies/american-corgi/simon-3.jpg",
+        "images/puppies/american-corgi/simon-4.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
@@ -538,7 +574,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/504955703_medium.jpg",
       "gallery": [
         "images/puppies/corgi/504955703_medium.jpg",
-        "images/puppies/corgi/502526496_large.jpg"
+        "images/puppies/corgi/502526496_large.jpg",
+        "images/puppies/american-corgi/silas-2.jpg",
+        "images/puppies/american-corgi/silas-3.jpg",
+        "images/puppies/american-corgi/silas-4.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
@@ -563,7 +602,10 @@ var SITE_DATA = {
       "image": "images/puppies/corgi/505032440_medium.jpg",
       "gallery": [
         "images/puppies/corgi/505032440_medium.jpg",
-        "images/puppies/corgi/502526496_large.jpg"
+        "images/puppies/corgi/502526496_large.jpg",
+        "images/puppies/american-corgi/stettson-2.jpg",
+        "images/puppies/american-corgi/stettson-3.jpg",
+        "images/puppies/american-corgi/stettson-4.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
       "momBreed": "American Corgi (24 lbs)",
