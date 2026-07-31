@@ -276,13 +276,23 @@
   </a>
 
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=47"></script>
+  <script src="data/siteData.js?v=50"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
-      const puppyId = parseInt(urlParams.get('id')) || 817786;
+      const paramId = parseInt(urlParams.get('id'));
+      const paramName = (urlParams.get('puppy') || urlParams.get('name') || '').toLowerCase();
 
-      const puppy = SITE_DATA.puppies.find(p => p.id === puppyId) || SITE_DATA.puppies[0];
+      let puppy = null;
+      if (!isNaN(paramId)) {
+        puppy = SITE_DATA.puppies.find(p => p.id === paramId);
+      }
+      if (!puppy && paramName) {
+        puppy = SITE_DATA.puppies.find(p => p.name.toLowerCase() === paramName);
+      }
+      if (!puppy) {
+        puppy = SITE_DATA.puppies[0];
+      }
 
       if (puppy) {
         // Dynamic Back Link to Breed Page
