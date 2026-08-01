@@ -159,7 +159,8 @@ var SITE_DATA = {
     },
     {
       "name": "Goldendoodle",
-      "group": "Hybrid"
+      "group": "Hybrid",
+      "image": "images/puppies/goldendoodle/goldendoodle-825526-hq-1.jpg"
     },
     {
       "name": "Bernedoodle",
@@ -1808,12 +1809,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825526-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825526-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825526-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825526-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825526-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825526-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825526-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825526-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825526-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825526-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -1835,12 +1836,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2549,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825147-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825147-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825147-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825147-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825147-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825147-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825147-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825147-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825147-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825147-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -1862,12 +1863,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2749,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825688-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825688-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825688-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825688-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825688-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825688-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825688-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825688-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825688-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825688-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -1889,12 +1890,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2549,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-819457-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-819457-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-819457-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819457-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819457-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819457-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-819457-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819457-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819457-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819457-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -1916,12 +1917,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825694-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825694-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825694-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825694-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825694-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825694-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825694-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825694-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825694-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825694-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -1943,12 +1944,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824186-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824186-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824186-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824186-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824186-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824186-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824186-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824186-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824186-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824186-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -1970,12 +1971,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2499,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-822307-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-822307-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-822307-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822307-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822307-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822307-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-822307-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822307-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822307-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822307-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -1997,12 +1998,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3049,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824308-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824308-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824308-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824308-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824308-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824308-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824308-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824308-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824308-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824308-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2024,12 +2025,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3049,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824312-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824312-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824312-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824312-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824312-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824312-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824312-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824312-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824312-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824312-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2051,12 +2052,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2449,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-822066-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-822066-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-822066-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822066-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822066-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822066-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-822066-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822066-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822066-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822066-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2078,12 +2079,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2449,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-822180-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-822180-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-822180-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822180-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822180-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822180-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-822180-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822180-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822180-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822180-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2105,12 +2106,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2449,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-822179-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-822179-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-822179-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822179-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822179-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822179-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-822179-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822179-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822179-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822179-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2132,12 +2133,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 4799,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824023-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824023-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824023-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824023-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824023-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824023-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824023-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824023-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824023-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824023-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2159,12 +2160,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2499,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-821041-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-821041-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-821041-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821041-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821041-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821041-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-821041-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821041-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821041-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821041-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2186,12 +2187,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3199,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823929-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823929-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823929-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823929-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823929-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823929-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823929-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823929-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823929-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823929-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2213,12 +2214,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824888-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824888-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824888-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824888-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824888-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824888-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824888-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824888-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824888-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824888-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2240,12 +2241,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2449,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-822069-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-822069-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-822069-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822069-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822069-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822069-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-822069-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822069-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822069-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822069-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2267,12 +2268,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2799,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825007-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825007-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825007-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825007-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825007-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825007-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825007-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825007-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825007-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825007-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2294,12 +2295,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2549,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-819451-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-819451-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-819451-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819451-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819451-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819451-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-819451-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819451-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819451-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819451-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2321,12 +2322,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2649,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-822991-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-822991-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-822991-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822991-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822991-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822991-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-822991-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822991-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822991-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822991-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2348,12 +2349,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2549,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-820791-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-820791-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-820791-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820791-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820791-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820791-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-820791-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820791-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820791-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820791-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2375,12 +2376,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3049,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824310-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824310-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824310-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824310-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824310-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824310-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824310-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824310-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824310-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824310-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2402,12 +2403,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825691-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825691-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825691-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825691-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825691-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825691-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825691-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825691-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825691-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825691-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2429,12 +2430,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825136-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825136-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825136-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825136-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825136-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825136-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825136-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825136-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825136-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825136-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2456,12 +2457,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824220-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824220-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824220-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824220-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824220-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824220-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824220-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824220-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824220-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824220-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2483,12 +2484,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2449,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-822067-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-822067-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-822067-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822067-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822067-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822067-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-822067-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822067-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822067-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822067-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2510,12 +2511,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2999,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823388-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823388-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823388-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823388-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823388-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823388-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823388-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823388-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823388-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823388-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2537,12 +2538,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825571-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825571-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825571-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825571-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825571-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825571-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825571-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825571-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825571-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825571-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2564,12 +2565,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825521-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825521-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825521-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825521-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825521-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825521-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825521-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825521-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825521-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825521-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2591,12 +2592,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2799,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825137-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825137-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825137-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825137-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825137-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825137-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825137-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825137-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825137-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825137-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2618,12 +2619,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2749,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-822277-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-822277-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-822277-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822277-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822277-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822277-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-822277-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822277-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822277-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822277-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2645,12 +2646,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-818432-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-818432-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-818432-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-818432-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-818432-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-818432-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-818432-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-818432-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-818432-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-818432-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2672,12 +2673,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2799,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823285-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823285-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823285-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823285-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823285-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823285-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823285-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823285-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823285-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823285-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2699,12 +2700,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824225-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824225-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824225-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824225-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824225-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824225-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824225-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824225-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824225-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824225-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2726,12 +2727,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2999,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823387-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823387-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823387-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823387-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823387-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823387-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823387-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823387-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823387-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823387-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2753,12 +2754,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825689-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825689-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825689-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825689-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825689-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825689-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825689-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825689-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825689-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825689-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2780,12 +2781,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824889-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824889-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824889-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824889-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824889-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824889-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824889-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824889-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824889-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824889-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2807,12 +2808,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824193-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824193-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824193-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824193-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824193-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824193-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824193-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824193-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824193-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824193-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2834,12 +2835,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825569-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825569-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825569-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825569-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825569-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825569-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825569-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825569-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825569-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825569-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2861,12 +2862,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2799,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823283-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823283-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823283-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823283-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823283-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823283-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823283-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823283-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823283-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823283-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2888,12 +2889,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824185-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824185-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824185-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824185-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824185-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824185-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824185-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824185-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824185-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824185-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2915,12 +2916,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2799,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825005-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825005-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825005-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825005-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825005-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825005-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825005-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825005-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825005-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825005-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2942,12 +2943,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3049,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824317-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824317-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824317-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824317-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824317-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824317-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824317-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824317-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824317-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824317-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2969,12 +2970,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2649,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-821289-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-821289-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-821289-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821289-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821289-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821289-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-821289-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821289-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821289-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821289-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -2996,12 +2997,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824221-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824221-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824221-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824221-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824221-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824221-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824221-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824221-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824221-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824221-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3023,12 +3024,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2799,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823296-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823296-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823296-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823296-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823296-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823296-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823296-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823296-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823296-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823296-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3050,12 +3051,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825570-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825570-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825570-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825570-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825570-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825570-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825570-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825570-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825570-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825570-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3077,12 +3078,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2499,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-821039-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-821039-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-821039-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821039-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821039-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821039-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-821039-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821039-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821039-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821039-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3104,12 +3105,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824920-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824920-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824920-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824920-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824920-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824920-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824920-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824920-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824920-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824920-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3131,12 +3132,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2349,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-819406-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-819406-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-819406-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819406-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819406-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819406-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-819406-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819406-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819406-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819406-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3158,12 +3159,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2449,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823220-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823220-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823220-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823220-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823220-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823220-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823220-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823220-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823220-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823220-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3185,12 +3186,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2649,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-825476-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-825476-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-825476-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825476-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825476-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-825476-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-825476-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825476-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825476-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-825476-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3212,12 +3213,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-821807-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-821807-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-821807-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821807-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821807-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-821807-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-821807-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821807-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821807-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-821807-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3239,12 +3240,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3299,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824274-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824274-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824274-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824274-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824274-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824274-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824274-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824274-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824274-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824274-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3266,12 +3267,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3299,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824272-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824272-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824272-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824272-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824272-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824272-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824272-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824272-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824272-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824272-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3293,12 +3294,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3749,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824278-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824278-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824278-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824278-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824278-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824278-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824278-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824278-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824278-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824278-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3320,12 +3321,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2549,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824004-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824004-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824004-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824004-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824004-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824004-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824004-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824004-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824004-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824004-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3347,12 +3348,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2549,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824000-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824000-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824000-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824000-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824000-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824000-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824000-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824000-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824000-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824000-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3374,12 +3375,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2349,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-819338-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-819338-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-819338-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819338-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819338-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-819338-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-819338-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819338-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819338-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-819338-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3401,12 +3402,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2449,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-822463-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-822463-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-822463-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822463-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822463-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-822463-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-822463-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822463-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822463-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-822463-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3428,12 +3429,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2649,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823830-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823830-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823830-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823830-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823830-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823830-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823830-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823830-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823830-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823830-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3455,12 +3456,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2449,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-824697-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-824697-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-824697-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824697-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824697-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-824697-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-824697-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824697-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824697-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-824697-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3482,12 +3483,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2549,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-820636-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-820636-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-820636-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820636-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820636-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820636-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-820636-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820636-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820636-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820636-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3509,12 +3510,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2549,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-820756-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-820756-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-820756-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820756-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820756-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820756-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-820756-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820756-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820756-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820756-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3536,12 +3537,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3599,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823986-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823986-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823986-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823986-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823986-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823986-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823986-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823986-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823986-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823986-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3563,12 +3564,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2649,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823827-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823827-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823827-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823827-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823827-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823827-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823827-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823827-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823827-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823827-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3590,12 +3591,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2649,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-820751-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-820751-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-820751-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820751-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820751-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-820751-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-820751-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820751-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820751-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-820751-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3617,12 +3618,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3449,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823977-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823977-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823977-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823977-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823977-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823977-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823977-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823977-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823977-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823977-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3644,12 +3645,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823669-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823669-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823669-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823669-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823669-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823669-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823669-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823669-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823669-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823669-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
@@ -3671,12 +3672,12 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-823672-photo-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-823672-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-823672-photo-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823672-photo-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823672-photo-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-823672-photo-4.jpg"
+        "images/puppies/goldendoodle/goldendoodle-823672-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823672-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823672-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-823672-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
