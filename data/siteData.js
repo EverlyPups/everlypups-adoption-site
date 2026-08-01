@@ -248,10 +248,10 @@ var SITE_DATA = {
         "images/puppies/american-shepadoodle/caleb-link-823648-504981049.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "German Shepherd (65 lbs)",
-      "dadBreed": "Standard Poodle (60 lbs)",
+      "momBreed": "Miniature American Shepherd",
+      "dadBreed": "Poodle",
       "microchip": "98514100823648",
-      "description": "Meet Caleb! Caleb is a charming Black & Tan Male American Shepadoodle puppy wearing a sparkling blue bow tie. Raised with early neurological stimulation, he has a gentle, curious nature and loves family cuddles."
+      "description": "Meet Caleb! Caleb is a charming American Shepadoodle puppy (Mom: Miniature American Shepherd, Dad: Poodle). Raised with early neurological stimulation by a USDA Certified Star Breeder, he has a gentle, curious nature and loves family cuddles."
     },
     {
       "id": 823645,
