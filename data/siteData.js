@@ -1832,13 +1832,13 @@ var SITE_DATA = {
       "estAdultWeight": "20 - 30 lbs",
       "price": 2449,
       "hypoallergenic": false,
-      "image": "images/puppies/auggie/jonny-user-exact-1.jpg",
+      "image": "images/puppies/auggie/jonny-link-hq-1.jpg",
       "gallery": [
-        "images/puppies/auggie/jonny-user-exact-1.jpg",
-        "images/puppies/auggie/jonny-user-exact-2.jpg",
-        "images/puppies/auggie/jonny-user-exact-3.jpg",
-        "images/puppies/auggie/jonny-user-exact-4.jpg",
-        "images/puppies/auggie/jonny-user-exact-5.jpg"
+        "images/puppies/auggie/jonny-link-hq-1.jpg",
+        "images/puppies/auggie/jonny-link-hq-2.jpg",
+        "images/puppies/auggie/jonny-link-hq-3.jpg",
+        "images/puppies/auggie/jonny-link-hq-4.jpg",
+        "images/puppies/auggie/jonny-link-hq-5.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Pembroke Welsh Corgi (25 lbs)",
