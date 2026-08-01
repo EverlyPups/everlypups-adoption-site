@@ -1859,12 +1859,12 @@ var SITE_DATA = {
       "estAdultWeight": "20 - 30 lbs",
       "price": 1999,
       "hypoallergenic": false,
-      "image": "images/puppies/auggie/jenna-hq-1.jpg",
+      "image": "images/puppies/auggie/jenna-auggie-folder-hq-1.jpg",
       "gallery": [
-        "images/puppies/auggie/jenna-hq-1.jpg",
-        "images/puppies/auggie/jenna-hq-2.jpg",
-        "images/puppies/auggie/jenna-hq-3.jpg",
-        "images/puppies/auggie/jenna-hq-4.jpg"
+        "images/puppies/auggie/jenna-auggie-folder-hq-1.jpg",
+        "images/puppies/auggie/jenna-auggie-folder-hq-2.jpg",
+        "images/puppies/auggie/jenna-auggie-folder-hq-3.jpg",
+        "images/puppies/auggie/jenna-auggie-folder-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Pembroke Welsh Corgi (25 lbs)",
