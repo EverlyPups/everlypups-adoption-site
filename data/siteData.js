@@ -315,7 +315,7 @@ var SITE_DATA = {
       "breedGroup": "Hybrid / Working",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 4, 2026",
+      "birthday": "May 30, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "6.8 lbs",
@@ -323,16 +323,16 @@ var SITE_DATA = {
       "price": 2697,
       "hypoallergenic": true,
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "German Shepherd (65 lbs)",
-      "dadBreed": "Standard Poodle (60 lbs)",
+      "momBreed": "Miniature American Shepherd",
+      "dadBreed": "Poodle",
       "microchip": "98514100823649",
-      "description": "Meet Molly! Molly is a sweet Female American Shepadoodle puppy with an affectionate personality and plush coat. Great with kids and active families, Molly is 100% health checked.",
-      "image": "images/puppies/american-shepadoodle/molly-large-504981053.jpg",
+      "description": "Meet Molly! Molly is a sweet Female American Shepadoodle puppy born on May 30, 2026. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Molly has a loving personality, plush black & tan coat, and loves family cuddles.",
+      "image": "images/puppies/american-shepadoodle/molly-real-cdn-504981053.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/molly-large-504981053.jpg",
-        "images/puppies/american-shepadoodle/molly-large-504981053.jpg",
-        "images/puppies/american-shepadoodle/molly-large-504981053.jpg",
-        "images/puppies/american-shepadoodle/molly-large-504981053.jpg"
+        "images/puppies/american-shepadoodle/molly-real-cdn-504981053.jpg",
+        "images/puppies/american-shepadoodle/molly-real-cdn-504981055.jpg",
+        "images/puppies/american-shepadoodle/molly-real-cdn-504981057.jpg",
+        "images/puppies/american-shepadoodle/molly-real-cdn-504981059.jpg"
       ]
     },
     {
