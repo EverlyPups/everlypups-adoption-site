@@ -272,10 +272,10 @@ var SITE_DATA = {
       "dadBreed": "Poodle",
       "microchip": "98514100823645",
       "description": "Meet Weston! Weston is a handsome, intelligent Male American Shepadoodle puppy with a velvety brown coat and teal ribbon accent. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Weston combines high intelligence with a loyal and affectionate nature.",
-      "image": "images/puppies/american-shepadoodle/weston-highres-1.jpg",
+      "image": "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/weston-highres-1.jpg",
-        "images/puppies/american-shepadoodle/weston-highres-2.jpg",
+        "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
+        "images/puppies/american-shepadoodle/weston-large-504981003.jpg",
         "images/puppies/american-shepadoodle/weston-highres-3.jpg",
         "images/puppies/american-shepadoodle/weston-highres-4.jpg"
       ]
