@@ -299,12 +299,13 @@ var SITE_DATA = {
       "dadBreed": "Poodle",
       "microchip": "98514100823646",
       "description": "Meet Ace! Ace is a friendly, athletic Black & Tan Male American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Ace is playful, loving, and quick to learn. Fully vet-checked and microchipped.",
-      "image": "images/puppies/american-shepadoodle/ace-large-504981012.jpg",
+      "image": "images/puppies/american-shepadoodle/ace-real-cdn-504981012.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/ace-large-504981012.jpg",
-        "images/puppies/american-shepadoodle/ace-large-504981014.jpg",
-        "images/puppies/american-shepadoodle/ace-highres-studio-3.jpg",
-        "images/puppies/american-shepadoodle/ace-highres-studio-4.jpg"
+        "images/puppies/american-shepadoodle/ace-real-cdn-504981012.jpg",
+        "images/puppies/american-shepadoodle/ace-real-cdn-504981014.jpg",
+        "images/puppies/american-shepadoodle/ace-real-cdn-504981016.jpg",
+        "images/puppies/american-shepadoodle/ace-real-cdn-504981018.jpg",
+        "images/puppies/american-shepadoodle/ace-real-cdn-504981022.jpg"
       ]
     },
     {

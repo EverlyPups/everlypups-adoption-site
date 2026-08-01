@@ -3267,14 +3267,17 @@ img, video {
 }
 
 .thumb-img {
-  width: 90px !important;
+  width: 80px !important;
   height: 80px !important;
-  border-radius: 16px !important;
+  aspect-ratio: 1 / 1 !important;
+  border-radius: 14px !important;
   object-fit: cover !important;
+  object-position: center !important;
   cursor: pointer !important;
   border: 2.5px solid transparent !important;
   transition: all 0.25s ease !important;
   background: #FFFFFF !important;
+  flex-shrink: 0 !important;
 }
 
 .thumb-img.active,
@@ -3337,105 +3340,6 @@ img, video {
   line-height: 1.25 !important;
   white-space: normal !important;
   text-align: center !important;
-}
-
-/* Video Play Button Overlay on Details Page */
-.detail-play-video-btn {
-  position: absolute !important;
-  bottom: 1.2rem !important;
-  right: 1.2rem !important;
-  background: rgba(0, 182, 122, 0.95) !important;
-  backdrop-filter: blur(8px) !important;
-  color: #FFFFFF !important;
-  border: none !important;
-  padding: 0.65rem 1.25rem !important;
-  border-radius: 50px !important;
-  font-size: 0.88rem !important;
-  font-weight: 800 !important;
-  cursor: pointer !important;
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.5rem !important;
-  box-shadow: 0 8px 24px rgba(0, 182, 122, 0.4) !important;
-  transition: transform 0.25s ease, background 0.25s ease !important;
-  z-index: 10 !important;
-}
-
-.detail-play-video-btn:hover {
-  transform: scale(1.05) !important;
-  background: #009E68 !important;
-}
-
-/* Interactive Puppy Video Modal */
-.puppy-video-modal-backdrop {
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100vw !important;
-  height: 100vh !important;
-  background: rgba(1, 43, 58, 0.85) !important;
-  backdrop-filter: blur(10px) !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  z-index: 999999 !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-  transition: opacity 0.3s ease !important;
-}
-
-.puppy-video-modal-backdrop.active {
-  opacity: 1 !important;
-  pointer-events: auto !important;
-}
-
-.puppy-video-modal-card {
-  position: relative !important;
-  width: 90% !important;
-  max-width: 720px !important;
-  background: #012B3A !important;
-  border-radius: 28px !important;
-  overflow: hidden !important;
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4) !important;
-  border: 1px solid rgba(255, 255, 255, 0.1) !important;
-  padding: 1rem !important;
-}
-
-.puppy-video-modal-close {
-  position: absolute !important;
-  top: 1rem !important;
-  right: 1.2rem !important;
-  background: rgba(255, 255, 255, 0.15) !important;
-  color: #FFFFFF !important;
-  border: none !important;
-  width: 38px !important;
-  height: 38px !important;
-  border-radius: 50% !important;
-  font-size: 1.5rem !important;
-  cursor: pointer !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  z-index: 20 !important;
-  transition: background 0.2s ease !important;
-}
-
-.puppy-video-modal-close:hover {
-  background: rgba(255, 92, 92, 0.9) !important;
-}
-
-.puppy-video-player-frame {
-  width: 100% !important;
-  border-radius: 20px !important;
-  overflow: hidden !important;
-  background: #000000 !important;
-  aspect-ratio: 16 / 9 !important;
-}
-
-.puppy-modal-video-element {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
 }
 
 /* Info Column */
