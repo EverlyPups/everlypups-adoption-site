@@ -354,12 +354,12 @@ var SITE_DATA = {
       "dadBreed": "Poodle",
       "microchip": "98514100823438",
       "description": "Meet Trent! Trent is a handsome Male American Shepadoodle puppy born on May 30, 2026. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Trent is calm, confident, and eager to bring joy to his forever home.",
-      "image": "images/puppies/american-shepadoodle/trent-large-504972942.jpg",
+      "image": "images/puppies/american-shepadoodle/trent-hq-1.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/trent-large-504972942.jpg",
-        "images/puppies/american-shepadoodle/trent-real-cdn-504972938.jpg",
-        "images/puppies/american-shepadoodle/trent-thumb-2.jpg",
-        "images/puppies/american-shepadoodle/trent-thumb-3.jpg"
+        "images/puppies/american-shepadoodle/trent-hq-1.jpg",
+        "images/puppies/american-shepadoodle/trent-hq-2.jpg",
+        "images/puppies/american-shepadoodle/trent-hq-3.jpg",
+        "images/puppies/american-shepadoodle/trent-hq-4.jpg"
       ]
     },
     {
