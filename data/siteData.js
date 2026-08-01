@@ -341,8 +341,8 @@ var SITE_DATA = {
       "breed": "American Shepadoodle",
       "breedGroup": "Hybrid / Working",
       "gender": "Male",
-      "age": "12 weeks",
-      "birthday": "May 7, 2026",
+      "age": "8 weeks",
+      "birthday": "May 30, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "12.4 lbs",
@@ -350,16 +350,16 @@ var SITE_DATA = {
       "price": 2897,
       "hypoallergenic": true,
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "German Shepherd (65 lbs)",
-      "dadBreed": "Standard Poodle (60 lbs)",
+      "momBreed": "Miniature American Shepherd",
+      "dadBreed": "Poodle",
       "microchip": "98514100823438",
-      "description": "Meet Trent! Trent is a loyal Male American Shepadoodle puppy who is calm, confident, and eager to please. Microchipped, up to date on all shots, and ready for adventure!",
+      "description": "Meet Trent! Trent is a handsome Male American Shepadoodle puppy born on May 30, 2026. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Trent is calm, confident, and eager to bring joy to his forever home.",
       "image": "images/puppies/american-shepadoodle/trent-large-504972942.jpg",
       "gallery": [
         "images/puppies/american-shepadoodle/trent-large-504972942.jpg",
-        "images/puppies/american-shepadoodle/trent-large-504972942.jpg",
-        "images/puppies/american-shepadoodle/trent-large-504972942.jpg",
-        "images/puppies/american-shepadoodle/trent-large-504972942.jpg"
+        "images/puppies/american-shepadoodle/trent-real-cdn-504972938.jpg",
+        "images/puppies/american-shepadoodle/trent-thumb-2.jpg",
+        "images/puppies/american-shepadoodle/trent-thumb-3.jpg"
       ]
     },
     {
