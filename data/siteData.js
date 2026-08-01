@@ -295,16 +295,16 @@ var SITE_DATA = {
       "price": 2497,
       "hypoallergenic": true,
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "German Shepherd (65 lbs)",
-      "dadBreed": "Standard Poodle (60 lbs)",
+      "momBreed": "Miniature American Shepherd",
+      "dadBreed": "Poodle",
       "microchip": "98514100823646",
-      "description": "Meet Ace! Ace is a friendly, athletic Male American Shepadoodle puppy. Playful, loving, and quick to learn, Ace is eager to bring warmth and joy to a loving home. Fully vet-checked and microchipped.",
+      "description": "Meet Ace! Ace is a friendly, athletic Black & Tan Male American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Ace is playful, loving, and quick to learn. Fully vet-checked and microchipped.",
       "image": "images/puppies/american-shepadoodle/ace-large-504981012.jpg",
       "gallery": [
         "images/puppies/american-shepadoodle/ace-large-504981012.jpg",
         "images/puppies/american-shepadoodle/ace-large-504981014.jpg",
-        "images/puppies/american-shepadoodle/ace-large-504981012.jpg",
-        "images/puppies/american-shepadoodle/ace-large-504981012.jpg"
+        "images/puppies/american-shepadoodle/ace-highres-studio-3.jpg",
+        "images/puppies/american-shepadoodle/ace-highres-studio-4.jpg"
       ]
     },
     {
