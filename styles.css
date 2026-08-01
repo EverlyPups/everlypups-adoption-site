@@ -3211,7 +3211,8 @@ img, video {
   max-width: 100% !important;
 }
 
-.main-image-frame {
+.main-image-frame,
+.main-image-card {
   position: relative !important;
   width: 485px !important;
   height: 485px !important;
@@ -3224,11 +3225,14 @@ img, video {
   border: 1px solid rgba(0, 0, 0, 0.06) !important;
 }
 
-.main-puppy-img {
-  width: 485px !important;
-  height: 485px !important;
+.main-puppy-img,
+.main-puppy-image {
+  width: 100% !important;
+  height: 100% !important;
   max-width: 100% !important;
+  aspect-ratio: 1 / 1 !important;
   object-fit: cover !important;
+  object-position: center !important;
   transition: transform 0.4s ease !important;
 }
 
