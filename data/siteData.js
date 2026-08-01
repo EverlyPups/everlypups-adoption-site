@@ -268,10 +268,10 @@ var SITE_DATA = {
       "price": 2497,
       "hypoallergenic": true,
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "Sasha - German Shepherd (65 lbs)",
-      "dadBreed": "Duke - Standard Poodle (60 lbs)",
+      "momBreed": "Miniature American Shepherd",
+      "dadBreed": "Poodle",
       "microchip": "98514100823645",
-      "description": "Meet Weston! Weston is a handsome, intelligent Male American Shepadoodle puppy with a velvety brown coat and teal ribbon accent. Born to Mom Sasha (German Shepherd, 65 lbs) and Dad Duke (Standard Poodle, 60 lbs), Weston combines the high intelligence of a Poodle with the loyalty and protective instinct of a German Shepherd.",
+      "description": "Meet Weston! Weston is a handsome, intelligent Male American Shepadoodle puppy with a velvety brown coat and teal ribbon accent. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Weston combines high intelligence with a loyal and affectionate nature.",
       "image": "images/puppies/american-shepadoodle/weston-highres-1.jpg",
       "gallery": [
         "images/puppies/american-shepadoodle/weston-highres-1.jpg",
