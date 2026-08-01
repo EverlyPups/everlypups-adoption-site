@@ -1832,12 +1832,12 @@ var SITE_DATA = {
       "estAdultWeight": "20 - 30 lbs",
       "price": 2449,
       "hypoallergenic": false,
-      "image": "images/puppies/auggie/jonny-real-hq-1.jpg",
+      "image": "images/puppies/auggie/jonny-clean-1.jpg",
       "gallery": [
-        "images/puppies/auggie/jonny-real-hq-1.jpg",
-        "images/puppies/auggie/jonny-real-hq-2.jpg",
-        "images/puppies/auggie/jonny-real-hq-3.jpg",
-        "images/puppies/auggie/jonny-real-hq-4.jpg"
+        "images/puppies/auggie/jonny-clean-1.jpg",
+        "images/puppies/auggie/jonny-clean-2.jpg",
+        "images/puppies/auggie/jonny-clean-3.jpg",
+        "images/puppies/auggie/jonny-clean-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Pembroke Welsh Corgi (25 lbs)",
