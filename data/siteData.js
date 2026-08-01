@@ -972,32 +972,6 @@ var SITE_DATA = {
       "description": "Meet Helen! A sweet, playful Golden Retriever puppy looking for a loving forever family. Helen is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
     },
     {
-      "id": 821505,
-      "name": "Sully",
-      "breed": "Goldendoodle",
-      "breedGroup": "Hybrid",
-      "gender": "Male",
-      "age": "10 weeks",
-      "birthday": "May 2026",
-      "color": "Classic",
-      "status": "Ready to go home",
-      "weight": "3.0 lbs",
-      "estAdultWeight": "8 - 16 lbs",
-      "price": 2300,
-      "hypoallergenic": true,
-      "image": "https://photos.puppyspot.com/5/listing/821505/photo/505027957_medium.JPG",
-      "gallery": [
-        "https://photos.puppyspot.com/5/listing/821505/photo/505027957_medium.JPG",
-        "https://photos.puppyspot.com/0/listing/822590/photo/505019391_medium.JPG"
-      ],
-      "location": "Seattle, WA",
-      "breeder": "USDA Certified Star Breeder Network",
-      "momBreed": "Goldendoodle (Mom)",
-      "dadBreed": "Goldendoodle (Dad)",
-      "microchip": "98514100821505",
-      "description": "Meet Sully! A sweet, playful Goldendoodle puppy looking for a loving forever family. Sully is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
-    },
-    {
       "id": 820864,
       "name": "Patrick",
       "breed": "Dachshund",
@@ -1152,32 +1126,6 @@ var SITE_DATA = {
       "dadBreed": "Bernedoodle (Dad)",
       "microchip": "98514100822210",
       "description": "Meet Candrew! A sweet, playful Bernedoodle puppy looking for a loving forever family. Candrew is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
-    },
-    {
-      "id": 824881,
-      "name": "Ricky",
-      "breed": "Goldendoodle",
-      "breedGroup": "Hybrid",
-      "gender": "Male",
-      "age": "4 weeks",
-      "birthday": "May 2026",
-      "color": "Classic",
-      "status": "Ready by Aug. 21",
-      "weight": "4.6 lbs",
-      "estAdultWeight": "8 - 16 lbs",
-      "price": 2895,
-      "hypoallergenic": true,
-      "image": "https://photos.puppyspot.com/1/listing/824881/photo/505026392_medium.JPG",
-      "gallery": [
-        "https://photos.puppyspot.com/1/listing/824881/photo/505026392_medium.JPG",
-        "https://photos.puppyspot.com/0/listing/822590/photo/505019391_medium.JPG"
-      ],
-      "location": "Atlanta, GA",
-      "breeder": "USDA Certified Star Breeder Network",
-      "momBreed": "Goldendoodle (Mom)",
-      "dadBreed": "Goldendoodle (Dad)",
-      "microchip": "98514100824881",
-      "description": "Meet Ricky! A sweet, playful Goldendoodle puppy looking for a loving forever family. Ricky is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
     },
     {
       "id": 821177,
@@ -1386,32 +1334,6 @@ var SITE_DATA = {
       "dadBreed": "Labradoodle (Dad)",
       "microchip": "98514100824399",
       "description": "Meet Nicki! A sweet, playful Labradoodle puppy looking for a loving forever family. Nicki is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
-    },
-    {
-      "id": 818432,
-      "name": "Jordan",
-      "breed": "Goldendoodle",
-      "breedGroup": "Hybrid",
-      "gender": "Male",
-      "age": "15 weeks",
-      "birthday": "May 2026",
-      "color": "Classic",
-      "status": "Ready to go home",
-      "weight": "3.8 lbs",
-      "estAdultWeight": "8 - 16 lbs",
-      "price": 1860,
-      "hypoallergenic": true,
-      "image": "https://photos.puppyspot.com/2/listing/818432/photo/505008689_medium.JPG",
-      "gallery": [
-        "https://photos.puppyspot.com/2/listing/818432/photo/505008689_medium.JPG",
-        "https://photos.puppyspot.com/0/listing/822590/photo/505019391_medium.JPG"
-      ],
-      "location": "Chicago, IL",
-      "breeder": "USDA Certified Star Breeder Network",
-      "momBreed": "Goldendoodle (Mom)",
-      "dadBreed": "Goldendoodle (Dad)",
-      "microchip": "98514100818432",
-      "description": "Meet Jordan! A sweet, playful Goldendoodle puppy looking for a loving forever family. Jordan is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
     },
     {
       "id": 824997,
@@ -1871,6 +1793,114 @@ var SITE_DATA = {
       "dadBreed": "Miniature Australian Shepherd (30 lbs)",
       "microchip": "98514100819728",
       "description": "Meet Jenna! Jenna is a sweet Female Auggie puppy born on March 9, 2026. Sourced directly from premier USDA certified breeders, Jenna is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+    },
+    {
+      "id": 824039,
+      "name": "Sophie",
+      "breed": "Goldendoodle",
+      "breedGroup": "Hybrid / Designer",
+      "gender": "Female",
+      "age": "8 weeks",
+      "birthday": "May 30, 2026",
+      "color": "Dark Apricot Velvet",
+      "status": "Ready to go home",
+      "weight": "6.4 lbs",
+      "estAdultWeight": "25 - 35 lbs",
+      "price": 2649,
+      "hypoallergenic": true,
+      "image": "images/puppies/goldendoodle/sophie-hq-studio-1.jpg",
+      "gallery": [
+        "images/puppies/goldendoodle/sophie-hq-studio-1.jpg",
+        "images/puppies/goldendoodle/sophie-hq-studio-2.jpg",
+        "images/puppies/goldendoodle/sophie-hq-studio-1.jpg",
+        "images/puppies/goldendoodle/sophie-hq-studio-1.jpg"
+      ],
+      "breeder": "USDA Certified Premier Breeder",
+      "momBreed": "Golden Retriever (55 lbs)",
+      "dadBreed": "Standard Poodle (45 lbs)",
+      "microchip": "98514100824039",
+      "description": "Meet Sophie! Sophie is a gorgeous Female Goldendoodle puppy born on May 30, 2026. Sourced directly from premier USDA certified breeders, Sophie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+    },
+    {
+      "id": 819194,
+      "name": "Jazz",
+      "breed": "Goldendoodle",
+      "breedGroup": "Hybrid / Designer",
+      "gender": "Female",
+      "age": "8 weeks",
+      "birthday": "May 30, 2026",
+      "color": "Sable Gold & Tan",
+      "status": "Ready to go home",
+      "weight": "6.7 lbs",
+      "estAdultWeight": "25 - 35 lbs",
+      "price": 2549,
+      "hypoallergenic": true,
+      "image": "images/puppies/goldendoodle/jazz-hq-studio-1.jpg",
+      "gallery": [
+        "images/puppies/goldendoodle/jazz-hq-studio-1.jpg",
+        "images/puppies/goldendoodle/jazz-hq-studio-2.jpg",
+        "images/puppies/goldendoodle/jazz-hq-studio-1.jpg",
+        "images/puppies/goldendoodle/jazz-hq-studio-1.jpg"
+      ],
+      "breeder": "USDA Certified Premier Breeder",
+      "momBreed": "Golden Retriever (55 lbs)",
+      "dadBreed": "Standard Poodle (45 lbs)",
+      "microchip": "98514100819194",
+      "description": "Meet Jazz! Jazz is a gorgeous Female Goldendoodle puppy born on May 30, 2026. Sourced directly from premier USDA certified breeders, Jazz is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+    },
+    {
+      "id": 820791,
+      "name": "Avery",
+      "breed": "Goldendoodle",
+      "breedGroup": "Hybrid / Designer",
+      "gender": "Female",
+      "age": "8 weeks",
+      "birthday": "May 30, 2026",
+      "color": "Cream & White",
+      "status": "Ready to go home",
+      "weight": "7.0 lbs",
+      "estAdultWeight": "25 - 35 lbs",
+      "price": 2549,
+      "hypoallergenic": true,
+      "image": "images/puppies/goldendoodle/avery-hq-studio-1.jpg",
+      "gallery": [
+        "images/puppies/goldendoodle/avery-hq-studio-1.jpg",
+        "images/puppies/goldendoodle/avery-hq-studio-2.jpg",
+        "images/puppies/goldendoodle/avery-hq-studio-1.jpg",
+        "images/puppies/goldendoodle/avery-hq-studio-1.jpg"
+      ],
+      "breeder": "USDA Certified Premier Breeder",
+      "momBreed": "Golden Retriever (55 lbs)",
+      "dadBreed": "Standard Poodle (45 lbs)",
+      "microchip": "98514100820791",
+      "description": "Meet Avery! Avery is a gorgeous Female Goldendoodle puppy born on May 30, 2026. Sourced directly from premier USDA certified breeders, Avery is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+    },
+    {
+      "id": 824909,
+      "name": "Baby",
+      "breed": "Goldendoodle",
+      "breedGroup": "Hybrid / Designer",
+      "gender": "Female",
+      "age": "8 weeks",
+      "birthday": "May 30, 2026",
+      "color": "Warm Apricot & White",
+      "status": "Ready to go home",
+      "weight": "7.9 lbs",
+      "estAdultWeight": "25 - 35 lbs",
+      "price": 3149,
+      "hypoallergenic": true,
+      "image": "images/puppies/goldendoodle/baby-hq-studio-1.jpg",
+      "gallery": [
+        "images/puppies/goldendoodle/baby-hq-studio-1.jpg",
+        "images/puppies/goldendoodle/baby-hq-studio-2.jpg",
+        "images/puppies/goldendoodle/baby-hq-studio-1.jpg",
+        "images/puppies/goldendoodle/baby-hq-studio-1.jpg"
+      ],
+      "breeder": "USDA Certified Premier Breeder",
+      "momBreed": "Golden Retriever (55 lbs)",
+      "dadBreed": "Standard Poodle (45 lbs)",
+      "microchip": "98514100824909",
+      "description": "Meet Baby! Baby is a gorgeous Female Goldendoodle puppy born on May 30, 2026. Sourced directly from premier USDA certified breeders, Baby is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     }
   ]
 };
