@@ -211,10 +211,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="puppy-details.html?id=${p.id}&breed=${encodeURIComponent(p.breed)}" class="available-puppy-card" style="text-decoration: none; color: inherit; display: block; cursor: pointer;">
           <div class="available-puppy-media">
             <img src="${p.image}" alt="${p.name}" class="available-puppy-img" loading="lazy" />
-            
-            <button class="puppy-fav-badge ${isFav ? 'active' : ''}" onclick="toggleFav(event, ${p.id})" title="Save">
-              <i class="fa-${isFav ? 'solid' : 'regular'} fa-heart"></i>
-            </button>
 
             ${(p.hasVideo || p.videoUrl) ? `
               <div class="puppy-video-badge" title="Live Video Available">
