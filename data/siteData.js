@@ -1825,25 +1825,25 @@ var SITE_DATA = {
       "breedGroup": "Hybrid / Herding",
       "gender": "Male",
       "age": "14 weeks",
-      "birthday": "March 9, 2026",
+      "birthday": "April 20, 2026",
       "color": "Blue Merle & White",
       "status": "Ready to go home",
       "weight": "7.2 lbs",
       "estAdultWeight": "20 - 30 lbs",
       "price": 2449,
       "hypoallergenic": false,
-      "image": "images/puppies/auggie/jonny-hq-1.jpg",
+      "image": "images/puppies/auggie/jonny-hd-1.jpg",
       "gallery": [
-        "images/puppies/auggie/jonny-hq-1.jpg",
-        "images/puppies/auggie/jonny-hq-2.jpg",
-        "images/puppies/auggie/jonny-hq-3.jpg",
-        "images/puppies/auggie/jonny-hq-4.jpg"
+        "images/puppies/auggie/jonny-hd-1.jpg",
+        "images/puppies/auggie/jonny-hd-2.jpg",
+        "images/puppies/auggie/jonny-hd-3.jpg",
+        "images/puppies/auggie/jonny-hd-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Pembroke Welsh Corgi (25 lbs)",
       "dadBreed": "Miniature Australian Shepherd (30 lbs)",
       "microchip": "98514100819725",
-      "description": "Meet Jonny! Jonny is a handsome Male Auggie puppy born on March 9, 2026. Sourced directly from premier USDA certified breeders, Jonny is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Jonny! Jonny is an adorable Male Auggie puppy born on April 20, 2026. Sourced directly from premier USDA certified breeders, Jonny is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 819728,
