@@ -251,7 +251,7 @@ var SITE_DATA = {
       "momBreed": "Miniature American Shepherd",
       "dadBreed": "Poodle",
       "microchip": "98514100823648",
-      "description": "Meet Caleb! Caleb is a charming American Shepadoodle puppy (Mom: Miniature American Shepherd, Dad: Poodle). Raised with early neurological stimulation by a USDA Certified Star Breeder, he has a gentle, curious nature and loves family cuddles."
+      "description": "Meet Caleb! Caleb is a charming Male American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Caleb combines high intelligence with a loyal, affectionate nature."
     },
     {
       "id": 823645,
@@ -271,7 +271,7 @@ var SITE_DATA = {
       "momBreed": "Miniature American Shepherd",
       "dadBreed": "Poodle",
       "microchip": "98514100823645",
-      "description": "Meet Weston! Weston is a handsome, intelligent Male American Shepadoodle puppy with a velvety brown coat and teal ribbon accent. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Weston combines high intelligence with a loyal and affectionate nature.",
+      "description": "Meet Weston! Weston is a charming Male American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Weston combines high intelligence with a loyal, affectionate nature.",
       "image": "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
       "gallery": [
         "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
@@ -298,7 +298,7 @@ var SITE_DATA = {
       "momBreed": "Miniature American Shepherd",
       "dadBreed": "Poodle",
       "microchip": "98514100823646",
-      "description": "Meet Ace! Ace is a friendly, athletic Black & Tan Male American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Ace is playful, loving, and quick to learn. Fully vet-checked and microchipped.",
+      "description": "Meet Ace! Ace is a charming Male American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Ace combines high intelligence with a loyal, affectionate nature.",
       "image": "images/puppies/american-shepadoodle/ace-real-cdn-504981012.jpg",
       "gallery": [
         "images/puppies/american-shepadoodle/ace-real-cdn-504981012.jpg",
@@ -326,7 +326,7 @@ var SITE_DATA = {
       "momBreed": "Miniature American Shepherd",
       "dadBreed": "Poodle",
       "microchip": "98514100823649",
-      "description": "Meet Molly! Molly is a sweet Female American Shepadoodle puppy born on May 30, 2026. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Molly has a loving personality, plush black & tan coat, and loves family cuddles.",
+      "description": "Meet Molly! Molly is a charming Female American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Molly combines high intelligence with a loyal, affectionate nature.",
       "image": "images/puppies/american-shepadoodle/molly-real-cdn-504981053.jpg",
       "gallery": [
         "images/puppies/american-shepadoodle/molly-real-cdn-504981053.jpg",
@@ -353,7 +353,7 @@ var SITE_DATA = {
       "momBreed": "Miniature American Shepherd",
       "dadBreed": "Poodle",
       "microchip": "98514100823438",
-      "description": "Meet Trent! Trent is a handsome Male American Shepadoodle puppy born on May 30, 2026. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Trent is calm, confident, and eager to bring joy to his forever home.",
+      "description": "Meet Trent! Trent is a charming Male American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Trent combines high intelligence with a loyal, affectionate nature.",
       "image": "images/puppies/american-shepadoodle/trent-hq-1.jpg",
       "gallery": [
         "images/puppies/american-shepadoodle/trent-hq-1.jpg",
