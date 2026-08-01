@@ -222,6 +222,18 @@ var SITE_DATA = {
       "lifespan": "12 - 15 years",
       "adultWeight": "45 - 75 lbs",
       "temperament": "Intelligent, Loyal, Affectionate, Protective"
+    },
+    {
+      "id": 16,
+      "name": "Auggie",
+      "slug": "auggie",
+      "group": "Hybrid / Herding",
+      "image": "images/puppies/auggie/jonny-hq-1.jpg",
+      "description": "Affectionate, energetic, and highly intelligent, Auggies are a premier hybrid cross between the Pembroke Welsh Corgi and Australian Shepherd.",
+      "popularityRank": "Trending Hybrid",
+      "lifespan": "12 - 15 years",
+      "adultWeight": "20 - 30 lbs",
+      "temperament": "Playful, Energetic, Loyal, Affectionate, Alert"
     }
   ],
   "puppies": [
@@ -1805,6 +1817,60 @@ var SITE_DATA = {
       "dadBreed": "Beagle (24 lbs)",
       "microchip": "98514100824598",
       "description": "Meet Dolly! Dolly is a cheerful Female Beagle puppy with vibrant tri-color markings and soft floppy ears. He is adventurous, friendly, and always eager to learn new tricks. Dolly is 100% vet-examined, microchipped, up-to-date on vaccinations, and comes with a 10-Year Health Commitment."
+    },
+    {
+      "id": 819725,
+      "name": "Jonny",
+      "breed": "Auggie",
+      "breedGroup": "Hybrid / Herding",
+      "gender": "Male",
+      "age": "14 weeks",
+      "birthday": "March 9, 2026",
+      "color": "Blue Merle & White",
+      "status": "Ready to go home",
+      "weight": "7.2 lbs",
+      "estAdultWeight": "20 - 30 lbs",
+      "price": 2449,
+      "hypoallergenic": false,
+      "image": "images/puppies/auggie/jonny-hq-1.jpg",
+      "gallery": [
+        "images/puppies/auggie/jonny-hq-1.jpg",
+        "images/puppies/auggie/jonny-hq-2.jpg",
+        "images/puppies/auggie/jonny-hq-3.jpg",
+        "images/puppies/auggie/jonny-hq-4.jpg"
+      ],
+      "breeder": "USDA Certified Premier Breeder",
+      "momBreed": "Pembroke Welsh Corgi (25 lbs)",
+      "dadBreed": "Miniature Australian Shepherd (30 lbs)",
+      "microchip": "98514100819725",
+      "description": "Meet Jonny! Jonny is a handsome Male Auggie puppy born on March 9, 2026. Sourced directly from premier USDA certified breeders, Jonny is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+    },
+    {
+      "id": 819728,
+      "name": "Jenna",
+      "breed": "Auggie",
+      "breedGroup": "Hybrid / Herding",
+      "gender": "Female",
+      "age": "14 weeks",
+      "birthday": "March 9, 2026",
+      "color": "Red Merle & Tan",
+      "status": "Ready to go home",
+      "weight": "6.8 lbs",
+      "estAdultWeight": "20 - 30 lbs",
+      "price": 1999,
+      "hypoallergenic": false,
+      "image": "images/puppies/auggie/jenna-hq-1.jpg",
+      "gallery": [
+        "images/puppies/auggie/jenna-hq-1.jpg",
+        "images/puppies/auggie/jenna-hq-2.jpg",
+        "images/puppies/auggie/jenna-hq-3.jpg",
+        "images/puppies/auggie/jenna-hq-4.jpg"
+      ],
+      "breeder": "USDA Certified Premier Breeder",
+      "momBreed": "Pembroke Welsh Corgi (25 lbs)",
+      "dadBreed": "Miniature Australian Shepherd (30 lbs)",
+      "microchip": "98514100819728",
+      "description": "Meet Jenna! Jenna is a sweet Female Auggie puppy born on March 9, 2026. Sourced directly from premier USDA certified breeders, Jenna is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     }
   ]
 };
