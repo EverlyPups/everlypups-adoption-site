@@ -261,23 +261,23 @@ var SITE_DATA = {
       "gender": "Male",
       "age": "8 weeks",
       "birthday": "June 4, 2026",
-      "color": "Brown / Tan",
+      "color": "Brown / Tan (Teal Ribbon)",
       "status": "Ready to go home",
       "weight": "7.2 lbs",
       "estAdultWeight": "50 - 75 lbs",
       "price": 2497,
       "hypoallergenic": true,
-      "breeder": "USDA Certified Star Breeder (Standard Shepadoodle)",
-      "momBreed": "German Shepherd (65 lbs)",
-      "dadBreed": "Standard Poodle (60 lbs)",
+      "breeder": "USDA Certified Star Breeder",
+      "momBreed": "Sasha - German Shepherd (65 lbs)",
+      "dadBreed": "Duke - Standard Poodle (60 lbs)",
       "microchip": "98514100823645",
-      "description": "Meet Weston! Weston is a handsome, intelligent Male American Shepadoodle puppy with a velvety brown coat and teal ribbon accent. Raised by a USDA Certified Star Breeder, he combines the high intelligence of a Poodle with the loyalty and protective instinct of a German Shepherd.",
-      "image": "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
+      "description": "Meet Weston! Weston is a handsome, intelligent Male American Shepadoodle puppy with a velvety brown coat and teal ribbon accent. Born to Mom Sasha (German Shepherd, 65 lbs) and Dad Duke (Standard Poodle, 60 lbs), Weston combines the high intelligence of a Poodle with the loyalty and protective instinct of a German Shepherd.",
+      "image": "images/puppies/american-shepadoodle/weston-highres-1.jpg",
       "gallery": [
-        "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
-        "images/puppies/american-shepadoodle/weston-large-504981003.jpg",
-        "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
-        "images/puppies/american-shepadoodle/weston-large-504981001.jpg"
+        "images/puppies/american-shepadoodle/weston-highres-1.jpg",
+        "images/puppies/american-shepadoodle/weston-highres-2.jpg",
+        "images/puppies/american-shepadoodle/weston-highres-3.jpg",
+        "images/puppies/american-shepadoodle/weston-highres-4.jpg"
       ]
     },
     {
