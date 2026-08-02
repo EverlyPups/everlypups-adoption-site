@@ -1889,20 +1889,17 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-flurry-825526-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-flurry-825526-exact-4.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-flurry-825526-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-flurry-825526-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-flurry-825526-exact-3.jpg",
         "images/puppies/goldendoodle/goldendoodle-flurry-825526-exact-4.jpg",
         "images/puppies/goldendoodle/goldendoodle-flurry-825526-exact-5.jpg",
         "images/puppies/goldendoodle/goldendoodle-flurry-825526-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (50 lbs)",
-      "dadBreed": "Standard Poodle (50 lbs)",
+      "momBreed": "Goldendoodle (30 lbs)",
+      "dadBreed": "Poodle (25 lbs)",
       "microchip": "98514100825526",
-      "description": "Meet Flurry! Flurry is an adorable Female Goldendoodle puppy born on June 15, 2026. Sourced directly from premier USDA certified breeders, Flurry's Mom is a Golden Retriever (50 lbs) and Dad is a Standard Poodle (50 lbs). Flurry is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Flurry! Flurry is an adorable Female Goldendoodle puppy born on June 15, 2026. Sourced directly from premier USDA certified breeders, Flurry's Mom is a Goldendoodle (30 lbs) and Dad is a Poodle (25 lbs). Flurry is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822748,
