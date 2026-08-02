@@ -543,29 +543,108 @@ img, video {
 }
 
 /* --------------------------------------------------------------------------
-   6. Search Console Centered at Base of Hero Section (10px Spacing)
+   6. Hero Delivery Offer Banner Centered at Base of Hero Section
    -------------------------------------------------------------------------- */
-.unique-search-console {
+.hero-delivery-banner {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% - 4rem);
-  max-width: 1200px;
+  max-width: 920px;
   z-index: 30;
 
-  background: rgba(255, 255, 255, 0.96);
+  background: rgba(15, 23, 42, 0.85);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   border-radius: var(--radius-full);
-  padding: 0.6rem 0.8rem 0.6rem 1.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+  padding: 0.75rem 1rem 0.75rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1.5rem;
+  color: #FFFFFF;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero-delivery-banner:hover {
+  border-color: rgba(16, 185, 129, 0.6);
+  box-shadow: 0 25px 60px rgba(16, 185, 129, 0.25);
+  transform: translateX(-50%) translateY(-2px);
+}
+
+.hero-delivery-content {
+  display: flex;
+  align-items: center;
   gap: 1.25rem;
-  color: var(--text-primary);
+}
+
+.hero-delivery-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  color: #FFFFFF;
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.4);
+  flex-shrink: 0;
+  animation: pulse-glow 3s infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.5); }
+  50% { box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
+}
+
+.hero-delivery-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.hero-delivery-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: #34D399;
+  text-transform: uppercase;
+}
+
+.hero-delivery-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.btn-delivery-claim {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1.6rem;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.35);
+  transition: all 0.25s ease;
+}
+
+.btn-delivery-claim:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.5);
+  color: #FFFFFF;
 }
 
 .console-segment {
@@ -2074,8 +2153,8 @@ img, video {
    -------------------------------------------------------------------------- */
 @media (max-width: 1024px) {
   .hero-headline { font-size: 3rem; }
-  .unique-search-console { position: relative; bottom: auto; left: auto; transform: none; width: 100%; flex-direction: column; border-radius: var(--radius-lg); padding: 1.5rem; margin-top: 2.5rem; }
-  .console-divider { display: none; }
+  .hero-delivery-banner { position: relative; bottom: auto; left: auto; transform: none; width: 100%; flex-direction: column; text-align: center; border-radius: var(--radius-xl); padding: 1.25rem 1.5rem; margin-top: 2.5rem; gap: 1rem; }
+  .hero-delivery-content { flex-direction: column; text-align: center; }
   .as-seen-on-full-row { flex-direction: column; gap: 1.5rem; }
   .as-seen-logos-group { flex-wrap: wrap; justify-content: center; gap: 2rem; }
   .logo-pair { gap: 2rem; }
