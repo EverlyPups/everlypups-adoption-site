@@ -2385,15 +2385,13 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-rudy-822463-exact-1.jpg",
         "images/puppies/goldendoodle/goldendoodle-rudy-822463-exact-2.jpg",
         "images/puppies/goldendoodle/goldendoodle-rudy-822463-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-rudy-822463-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-rudy-822463-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-rudy-822463-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-rudy-822463-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Goldendoodle",
-      "dadBreed": "Miniature Poodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100822463",
-      "description": "Meet Rudy! Rudy is an adorable Female Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Rudy's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Rudy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Rudy! Rudy is an adorable Female Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Rudy's Mom is a Goldendoodle and Dad is a Poodle. Rudy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 817448,
