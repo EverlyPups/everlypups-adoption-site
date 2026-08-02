@@ -2358,16 +2358,13 @@ var SITE_DATA = {
       "gallery": [
         "images/puppies/goldendoodle/goldendoodle-roxie-824042-exact-1.jpg",
         "images/puppies/goldendoodle/goldendoodle-roxie-824042-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-roxie-824042-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-roxie-824042-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-roxie-824042-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-roxie-824042-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-roxie-824042-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Standard Poodle",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100824042",
-      "description": "Meet Roxie! Roxie is an adorable Male Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Roxie's Mom is a Golden Retriever (55 and Dad is a Standard Poodle (45. Roxie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Roxie! Roxie is an adorable Male Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Roxie's Mom is a Goldendoodle and Dad is a Poodle. Roxie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822463,
