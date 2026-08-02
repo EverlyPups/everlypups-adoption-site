@@ -2047,20 +2047,17 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3599,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-herman-825632-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-herman-825632-desktop-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-herman-825632-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-herman-825632-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-herman-825632-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-herman-825632-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-herman-825632-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-herman-825632-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-herman-825632-desktop-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-herman-825632-desktop-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-herman-825632-desktop-hq-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Goldendoodle",
-      "dadBreed": "Miniature Poodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100825632",
-      "description": "Meet Herman! Herman is an adorable Male Goldendoodle puppy born on June 16, 2026. Sourced directly from premier USDA certified breeders, Herman's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Herman is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Herman! Herman is an adorable Male Goldendoodle puppy born on June 16, 2026. Sourced directly from premier USDA certified breeders, Herman's Mom is a Goldendoodle and Dad is a Poodle. Herman is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825694,
@@ -2076,20 +2073,17 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-jerome-825694-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-jerome-825694-desktop-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-jerome-825694-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-jerome-825694-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-jerome-825694-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-jerome-825694-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-jerome-825694-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-jerome-825694-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-jerome-825694-desktop-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-jerome-825694-desktop-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-jerome-825694-desktop-hq-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Miniature Poodle",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100825694",
-      "description": "Meet Jerome! Jerome is an adorable Male Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Jerome's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. Jerome is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Jerome! Jerome is an adorable Male Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Jerome's Mom is a Goldendoodle and Dad is a Poodle. Jerome is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825002,
@@ -2105,20 +2099,18 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2799,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-jethro-825002-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-jethro-825002-desktop-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-jethro-825002-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-jethro-825002-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-jethro-825002-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-jethro-825002-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-jethro-825002-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-jethro-825002-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-jethro-825002-desktop-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-jethro-825002-desktop-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-jethro-825002-desktop-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-jethro-825002-desktop-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Standard Poodle",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100825002",
-      "description": "Meet Jethro! Jethro is an adorable Male Goldendoodle puppy born on June 23, 2026. Sourced directly from premier USDA certified breeders, Jethro's Mom is a Golden Retriever (50 and Dad is a Standard Poodle (50. Jethro is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Jethro! Jethro is an adorable Male Goldendoodle puppy born on June 23, 2026. Sourced directly from premier USDA certified breeders, Jethro's Mom is a Goldendoodle and Dad is a Poodle. Jethro is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822307,
@@ -2161,20 +2153,18 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3899,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-levi-824884-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-levi-824884-desktop-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-levi-824884-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-levi-824884-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-levi-824884-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-levi-824884-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-levi-824884-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-levi-824884-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-levi-824884-desktop-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-levi-824884-desktop-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-levi-824884-desktop-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-levi-824884-desktop-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Goldendoodle",
-      "dadBreed": "Miniature Poodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100824884",
-      "description": "Meet Levi! Levi is an adorable Male Goldendoodle puppy born on June 26, 2026. Sourced directly from premier USDA certified breeders, Levi's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Levi is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Levi! Levi is an adorable Male Goldendoodle puppy born on June 26, 2026. Sourced directly from premier USDA certified breeders, Levi's Mom is a Goldendoodle and Dad is a Poodle. Levi is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824056,
@@ -2298,20 +2288,18 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2349,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-muff-818897-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-muff-818897-desktop-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-muff-818897-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-muff-818897-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-muff-818897-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-muff-818897-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-muff-818897-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-muff-818897-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-muff-818897-desktop-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-muff-818897-desktop-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-muff-818897-desktop-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-muff-818897-desktop-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Miniature Poodle",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100818897",
-      "description": "Meet Muff! Muff is an adorable Male Goldendoodle puppy born on April 21, 2026. Sourced directly from premier USDA certified breeders, Muff's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. Muff is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Muff! Muff is an adorable Male Goldendoodle puppy born on April 21, 2026. Sourced directly from premier USDA certified breeders, Muff's Mom is a Goldendoodle and Dad is a Poodle. Muff is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824157,
@@ -2434,20 +2422,18 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2549,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-summer-825147-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-summer-825147-desktop-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-summer-825147-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-summer-825147-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-summer-825147-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-summer-825147-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-summer-825147-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-summer-825147-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-summer-825147-desktop-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-summer-825147-desktop-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-summer-825147-desktop-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-summer-825147-desktop-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Standard Poodle",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100825147",
-      "description": "Meet Summer! Summer is an adorable Female Goldendoodle puppy born on June 28, 2026. Sourced directly from premier USDA certified breeders, Summer's Mom is a Golden Retriever (50 and Dad is a Standard Poodle (50. Summer is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Summer! Summer is an adorable Female Goldendoodle puppy born on June 28, 2026. Sourced directly from premier USDA certified breeders, Summer's Mom is a Goldendoodle and Dad is a Poodle. Summer is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825688,
@@ -2463,20 +2449,17 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 2749,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-talley-825688-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-talley-825688-desktop-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-talley-825688-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-talley-825688-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-talley-825688-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-talley-825688-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-talley-825688-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-talley-825688-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-talley-825688-desktop-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-talley-825688-desktop-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-talley-825688-desktop-hq-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Standard Poodle",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100825688",
-      "description": "Meet Talley! Talley is an adorable Female Goldendoodle puppy born on May 16, 2026. Sourced directly from premier USDA certified breeders, Talley's Mom is a Golden Retriever (55 and Dad is a Standard Poodle (45. Talley is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Talley! Talley is an adorable Female Goldendoodle puppy born on May 16, 2026. Sourced directly from premier USDA certified breeders, Talley's Mom is a Goldendoodle and Dad is a Poodle. Talley is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824024,
