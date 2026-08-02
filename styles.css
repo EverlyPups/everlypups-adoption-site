@@ -429,10 +429,10 @@ img, video {
    -------------------------------------------------------------------------- */
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
-  padding: 7.5rem 0 140px 0;
+  padding: 6.5rem 0 3rem 0;
   color: var(--text-white);
   overflow: hidden;
 }
@@ -597,36 +597,34 @@ img, video {
 }
 
 /* --------------------------------------------------------------------------
-   6. Special Offer Container Anchored at Base of Hero Section (Previous Filter Location)
+   6. Special Offer Container Anchored Right Under CTA Buttons in Hero Section
    -------------------------------------------------------------------------- */
 .hero-base-filter-container {
-  position: absolute;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: calc(100% - 4rem);
-  max-width: 1200px;
+  position: relative;
+  margin-top: 2.25rem;
+  width: 100%;
+  max-width: 780px;
   z-index: 30;
 
   background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   border-radius: var(--radius-full);
-  padding: 0.75rem 1rem 0.75rem 2rem;
+  padding: 0.75rem 1rem 0.75rem 1.75rem;
   border: 1px solid rgba(255, 255, 255, 0.9);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.5rem;
+  gap: 1.25rem;
   color: var(--text-primary);
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .hero-base-filter-container:hover {
-  transform: translateX(-50%) translateY(-2px);
-  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
 }
 
 .hero-offer-content {
