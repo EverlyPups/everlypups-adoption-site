@@ -2276,15 +2276,13 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-mr-buttercup-819457-exact-1.jpg",
         "images/puppies/goldendoodle/goldendoodle-mr-buttercup-819457-exact-2.jpg",
         "images/puppies/goldendoodle/goldendoodle-mr-buttercup-819457-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-mr-buttercup-819457-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-mr-buttercup-819457-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-mr-buttercup-819457-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-mr-buttercup-819457-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Goldendoodle",
-      "dadBreed": "Miniature Poodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100819457",
-      "description": "Meet Mr Buttercup! Mr Buttercup is an adorable Male Goldendoodle puppy born on April 24, 2026. Sourced directly from premier USDA certified breeders, Mr Buttercup's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Mr Buttercup is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Mr Buttercup! Mr Buttercup is an adorable Male Goldendoodle puppy born on April 24, 2026. Sourced directly from premier USDA certified breeders, Mr Buttercup's Mom is a Goldendoodle and Dad is a Poodle. Mr Buttercup is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 818897,
