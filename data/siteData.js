@@ -1915,20 +1915,18 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3449,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-gage-822748-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-gage-822748-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-gage-822748-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gage-822748-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gage-822748-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gage-822748-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gage-822748-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gage-822748-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-gage-822748-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-gage-822748-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-gage-822748-hq-3.jpg",
+        "images/puppies/goldendoodle/goldendoodle-gage-822748-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (55 lbs)",
-      "dadBreed": "Standard Poodle (45 lbs)",
+      "momBreed": "Goldendoodle (30 lbs)",
+      "dadBreed": "Poodle (25 lbs)",
       "microchip": "98514100822748",
-      "description": "Meet Gage! Gage is an adorable Male Goldendoodle puppy born on June 1, 2026. Sourced directly from premier USDA certified breeders, Gage's Mom is a Golden Retriever (55 lbs) and Dad is a Standard Poodle (45 lbs). Gage is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gage! Gage is an adorable Male Goldendoodle puppy born on June 1, 2026. Sourced directly from premier USDA certified breeders, Gage's Mom is a Goldendoodle (30 lbs) and Dad is a Poodle (25 lbs). Gage is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824308,
