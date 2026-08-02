@@ -2332,15 +2332,13 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-quinetta-824157-exact-1.jpg",
         "images/puppies/goldendoodle/goldendoodle-quinetta-824157-exact-2.jpg",
         "images/puppies/goldendoodle/goldendoodle-quinetta-824157-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-quinetta-824157-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-quinetta-824157-exact-5.png",
-        "images/puppies/goldendoodle/goldendoodle-quinetta-824157-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-quinetta-824157-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Standard Poodle",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100824157",
-      "description": "Meet Quinetta! Quinetta is an adorable Female Goldendoodle puppy born on June 10, 2026. Sourced directly from premier USDA certified breeders, Quinetta's Mom is a Golden Retriever (50 and Dad is a Standard Poodle (50. Quinetta is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Quinetta! Quinetta is an adorable Female Goldendoodle puppy born on June 10, 2026. Sourced directly from premier USDA certified breeders, Quinetta's Mom is a Goldendoodle and Dad is a Poodle. Quinetta is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824042,
