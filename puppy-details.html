@@ -107,7 +107,7 @@
           <!-- Price & Reserve Row -->
           <div class="detail-price-box">
             <div>
-              <span class="price-label">Bring Home Fee</span>
+              <span class="price-label" id="priceLabel">Bring Home Fee</span>
               <div class="price-val" id="puppyPrice">$0,000</div>
               <span class="price-guarantee-note"><i class="fa-solid fa-circle-check text-green"></i> Backed by PawHaven 10-Year Guarantee</span>
             </div>
@@ -276,7 +276,7 @@
   </a>
 
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=430"></script>
+  <script src="data/siteData.js?v=440"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -357,6 +357,8 @@
         document.getElementById('puppySubtext').textContent = puppy.gender + ' • ' + puppy.age;
 
         // Price & Reserve CTA
+        const priceLabelElem = document.getElementById('priceLabel');
+        if (priceLabelElem) priceLabelElem.textContent = 'Bring Home Fee for ' + puppy.name;
         document.getElementById('puppyPrice').textContent = '$' + puppy.price.toLocaleString();
         document.getElementById('reservePuppyName').textContent = puppy.name;
         const btnReserve = document.getElementById('btnReservePuppy');

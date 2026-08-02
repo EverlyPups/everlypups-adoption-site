@@ -398,8 +398,8 @@ var SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "American Corgi (24 lbs)",
-      "dadBreed": "American Corgi (26 lbs)",
+      "momBreed": "American Corgi",
+      "dadBreed": "American Corgi",
       "microchip": "98514100824933",
       "description": "Meet Darcy! Darcy is an adorable Female American Corgi puppy with a sweet Black, Tan & White coat. Raised with love by a USDA Certified Star Breeder, she is alert, affectionate, and eager to join a loving home. Fully health checked and microchipped."
     },
@@ -426,8 +426,8 @@ var SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "American Corgi (24 lbs)",
-      "dadBreed": "American Corgi (26 lbs)",
+      "momBreed": "American Corgi",
+      "dadBreed": "American Corgi",
       "microchip": "98514100824930",
       "description": "Meet Dare! Dare is a handsome Male American Corgi puppy with a gorgeous Black, Tan & White markings. Playful, friendly, and well-socialized, Dare comes with a 10-Year Health Guarantee and complete vet check."
     },
@@ -454,8 +454,8 @@ var SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Line)",
-      "momBreed": "American Corgi (23 lbs)",
-      "dadBreed": "American Corgi (25 lbs)",
+      "momBreed": "American Corgi",
+      "dadBreed": "American Corgi",
       "microchip": "98514100824932",
       "description": "Meet Daffy! Daffy is a charming Female American Corgi puppy with a striking Sable & White coat. Intelligent, loving, and full of joy, she is ready to steal your heart!"
     },
@@ -482,8 +482,8 @@ var SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi (24 lbs)",
-      "dadBreed": "American Corgi (26 lbs)",
+      "momBreed": "American Corgi",
+      "dadBreed": "American Corgi",
       "microchip": "98514100824931",
       "description": "Meet Dixie! Dixie is a precious Female American Corgi puppy who loves cuddles and playtime. Raised in a loving home environment, she comes fully microchipped and health checked."
     },
@@ -510,8 +510,8 @@ var SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi (25 lbs)",
-      "dadBreed": "American Corgi (28 lbs)",
+      "momBreed": "American Corgi",
+      "dadBreed": "American Corgi",
       "microchip": "98514100823131",
       "description": "Meet Dune! Dune is a spirited Male American Corgi puppy with an expressive Sable & White coat. Great with kids and other pets, Dune is ready for his forever home today."
     },
@@ -538,8 +538,8 @@ var SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi (25 lbs)",
-      "dadBreed": "American Corgi (28 lbs)",
+      "momBreed": "American Corgi",
+      "dadBreed": "American Corgi",
       "microchip": "98514100823130",
       "description": "Meet Dawman! Dawman is a friendly Male American Corgi with a classic Red & White coat. Eager to please and full of curiosity, Dawman is microchipped and vet checked."
     },
@@ -566,8 +566,8 @@ var SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi (25 lbs)",
-      "dadBreed": "American Corgi (28 lbs)",
+      "momBreed": "American Corgi",
+      "dadBreed": "American Corgi",
       "microchip": "98514100823132",
       "description": "Meet Dekman! Dekman is a striking Tri-Color Male American Corgi puppy. He is energetic, loyal, and trained with basic puppy manners."
     },
@@ -594,8 +594,8 @@ var SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi (24 lbs)",
-      "dadBreed": "American Corgi (26 lbs)",
+      "momBreed": "American Corgi",
+      "dadBreed": "American Corgi",
       "microchip": "98514100823017",
       "description": "Meet Simon! Simon is an adorable Red & White Male American Corgi puppy. Playful, loving, and loyal, he is ready to join your family today."
     },
@@ -622,8 +622,8 @@ var SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi (24 lbs)",
-      "dadBreed": "American Corgi (26 lbs)",
+      "momBreed": "American Corgi",
+      "dadBreed": "American Corgi",
       "microchip": "98514100823016",
       "description": "Meet Silas! Silas is a lovable Red & White Male American Corgi puppy. He has a playful temperament and enjoys cuddles."
     },
@@ -650,8 +650,8 @@ var SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi (24 lbs)",
-      "dadBreed": "American Corgi (26 lbs)",
+      "momBreed": "American Corgi",
+      "dadBreed": "American Corgi",
       "microchip": "98514100823226",
       "description": "Meet Stettson! Stettson is a sweet Red & White Male American Corgi puppy who is curious, energetic, and eager to please."
     },
@@ -678,8 +678,8 @@ var SITE_DATA = {
         "images/puppies/akita/journey-2.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Akita (75 lbs)",
-      "dadBreed": "Akita (95 lbs)",
+      "momBreed": "Akita",
+      "dadBreed": "Akita",
       "microchip": "98514100823560",
       "description": "Meet Journey! Journey is a majestic, courageous Female Akita puppy with a plush coat and noble presence. Bred from a distinguished Champion Bloodline, she is incredibly loyal, calm, and affectionate with her family. Journey comes 100% health checked by a licensed veterinarian, microchipped, and up-to-date on all vaccinations."
     },
@@ -706,8 +706,8 @@ var SITE_DATA = {
         "images/puppies/akita/jaron-2.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Akita (75 lbs)",
-      "dadBreed": "Akita (95 lbs)",
+      "momBreed": "Akita",
+      "dadBreed": "Akita",
       "microchip": "98514100823559",
       "description": "Meet Jaron! Jaron is a stunning, intelligent Female Akita puppy who combines gentle grace with protective loyalty. With her expressive dark eyes and fluffy coat, Jaron loves family play and quiet companionship. She comes 100% health checked by a licensed veterinarian, microchipped, and up-to-date on all vaccinations."
     },
@@ -1567,8 +1567,8 @@ var SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle (20 lbs)",
-      "dadBreed": "Beagle (24 lbs)",
+      "momBreed": "Beagle",
+      "dadBreed": "Beagle",
       "microchip": "98514100824677",
       "description": "Meet Scout! Scout is an exceptionally handsome Male Beagle puppy with a rich Black, Tan & White coat, soft soulful eyes, and iconic velvety floppy ears. Raised with love and utmost care by a USDA Licensed Star Breeder with champion bloodlines, Scout is energetic, curious, and loves nose-to-ground exploring as well as cozy lap cuddles. He comes 100% vet-checked, microchipped, fully vaccinated, and backed by our signature 10-Year Health Guarantee!"
     },
@@ -1595,8 +1595,8 @@ var SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle (20 lbs)",
-      "dadBreed": "Beagle (24 lbs)",
+      "momBreed": "Beagle",
+      "dadBreed": "Beagle",
       "microchip": "98514100824597",
       "description": "Meet Finn! Finn is a charming, playful Male Beagle puppy with striking tri-color markings, deep brown expressive eyes, and soft velvety ears. Raised in a loving home environment by a licensed USDA Star Breeder, Finn is energetic, sweet-natured, and loves cuddles after a fun game of chase. Vet-checked, microchipped, fully vaccinated, and backed by a 10-Year Health Guarantee!"
     },
@@ -1624,8 +1624,8 @@ var SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle (20 lbs)",
-      "dadBreed": "Beagle (24 lbs)",
+      "momBreed": "Beagle",
+      "dadBreed": "Beagle",
       "microchip": "98514100816975",
       "description": "Meet Barnaby! Barnaby is a gentle, affectionate Female Beagle puppy who brings joy wherever he goes. With his traditional hound markings and curious nose, Barnaby loves outdoor exploring and snuggling close during naptime. He comes 100% health checked by a licensed veterinarian, microchipped, and up-to-date on all shots."
     },
@@ -1652,8 +1652,8 @@ var SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle (20 lbs)",
-      "dadBreed": "Beagle (24 lbs)",
+      "momBreed": "Beagle",
+      "dadBreed": "Beagle",
       "microchip": "98514100824676",
       "description": "Meet Rusty! Rusty is an exceptionally handsome Male Beagle puppy with a rich Black, Tan & White coat, soft expressive eyes, and classic velvety floppy ears. Born from champion bloodlines and raised with care by a USDA Licensed Star Breeder, Rusty is energetic, play-loving, and adores outdoor exploring as well as cozy lap cuddles. He is 100% vet-checked, microchipped, up-to-date on vaccinations, and backed by our signature 10-Year Health Guarantee!"
     },
@@ -1680,8 +1680,8 @@ var SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle (20 lbs)",
-      "dadBreed": "Beagle (24 lbs)",
+      "momBreed": "Beagle",
+      "dadBreed": "Beagle",
       "microchip": "98514100824599",
       "description": "Meet Clover! Clover is an adorable Female Beagle puppy with a gorgeous Black, Tan & White coat, expressive eyes, and classic velvety floppy ears. Born from champion bloodlines and raised with care by a USDA Licensed Star Breeder, Clover is sweet, gentle, and loves cuddling up after playful outdoor explorations. Clover is 100% vet-checked, microchipped, up-to-date on vaccinations, and comes with our signature 10-Year Health Guarantee!"
     },
@@ -1708,8 +1708,8 @@ var SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle (20 lbs)",
-      "dadBreed": "Beagle (24 lbs)",
+      "momBreed": "Beagle",
+      "dadBreed": "Beagle",
       "microchip": "98514100824635",
       "description": "Meet Penny! Penny is an adorable Female Beagle puppy with a rich Black, Tan & White coat, soft soulful eyes, and iconic velvety floppy ears. Raised with love and utmost care by a USDA Licensed Star Breeder with champion bloodlines, Penny is playful, inquisitive, and loves cuddle sessions after energetic garden explorations. She comes 100% vet-checked, microchipped, fully vaccinated, and backed by our signature 10-Year Health Guarantee!"
     },
@@ -1736,8 +1736,8 @@ var SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle (20 lbs)",
-      "dadBreed": "Beagle (24 lbs)",
+      "momBreed": "Beagle",
+      "dadBreed": "Beagle",
       "microchip": "98514100824598",
       "description": "Meet Dolly! Dolly is a cheerful Female Beagle puppy with vibrant tri-color markings and soft floppy ears. He is adventurous, friendly, and always eager to learn new tricks. Dolly is 100% vet-examined, microchipped, up-to-date on vaccinations, and comes with a 10-Year Health Commitment."
     },
@@ -1763,8 +1763,8 @@ var SITE_DATA = {
         "images/puppies/auggie/jonny-dog-folder-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Pembroke Welsh Corgi (25 lbs)",
-      "dadBreed": "Miniature Australian Shepherd (30 lbs)",
+      "momBreed": "Pembroke Welsh Corgi",
+      "dadBreed": "Miniature Australian Shepherd",
       "microchip": "98514100819725",
       "description": "Meet Jonny! Jonny is an adorable Male Auggie puppy born on April 20, 2026. Sourced directly from premier USDA certified breeders, Jonny is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
@@ -1790,8 +1790,8 @@ var SITE_DATA = {
         "images/puppies/auggie/jenna-auggie-folder-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Pembroke Welsh Corgi (25 lbs)",
-      "dadBreed": "Miniature Australian Shepherd (30 lbs)",
+      "momBreed": "Pembroke Welsh Corgi",
+      "dadBreed": "Miniature Australian Shepherd",
       "microchip": "98514100819728",
       "description": "Meet Jenna! Jenna is a sweet Female Auggie puppy born on March 9, 2026. Sourced directly from premier USDA certified breeders, Jenna is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
@@ -1817,10 +1817,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-aubriella-822066-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (55 lbs)",
-      "dadBreed": "Standard Poodle (45 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Standard Poodle",
       "microchip": "98514100822066",
-      "description": "Meet Aubriella! Aubriella is an adorable Female Goldendoodle puppy born on May 21, 2026. Sourced directly from premier USDA certified breeders, Aubriella's Mom is a Golden Retriever (55 lbs) and Dad is a Standard Poodle (45 lbs). Aubriella is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Aubriella! Aubriella is an adorable Female Goldendoodle puppy born on May 21, 2026. Sourced directly from premier USDA certified breeders, Aubriella's Mom is a Golden Retriever (55 and Dad is a Standard Poodle (45. Aubriella is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824908,
@@ -1844,10 +1844,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-barney-824908-exact-5.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle (35 lbs)",
-      "dadBreed": "Miniature Poodle (15 lbs)",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100824908",
-      "description": "Meet Barney! Barney is an adorable Male Goldendoodle puppy born on July 3, 2026. Sourced directly from premier USDA certified breeders, Barney's Mom is a Goldendoodle (35 lbs) and Dad is a Miniature Poodle (15 lbs). Barney is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Barney! Barney is an adorable Male Goldendoodle puppy born on July 3, 2026. Sourced directly from premier USDA certified breeders, Barney's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Barney is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824186,
@@ -1870,10 +1870,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-fancy-824186-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (60 lbs)",
-      "dadBreed": "Miniature Poodle (16 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100824186",
-      "description": "Meet Fancy! Fancy is an adorable Female Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, Fancy's Mom is a Golden Retriever (60 lbs) and Dad is a Miniature Poodle (16 lbs). Fancy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Fancy! Fancy is an adorable Female Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, Fancy's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. Fancy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825526,
@@ -1896,10 +1896,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-flurry-825526-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle (30 lbs)",
-      "dadBreed": "Poodle (25 lbs)",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100825526",
-      "description": "Meet Flurry! Flurry is an adorable Female Goldendoodle puppy born on June 15, 2026. Sourced directly from premier USDA certified breeders, Flurry's Mom is a Goldendoodle (30 lbs) and Dad is a Poodle (25 lbs). Flurry is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Flurry! Flurry is an adorable Female Goldendoodle puppy born on June 15, 2026. Sourced directly from premier USDA certified breeders, Flurry's Mom is a Goldendoodle (30 and Dad is a Poodle (25. Flurry is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822748,
@@ -1923,10 +1923,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-gage-822748-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle (30 lbs)",
-      "dadBreed": "Poodle (25 lbs)",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100822748",
-      "description": "Meet Gage! Gage is an adorable Male Goldendoodle puppy born on June 1, 2026. Sourced directly from premier USDA certified breeders, Gage's Mom is a Goldendoodle (30 lbs) and Dad is a Poodle (25 lbs). Gage is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gage! Gage is an adorable Male Goldendoodle puppy born on June 1, 2026. Sourced directly from premier USDA certified breeders, Gage's Mom is a Goldendoodle (30 and Dad is a Poodle (25. Gage is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824308,
@@ -1952,10 +1952,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-gary-824308-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle (35 lbs)",
-      "dadBreed": "Miniature Poodle (15 lbs)",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100824308",
-      "description": "Meet Gary! Gary is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gary's Mom is a Goldendoodle (35 lbs) and Dad is a Miniature Poodle (15 lbs). Gary is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gary! Gary is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gary's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Gary is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823930,
@@ -1981,10 +1981,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-george-823930-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (60 lbs)",
-      "dadBreed": "Miniature Poodle (16 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100823930",
-      "description": "Meet George! George is an adorable Male Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, George's Mom is a Golden Retriever (60 lbs) and Dad is a Miniature Poodle (16 lbs). George is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet George! George is an adorable Male Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, George's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. George is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824312,
@@ -2010,10 +2010,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-goldie-824312-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (50 lbs)",
-      "dadBreed": "Standard Poodle (50 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Standard Poodle",
       "microchip": "98514100824312",
-      "description": "Meet Goldie! Goldie is an adorable Female Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Goldie's Mom is a Golden Retriever (50 lbs) and Dad is a Standard Poodle (50 lbs). Goldie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Goldie! Goldie is an adorable Female Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Goldie's Mom is a Golden Retriever (50 and Dad is a Standard Poodle (50. Goldie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824309,
@@ -2039,10 +2039,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-gus-824309-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (55 lbs)",
-      "dadBreed": "Standard Poodle (45 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Standard Poodle",
       "microchip": "98514100824309",
-      "description": "Meet Gus! Gus is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gus's Mom is a Golden Retriever (55 lbs) and Dad is a Standard Poodle (45 lbs). Gus is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gus! Gus is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gus's Mom is a Golden Retriever (55 and Dad is a Standard Poodle (45. Gus is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825632,
@@ -2068,10 +2068,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-herman-825632-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle (35 lbs)",
-      "dadBreed": "Miniature Poodle (15 lbs)",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100825632",
-      "description": "Meet Herman! Herman is an adorable Male Goldendoodle puppy born on June 16, 2026. Sourced directly from premier USDA certified breeders, Herman's Mom is a Goldendoodle (35 lbs) and Dad is a Miniature Poodle (15 lbs). Herman is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Herman! Herman is an adorable Male Goldendoodle puppy born on June 16, 2026. Sourced directly from premier USDA certified breeders, Herman's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Herman is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825694,
@@ -2097,10 +2097,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-jerome-825694-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (60 lbs)",
-      "dadBreed": "Miniature Poodle (16 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100825694",
-      "description": "Meet Jerome! Jerome is an adorable Male Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Jerome's Mom is a Golden Retriever (60 lbs) and Dad is a Miniature Poodle (16 lbs). Jerome is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Jerome! Jerome is an adorable Male Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Jerome's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. Jerome is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825002,
@@ -2126,10 +2126,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-jethro-825002-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (50 lbs)",
-      "dadBreed": "Standard Poodle (50 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Standard Poodle",
       "microchip": "98514100825002",
-      "description": "Meet Jethro! Jethro is an adorable Male Goldendoodle puppy born on June 23, 2026. Sourced directly from premier USDA certified breeders, Jethro's Mom is a Golden Retriever (50 lbs) and Dad is a Standard Poodle (50 lbs). Jethro is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Jethro! Jethro is an adorable Male Goldendoodle puppy born on June 23, 2026. Sourced directly from premier USDA certified breeders, Jethro's Mom is a Golden Retriever (50 and Dad is a Standard Poodle (50. Jethro is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822307,
@@ -2155,10 +2155,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-leo-822307-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (55 lbs)",
-      "dadBreed": "Standard Poodle (45 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Standard Poodle",
       "microchip": "98514100822307",
-      "description": "Meet Leo! Leo is an adorable Male Goldendoodle puppy born on May 17, 2026. Sourced directly from premier USDA certified breeders, Leo's Mom is a Golden Retriever (55 lbs) and Dad is a Standard Poodle (45 lbs). Leo is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Leo! Leo is an adorable Male Goldendoodle puppy born on May 17, 2026. Sourced directly from premier USDA certified breeders, Leo's Mom is a Golden Retriever (55 and Dad is a Standard Poodle (45. Leo is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824884,
@@ -2184,10 +2184,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-levi-824884-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle (35 lbs)",
-      "dadBreed": "Miniature Poodle (15 lbs)",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100824884",
-      "description": "Meet Levi! Levi is an adorable Male Goldendoodle puppy born on June 26, 2026. Sourced directly from premier USDA certified breeders, Levi's Mom is a Goldendoodle (35 lbs) and Dad is a Miniature Poodle (15 lbs). Levi is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Levi! Levi is an adorable Male Goldendoodle puppy born on June 26, 2026. Sourced directly from premier USDA certified breeders, Levi's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Levi is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824056,
@@ -2213,10 +2213,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-lucy-824056-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (60 lbs)",
-      "dadBreed": "Miniature Poodle (16 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100824056",
-      "description": "Meet Lucy! Lucy is an adorable Female Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Lucy's Mom is a Golden Retriever (60 lbs) and Dad is a Miniature Poodle (16 lbs). Lucy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lucy! Lucy is an adorable Female Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Lucy's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. Lucy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822275,
@@ -2242,10 +2242,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-malcolm-822275-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (50 lbs)",
-      "dadBreed": "Standard Poodle (50 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Standard Poodle",
       "microchip": "98514100822275",
-      "description": "Meet Malcolm! Malcolm is an adorable Male Goldendoodle puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Malcolm's Mom is a Golden Retriever (50 lbs) and Dad is a Standard Poodle (50 lbs). Malcolm is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Malcolm! Malcolm is an adorable Male Goldendoodle puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Malcolm's Mom is a Golden Retriever (50 and Dad is a Standard Poodle (50. Malcolm is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822277,
@@ -2271,10 +2271,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-morty-822277-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (55 lbs)",
-      "dadBreed": "Standard Poodle (45 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Standard Poodle",
       "microchip": "98514100822277",
-      "description": "Meet Morty! Morty is an adorable Male Goldendoodle puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Morty's Mom is a Golden Retriever (55 lbs) and Dad is a Standard Poodle (45 lbs). Morty is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Morty! Morty is an adorable Male Goldendoodle puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Morty's Mom is a Golden Retriever (55 and Dad is a Standard Poodle (45. Morty is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 819457,
@@ -2300,10 +2300,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-mr-buttercup-819457-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle (35 lbs)",
-      "dadBreed": "Miniature Poodle (15 lbs)",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100819457",
-      "description": "Meet Mr Buttercup! Mr Buttercup is an adorable Male Goldendoodle puppy born on April 24, 2026. Sourced directly from premier USDA certified breeders, Mr Buttercup's Mom is a Goldendoodle (35 lbs) and Dad is a Miniature Poodle (15 lbs). Mr Buttercup is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Mr Buttercup! Mr Buttercup is an adorable Male Goldendoodle puppy born on April 24, 2026. Sourced directly from premier USDA certified breeders, Mr Buttercup's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Mr Buttercup is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 818897,
@@ -2329,10 +2329,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-muff-818897-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (60 lbs)",
-      "dadBreed": "Miniature Poodle (16 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100818897",
-      "description": "Meet Muff! Muff is an adorable Male Goldendoodle puppy born on April 21, 2026. Sourced directly from premier USDA certified breeders, Muff's Mom is a Golden Retriever (60 lbs) and Dad is a Miniature Poodle (16 lbs). Muff is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Muff! Muff is an adorable Male Goldendoodle puppy born on April 21, 2026. Sourced directly from premier USDA certified breeders, Muff's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. Muff is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824157,
@@ -2358,10 +2358,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-quinetta-824157-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (50 lbs)",
-      "dadBreed": "Standard Poodle (50 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Standard Poodle",
       "microchip": "98514100824157",
-      "description": "Meet Quinetta! Quinetta is an adorable Female Goldendoodle puppy born on June 10, 2026. Sourced directly from premier USDA certified breeders, Quinetta's Mom is a Golden Retriever (50 lbs) and Dad is a Standard Poodle (50 lbs). Quinetta is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Quinetta! Quinetta is an adorable Female Goldendoodle puppy born on June 10, 2026. Sourced directly from premier USDA certified breeders, Quinetta's Mom is a Golden Retriever (50 and Dad is a Standard Poodle (50. Quinetta is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824042,
@@ -2387,10 +2387,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-roxie-824042-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (55 lbs)",
-      "dadBreed": "Standard Poodle (45 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Standard Poodle",
       "microchip": "98514100824042",
-      "description": "Meet Roxie! Roxie is an adorable Male Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Roxie's Mom is a Golden Retriever (55 lbs) and Dad is a Standard Poodle (45 lbs). Roxie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Roxie! Roxie is an adorable Male Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Roxie's Mom is a Golden Retriever (55 and Dad is a Standard Poodle (45. Roxie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822463,
@@ -2416,10 +2416,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-rudy-822463-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle (35 lbs)",
-      "dadBreed": "Miniature Poodle (15 lbs)",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100822463",
-      "description": "Meet Rudy! Rudy is an adorable Female Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Rudy's Mom is a Goldendoodle (35 lbs) and Dad is a Miniature Poodle (15 lbs). Rudy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Rudy! Rudy is an adorable Female Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Rudy's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Rudy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 817448,
@@ -2445,10 +2445,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-shannon-817448-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (60 lbs)",
-      "dadBreed": "Miniature Poodle (16 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100817448",
-      "description": "Meet Shannon! Shannon is an adorable Female Goldendoodle puppy born on March 14, 2026. Sourced directly from premier USDA certified breeders, Shannon's Mom is a Golden Retriever (60 lbs) and Dad is a Miniature Poodle (16 lbs). Shannon is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Shannon! Shannon is an adorable Female Goldendoodle puppy born on March 14, 2026. Sourced directly from premier USDA certified breeders, Shannon's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. Shannon is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825147,
@@ -2474,10 +2474,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-summer-825147-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (50 lbs)",
-      "dadBreed": "Standard Poodle (50 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Standard Poodle",
       "microchip": "98514100825147",
-      "description": "Meet Summer! Summer is an adorable Female Goldendoodle puppy born on June 28, 2026. Sourced directly from premier USDA certified breeders, Summer's Mom is a Golden Retriever (50 lbs) and Dad is a Standard Poodle (50 lbs). Summer is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Summer! Summer is an adorable Female Goldendoodle puppy born on June 28, 2026. Sourced directly from premier USDA certified breeders, Summer's Mom is a Golden Retriever (50 and Dad is a Standard Poodle (50. Summer is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825688,
@@ -2503,10 +2503,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-talley-825688-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever (55 lbs)",
-      "dadBreed": "Standard Poodle (45 lbs)",
+      "momBreed": "Golden Retriever",
+      "dadBreed": "Standard Poodle",
       "microchip": "98514100825688",
-      "description": "Meet Talley! Talley is an adorable Female Goldendoodle puppy born on May 16, 2026. Sourced directly from premier USDA certified breeders, Talley's Mom is a Golden Retriever (55 lbs) and Dad is a Standard Poodle (45 lbs). Talley is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Talley! Talley is an adorable Female Goldendoodle puppy born on May 16, 2026. Sourced directly from premier USDA certified breeders, Talley's Mom is a Golden Retriever (55 and Dad is a Standard Poodle (45. Talley is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824024,
@@ -2532,10 +2532,10 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-teddy-824024-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle (35 lbs)",
-      "dadBreed": "Miniature Poodle (15 lbs)",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Miniature Poodle",
       "microchip": "98514100824024",
-      "description": "Meet Teddy! Teddy is an adorable Male Goldendoodle puppy born on June 17, 2026. Sourced directly from premier USDA certified breeders, Teddy's Mom is a Goldendoodle (35 lbs) and Dad is a Miniature Poodle (15 lbs). Teddy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Teddy! Teddy is an adorable Male Goldendoodle puppy born on June 17, 2026. Sourced directly from premier USDA certified breeders, Teddy's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Teddy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     }
   ]
 };
