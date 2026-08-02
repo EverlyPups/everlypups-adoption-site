@@ -2412,15 +2412,13 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-shannon-817448-exact-1.jpg",
         "images/puppies/goldendoodle/goldendoodle-shannon-817448-exact-2.jpg",
         "images/puppies/goldendoodle/goldendoodle-shannon-817448-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-shannon-817448-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-shannon-817448-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-shannon-817448-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-shannon-817448-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Miniature Poodle",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100817448",
-      "description": "Meet Shannon! Shannon is an adorable Female Goldendoodle puppy born on March 14, 2026. Sourced directly from premier USDA certified breeders, Shannon's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. Shannon is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Shannon! Shannon is an adorable Female Goldendoodle puppy born on March 14, 2026. Sourced directly from premier USDA certified breeders, Shannon's Mom is a Goldendoodle and Dad is a Poodle. Shannon is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825147,
