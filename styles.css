@@ -597,22 +597,24 @@ img, video {
 }
 
 /* --------------------------------------------------------------------------
-   6. Hero Delivery Offer Banner
+   6. Hero Delivery Offer Banner Anchored at Base of Hero Section
    -------------------------------------------------------------------------- */
 .hero-delivery-banner {
-  position: relative;
-  margin-top: 2.5rem;
-  width: 100%;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 4rem);
   max-width: 920px;
   z-index: 30;
 
-  background: rgba(15, 23, 42, 0.9);
+  background: rgba(15, 23, 42, 0.88);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border-radius: 20px;
-  padding: 1rem 1.25rem 1rem 1.5rem;
+  border-radius: var(--radius-full);
+  padding: 0.75rem 1rem 0.75rem 1.5rem;
   border: 1px solid rgba(16, 185, 129, 0.4);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 25px rgba(16, 185, 129, 0.2);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45), 0 0 30px rgba(16, 185, 129, 0.25);
   display: flex;
   align-items: center;
   justify-content: space-between;
