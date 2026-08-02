@@ -2139,15 +2139,13 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-leo-822307-exact-1.jpg",
         "images/puppies/goldendoodle/goldendoodle-leo-822307-exact-2.jpg",
         "images/puppies/goldendoodle/goldendoodle-leo-822307-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-leo-822307-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-leo-822307-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-leo-822307-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-leo-822307-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Standard Poodle",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100822307",
-      "description": "Meet Leo! Leo is an adorable Male Goldendoodle puppy born on May 17, 2026. Sourced directly from premier USDA certified breeders, Leo's Mom is a Golden Retriever (55 and Dad is a Standard Poodle (45. Leo is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Leo! Leo is an adorable Male Goldendoodle puppy born on May 17, 2026. Sourced directly from premier USDA certified breeders, Leo's Mom is a Goldendoodle and Dad is a Poodle. Leo is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824884,
