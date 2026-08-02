@@ -1814,9 +1814,7 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-aubriella-822066-exact-1.jpg",
         "images/puppies/goldendoodle/goldendoodle-aubriella-822066-exact-2.jpg",
         "images/puppies/goldendoodle/goldendoodle-aubriella-822066-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-aubriella-822066-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-aubriella-822066-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-aubriella-822066-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-aubriella-822066-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Golden Retriever (55 lbs)",
