@@ -1863,11 +1863,8 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3149,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-fancy-824186-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-fancy-824186-exact-4.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-fancy-824186-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-fancy-824186-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-fancy-824186-exact-3.jpg",
         "images/puppies/goldendoodle/goldendoodle-fancy-824186-exact-4.jpg",
         "images/puppies/goldendoodle/goldendoodle-fancy-824186-exact-5.jpg",
         "images/puppies/goldendoodle/goldendoodle-fancy-824186-exact-6.jpg"
