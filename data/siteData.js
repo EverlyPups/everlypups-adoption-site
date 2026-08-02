@@ -1973,15 +1973,13 @@ var SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-george-823930-exact-1.jpg",
         "images/puppies/goldendoodle/goldendoodle-george-823930-exact-2.jpg",
         "images/puppies/goldendoodle/goldendoodle-george-823930-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-george-823930-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-george-823930-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-george-823930-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-george-823930-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Miniature Poodle",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100823930",
-      "description": "Meet George! George is an adorable Male Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, George's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. George is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet George! George is an adorable Male Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, George's Mom is a Goldendoodle and Dad is a Poodle. George is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824312,
