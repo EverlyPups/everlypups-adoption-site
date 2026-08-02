@@ -1942,20 +1942,17 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3049,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-gary-824308-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-gary-824308-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-gary-824308-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gary-824308-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gary-824308-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gary-824308-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gary-824308-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gary-824308-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-gary-824308-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-gary-824308-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-gary-824308-hq-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Goldendoodle",
-      "dadBreed": "Miniature Poodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100824308",
-      "description": "Meet Gary! Gary is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gary's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Gary is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gary! Gary is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gary's Mom is a Goldendoodle and Dad is a Poodle. Gary is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823930,
