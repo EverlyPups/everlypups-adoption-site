@@ -2021,20 +2021,17 @@ var SITE_DATA = {
       "estAdultWeight": "25 - 35 lbs",
       "price": 3049,
       "hypoallergenic": true,
-      "image": "images/puppies/goldendoodle/goldendoodle-gus-824309-exact-1.jpg",
+      "image": "images/puppies/goldendoodle/goldendoodle-gus-824305-hq-1.jpg",
       "gallery": [
-        "images/puppies/goldendoodle/goldendoodle-gus-824309-exact-1.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gus-824309-exact-2.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gus-824309-exact-3.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gus-824309-exact-4.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gus-824309-exact-5.jpg",
-        "images/puppies/goldendoodle/goldendoodle-gus-824309-exact-6.jpg"
+        "images/puppies/goldendoodle/goldendoodle-gus-824305-hq-1.jpg",
+        "images/puppies/goldendoodle/goldendoodle-gus-824305-hq-2.jpg",
+        "images/puppies/goldendoodle/goldendoodle-gus-824305-hq-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Standard Poodle",
+      "momBreed": "Goldendoodle",
+      "dadBreed": "Poodle",
       "microchip": "98514100824309",
-      "description": "Meet Gus! Gus is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gus's Mom is a Golden Retriever (55 and Dad is a Standard Poodle (45. Gus is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gus! Gus is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gus's Mom is a Goldendoodle and Dad is a Poodle. Gus is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825632,
