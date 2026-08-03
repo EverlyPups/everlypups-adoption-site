@@ -1,6 +1,4 @@
-// PawHaven Central Data Registry
-
-var SITE_DATA = {
+const SITE_DATA = {
   "allFilterBreeds": [
     "Akita",
     "American Corgi",
@@ -1848,7 +1846,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Miniature Poodle",
       "microchip": "98514100824908",
-      "description": "Meet Barney! Barney is an adorable Male Goldendoodle puppy born on July 3, 2026. Sourced directly from premier USDA certified breeders, Barney's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Barney is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Barney! Barney is an adorable Male Goldendoodle puppy born on July 3, 2026. Sourced directly from premier USDA certified breeders, Barney's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Barney is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 824186,
@@ -1874,7 +1873,8 @@ var SITE_DATA = {
       "momBreed": "Golden Retriever",
       "dadBreed": "Miniature Poodle",
       "microchip": "98514100824186",
-      "description": "Meet Fancy! Fancy is an adorable Female Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, Fancy's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. Fancy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Fancy! Fancy is an adorable Female Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, Fancy's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. Fancy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 825526,
@@ -1900,7 +1900,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100825526",
-      "description": "Meet Flurry! Flurry is an adorable Female Goldendoodle puppy born on June 15, 2026. Sourced directly from premier USDA certified breeders, Flurry's Mom is a Goldendoodle (30 and Dad is a Poodle (25. Flurry is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Flurry! Flurry is an adorable Female Goldendoodle puppy born on June 15, 2026. Sourced directly from premier USDA certified breeders, Flurry's Mom is a Goldendoodle (30 and Dad is a Poodle (25. Flurry is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 822748,
@@ -1927,7 +1928,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100822748",
-      "description": "Meet Gage! Gage is an adorable Male Goldendoodle puppy born on June 1, 2026. Sourced directly from premier USDA certified breeders, Gage's Mom is a Goldendoodle (30 and Dad is a Poodle (25. Gage is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gage! Gage is an adorable Male Goldendoodle puppy born on June 1, 2026. Sourced directly from premier USDA certified breeders, Gage's Mom is a Goldendoodle (30 and Dad is a Poodle (25. Gage is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 824308,
@@ -1953,7 +1955,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100824308",
-      "description": "Meet Gary! Gary is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gary's Mom is a Goldendoodle and Dad is a Poodle. Gary is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gary! Gary is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gary's Mom is a Goldendoodle and Dad is a Poodle. Gary is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 823930,
@@ -1980,7 +1983,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100823930",
-      "description": "Meet George! George is an adorable Male Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, George's Mom is a Goldendoodle and Dad is a Poodle. George is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet George! George is an adorable Male Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, George's Mom is a Goldendoodle and Dad is a Poodle. George is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 824312,
@@ -2006,7 +2010,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100824312",
-      "description": "Meet Goldie! Goldie is an adorable Female Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Goldie's Mom is a Goldendoodle and Dad is a Poodle. Goldie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Goldie! Goldie is an adorable Female Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Goldie's Mom is a Goldendoodle and Dad is a Poodle. Goldie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 824309,
@@ -2032,7 +2037,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100824309",
-      "description": "Meet Gus! Gus is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gus's Mom is a Goldendoodle and Dad is a Poodle. Gus is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gus! Gus is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gus's Mom is a Goldendoodle and Dad is a Poodle. Gus is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 825632,
@@ -2058,7 +2064,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100825632",
-      "description": "Meet Herman! Herman is an adorable Male Goldendoodle puppy born on June 16, 2026. Sourced directly from premier USDA certified breeders, Herman's Mom is a Goldendoodle and Dad is a Poodle. Herman is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Herman! Herman is an adorable Male Goldendoodle puppy born on June 16, 2026. Sourced directly from premier USDA certified breeders, Herman's Mom is a Goldendoodle and Dad is a Poodle. Herman is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 825694,
@@ -2084,7 +2091,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100825694",
-      "description": "Meet Jerome! Jerome is an adorable Male Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Jerome's Mom is a Goldendoodle and Dad is a Poodle. Jerome is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Jerome! Jerome is an adorable Male Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Jerome's Mom is a Goldendoodle and Dad is a Poodle. Jerome is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Medium F1"
     },
     {
       "id": 825002,
@@ -2111,7 +2119,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100825002",
-      "description": "Meet Jethro! Jethro is an adorable Male Goldendoodle puppy born on June 23, 2026. Sourced directly from premier USDA certified breeders, Jethro's Mom is a Goldendoodle and Dad is a Poodle. Jethro is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Jethro! Jethro is an adorable Male Goldendoodle puppy born on June 23, 2026. Sourced directly from premier USDA certified breeders, Jethro's Mom is a Goldendoodle and Dad is a Poodle. Jethro is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 822307,
@@ -2138,7 +2147,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100822307",
-      "description": "Meet Leo! Leo is an adorable Male Goldendoodle puppy born on May 17, 2026. Sourced directly from premier USDA certified breeders, Leo's Mom is a Goldendoodle and Dad is a Poodle. Leo is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Leo! Leo is an adorable Male Goldendoodle puppy born on May 17, 2026. Sourced directly from premier USDA certified breeders, Leo's Mom is a Goldendoodle and Dad is a Poodle. Leo is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 824884,
@@ -2165,7 +2175,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100824884",
-      "description": "Meet Levi! Levi is an adorable Male Goldendoodle puppy born on June 26, 2026. Sourced directly from premier USDA certified breeders, Levi's Mom is a Goldendoodle and Dad is a Poodle. Levi is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Levi! Levi is an adorable Male Goldendoodle puppy born on June 26, 2026. Sourced directly from premier USDA certified breeders, Levi's Mom is a Goldendoodle and Dad is a Poodle. Levi is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 824056,
@@ -2192,7 +2203,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100824056",
-      "description": "Meet Lucy! Lucy is an adorable Female Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Lucy's Mom is a Goldendoodle and Dad is a Poodle. Lucy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lucy! Lucy is an adorable Female Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Lucy's Mom is a Goldendoodle and Dad is a Poodle. Lucy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Medium F1B"
     },
     {
       "id": 822275,
@@ -2219,7 +2231,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100822275",
-      "description": "Meet Malcolm! Malcolm is an adorable Male Goldendoodle puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Malcolm's Mom is a Goldendoodle and Dad is a Poodle. Malcolm is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Malcolm! Malcolm is an adorable Male Goldendoodle puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Malcolm's Mom is a Goldendoodle and Dad is a Poodle. Malcolm is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Standard F1B"
     },
     {
       "id": 822277,
@@ -2246,7 +2259,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100822277",
-      "description": "Meet Morty! Morty is an adorable Male Goldendoodle puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Morty's Mom is a Goldendoodle and Dad is a Poodle. Morty is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Morty! Morty is an adorable Male Goldendoodle puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Morty's Mom is a Goldendoodle and Dad is a Poodle. Morty is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Standard F1B"
     },
     {
       "id": 819457,
@@ -2273,7 +2287,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100819457",
-      "description": "Meet Mr Buttercup! Mr Buttercup is an adorable Male Goldendoodle puppy born on April 24, 2026. Sourced directly from premier USDA certified breeders, Mr Buttercup's Mom is a Goldendoodle and Dad is a Poodle. Mr Buttercup is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Mr Buttercup! Mr Buttercup is an adorable Male Goldendoodle puppy born on April 24, 2026. Sourced directly from premier USDA certified breeders, Mr Buttercup's Mom is a Goldendoodle and Dad is a Poodle. Mr Buttercup is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 818897,
@@ -2300,7 +2315,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100818897",
-      "description": "Meet Muff! Muff is an adorable Male Goldendoodle puppy born on April 21, 2026. Sourced directly from premier USDA certified breeders, Muff's Mom is a Goldendoodle and Dad is a Poodle. Muff is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Muff! Muff is an adorable Male Goldendoodle puppy born on April 21, 2026. Sourced directly from premier USDA certified breeders, Muff's Mom is a Goldendoodle and Dad is a Poodle. Muff is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 824157,
@@ -2327,7 +2343,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100824157",
-      "description": "Meet Quinetta! Quinetta is an adorable Female Goldendoodle puppy born on June 10, 2026. Sourced directly from premier USDA certified breeders, Quinetta's Mom is a Goldendoodle and Dad is a Poodle. Quinetta is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Quinetta! Quinetta is an adorable Female Goldendoodle puppy born on June 10, 2026. Sourced directly from premier USDA certified breeders, Quinetta's Mom is a Goldendoodle and Dad is a Poodle. Quinetta is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 824042,
@@ -2353,7 +2370,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100824042",
-      "description": "Meet Roxie! Roxie is an adorable Male Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Roxie's Mom is a Goldendoodle and Dad is a Poodle. Roxie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Roxie! Roxie is an adorable Male Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Roxie's Mom is a Goldendoodle and Dad is a Poodle. Roxie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Medium F1B"
     },
     {
       "id": 822463,
@@ -2380,7 +2398,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100822463",
-      "description": "Meet Rudy! Rudy is an adorable Female Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Rudy's Mom is a Goldendoodle and Dad is a Poodle. Rudy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Rudy! Rudy is an adorable Female Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Rudy's Mom is a Goldendoodle and Dad is a Poodle. Rudy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 817448,
@@ -2407,7 +2426,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100817448",
-      "description": "Meet Shannon! Shannon is an adorable Female Goldendoodle puppy born on March 14, 2026. Sourced directly from premier USDA certified breeders, Shannon's Mom is a Goldendoodle and Dad is a Poodle. Shannon is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Shannon! Shannon is an adorable Female Goldendoodle puppy born on March 14, 2026. Sourced directly from premier USDA certified breeders, Shannon's Mom is a Goldendoodle and Dad is a Poodle. Shannon is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 825147,
@@ -2434,7 +2454,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100825147",
-      "description": "Meet Summer! Summer is an adorable Female Goldendoodle puppy born on June 28, 2026. Sourced directly from premier USDA certified breeders, Summer's Mom is a Goldendoodle and Dad is a Poodle. Summer is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Summer! Summer is an adorable Female Goldendoodle puppy born on June 28, 2026. Sourced directly from premier USDA certified breeders, Summer's Mom is a Goldendoodle and Dad is a Poodle. Summer is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 825688,
@@ -2460,7 +2481,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100825688",
-      "description": "Meet Talley! Talley is an adorable Female Goldendoodle puppy born on May 16, 2026. Sourced directly from premier USDA certified breeders, Talley's Mom is a Goldendoodle and Dad is a Poodle. Talley is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Talley! Talley is an adorable Female Goldendoodle puppy born on May 16, 2026. Sourced directly from premier USDA certified breeders, Talley's Mom is a Goldendoodle and Dad is a Poodle. Talley is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     },
     {
       "id": 824024,
@@ -2487,11 +2509,8 @@ var SITE_DATA = {
       "momBreed": "Goldendoodle",
       "dadBreed": "Poodle",
       "microchip": "98514100824024",
-      "description": "Meet Teddy! Teddy is an adorable Male Goldendoodle puppy born on June 17, 2026. Sourced directly from premier USDA certified breeders, Teddy's Mom is a Goldendoodle and Dad is a Poodle. Teddy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Teddy! Teddy is an adorable Male Goldendoodle puppy born on June 17, 2026. Sourced directly from premier USDA certified breeders, Teddy's Mom is a Goldendoodle and Dad is a Poodle. Teddy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "variety": "Miniature F1B"
     }
   ]
 };
-
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = SITE_DATA;
-}

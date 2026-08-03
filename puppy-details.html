@@ -277,7 +277,7 @@
   </a>
 
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=820"></script>
+  <script src="data/siteData.js?v=830"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -357,9 +357,9 @@
         document.getElementById('puppyBreedTag').textContent = puppy.breed;
         const nameElem = document.getElementById('puppyName');
         if (puppy.variety) {
-          nameElem.innerHTML = `${puppy.breed} ${puppy.name} <span style="font-size: 14px; font-weight: 800; color: #00B67A; background: rgba(0, 182, 122, 0.12); padding: 0.2rem 0.75rem; border-radius: 50px; margin-left: 0.4rem; vertical-align: middle; display: inline-block;">- ${puppy.variety}</span>`;
+          nameElem.innerHTML = `${puppy.name} <span style="font-size: 14px; font-weight: 800; color: #00B67A; background: rgba(0, 182, 122, 0.12); padding: 0.2rem 0.75rem; border-radius: 50px; margin-left: 0.4rem; vertical-align: middle; display: inline-block;">- ${puppy.variety}</span>`;
         } else {
-          nameElem.textContent = `${puppy.name} - ${puppy.breed}`;
+          nameElem.textContent = puppy.name;
         }
         document.getElementById('puppySubtext').textContent = puppy.gender + ' • ' + puppy.age;
 
