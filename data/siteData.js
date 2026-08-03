@@ -945,32 +945,6 @@ const SITE_DATA = {
       "description": "Meet Jenny! A sweet, playful Dachshund puppy looking for a loving forever family. Jenny is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
     },
     {
-      "id": 824645,
-      "name": "Gundo",
-      "breed": "Poodle",
-      "breedGroup": "Hybrid",
-      "gender": "Male",
-      "age": "8 weeks",
-      "birthday": "May 2026",
-      "color": "Classic",
-      "status": "Ready to go home",
-      "weight": "5.4 lbs",
-      "estAdultWeight": "8 - 16 lbs",
-      "price": 2555,
-      "hypoallergenic": true,
-      "image": "https://photos.puppyspot.com/5/listing/824645/photo/505016375_medium.JPG",
-      "gallery": [
-        "https://photos.puppyspot.com/5/listing/824645/photo/505016375_medium.JPG",
-        "https://photos.puppyspot.com/0/listing/822590/photo/505019391_medium.JPG"
-      ],
-      "location": "Tampa, FL",
-      "breeder": "USDA Certified Star Breeder Network",
-      "momBreed": "Poodle (Mom)",
-      "dadBreed": "Poodle (Dad)",
-      "microchip": "98514100824645",
-      "description": "Meet Gundo! A sweet, playful Poodle puppy looking for a loving forever family. Gundo is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
-    },
-    {
       "id": 824804,
       "name": "Vega",
       "breed": "Cavalier King Charles Spaniel",
