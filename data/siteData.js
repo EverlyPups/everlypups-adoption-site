@@ -6445,6 +6445,384 @@ const SITE_DATA = {
       "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100821075",
       "description": "Meet Otto! Otto is a noble and loyal Male German Shepherd Dog puppy born on May 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Otto is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+    },
+    {
+      "id": "823033",
+      "name": "Armani",
+      "breed": "Yorkshire Terrier",
+      "gender": "Male",
+      "birthday": "May 11, 2026",
+      "age": "12 weeks old",
+      "price": 2200,
+      "color": "Chocolate, Gold & White",
+      "image": "images/puppies/yorkshire-terrier/yorkie-armani-823033-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-armani-823033-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-armani-823033-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-armani-823033-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-armani-823033-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Armani! Armani is a charming, playful Male Yorkshire Terrier puppy born on May 11, 2026. Sourced directly from premier AKC/USDA certified breeders, Armani is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "820384",
+      "name": "Fae",
+      "breed": "Yorkshire Terrier",
+      "gender": "Female",
+      "birthday": "April 18, 2026",
+      "age": "15 weeks old",
+      "price": 1900,
+      "color": "Black & Tan",
+      "image": "images/puppies/yorkshire-terrier/yorkie-fae-820384-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-fae-820384-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-fae-820384-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-fae-820384-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-fae-820384-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Fae! Fae is a charming, playful Female Yorkshire Terrier puppy born on April 18, 2026. Sourced directly from premier AKC/USDA certified breeders, Fae is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "820393",
+      "name": "Freda",
+      "breed": "Yorkshire Terrier",
+      "gender": "Female",
+      "birthday": "April 22, 2026",
+      "age": "14 weeks old",
+      "price": 1900,
+      "color": "Black & Tan",
+      "image": "images/puppies/yorkshire-terrier/yorkie-freda-820393-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-freda-820393-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-freda-820393-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-freda-820393-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-freda-820393-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Freda! Freda is a charming, playful Female Yorkshire Terrier puppy born on April 22, 2026. Sourced directly from premier AKC/USDA certified breeders, Freda is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "824660",
+      "name": "Hendrix",
+      "breed": "Yorkshire Terrier",
+      "gender": "Male",
+      "birthday": "June 9, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "Black & Tan",
+      "image": "images/puppies/yorkshire-terrier/yorkie-hendrix-824660-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-hendrix-824660-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-hendrix-824660-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-hendrix-824660-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-hendrix-824660-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Hendrix! Hendrix is a charming, playful Male Yorkshire Terrier puppy born on June 9, 2026. Sourced directly from premier AKC/USDA certified breeders, Hendrix is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "823626",
+      "name": "Jace",
+      "breed": "Yorkshire Terrier",
+      "gender": "Male",
+      "birthday": "May 10, 2026",
+      "age": "12 weeks old",
+      "price": 1900,
+      "color": "Black & Tan",
+      "image": "images/puppies/yorkshire-terrier/yorkie-jace-823626-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-jace-823626-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-jace-823626-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-jace-823626-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-jace-823626-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Jace! Jace is a charming, playful Male Yorkshire Terrier puppy born on May 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Jace is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "823366",
+      "name": "Juliet",
+      "breed": "Yorkshire Terrier",
+      "gender": "Female",
+      "birthday": "June 9, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "Black & Tan",
+      "image": "images/puppies/yorkshire-terrier/yorkie-juliet-823366-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-juliet-823366-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-juliet-823366-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-juliet-823366-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-juliet-823366-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Juliet! Juliet is a charming, playful Female Yorkshire Terrier puppy born on June 9, 2026. Sourced directly from premier AKC/USDA certified breeders, Juliet is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "819324",
+      "name": "Kassandra",
+      "breed": "Yorkshire Terrier",
+      "gender": "Female",
+      "birthday": "April 5, 2026",
+      "age": "17 weeks old",
+      "price": 2000,
+      "color": "Black, Tan & White",
+      "image": "images/puppies/yorkshire-terrier/yorkie-kassandra-819324-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-kassandra-819324-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-kassandra-819324-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-kassandra-819324-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-kassandra-819324-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Kassandra! Kassandra is a charming, playful Female Yorkshire Terrier puppy born on April 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Kassandra is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "813239",
+      "name": "Kyle",
+      "breed": "Yorkshire Terrier",
+      "gender": "Male",
+      "birthday": "January 19, 2026",
+      "age": "28 weeks old",
+      "price": 2000,
+      "color": "Black & Gold",
+      "image": "images/puppies/yorkshire-terrier/yorkie-kyle-813239-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-kyle-813239-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-kyle-813239-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-kyle-813239-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-kyle-813239-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Kyle! Kyle is a charming, playful Male Yorkshire Terrier puppy born on January 19, 2026. Sourced directly from premier AKC/USDA certified breeders, Kyle is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "823034",
+      "name": "Louie",
+      "breed": "Yorkshire Terrier",
+      "gender": "Male",
+      "birthday": "May 11, 2026",
+      "age": "12 weeks old",
+      "price": 2200,
+      "color": "Chocolate, Tan & White",
+      "image": "images/puppies/yorkshire-terrier/yorkie-louie-823034-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-louie-823034-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-louie-823034-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-louie-823034-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-louie-823034-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Louie! Louie is a charming, playful Male Yorkshire Terrier puppy born on May 11, 2026. Sourced directly from premier AKC/USDA certified breeders, Louie is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "825096",
+      "name": "Max",
+      "breed": "Yorkshire Terrier",
+      "gender": "Male",
+      "birthday": "June 10, 2026",
+      "age": "8 weeks old",
+      "price": 2000,
+      "color": "Black, Tan & White",
+      "image": "images/puppies/yorkshire-terrier/yorkie-max-825096-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-max-825096-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-max-825096-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-max-825096-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-max-825096-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Max! Max is a charming, playful Male Yorkshire Terrier puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Max is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "825467",
+      "name": "Ruby",
+      "breed": "Yorkshire Terrier",
+      "gender": "Female",
+      "birthday": "June 9, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "Black & Tan",
+      "image": "images/puppies/yorkshire-terrier/yorkie-ruby-825467-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-ruby-825467-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-ruby-825467-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-ruby-825467-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-ruby-825467-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Ruby! Ruby is a charming, playful Female Yorkshire Terrier puppy born on June 9, 2026. Sourced directly from premier AKC/USDA certified breeders, Ruby is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "821102",
+      "name": "Sapphire",
+      "breed": "Yorkshire Terrier",
+      "gender": "Female",
+      "birthday": "May 19, 2026",
+      "age": "10 weeks old",
+      "price": 2200,
+      "color": "Blue Merle & Gold",
+      "image": "images/puppies/yorkshire-terrier/yorkie-sapphire-821102-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-sapphire-821102-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-sapphire-821102-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-sapphire-821102-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-sapphire-821102-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Sapphire! Sapphire is a charming, playful Female Yorkshire Terrier puppy born on May 19, 2026. Sourced directly from premier AKC/USDA certified breeders, Sapphire is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "824390",
+      "name": "Sunny",
+      "breed": "Yorkshire Terrier",
+      "gender": "Male",
+      "birthday": "June 6, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "Black & Tan",
+      "image": "images/puppies/yorkshire-terrier/yorkie-sunny-824390-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-sunny-824390-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-sunny-824390-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-sunny-824390-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-sunny-824390-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Sunny! Sunny is a charming, playful Male Yorkshire Terrier puppy born on June 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Sunny is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "823035",
+      "name": "Versace",
+      "breed": "Yorkshire Terrier",
+      "gender": "Male",
+      "birthday": "May 11, 2026",
+      "age": "12 weeks old",
+      "price": 2200,
+      "color": "Chocolate, Gold & White",
+      "image": "images/puppies/yorkshire-terrier/yorkie-versace-823035-1.jpg",
+      "gallery": [
+        "images/puppies/yorkshire-terrier/yorkie-versace-823035-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-versace-823035-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-versace-823035-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkie-versace-823035-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Yorkshire Terrier (Mom)",
+      "dadBreed": "Yorkshire Terrier (Dad)",
+      "description": "Meet Versace! Versace is a charming, playful Male Yorkshire Terrier puppy born on May 11, 2026. Sourced directly from premier AKC/USDA certified breeders, Versace is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
     }
   ]
 };
