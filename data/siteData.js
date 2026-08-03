@@ -1806,7 +1806,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "5.5 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2545,
+      "price": 1900,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-aubriella-822066-exact-1.jpg",
       "gallery": [
@@ -1833,7 +1833,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "5.9 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2645,
+      "price": 2100,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-barney-824908-exact-2.jpg",
       "gallery": [
@@ -1861,7 +1861,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.3 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2645,
+      "price": 2100,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-fancy-824186-exact-4.jpg",
       "gallery": [
@@ -1888,7 +1888,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.7 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2645,
+      "price": 2100,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-flurry-825526-exact-4.jpg",
       "gallery": [
@@ -1915,7 +1915,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "7.1 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2695,
+      "price": 2200,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-gage-822748-hq-1.jpg",
       "gallery": [
@@ -1943,7 +1943,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "7.5 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2645,
+      "price": 2100,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-gary-824308-hq-1.jpg",
       "gallery": [
@@ -1970,7 +1970,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "7.9 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2695,
+      "price": 2200,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-george-823930-exact-1.jpg",
       "gallery": [
@@ -1998,7 +1998,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "8.3 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2645,
+      "price": 2100,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-goldie-824312-hq-1.jpg",
       "gallery": [
@@ -2025,7 +2025,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "5.5 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2645,
+      "price": 2200,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-gus-824305-hq-1.jpg",
       "gallery": [
@@ -2052,7 +2052,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "5.9 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2695,
+      "price": 2200,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-herman-825632-desktop-hq-1.jpg",
       "gallery": [
@@ -2079,7 +2079,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.3 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2695,
+      "price": 2200,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-jerome-825694-desktop-hq-1.jpg",
       "gallery": [
@@ -2106,7 +2106,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.7 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2695,
+      "price": 2200,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-jethro-825002-desktop-hq-1.jpg",
       "gallery": [
@@ -2134,7 +2134,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "7.1 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2545,
+      "price": 1900,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-leo-822307-exact-1.jpg",
       "gallery": [
@@ -2162,7 +2162,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "7.5 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2695,
+      "price": 2200,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-levi-824884-desktop-hq-1.jpg",
       "gallery": [
@@ -2190,7 +2190,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "7.9 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2595,
+      "price": 1900,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-lucy-824056-exact-1.jpg",
       "gallery": [
@@ -2218,7 +2218,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "8.3 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2595,
+      "price": 1900,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-malcolm-822275-exact-1.jpg",
       "gallery": [
@@ -2246,7 +2246,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "5.5 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2595,
+      "price": 2100,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-morty-822277-exact-1.jpg",
       "gallery": [
@@ -2274,7 +2274,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "5.9 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2545,
+      "price": 1900,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-mr-buttercup-819457-exact-1.jpg",
       "gallery": [
@@ -2302,7 +2302,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.3 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2545,
+      "price": 1900,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-muff-818897-desktop-hq-1.jpg",
       "gallery": [
@@ -2330,7 +2330,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.7 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2595,
+      "price": 2100,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-quinetta-824157-exact-1.jpg",
       "gallery": [
@@ -2358,7 +2358,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "7.1 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2595,
+      "price": 2100,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-roxie-824042-exact-1.jpg",
       "gallery": [
@@ -2385,7 +2385,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "7.5 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2545,
+      "price": 1900,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-rudy-822463-exact-1.jpg",
       "gallery": [
@@ -2413,7 +2413,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "7.9 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2495,
+      "price": 1900,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-shannon-817448-exact-1.jpg",
       "gallery": [
@@ -2441,7 +2441,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "8.3 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2545,
+      "price": 1900,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-summer-825147-desktop-hq-1.jpg",
       "gallery": [
@@ -2469,7 +2469,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "5.5 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2595,
+      "price": 2100,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-talley-825688-desktop-hq-1.jpg",
       "gallery": [
@@ -2496,7 +2496,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "5.9 lbs",
       "estAdultWeight": "25 - 35 lbs",
-      "price": 2695,
+      "price": 2200,
       "hypoallergenic": true,
       "image": "images/puppies/goldendoodle/goldendoodle-teddy-824024-exact-1.jpg",
       "gallery": [
