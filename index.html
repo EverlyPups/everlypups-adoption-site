@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Editorial Design System -->
-  <link rel="stylesheet" href="styles.css?v=14" />
+  <link rel="stylesheet" href="styles.css?v=770" />
 <body>
 
   <!-- Top Announcement Bar (Visible at a Glance at Top of Webpage) -->
@@ -26,7 +26,7 @@
   <!-- ==========================================================================
        1. Navigation Header with White Container Bar & Mega Dropdown
        ========================================================================== -->
-  <header class="header">
+  <header class="header" style="position: absolute; top: 75px; left: 0; width: 100%; z-index: 100;">
     <div class="container">
       <div class="nav-container-box">
         <a href="#" class="logo">
@@ -322,13 +322,13 @@
   <!-- ==========================================================================
        2. Full Viewport Hero Section (100vh)
        ========================================================================== -->
-  <section class="hero">
+  <section class="hero" style="position: relative; min-height: 85vh; display: flex; align-items: center; padding: 180px 0 5rem 0; color: var(--text-white); overflow: hidden;">
     <video autoplay muted loop playsinline class="hero-video">
       <source src="https://customer-4tih2bjymu20uxxn.cloudflarestream.com/44c2bce37010f55bad9cbe0c59da8483/downloads/default.mp4" type="video/mp4" />
     </video>
 
     <div class="container" style="position: relative; z-index: 10; width: 100%;">
-      <div class="hero-content">
+      <div class="hero-content" style="margin-top: 30px;">
         <span class="trust-label">VERIFIED USDA BREEDERS</span>
         
         <h1 class="hero-headline">
@@ -1690,7 +1690,7 @@
     <span class="whatsapp-tooltip">Chat with us</span>
   </a>
 
-  <script src="data/siteData.js?v=760"></script>
-  <script src="app.js?v=760"></script>
+  <script src="data/siteData.js?v=770"></script>
+  <script src="app.js?v=770"></script>
 </body>
 </html>
