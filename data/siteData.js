@@ -763,32 +763,6 @@ const SITE_DATA = {
       "description": "Meet Sarge! A sweet, playful Doxiepoo puppy looking for a loving forever family. Sarge is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
     },
     {
-      "id": 824806,
-      "name": "Xylander",
-      "breed": "Cavalier King Charles Spaniel",
-      "breedGroup": "Companion",
-      "gender": "Male",
-      "age": "9 weeks",
-      "birthday": "May 2026",
-      "color": "Classic",
-      "status": "Ready to go home",
-      "weight": "6.2 lbs",
-      "estAdultWeight": "8 - 16 lbs",
-      "price": 1790,
-      "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/6/listing/824806/photo/505041874_medium.jpg",
-      "gallery": [
-        "https://photos.puppyspot.com/6/listing/824806/photo/505041874_medium.jpg",
-        "https://photos.puppyspot.com/0/listing/822590/photo/505019391_medium.JPG"
-      ],
-      "location": "Denver, CO",
-      "breeder": "USDA Certified Star Breeder Network",
-      "momBreed": "Cavalier King Charles Spaniel (Mom)",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
-      "microchip": "98514100824806",
-      "description": "Meet Xylander! A sweet, playful Cavalier King Charles Spaniel puppy looking for a loving forever family. Xylander is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
-    },
-    {
       "id": 819907,
       "name": "Juneo",
       "breed": "German Shepherd Dog",
@@ -813,32 +787,6 @@ const SITE_DATA = {
       "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100819907",
       "description": "Meet Juneo! A sweet, playful German Shepherd Dog puppy looking for a loving forever family. Juneo is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
-    },
-    {
-      "id": 824804,
-      "name": "Vega",
-      "breed": "Cavalier King Charles Spaniel",
-      "breedGroup": "Companion",
-      "gender": "Male",
-      "age": "9 weeks",
-      "birthday": "May 2026",
-      "color": "Classic",
-      "status": "Ready to go home",
-      "weight": "6.2 lbs",
-      "estAdultWeight": "8 - 16 lbs",
-      "price": 2640,
-      "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/4/listing/824804/photo/505041882_medium.jpg",
-      "gallery": [
-        "https://photos.puppyspot.com/4/listing/824804/photo/505041882_medium.jpg",
-        "https://photos.puppyspot.com/0/listing/822590/photo/505019391_medium.JPG"
-      ],
-      "location": "San Diego, CA",
-      "breeder": "USDA Certified Star Breeder Network",
-      "momBreed": "Cavalier King Charles Spaniel (Mom)",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
-      "microchip": "98514100824804",
-      "description": "Meet Vega! A sweet, playful Cavalier King Charles Spaniel puppy looking for a loving forever family. Vega is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
     },
     {
       "id": 817774,
@@ -1021,32 +969,6 @@ const SITE_DATA = {
       "dadBreed": "Labradoodle (Dad)",
       "microchip": "98514100824399",
       "description": "Meet Nicki! A sweet, playful Labradoodle puppy looking for a loving forever family. Nicki is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
-    },
-    {
-      "id": 824997,
-      "name": "Cody",
-      "breed": "Cavalier King Charles Spaniel",
-      "breedGroup": "Companion",
-      "gender": "Male",
-      "age": "8 weeks",
-      "birthday": "May 2026",
-      "color": "Classic",
-      "status": "Ready to go home",
-      "weight": "4.6 lbs",
-      "estAdultWeight": "8 - 16 lbs",
-      "price": 1945,
-      "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/7/listing/824997/photo/505030745_medium.jpg",
-      "gallery": [
-        "https://photos.puppyspot.com/7/listing/824997/photo/505030745_medium.jpg",
-        "https://photos.puppyspot.com/0/listing/822590/photo/505019391_medium.JPG"
-      ],
-      "location": "Houston, TX",
-      "breeder": "USDA Certified Star Breeder Network",
-      "momBreed": "Cavalier King Charles Spaniel (Mom)",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
-      "microchip": "98514100824997",
-      "description": "Meet Cody! A sweet, playful Cavalier King Charles Spaniel puppy looking for a loving forever family. Cody is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
     },
     {
       "id": 823937,
