@@ -1799,6 +1799,7 @@ var SITE_DATA = {
       "id": 822066,
       "name": "Aubriella",
       "breed": "Goldendoodle",
+      "variety": "Miniature F1B",
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",

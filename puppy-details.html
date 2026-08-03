@@ -277,7 +277,7 @@
   </a>
 
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=800"></script>
+  <script src="data/siteData.js?v=810"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -320,14 +320,15 @@
         }
 
         // Page Title & Header
-        document.getElementById('pageTitle').textContent = puppy.name + ' - ' + puppy.breed + ' | PawHaven';
+        const fullTitle = puppy.variety ? `${puppy.breed} ${puppy.name} - ${puppy.variety}` : `${puppy.name} - ${puppy.breed}`;
+        document.getElementById('pageTitle').textContent = fullTitle + ' | PawHaven';
         document.getElementById('bcBreed').textContent = puppy.breed;
-        document.getElementById('bcName').textContent = puppy.name;
+        document.getElementById('bcName').textContent = puppy.variety ? `${puppy.name} (${puppy.variety})` : puppy.name;
 
         // Image & Badges
         const mainImg = document.getElementById('mainPuppyImage');
         mainImg.src = puppy.image;
-        mainImg.alt = puppy.name + ' ' + puppy.breed;
+        mainImg.alt = fullTitle;
         document.getElementById('puppyStatusBadge').textContent = puppy.status || 'Ready to go home';
 
         // Thumbnails
@@ -354,7 +355,7 @@
 
         // Overview Text
         document.getElementById('puppyBreedTag').textContent = puppy.breed + (puppy.variety ? ' • ' + puppy.variety : '');
-        document.getElementById('puppyName').textContent = puppy.name;
+        document.getElementById('puppyName').textContent = fullTitle;
         document.getElementById('puppySubtext').textContent = puppy.gender + ' • ' + puppy.age;
 
         // Price & Reserve CTA
