@@ -893,58 +893,6 @@ const SITE_DATA = {
       "description": "Meet Tilly! A sweet, playful Dachshund puppy looking for a loving forever family. Tilly is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
     },
     {
-      "id": 823332,
-      "name": "Layla",
-      "breed": "Golden Retriever",
-      "breedGroup": "Companion",
-      "gender": "Female",
-      "age": "7 weeks",
-      "birthday": "May 2026",
-      "color": "Classic",
-      "status": "Ready by Jul. 30",
-      "weight": "5.4 lbs",
-      "estAdultWeight": "8 - 16 lbs",
-      "price": 2130,
-      "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/2/listing/823332/photo/505028073_medium.jpg",
-      "gallery": [
-        "https://photos.puppyspot.com/2/listing/823332/photo/505028073_medium.jpg",
-        "https://photos.puppyspot.com/0/listing/822590/photo/505019391_medium.JPG"
-      ],
-      "location": "Miami, FL",
-      "breeder": "USDA Certified Star Breeder Network",
-      "momBreed": "Golden Retriever (Mom)",
-      "dadBreed": "Golden Retriever (Dad)",
-      "microchip": "98514100823332",
-      "description": "Meet Layla! A sweet, playful Golden Retriever puppy looking for a loving forever family. Layla is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
-    },
-    {
-      "id": 822339,
-      "name": "Helen",
-      "breed": "Golden Retriever",
-      "breedGroup": "Companion",
-      "gender": "Female",
-      "age": "8 weeks",
-      "birthday": "May 2026",
-      "color": "Classic",
-      "status": "Ready to go home",
-      "weight": "6.2 lbs",
-      "estAdultWeight": "8 - 16 lbs",
-      "price": 2215,
-      "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/9/listing/822339/photo/505028034_medium.jpg",
-      "gallery": [
-        "https://photos.puppyspot.com/9/listing/822339/photo/505028034_medium.jpg",
-        "https://photos.puppyspot.com/0/listing/822590/photo/505019391_medium.JPG"
-      ],
-      "location": "Phoenix, AZ",
-      "breeder": "USDA Certified Star Breeder Network",
-      "momBreed": "Golden Retriever (Mom)",
-      "dadBreed": "Golden Retriever (Dad)",
-      "microchip": "98514100822339",
-      "description": "Meet Helen! A sweet, playful Golden Retriever puppy looking for a loving forever family. Helen is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
-    },
-    {
       "id": 820864,
       "name": "Patrick",
       "breed": "Dachshund",
@@ -1151,32 +1099,6 @@ const SITE_DATA = {
       "dadBreed": "Yorkshire Terrier (Dad)",
       "microchip": "98514100824787",
       "description": "Meet Boots! A sweet, playful Yorkshire Terrier puppy looking for a loving forever family. Boots is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
-    },
-    {
-      "id": 825198,
-      "name": "Bailey",
-      "breed": "Golden Retriever",
-      "breedGroup": "Companion",
-      "gender": "Female",
-      "age": "6 weeks",
-      "birthday": "May 2026",
-      "color": "Classic",
-      "status": "Ready by Aug. 10",
-      "weight": "3.8 lbs",
-      "estAdultWeight": "8 - 16 lbs",
-      "price": 3235,
-      "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/8/listing/825198/photo/505039886_medium.jpg",
-      "gallery": [
-        "https://photos.puppyspot.com/8/listing/825198/photo/505039886_medium.jpg",
-        "https://photos.puppyspot.com/0/listing/822590/photo/505019391_medium.JPG"
-      ],
-      "location": "Austin, TX",
-      "breeder": "USDA Certified Star Breeder Network",
-      "momBreed": "Golden Retriever (Mom)",
-      "dadBreed": "Golden Retriever (Dad)",
-      "microchip": "98514100825198",
-      "description": "Meet Bailey! A sweet, playful Golden Retriever puppy looking for a loving forever family. Bailey is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
     },
     {
       "id": 822381,
