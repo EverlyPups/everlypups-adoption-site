@@ -259,7 +259,7 @@
   </a>
 
   <!-- Scripts -->
-  <script src="data/siteData.js?v=1000"></script>
+  <script src="data/siteData.js?v=1020"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const puppies = SITE_DATA.puppies || [];
@@ -283,6 +283,14 @@
       const allBreedsList = SITE_DATA.allFilterBreeds || [];
       const fullBreedsSet = [...new Set([...allBreedsList, ...puppies.map(p => p.breed)])].sort();
 
+      function isBreedMatch(b1, b2) {
+        if (!b1 || !b2) return false;
+        if (b1 === b2) return true;
+        const n1 = (b1.toLowerCase() === 'german shepherd' || b1.toLowerCase() === 'german shepherd dog') ? 'german shepherd dog' : b1.toLowerCase().trim();
+        const n2 = (b2.toLowerCase() === 'german shepherd' || b2.toLowerCase() === 'german shepherd dog') ? 'german shepherd dog' : b2.toLowerCase().trim();
+        return n1 === n2;
+      }
+
       function renderBreedOptions(filterText = '') {
         const query = filterText.toLowerCase().trim();
         
@@ -296,8 +304,8 @@
         fullBreedsSet.forEach(b => {
           if (query && !b.toLowerCase().includes(query)) return;
 
-          const count = puppies.filter(p => p.breed === b).length;
-          const isSelected = selectedBreedValue === b;
+          const count = puppies.filter(p => isBreedMatch(p.breed, b)).length;
+          const isSelected = isBreedMatch(selectedBreedValue, b);
 
           html += `
             <div class="custom-breed-option-item ${isSelected ? 'active' : ''}" data-value="${b}" style="display: flex; align-items: center; justify-content: space-between; padding: 0.55rem 0.75rem; border-radius: 10px; font-size: 0.88rem; font-weight: 700; cursor: pointer; transition: all 0.15s ease; background: ${isSelected ? '#EBFBF5' : 'transparent'}; color: ${isSelected ? '#00B67A' : '#333333'};">
@@ -332,25 +340,25 @@
           });
           item.addEventListener('click', () => {
             selectedBreedValue = item.getAttribute('data-value');
-            customBreedLabel.textContent = selectedBreedValue ? `${selectedBreedValue} (${puppies.filter(p => p.breed === selectedBreedValue).length})` : 'All Breeds (83)';
+            customBreedLabel.textContent = selectedBreedValue ? `${selectedBreedValue} (${puppies.filter(p => isBreedMatch(p.breed, selectedBreedValue)).length})` : 'All Breeds (83)';
             customBreedMenu.style.display = 'none';
             renderBrowseGrid();
           });
         });
       }
 
-      // Initial populate
-      renderBreedOptions();
-
       // Read initial breed from URL if coming from Favorite Breeds
       const urlParams = new URLSearchParams(window.location.search);
-      const urlBreed = urlParams.get('breed');
-      if (urlBreed && fullBreedsSet.includes(urlBreed)) {
-        selectedBreedValue = urlBreed;
-        const count = puppies.filter(p => p.breed === urlBreed).length;
-        customBreedLabel.textContent = `${urlBreed} (${count})`;
-        renderBreedOptions();
+      let urlBreed = urlParams.get('breed');
+      if (urlBreed) {
+        const matched = fullBreedsSet.find(b => isBreedMatch(b, urlBreed));
+        if (matched) {
+          selectedBreedValue = matched;
+          const count = puppies.filter(p => isBreedMatch(p.breed, matched)).length;
+          customBreedLabel.textContent = `${matched} (${count})`;
+        }
       }
+      renderBreedOptions();
 
       // Filter input inside popover
       breedFilterSearchInput.addEventListener('input', (e) => {
@@ -476,7 +484,7 @@
       function updateVarietyDropdownOptions() {
         if (!varietySelect) return;
         const selectedBreed = selectedBreedValue;
-        const pool = selectedBreed ? puppies.filter(p => p.breed === selectedBreed) : puppies;
+        const pool = selectedBreed ? puppies.filter(p => isBreedMatch(p.breed, selectedBreed)) : puppies;
         const varieties = [...new Set(pool.map(p => p.variety).filter(Boolean))].sort();
 
         let html = '<option value="all">Variety: All</option>';
@@ -496,7 +504,7 @@
 
         let filtered = puppies.filter(p => {
           if (query && !p.name.toLowerCase().includes(query) && !p.breed.toLowerCase().includes(query) && (!p.variety || !p.variety.toLowerCase().includes(query))) return false;
-          if (selectedBreed && p.breed !== selectedBreed) return false;
+          if (selectedBreed && !isBreedMatch(p.breed, selectedBreed)) return false;
           if (selectedVariety && selectedVariety !== 'all' && p.variety !== selectedVariety) return false;
           if (currentGender !== 'all' && p.gender !== currentGender) return false;
           return true;

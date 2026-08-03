@@ -300,7 +300,13 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       if (state.filters.breeds.length > 0) {
-        if (!state.filters.breeds.includes(p.breed)) return false;
+        const isMatch = state.filters.breeds.some(b => {
+          if (b === p.breed) return true;
+          const n1 = (b.toLowerCase() === 'german shepherd' || b.toLowerCase() === 'german shepherd dog') ? 'german shepherd dog' : b.toLowerCase().trim();
+          const n2 = (p.breed.toLowerCase() === 'german shepherd' || p.breed.toLowerCase() === 'german shepherd dog') ? 'german shepherd dog' : p.breed.toLowerCase().trim();
+          return n1 === n2;
+        });
+        if (!isMatch) return false;
       }
 
       if (state.filters.genders.length > 0) {

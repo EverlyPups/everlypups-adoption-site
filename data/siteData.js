@@ -136,7 +136,7 @@ const SITE_DATA = {
       "insetImg": "assets/breeds/French Bulldog2.webp"
     },
     {
-      "name": "German Shepherd",
+      "name": "German Shepherd Dog",
       "mainImg": "assets/breeds/German Shepard.webp",
       "insetImg": "assets/breeds/German Shepard2.webp"
     },
@@ -197,7 +197,7 @@ const SITE_DATA = {
       "group": "Companion"
     },
     {
-      "name": "German Shepherd",
+      "name": "German Shepherd Dog",
       "group": "Herding"
     },
     {
