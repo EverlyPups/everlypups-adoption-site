@@ -259,7 +259,7 @@
   </a>
 
   <!-- Scripts -->
-  <script src="data/siteData.js?v=810"></script>
+  <script src="data/siteData.js?v=820"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const puppies = SITE_DATA.puppies || [];
@@ -532,9 +532,12 @@
 
               <div class="available-puppy-info">
                 <div class="puppy-card-breed-label">
-                  ${p.breed} ${p.variety ? `<span style="background: rgba(0, 182, 122, 0.15); color: #00B67A; font-size: 0.72rem; padding: 0.15rem 0.55rem; border-radius: 50px; margin-left: 0.35rem; font-weight: 800;">${p.variety}</span>` : ''}
+                  ${p.breed}
                 </div>
-                <h3 class="puppy-card-name-label">${p.variety ? `${p.breed} ${p.name} - ${p.variety}` : p.name}</h3>
+                <h3 class="puppy-card-name-label" style="display: flex; align-items: center; flex-wrap: wrap; gap: 0.35rem;">
+                  <span>${p.breed} ${p.name}</span>
+                  ${p.variety ? `<span style="font-size: 14px; font-weight: 800; color: #00B67A; background: rgba(0, 182, 122, 0.12); padding: 0.15rem 0.6rem; border-radius: 50px;">- ${p.variety}</span>` : ''}
+                </h3>
                 <div class="puppy-card-specs-label">${p.gender} · ${p.age}</div>
                 <div class="puppy-card-status-label">${p.status || 'Ready to go home'}</div>
                 <div style="font-size:1.3rem; font-weight:900; color:#00B67A; margin-top:0.4rem;">$${p.price.toLocaleString()}</div>
