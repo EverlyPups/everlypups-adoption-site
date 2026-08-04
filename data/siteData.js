@@ -1503,12 +1503,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-aj-822474-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-aj-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-aj-822474-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-aj-822474-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-aj-822474-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-aj-822474-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-aj-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-aj-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-aj-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-aj-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavalier King Charles Spaniel",
@@ -1531,12 +1531,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-aria-822476-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-aria-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-aria-822476-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-aria-822476-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-aria-822476-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-aria-822476-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-aria-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-aria-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-aria-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-aria-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavalier King Charles Spaniel",
@@ -1559,12 +1559,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-bodie-825393-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-bodie-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-bodie-825393-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-bodie-825393-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-bodie-825393-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-bodie-825393-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-bodie-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-bodie-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-bodie-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-bodie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavalier King Charles Spaniel",
@@ -1587,12 +1587,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-copper-821863-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-copper-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-copper-821863-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-copper-821863-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-copper-821863-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-copper-821863-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-copper-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-copper-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-copper-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-copper-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -1615,12 +1615,11 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-corduroy-823906-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-corduroy-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-corduroy-823906-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-corduroy-823906-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-corduroy-823906-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-corduroy-823906-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-corduroy-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-corduroy-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-corduroy-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavalier King Charles Spaniel",
@@ -1643,12 +1642,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-ice-824043-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-ice-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-ice-824043-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-ice-824043-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-ice-824043-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-ice-824043-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-ice-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-ice-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-ice-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-ice-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -1671,12 +1670,11 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-iris-824047-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-iris-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-iris-824047-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-iris-824047-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-iris-824047-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-iris-824047-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-iris-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-iris-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-iris-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -1699,12 +1697,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-ivory-824045-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-ivory-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-ivory-824045-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-ivory-824045-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-ivory-824045-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-ivory-824045-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-ivory-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-ivory-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-ivory-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-ivory-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -1727,12 +1725,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-june-825400-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-june-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-june-825400-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-june-825400-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-june-825400-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-june-825400-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-june-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-june-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-june-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-june-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -1755,12 +1753,11 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-lake-825408-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-lake-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-lake-825408-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-lake-825408-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-lake-825408-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-lake-825408-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-lake-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-lake-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-lake-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -1783,12 +1780,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-lango-823233-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-lango-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-lango-823233-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-lango-823233-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-lango-823233-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-lango-823233-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-lango-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-lango-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-lango-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-lango-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -1811,12 +1808,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-lemon-825410-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-lemon-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-lemon-825410-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-lemon-825410-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-lemon-825410-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-lemon-825410-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-lemon-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-lemon-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-lemon-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-lemon-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -1839,12 +1836,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-molly-823710-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-molly-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-molly-823710-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-molly-823710-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-molly-823710-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-molly-823710-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-molly-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-molly-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-molly-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-molly-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavalier King Charles Spaniel",
@@ -1867,12 +1864,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-nelly-825648-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-nelly-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-nelly-825648-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-nelly-825648-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-nelly-825648-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-nelly-825648-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-nelly-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-nelly-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-nelly-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-nelly-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavalier King Charles Spaniel",
@@ -1895,12 +1892,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-peanut-822625-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-peanut-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-peanut-822625-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-peanut-822625-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-peanut-822625-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-peanut-822625-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-peanut-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-peanut-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-peanut-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-peanut-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -1923,12 +1920,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-phoebe-821118-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-phoebe-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-phoebe-821118-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-phoebe-821118-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-phoebe-821118-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-phoebe-821118-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-phoebe-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-phoebe-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-phoebe-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-phoebe-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -1951,12 +1948,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-poppy-821480-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-poppy-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-poppy-821480-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-poppy-821480-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-poppy-821480-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-poppy-821480-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-poppy-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-poppy-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-poppy-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-poppy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -1979,12 +1976,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-rosamae-823139-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-rosamae-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-rosamae-823139-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-rosamae-823139-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-rosamae-823139-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-rosamae-823139-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-rosamae-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-rosamae-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-rosamae-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-rosamae-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavalier King Charles Spaniel",
@@ -2007,12 +2004,11 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-teddy-bear-823905-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-teddy-bear-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-teddy-bear-823905-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-teddy-bear-823905-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-teddy-bear-823905-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-teddy-bear-823905-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-teddy-bear-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-teddy-bear-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-teddy-bear-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavalier King Charles Spaniel",
@@ -2035,12 +2031,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-teddy-821265-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-teddy-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-teddy-821265-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-teddy-821265-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-teddy-821265-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-teddy-821265-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-teddy-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-teddy-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-teddy-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-teddy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -2063,12 +2059,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-tessah-824261-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-tessah-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-tessah-824261-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-tessah-824261-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-tessah-824261-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-tessah-824261-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-tessah-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-tessah-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-tessah-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-tessah-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -2091,12 +2087,11 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-thelma-824269-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-thelma-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-thelma-824269-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-thelma-824269-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-thelma-824269-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-thelma-824269-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-thelma-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-thelma-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-thelma-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -2119,12 +2114,12 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-tom-822939-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-tom-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-tom-822939-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-tom-822939-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-tom-822939-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-tom-822939-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-tom-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-tom-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-tom-exact-3.jpg",
+        "images/puppies/cavapoo/cavapoo-tom-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Cavapoo",
@@ -2147,12 +2142,11 @@ const SITE_DATA = {
       "estAdultWeight": "12 - 20 lbs",
       "price": 2150,
       "hypoallergenic": true,
-      "image": "images/puppies/cavapoo/cavapoo-tommy-824791-exact-1.jpg",
+      "image": "images/puppies/cavapoo/cavapoo-tommy-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavapoo/cavapoo-tommy-824791-exact-1.jpg",
-        "images/puppies/cavapoo/cavapoo-tommy-824791-exact-2.jpg",
-        "images/puppies/cavapoo/cavapoo-tommy-824791-exact-3.jpg",
-        "images/puppies/cavapoo/cavapoo-tommy-824791-exact-4.jpg"
+        "images/puppies/cavapoo/cavapoo-tommy-exact-1.jpg",
+        "images/puppies/cavapoo/cavapoo-tommy-exact-2.jpg",
+        "images/puppies/cavapoo/cavapoo-tommy-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
