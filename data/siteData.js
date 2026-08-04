@@ -1,6 +1,5 @@
 const SITE_DATA = {
   "allFilterBreeds": [
-    "Akita",
     "American Corgi",
     "American Shepadoodle",
     "Australian Shepherd",
@@ -141,12 +140,6 @@ const SITE_DATA = {
     {
       "name": "Yorkshire Terrier",
       "group": "Toy"
-    },
-    {
-      "name": "Akita",
-      "group": "Working",
-      "image": "images/puppies/akita/journey-1.jpg",
-      "popular": true
     },
     {
       "id": 15,
@@ -578,62 +571,6 @@ const SITE_DATA = {
       "dadBreed": "American Corgi",
       "microchip": "98514100823226",
       "description": "Meet Stettson! Stettson is a sweet Red & White Male American Corgi puppy who is curious, energetic, and eager to please."
-    },
-    {
-      "id": 823560,
-      "name": "Journey",
-      "breed": "Akita",
-      "breedGroup": "Working",
-      "gender": "Female",
-      "age": "11 weeks",
-      "birthday": "May 5, 2026",
-      "color": "Red & White",
-      "status": "Ready to go home",
-      "weight": "14.5 lbs",
-      "estAdultWeight": "70 - 100 lbs",
-      "price": 1800,
-      "hypoallergenic": false,
-      "image": "images/puppies/akita/journey-1.jpg",
-      "gallery": [
-        "images/puppies/akita/journey-1.jpg",
-        "images/puppies/akita/journey-view-2.jpg",
-        "images/puppies/akita/journey-view-3.jpg",
-        "images/puppies/akita/journey-view-4.jpg",
-        "images/puppies/akita/journey-2.jpg"
-      ],
-      "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Akita",
-      "dadBreed": "Akita",
-      "microchip": "98514100823560",
-      "description": "Meet Journey! Journey is a majestic, courageous Female Akita puppy with a plush coat and noble presence. Bred from a distinguished Champion Bloodline, she is incredibly loyal, calm, and affectionate with her family. Journey comes 100% health checked by a licensed veterinarian, microchipped, and up-to-date on all vaccinations."
-    },
-    {
-      "id": 823559,
-      "name": "Jaron",
-      "breed": "Akita",
-      "breedGroup": "Working",
-      "gender": "Female",
-      "age": "11 weeks",
-      "birthday": "May 5, 2026",
-      "color": "Pinto & White",
-      "status": "Ready to go home",
-      "weight": "15.0 lbs",
-      "estAdultWeight": "70 - 100 lbs",
-      "price": 1800,
-      "hypoallergenic": false,
-      "image": "images/puppies/akita/jaron-1.jpg",
-      "gallery": [
-        "images/puppies/akita/jaron-1.jpg",
-        "images/puppies/akita/jaron-view-2.jpg",
-        "images/puppies/akita/jaron-view-3.jpg",
-        "images/puppies/akita/jaron-view-4.jpg",
-        "images/puppies/akita/jaron-2.jpg"
-      ],
-      "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Akita",
-      "dadBreed": "Akita",
-      "microchip": "98514100823559",
-      "description": "Meet Jaron! Jaron is a stunning, intelligent Female Akita puppy who combines gentle grace with protective loyalty. With her expressive dark eyes and fluffy coat, Jaron loves family play and quiet companionship. She comes 100% health checked by a licensed veterinarian, microchipped, and up-to-date on all vaccinations."
     },
     {
       "id": 824677,
