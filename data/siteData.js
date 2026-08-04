@@ -6823,6 +6823,168 @@ const SITE_DATA = {
       "dadBreed": "Yorkshire Terrier (Dad)",
       "description": "Meet Versace! Versace is a charming, playful Male Yorkshire Terrier puppy born on May 11, 2026. Sourced directly from premier AKC/USDA certified breeders, Versace is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
+    },
+    {
+      "id": "825178",
+      "name": "Betsy Ross",
+      "breed": "Australian Shepherd",
+      "gender": "Female",
+      "birthday": "June 10, 2026",
+      "age": "8 weeks old",
+      "price": 2200,
+      "color": "Blue Merle",
+      "image": "images/puppies/australian-shepherd/aussie-betsy-ross-825178-1.jpg",
+      "gallery": [
+        "images/puppies/australian-shepherd/aussie-betsy-ross-825178-1.jpg",
+        "images/puppies/australian-shepherd/aussie-betsy-ross-825178-2.jpg",
+        "images/puppies/australian-shepherd/aussie-betsy-ross-825178-3.jpg",
+        "images/puppies/australian-shepherd/aussie-betsy-ross-825178-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Australian Shepherd (Mom)",
+      "dadBreed": "Australian Shepherd (Dad)",
+      "description": "Meet Betsy Ross! Betsy Ross is an energetic, loyal Female Australian Shepherd puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Betsy Ross is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "822665",
+      "name": "Blossom",
+      "breed": "Australian Shepherd",
+      "gender": "Female",
+      "birthday": "June 10, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "Black",
+      "image": "images/puppies/australian-shepherd/aussie-blossom-822665-1.jpg",
+      "gallery": [
+        "images/puppies/australian-shepherd/aussie-blossom-822665-1.jpg",
+        "images/puppies/australian-shepherd/aussie-blossom-822665-2.jpg",
+        "images/puppies/australian-shepherd/aussie-blossom-822665-3.jpg",
+        "images/puppies/australian-shepherd/aussie-blossom-822665-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Australian Shepherd (Mom)",
+      "dadBreed": "Australian Shepherd (Dad)",
+      "description": "Meet Blossom! Blossom is an energetic, loyal Female Australian Shepherd puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Blossom is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "822713",
+      "name": "Daryl",
+      "breed": "Australian Shepherd",
+      "gender": "Male",
+      "birthday": "May 18, 2026",
+      "age": "11 weeks old",
+      "price": 1900,
+      "color": "Black",
+      "image": "images/puppies/australian-shepherd/aussie-daryl-822713-1.jpg",
+      "gallery": [
+        "images/puppies/australian-shepherd/aussie-daryl-822713-1.jpg",
+        "images/puppies/australian-shepherd/aussie-daryl-822713-2.jpg",
+        "images/puppies/australian-shepherd/aussie-daryl-822713-3.jpg",
+        "images/puppies/australian-shepherd/aussie-daryl-822713-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Australian Shepherd (Mom)",
+      "dadBreed": "Australian Shepherd (Dad)",
+      "description": "Meet Daryl! Daryl is an energetic, loyal Male Australian Shepherd puppy born on May 18, 2026. Sourced directly from premier AKC/USDA certified breeders, Daryl is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "822693",
+      "name": "Finn",
+      "breed": "Australian Shepherd",
+      "gender": "Male",
+      "birthday": "May 15, 2026",
+      "age": "11 weeks old",
+      "price": 1900,
+      "color": "Black",
+      "image": "images/puppies/australian-shepherd/aussie-finn-822693-1.jpg",
+      "gallery": [
+        "images/puppies/australian-shepherd/aussie-finn-822693-1.jpg",
+        "images/puppies/australian-shepherd/aussie-finn-822693-2.jpg",
+        "images/puppies/australian-shepherd/aussie-finn-822693-3.jpg",
+        "images/puppies/australian-shepherd/aussie-finn-822693-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Australian Shepherd (Mom)",
+      "dadBreed": "Australian Shepherd (Dad)",
+      "description": "Meet Finn! Finn is an energetic, loyal Male Australian Shepherd puppy born on May 15, 2026. Sourced directly from premier AKC/USDA certified breeders, Finn is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "822714",
+      "name": "Leo",
+      "breed": "Australian Shepherd",
+      "gender": "Male",
+      "birthday": "May 18, 2026",
+      "age": "11 weeks old",
+      "price": 1900,
+      "color": "Black",
+      "image": "images/puppies/australian-shepherd/aussie-leo-822714-1.jpg",
+      "gallery": [
+        "images/puppies/australian-shepherd/aussie-leo-822714-1.jpg",
+        "images/puppies/australian-shepherd/aussie-leo-822714-2.jpg",
+        "images/puppies/australian-shepherd/aussie-leo-822714-3.jpg",
+        "images/puppies/australian-shepherd/aussie-leo-822714-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Australian Shepherd (Mom)",
+      "dadBreed": "Australian Shepherd (Dad)",
+      "description": "Meet Leo! Leo is an energetic, loyal Male Australian Shepherd puppy born on May 18, 2026. Sourced directly from premier AKC/USDA certified breeders, Leo is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "824779",
+      "name": "Liberty",
+      "breed": "Australian Shepherd",
+      "gender": "Female",
+      "birthday": "June 10, 2026",
+      "age": "8 weeks old",
+      "price": 2200,
+      "color": "Blue Merle",
+      "image": "images/puppies/australian-shepherd/aussie-liberty-824779-1.png",
+      "gallery": [
+        "images/puppies/australian-shepherd/aussie-liberty-824779-1.png",
+        "images/puppies/australian-shepherd/aussie-liberty-824779-2.jpg",
+        "images/puppies/australian-shepherd/aussie-liberty-824779-3.jpg",
+        "images/puppies/australian-shepherd/aussie-liberty-824779-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Australian Shepherd (Mom)",
+      "dadBreed": "Australian Shepherd (Dad)",
+      "description": "Meet Liberty! Liberty is an energetic, loyal Female Australian Shepherd puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Liberty is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
     }
   ]
 };
