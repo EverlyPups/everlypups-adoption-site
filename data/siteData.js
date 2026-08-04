@@ -815,32 +815,6 @@ const SITE_DATA = {
       "description": "Meet Buddy! A sweet, playful Havapoo puppy looking for a loving forever family. Buddy is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
     },
     {
-      "id": 822381,
-      "name": "Vader",
-      "breed": "Shih Tzu",
-      "breedGroup": "Companion",
-      "gender": "Male",
-      "age": "9 weeks",
-      "birthday": "May 2026",
-      "color": "Classic",
-      "status": "Ready to go home",
-      "weight": "4.6 lbs",
-      "estAdultWeight": "8 - 16 lbs",
-      "price": 1520,
-      "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/1/listing/822381/photo/505035255_medium.jpg",
-      "gallery": [
-        "https://photos.puppyspot.com/1/listing/822381/photo/505035255_medium.jpg",
-        "https://photos.puppyspot.com/0/listing/822590/photo/505019391_medium.JPG"
-      ],
-      "location": "Nashville, TN",
-      "breeder": "USDA Certified Star Breeder Network",
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "microchip": "98514100822381",
-      "description": "Meet Vader! A sweet, playful Shih Tzu puppy looking for a loving forever family. Vader is raised with care by a USDA licensed breeder, has received nose-to-tail vet health checks, and is up to date on all vaccinations."
-    },
-    {
       "id": 823477,
       "name": "Maxx",
       "breed": "Havanese",
