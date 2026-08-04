@@ -131,7 +131,7 @@
           <button type="button" class="filter-pill-btn" id="customBreedTriggerBtn" style="width: 100%; justify-content: space-between; padding: 0.55rem 1.1rem; cursor: pointer;">
             <span style="display: flex; align-items: center; gap: 0.5rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
               <i class="fa-solid fa-dog" style="color: #00B67A;"></i>
-              <span id="customBreedLabel">All Breeds (83)</span>
+              <span id="customBreedLabel">All Breeds</span>
             </span>
             <i class="fa-solid fa-chevron-down" style="font-size: 0.75rem; color: #888; margin-left: 0.5rem;"></i>
           </button>
@@ -142,7 +142,7 @@
             <!-- Quick Search Input inside Breed Dropdown -->
             <div style="display: flex; align-items: center; gap: 0.5rem; background: #F7F9F8; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0.45rem 0.85rem; margin-bottom: 0.6rem;">
               <i class="fa-solid fa-magnifying-glass" style="font-size: 0.8rem; color: #00B67A;"></i>
-              <input type="text" id="breedFilterSearchInput" placeholder="Filter 83 breeds..." style="border:none; outline:none; background:transparent; font-family:'Nunito', sans-serif; font-size:0.85rem; font-weight:700; width:100%; color:#012B3A;" />
+              <input type="text" id="breedFilterSearchInput" placeholder="Filter breeds..." style="border:none; outline:none; background:transparent; font-family:'Nunito', sans-serif; font-size:0.85rem; font-weight:700; width:100%; color:#012B3A;" />
             </div>
 
             <!-- Scrollable List of 83 Breeds -->
@@ -259,7 +259,7 @@
   </a>
 
   <!-- Scripts -->
-  <script src="data/siteData.js?v=1080"></script>
+  <script src="data/siteData.js?v=1090"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const puppies = SITE_DATA.puppies || [];
@@ -296,7 +296,7 @@
         
         let html = `
           <div class="custom-breed-option-item ${selectedBreedValue === '' ? 'active' : ''}" data-value="" style="display: flex; align-items: center; justify-content: space-between; padding: 0.55rem 0.75rem; border-radius: 10px; font-size: 0.88rem; font-weight: 700; cursor: pointer; transition: all 0.15s ease; background: ${selectedBreedValue === '' ? '#EBFBF5' : 'transparent'}; color: ${selectedBreedValue === '' ? '#00B67A' : '#333333'};">
-            <span>All Breeds (83)</span>
+            <span>All Breeds (${fullBreedsSet.length})</span>
             ${selectedBreedValue === '' ? '<i class="fa-solid fa-check" style="color: #00B67A;"></i>' : ''}
           </div>
         `;
@@ -340,7 +340,7 @@
           });
           item.addEventListener('click', () => {
             selectedBreedValue = item.getAttribute('data-value');
-            customBreedLabel.textContent = selectedBreedValue ? `${selectedBreedValue} (${puppies.filter(p => isBreedMatch(p.breed, selectedBreedValue)).length})` : 'All Breeds (83)';
+            customBreedLabel.textContent = selectedBreedValue ? `${selectedBreedValue} (${puppies.filter(p => isBreedMatch(p.breed, selectedBreedValue)).length})` : `All Breeds (${fullBreedsSet.length})`;
             customBreedMenu.style.display = 'none';
             renderBrowseGrid();
           });
@@ -580,7 +580,7 @@
       window.resetBrowseFilters = function() {
         searchInput.value = '';
         selectedBreedValue = '';
-        customBreedLabel.textContent = 'All Breeds (83)';
+        customBreedLabel.textContent = `All Breeds (${fullBreedsSet.length})`;
         sortSelect.value = 'recommended';
         currentGender = 'all';
         currentPage = 1;
