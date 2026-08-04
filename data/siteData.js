@@ -6985,6 +6985,276 @@ const SITE_DATA = {
       "dadBreed": "Australian Shepherd (Dad)",
       "description": "Meet Liberty! Liberty is an energetic, loyal Female Australian Shepherd puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Liberty is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
+    },
+    {
+      "id": "821347",
+      "name": "Bonnie",
+      "breed": "Pomeranian",
+      "gender": "Female",
+      "birthday": "April 25, 2026",
+      "age": "14 weeks old",
+      "price": 1900,
+      "color": "Black",
+      "image": "images/puppies/pomeranian/pom-bonnie-821347-1.jpg",
+      "gallery": [
+        "images/puppies/pomeranian/pom-bonnie-821347-1.jpg",
+        "images/puppies/pomeranian/pom-bonnie-821347-2.jpg",
+        "images/puppies/pomeranian/pom-bonnie-821347-3.jpg",
+        "images/puppies/pomeranian/pom-bonnie-821347-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Pomeranian (Mom)",
+      "dadBreed": "Pomeranian (Dad)",
+      "description": "Meet Bonnie! Bonnie is a fluffy, outgoing Female Pomeranian puppy born on April 25, 2026. Sourced directly from premier AKC/USDA certified breeders, Bonnie is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "825471",
+      "name": "Ellie",
+      "breed": "Pomeranian",
+      "gender": "Female",
+      "birthday": "June 15, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "Tri-Colored",
+      "image": "images/puppies/pomeranian/pom-ellie-825471-1.jpg",
+      "gallery": [
+        "images/puppies/pomeranian/pom-ellie-825471-1.jpg",
+        "images/puppies/pomeranian/pom-ellie-825471-2.jpg",
+        "images/puppies/pomeranian/pom-ellie-825471-3.jpg",
+        "images/puppies/pomeranian/pom-ellie-825471-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Pomeranian (Mom)",
+      "dadBreed": "Pomeranian (Dad)",
+      "description": "Meet Ellie! Ellie is a fluffy, outgoing Female Pomeranian puppy born on June 15, 2026. Sourced directly from premier AKC/USDA certified breeders, Ellie is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "821031",
+      "name": "Hazel",
+      "breed": "Pomeranian",
+      "gender": "Female",
+      "birthday": "May 5, 2026",
+      "age": "13 weeks old",
+      "price": 2200,
+      "color": "Blue Merle",
+      "image": "images/puppies/pomeranian/pom-hazel-821031-1.jpg",
+      "gallery": [
+        "images/puppies/pomeranian/pom-hazel-821031-1.jpg",
+        "images/puppies/pomeranian/pom-hazel-821031-2.jpg",
+        "images/puppies/pomeranian/pom-hazel-821031-3.jpg",
+        "images/puppies/pomeranian/pom-hazel-821031-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Pomeranian (Mom)",
+      "dadBreed": "Pomeranian (Dad)",
+      "description": "Meet Hazel! Hazel is a fluffy, outgoing Female Pomeranian puppy born on May 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Hazel is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "819859",
+      "name": "Heidi",
+      "breed": "Pomeranian",
+      "gender": "Female",
+      "birthday": "March 13, 2026",
+      "age": "20 weeks old",
+      "price": 2200,
+      "color": "Cream",
+      "image": "images/puppies/pomeranian/pom-heidi-819859-1.jpg",
+      "gallery": [
+        "images/puppies/pomeranian/pom-heidi-819859-1.jpg",
+        "images/puppies/pomeranian/pom-heidi-819859-2.jpg",
+        "images/puppies/pomeranian/pom-heidi-819859-3.jpg",
+        "images/puppies/pomeranian/pom-heidi-819859-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Pomeranian (Mom)",
+      "dadBreed": "Pomeranian (Dad)",
+      "description": "Meet Heidi! Heidi is a fluffy, outgoing Female Pomeranian puppy born on March 13, 2026. Sourced directly from premier AKC/USDA certified breeders, Heidi is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "824600",
+      "name": "Jesse",
+      "breed": "Pomeranian",
+      "gender": "Male",
+      "birthday": "June 4, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "Sable",
+      "image": "images/puppies/pomeranian/pom-jesse-824600-1.jpg",
+      "gallery": [
+        "images/puppies/pomeranian/pom-jesse-824600-1.jpg",
+        "images/puppies/pomeranian/pom-jesse-824600-2.jpg",
+        "images/puppies/pomeranian/pom-jesse-824600-3.jpg",
+        "images/puppies/pomeranian/pom-jesse-824600-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Pomeranian (Mom)",
+      "dadBreed": "Pomeranian (Dad)",
+      "description": "Meet Jesse! Jesse is a fluffy, outgoing Male Pomeranian puppy born on June 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Jesse is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "821605",
+      "name": "Joey",
+      "breed": "Pomeranian",
+      "gender": "Male",
+      "birthday": "May 19, 2026",
+      "age": "11 weeks old",
+      "price": 1900,
+      "color": "Black",
+      "image": "images/puppies/pomeranian/pom-joey-821605-1.jpg",
+      "gallery": [
+        "images/puppies/pomeranian/pom-joey-821605-1.jpg",
+        "images/puppies/pomeranian/pom-joey-821605-2.jpg",
+        "images/puppies/pomeranian/pom-joey-821605-3.jpg",
+        "images/puppies/pomeranian/pom-joey-821605-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Pomeranian (Mom)",
+      "dadBreed": "Pomeranian (Dad)",
+      "description": "Meet Joey! Joey is a fluffy, outgoing Male Pomeranian puppy born on May 19, 2026. Sourced directly from premier AKC/USDA certified breeders, Joey is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "822614",
+      "name": "Nemo",
+      "breed": "Pomeranian",
+      "gender": "Male",
+      "birthday": "May 28, 2026",
+      "age": "9 weeks old",
+      "price": 2200,
+      "color": "Cream",
+      "image": "images/puppies/pomeranian/pom-nemo-822614-1.jpg",
+      "gallery": [
+        "images/puppies/pomeranian/pom-nemo-822614-1.jpg",
+        "images/puppies/pomeranian/pom-nemo-822614-2.jpg",
+        "images/puppies/pomeranian/pom-nemo-822614-3.jpg",
+        "images/puppies/pomeranian/pom-nemo-822614-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Pomeranian (Mom)",
+      "dadBreed": "Pomeranian (Dad)",
+      "description": "Meet Nemo! Nemo is a fluffy, outgoing Male Pomeranian puppy born on May 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Nemo is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "823707",
+      "name": "Ranger",
+      "breed": "Pomeranian",
+      "gender": "Male",
+      "birthday": "June 12, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "Black & Tan",
+      "image": "images/puppies/pomeranian/pom-ranger-823707-1.jpg",
+      "gallery": [
+        "images/puppies/pomeranian/pom-ranger-823707-1.jpg",
+        "images/puppies/pomeranian/pom-ranger-823707-2.jpg",
+        "images/puppies/pomeranian/pom-ranger-823707-3.jpg",
+        "images/puppies/pomeranian/pom-ranger-823707-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Pomeranian (Mom)",
+      "dadBreed": "Pomeranian (Dad)",
+      "description": "Meet Ranger! Ranger is a fluffy, outgoing Male Pomeranian puppy born on June 12, 2026. Sourced directly from premier AKC/USDA certified breeders, Ranger is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "823745",
+      "name": "Rocko",
+      "breed": "Pomeranian",
+      "gender": "Male",
+      "birthday": "June 3, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "Black",
+      "image": "images/puppies/pomeranian/pom-rocko-823745-1.jpg",
+      "gallery": [
+        "images/puppies/pomeranian/pom-rocko-823745-1.jpg",
+        "images/puppies/pomeranian/pom-rocko-823745-2.jpg",
+        "images/puppies/pomeranian/pom-rocko-823745-3.jpg",
+        "images/puppies/pomeranian/pom-rocko-823745-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Pomeranian (Mom)",
+      "dadBreed": "Pomeranian (Dad)",
+      "description": "Meet Rocko! Rocko is a fluffy, outgoing Male Pomeranian puppy born on June 3, 2026. Sourced directly from premier AKC/USDA certified breeders, Rocko is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "821033",
+      "name": "Roxy",
+      "breed": "Pomeranian",
+      "gender": "Female",
+      "birthday": "May 5, 2026",
+      "age": "13 weeks old",
+      "price": 2200,
+      "color": "Blue Merle",
+      "image": "images/puppies/pomeranian/pom-roxy-821033-1.jpg",
+      "gallery": [
+        "images/puppies/pomeranian/pom-roxy-821033-1.jpg",
+        "images/puppies/pomeranian/pom-roxy-821033-2.jpg",
+        "images/puppies/pomeranian/pom-roxy-821033-3.jpg",
+        "images/puppies/pomeranian/pom-roxy-821033-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Pomeranian (Mom)",
+      "dadBreed": "Pomeranian (Dad)",
+      "description": "Meet Roxy! Roxy is a fluffy, outgoing Female Pomeranian puppy born on May 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Roxy is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
     }
   ]
 };
