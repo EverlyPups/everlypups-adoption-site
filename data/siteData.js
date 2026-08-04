@@ -7229,6 +7229,384 @@ const SITE_DATA = {
       "dadBreed": "Pomeranian (Dad)",
       "description": "Meet Roxy! Roxy is a fluffy, outgoing Female Pomeranian puppy born on May 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Roxy is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
+    },
+    {
+      "id": "820889",
+      "name": "Benny",
+      "breed": "Shih Tzu",
+      "gender": "Male",
+      "birthday": "May 5, 2026",
+      "age": "13 weeks old",
+      "price": 2100,
+      "color": "Liver & White",
+      "image": "images/puppies/shih-tzu/shihtzu-benny-820889-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-benny-820889-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-benny-820889-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-benny-820889-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-benny-820889-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Benny! Benny is an affectionate, regal Male Shih Tzu puppy born on May 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Benny is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "818481",
+      "name": "Dawson",
+      "breed": "Shih Tzu",
+      "gender": "Male",
+      "birthday": "March 30, 2026",
+      "age": "18 weeks old",
+      "price": 2000,
+      "color": "Brindle & White",
+      "image": "images/puppies/shih-tzu/shihtzu-dawson-818481-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-dawson-818481-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-dawson-818481-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-dawson-818481-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-dawson-818481-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Dawson! Dawson is an affectionate, regal Male Shih Tzu puppy born on March 30, 2026. Sourced directly from premier AKC/USDA certified breeders, Dawson is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "823592",
+      "name": "Flower",
+      "breed": "Shih Tzu",
+      "gender": "Female",
+      "birthday": "May 23, 2026",
+      "age": "10 weeks old",
+      "price": 2100,
+      "color": "Liver & White",
+      "image": "images/puppies/shih-tzu/shihtzu-flower-823592-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-flower-823592-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-flower-823592-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-flower-823592-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-flower-823592-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Flower! Flower is an affectionate, regal Female Shih Tzu puppy born on May 23, 2026. Sourced directly from premier AKC/USDA certified breeders, Flower is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "822724",
+      "name": "Gabe",
+      "breed": "Shih Tzu",
+      "gender": "Male",
+      "birthday": "May 10, 2026",
+      "age": "12 weeks old",
+      "price": 2000,
+      "color": "Brindle",
+      "image": "images/puppies/shih-tzu/shihtzu-gabe-822724-1.png",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-gabe-822724-1.png",
+        "images/puppies/shih-tzu/shihtzu-gabe-822724-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-gabe-822724-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-gabe-822724-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Gabe! Gabe is an affectionate, regal Male Shih Tzu puppy born on May 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Gabe is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "824824",
+      "name": "Kimberly",
+      "breed": "Shih Tzu",
+      "gender": "Female",
+      "birthday": "June 3, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "Gold & White",
+      "image": "images/puppies/shih-tzu/shihtzu-kimberly-824824-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-kimberly-824824-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-kimberly-824824-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-kimberly-824824-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-kimberly-824824-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Kimberly! Kimberly is an affectionate, regal Female Shih Tzu puppy born on June 3, 2026. Sourced directly from premier AKC/USDA certified breeders, Kimberly is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "824361",
+      "name": "Lilly",
+      "breed": "Shih Tzu",
+      "gender": "Female",
+      "birthday": "June 27, 2026",
+      "age": "8 weeks old",
+      "price": 2100,
+      "color": "Liver",
+      "image": "images/puppies/shih-tzu/shihtzu-lilly-824361-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-lilly-824361-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-lilly-824361-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-lilly-824361-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-lilly-824361-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Lilly! Lilly is an affectionate, regal Female Shih Tzu puppy born on June 27, 2026. Sourced directly from premier AKC/USDA certified breeders, Lilly is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "824548",
+      "name": "Odina",
+      "breed": "Shih Tzu",
+      "gender": "Female",
+      "birthday": "June 11, 2026",
+      "age": "8 weeks old",
+      "price": 2100,
+      "color": "Red & White",
+      "image": "images/puppies/shih-tzu/shihtzu-odina-824548-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-odina-824548-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-odina-824548-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-odina-824548-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-odina-824548-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Odina! Odina is an affectionate, regal Female Shih Tzu puppy born on June 11, 2026. Sourced directly from premier AKC/USDA certified breeders, Odina is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "825218",
+      "name": "Quigley",
+      "breed": "Shih Tzu",
+      "gender": "Male",
+      "birthday": "June 4, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "Gold & White",
+      "image": "images/puppies/shih-tzu/shihtzu-quigley-825218-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-quigley-825218-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-quigley-825218-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-quigley-825218-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-quigley-825218-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Quigley! Quigley is an affectionate, regal Male Shih Tzu puppy born on June 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Quigley is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "823588",
+      "name": "Rainy",
+      "breed": "Shih Tzu",
+      "gender": "Female",
+      "birthday": "May 23, 2026",
+      "age": "10 weeks old",
+      "price": 1900,
+      "color": "Gold & White",
+      "image": "images/puppies/shih-tzu/shihtzu-rainy-823588-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-rainy-823588-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-rainy-823588-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-rainy-823588-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-rainy-823588-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Rainy! Rainy is an affectionate, regal Female Shih Tzu puppy born on May 23, 2026. Sourced directly from premier AKC/USDA certified breeders, Rainy is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "824822",
+      "name": "Reno",
+      "breed": "Shih Tzu",
+      "gender": "Male",
+      "birthday": "June 3, 2026",
+      "age": "8 weeks old",
+      "price": 2100,
+      "color": "Red & White",
+      "image": "images/puppies/shih-tzu/shihtzu-reno-824822-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-reno-824822-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-reno-824822-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-reno-824822-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-reno-824822-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Reno! Reno is an affectionate, regal Male Shih Tzu puppy born on June 3, 2026. Sourced directly from premier AKC/USDA certified breeders, Reno is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "823582",
+      "name": "Skye",
+      "breed": "Shih Tzu",
+      "gender": "Female",
+      "birthday": "May 15, 2026",
+      "age": "11 weeks old",
+      "price": 2100,
+      "color": "Liver",
+      "image": "images/puppies/shih-tzu/shihtzu-skye-823582-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-skye-823582-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-skye-823582-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-skye-823582-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-skye-823582-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Skye! Skye is an affectionate, regal Female Shih Tzu puppy born on May 15, 2026. Sourced directly from premier AKC/USDA certified breeders, Skye is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "822381",
+      "name": "Vader",
+      "breed": "Shih Tzu",
+      "gender": "Male",
+      "birthday": "May 25, 2026",
+      "age": "10 weeks old",
+      "price": 2000,
+      "color": "Brindle & White",
+      "image": "images/puppies/shih-tzu/shihtzu-vader-822381-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-vader-822381-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-vader-822381-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-vader-822381-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-vader-822381-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Vader! Vader is an affectionate, regal Male Shih Tzu puppy born on May 25, 2026. Sourced directly from premier AKC/USDA certified breeders, Vader is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "822382",
+      "name": "Volt",
+      "breed": "Shih Tzu",
+      "gender": "Male",
+      "birthday": "May 25, 2026",
+      "age": "10 weeks old",
+      "price": 2000,
+      "color": "Brindle & White",
+      "image": "images/puppies/shih-tzu/shihtzu-volt-822382-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-volt-822382-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-volt-822382-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-volt-822382-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-volt-822382-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Volt! Volt is an affectionate, regal Male Shih Tzu puppy born on May 25, 2026. Sourced directly from premier AKC/USDA certified breeders, Volt is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "819984",
+      "name": "Wendelin",
+      "breed": "Shih Tzu",
+      "gender": "Female",
+      "birthday": "April 28, 2026",
+      "age": "14 weeks old",
+      "price": 2000,
+      "color": "Brindle & White",
+      "image": "images/puppies/shih-tzu/shihtzu-wendelin-819984-1.jpg",
+      "gallery": [
+        "images/puppies/shih-tzu/shihtzu-wendelin-819984-1.jpg",
+        "images/puppies/shih-tzu/shihtzu-wendelin-819984-2.jpg",
+        "images/puppies/shih-tzu/shihtzu-wendelin-819984-3.jpg",
+        "images/puppies/shih-tzu/shihtzu-wendelin-819984-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Shih Tzu (Mom)",
+      "dadBreed": "Shih Tzu (Dad)",
+      "description": "Meet Wendelin! Wendelin is an affectionate, regal Female Shih Tzu puppy born on April 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Wendelin is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
     }
   ]
 };
