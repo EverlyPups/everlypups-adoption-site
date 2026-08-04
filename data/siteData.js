@@ -7250,12 +7250,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-agnes-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-agnes-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-agnes-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-agnes-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-agnes-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-agnes-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-agnes-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-agnes-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-agnes-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-agnes-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7277,12 +7277,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-kevin-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-kevin-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-kevin-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kevin-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kevin-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kevin-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-kevin-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kevin-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kevin-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kevin-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7304,11 +7304,11 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-capri-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-capri-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-capri-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-capri-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-capri-photo-3.jpg"
+        "images/puppies/bernedoodle/bernedoodle-capri-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-capri-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-capri-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7330,12 +7330,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-gizmo-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-gizmo-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-gizmo-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-gizmo-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-gizmo-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-gizmo-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-gizmo-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-gizmo-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-gizmo-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-gizmo-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7357,12 +7357,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-blue-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-blue-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-blue-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-blue-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-blue-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-blue-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-blue-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-blue-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-blue-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-blue-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7384,12 +7384,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-wyatt-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-wyatt-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-wyatt-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-wyatt-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-wyatt-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-wyatt-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-wyatt-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-wyatt-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-wyatt-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-wyatt-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7411,12 +7411,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-harley-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-harley-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-harley-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-harley-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-harley-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-harley-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-harley-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-harley-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-harley-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-harley-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7438,12 +7438,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-abe-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-abe-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-abe-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-abe-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-abe-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-abe-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-abe-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-abe-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-abe-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-abe-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7465,12 +7465,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-copper-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-copper-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-copper-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-copper-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-copper-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-copper-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-copper-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-copper-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-copper-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-copper-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7492,12 +7492,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-maverick-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-maverick-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-maverick-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-maverick-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-maverick-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-maverick-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-maverick-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-maverick-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-maverick-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-maverick-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7519,12 +7519,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-celeste-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-celeste-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-celeste-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-celeste-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-celeste-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-celeste-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-celeste-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-celeste-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-celeste-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-celeste-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7546,12 +7546,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-flora-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-flora-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-flora-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-flora-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-flora-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-flora-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-flora-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-flora-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-flora-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-flora-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7573,12 +7573,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-rory-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-rory-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-rory-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-rory-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-rory-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-rory-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-rory-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-rory-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-rory-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-rory-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7600,12 +7600,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-hope-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-hope-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-hope-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hope-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hope-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hope-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-hope-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hope-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hope-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hope-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7627,12 +7627,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-antony-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-antony-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-antony-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-antony-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-antony-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-antony-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-antony-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-antony-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-antony-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-antony-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7654,12 +7654,11 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-hank-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-hank-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-hank-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hank-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hank-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hank-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-hank-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hank-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hank-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7681,12 +7680,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-kim-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-kim-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-kim-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kim-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kim-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kim-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-kim-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kim-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kim-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kim-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7708,12 +7707,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-phil-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-phil-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-phil-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-phil-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-phil-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-phil-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-phil-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-phil-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-phil-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-phil-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7735,12 +7734,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-thunder-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-thunder-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-thunder-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-thunder-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-thunder-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-thunder-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-thunder-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-thunder-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-thunder-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-thunder-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7762,11 +7761,11 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-pretzel-photo-1.png",
+      "image": "images/puppies/bernedoodle/bernedoodle-pretzel-exact-1.png",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-pretzel-photo-1.png",
-        "images/puppies/bernedoodle/bernedoodle-pretzel-photo-2.png",
-        "images/puppies/bernedoodle/bernedoodle-pretzel-photo-3.png"
+        "images/puppies/bernedoodle/bernedoodle-pretzel-exact-1.png",
+        "images/puppies/bernedoodle/bernedoodle-pretzel-exact-2.png",
+        "images/puppies/bernedoodle/bernedoodle-pretzel-exact-3.png"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7788,12 +7787,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-taco-photo-1.png",
+      "image": "images/puppies/bernedoodle/bernedoodle-taco-exact-1.png",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-taco-photo-1.png",
-        "images/puppies/bernedoodle/bernedoodle-taco-photo-2.png",
-        "images/puppies/bernedoodle/bernedoodle-taco-photo-3.png",
-        "images/puppies/bernedoodle/bernedoodle-taco-photo-4.png"
+        "images/puppies/bernedoodle/bernedoodle-taco-exact-1.png",
+        "images/puppies/bernedoodle/bernedoodle-taco-exact-2.png",
+        "images/puppies/bernedoodle/bernedoodle-taco-exact-3.png",
+        "images/puppies/bernedoodle/bernedoodle-taco-exact-4.png"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7815,12 +7814,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-novia-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-novia-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-novia-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-novia-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-novia-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-novia-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-novia-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-novia-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-novia-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-novia-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7842,12 +7841,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-westley-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-westley-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-westley-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-westley-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-westley-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-westley-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-westley-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-westley-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-westley-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-westley-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7869,12 +7868,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-lexi-photo-1.png",
+      "image": "images/puppies/bernedoodle/bernedoodle-lexi-exact-1.png",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-lexi-photo-1.png",
-        "images/puppies/bernedoodle/bernedoodle-lexi-photo-2.png",
-        "images/puppies/bernedoodle/bernedoodle-lexi-photo-3.png",
-        "images/puppies/bernedoodle/bernedoodle-lexi-photo-4.png"
+        "images/puppies/bernedoodle/bernedoodle-lexi-exact-1.png",
+        "images/puppies/bernedoodle/bernedoodle-lexi-exact-2.png",
+        "images/puppies/bernedoodle/bernedoodle-lexi-exact-3.png",
+        "images/puppies/bernedoodle/bernedoodle-lexi-exact-4.png"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7896,11 +7895,11 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-hailey-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-hailey-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-hailey-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hailey-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hailey-photo-3.jpg"
+        "images/puppies/bernedoodle/bernedoodle-hailey-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hailey-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hailey-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
@@ -7922,12 +7921,12 @@ const SITE_DATA = {
       "estAdultWeight": "35 - 55 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/bernedoodle/bernedoodle-hallie-photo-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-hallie-exact-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-hallie-photo-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hallie-photo-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hallie-photo-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hallie-photo-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-hallie-exact-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hallie-exact-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hallie-exact-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hallie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "Bernese Mountain Dog",
