@@ -7810,6 +7810,222 @@ const SITE_DATA = {
       "dadBreed": "Havanese (Dad)",
       "description": "Meet Waffle! Waffle is a charming, silky-coated Male Havanese puppy born on April 22, 2026. Sourced directly from premier AKC/USDA certified breeders, Waffle is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
+    },
+    {
+      "id": "822648",
+      "name": "Aspen",
+      "breed": "Maltese",
+      "gender": "Female",
+      "birthday": "May 21, 2026",
+      "age": "10 weeks old",
+      "price": 1900,
+      "color": "White",
+      "image": "images/puppies/maltese/maltese-aspen-822648-1.jpg",
+      "gallery": [
+        "images/puppies/maltese/maltese-aspen-822648-1.jpg",
+        "images/puppies/maltese/maltese-aspen-822648-2.jpg",
+        "images/puppies/maltese/maltese-aspen-822648-3.jpg",
+        "images/puppies/maltese/maltese-aspen-822648-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Maltese (Mom)",
+      "dadBreed": "Maltese (Dad)",
+      "description": "Meet Aspen! Aspen is a gentle, affectionate Female Maltese puppy born on May 21, 2026. Sourced directly from premier AKC/USDA certified breeders, Aspen is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "822777",
+      "name": "Boomer",
+      "breed": "Maltese",
+      "gender": "Male",
+      "birthday": "May 17, 2026",
+      "age": "11 weeks old",
+      "price": 2100,
+      "color": "White & Lemon",
+      "image": "images/puppies/maltese/maltese-boomer-822777-1.jpg",
+      "gallery": [
+        "images/puppies/maltese/maltese-boomer-822777-1.jpg",
+        "images/puppies/maltese/maltese-boomer-822777-2.jpg",
+        "images/puppies/maltese/maltese-boomer-822777-3.jpg",
+        "images/puppies/maltese/maltese-boomer-822777-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Maltese (Mom)",
+      "dadBreed": "Maltese (Dad)",
+      "description": "Meet Boomer! Boomer is a gentle, affectionate Male Maltese puppy born on May 17, 2026. Sourced directly from premier AKC/USDA certified breeders, Boomer is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "822573",
+      "name": "Donna",
+      "breed": "Maltese",
+      "gender": "Female",
+      "birthday": "June 5, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "White",
+      "image": "images/puppies/maltese/maltese-donna-822573-1.jpg",
+      "gallery": [
+        "images/puppies/maltese/maltese-donna-822573-1.jpg",
+        "images/puppies/maltese/maltese-donna-822573-2.jpg",
+        "images/puppies/maltese/maltese-donna-822573-3.jpg",
+        "images/puppies/maltese/maltese-donna-822573-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Maltese (Mom)",
+      "dadBreed": "Maltese (Dad)",
+      "description": "Meet Donna! Donna is a gentle, affectionate Female Maltese puppy born on June 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Donna is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "825494",
+      "name": "Frisco",
+      "breed": "Maltese",
+      "gender": "Male",
+      "birthday": "June 9, 2026",
+      "age": "8 weeks old",
+      "price": 2100,
+      "color": "White & Lemon",
+      "image": "images/puppies/maltese/maltese-frisco-825494-1.jpg",
+      "gallery": [
+        "images/puppies/maltese/maltese-frisco-825494-1.jpg",
+        "images/puppies/maltese/maltese-frisco-825494-2.jpg",
+        "images/puppies/maltese/maltese-frisco-825494-3.jpg",
+        "images/puppies/maltese/maltese-frisco-825494-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Maltese (Mom)",
+      "dadBreed": "Maltese (Dad)",
+      "description": "Meet Frisco! Frisco is a gentle, affectionate Male Maltese puppy born on June 9, 2026. Sourced directly from premier AKC/USDA certified breeders, Frisco is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "822002",
+      "name": "Hank",
+      "breed": "Maltese",
+      "gender": "Male",
+      "birthday": "April 14, 2026",
+      "age": "16 weeks old",
+      "price": 1900,
+      "color": "White",
+      "image": "images/puppies/maltese/maltese-hank-822002-1.jpg",
+      "gallery": [
+        "images/puppies/maltese/maltese-hank-822002-1.jpg",
+        "images/puppies/maltese/maltese-hank-822002-2.jpg",
+        "images/puppies/maltese/maltese-hank-822002-3.jpg",
+        "images/puppies/maltese/maltese-hank-822002-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Maltese (Mom)",
+      "dadBreed": "Maltese (Dad)",
+      "description": "Meet Hank! Hank is a gentle, affectionate Male Maltese puppy born on April 14, 2026. Sourced directly from premier AKC/USDA certified breeders, Hank is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "824738",
+      "name": "Maggie",
+      "breed": "Maltese",
+      "gender": "Female",
+      "birthday": "June 5, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "White",
+      "image": "images/puppies/maltese/maltese-maggie-824738-1.jpg",
+      "gallery": [
+        "images/puppies/maltese/maltese-maggie-824738-1.jpg",
+        "images/puppies/maltese/maltese-maggie-824738-2.jpg",
+        "images/puppies/maltese/maltese-maggie-824738-3.jpg",
+        "images/puppies/maltese/maltese-maggie-824738-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Maltese (Mom)",
+      "dadBreed": "Maltese (Dad)",
+      "description": "Meet Maggie! Maggie is a gentle, affectionate Female Maltese puppy born on June 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Maggie is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "824961",
+      "name": "Nova",
+      "breed": "Maltese",
+      "gender": "Female",
+      "birthday": "June 6, 2026",
+      "age": "8 weeks old",
+      "price": 2100,
+      "color": "White & Lemon",
+      "image": "images/puppies/maltese/maltese-nova-824961-1.jpg",
+      "gallery": [
+        "images/puppies/maltese/maltese-nova-824961-1.jpg",
+        "images/puppies/maltese/maltese-nova-824961-2.jpg",
+        "images/puppies/maltese/maltese-nova-824961-3.jpg",
+        "images/puppies/maltese/maltese-nova-824961-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Maltese (Mom)",
+      "dadBreed": "Maltese (Dad)",
+      "description": "Meet Nova! Nova is a gentle, affectionate Female Maltese puppy born on June 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Nova is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
+    },
+    {
+      "id": "824962",
+      "name": "Theo",
+      "breed": "Maltese",
+      "gender": "Male",
+      "birthday": "June 6, 2026",
+      "age": "8 weeks old",
+      "price": 1900,
+      "color": "White",
+      "image": "images/puppies/maltese/maltese-theo-824962-1.jpg",
+      "gallery": [
+        "images/puppies/maltese/maltese-theo-824962-1.jpg",
+        "images/puppies/maltese/maltese-theo-824962-2.jpg",
+        "images/puppies/maltese/maltese-theo-824962-3.jpg",
+        "images/puppies/maltese/maltese-theo-824962-4.jpg"
+      ],
+      "health": [
+        "Veterinarian Checked",
+        "10-Year Commitment",
+        "Microchipped",
+        "Up to date on vaccinations"
+      ],
+      "momBreed": "Maltese (Mom)",
+      "dadBreed": "Maltese (Dad)",
+      "description": "Meet Theo! Theo is a gentle, affectionate Male Maltese puppy born on June 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Theo is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "status": "Ready to go home"
     }
   ]
 };
