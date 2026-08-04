@@ -7245,12 +7245,12 @@ const SITE_DATA = {
       "age": "12 weeks old",
       "price": 2200,
       "color": "Black, Tan & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-abe-821714-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-abe-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-abe-821714-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-abe-821714-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-abe-821714-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-abe-821714-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-abe-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-abe-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-abe-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-abe-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7272,12 +7272,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2200,
       "color": "Black & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-agnes-825617-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-agnes-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-agnes-825617-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-agnes-825617-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-agnes-825617-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-agnes-825617-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-agnes-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-agnes-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-agnes-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-agnes-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7299,12 +7299,12 @@ const SITE_DATA = {
       "age": "10 weeks old",
       "price": 2200,
       "color": "Black, Tan & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-antony-823754-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-antony-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-antony-823754-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-antony-823754-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-antony-823754-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-antony-823754-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-antony-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-antony-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-antony-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-antony-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7326,12 +7326,12 @@ const SITE_DATA = {
       "age": "14 weeks old",
       "price": 2500,
       "color": "Chocolate, Tan & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-blue-820530-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-blue-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-blue-820530-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-blue-820530-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-blue-820530-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-blue-820530-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-blue-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-blue-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-blue-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-blue-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7353,12 +7353,11 @@ const SITE_DATA = {
       "age": "13 weeks old",
       "price": 2200,
       "color": "Black & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-capri-822215-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-capri-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-capri-822215-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-capri-822215-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-capri-822215-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-capri-822215-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-capri-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-capri-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-capri-photo-3.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7380,12 +7379,12 @@ const SITE_DATA = {
       "age": "11 weeks old",
       "price": 2800,
       "color": "Blue Merle, White & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-celeste-822911-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-celeste-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-celeste-822911-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-celeste-822911-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-celeste-822911-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-celeste-822911-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-celeste-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-celeste-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-celeste-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-celeste-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7407,12 +7406,12 @@ const SITE_DATA = {
       "age": "14 weeks old",
       "price": 2200,
       "color": "Black, Tan & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-copper-821995-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-copper-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-copper-821995-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-copper-821995-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-copper-821995-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-copper-821995-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-copper-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-copper-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-copper-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-copper-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7434,12 +7433,12 @@ const SITE_DATA = {
       "age": "14 weeks old",
       "price": 2200,
       "color": "Black, Tan & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-flora-821991-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-flora-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-flora-821991-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-flora-821991-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-flora-821991-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-flora-821991-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-flora-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-flora-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-flora-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-flora-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7461,12 +7460,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2800,
       "color": "Blue Merle, White & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-gizmo-824480-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-gizmo-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-gizmo-824480-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-gizmo-824480-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-gizmo-824480-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-gizmo-824480-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-gizmo-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-gizmo-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-gizmo-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-gizmo-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7488,12 +7487,11 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2800,
       "color": "Blue Merle, White & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-hailey-825593-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-hailey-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-hailey-825593-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hailey-825593-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hailey-825593-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hailey-825593-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-hailey-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hailey-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hailey-photo-3.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7515,12 +7513,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2800,
       "color": "Blue Merle, White & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-hallie-825596-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-hallie-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-hallie-825596-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hallie-825596-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hallie-825596-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hallie-825596-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-hallie-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hallie-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hallie-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hallie-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7542,12 +7540,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2800,
       "color": "Blue Merle, White & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-hank-825592-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-hank-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-hank-825592-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hank-825592-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hank-825592-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hank-825592-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-hank-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hank-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hank-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hank-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7569,12 +7567,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2800,
       "color": "Blue Merle, White & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-harley-825594-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-harley-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-harley-825594-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-harley-825594-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-harley-825594-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-harley-825594-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-harley-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-harley-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-harley-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-harley-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7596,12 +7594,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2800,
       "color": "Blue Merle, White & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-hope-825595-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-hope-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-hope-825595-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hope-825595-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hope-825595-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-hope-825595-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-hope-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hope-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hope-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-hope-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7623,12 +7621,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2800,
       "color": "Chocolate Merle & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-kevin-825634-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-kevin-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-kevin-825634-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kevin-825634-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kevin-825634-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kevin-825634-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-kevin-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kevin-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kevin-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kevin-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7650,12 +7648,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2200,
       "color": "Black, Tan & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-kim-825627-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-kim-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-kim-825627-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kim-825627-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kim-825627-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-kim-825627-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-kim-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kim-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kim-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-kim-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7677,12 +7675,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2200,
       "color": "Black, Tan & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-lexi-824226-1.png",
+      "image": "images/puppies/bernedoodle/bernedoodle-lexi-photo-1.png",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-lexi-824226-1.png",
-        "images/puppies/bernedoodle/bernedoodle-lexi-824226-2.png",
-        "images/puppies/bernedoodle/bernedoodle-lexi-824226-3.png",
-        "images/puppies/bernedoodle/bernedoodle-lexi-824226-4.png"
+        "images/puppies/bernedoodle/bernedoodle-lexi-photo-1.png",
+        "images/puppies/bernedoodle/bernedoodle-lexi-photo-2.png",
+        "images/puppies/bernedoodle/bernedoodle-lexi-photo-3.png",
+        "images/puppies/bernedoodle/bernedoodle-lexi-photo-4.png"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7704,12 +7702,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2500,
       "color": "Chocolate, Tan & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-maverick-825636-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-maverick-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-maverick-825636-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-maverick-825636-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-maverick-825636-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-maverick-825636-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-maverick-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-maverick-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-maverick-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-maverick-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7731,12 +7729,12 @@ const SITE_DATA = {
       "age": "10 weeks old",
       "price": 2200,
       "color": "Black, Tan & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-novia-823117-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-novia-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-novia-823117-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-novia-823117-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-novia-823117-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-novia-823117-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-novia-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-novia-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-novia-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-novia-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7758,12 +7756,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2800,
       "color": "Blue Merle, White & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-phil-825701-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-phil-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-phil-825701-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-phil-825701-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-phil-825701-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-phil-825701-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-phil-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-phil-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-phil-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-phil-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7785,12 +7783,11 @@ const SITE_DATA = {
       "age": "15 weeks old",
       "price": 2800,
       "color": "Blue Merle & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-pretzel-820507-1.png",
+      "image": "images/puppies/bernedoodle/bernedoodle-pretzel-photo-1.png",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-pretzel-820507-1.png",
-        "images/puppies/bernedoodle/bernedoodle-pretzel-820507-2.png",
-        "images/puppies/bernedoodle/bernedoodle-pretzel-820507-3.png",
-        "images/puppies/bernedoodle/bernedoodle-pretzel-820507-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-pretzel-photo-1.png",
+        "images/puppies/bernedoodle/bernedoodle-pretzel-photo-2.png",
+        "images/puppies/bernedoodle/bernedoodle-pretzel-photo-3.png"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7812,12 +7809,12 @@ const SITE_DATA = {
       "age": "11 weeks old",
       "price": 2500,
       "color": "Red & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-rory-823713-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-rory-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-rory-823713-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-rory-823713-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-rory-823713-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-rory-823713-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-rory-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-rory-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-rory-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-rory-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7839,12 +7836,12 @@ const SITE_DATA = {
       "age": "15 weeks old",
       "price": 2500,
       "color": "Chocolate & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-taco-820506-1.png",
+      "image": "images/puppies/bernedoodle/bernedoodle-taco-photo-1.png",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-taco-820506-1.png",
-        "images/puppies/bernedoodle/bernedoodle-taco-820506-2.png",
-        "images/puppies/bernedoodle/bernedoodle-taco-820506-3.png",
-        "images/puppies/bernedoodle/bernedoodle-taco-820506-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-taco-photo-1.png",
+        "images/puppies/bernedoodle/bernedoodle-taco-photo-2.png",
+        "images/puppies/bernedoodle/bernedoodle-taco-photo-3.png",
+        "images/puppies/bernedoodle/bernedoodle-taco-photo-4.png"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7866,12 +7863,12 @@ const SITE_DATA = {
       "age": "11 weeks old",
       "price": 2200,
       "color": "Black, Tan & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-thunder-823714-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-thunder-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-thunder-823714-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-thunder-823714-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-thunder-823714-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-thunder-823714-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-thunder-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-thunder-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-thunder-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-thunder-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7893,12 +7890,12 @@ const SITE_DATA = {
       "age": "11 weeks old",
       "price": 2800,
       "color": "Blue Merle, White & Tan",
-      "image": "images/puppies/bernedoodle/bernedoodle-westley-822906-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-westley-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-westley-822906-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-westley-822906-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-westley-822906-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-westley-822906-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-westley-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-westley-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-westley-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-westley-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7920,12 +7917,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2800,
       "color": "Chocolate Merle & White",
-      "image": "images/puppies/bernedoodle/bernedoodle-wyatt-825638-1.jpg",
+      "image": "images/puppies/bernedoodle/bernedoodle-wyatt-photo-1.jpg",
       "gallery": [
-        "images/puppies/bernedoodle/bernedoodle-wyatt-825638-1.jpg",
-        "images/puppies/bernedoodle/bernedoodle-wyatt-825638-2.jpg",
-        "images/puppies/bernedoodle/bernedoodle-wyatt-825638-3.jpg",
-        "images/puppies/bernedoodle/bernedoodle-wyatt-825638-4.jpg"
+        "images/puppies/bernedoodle/bernedoodle-wyatt-photo-1.jpg",
+        "images/puppies/bernedoodle/bernedoodle-wyatt-photo-2.jpg",
+        "images/puppies/bernedoodle/bernedoodle-wyatt-photo-3.jpg",
+        "images/puppies/bernedoodle/bernedoodle-wyatt-photo-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
