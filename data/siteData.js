@@ -6464,12 +6464,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2100,
       "color": "Chocolate",
-      "image": "images/puppies/havanese/havanese-abby-824378-1.jpg",
+      "image": "images/puppies/havanese/havanese-abby-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-abby-824378-1.jpg",
-        "images/puppies/havanese/havanese-abby-824378-2.jpg",
-        "images/puppies/havanese/havanese-abby-824378-3.jpg",
-        "images/puppies/havanese/havanese-abby-824378-4.jpg"
+        "images/puppies/havanese/havanese-abby-exact-1.jpg",
+        "images/puppies/havanese/havanese-abby-exact-2.jpg",
+        "images/puppies/havanese/havanese-abby-exact-3.jpg",
+        "images/puppies/havanese/havanese-abby-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6491,12 +6491,11 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2000,
       "color": "Black Brindle",
-      "image": "images/puppies/havanese/havanese-astro-824982-1.jpg",
+      "image": "images/puppies/havanese/havanese-astro-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-astro-824982-1.jpg",
-        "images/puppies/havanese/havanese-astro-824982-2.jpg",
-        "images/puppies/havanese/havanese-astro-824982-3.jpg",
-        "images/puppies/havanese/havanese-astro-824982-4.jpg"
+        "images/puppies/havanese/havanese-astro-exact-1.jpg",
+        "images/puppies/havanese/havanese-astro-exact-2.jpg",
+        "images/puppies/havanese/havanese-astro-exact-3.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6518,12 +6517,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2100,
       "color": "Chocolate Sable",
-      "image": "images/puppies/havanese/havanese-axel-825610-1.jpg",
+      "image": "images/puppies/havanese/havanese-axel-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-axel-825610-1.jpg",
-        "images/puppies/havanese/havanese-axel-825610-2.jpg",
-        "images/puppies/havanese/havanese-axel-825610-3.jpg",
-        "images/puppies/havanese/havanese-axel-825610-4.jpg"
+        "images/puppies/havanese/havanese-axel-exact-1.jpg",
+        "images/puppies/havanese/havanese-axel-exact-2.jpg",
+        "images/puppies/havanese/havanese-axel-exact-3.jpg",
+        "images/puppies/havanese/havanese-axel-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6545,12 +6544,12 @@ const SITE_DATA = {
       "age": "24 weeks old",
       "price": 2100,
       "color": "Chocolate",
-      "image": "images/puppies/havanese/havanese-dallas-815079-1.jpg",
+      "image": "images/puppies/havanese/havanese-dallas-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-dallas-815079-1.jpg",
-        "images/puppies/havanese/havanese-dallas-815079-2.jpg",
-        "images/puppies/havanese/havanese-dallas-815079-3.jpg",
-        "images/puppies/havanese/havanese-dallas-815079-4.jpg"
+        "images/puppies/havanese/havanese-dallas-exact-1.jpg",
+        "images/puppies/havanese/havanese-dallas-exact-2.jpg",
+        "images/puppies/havanese/havanese-dallas-exact-3.jpg",
+        "images/puppies/havanese/havanese-dallas-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6572,12 +6571,12 @@ const SITE_DATA = {
       "age": "9 weeks old",
       "price": 2100,
       "color": "Chocolate",
-      "image": "images/puppies/havanese/havanese-ember-822794-1.jpg",
+      "image": "images/puppies/havanese/havanese-ember-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-ember-822794-1.jpg",
-        "images/puppies/havanese/havanese-ember-822794-2.jpg",
-        "images/puppies/havanese/havanese-ember-822794-3.jpg",
-        "images/puppies/havanese/havanese-ember-822794-4.jpg"
+        "images/puppies/havanese/havanese-ember-exact-1.jpg",
+        "images/puppies/havanese/havanese-ember-exact-2.jpg",
+        "images/puppies/havanese/havanese-ember-exact-3.jpg",
+        "images/puppies/havanese/havanese-ember-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6599,12 +6598,12 @@ const SITE_DATA = {
       "age": "12 weeks old",
       "price": 2100,
       "color": "Chocolate",
-      "image": "images/puppies/havanese/havanese-fergus-822801-1.jpg",
+      "image": "images/puppies/havanese/havanese-fergus-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-fergus-822801-1.jpg",
-        "images/puppies/havanese/havanese-fergus-822801-2.jpg",
-        "images/puppies/havanese/havanese-fergus-822801-3.jpg",
-        "images/puppies/havanese/havanese-fergus-822801-4.jpg"
+        "images/puppies/havanese/havanese-fergus-exact-1.jpg",
+        "images/puppies/havanese/havanese-fergus-exact-2.jpg",
+        "images/puppies/havanese/havanese-fergus-exact-3.jpg",
+        "images/puppies/havanese/havanese-fergus-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6626,12 +6625,12 @@ const SITE_DATA = {
       "age": "13 weeks old",
       "price": 2100,
       "color": "Chocolate",
-      "image": "images/puppies/havanese/havanese-homer-823934-1.jpg",
+      "image": "images/puppies/havanese/havanese-homer-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-homer-823934-1.jpg",
-        "images/puppies/havanese/havanese-homer-823934-2.jpg",
-        "images/puppies/havanese/havanese-homer-823934-3.jpg",
-        "images/puppies/havanese/havanese-homer-823934-4.jpg"
+        "images/puppies/havanese/havanese-homer-exact-1.jpg",
+        "images/puppies/havanese/havanese-homer-exact-2.jpg",
+        "images/puppies/havanese/havanese-homer-exact-3.jpg",
+        "images/puppies/havanese/havanese-homer-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6653,12 +6652,12 @@ const SITE_DATA = {
       "age": "23 weeks old",
       "price": 2100,
       "color": "Chocolate Sable",
-      "image": "images/puppies/havanese/havanese-hunter-815502-1.jpg",
+      "image": "images/puppies/havanese/havanese-hunter-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-hunter-815502-1.jpg",
-        "images/puppies/havanese/havanese-hunter-815502-2.jpg",
-        "images/puppies/havanese/havanese-hunter-815502-3.jpg",
-        "images/puppies/havanese/havanese-hunter-815502-4.jpg"
+        "images/puppies/havanese/havanese-hunter-exact-1.jpg",
+        "images/puppies/havanese/havanese-hunter-exact-2.jpg",
+        "images/puppies/havanese/havanese-hunter-exact-3.jpg",
+        "images/puppies/havanese/havanese-hunter-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6680,12 +6679,12 @@ const SITE_DATA = {
       "age": "13 weeks old",
       "price": 2100,
       "color": "Chocolate",
-      "image": "images/puppies/havanese/havanese-icon-823949-1.jpg",
+      "image": "images/puppies/havanese/havanese-icon-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-icon-823949-1.jpg",
-        "images/puppies/havanese/havanese-icon-823949-2.jpg",
-        "images/puppies/havanese/havanese-icon-823949-3.jpg",
-        "images/puppies/havanese/havanese-icon-823949-4.jpg"
+        "images/puppies/havanese/havanese-icon-exact-1.jpg",
+        "images/puppies/havanese/havanese-icon-exact-2.jpg",
+        "images/puppies/havanese/havanese-icon-exact-3.jpg",
+        "images/puppies/havanese/havanese-icon-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6707,12 +6706,12 @@ const SITE_DATA = {
       "age": "13 weeks old",
       "price": 2100,
       "color": "Chocolate",
-      "image": "images/puppies/havanese/havanese-indigo-823944-1.jpg",
+      "image": "images/puppies/havanese/havanese-indigo-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-indigo-823944-1.jpg",
-        "images/puppies/havanese/havanese-indigo-823944-2.jpg",
-        "images/puppies/havanese/havanese-indigo-823944-3.jpg",
-        "images/puppies/havanese/havanese-indigo-823944-4.jpg"
+        "images/puppies/havanese/havanese-indigo-exact-1.jpg",
+        "images/puppies/havanese/havanese-indigo-exact-2.jpg",
+        "images/puppies/havanese/havanese-indigo-exact-3.jpg",
+        "images/puppies/havanese/havanese-indigo-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6734,12 +6733,12 @@ const SITE_DATA = {
       "age": "12 weeks old",
       "price": 2100,
       "color": "Chocolate Sable",
-      "image": "images/puppies/havanese/havanese-iris-822805-1.jpg",
+      "image": "images/puppies/havanese/havanese-iris-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-iris-822805-1.jpg",
-        "images/puppies/havanese/havanese-iris-822805-2.jpg",
-        "images/puppies/havanese/havanese-iris-822805-3.jpg",
-        "images/puppies/havanese/havanese-iris-822805-4.jpg"
+        "images/puppies/havanese/havanese-iris-exact-1.jpg",
+        "images/puppies/havanese/havanese-iris-exact-2.jpg",
+        "images/puppies/havanese/havanese-iris-exact-3.jpg",
+        "images/puppies/havanese/havanese-iris-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6761,12 +6760,12 @@ const SITE_DATA = {
       "age": "12 weeks old",
       "price": 2100,
       "color": "Chocolate",
-      "image": "images/puppies/havanese/havanese-irving-822807-1.jpg",
+      "image": "images/puppies/havanese/havanese-irving-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-irving-822807-1.jpg",
-        "images/puppies/havanese/havanese-irving-822807-2.jpg",
-        "images/puppies/havanese/havanese-irving-822807-3.jpg",
-        "images/puppies/havanese/havanese-irving-822807-4.jpg"
+        "images/puppies/havanese/havanese-irving-exact-1.jpg",
+        "images/puppies/havanese/havanese-irving-exact-2.jpg",
+        "images/puppies/havanese/havanese-irving-exact-3.jpg",
+        "images/puppies/havanese/havanese-irving-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6788,12 +6787,12 @@ const SITE_DATA = {
       "age": "10 weeks old",
       "price": 2100,
       "color": "Chocolate Sable",
-      "image": "images/puppies/havanese/havanese-leo-824913-1.jpg",
+      "image": "images/puppies/havanese/havanese-leo-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-leo-824913-1.jpg",
-        "images/puppies/havanese/havanese-leo-824913-2.jpg",
-        "images/puppies/havanese/havanese-leo-824913-3.jpg",
-        "images/puppies/havanese/havanese-leo-824913-4.jpg"
+        "images/puppies/havanese/havanese-leo-exact-1.jpg",
+        "images/puppies/havanese/havanese-leo-exact-2.jpg",
+        "images/puppies/havanese/havanese-leo-exact-3.jpg",
+        "images/puppies/havanese/havanese-leo-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6815,12 +6814,11 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2000,
       "color": "Gold Brindle",
-      "image": "images/puppies/havanese/havanese-pandora-825654-1.jpg",
+      "image": "images/puppies/havanese/havanese-pandora-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-pandora-825654-1.jpg",
-        "images/puppies/havanese/havanese-pandora-825654-2.jpg",
-        "images/puppies/havanese/havanese-pandora-825654-3.jpg",
-        "images/puppies/havanese/havanese-pandora-825654-4.jpg"
+        "images/puppies/havanese/havanese-pandora-exact-1.jpg",
+        "images/puppies/havanese/havanese-pandora-exact-2.jpg",
+        "images/puppies/havanese/havanese-pandora-exact-3.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6842,12 +6840,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black",
-      "image": "images/puppies/havanese/havanese-pixel-824554-1.jpg",
+      "image": "images/puppies/havanese/havanese-pixel-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-pixel-824554-1.jpg",
-        "images/puppies/havanese/havanese-pixel-824554-2.jpg",
-        "images/puppies/havanese/havanese-pixel-824554-3.jpg",
-        "images/puppies/havanese/havanese-pixel-824554-4.jpg"
+        "images/puppies/havanese/havanese-pixel-exact-1.jpg",
+        "images/puppies/havanese/havanese-pixel-exact-2.jpg",
+        "images/puppies/havanese/havanese-pixel-exact-3.jpg",
+        "images/puppies/havanese/havanese-pixel-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6869,12 +6867,12 @@ const SITE_DATA = {
       "age": "15 weeks old",
       "price": 2100,
       "color": "Chocolate",
-      "image": "images/puppies/havanese/havanese-princess-819481-1.jpg",
+      "image": "images/puppies/havanese/havanese-princess-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-princess-819481-1.jpg",
-        "images/puppies/havanese/havanese-princess-819481-2.jpg",
-        "images/puppies/havanese/havanese-princess-819481-3.jpg",
-        "images/puppies/havanese/havanese-princess-819481-4.jpg"
+        "images/puppies/havanese/havanese-princess-exact-1.jpg",
+        "images/puppies/havanese/havanese-princess-exact-2.jpg",
+        "images/puppies/havanese/havanese-princess-exact-3.jpg",
+        "images/puppies/havanese/havanese-princess-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6896,12 +6894,12 @@ const SITE_DATA = {
       "age": "9 weeks old",
       "price": 2100,
       "color": "Gold Sable",
-      "image": "images/puppies/havanese/havanese-rally-824704-1.jpg",
+      "image": "images/puppies/havanese/havanese-rally-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-rally-824704-1.jpg",
-        "images/puppies/havanese/havanese-rally-824704-2.jpg",
-        "images/puppies/havanese/havanese-rally-824704-3.jpg",
-        "images/puppies/havanese/havanese-rally-824704-4.jpg"
+        "images/puppies/havanese/havanese-rally-exact-1.jpg",
+        "images/puppies/havanese/havanese-rally-exact-2.jpg",
+        "images/puppies/havanese/havanese-rally-exact-3.jpg",
+        "images/puppies/havanese/havanese-rally-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6923,12 +6921,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black",
-      "image": "images/puppies/havanese/havanese-sienna-824565-1.jpg",
+      "image": "images/puppies/havanese/havanese-sienna-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-sienna-824565-1.jpg",
-        "images/puppies/havanese/havanese-sienna-824565-2.jpg",
-        "images/puppies/havanese/havanese-sienna-824565-3.jpg",
-        "images/puppies/havanese/havanese-sienna-824565-4.jpg"
+        "images/puppies/havanese/havanese-sienna-exact-1.jpg",
+        "images/puppies/havanese/havanese-sienna-exact-2.jpg",
+        "images/puppies/havanese/havanese-sienna-exact-3.jpg",
+        "images/puppies/havanese/havanese-sienna-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6950,12 +6948,12 @@ const SITE_DATA = {
       "age": "26 weeks old",
       "price": 2100,
       "color": "Chocolate Sable",
-      "image": "images/puppies/havanese/havanese-skipper-814084-1.jpg",
+      "image": "images/puppies/havanese/havanese-skipper-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-skipper-814084-1.jpg",
-        "images/puppies/havanese/havanese-skipper-814084-2.jpg",
-        "images/puppies/havanese/havanese-skipper-814084-3.jpg",
-        "images/puppies/havanese/havanese-skipper-814084-4.jpg"
+        "images/puppies/havanese/havanese-skipper-exact-1.jpg",
+        "images/puppies/havanese/havanese-skipper-exact-2.jpg",
+        "images/puppies/havanese/havanese-skipper-exact-3.jpg",
+        "images/puppies/havanese/havanese-skipper-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6977,12 +6975,12 @@ const SITE_DATA = {
       "age": "14 weeks old",
       "price": 2100,
       "color": "Chocolate",
-      "image": "images/puppies/havanese/havanese-waffle-822533-1.jpg",
+      "image": "images/puppies/havanese/havanese-waffle-exact-1.jpg",
       "gallery": [
-        "images/puppies/havanese/havanese-waffle-822533-1.jpg",
-        "images/puppies/havanese/havanese-waffle-822533-2.jpg",
-        "images/puppies/havanese/havanese-waffle-822533-3.jpg",
-        "images/puppies/havanese/havanese-waffle-822533-4.jpg"
+        "images/puppies/havanese/havanese-waffle-exact-1.jpg",
+        "images/puppies/havanese/havanese-waffle-exact-2.jpg",
+        "images/puppies/havanese/havanese-waffle-exact-3.jpg",
+        "images/puppies/havanese/havanese-waffle-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
