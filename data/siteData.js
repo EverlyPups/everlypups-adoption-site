@@ -3938,12 +3938,12 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-austin-824012-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-austin-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-austin-824012-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-austin-824012-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-austin-824012-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-austin-824012-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-austin-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-austin-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-austin-exact-3.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-austin-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3965,12 +3965,11 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-dayne-825615-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-dayne-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-dayne-825615-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-dayne-825615-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-dayne-825615-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-dayne-825615-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-dayne-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-dayne-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-dayne-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3992,12 +3991,12 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-finnie-825553-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-finnie-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-finnie-825553-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-finnie-825553-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-finnie-825553-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-finnie-825553-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-finnie-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-finnie-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-finnie-exact-3.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-finnie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4019,12 +4018,12 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-frederick-824106-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-frederick-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-frederick-824106-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-frederick-824106-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-frederick-824106-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-frederick-824106-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-frederick-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-frederick-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-frederick-exact-3.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-frederick-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4046,12 +4045,12 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-imani-818518-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-imani-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-imani-818518-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-imani-818518-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-imani-818518-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-imani-818518-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-imani-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-imani-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-imani-exact-3.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-imani-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4073,12 +4072,12 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-jeremiah-822422-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-jeremiah-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-jeremiah-822422-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-jeremiah-822422-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-jeremiah-822422-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-jeremiah-822422-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-jeremiah-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-jeremiah-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-jeremiah-exact-3.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-jeremiah-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4100,12 +4099,12 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-kara-825157-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-kara-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-kara-825157-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-kara-825157-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-kara-825157-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-kara-825157-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-kara-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-kara-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-kara-exact-3.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-kara-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4127,12 +4126,12 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-lena-824362-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-lena-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-lena-824362-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-lena-824362-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-lena-824362-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-lena-824362-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-lena-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-lena-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-lena-exact-3.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-lena-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4154,12 +4153,12 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-lux-824524-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-lux-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-lux-824524-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-lux-824524-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-lux-824524-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-lux-824524-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-lux-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-lux-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-lux-exact-3.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-lux-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4181,12 +4180,12 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-mia-825291-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-mia-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-mia-825291-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-mia-825291-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-mia-825291-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-mia-825291-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-mia-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-mia-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-mia-exact-3.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-mia-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4208,12 +4207,12 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-savannah-825623-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-savannah-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-savannah-825623-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-savannah-825623-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-savannah-825623-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-savannah-825623-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-savannah-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-savannah-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-savannah-exact-3.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-savannah-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4235,12 +4234,12 @@ const SITE_DATA = {
       "estAdultWeight": "13 - 18 lbs",
       "price": 2400,
       "hypoallergenic": false,
-      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-walker-824805-exact-1.jpg",
+      "image": "images/puppies/cavalier-king-charles-spaniel/cavalier-walker-exact-1.jpg",
       "gallery": [
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-walker-824805-exact-1.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-walker-824805-exact-2.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-walker-824805-exact-3.jpg",
-        "images/puppies/cavalier-king-charles-spaniel/cavalier-walker-824805-exact-4.jpg"
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-walker-exact-1.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-walker-exact-2.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-walker-exact-3.jpg",
+        "images/puppies/cavalier-king-charles-spaniel/cavalier-walker-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
