@@ -5654,12 +5654,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2200,
       "color": "Blue Merle",
-      "image": "images/puppies/australian-shepherd/aussie-betsy-ross-825178-1.jpg",
+      "image": "images/puppies/australian-shepherd/australian-shepherd-betsy-ross-exact-1.jpg",
       "gallery": [
-        "images/puppies/australian-shepherd/aussie-betsy-ross-825178-1.jpg",
-        "images/puppies/australian-shepherd/aussie-betsy-ross-825178-2.jpg",
-        "images/puppies/australian-shepherd/aussie-betsy-ross-825178-3.jpg",
-        "images/puppies/australian-shepherd/aussie-betsy-ross-825178-4.jpg"
+        "images/puppies/australian-shepherd/australian-shepherd-betsy-ross-exact-1.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-betsy-ross-exact-2.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-betsy-ross-exact-3.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-betsy-ross-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5681,12 +5681,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black",
-      "image": "images/puppies/australian-shepherd/aussie-blossom-822665-1.jpg",
+      "image": "images/puppies/australian-shepherd/australian-shepherd-blossom-exact-1.jpg",
       "gallery": [
-        "images/puppies/australian-shepherd/aussie-blossom-822665-1.jpg",
-        "images/puppies/australian-shepherd/aussie-blossom-822665-2.jpg",
-        "images/puppies/australian-shepherd/aussie-blossom-822665-3.jpg",
-        "images/puppies/australian-shepherd/aussie-blossom-822665-4.jpg"
+        "images/puppies/australian-shepherd/australian-shepherd-blossom-exact-1.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-blossom-exact-2.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-blossom-exact-3.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-blossom-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5708,12 +5708,12 @@ const SITE_DATA = {
       "age": "11 weeks old",
       "price": 1900,
       "color": "Black",
-      "image": "images/puppies/australian-shepherd/aussie-daryl-822713-1.jpg",
+      "image": "images/puppies/australian-shepherd/australian-shepherd-daryl-exact-1.jpg",
       "gallery": [
-        "images/puppies/australian-shepherd/aussie-daryl-822713-1.jpg",
-        "images/puppies/australian-shepherd/aussie-daryl-822713-2.jpg",
-        "images/puppies/australian-shepherd/aussie-daryl-822713-3.jpg",
-        "images/puppies/australian-shepherd/aussie-daryl-822713-4.jpg"
+        "images/puppies/australian-shepherd/australian-shepherd-daryl-exact-1.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-daryl-exact-2.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-daryl-exact-3.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-daryl-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5735,12 +5735,12 @@ const SITE_DATA = {
       "age": "11 weeks old",
       "price": 1900,
       "color": "Black",
-      "image": "images/puppies/australian-shepherd/aussie-finn-822693-1.jpg",
+      "image": "images/puppies/australian-shepherd/australian-shepherd-finn-exact-1.jpg",
       "gallery": [
-        "images/puppies/australian-shepherd/aussie-finn-822693-1.jpg",
-        "images/puppies/australian-shepherd/aussie-finn-822693-2.jpg",
-        "images/puppies/australian-shepherd/aussie-finn-822693-3.jpg",
-        "images/puppies/australian-shepherd/aussie-finn-822693-4.jpg"
+        "images/puppies/australian-shepherd/australian-shepherd-finn-exact-1.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-finn-exact-2.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-finn-exact-3.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-finn-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5762,12 +5762,12 @@ const SITE_DATA = {
       "age": "11 weeks old",
       "price": 1900,
       "color": "Black",
-      "image": "images/puppies/australian-shepherd/aussie-leo-822714-1.jpg",
+      "image": "images/puppies/australian-shepherd/australian-shepherd-leo-exact-1.jpg",
       "gallery": [
-        "images/puppies/australian-shepherd/aussie-leo-822714-1.jpg",
-        "images/puppies/australian-shepherd/aussie-leo-822714-2.jpg",
-        "images/puppies/australian-shepherd/aussie-leo-822714-3.jpg",
-        "images/puppies/australian-shepherd/aussie-leo-822714-4.jpg"
+        "images/puppies/australian-shepherd/australian-shepherd-leo-exact-1.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-leo-exact-2.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-leo-exact-3.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-leo-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5789,12 +5789,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2200,
       "color": "Blue Merle",
-      "image": "images/puppies/australian-shepherd/aussie-liberty-824779-1.png",
+      "image": "images/puppies/australian-shepherd/australian-shepherd-liberty-exact-1.jpg",
       "gallery": [
-        "images/puppies/australian-shepherd/aussie-liberty-824779-1.png",
-        "images/puppies/australian-shepherd/aussie-liberty-824779-2.jpg",
-        "images/puppies/australian-shepherd/aussie-liberty-824779-3.jpg",
-        "images/puppies/australian-shepherd/aussie-liberty-824779-4.jpg"
+        "images/puppies/australian-shepherd/australian-shepherd-liberty-exact-1.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-liberty-exact-2.jpg",
+        "images/puppies/australian-shepherd/australian-shepherd-liberty-exact-3.png",
+        "images/puppies/australian-shepherd/australian-shepherd-liberty-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
