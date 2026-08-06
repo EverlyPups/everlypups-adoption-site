@@ -4423,12 +4423,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-albert-821986-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-albert-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-albert-821986-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-albert-821986-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-albert-821986-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-albert-821986-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-albert-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-albert-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-albert-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-albert-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4450,12 +4450,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-aurora-824071-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-aurora-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-aurora-824071-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-aurora-824071-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-aurora-824071-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-aurora-824071-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-aurora-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-aurora-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-aurora-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-aurora-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4477,12 +4477,11 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-biscotti-821769-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-biscotti-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-biscotti-821769-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-biscotti-821769-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-biscotti-821769-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-biscotti-821769-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-biscotti-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-biscotti-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-biscotti-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4504,12 +4503,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-bitsy-823398-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-bitsy-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-bitsy-823398-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-bitsy-823398-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-bitsy-823398-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-bitsy-823398-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-bitsy-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-bitsy-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-bitsy-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-bitsy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4531,12 +4530,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-guava-823921-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-guava-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-guava-823921-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-guava-823921-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-guava-823921-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-guava-823921-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-guava-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-guava-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-guava-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-guava-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4558,12 +4557,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-gus-823916-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-gus-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-gus-823916-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-gus-823916-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-gus-823916-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-gus-823916-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-gus-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-gus-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-gus-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-gus-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4585,12 +4584,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-harbor-824138-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-harbor-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-harbor-824138-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-harbor-824138-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-harbor-824138-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-harbor-824138-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-harbor-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-harbor-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-harbor-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-harbor-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4612,12 +4611,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-jasper-825117-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-jasper-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-jasper-825117-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-jasper-825117-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-jasper-825117-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-jasper-825117-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-jasper-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-jasper-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-jasper-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-jasper-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "ent each puppy is born",
@@ -4639,12 +4638,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-lucky-luke-821730-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-lucky-luke-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-lucky-luke-821730-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-lucky-luke-821730-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-lucky-luke-821730-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-lucky-luke-821730-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-lucky-luke-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-lucky-luke-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-lucky-luke-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-lucky-luke-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4666,12 +4665,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-madeline-821737-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-madeline-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-madeline-821737-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-madeline-821737-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-madeline-821737-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-madeline-821737-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-madeline-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-madeline-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-madeline-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-madeline-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4693,12 +4692,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-merle-boy-818652-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-merle-boy-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-merle-boy-818652-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-merle-boy-818652-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-merle-boy-818652-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-merle-boy-818652-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-merle-boy-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-merle-boy-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-merle-boy-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-merle-boy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4720,12 +4719,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-pearl-824972-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-pearl-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-pearl-824972-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-pearl-824972-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-pearl-824972-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-pearl-824972-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-pearl-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-pearl-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-pearl-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-pearl-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4747,12 +4746,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-pookie-819609-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-pookie-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-pookie-819609-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-pookie-819609-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-pookie-819609-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-pookie-819609-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-pookie-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-pookie-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-pookie-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-pookie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4774,12 +4773,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-ruth-821983-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-ruth-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-ruth-821983-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-ruth-821983-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-ruth-821983-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-ruth-821983-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-ruth-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-ruth-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-ruth-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-ruth-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4801,12 +4800,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-scooter-821736-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-scooter-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-scooter-821736-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-scooter-821736-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-scooter-821736-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-scooter-821736-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-scooter-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-scooter-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-scooter-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-scooter-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4828,12 +4827,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-shelby-825491-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-shelby-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-shelby-825491-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-shelby-825491-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-shelby-825491-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-shelby-825491-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-shelby-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-shelby-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-shelby-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-shelby-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "ent each puppy is born",
@@ -4855,12 +4854,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-stella-823621-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-stella-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-stella-823621-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-stella-823621-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-stella-823621-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-stella-823621-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-stella-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-stella-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-stella-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-stella-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4882,12 +4881,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-stich-824075-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-stich-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-stich-824075-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-stich-824075-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-stich-824075-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-stich-824075-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-stich-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-stich-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-stich-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-stich-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4909,12 +4908,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-tubi-824594-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-tubi-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-tubi-824594-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-tubi-824594-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-tubi-824594-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-tubi-824594-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-tubi-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-tubi-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-tubi-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-tubi-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4936,12 +4935,12 @@ const SITE_DATA = {
       "estAdultWeight": "16 - 28 lbs",
       "price": 2850,
       "hypoallergenic": false,
-      "image": "images/puppies/french-bulldog/frenchie-tyler-820564-exact-1.jpg",
+      "image": "images/puppies/french-bulldog/french-bulldog-tyler-exact-1.jpg",
       "gallery": [
-        "images/puppies/french-bulldog/frenchie-tyler-820564-exact-1.jpg",
-        "images/puppies/french-bulldog/frenchie-tyler-820564-exact-2.jpg",
-        "images/puppies/french-bulldog/frenchie-tyler-820564-exact-3.jpg",
-        "images/puppies/french-bulldog/frenchie-tyler-820564-exact-4.jpg"
+        "images/puppies/french-bulldog/french-bulldog-tyler-exact-1.jpg",
+        "images/puppies/french-bulldog/french-bulldog-tyler-exact-2.jpg",
+        "images/puppies/french-bulldog/french-bulldog-tyler-exact-3.jpg",
+        "images/puppies/french-bulldog/french-bulldog-tyler-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
