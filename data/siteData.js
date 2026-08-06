@@ -3079,7 +3079,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2000,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-axel-exact-1.jpg",
       "gallery": [
@@ -3106,7 +3106,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2010,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-brinley-exact-1.jpg",
       "gallery": [
@@ -3133,7 +3133,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2020,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-chance-exact-1.jpg",
       "gallery": [
@@ -3159,7 +3159,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2030,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-dallas-exact-1.jpg",
       "gallery": [
@@ -3186,7 +3186,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2040,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-gundo-exact-1.jpg",
       "gallery": [
@@ -3212,7 +3212,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2050,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-justin-exact-1.jpg",
       "gallery": [
@@ -3239,7 +3239,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2060,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-lenny-exact-1.jpg",
       "gallery": [
@@ -3266,7 +3266,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2070,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-loki-exact-1.jpg",
       "gallery": [
@@ -3293,7 +3293,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2080,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-luna-exact-1.jpg",
       "gallery": [
@@ -3320,7 +3320,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2090,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-mindy-exact-1.jpg",
       "gallery": [
@@ -3347,7 +3347,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2100,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-nova-exact-1.jpg",
       "gallery": [
@@ -3374,7 +3374,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2110,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-poppy-exact-1.jpeg",
       "gallery": [
@@ -3401,7 +3401,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2120,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-posy-exact-1.jpg",
       "gallery": [
@@ -3428,7 +3428,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2130,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-rayne-exact-1.jpg",
       "gallery": [
@@ -3455,7 +3455,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2140,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-rihanna-exact-1.jpg",
       "gallery": [
@@ -3481,7 +3481,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "6 - 15 lbs",
-      "price": 2250,
+      "price": 2150,
       "hypoallergenic": true,
       "image": "images/puppies/poodle/poodle-rolex-exact-1.jpg",
       "gallery": [
@@ -4960,7 +4960,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 1900,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-ellie-exact-1.jpg",
       "gallery": [
@@ -4987,7 +4987,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 1909,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-gatlin-exact-1.jpg",
       "gallery": [
@@ -5014,7 +5014,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 1918,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-kara-exact-1.jpg",
       "gallery": [
@@ -5040,7 +5040,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 1927,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-kaylene-exact-1.jpg",
       "gallery": [
@@ -5066,7 +5066,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 1936,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-kevin-exact-1.jpg",
       "gallery": [
@@ -5092,7 +5092,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 1945,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-leo-exact-1.jpg",
       "gallery": [
@@ -5119,7 +5119,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 1955,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-nancy-exact-1.jpg",
       "gallery": [
@@ -5145,7 +5145,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 1964,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-nick-exact-1.jpg",
       "gallery": [
@@ -5172,7 +5172,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 1973,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-nora-exact-1.jpg",
       "gallery": [
@@ -5199,7 +5199,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 1982,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-norman-exact-1.jpg",
       "gallery": [
@@ -5225,7 +5225,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 1991,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-nova-exact-1.jpg",
       "gallery": [
@@ -5252,7 +5252,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "11.5 lbs",
       "estAdultWeight": "60 - 90 lbs",
-      "price": 2450,
+      "price": 2000,
       "hypoallergenic": false,
       "image": "images/puppies/german-shepherd/german-shepherd-otto-exact-1.jpg",
       "gallery": [
@@ -5274,7 +5274,7 @@ const SITE_DATA = {
       "gender": "Male",
       "birthday": "May 11, 2026",
       "age": "12 weeks old",
-      "price": 2200,
+      "price": 2100,
       "color": "Chocolate, Gold & White",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-armani-exact-1.jpg",
       "gallery": [
@@ -5301,7 +5301,7 @@ const SITE_DATA = {
       "gender": "Female",
       "birthday": "April 18, 2026",
       "age": "15 weeks old",
-      "price": 1900,
+      "price": 2119,
       "color": "Black & Tan",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-fae-exact-1.jpg",
       "gallery": [
@@ -5328,7 +5328,7 @@ const SITE_DATA = {
       "gender": "Female",
       "birthday": "April 22, 2026",
       "age": "14 weeks old",
-      "price": 1900,
+      "price": 2138,
       "color": "Black & Tan",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-freda-exact-1.jpg",
       "gallery": [
@@ -5355,7 +5355,7 @@ const SITE_DATA = {
       "gender": "Male",
       "birthday": "June 9, 2026",
       "age": "8 weeks old",
-      "price": 1900,
+      "price": 2158,
       "color": "Black & Tan",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-hendrix-exact-1.jpg",
       "gallery": [
@@ -5382,7 +5382,7 @@ const SITE_DATA = {
       "gender": "Male",
       "birthday": "May 10, 2026",
       "age": "12 weeks old",
-      "price": 1900,
+      "price": 2177,
       "color": "Black & Tan",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-jace-exact-1.jpg",
       "gallery": [
@@ -5409,7 +5409,7 @@ const SITE_DATA = {
       "gender": "Female",
       "birthday": "June 9, 2026",
       "age": "8 weeks old",
-      "price": 1900,
+      "price": 2196,
       "color": "Black & Tan",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-juliet-exact-1.jpg",
       "gallery": [
@@ -5436,7 +5436,7 @@ const SITE_DATA = {
       "gender": "Female",
       "birthday": "April 5, 2026",
       "age": "17 weeks old",
-      "price": 2000,
+      "price": 2215,
       "color": "Black, Tan & White",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-kassandra-exact-1.jpg",
       "gallery": [
@@ -5463,7 +5463,7 @@ const SITE_DATA = {
       "gender": "Male",
       "birthday": "January 19, 2026",
       "age": "28 weeks old",
-      "price": 2000,
+      "price": 2235,
       "color": "Black & Gold",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-kyle-exact-1.jpg",
       "gallery": [
@@ -5490,7 +5490,7 @@ const SITE_DATA = {
       "gender": "Male",
       "birthday": "May 11, 2026",
       "age": "12 weeks old",
-      "price": 2200,
+      "price": 2254,
       "color": "Chocolate, Tan & White",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-louie-exact-1.jpg",
       "gallery": [
@@ -5517,7 +5517,7 @@ const SITE_DATA = {
       "gender": "Male",
       "birthday": "June 10, 2026",
       "age": "8 weeks old",
-      "price": 2000,
+      "price": 2273,
       "color": "Black, Tan & White",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-max-exact-1.jpg",
       "gallery": [
@@ -5544,7 +5544,7 @@ const SITE_DATA = {
       "gender": "Female",
       "birthday": "June 9, 2026",
       "age": "8 weeks old",
-      "price": 1900,
+      "price": 2292,
       "color": "Black & Tan",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-ruby-exact-1.jpg",
       "gallery": [
@@ -5571,7 +5571,7 @@ const SITE_DATA = {
       "gender": "Female",
       "birthday": "May 19, 2026",
       "age": "10 weeks old",
-      "price": 2200,
+      "price": 2312,
       "color": "Blue Merle & Gold",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-sapphire-exact-1.jpg",
       "gallery": [
@@ -5598,7 +5598,7 @@ const SITE_DATA = {
       "gender": "Male",
       "birthday": "June 6, 2026",
       "age": "8 weeks old",
-      "price": 1900,
+      "price": 2331,
       "color": "Black & Tan",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-sunny-exact-1.jpg",
       "gallery": [
@@ -5625,7 +5625,7 @@ const SITE_DATA = {
       "gender": "Male",
       "birthday": "May 11, 2026",
       "age": "12 weeks old",
-      "price": 2200,
+      "price": 2350,
       "color": "Chocolate, Gold & White",
       "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-versace-exact-1.jpg",
       "gallery": [
@@ -7217,7 +7217,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2000,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-agnes-exact-1.jpg",
       "gallery": [
@@ -7244,7 +7244,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2004,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-kevin-exact-1.jpg",
       "gallery": [
@@ -7271,7 +7271,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2008,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-capri-exact-1.jpg",
       "gallery": [
@@ -7297,7 +7297,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2012,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-gizmo-exact-1.jpg",
       "gallery": [
@@ -7324,7 +7324,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2016,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-blue-exact-1.jpg",
       "gallery": [
@@ -7351,7 +7351,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2020,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-wyatt-exact-1.jpg",
       "gallery": [
@@ -7378,7 +7378,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2024,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-harley-exact-1.jpg",
       "gallery": [
@@ -7405,7 +7405,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2028,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-abe-exact-1.jpg",
       "gallery": [
@@ -7432,7 +7432,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2032,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-copper-exact-1.jpg",
       "gallery": [
@@ -7459,7 +7459,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2036,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-maverick-exact-1.jpg",
       "gallery": [
@@ -7486,7 +7486,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2040,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-celeste-exact-1.jpg",
       "gallery": [
@@ -7513,7 +7513,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2044,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-flora-exact-1.jpg",
       "gallery": [
@@ -7540,7 +7540,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2048,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-rory-exact-1.jpg",
       "gallery": [
@@ -7567,7 +7567,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2052,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-hope-exact-1.jpg",
       "gallery": [
@@ -7594,7 +7594,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2056,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-antony-exact-1.jpg",
       "gallery": [
@@ -7621,7 +7621,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2060,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-hank-exact-1.jpg",
       "gallery": [
@@ -7647,7 +7647,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2064,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-kim-exact-1.jpg",
       "gallery": [
@@ -7674,7 +7674,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2068,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-phil-exact-1.jpg",
       "gallery": [
@@ -7701,7 +7701,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2072,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-thunder-exact-1.jpg",
       "gallery": [
@@ -7728,7 +7728,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2076,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-pretzel-exact-1.png",
       "gallery": [
@@ -7754,7 +7754,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2080,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-taco-exact-1.png",
       "gallery": [
@@ -7781,7 +7781,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2084,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-novia-exact-1.jpg",
       "gallery": [
@@ -7808,7 +7808,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2088,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-westley-exact-1.jpg",
       "gallery": [
@@ -7835,7 +7835,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2092,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-lexi-exact-1.png",
       "gallery": [
@@ -7862,7 +7862,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2096,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-hailey-exact-1.jpg",
       "gallery": [
@@ -7888,7 +7888,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "6.2 lbs",
       "estAdultWeight": "35 - 55 lbs",
-      "price": 2250,
+      "price": 2100,
       "hypoallergenic": true,
       "image": "images/puppies/bernedoodle/bernedoodle-hallie-exact-1.jpg",
       "gallery": [
