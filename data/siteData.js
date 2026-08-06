@@ -4261,12 +4261,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 80 lbs",
       "price": 2250,
       "hypoallergenic": false,
-      "image": "images/puppies/labrador-retriever/labrador-baxter-822291-exact-1.jpg",
+      "image": "images/puppies/labrador-retriever/labrador-retriever-baxter-exact-1.jpg",
       "gallery": [
-        "images/puppies/labrador-retriever/labrador-baxter-822291-exact-1.jpg",
-        "images/puppies/labrador-retriever/labrador-baxter-822291-exact-2.jpg",
-        "images/puppies/labrador-retriever/labrador-baxter-822291-exact-3.jpg",
-        "images/puppies/labrador-retriever/labrador-baxter-822291-exact-4.jpg"
+        "images/puppies/labrador-retriever/labrador-retriever-baxter-exact-1.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-baxter-exact-2.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-baxter-exact-3.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-baxter-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4288,12 +4288,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 80 lbs",
       "price": 2250,
       "hypoallergenic": false,
-      "image": "images/puppies/labrador-retriever/labrador-dutton-823074-exact-1.jpg",
+      "image": "images/puppies/labrador-retriever/labrador-retriever-dutton-exact-1.jpg",
       "gallery": [
-        "images/puppies/labrador-retriever/labrador-dutton-823074-exact-1.jpg",
-        "images/puppies/labrador-retriever/labrador-dutton-823074-exact-2.jpg",
-        "images/puppies/labrador-retriever/labrador-dutton-823074-exact-3.jpg",
-        "images/puppies/labrador-retriever/labrador-dutton-823074-exact-4.jpg"
+        "images/puppies/labrador-retriever/labrador-retriever-dutton-exact-1.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-dutton-exact-2.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-dutton-exact-3.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-dutton-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4315,12 +4315,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 80 lbs",
       "price": 2250,
       "hypoallergenic": false,
-      "image": "images/puppies/labrador-retriever/labrador-eli-822478-exact-1.jpg",
+      "image": "images/puppies/labrador-retriever/labrador-retriever-eli-exact-1.jpg",
       "gallery": [
-        "images/puppies/labrador-retriever/labrador-eli-822478-exact-1.jpg",
-        "images/puppies/labrador-retriever/labrador-eli-822478-exact-2.jpg",
-        "images/puppies/labrador-retriever/labrador-eli-822478-exact-3.jpg",
-        "images/puppies/labrador-retriever/labrador-eli-822478-exact-4.jpg"
+        "images/puppies/labrador-retriever/labrador-retriever-eli-exact-1.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-eli-exact-2.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-eli-exact-3.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-eli-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4342,12 +4342,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 80 lbs",
       "price": 2250,
       "hypoallergenic": false,
-      "image": "images/puppies/labrador-retriever/labrador-monica-821835-exact-1.jpg",
+      "image": "images/puppies/labrador-retriever/labrador-retriever-monica-exact-1.jpg",
       "gallery": [
-        "images/puppies/labrador-retriever/labrador-monica-821835-exact-1.jpg",
-        "images/puppies/labrador-retriever/labrador-monica-821835-exact-2.jpg",
-        "images/puppies/labrador-retriever/labrador-monica-821835-exact-3.jpg",
-        "images/puppies/labrador-retriever/labrador-monica-821835-exact-4.jpg"
+        "images/puppies/labrador-retriever/labrador-retriever-monica-exact-1.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-monica-exact-2.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-monica-exact-3.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-monica-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4369,12 +4369,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 80 lbs",
       "price": 2250,
       "hypoallergenic": false,
-      "image": "images/puppies/labrador-retriever/labrador-odessa-823027-exact-1.jpg",
+      "image": "images/puppies/labrador-retriever/labrador-retriever-odessa-exact-1.jpg",
       "gallery": [
-        "images/puppies/labrador-retriever/labrador-odessa-823027-exact-1.jpg",
-        "images/puppies/labrador-retriever/labrador-odessa-823027-exact-2.jpg",
-        "images/puppies/labrador-retriever/labrador-odessa-823027-exact-3.jpg",
-        "images/puppies/labrador-retriever/labrador-odessa-823027-exact-4.jpg"
+        "images/puppies/labrador-retriever/labrador-retriever-odessa-exact-1.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-odessa-exact-2.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-odessa-exact-3.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-odessa-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4396,12 +4396,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 80 lbs",
       "price": 2250,
       "hypoallergenic": false,
-      "image": "images/puppies/labrador-retriever/labrador-paula-825429-exact-1.jpg",
+      "image": "images/puppies/labrador-retriever/labrador-retriever-paula-exact-1.jpg",
       "gallery": [
-        "images/puppies/labrador-retriever/labrador-paula-825429-exact-1.jpg",
-        "images/puppies/labrador-retriever/labrador-paula-825429-exact-2.jpg",
-        "images/puppies/labrador-retriever/labrador-paula-825429-exact-3.jpg",
-        "images/puppies/labrador-retriever/labrador-paula-825429-exact-4.jpg"
+        "images/puppies/labrador-retriever/labrador-retriever-paula-exact-1.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-paula-exact-2.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-paula-exact-3.jpg",
+        "images/puppies/labrador-retriever/labrador-retriever-paula-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
