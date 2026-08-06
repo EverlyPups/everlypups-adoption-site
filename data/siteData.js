@@ -162,7 +162,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Working",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 30, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "7.0 lbs",
@@ -178,10 +177,8 @@ const SITE_DATA = {
         "images/puppies/american-shepadoodle/caleb-link-823648-504981049.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "Miniature American Shepherd",
-      "dadBreed": "Poodle",
       "microchip": "98514100823648",
-      "description": "Meet Caleb! Caleb is a charming Male American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Caleb combines high intelligence with a loyal, affectionate nature."
+      "description": "Meet Caleb! Caleb is a charming Male American Shepadoodle puppy. Caleb combines high intelligence with a loyal, affectionate nature."
     },
     {
       "id": 823645,
@@ -190,7 +187,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Working",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 30, 2026",
       "color": "Brown / Tan (Teal Ribbon)",
       "status": "Ready to go home",
       "weight": "7.2 lbs",
@@ -198,10 +194,8 @@ const SITE_DATA = {
       "price": 2497,
       "hypoallergenic": true,
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "Miniature American Shepherd",
-      "dadBreed": "Poodle",
       "microchip": "98514100823645",
-      "description": "Meet Weston! Weston is a charming Male American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Weston combines high intelligence with a loyal, affectionate nature.",
+      "description": "Meet Weston! Weston is a charming Male American Shepadoodle puppy. Weston combines high intelligence with a loyal, affectionate nature.",
       "image": "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
       "gallery": [
         "images/puppies/american-shepadoodle/weston-large-504981001.jpg",
@@ -217,7 +211,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Working",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 30, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "7.5 lbs",
@@ -225,10 +218,8 @@ const SITE_DATA = {
       "price": 2497,
       "hypoallergenic": true,
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "Miniature American Shepherd",
-      "dadBreed": "Poodle",
       "microchip": "98514100823646",
-      "description": "Meet Ace! Ace is a charming Male American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Ace combines high intelligence with a loyal, affectionate nature.",
+      "description": "Meet Ace! Ace is a charming Male American Shepadoodle puppy. Ace combines high intelligence with a loyal, affectionate nature.",
       "image": "images/puppies/american-shepadoodle/ace-real-cdn-504981012.jpg",
       "gallery": [
         "images/puppies/american-shepadoodle/ace-real-cdn-504981012.jpg",
@@ -245,7 +236,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Working",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 30, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "6.8 lbs",
@@ -253,10 +243,8 @@ const SITE_DATA = {
       "price": 2697,
       "hypoallergenic": true,
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "Miniature American Shepherd",
-      "dadBreed": "Poodle",
       "microchip": "98514100823649",
-      "description": "Meet Molly! Molly is a charming Female American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Molly combines high intelligence with a loyal, affectionate nature.",
+      "description": "Meet Molly! Molly is a charming Female American Shepadoodle puppy. Molly combines high intelligence with a loyal, affectionate nature.",
       "image": "images/puppies/american-shepadoodle/molly-real-cdn-504981053.jpg",
       "gallery": [
         "images/puppies/american-shepadoodle/molly-real-cdn-504981053.jpg",
@@ -272,7 +260,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Working",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 30, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "12.4 lbs",
@@ -280,10 +267,8 @@ const SITE_DATA = {
       "price": 2897,
       "hypoallergenic": true,
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "Miniature American Shepherd",
-      "dadBreed": "Poodle",
       "microchip": "98514100823438",
-      "description": "Meet Trent! Trent is a charming Male American Shepadoodle puppy. Born to Mom (Miniature American Shepherd) and Dad (Poodle), Trent combines high intelligence with a loyal, affectionate nature.",
+      "description": "Meet Trent! Trent is a charming Male American Shepadoodle puppy. Trent combines high intelligence with a loyal, affectionate nature.",
       "image": "images/puppies/american-shepadoodle/trent-hq-1.jpg",
       "gallery": [
         "images/puppies/american-shepadoodle/trent-hq-1.jpg",
@@ -299,7 +284,6 @@ const SITE_DATA = {
       "breedGroup": "Herding",
       "gender": "Female",
       "age": "5 weeks",
-      "birthday": "June 25, 2026",
       "color": "Black, Tan & White",
       "status": "Ready by Aug. 20",
       "weight": "3.2 lbs",
@@ -315,8 +299,6 @@ const SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "American Corgi",
-      "dadBreed": "American Corgi",
       "microchip": "98514100824933",
       "description": "Meet Darcy! Darcy is an adorable Female American Corgi puppy with a sweet Black, Tan & White coat. Raised with love by a USDA Certified Star Breeder, she is alert, affectionate, and eager to join a loving home. Fully health checked and microchipped."
     },
@@ -327,7 +309,6 @@ const SITE_DATA = {
       "breedGroup": "Herding",
       "gender": "Male",
       "age": "5 weeks",
-      "birthday": "June 25, 2026",
       "color": "Black, Tan & White",
       "status": "Ready by Aug. 20",
       "weight": "3.5 lbs",
@@ -343,8 +324,6 @@ const SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "American Corgi",
-      "dadBreed": "American Corgi",
       "microchip": "98514100824930",
       "description": "Meet Dare! Dare is a handsome Male American Corgi puppy with a gorgeous Black, Tan & White markings. Playful, friendly, and well-socialized, Dare comes with a 10-Year Health Guarantee and complete vet check."
     },
@@ -355,7 +334,6 @@ const SITE_DATA = {
       "breedGroup": "Herding",
       "gender": "Female",
       "age": "5 weeks",
-      "birthday": "June 25, 2026",
       "color": "Sable & White",
       "status": "Ready by Aug. 20",
       "weight": "3.1 lbs",
@@ -371,8 +349,6 @@ const SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder (Champion Line)",
-      "momBreed": "American Corgi",
-      "dadBreed": "American Corgi",
       "microchip": "98514100824932",
       "description": "Meet Daffy! Daffy is a charming Female American Corgi puppy with a striking Sable & White coat. Intelligent, loving, and full of joy, she is ready to steal your heart!"
     },
@@ -383,7 +359,6 @@ const SITE_DATA = {
       "breedGroup": "Herding",
       "gender": "Female",
       "age": "5 weeks",
-      "birthday": "June 25, 2026",
       "color": "Black, Tan & White",
       "status": "Ready by Aug. 20",
       "weight": "3.3 lbs",
@@ -399,8 +374,6 @@ const SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi",
-      "dadBreed": "American Corgi",
       "microchip": "98514100824931",
       "description": "Meet Dixie! Dixie is a precious Female American Corgi puppy who loves cuddles and playtime. Raised in a loving home environment, she comes fully microchipped and health checked."
     },
@@ -411,7 +384,6 @@ const SITE_DATA = {
       "breedGroup": "Herding",
       "gender": "Male",
       "age": "14 weeks",
-      "birthday": "April 22, 2026",
       "color": "Sable & White",
       "status": "Ready to go home",
       "weight": "9.2 lbs",
@@ -427,8 +399,6 @@ const SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi",
-      "dadBreed": "American Corgi",
       "microchip": "98514100823131",
       "description": "Meet Dune! Dune is a spirited Male American Corgi puppy with an expressive Sable & White coat. Great with kids and other pets, Dune is ready for his forever home today."
     },
@@ -439,7 +409,6 @@ const SITE_DATA = {
       "breedGroup": "Herding",
       "gender": "Male",
       "age": "14 weeks",
-      "birthday": "April 22, 2026",
       "color": "Red & White",
       "status": "Ready to go home",
       "weight": "9.5 lbs",
@@ -455,8 +424,6 @@ const SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi",
-      "dadBreed": "American Corgi",
       "microchip": "98514100823130",
       "description": "Meet Dawman! Dawman is a friendly Male American Corgi with a classic Red & White coat. Eager to please and full of curiosity, Dawman is microchipped and vet checked."
     },
@@ -467,7 +434,6 @@ const SITE_DATA = {
       "breedGroup": "Herding",
       "gender": "Male",
       "age": "14 weeks",
-      "birthday": "April 22, 2026",
       "color": "Tri-Color",
       "status": "Ready to go home",
       "weight": "9.8 lbs",
@@ -483,8 +449,6 @@ const SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi",
-      "dadBreed": "American Corgi",
       "microchip": "98514100823132",
       "description": "Meet Dekman! Dekman is a striking Tri-Color Male American Corgi puppy. He is energetic, loyal, and trained with basic puppy manners."
     },
@@ -495,7 +459,6 @@ const SITE_DATA = {
       "breedGroup": "Herding",
       "gender": "Male",
       "age": "9 weeks",
-      "birthday": "May 27, 2026",
       "color": "Red & White",
       "status": "Ready to go home",
       "weight": "5.4 lbs",
@@ -511,8 +474,6 @@ const SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi",
-      "dadBreed": "American Corgi",
       "microchip": "98514100823017",
       "description": "Meet Simon! Simon is an adorable Red & White Male American Corgi puppy. Playful, loving, and loyal, he is ready to join your family today."
     },
@@ -523,7 +484,6 @@ const SITE_DATA = {
       "breedGroup": "Herding",
       "gender": "Male",
       "age": "9 weeks",
-      "birthday": "May 27, 2026",
       "color": "Red & White",
       "status": "Ready to go home",
       "weight": "5.6 lbs",
@@ -539,8 +499,6 @@ const SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi",
-      "dadBreed": "American Corgi",
       "microchip": "98514100823016",
       "description": "Meet Silas! Silas is a lovable Red & White Male American Corgi puppy. He has a playful temperament and enjoys cuddles."
     },
@@ -551,7 +509,6 @@ const SITE_DATA = {
       "breedGroup": "Herding",
       "gender": "Male",
       "age": "9 weeks",
-      "birthday": "May 27, 2026",
       "color": "Red & White",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -567,8 +524,6 @@ const SITE_DATA = {
         "images/puppies/corgi/502526496_large.jpg"
       ],
       "breeder": "USDA Certified Star Breeder",
-      "momBreed": "American Corgi",
-      "dadBreed": "American Corgi",
       "microchip": "98514100823226",
       "description": "Meet Stettson! Stettson is a sweet Red & White Male American Corgi puppy who is curious, energetic, and eager to please."
     },
@@ -579,7 +534,6 @@ const SITE_DATA = {
       "breedGroup": "Hound",
       "gender": "Male",
       "age": "11 weeks",
-      "birthday": "May 18, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -595,8 +549,6 @@ const SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle",
-      "dadBreed": "Beagle",
       "microchip": "98514100824677",
       "description": "Meet Scout! Scout is an exceptionally handsome Male Beagle puppy with a rich Black, Tan & White coat, soft soulful eyes, and iconic velvety floppy ears. Raised with love and utmost care by a USDA Licensed Star Breeder with champion bloodlines, Scout is energetic, curious, and loves nose-to-ground exploring as well as cozy lap cuddles. He comes 100% vet-checked, microchipped, fully vaccinated, and backed by our signature 10-Year Health Guarantee!"
     },
@@ -607,7 +559,6 @@ const SITE_DATA = {
       "breedGroup": "Hound",
       "gender": "Male",
       "age": "6 weeks",
-      "birthday": "May 22, 2026",
       "color": "Tri-Color Classic",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -623,8 +574,6 @@ const SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle",
-      "dadBreed": "Beagle",
       "microchip": "98514100824597",
       "description": "Meet Finn! Finn is a charming, playful Male Beagle puppy with striking tri-color markings, deep brown expressive eyes, and soft velvety ears. Raised in a loving home environment by a licensed USDA Star Breeder, Finn is energetic, sweet-natured, and loves cuddles after a fun game of chase. Vet-checked, microchipped, fully vaccinated, and backed by a 10-Year Health Guarantee!"
     },
@@ -635,7 +584,6 @@ const SITE_DATA = {
       "breedGroup": "Hound",
       "gender": "Female",
       "age": "10 weeks",
-      "birthday": "May 12, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -652,8 +600,6 @@ const SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle",
-      "dadBreed": "Beagle",
       "microchip": "98514100816975",
       "description": "Meet Barnaby! Barnaby is a gentle, affectionate Female Beagle puppy who brings joy wherever he goes. With his traditional hound markings and curious nose, Barnaby loves outdoor exploring and snuggling close during naptime. He comes 100% health checked by a licensed veterinarian, microchipped, and up-to-date on all shots."
     },
@@ -664,7 +610,6 @@ const SITE_DATA = {
       "breedGroup": "Hound",
       "gender": "Male",
       "age": "11 weeks",
-      "birthday": "May 18, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "4.4 lbs",
@@ -680,8 +625,6 @@ const SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle",
-      "dadBreed": "Beagle",
       "microchip": "98514100824676",
       "description": "Meet Rusty! Rusty is an exceptionally handsome Male Beagle puppy with a rich Black, Tan & White coat, soft expressive eyes, and classic velvety floppy ears. Born from champion bloodlines and raised with care by a USDA Licensed Star Breeder, Rusty is energetic, play-loving, and adores outdoor exploring as well as cozy lap cuddles. He is 100% vet-checked, microchipped, up-to-date on vaccinations, and backed by our signature 10-Year Health Guarantee!"
     },
@@ -692,7 +635,6 @@ const SITE_DATA = {
       "breedGroup": "Hound",
       "gender": "Female",
       "age": "6 weeks",
-      "birthday": "May 24, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "3.6 lbs",
@@ -708,8 +650,6 @@ const SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle",
-      "dadBreed": "Beagle",
       "microchip": "98514100824599",
       "description": "Meet Clover! Clover is an adorable Female Beagle puppy with a gorgeous Black, Tan & White coat, expressive eyes, and classic velvety floppy ears. Born from champion bloodlines and raised with care by a USDA Licensed Star Breeder, Clover is sweet, gentle, and loves cuddling up after playful outdoor explorations. Clover is 100% vet-checked, microchipped, up-to-date on vaccinations, and comes with our signature 10-Year Health Guarantee!"
     },
@@ -720,7 +660,6 @@ const SITE_DATA = {
       "breedGroup": "Hound",
       "gender": "Female",
       "age": "6 weeks",
-      "birthday": "May 24, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "3.5 lbs",
@@ -736,8 +675,6 @@ const SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle",
-      "dadBreed": "Beagle",
       "microchip": "98514100824635",
       "description": "Meet Penny! Penny is an adorable Female Beagle puppy with a rich Black, Tan & White coat, soft soulful eyes, and iconic velvety floppy ears. Raised with love and utmost care by a USDA Licensed Star Breeder with champion bloodlines, Penny is playful, inquisitive, and loves cuddle sessions after energetic garden explorations. She comes 100% vet-checked, microchipped, fully vaccinated, and backed by our signature 10-Year Health Guarantee!"
     },
@@ -748,7 +685,6 @@ const SITE_DATA = {
       "breedGroup": "Hound",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 16, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -764,8 +700,6 @@ const SITE_DATA = {
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "momBreed": "Beagle",
-      "dadBreed": "Beagle",
       "microchip": "98514100824598",
       "description": "Meet Dolly! Dolly is a cheerful Female Beagle puppy with vibrant tri-color markings and soft floppy ears. He is adventurous, friendly, and always eager to learn new tricks. Dolly is 100% vet-examined, microchipped, up-to-date on vaccinations, and comes with a 10-Year Health Commitment."
     },
@@ -777,7 +711,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 21, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -792,10 +725,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-aubriella-822066-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100822066",
-      "description": "Meet Aubriella! Aubriella is an adorable Female Goldendoodle puppy born on May 21, 2026. Sourced directly from premier USDA certified breeders, Aubriella's Mom is a Golden Retriever (55 and Dad is a Standard Poodle (45. Aubriella is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Aubriella! Aubriella is an adorable Female Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Aubriella is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824908,
@@ -804,7 +735,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "July 3, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "5.9 lbs",
@@ -819,10 +749,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-barney-824908-exact-5.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Miniature Poodle",
       "microchip": "98514100824908",
-      "description": "Meet Barney! Barney is an adorable Male Goldendoodle puppy born on July 3, 2026. Sourced directly from premier USDA certified breeders, Barney's Mom is a Goldendoodle (35 and Dad is a Miniature Poodle (15. Barney is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Barney! Barney is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Barney is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -832,7 +760,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 2, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "6.3 lbs",
@@ -846,10 +773,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-fancy-824186-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Golden Retriever",
-      "dadBreed": "Miniature Poodle",
       "microchip": "98514100824186",
-      "description": "Meet Fancy! Fancy is an adorable Female Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, Fancy's Mom is a Golden Retriever (60 and Dad is a Miniature Poodle (16. Fancy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Fancy! Fancy is an adorable Female Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Fancy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -859,7 +784,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 15, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "6.7 lbs",
@@ -873,10 +797,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-flurry-825526-exact-6.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100825526",
-      "description": "Meet Flurry! Flurry is an adorable Female Goldendoodle puppy born on June 15, 2026. Sourced directly from premier USDA certified breeders, Flurry's Mom is a Goldendoodle (30 and Dad is a Poodle (25. Flurry is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Flurry! Flurry is an adorable Female Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Flurry is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -886,7 +808,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 1, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "7.1 lbs",
@@ -901,10 +822,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-gage-822748-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100822748",
-      "description": "Meet Gage! Gage is an adorable Male Goldendoodle puppy born on June 1, 2026. Sourced directly from premier USDA certified breeders, Gage's Mom is a Goldendoodle (30 and Dad is a Poodle (25. Gage is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Gage! Gage is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Gage is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -914,7 +833,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 19, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "7.5 lbs",
@@ -928,10 +846,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-gary-824308-hq-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100824308",
-      "description": "Meet Gary! Gary is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gary's Mom is a Goldendoodle and Dad is a Poodle. Gary is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Gary! Gary is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Gary is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -941,7 +857,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 2, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "7.9 lbs",
@@ -956,10 +871,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-george-823930-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100823930",
-      "description": "Meet George! George is an adorable Male Goldendoodle puppy born on June 2, 2026. Sourced directly from premier USDA certified breeders, George's Mom is a Goldendoodle and Dad is a Poodle. George is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet George! George is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. George is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -969,7 +882,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 19, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "8.3 lbs",
@@ -983,10 +895,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-goldie-824312-hq-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100824312",
-      "description": "Meet Goldie! Goldie is an adorable Female Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Goldie's Mom is a Goldendoodle and Dad is a Poodle. Goldie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Goldie! Goldie is an adorable Female Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Goldie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -996,7 +906,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 19, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -1010,10 +919,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-gus-824305-hq-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100824309",
-      "description": "Meet Gus! Gus is an adorable Male Goldendoodle puppy born on May 19, 2026. Sourced directly from premier USDA certified breeders, Gus's Mom is a Goldendoodle and Dad is a Poodle. Gus is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Gus! Gus is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Gus is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1023,7 +930,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 16, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "5.9 lbs",
@@ -1037,10 +943,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-herman-825632-desktop-hq-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100825632",
-      "description": "Meet Herman! Herman is an adorable Male Goldendoodle puppy born on June 16, 2026. Sourced directly from premier USDA certified breeders, Herman's Mom is a Goldendoodle and Dad is a Poodle. Herman is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Herman! Herman is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Herman is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1050,7 +954,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 22, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "6.3 lbs",
@@ -1064,10 +967,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-jerome-825694-desktop-hq-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100825694",
-      "description": "Meet Jerome! Jerome is an adorable Male Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Jerome's Mom is a Goldendoodle and Dad is a Poodle. Jerome is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Jerome! Jerome is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Jerome is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Medium F1"
     },
     {
@@ -1077,7 +978,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 23, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "6.7 lbs",
@@ -1092,10 +992,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-jethro-825002-desktop-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100825002",
-      "description": "Meet Jethro! Jethro is an adorable Male Goldendoodle puppy born on June 23, 2026. Sourced directly from premier USDA certified breeders, Jethro's Mom is a Goldendoodle and Dad is a Poodle. Jethro is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Jethro! Jethro is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Jethro is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1105,7 +1003,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 17, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "7.1 lbs",
@@ -1120,10 +1017,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-leo-822307-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100822307",
-      "description": "Meet Leo! Leo is an adorable Male Goldendoodle puppy born on May 17, 2026. Sourced directly from premier USDA certified breeders, Leo's Mom is a Goldendoodle and Dad is a Poodle. Leo is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Leo! Leo is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Leo is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1133,7 +1028,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 26, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "7.5 lbs",
@@ -1148,10 +1042,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-levi-824884-desktop-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100824884",
-      "description": "Meet Levi! Levi is an adorable Male Goldendoodle puppy born on June 26, 2026. Sourced directly from premier USDA certified breeders, Levi's Mom is a Goldendoodle and Dad is a Poodle. Levi is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Levi! Levi is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Levi is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1161,7 +1053,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 8, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "7.9 lbs",
@@ -1176,10 +1067,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-lucy-824056-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100824056",
-      "description": "Meet Lucy! Lucy is an adorable Female Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Lucy's Mom is a Goldendoodle and Dad is a Poodle. Lucy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Lucy! Lucy is an adorable Female Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Lucy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Medium F1B"
     },
     {
@@ -1189,7 +1078,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 13, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "8.3 lbs",
@@ -1204,10 +1092,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-malcolm-822275-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100822275",
-      "description": "Meet Malcolm! Malcolm is an adorable Male Goldendoodle puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Malcolm's Mom is a Goldendoodle and Dad is a Poodle. Malcolm is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Malcolm! Malcolm is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Malcolm is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Standard F1B"
     },
     {
@@ -1217,7 +1103,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 13, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -1232,10 +1117,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-morty-822277-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100822277",
-      "description": "Meet Morty! Morty is an adorable Male Goldendoodle puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Morty's Mom is a Goldendoodle and Dad is a Poodle. Morty is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Morty! Morty is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Morty is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Standard F1B"
     },
     {
@@ -1245,7 +1128,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "April 24, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "5.9 lbs",
@@ -1260,10 +1142,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-mr-buttercup-819457-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100819457",
-      "description": "Meet Mr Buttercup! Mr Buttercup is an adorable Male Goldendoodle puppy born on April 24, 2026. Sourced directly from premier USDA certified breeders, Mr Buttercup's Mom is a Goldendoodle and Dad is a Poodle. Mr Buttercup is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Mr Buttercup! Mr Buttercup is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders, Mr . Mr Buttercup is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1273,7 +1153,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "April 21, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "6.3 lbs",
@@ -1288,10 +1167,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-muff-818897-desktop-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100818897",
-      "description": "Meet Muff! Muff is an adorable Male Goldendoodle puppy born on April 21, 2026. Sourced directly from premier USDA certified breeders, Muff's Mom is a Goldendoodle and Dad is a Poodle. Muff is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Muff! Muff is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Muff is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1301,7 +1178,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 10, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "6.7 lbs",
@@ -1316,10 +1192,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-quinetta-824157-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100824157",
-      "description": "Meet Quinetta! Quinetta is an adorable Female Goldendoodle puppy born on June 10, 2026. Sourced directly from premier USDA certified breeders, Quinetta's Mom is a Goldendoodle and Dad is a Poodle. Quinetta is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Quinetta! Quinetta is an adorable Female Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Quinetta is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1329,7 +1203,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 8, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "7.1 lbs",
@@ -1343,10 +1216,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-roxie-824042-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100824042",
-      "description": "Meet Roxie! Roxie is an adorable Male Goldendoodle puppy born on June 8, 2026. Sourced directly from premier USDA certified breeders, Roxie's Mom is a Goldendoodle and Dad is a Poodle. Roxie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Roxie! Roxie is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Roxie is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Medium F1B"
     },
     {
@@ -1356,7 +1227,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 22, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "7.5 lbs",
@@ -1371,10 +1241,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-rudy-822463-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100822463",
-      "description": "Meet Rudy! Rudy is an adorable Female Goldendoodle puppy born on May 22, 2026. Sourced directly from premier USDA certified breeders, Rudy's Mom is a Goldendoodle and Dad is a Poodle. Rudy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Rudy! Rudy is an adorable Female Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Rudy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1384,7 +1252,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "March 14, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "7.9 lbs",
@@ -1399,10 +1266,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-shannon-817448-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100817448",
-      "description": "Meet Shannon! Shannon is an adorable Female Goldendoodle puppy born on March 14, 2026. Sourced directly from premier USDA certified breeders, Shannon's Mom is a Goldendoodle and Dad is a Poodle. Shannon is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Shannon! Shannon is an adorable Female Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Shannon is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1412,7 +1277,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 28, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "8.3 lbs",
@@ -1427,10 +1291,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-summer-825147-desktop-hq-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100825147",
-      "description": "Meet Summer! Summer is an adorable Female Goldendoodle puppy born on June 28, 2026. Sourced directly from premier USDA certified breeders, Summer's Mom is a Goldendoodle and Dad is a Poodle. Summer is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Summer! Summer is an adorable Female Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Summer is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1440,7 +1302,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 16, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -1454,10 +1315,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-talley-825688-desktop-hq-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100825688",
-      "description": "Meet Talley! Talley is an adorable Female Goldendoodle puppy born on May 16, 2026. Sourced directly from premier USDA certified breeders, Talley's Mom is a Goldendoodle and Dad is a Poodle. Talley is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Talley! Talley is an adorable Female Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Talley is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1467,7 +1326,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 17, 2026",
       "color": "-scheme=",
       "status": "Ready to go home",
       "weight": "5.9 lbs",
@@ -1482,10 +1340,8 @@ const SITE_DATA = {
         "images/puppies/goldendoodle/goldendoodle-teddy-824024-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Goldendoodle",
-      "dadBreed": "Poodle",
       "microchip": "98514100824024",
-      "description": "Meet Teddy! Teddy is an adorable Male Goldendoodle puppy born on June 17, 2026. Sourced directly from premier USDA certified breeders, Teddy's Mom is a Goldendoodle and Dad is a Poodle. Teddy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Teddy! Teddy is an adorable Male Goldendoodle puppy. Sourced directly from premier USDA certified breeders. Teddy is affectionate, highly intelligent, hypoallergenic, and comes with a 10-Year Health Commitment.",
       "variety": "Miniature F1B"
     },
     {
@@ -1496,7 +1352,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 20, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1511,10 +1366,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-aj-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavalier King Charles Spaniel",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100822474",
-      "description": "Meet AJ! AJ is a sweet Male Cavapoo puppy born on May 20, 2026. Sourced directly from premier USDA certified breeders, AJ is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet AJ! AJ is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, AJ is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822476,
@@ -1524,7 +1377,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 20, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1539,10 +1391,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-aria-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavalier King Charles Spaniel",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100822476",
-      "description": "Meet Aria! Aria is a sweet Female Cavapoo puppy born on May 20, 2026. Sourced directly from premier USDA certified breeders, Aria is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Aria! Aria is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, Aria is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825393,
@@ -1552,7 +1402,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 16, 2026",
       "color": "Red & White",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1567,10 +1416,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-bodie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavalier King Charles Spaniel",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100825393",
-      "description": "Meet Bodie! Bodie is a sweet Male Cavapoo puppy born on June 16, 2026. Sourced directly from premier USDA certified breeders, Bodie is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Bodie! Bodie is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, Bodie is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821863,
@@ -1580,7 +1427,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "April 29, 2026",
       "color": "Apricot & White",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1595,10 +1441,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-copper-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100821863",
-      "description": "Meet Copper! Copper is a sweet Male Cavapoo puppy born on April 29, 2026. Sourced directly from premier USDA certified breeders, Copper is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Copper! Copper is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, Copper is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823906,
@@ -1608,7 +1452,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 13, 2026",
       "color": "Black",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1622,10 +1465,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-corduroy-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavalier King Charles Spaniel",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100823906",
-      "description": "Meet Corduroy! Corduroy is a sweet Male Cavapoo puppy born on June 13, 2026. Sourced directly from premier USDA certified breeders, Corduroy is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Corduroy! Corduroy is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, Corduroy is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824043,
@@ -1635,7 +1476,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 17, 2026",
       "color": "Apricot & White",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1650,10 +1490,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-ice-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100824043",
-      "description": "Meet Ice! Ice is a sweet Male Cavapoo puppy born on June 17, 2026. Sourced directly from premier USDA certified breeders, Ice is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Ice! Ice is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, Ice is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824047,
@@ -1663,7 +1501,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 17, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1677,10 +1514,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-iris-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100824047",
-      "description": "Meet Iris! Iris is a sweet Female Cavapoo puppy born on June 17, 2026. Sourced directly from premier USDA certified breeders, Iris is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Iris! Iris is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, Iris is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824045,
@@ -1690,7 +1525,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 17, 2026",
       "color": "Red & White",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1705,10 +1539,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-ivory-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100824045",
-      "description": "Meet Ivory! Ivory is a sweet Female Cavapoo puppy born on June 17, 2026. Sourced directly from premier USDA certified breeders, Ivory is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Ivory! Ivory is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, Ivory is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825400,
@@ -1718,7 +1550,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 18, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1733,10 +1564,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-june-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100825400",
-      "description": "Meet June! June is a sweet Female Cavapoo puppy born on June 18, 2026. Sourced directly from premier USDA certified breeders, June is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet June! June is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, June is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825408,
@@ -1746,7 +1575,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 28, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1760,10 +1588,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-lake-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100825408",
-      "description": "Meet Lake! Lake is a sweet Male Cavapoo puppy born on June 28, 2026. Sourced directly from premier USDA certified breeders, Lake is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lake! Lake is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, Lake is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823233,
@@ -1773,7 +1599,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 18, 2026",
       "color": "Black, White & Tan",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1788,10 +1613,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-lango-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100823233",
-      "description": "Meet Lango! Lango is a sweet Male Cavapoo puppy born on May 18, 2026. Sourced directly from premier USDA certified breeders, Lango is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lango! Lango is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, Lango is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825410,
@@ -1801,7 +1624,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 28, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1816,10 +1638,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-lemon-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100825410",
-      "description": "Meet Lemon! Lemon is a sweet Female Cavapoo puppy born on June 28, 2026. Sourced directly from premier USDA certified breeders, Lemon is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lemon! Lemon is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, Lemon is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823710,
@@ -1829,7 +1649,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 5, 2026",
       "color": "Black",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1844,10 +1663,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-molly-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavalier King Charles Spaniel",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100823710",
-      "description": "Meet Molly! Molly is a sweet Female Cavapoo puppy born on June 5, 2026. Sourced directly from premier USDA certified breeders, Molly is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Molly! Molly is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, Molly is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825648,
@@ -1857,7 +1674,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "July 4, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1872,10 +1688,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-nelly-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavalier King Charles Spaniel",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100825648",
-      "description": "Meet Nelly! Nelly is a sweet Female Cavapoo puppy born on July 4, 2026. Sourced directly from premier USDA certified breeders, Nelly is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Nelly! Nelly is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, Nelly is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822625,
@@ -1885,7 +1699,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 16, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1900,10 +1713,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-peanut-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100822625",
-      "description": "Meet Peanut! Peanut is a sweet Male Cavapoo puppy born on May 16, 2026. Sourced directly from premier USDA certified breeders, Peanut is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Peanut! Peanut is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, Peanut is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821118,
@@ -1913,7 +1724,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 26, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1928,10 +1738,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-phoebe-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100821118",
-      "description": "Meet Phoebe! Phoebe is a sweet Female Cavapoo puppy born on May 26, 2026. Sourced directly from premier USDA certified breeders, Phoebe is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Phoebe! Phoebe is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, Phoebe is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821480,
@@ -1941,7 +1749,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 6, 2026",
       "color": "Red & White",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1956,10 +1763,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-poppy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100821480",
-      "description": "Meet Poppy! Poppy is a sweet Female Cavapoo puppy born on May 6, 2026. Sourced directly from premier USDA certified breeders, Poppy is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Poppy! Poppy is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, Poppy is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823139,
@@ -1969,7 +1774,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 30, 2026",
       "color": "Blue Merle & White",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -1984,10 +1788,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-rosamae-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavalier King Charles Spaniel",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100823139",
-      "description": "Meet Rosamae! Rosamae is a sweet Female Cavapoo puppy born on May 30, 2026. Sourced directly from premier USDA certified breeders, Rosamae is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Rosamae! Rosamae is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, Rosamae is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823905,
@@ -1997,7 +1799,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 13, 2026",
       "color": "Blue Merle & Tan",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -2011,10 +1812,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-teddy-bear-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavalier King Charles Spaniel",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100823905",
-      "description": "Meet Teddy Bear! Teddy Bear is a sweet Male Cavapoo puppy born on June 13, 2026. Sourced directly from premier USDA certified breeders, Teddy Bear is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Teddy Bear! Teddy Bear is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, Teddy Bear is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821265,
@@ -2024,7 +1823,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "April 6, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -2039,10 +1837,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-teddy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100821265",
-      "description": "Meet Teddy! Teddy is a sweet Male Cavapoo puppy born on April 6, 2026. Sourced directly from premier USDA certified breeders, Teddy is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Teddy! Teddy is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, Teddy is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824261,
@@ -2052,7 +1848,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "April 24, 2026",
       "color": "Sable",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -2067,10 +1862,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-tessah-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100824261",
-      "description": "Meet Tessah! Tessah is a sweet Female Cavapoo puppy born on April 24, 2026. Sourced directly from premier USDA certified breeders, Tessah is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Tessah! Tessah is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, Tessah is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824269,
@@ -2080,7 +1873,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "April 24, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -2094,10 +1886,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-thelma-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100824269",
-      "description": "Meet Thelma! Thelma is a sweet Female Cavapoo puppy born on April 24, 2026. Sourced directly from premier USDA certified breeders, Thelma is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Thelma! Thelma is a sweet Female Cavapoo puppy. Sourced directly from premier USDA certified breeders, Thelma is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822939,
@@ -2107,7 +1897,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 29, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -2122,10 +1911,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-tom-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Cavapoo",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100822939",
-      "description": "Meet Tom! Tom is a sweet Male Cavapoo puppy born on May 29, 2026. Sourced directly from premier USDA certified breeders, Tom is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Tom! Tom is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, Tom is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824791,
@@ -2135,7 +1922,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 16, 2026",
       "color": "Apricot",
       "status": "Ready to go home",
       "weight": "4.8 lbs",
@@ -2149,10 +1935,8 @@ const SITE_DATA = {
         "images/puppies/cavapoo/cavapoo-tommy-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "Toy Poodle",
       "microchip": "98514100824791",
-      "description": "Meet Tommy! Tommy is a sweet Male Cavapoo puppy born on May 16, 2026. Sourced directly from premier USDA certified breeders, Tommy is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Tommy! Tommy is a sweet Male Cavapoo puppy. Sourced directly from premier USDA certified breeders, Tommy is affectionate, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822828,
@@ -2161,7 +1945,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 20, 2026",
       "color": "Light Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2176,10 +1959,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-bell-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100822828",
-      "description": "Meet Bell! Bell is a stunning Female Golden Retriever puppy born on May 20, 2026. Sourced directly from premier AKC/USDA certified breeders, Bell is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Bell! Bell is a stunning Female Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Bell is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822683,
@@ -2188,7 +1969,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 20, 2026",
       "color": "Light Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2203,10 +1983,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-bernard-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100822683",
-      "description": "Meet Bernard! Bernard is a stunning Male Golden Retriever puppy born on May 20, 2026. Sourced directly from premier AKC/USDA certified breeders, Bernard is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Bernard! Bernard is a stunning Male Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Bernard is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823539,
@@ -2215,7 +1993,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 10, 2026",
       "color": "Dark Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2230,10 +2007,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-brooks-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100823539",
-      "description": "Meet Brooks! Brooks is a stunning Male Golden Retriever puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Brooks is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Brooks! Brooks is a stunning Male Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Brooks is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824165,
@@ -2242,7 +2017,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 4, 2026",
       "color": "Light Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2257,10 +2031,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-celeste-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100824165",
-      "description": "Meet Celeste! Celeste is a stunning Female Golden Retriever puppy born on June 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Celeste is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Celeste! Celeste is a stunning Female Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Celeste is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825490,
@@ -2269,7 +2041,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 30, 2026",
       "color": "Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2284,10 +2055,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-colt-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100825490",
-      "description": "Meet Colt! Colt is a stunning Male Golden Retriever puppy born on June 30, 2026. Sourced directly from premier AKC/USDA certified breeders, Colt is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Colt! Colt is a stunning Male Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Colt is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824060,
@@ -2296,7 +2065,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 4, 2026",
       "color": "Light Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2311,10 +2079,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-conner-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100824060",
-      "description": "Meet Conner! Conner is a stunning Male Golden Retriever puppy born on June 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Conner is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Conner! Conner is a stunning Male Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Conner is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825487,
@@ -2323,7 +2089,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 30, 2026",
       "color": "Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2338,10 +2103,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-creed-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100825487",
-      "description": "Meet Creed! Creed is a stunning Male Golden Retriever puppy born on June 30, 2026. Sourced directly from premier AKC/USDA certified breeders, Creed is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Creed! Creed is a stunning Male Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Creed is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824451,
@@ -2350,7 +2113,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 15, 2026",
       "color": "Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2364,10 +2126,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-dallas-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100824451",
-      "description": "Meet Dallas! Dallas is a stunning Male Golden Retriever puppy born on June 15, 2026. Sourced directly from premier AKC/USDA certified breeders, Dallas is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Dallas! Dallas is a stunning Male Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Dallas is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825769,
@@ -2376,7 +2136,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 20, 2026",
       "color": "English Cream",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2391,10 +2150,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-danica-exact-4.jpeg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100825769",
-      "description": "Meet Danica! Danica is a stunning Female Golden Retriever puppy born on June 20, 2026. Sourced directly from premier AKC/USDA certified breeders, Danica is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Danica! Danica is a stunning Female Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Danica is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824456,
@@ -2403,7 +2160,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 15, 2026",
       "color": "Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2418,10 +2174,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-darla-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100824456",
-      "description": "Meet Darla! Darla is a stunning Female Golden Retriever puppy born on June 15, 2026. Sourced directly from premier AKC/USDA certified breeders, Darla is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Darla! Darla is a stunning Female Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Darla is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824624,
@@ -2430,7 +2184,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 6, 2026",
       "color": "English Cream",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2445,10 +2198,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-glo-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100824624",
-      "description": "Meet Glo! Glo is a stunning Female Golden Retriever puppy born on May 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Glo is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Glo! Glo is a stunning Female Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Glo is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 820893,
@@ -2457,7 +2208,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 6, 2026",
       "color": "Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2472,10 +2222,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-gwen-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100820893",
-      "description": "Meet Gwen! Gwen is a stunning Female Golden Retriever puppy born on May 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Gwen is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gwen! Gwen is a stunning Female Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Gwen is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822339,
@@ -2484,7 +2232,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 28, 2026",
       "color": "Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2499,10 +2246,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-helen-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100822339",
-      "description": "Meet Helen! Helen is a stunning Female Golden Retriever puppy born on May 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Helen is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Helen! Helen is a stunning Female Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Helen is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822348,
@@ -2511,7 +2256,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 28, 2026",
       "color": "Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2526,10 +2270,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-henry-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100822348",
-      "description": "Meet Henry! Henry is a stunning Male Golden Retriever puppy born on May 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Henry is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Henry! Henry is a stunning Male Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Henry is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823330,
@@ -2538,7 +2280,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 4, 2026",
       "color": "Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2553,10 +2294,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-lane-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100823330",
-      "description": "Meet Lane! Lane is a stunning Male Golden Retriever puppy born on June 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Lane is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lane! Lane is a stunning Male Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Lane is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822125,
@@ -2565,7 +2304,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 20, 2026",
       "color": "Dark Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2580,10 +2318,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-layton-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100822125",
-      "description": "Meet Layton! Layton is a stunning Male Golden Retriever puppy born on May 20, 2026. Sourced directly from premier AKC/USDA certified breeders, Layton is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Layton! Layton is a stunning Male Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Layton is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823314,
@@ -2592,7 +2328,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 6, 2026",
       "color": "Dark Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2607,10 +2342,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-michelle-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100823314",
-      "description": "Meet Michelle! Michelle is a stunning Female Golden Retriever puppy born on June 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Michelle is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Michelle! Michelle is a stunning Female Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Michelle is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823323,
@@ -2619,7 +2352,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 6, 2026",
       "color": "Dark Golden",
       "status": "Ready to go home",
       "weight": "8.5 lbs",
@@ -2634,10 +2366,8 @@ const SITE_DATA = {
         "images/puppies/golden-retriever/golden-retriever-monica-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Golden Retriever (Dad)",
       "microchip": "98514100823323",
-      "description": "Meet Monica! Monica is a stunning Female Golden Retriever puppy born on June 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Monica is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
+      "description": "Meet Monica! Monica is a stunning Female Golden Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Monica is loyal, intelligent, friendly, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 815773,
@@ -2646,7 +2376,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "March 4, 2026",
       "color": "Blue & Tan",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2661,10 +2390,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-ayden-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltese and my",
       "microchip": "98514100815773",
-      "description": "Meet Ayden! Ayden is an adorable Male Maltipoo puppy born on March 4, 2026. Sourced directly from premier USDA certified breeders, Ayden is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Ayden! Ayden is an adorable Male Maltipoo puppy. Sourced directly from premier USDA certified breeders, Ayden is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824092,
@@ -2673,7 +2400,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 5, 2026",
       "color": "Apricot",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2687,10 +2413,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-cassie-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Maltese",
-      "dadBreed": "is a Poodle and my",
       "microchip": "98514100824092",
-      "description": "Meet Cassie! Cassie is an adorable Female Maltipoo puppy born on June 5, 2026. Sourced directly from premier USDA certified breeders, Cassie is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Cassie! Cassie is an adorable Female Maltipoo puppy. Sourced directly from premier USDA certified breeders, Cassie is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824782,
@@ -2699,7 +2423,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 14, 2026",
       "color": "Cream",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2714,10 +2437,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-felicia-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Maltipoo",
-      "dadBreed": "is a Poodle and my",
       "microchip": "98514100824782",
-      "description": "Meet Felicia! Felicia is an adorable Female Maltipoo puppy born on June 14, 2026. Sourced directly from premier USDA certified breeders, Felicia is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Felicia! Felicia is an adorable Female Maltipoo puppy. Sourced directly from premier USDA certified breeders, Felicia is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823243,
@@ -2726,7 +2447,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 6, 2026",
       "color": "Chocolate Sable",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2741,10 +2461,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-hannah-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltipoo and my",
       "microchip": "98514100823243",
-      "description": "Meet Hannah! Hannah is an adorable Female Maltipoo puppy born on June 6, 2026. Sourced directly from premier USDA certified breeders, Hannah is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Hannah! Hannah is an adorable Female Maltipoo puppy. Sourced directly from premier USDA certified breeders, Hannah is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825505,
@@ -2753,7 +2471,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 20, 2026",
       "color": "Cream",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2767,10 +2484,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-kirby-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltese and my",
       "microchip": "98514100825505",
-      "description": "Meet Kirby! Kirby is an adorable Male Maltipoo puppy born on June 20, 2026. Sourced directly from premier USDA certified breeders, Kirby is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Kirby! Kirby is an adorable Male Maltipoo puppy. Sourced directly from premier USDA certified breeders, Kirby is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825191,
@@ -2779,7 +2494,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 4, 2026",
       "color": "Black & White",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2794,10 +2508,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-levi-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltese and my",
       "microchip": "98514100825191",
-      "description": "Meet Levi! Levi is an adorable Male Maltipoo puppy born on June 4, 2026. Sourced directly from premier USDA certified breeders, Levi is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Levi! Levi is an adorable Male Maltipoo puppy. Sourced directly from premier USDA certified breeders, Levi is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825194,
@@ -2806,7 +2518,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 4, 2026",
       "color": "Black & White",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2820,10 +2531,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-lily-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltese and my",
       "microchip": "98514100825194",
-      "description": "Meet Lily! Lily is an adorable Female Maltipoo puppy born on June 4, 2026. Sourced directly from premier USDA certified breeders, Lily is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lily! Lily is an adorable Female Maltipoo puppy. Sourced directly from premier USDA certified breeders, Lily is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824953,
@@ -2832,7 +2541,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 13, 2026",
       "color": "Black",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2847,10 +2555,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-lumara-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltipoo and my",
       "microchip": "98514100824953",
-      "description": "Meet Lumara! Lumara is an adorable Female Maltipoo puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Lumara is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lumara! Lumara is an adorable Female Maltipoo puppy. Sourced directly from premier USDA certified breeders, Lumara is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825192,
@@ -2859,7 +2565,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 4, 2026",
       "color": "Black & White",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2874,10 +2579,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-luna-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltese and my",
       "microchip": "98514100825192",
-      "description": "Meet Luna! Luna is an adorable Female Maltipoo puppy born on June 4, 2026. Sourced directly from premier USDA certified breeders, Luna is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Luna! Luna is an adorable Female Maltipoo puppy. Sourced directly from premier USDA certified breeders, Luna is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824862,
@@ -2886,7 +2589,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 19, 2026",
       "color": "Apricot",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2900,10 +2602,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-magic-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltese and my",
       "microchip": "98514100824862",
-      "description": "Meet Magic! Magic is an adorable Male Maltipoo puppy born on June 19, 2026. Sourced directly from premier USDA certified breeders, Magic is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Magic! Magic is an adorable Male Maltipoo puppy. Sourced directly from premier USDA certified breeders, Magic is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824955,
@@ -2912,7 +2612,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 13, 2026",
       "color": "Blue Merle & Tan",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2927,10 +2626,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-mossmallow-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltipoo and my",
       "microchip": "98514100824955",
-      "description": "Meet Mossmallow! Mossmallow is an adorable Male Maltipoo puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Mossmallow is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Mossmallow! Mossmallow is an adorable Male Maltipoo puppy. Sourced directly from premier USDA certified breeders, Mossmallow is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824089,
@@ -2939,7 +2636,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 5, 2026",
       "color": "Apricot",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2954,10 +2650,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-poppy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Maltese",
-      "dadBreed": "is a Poodle and my",
       "microchip": "98514100824089",
-      "description": "Meet Poppy! Poppy is an adorable Male Maltipoo puppy born on June 5, 2026. Sourced directly from premier USDA certified breeders, Poppy is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Poppy! Poppy is an adorable Male Maltipoo puppy. Sourced directly from premier USDA certified breeders, Poppy is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825506,
@@ -2966,7 +2660,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 20, 2026",
       "color": "Cream",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -2981,10 +2674,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-reggie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltese and my",
       "microchip": "98514100825506",
-      "description": "Meet Reggie! Reggie is an adorable Male Maltipoo puppy born on June 20, 2026. Sourced directly from premier USDA certified breeders, Reggie is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Reggie! Reggie is an adorable Male Maltipoo puppy. Sourced directly from premier USDA certified breeders, Reggie is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 820156,
@@ -2993,7 +2684,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "April 29, 2026",
       "color": "Cream & White",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -3008,10 +2698,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-ringo-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltese and my",
       "microchip": "98514100820156",
-      "description": "Meet Ringo! Ringo is an adorable Male Maltipoo puppy born on April 29, 2026. Sourced directly from premier USDA certified breeders, Ringo is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Ringo! Ringo is an adorable Male Maltipoo puppy. Sourced directly from premier USDA certified breeders, Ringo is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824954,
@@ -3020,7 +2708,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 13, 2026",
       "color": "Black",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -3035,10 +2722,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-silvermoon-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Poodle",
-      "dadBreed": "is a Maltipoo and my",
       "microchip": "98514100824954",
-      "description": "Meet Silvermoon! Silvermoon is an adorable Female Maltipoo puppy born on May 13, 2026. Sourced directly from premier USDA certified breeders, Silvermoon is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Silvermoon! Silvermoon is an adorable Female Maltipoo puppy. Sourced directly from premier USDA certified breeders, Silvermoon is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822818,
@@ -3047,7 +2732,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 30, 2026",
       "color": "Apricot",
       "status": "Ready to go home",
       "weight": "4.2 lbs",
@@ -3062,10 +2746,8 @@ const SITE_DATA = {
         "images/puppies/maltipoo/maltipoo-tessa-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "is a Maltese",
-      "dadBreed": "is a Poodle and my",
       "microchip": "98514100822818",
-      "description": "Meet Tessa! Tessa is an adorable Female Maltipoo puppy born on May 30, 2026. Sourced directly from premier USDA certified breeders, Tessa is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
+      "description": "Meet Tessa! Tessa is an adorable Female Maltipoo puppy. Sourced directly from premier USDA certified breeders, Tessa is affectionate, gentle, hypoallergenic, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824336,
@@ -3074,7 +2756,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 6, 2026",
       "color": "Apricot",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3089,10 +2770,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-axel-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100824336",
-      "description": "Meet Axel! Axel is an elegant Male Poodle puppy born on June 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Axel is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Axel! Axel is an elegant Male Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Axel is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825159,
@@ -3101,7 +2780,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 24, 2026",
       "color": "Black",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3116,10 +2794,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-brinley-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100825159",
-      "description": "Meet Brinley! Brinley is an elegant Female Poodle puppy born on June 24, 2026. Sourced directly from premier AKC/USDA certified breeders, Brinley is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Brinley! Brinley is an elegant Female Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Brinley is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823418,
@@ -3128,7 +2804,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 9, 2026",
       "color": "Brown & White",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3142,10 +2817,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-chance-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100823418",
-      "description": "Meet Chance! Chance is an elegant Male Poodle puppy born on May 9, 2026. Sourced directly from premier AKC/USDA certified breeders, Chance is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Chance! Chance is an elegant Male Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Chance is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821445,
@@ -3154,7 +2827,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 5, 2026",
       "color": "Red & White",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3169,10 +2841,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-dallas-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100821445",
-      "description": "Meet Dallas! Dallas is an elegant Male Poodle puppy born on May 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Dallas is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Dallas! Dallas is an elegant Male Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Dallas is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824645,
@@ -3181,7 +2851,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 29, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3195,10 +2864,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-gundo-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100824645",
-      "description": "Meet Gundo! Gundo is an elegant Male Poodle puppy born on May 29, 2026. Sourced directly from premier AKC/USDA certified breeders, Gundo is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gundo! Gundo is an elegant Male Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Gundo is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824120,
@@ -3207,7 +2874,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 27, 2026",
       "color": "Cream & White",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3222,10 +2888,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-justin-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100824120",
-      "description": "Meet Justin! Justin is an elegant Male Poodle puppy born on May 27, 2026. Sourced directly from premier AKC/USDA certified breeders, Justin is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Justin! Justin is an elegant Male Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Justin is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821754,
@@ -3234,7 +2898,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 10, 2026",
       "color": "Sable",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3249,10 +2912,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-lenny-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100821754",
-      "description": "Meet Lenny! Lenny is an elegant Male Poodle puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Lenny is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lenny! Lenny is an elegant Male Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Lenny is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 814756,
@@ -3261,7 +2922,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "January 20, 2026",
       "color": "Apricot & White",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3276,10 +2936,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-loki-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "ent with you a special memory",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100814756",
-      "description": "Meet Loki! Loki is an elegant Male Poodle puppy born on January 20, 2026. Sourced directly from premier AKC/USDA certified breeders, Loki is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Loki! Loki is an elegant Male Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Loki is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821915,
@@ -3288,7 +2946,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 15, 2026",
       "color": "Black & White",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3303,10 +2960,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-luna-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100821915",
-      "description": "Meet Luna! Luna is an elegant Female Poodle puppy born on May 15, 2026. Sourced directly from premier AKC/USDA certified breeders, Luna is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Luna! Luna is an elegant Female Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Luna is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823684,
@@ -3315,7 +2970,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 1, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3330,10 +2984,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-mindy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100823684",
-      "description": "Meet Mindy! Mindy is an elegant Female Poodle puppy born on June 1, 2026. Sourced directly from premier AKC/USDA certified breeders, Mindy is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Mindy! Mindy is an elegant Female Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Mindy is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824353,
@@ -3342,7 +2994,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 12, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3357,10 +3008,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-nova-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100824353",
-      "description": "Meet Nova! Nova is an elegant Female Poodle puppy born on May 12, 2026. Sourced directly from premier AKC/USDA certified breeders, Nova is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Nova! Nova is an elegant Female Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Nova is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825764,
@@ -3369,7 +3018,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 22, 2026",
       "color": "Blue Merle & Tan",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3384,10 +3032,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-poppy-exact-4.jpeg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100825764",
-      "description": "Meet Poppy! Poppy is an elegant Female Poodle puppy born on June 22, 2026. Sourced directly from premier AKC/USDA certified breeders, Poppy is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Poppy! Poppy is an elegant Female Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Poppy is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823147,
@@ -3396,7 +3042,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 22, 2026",
       "color": "Cream",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3411,10 +3056,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-posy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "d and",
       "microchip": "98514100823147",
-      "description": "Meet Posy! Posy is an elegant Female Poodle puppy born on May 22, 2026. Sourced directly from premier AKC/USDA certified breeders, Posy is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Posy! Posy is an elegant Female Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Posy is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825386,
@@ -3423,7 +3066,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 25, 2026",
       "color": "Black & White",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3438,10 +3080,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-rayne-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100825386",
-      "description": "Meet Rayne! Rayne is an elegant Female Poodle puppy born on May 25, 2026. Sourced directly from premier AKC/USDA certified breeders, Rayne is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Rayne! Rayne is an elegant Female Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Rayne is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825656,
@@ -3450,7 +3090,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 28, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3464,10 +3103,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-rihanna-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100825656",
-      "description": "Meet Rihanna! Rihanna is an elegant Female Poodle puppy born on June 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Rihanna is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Rihanna! Rihanna is an elegant Female Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Rihanna is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825658,
@@ -3476,7 +3113,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting / Toy (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 28, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "4.5 lbs",
@@ -3490,10 +3126,8 @@ const SITE_DATA = {
         "images/puppies/poodle/poodle-rolex-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Poodle (Dad)",
       "microchip": "98514100825658",
-      "description": "Meet Rolex! Rolex is an elegant Male Poodle puppy born on June 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Rolex is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Rolex! Rolex is an elegant Male Poodle puppy. Sourced directly from premier AKC/USDA certified breeders, Rolex is highly intelligent, hypoallergenic, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824253,
@@ -3502,7 +3136,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 10, 2026",
       "color": "Silver Dapple",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3517,10 +3150,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-auggie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100824253",
-      "description": "Meet Auggie! Auggie is a playful Male Dachshund puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Auggie is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Auggie! Auggie is a playful Male Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Auggie is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824048,
@@ -3529,7 +3160,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 5, 2026",
       "color": "Cream",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3544,10 +3174,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-cooper-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100824048",
-      "description": "Meet Cooper! Cooper is a playful Male Dachshund puppy born on June 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Cooper is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Cooper! Cooper is a playful Male Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Cooper is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 819493,
@@ -3556,7 +3184,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "April 26, 2026",
       "color": "Chocolate Dapple",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3571,10 +3198,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-doll-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100819493",
-      "description": "Meet Doll! Doll is a playful Female Dachshund puppy born on April 26, 2026. Sourced directly from premier AKC/USDA certified breeders, Doll is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Doll! Doll is a playful Female Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Doll is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824604,
@@ -3583,7 +3208,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 17, 2026",
       "color": "Sable Piebald",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3597,10 +3221,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-emmie-exact-3.jpeg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100824604",
-      "description": "Meet Emmie! Emmie is a playful Female Dachshund puppy born on June 17, 2026. Sourced directly from premier AKC/USDA certified breeders, Emmie is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Emmie! Emmie is a playful Female Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Emmie is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822039,
@@ -3609,7 +3231,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 18, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3624,10 +3245,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-fisa-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "ent with you a special memory",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100822039",
-      "description": "Meet Fisa! Fisa is a playful Female Dachshund puppy born on May 18, 2026. Sourced directly from premier AKC/USDA certified breeders, Fisa is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Fisa! Fisa is a playful Female Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Fisa is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822037,
@@ -3636,7 +3255,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 18, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3651,10 +3269,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-freeman-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100822037",
-      "description": "Meet Freeman! Freeman is a playful Male Dachshund puppy born on May 18, 2026. Sourced directly from premier AKC/USDA certified breeders, Freeman is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Freeman! Freeman is a playful Male Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Freeman is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822107,
@@ -3663,7 +3279,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 17, 2026",
       "color": "Cream",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3678,10 +3293,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-gaylin-exact-4.webp"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100822107",
-      "description": "Meet Gaylin! Gaylin is a playful Male Dachshund puppy born on May 17, 2026. Sourced directly from premier AKC/USDA certified breeders, Gaylin is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gaylin! Gaylin is a playful Male Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Gaylin is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824158,
@@ -3690,7 +3303,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 19, 2026",
       "color": "Silver Dapple",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3705,10 +3317,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-idris-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100824158",
-      "description": "Meet Idris! Idris is a playful Male Dachshund puppy born on June 19, 2026. Sourced directly from premier AKC/USDA certified breeders, Idris is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Idris! Idris is a playful Male Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Idris is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823498,
@@ -3717,7 +3327,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 3, 2026",
       "color": "Silver Dapple",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3732,10 +3341,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-jamie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100823498",
-      "description": "Meet Jamie! Jamie is a playful Female Dachshund puppy born on June 3, 2026. Sourced directly from premier AKC/USDA certified breeders, Jamie is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Jamie! Jamie is a playful Female Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Jamie is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822784,
@@ -3744,7 +3351,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 20, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3758,10 +3364,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-paisley-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100822784",
-      "description": "Meet Paisley! Paisley is a playful Female Dachshund puppy born on May 20, 2026. Sourced directly from premier AKC/USDA certified breeders, Paisley is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Paisley! Paisley is a playful Female Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Paisley is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822782,
@@ -3770,7 +3374,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 20, 2026",
       "color": "Red",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3784,10 +3387,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-rumington-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100822782",
-      "description": "Meet Rumington! Rumington is a playful Male Dachshund puppy born on May 20, 2026. Sourced directly from premier AKC/USDA certified breeders, Rumington is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Rumington! Rumington is a playful Male Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Rumington is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824279,
@@ -3796,7 +3397,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 27, 2026",
       "color": "Fawn",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3811,10 +3411,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-sally-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100824279",
-      "description": "Meet Sally! Sally is a playful Female Dachshund puppy born on May 27, 2026. Sourced directly from premier AKC/USDA certified breeders, Sally is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Sally! Sally is a playful Female Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Sally is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821261,
@@ -3823,7 +3421,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 10, 2026",
       "color": "Silver Dapple",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3838,10 +3435,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-shimmer-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100821261",
-      "description": "Meet Shimmer! Shimmer is a playful Female Dachshund puppy born on May 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Shimmer is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Shimmer! Shimmer is a playful Female Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Shimmer is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824254,
@@ -3850,7 +3445,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 10, 2026",
       "color": "Silver Dapple",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3865,10 +3459,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-tiger-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "ents",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100824254",
-      "description": "Meet Tiger! Tiger is a playful Male Dachshund puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Tiger is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Tiger! Tiger is a playful Male Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Tiger is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824969,
@@ -3877,7 +3469,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 25, 2026",
       "color": "Brindle",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3892,10 +3483,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-vic-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100824969",
-      "description": "Meet Vic! Vic is a playful Male Dachshund puppy born on May 25, 2026. Sourced directly from premier AKC/USDA certified breeders, Vic is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Vic! Vic is a playful Male Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Vic is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824877,
@@ -3904,7 +3493,6 @@ const SITE_DATA = {
       "breedGroup": "Hound Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 17, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "3.8 lbs",
@@ -3919,10 +3507,8 @@ const SITE_DATA = {
         "images/puppies/dachshund/dachshund-winnie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Dachshund (Dad)",
       "microchip": "98514100824877",
-      "description": "Meet Winnie! Winnie is a playful Female Dachshund puppy born on June 17, 2026. Sourced directly from premier AKC/USDA certified breeders, Winnie is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
+      "description": "Meet Winnie! Winnie is a playful Female Dachshund puppy. Sourced directly from premier AKC/USDA certified breeders, Winnie is courageous, affectionate, spunky, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824012,
@@ -3931,7 +3517,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 3, 2026",
       "color": "Ruby",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -3946,10 +3531,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-austin-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100824012",
-      "description": "Meet Austin! Austin is a sweet and gentle Male Cavalier King Charles Spaniel puppy born on June 3, 2026. Sourced directly from premier AKC/USDA certified breeders, Austin is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Austin! Austin is a sweet and gentle Male Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Austin is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825615,
@@ -3958,7 +3541,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "July 3, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -3972,10 +3554,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-dayne-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100825615",
-      "description": "Meet Dayne! Dayne is a sweet and gentle Male Cavalier King Charles Spaniel puppy born on July 3, 2026. Sourced directly from premier AKC/USDA certified breeders, Dayne is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Dayne! Dayne is a sweet and gentle Male Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Dayne is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825553,
@@ -3984,7 +3564,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 4, 2026",
       "color": "Blenheim",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -3999,10 +3578,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-finnie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100825553",
-      "description": "Meet Finnie! Finnie is a sweet and gentle Female Cavalier King Charles Spaniel puppy born on June 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Finnie is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Finnie! Finnie is a sweet and gentle Female Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Finnie is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824106,
@@ -4011,7 +3588,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 10, 2026",
       "color": "Ruby",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -4026,10 +3602,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-frederick-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100824106",
-      "description": "Meet Frederick! Frederick is a sweet and gentle Male Cavalier King Charles Spaniel puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Frederick is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Frederick! Frederick is a sweet and gentle Male Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Frederick is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 818518,
@@ -4038,7 +3612,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "March 25, 2026",
       "color": "Blenheim",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -4053,10 +3626,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-imani-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100818518",
-      "description": "Meet Imani! Imani is a sweet and gentle Male Cavalier King Charles Spaniel puppy born on March 25, 2026. Sourced directly from premier AKC/USDA certified breeders, Imani is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Imani! Imani is a sweet and gentle Male Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Imani is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822422,
@@ -4065,7 +3636,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 23, 2026",
       "color": "Black & White",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -4080,10 +3650,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-jeremiah-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100822422",
-      "description": "Meet Jeremiah! Jeremiah is a sweet and gentle Male Cavalier King Charles Spaniel puppy born on May 23, 2026. Sourced directly from premier AKC/USDA certified breeders, Jeremiah is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Jeremiah! Jeremiah is a sweet and gentle Male Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Jeremiah is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825157,
@@ -4092,7 +3660,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 3, 2026",
       "color": "Blenheim",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -4107,10 +3674,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-kara-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100825157",
-      "description": "Meet Kara! Kara is a sweet and gentle Female Cavalier King Charles Spaniel puppy born on June 3, 2026. Sourced directly from premier AKC/USDA certified breeders, Kara is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Kara! Kara is a sweet and gentle Female Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Kara is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824362,
@@ -4119,7 +3684,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 16, 2026",
       "color": "Black & White",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -4134,10 +3698,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-lena-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100824362",
-      "description": "Meet Lena! Lena is a sweet and gentle Female Cavalier King Charles Spaniel puppy born on June 16, 2026. Sourced directly from premier AKC/USDA certified breeders, Lena is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lena! Lena is a sweet and gentle Female Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Lena is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824524,
@@ -4146,7 +3708,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 16, 2026",
       "color": "Black & White",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -4161,10 +3722,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-lux-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100824524",
-      "description": "Meet Lux! Lux is a sweet and gentle Male Cavalier King Charles Spaniel puppy born on June 16, 2026. Sourced directly from premier AKC/USDA certified breeders, Lux is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lux! Lux is a sweet and gentle Male Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Lux is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825291,
@@ -4173,7 +3732,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 4, 2026",
       "color": "Black & White",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -4188,10 +3746,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-mia-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100825291",
-      "description": "Meet Mia! Mia is a sweet and gentle Female Cavalier King Charles Spaniel puppy born on June 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Mia is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Mia! Mia is a sweet and gentle Female Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Mia is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825623,
@@ -4200,7 +3756,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "July 3, 2026",
       "color": "Ruby",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -4215,10 +3770,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-savannah-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100825623",
-      "description": "Meet Savannah! Savannah is a sweet and gentle Female Cavalier King Charles Spaniel puppy born on July 3, 2026. Sourced directly from premier AKC/USDA certified breeders, Savannah is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Savannah! Savannah is a sweet and gentle Female Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Savannah is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824805,
@@ -4227,7 +3780,6 @@ const SITE_DATA = {
       "breedGroup": "Toy Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 23, 2026",
       "color": "Blenheim",
       "status": "Ready to go home",
       "weight": "4.1 lbs",
@@ -4242,10 +3794,8 @@ const SITE_DATA = {
         "images/puppies/cavalier-king-charles-spaniel/cavalier-walker-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Cavalier King Charles Spaniel (Dad)",
       "microchip": "98514100824805",
-      "description": "Meet Walker! Walker is a sweet and gentle Male Cavalier King Charles Spaniel puppy born on May 23, 2026. Sourced directly from premier AKC/USDA certified breeders, Walker is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
+      "description": "Meet Walker! Walker is a sweet and gentle Male Cavalier King Charles Spaniel puppy. Sourced directly from premier AKC/USDA certified breeders, Walker is affectionate, graceful, loving, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822291,
@@ -4254,7 +3804,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 18, 2026",
       "color": "Yellow",
       "status": "Ready to go home",
       "weight": "9.2 lbs",
@@ -4269,10 +3818,8 @@ const SITE_DATA = {
         "images/puppies/labrador-retriever/labrador-retriever-baxter-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Labrador Retriever (Dad)",
       "microchip": "98514100822291",
-      "description": "Meet Baxter! Baxter is an active, friendly Male Labrador Retriever puppy born on May 18, 2026. Sourced directly from premier AKC/USDA certified breeders, Baxter is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
+      "description": "Meet Baxter! Baxter is an active, friendly Male Labrador Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Baxter is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823074,
@@ -4281,7 +3828,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 15, 2026",
       "color": "Silver",
       "status": "Ready to go home",
       "weight": "9.2 lbs",
@@ -4296,10 +3842,8 @@ const SITE_DATA = {
         "images/puppies/labrador-retriever/labrador-retriever-dutton-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Labrador Retriever (Dad)",
       "microchip": "98514100823074",
-      "description": "Meet Dutton! Dutton is an active, friendly Male Labrador Retriever puppy born on June 15, 2026. Sourced directly from premier AKC/USDA certified breeders, Dutton is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
+      "description": "Meet Dutton! Dutton is an active, friendly Male Labrador Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Dutton is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822478,
@@ -4308,7 +3852,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 4, 2026",
       "color": "Yellow",
       "status": "Ready to go home",
       "weight": "9.2 lbs",
@@ -4323,10 +3866,8 @@ const SITE_DATA = {
         "images/puppies/labrador-retriever/labrador-retriever-eli-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Labrador Retriever (Dad)",
       "microchip": "98514100822478",
-      "description": "Meet Eli! Eli is an active, friendly Male Labrador Retriever puppy born on May 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Eli is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
+      "description": "Meet Eli! Eli is an active, friendly Male Labrador Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Eli is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821835,
@@ -4335,7 +3876,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 19, 2026",
       "color": "Black",
       "status": "Ready to go home",
       "weight": "9.2 lbs",
@@ -4350,10 +3890,8 @@ const SITE_DATA = {
         "images/puppies/labrador-retriever/labrador-retriever-monica-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Labrador Retriever (Dad)",
       "microchip": "98514100821835",
-      "description": "Meet Monica! Monica is an active, friendly Female Labrador Retriever puppy born on May 19, 2026. Sourced directly from premier AKC/USDA certified breeders, Monica is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
+      "description": "Meet Monica! Monica is an active, friendly Female Labrador Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Monica is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823027,
@@ -4362,7 +3900,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 31, 2026",
       "color": "Chocolate",
       "status": "Ready to go home",
       "weight": "9.2 lbs",
@@ -4377,10 +3914,8 @@ const SITE_DATA = {
         "images/puppies/labrador-retriever/labrador-retriever-odessa-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Labrador Retriever (Dad)",
       "microchip": "98514100823027",
-      "description": "Meet Odessa! Odessa is an active, friendly Female Labrador Retriever puppy born on May 31, 2026. Sourced directly from premier AKC/USDA certified breeders, Odessa is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
+      "description": "Meet Odessa! Odessa is an active, friendly Female Labrador Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Odessa is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825429,
@@ -4389,7 +3924,6 @@ const SITE_DATA = {
       "breedGroup": "Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 28, 2026",
       "color": "Yellow",
       "status": "Ready to go home",
       "weight": "9.2 lbs",
@@ -4404,10 +3938,8 @@ const SITE_DATA = {
         "images/puppies/labrador-retriever/labrador-retriever-paula-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "Labrador Retriever (Dad)",
       "microchip": "98514100825429",
-      "description": "Meet Paula! Paula is an active, friendly Female Labrador Retriever puppy born on June 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Paula is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
+      "description": "Meet Paula! Paula is an active, friendly Female Labrador Retriever puppy. Sourced directly from premier AKC/USDA certified breeders, Paula is loyal, highly trainable, eager to please, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821986,
@@ -4416,7 +3948,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "April 30, 2026",
       "color": "Black",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4431,10 +3962,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-albert-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100821986",
-      "description": "Meet Albert! Albert is an adorable, bat-eared Male French Bulldog puppy born on April 30, 2026. Sourced directly from premier AKC/USDA certified breeders, Albert is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Albert! Albert is an adorable, bat-eared Male French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Albert is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824071,
@@ -4443,7 +3972,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 26, 2026",
       "color": "Merle",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4458,10 +3986,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-aurora-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100824071",
-      "description": "Meet Aurora! Aurora is an adorable, bat-eared Female French Bulldog puppy born on May 26, 2026. Sourced directly from premier AKC/USDA certified breeders, Aurora is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Aurora! Aurora is an adorable, bat-eared Female French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Aurora is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821769,
@@ -4470,7 +3996,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 20, 2026",
       "color": "Chocolate & Tan",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4484,10 +4009,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-biscotti-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100821769",
-      "description": "Meet Biscotti! Biscotti is an adorable, bat-eared Male French Bulldog puppy born on May 20, 2026. Sourced directly from premier AKC/USDA certified breeders, Biscotti is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Biscotti! Biscotti is an adorable, bat-eared Male French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Biscotti is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823398,
@@ -4496,7 +4019,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 5, 2026",
       "color": "Merle",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4511,10 +4033,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-bitsy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100823398",
-      "description": "Meet Bitsy! Bitsy is an adorable, bat-eared Female French Bulldog puppy born on May 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Bitsy is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Bitsy! Bitsy is an adorable, bat-eared Female French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Bitsy is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823921,
@@ -4523,7 +4043,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 2, 2026",
       "color": "Black",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4538,10 +4057,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-guava-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100823921",
-      "description": "Meet Guava! Guava is an adorable, bat-eared Female French Bulldog puppy born on June 2, 2026. Sourced directly from premier AKC/USDA certified breeders, Guava is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Guava! Guava is an adorable, bat-eared Female French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Guava is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823916,
@@ -4550,7 +4067,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 2, 2026",
       "color": "Black",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4565,10 +4081,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-gus-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100823916",
-      "description": "Meet Gus! Gus is an adorable, bat-eared Male French Bulldog puppy born on June 2, 2026. Sourced directly from premier AKC/USDA certified breeders, Gus is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gus! Gus is an adorable, bat-eared Male French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Gus is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824138,
@@ -4577,7 +4091,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 16, 2026",
       "color": "Merle",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4592,10 +4105,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-harbor-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100824138",
-      "description": "Meet Harbor! Harbor is an adorable, bat-eared Male French Bulldog puppy born on June 16, 2026. Sourced directly from premier AKC/USDA certified breeders, Harbor is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Harbor! Harbor is an adorable, bat-eared Male French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Harbor is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825117,
@@ -4604,7 +4115,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 28, 2026",
       "color": "Merle",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4619,10 +4129,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-jasper-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "ent each puppy is born",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100825117",
-      "description": "Meet Jasper! Jasper is an adorable, bat-eared Male French Bulldog puppy born on May 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Jasper is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Jasper! Jasper is an adorable, bat-eared Male French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Jasper is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821730,
@@ -4631,7 +4139,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 21, 2026",
       "color": "Lilac & Tan",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4646,10 +4153,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-lucky-luke-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "s to be the center of attention",
       "microchip": "98514100821730",
-      "description": "Meet Lucky Luke! Lucky Luke is an adorable, bat-eared Male French Bulldog puppy born on May 21, 2026. Sourced directly from premier AKC/USDA certified breeders, Lucky Luke is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Lucky Luke! Lucky Luke is an adorable, bat-eared Male French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Lucky Luke is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821737,
@@ -4658,7 +4163,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 21, 2026",
       "color": "Blue",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4673,10 +4177,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-madeline-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "s to be the center of attention",
       "microchip": "98514100821737",
-      "description": "Meet Madeline! Madeline is an adorable, bat-eared Female French Bulldog puppy born on May 21, 2026. Sourced directly from premier AKC/USDA certified breeders, Madeline is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Madeline! Madeline is an adorable, bat-eared Female French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Madeline is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 818652,
@@ -4685,7 +4187,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "March 28, 2026",
       "color": "Fawn",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4700,10 +4201,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-merle-boy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100818652",
-      "description": "Meet Merle Boy! Merle Boy is an adorable, bat-eared Male French Bulldog puppy born on March 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Merle Boy is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Merle Boy! Merle Boy is an adorable, bat-eared Male French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Merle Boy is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824972,
@@ -4712,7 +4211,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 14, 2026",
       "color": "Cream",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4727,10 +4225,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-pearl-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100824972",
-      "description": "Meet Pearl! Pearl is an adorable, bat-eared Female French Bulldog puppy born on June 14, 2026. Sourced directly from premier AKC/USDA certified breeders, Pearl is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Pearl! Pearl is an adorable, bat-eared Female French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Pearl is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 819609,
@@ -4739,7 +4235,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "April 15, 2026",
       "color": "Cream & White",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4754,10 +4249,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-pookie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100819609",
-      "description": "Meet Pookie! Pookie is an adorable, bat-eared Female French Bulldog puppy born on April 15, 2026. Sourced directly from premier AKC/USDA certified breeders, Pookie is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Pookie! Pookie is an adorable, bat-eared Female French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Pookie is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821983,
@@ -4766,7 +4259,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "April 30, 2026",
       "color": "Black",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4781,10 +4273,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-ruth-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100821983",
-      "description": "Meet Ruth! Ruth is an adorable, bat-eared Female French Bulldog puppy born on April 30, 2026. Sourced directly from premier AKC/USDA certified breeders, Ruth is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Ruth! Ruth is an adorable, bat-eared Female French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Ruth is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821736,
@@ -4793,7 +4283,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 21, 2026",
       "color": "Blue & Tan",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4808,10 +4297,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-scooter-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "s to be the center of attention",
       "microchip": "98514100821736",
-      "description": "Meet Scooter! Scooter is an adorable, bat-eared Male French Bulldog puppy born on May 21, 2026. Sourced directly from premier AKC/USDA certified breeders, Scooter is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Scooter! Scooter is an adorable, bat-eared Male French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Scooter is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825491,
@@ -4820,7 +4307,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 12, 2026",
       "color": "Blue",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4835,10 +4321,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-shelby-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "ent each puppy is born",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100825491",
-      "description": "Meet Shelby! Shelby is an adorable, bat-eared Female French Bulldog puppy born on June 12, 2026. Sourced directly from premier AKC/USDA certified breeders, Shelby is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Shelby! Shelby is an adorable, bat-eared Female French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Shelby is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823621,
@@ -4847,7 +4331,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 17, 2026",
       "color": "Merle",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4862,10 +4345,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-stella-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100823621",
-      "description": "Meet Stella! Stella is an adorable, bat-eared Female French Bulldog puppy born on May 17, 2026. Sourced directly from premier AKC/USDA certified breeders, Stella is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Stella! Stella is an adorable, bat-eared Female French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Stella is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824075,
@@ -4874,7 +4355,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 26, 2026",
       "color": "Merle",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4889,10 +4369,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-stich-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100824075",
-      "description": "Meet Stich! Stich is an adorable, bat-eared Male French Bulldog puppy born on May 26, 2026. Sourced directly from premier AKC/USDA certified breeders, Stich is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Stich! Stich is an adorable, bat-eared Male French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Stich is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824594,
@@ -4901,7 +4379,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 5, 2026",
       "color": "Cream",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4916,10 +4393,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-tubi-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100824594",
-      "description": "Meet Tubi! Tubi is an adorable, bat-eared Female French Bulldog puppy born on May 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Tubi is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Tubi! Tubi is an adorable, bat-eared Female French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Tubi is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 820564,
@@ -4928,7 +4403,6 @@ const SITE_DATA = {
       "breedGroup": "Non-Sporting Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 18, 2026",
       "color": "Isabella & Tan",
       "status": "Ready to go home",
       "weight": "5.5 lbs",
@@ -4943,10 +4417,8 @@ const SITE_DATA = {
         "images/puppies/french-bulldog/french-bulldog-tyler-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "French Bulldog (Dad)",
       "microchip": "98514100820564",
-      "description": "Meet Tyler! Tyler is an adorable, bat-eared Male French Bulldog puppy born on May 18, 2026. Sourced directly from premier AKC/USDA certified breeders, Tyler is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
+      "description": "Meet Tyler! Tyler is an adorable, bat-eared Male French Bulldog puppy. Sourced directly from premier AKC/USDA certified breeders, Tyler is playful, affectionate, easygoing, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 824503,
@@ -4955,7 +4427,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 1, 2026",
       "color": "Sable",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -4970,10 +4441,8 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-ellie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100824503",
-      "description": "Meet Ellie! Ellie is a noble and loyal Female German Shepherd Dog puppy born on June 1, 2026. Sourced directly from premier AKC/USDA certified breeders, Ellie is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Ellie! Ellie is a noble and loyal Female German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Ellie is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 823386,
@@ -4982,7 +4451,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 22, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -4997,10 +4465,8 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-gatlin-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100823386",
-      "description": "Meet Gatlin! Gatlin is a noble and loyal Male German Shepherd Dog puppy born on June 22, 2026. Sourced directly from premier AKC/USDA certified breeders, Gatlin is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Gatlin! Gatlin is a noble and loyal Male German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Gatlin is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825561,
@@ -5009,7 +4475,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "July 1, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -5023,10 +4488,8 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-kara-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100825561",
-      "description": "Meet Kara! Kara is a noble and loyal Female German Shepherd Dog puppy born on July 1, 2026. Sourced directly from premier AKC/USDA certified breeders, Kara is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Kara! Kara is a noble and loyal Female German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Kara is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825557,
@@ -5035,7 +4498,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "July 1, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -5049,10 +4511,8 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-kaylene-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100825557",
-      "description": "Meet Kaylene! Kaylene is a noble and loyal Female German Shepherd Dog puppy born on July 1, 2026. Sourced directly from premier AKC/USDA certified breeders, Kaylene is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Kaylene! Kaylene is a noble and loyal Female German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Kaylene is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825680,
@@ -5061,7 +4521,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "July 1, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -5075,10 +4534,8 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-kevin-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100825680",
-      "description": "Meet Kevin! Kevin is a noble and loyal Male German Shepherd Dog puppy born on July 1, 2026. Sourced directly from premier AKC/USDA certified breeders, Kevin is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Kevin! Kevin is a noble and loyal Male German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Kevin is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 822044,
@@ -5087,7 +4544,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 26, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -5102,10 +4558,8 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-leo-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100822044",
-      "description": "Meet Leo! Leo is a noble and loyal Male German Shepherd Dog puppy born on May 26, 2026. Sourced directly from premier AKC/USDA certified breeders, Leo is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Leo! Leo is a noble and loyal Male German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Leo is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825775,
@@ -5114,7 +4568,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 28, 2026",
       "color": "Sable",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -5128,10 +4581,8 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-nancy-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100825775",
-      "description": "Meet Nancy! Nancy is a noble and loyal Female German Shepherd Dog puppy born on June 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Nancy is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Nancy! Nancy is a noble and loyal Female German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Nancy is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825774,
@@ -5140,7 +4591,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 28, 2026",
       "color": "Sable",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -5155,10 +4605,8 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-nick-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100825774",
-      "description": "Meet Nick! Nick is a noble and loyal Male German Shepherd Dog puppy born on June 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Nick is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Nick! Nick is a noble and loyal Male German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Nick is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825808,
@@ -5167,7 +4615,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 28, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -5182,10 +4629,8 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-nora-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100825808",
-      "description": "Meet Nora! Nora is a noble and loyal Female German Shepherd Dog puppy born on June 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Nora is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Nora! Nora is a noble and loyal Female German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Nora is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 825773,
@@ -5194,7 +4639,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 28, 2026",
       "color": "Sable",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -5208,10 +4652,8 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-norman-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100825773",
-      "description": "Meet Norman! Norman is a noble and loyal Male German Shepherd Dog puppy born on June 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Norman is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Norman! Norman is a noble and loyal Male German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Norman is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821324,
@@ -5220,7 +4662,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 12, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -5235,10 +4676,8 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-nova-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100821324",
-      "description": "Meet Nova! Nova is a noble and loyal Female German Shepherd Dog puppy born on May 12, 2026. Sourced directly from premier AKC/USDA certified breeders, Nova is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Nova! Nova is a noble and loyal Female German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Nova is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": 821075,
@@ -5247,7 +4686,6 @@ const SITE_DATA = {
       "breedGroup": "Herding Group (AKC)",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 6, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "11.5 lbs",
@@ -5262,17 +4700,14 @@ const SITE_DATA = {
         "images/puppies/german-shepherd/german-shepherd-otto-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "and littermates",
-      "dadBreed": "German Shepherd Dog (Dad)",
       "microchip": "98514100821075",
-      "description": "Meet Otto! Otto is a noble and loyal Male German Shepherd Dog puppy born on May 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Otto is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
+      "description": "Meet Otto! Otto is a noble and loyal Male German Shepherd Dog puppy. Sourced directly from premier AKC/USDA certified breeders, Otto is courageous, highly intelligent, protective, and comes with a 10-Year Health Commitment."
     },
     {
       "id": "823033",
       "name": "Armani",
       "breed": "Yorkshire Terrier",
       "gender": "Male",
-      "birthday": "May 11, 2026",
       "age": "12 weeks old",
       "price": 2100,
       "color": "Chocolate, Gold & White",
@@ -5289,9 +4724,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Armani! Armani is a charming, playful Male Yorkshire Terrier puppy born on May 11, 2026. Sourced directly from premier AKC/USDA certified breeders, Armani is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Armani! Armani is a charming, playful Male Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Armani is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5299,7 +4732,6 @@ const SITE_DATA = {
       "name": "Fae",
       "breed": "Yorkshire Terrier",
       "gender": "Female",
-      "birthday": "April 18, 2026",
       "age": "15 weeks old",
       "price": 2119,
       "color": "Black & Tan",
@@ -5316,9 +4748,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Fae! Fae is a charming, playful Female Yorkshire Terrier puppy born on April 18, 2026. Sourced directly from premier AKC/USDA certified breeders, Fae is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Fae! Fae is a charming, playful Female Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Fae is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5326,7 +4756,6 @@ const SITE_DATA = {
       "name": "Freda",
       "breed": "Yorkshire Terrier",
       "gender": "Female",
-      "birthday": "April 22, 2026",
       "age": "14 weeks old",
       "price": 2138,
       "color": "Black & Tan",
@@ -5343,9 +4772,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Freda! Freda is a charming, playful Female Yorkshire Terrier puppy born on April 22, 2026. Sourced directly from premier AKC/USDA certified breeders, Freda is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Freda! Freda is a charming, playful Female Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Freda is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5353,7 +4780,6 @@ const SITE_DATA = {
       "name": "Hendrix",
       "breed": "Yorkshire Terrier",
       "gender": "Male",
-      "birthday": "June 9, 2026",
       "age": "8 weeks old",
       "price": 2158,
       "color": "Black & Tan",
@@ -5370,9 +4796,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Hendrix! Hendrix is a charming, playful Male Yorkshire Terrier puppy born on June 9, 2026. Sourced directly from premier AKC/USDA certified breeders, Hendrix is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Hendrix! Hendrix is a charming, playful Male Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Hendrix is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5380,7 +4804,6 @@ const SITE_DATA = {
       "name": "Jace",
       "breed": "Yorkshire Terrier",
       "gender": "Male",
-      "birthday": "May 10, 2026",
       "age": "12 weeks old",
       "price": 2177,
       "color": "Black & Tan",
@@ -5397,9 +4820,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Jace! Jace is a charming, playful Male Yorkshire Terrier puppy born on May 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Jace is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Jace! Jace is a charming, playful Male Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Jace is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5407,7 +4828,6 @@ const SITE_DATA = {
       "name": "Juliet",
       "breed": "Yorkshire Terrier",
       "gender": "Female",
-      "birthday": "June 9, 2026",
       "age": "8 weeks old",
       "price": 2196,
       "color": "Black & Tan",
@@ -5424,9 +4844,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Juliet! Juliet is a charming, playful Female Yorkshire Terrier puppy born on June 9, 2026. Sourced directly from premier AKC/USDA certified breeders, Juliet is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Juliet! Juliet is a charming, playful Female Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Juliet is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5434,7 +4852,6 @@ const SITE_DATA = {
       "name": "Kassandra",
       "breed": "Yorkshire Terrier",
       "gender": "Female",
-      "birthday": "April 5, 2026",
       "age": "17 weeks old",
       "price": 2215,
       "color": "Black, Tan & White",
@@ -5451,9 +4868,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Kassandra! Kassandra is a charming, playful Female Yorkshire Terrier puppy born on April 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Kassandra is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Kassandra! Kassandra is a charming, playful Female Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Kassandra is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5461,7 +4876,6 @@ const SITE_DATA = {
       "name": "Kyle",
       "breed": "Yorkshire Terrier",
       "gender": "Male",
-      "birthday": "January 19, 2026",
       "age": "28 weeks old",
       "price": 2235,
       "color": "Black & Gold",
@@ -5478,9 +4892,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Kyle! Kyle is a charming, playful Male Yorkshire Terrier puppy born on January 19, 2026. Sourced directly from premier AKC/USDA certified breeders, Kyle is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Kyle! Kyle is a charming, playful Male Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Kyle is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5488,7 +4900,6 @@ const SITE_DATA = {
       "name": "Louie",
       "breed": "Yorkshire Terrier",
       "gender": "Male",
-      "birthday": "May 11, 2026",
       "age": "12 weeks old",
       "price": 2254,
       "color": "Chocolate, Tan & White",
@@ -5505,9 +4916,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Louie! Louie is a charming, playful Male Yorkshire Terrier puppy born on May 11, 2026. Sourced directly from premier AKC/USDA certified breeders, Louie is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Louie! Louie is a charming, playful Male Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Louie is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5515,7 +4924,6 @@ const SITE_DATA = {
       "name": "Max",
       "breed": "Yorkshire Terrier",
       "gender": "Male",
-      "birthday": "June 10, 2026",
       "age": "8 weeks old",
       "price": 2273,
       "color": "Black, Tan & White",
@@ -5532,9 +4940,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Max! Max is a charming, playful Male Yorkshire Terrier puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Max is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Max! Max is a charming, playful Male Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Max is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5542,7 +4948,6 @@ const SITE_DATA = {
       "name": "Ruby",
       "breed": "Yorkshire Terrier",
       "gender": "Female",
-      "birthday": "June 9, 2026",
       "age": "8 weeks old",
       "price": 2292,
       "color": "Black & Tan",
@@ -5559,9 +4964,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Ruby! Ruby is a charming, playful Female Yorkshire Terrier puppy born on June 9, 2026. Sourced directly from premier AKC/USDA certified breeders, Ruby is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Ruby! Ruby is a charming, playful Female Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Ruby is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5569,7 +4972,6 @@ const SITE_DATA = {
       "name": "Sapphire",
       "breed": "Yorkshire Terrier",
       "gender": "Female",
-      "birthday": "May 19, 2026",
       "age": "10 weeks old",
       "price": 2312,
       "color": "Blue Merle & Gold",
@@ -5586,9 +4988,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Sapphire! Sapphire is a charming, playful Female Yorkshire Terrier puppy born on May 19, 2026. Sourced directly from premier AKC/USDA certified breeders, Sapphire is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Sapphire! Sapphire is a charming, playful Female Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Sapphire is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5596,7 +4996,6 @@ const SITE_DATA = {
       "name": "Sunny",
       "breed": "Yorkshire Terrier",
       "gender": "Male",
-      "birthday": "June 6, 2026",
       "age": "8 weeks old",
       "price": 2331,
       "color": "Black & Tan",
@@ -5613,9 +5012,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Sunny! Sunny is a charming, playful Male Yorkshire Terrier puppy born on June 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Sunny is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Sunny! Sunny is a charming, playful Male Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Sunny is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5623,7 +5020,6 @@ const SITE_DATA = {
       "name": "Versace",
       "breed": "Yorkshire Terrier",
       "gender": "Male",
-      "birthday": "May 11, 2026",
       "age": "12 weeks old",
       "price": 2350,
       "color": "Chocolate, Gold & White",
@@ -5640,9 +5036,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Yorkshire Terrier (Mom)",
-      "dadBreed": "Yorkshire Terrier (Dad)",
-      "description": "Meet Versace! Versace is a charming, playful Male Yorkshire Terrier puppy born on May 11, 2026. Sourced directly from premier AKC/USDA certified breeders, Versace is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Versace! Versace is a charming, playful Male Yorkshire Terrier puppy. Sourced directly from premier AKC/USDA certified breeders, Versace is intelligent, affectionate, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5650,7 +5044,6 @@ const SITE_DATA = {
       "name": "Betsy Ross",
       "breed": "Australian Shepherd",
       "gender": "Female",
-      "birthday": "June 10, 2026",
       "age": "8 weeks old",
       "price": 2200,
       "color": "Blue Merle",
@@ -5667,9 +5060,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Australian Shepherd (Mom)",
-      "dadBreed": "Australian Shepherd (Dad)",
-      "description": "Meet Betsy Ross! Betsy Ross is an energetic, loyal Female Australian Shepherd puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Betsy Ross is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Betsy Ross! Betsy Ross is an energetic, loyal Female Australian Shepherd puppy. Sourced directly from premier AKC/USDA certified breeders, Betsy Ross is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5677,7 +5068,6 @@ const SITE_DATA = {
       "name": "Blossom",
       "breed": "Australian Shepherd",
       "gender": "Female",
-      "birthday": "June 10, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black",
@@ -5694,9 +5084,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Australian Shepherd (Mom)",
-      "dadBreed": "Australian Shepherd (Dad)",
-      "description": "Meet Blossom! Blossom is an energetic, loyal Female Australian Shepherd puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Blossom is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Blossom! Blossom is an energetic, loyal Female Australian Shepherd puppy. Sourced directly from premier AKC/USDA certified breeders, Blossom is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5704,7 +5092,6 @@ const SITE_DATA = {
       "name": "Daryl",
       "breed": "Australian Shepherd",
       "gender": "Male",
-      "birthday": "May 18, 2026",
       "age": "11 weeks old",
       "price": 1900,
       "color": "Black",
@@ -5721,9 +5108,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Australian Shepherd (Mom)",
-      "dadBreed": "Australian Shepherd (Dad)",
-      "description": "Meet Daryl! Daryl is an energetic, loyal Male Australian Shepherd puppy born on May 18, 2026. Sourced directly from premier AKC/USDA certified breeders, Daryl is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Daryl! Daryl is an energetic, loyal Male Australian Shepherd puppy. Sourced directly from premier AKC/USDA certified breeders, Daryl is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5731,7 +5116,6 @@ const SITE_DATA = {
       "name": "Finn",
       "breed": "Australian Shepherd",
       "gender": "Male",
-      "birthday": "May 15, 2026",
       "age": "11 weeks old",
       "price": 1900,
       "color": "Black",
@@ -5748,9 +5132,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Australian Shepherd (Mom)",
-      "dadBreed": "Australian Shepherd (Dad)",
-      "description": "Meet Finn! Finn is an energetic, loyal Male Australian Shepherd puppy born on May 15, 2026. Sourced directly from premier AKC/USDA certified breeders, Finn is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Finn! Finn is an energetic, loyal Male Australian Shepherd puppy. Sourced directly from premier AKC/USDA certified breeders, Finn is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5758,7 +5140,6 @@ const SITE_DATA = {
       "name": "Leo",
       "breed": "Australian Shepherd",
       "gender": "Male",
-      "birthday": "May 18, 2026",
       "age": "11 weeks old",
       "price": 1900,
       "color": "Black",
@@ -5775,9 +5156,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Australian Shepherd (Mom)",
-      "dadBreed": "Australian Shepherd (Dad)",
-      "description": "Meet Leo! Leo is an energetic, loyal Male Australian Shepherd puppy born on May 18, 2026. Sourced directly from premier AKC/USDA certified breeders, Leo is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Leo! Leo is an energetic, loyal Male Australian Shepherd puppy. Sourced directly from premier AKC/USDA certified breeders, Leo is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5785,7 +5164,6 @@ const SITE_DATA = {
       "name": "Liberty",
       "breed": "Australian Shepherd",
       "gender": "Female",
-      "birthday": "June 10, 2026",
       "age": "8 weeks old",
       "price": 2200,
       "color": "Blue Merle",
@@ -5802,9 +5180,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Australian Shepherd (Mom)",
-      "dadBreed": "Australian Shepherd (Dad)",
-      "description": "Meet Liberty! Liberty is an energetic, loyal Female Australian Shepherd puppy born on June 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Liberty is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Liberty! Liberty is an energetic, loyal Female Australian Shepherd puppy. Sourced directly from premier AKC/USDA certified breeders, Liberty is highly intelligent, agile, devoted, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5812,7 +5188,6 @@ const SITE_DATA = {
       "name": "Bonnie",
       "breed": "Pomeranian",
       "gender": "Female",
-      "birthday": "April 25, 2026",
       "age": "14 weeks old",
       "price": 1900,
       "color": "Black",
@@ -5829,9 +5204,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Pomeranian (Mom)",
-      "dadBreed": "Pomeranian (Dad)",
-      "description": "Meet Bonnie! Bonnie is a fluffy, outgoing Female Pomeranian puppy born on April 25, 2026. Sourced directly from premier AKC/USDA certified breeders, Bonnie is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Bonnie! Bonnie is a fluffy, outgoing Female Pomeranian puppy. Sourced directly from premier AKC/USDA certified breeders, Bonnie is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5839,7 +5212,6 @@ const SITE_DATA = {
       "name": "Ellie",
       "breed": "Pomeranian",
       "gender": "Female",
-      "birthday": "June 15, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "Tri-Colored",
@@ -5856,9 +5228,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Pomeranian (Mom)",
-      "dadBreed": "Pomeranian (Dad)",
-      "description": "Meet Ellie! Ellie is a fluffy, outgoing Female Pomeranian puppy born on June 15, 2026. Sourced directly from premier AKC/USDA certified breeders, Ellie is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Ellie! Ellie is a fluffy, outgoing Female Pomeranian puppy. Sourced directly from premier AKC/USDA certified breeders, Ellie is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5866,7 +5236,6 @@ const SITE_DATA = {
       "name": "Hazel",
       "breed": "Pomeranian",
       "gender": "Female",
-      "birthday": "May 5, 2026",
       "age": "13 weeks old",
       "price": 2200,
       "color": "Blue Merle",
@@ -5883,9 +5252,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Pomeranian (Mom)",
-      "dadBreed": "Pomeranian (Dad)",
-      "description": "Meet Hazel! Hazel is a fluffy, outgoing Female Pomeranian puppy born on May 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Hazel is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Hazel! Hazel is a fluffy, outgoing Female Pomeranian puppy. Sourced directly from premier AKC/USDA certified breeders, Hazel is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5893,7 +5260,6 @@ const SITE_DATA = {
       "name": "Heidi",
       "breed": "Pomeranian",
       "gender": "Female",
-      "birthday": "March 13, 2026",
       "age": "20 weeks old",
       "price": 2200,
       "color": "Cream",
@@ -5910,9 +5276,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Pomeranian (Mom)",
-      "dadBreed": "Pomeranian (Dad)",
-      "description": "Meet Heidi! Heidi is a fluffy, outgoing Female Pomeranian puppy born on March 13, 2026. Sourced directly from premier AKC/USDA certified breeders, Heidi is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Heidi! Heidi is a fluffy, outgoing Female Pomeranian puppy. Sourced directly from premier AKC/USDA certified breeders, Heidi is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5920,7 +5284,6 @@ const SITE_DATA = {
       "name": "Jesse",
       "breed": "Pomeranian",
       "gender": "Male",
-      "birthday": "June 4, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "Sable",
@@ -5937,9 +5300,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Pomeranian (Mom)",
-      "dadBreed": "Pomeranian (Dad)",
-      "description": "Meet Jesse! Jesse is a fluffy, outgoing Male Pomeranian puppy born on June 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Jesse is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Jesse! Jesse is a fluffy, outgoing Male Pomeranian puppy. Sourced directly from premier AKC/USDA certified breeders, Jesse is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5947,7 +5308,6 @@ const SITE_DATA = {
       "name": "Joey",
       "breed": "Pomeranian",
       "gender": "Male",
-      "birthday": "May 19, 2026",
       "age": "11 weeks old",
       "price": 1900,
       "color": "Black",
@@ -5964,9 +5324,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Pomeranian (Mom)",
-      "dadBreed": "Pomeranian (Dad)",
-      "description": "Meet Joey! Joey is a fluffy, outgoing Male Pomeranian puppy born on May 19, 2026. Sourced directly from premier AKC/USDA certified breeders, Joey is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Joey! Joey is a fluffy, outgoing Male Pomeranian puppy. Sourced directly from premier AKC/USDA certified breeders, Joey is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -5974,7 +5332,6 @@ const SITE_DATA = {
       "name": "Nemo",
       "breed": "Pomeranian",
       "gender": "Male",
-      "birthday": "May 28, 2026",
       "age": "9 weeks old",
       "price": 2200,
       "color": "Cream",
@@ -5991,9 +5348,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Pomeranian (Mom)",
-      "dadBreed": "Pomeranian (Dad)",
-      "description": "Meet Nemo! Nemo is a fluffy, outgoing Male Pomeranian puppy born on May 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Nemo is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Nemo! Nemo is a fluffy, outgoing Male Pomeranian puppy. Sourced directly from premier AKC/USDA certified breeders, Nemo is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6001,7 +5356,6 @@ const SITE_DATA = {
       "name": "Ranger",
       "breed": "Pomeranian",
       "gender": "Male",
-      "birthday": "June 12, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black & Tan",
@@ -6018,9 +5372,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Pomeranian (Mom)",
-      "dadBreed": "Pomeranian (Dad)",
-      "description": "Meet Ranger! Ranger is a fluffy, outgoing Male Pomeranian puppy born on June 12, 2026. Sourced directly from premier AKC/USDA certified breeders, Ranger is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Ranger! Ranger is a fluffy, outgoing Male Pomeranian puppy. Sourced directly from premier AKC/USDA certified breeders, Ranger is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6028,7 +5380,6 @@ const SITE_DATA = {
       "name": "Rocko",
       "breed": "Pomeranian",
       "gender": "Male",
-      "birthday": "June 3, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black",
@@ -6045,9 +5396,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Pomeranian (Mom)",
-      "dadBreed": "Pomeranian (Dad)",
-      "description": "Meet Rocko! Rocko is a fluffy, outgoing Male Pomeranian puppy born on June 3, 2026. Sourced directly from premier AKC/USDA certified breeders, Rocko is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Rocko! Rocko is a fluffy, outgoing Male Pomeranian puppy. Sourced directly from premier AKC/USDA certified breeders, Rocko is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6055,7 +5404,6 @@ const SITE_DATA = {
       "name": "Roxy",
       "breed": "Pomeranian",
       "gender": "Female",
-      "birthday": "May 5, 2026",
       "age": "13 weeks old",
       "price": 2200,
       "color": "Blue Merle",
@@ -6072,9 +5420,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Pomeranian (Mom)",
-      "dadBreed": "Pomeranian (Dad)",
-      "description": "Meet Roxy! Roxy is a fluffy, outgoing Female Pomeranian puppy born on May 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Roxy is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Roxy! Roxy is a fluffy, outgoing Female Pomeranian puppy. Sourced directly from premier AKC/USDA certified breeders, Roxy is affectionate, lively, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6082,7 +5428,6 @@ const SITE_DATA = {
       "name": "Benny",
       "breed": "Shih Tzu",
       "gender": "Male",
-      "birthday": "May 5, 2026",
       "age": "13 weeks old",
       "price": 2100,
       "color": "Liver & White",
@@ -6099,9 +5444,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Benny! Benny is an affectionate, regal Male Shih Tzu puppy born on May 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Benny is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Benny! Benny is an affectionate, regal Male Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Benny is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6109,7 +5452,6 @@ const SITE_DATA = {
       "name": "Dawson",
       "breed": "Shih Tzu",
       "gender": "Male",
-      "birthday": "March 30, 2026",
       "age": "18 weeks old",
       "price": 2000,
       "color": "Brindle & White",
@@ -6126,9 +5468,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Dawson! Dawson is an affectionate, regal Male Shih Tzu puppy born on March 30, 2026. Sourced directly from premier AKC/USDA certified breeders, Dawson is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Dawson! Dawson is an affectionate, regal Male Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Dawson is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6136,7 +5476,6 @@ const SITE_DATA = {
       "name": "Flower",
       "breed": "Shih Tzu",
       "gender": "Female",
-      "birthday": "May 23, 2026",
       "age": "10 weeks old",
       "price": 2100,
       "color": "Liver & White",
@@ -6153,9 +5492,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Flower! Flower is an affectionate, regal Female Shih Tzu puppy born on May 23, 2026. Sourced directly from premier AKC/USDA certified breeders, Flower is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Flower! Flower is an affectionate, regal Female Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Flower is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6163,7 +5500,6 @@ const SITE_DATA = {
       "name": "Gabe",
       "breed": "Shih Tzu",
       "gender": "Male",
-      "birthday": "May 10, 2026",
       "age": "12 weeks old",
       "price": 2000,
       "color": "Brindle",
@@ -6180,9 +5516,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Gabe! Gabe is an affectionate, regal Male Shih Tzu puppy born on May 10, 2026. Sourced directly from premier AKC/USDA certified breeders, Gabe is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Gabe! Gabe is an affectionate, regal Male Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Gabe is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6190,7 +5524,6 @@ const SITE_DATA = {
       "name": "Kimberly",
       "breed": "Shih Tzu",
       "gender": "Female",
-      "birthday": "June 3, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "Gold & White",
@@ -6207,9 +5540,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Kimberly! Kimberly is an affectionate, regal Female Shih Tzu puppy born on June 3, 2026. Sourced directly from premier AKC/USDA certified breeders, Kimberly is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Kimberly! Kimberly is an affectionate, regal Female Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Kimberly is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6217,7 +5548,6 @@ const SITE_DATA = {
       "name": "Lilly",
       "breed": "Shih Tzu",
       "gender": "Female",
-      "birthday": "June 27, 2026",
       "age": "8 weeks old",
       "price": 2100,
       "color": "Liver",
@@ -6234,9 +5564,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Lilly! Lilly is an affectionate, regal Female Shih Tzu puppy born on June 27, 2026. Sourced directly from premier AKC/USDA certified breeders, Lilly is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Lilly! Lilly is an affectionate, regal Female Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Lilly is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6244,7 +5572,6 @@ const SITE_DATA = {
       "name": "Odina",
       "breed": "Shih Tzu",
       "gender": "Female",
-      "birthday": "June 11, 2026",
       "age": "8 weeks old",
       "price": 2100,
       "color": "Red & White",
@@ -6261,9 +5588,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Odina! Odina is an affectionate, regal Female Shih Tzu puppy born on June 11, 2026. Sourced directly from premier AKC/USDA certified breeders, Odina is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Odina! Odina is an affectionate, regal Female Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Odina is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6271,7 +5596,6 @@ const SITE_DATA = {
       "name": "Quigley",
       "breed": "Shih Tzu",
       "gender": "Male",
-      "birthday": "June 4, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "Gold & White",
@@ -6288,9 +5612,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Quigley! Quigley is an affectionate, regal Male Shih Tzu puppy born on June 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Quigley is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Quigley! Quigley is an affectionate, regal Male Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Quigley is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6298,7 +5620,6 @@ const SITE_DATA = {
       "name": "Rainy",
       "breed": "Shih Tzu",
       "gender": "Female",
-      "birthday": "May 23, 2026",
       "age": "10 weeks old",
       "price": 1900,
       "color": "Gold & White",
@@ -6315,9 +5636,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Rainy! Rainy is an affectionate, regal Female Shih Tzu puppy born on May 23, 2026. Sourced directly from premier AKC/USDA certified breeders, Rainy is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Rainy! Rainy is an affectionate, regal Female Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Rainy is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6325,7 +5644,6 @@ const SITE_DATA = {
       "name": "Reno",
       "breed": "Shih Tzu",
       "gender": "Male",
-      "birthday": "June 3, 2026",
       "age": "8 weeks old",
       "price": 2100,
       "color": "Red & White",
@@ -6342,9 +5660,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Reno! Reno is an affectionate, regal Male Shih Tzu puppy born on June 3, 2026. Sourced directly from premier AKC/USDA certified breeders, Reno is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Reno! Reno is an affectionate, regal Male Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Reno is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6352,7 +5668,6 @@ const SITE_DATA = {
       "name": "Skye",
       "breed": "Shih Tzu",
       "gender": "Female",
-      "birthday": "May 15, 2026",
       "age": "11 weeks old",
       "price": 2100,
       "color": "Liver",
@@ -6369,9 +5684,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Skye! Skye is an affectionate, regal Female Shih Tzu puppy born on May 15, 2026. Sourced directly from premier AKC/USDA certified breeders, Skye is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Skye! Skye is an affectionate, regal Female Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Skye is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6379,7 +5692,6 @@ const SITE_DATA = {
       "name": "Vader",
       "breed": "Shih Tzu",
       "gender": "Male",
-      "birthday": "May 25, 2026",
       "age": "10 weeks old",
       "price": 2000,
       "color": "Brindle & White",
@@ -6396,9 +5708,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Vader! Vader is an affectionate, regal Male Shih Tzu puppy born on May 25, 2026. Sourced directly from premier AKC/USDA certified breeders, Vader is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Vader! Vader is an affectionate, regal Male Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Vader is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6406,7 +5716,6 @@ const SITE_DATA = {
       "name": "Volt",
       "breed": "Shih Tzu",
       "gender": "Male",
-      "birthday": "May 25, 2026",
       "age": "10 weeks old",
       "price": 2000,
       "color": "Brindle & White",
@@ -6423,9 +5732,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Volt! Volt is an affectionate, regal Male Shih Tzu puppy born on May 25, 2026. Sourced directly from premier AKC/USDA certified breeders, Volt is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Volt! Volt is an affectionate, regal Male Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Volt is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6433,7 +5740,6 @@ const SITE_DATA = {
       "name": "Wendelin",
       "breed": "Shih Tzu",
       "gender": "Female",
-      "birthday": "April 28, 2026",
       "age": "14 weeks old",
       "price": 2000,
       "color": "Brindle & White",
@@ -6450,9 +5756,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Shih Tzu (Mom)",
-      "dadBreed": "Shih Tzu (Dad)",
-      "description": "Meet Wendelin! Wendelin is an affectionate, regal Female Shih Tzu puppy born on April 28, 2026. Sourced directly from premier AKC/USDA certified breeders, Wendelin is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Wendelin! Wendelin is an affectionate, regal Female Shih Tzu puppy. Sourced directly from premier AKC/USDA certified breeders, Wendelin is gentle, playful, low-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6460,7 +5764,6 @@ const SITE_DATA = {
       "name": "Abby",
       "breed": "Havanese",
       "gender": "Female",
-      "birthday": "June 8, 2026",
       "age": "8 weeks old",
       "price": 2100,
       "color": "Chocolate",
@@ -6477,9 +5780,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Abby! Abby is a charming, silky-coated Female Havanese puppy born on June 8, 2026. Sourced directly from premier AKC/USDA certified breeders, Abby is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Abby! Abby is a charming, silky-coated Female Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Abby is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6487,7 +5788,6 @@ const SITE_DATA = {
       "name": "Astro",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "June 26, 2026",
       "age": "8 weeks old",
       "price": 2000,
       "color": "Black Brindle",
@@ -6503,9 +5803,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Astro! Astro is a charming, silky-coated Male Havanese puppy born on June 26, 2026. Sourced directly from premier AKC/USDA certified breeders, Astro is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Astro! Astro is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Astro is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6513,7 +5811,6 @@ const SITE_DATA = {
       "name": "Axel",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "June 11, 2026",
       "age": "8 weeks old",
       "price": 2100,
       "color": "Chocolate Sable",
@@ -6530,9 +5827,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Axel! Axel is a charming, silky-coated Male Havanese puppy born on June 11, 2026. Sourced directly from premier AKC/USDA certified breeders, Axel is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Axel! Axel is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Axel is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6540,7 +5835,6 @@ const SITE_DATA = {
       "name": "Dallas",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "February 13, 2026",
       "age": "24 weeks old",
       "price": 2100,
       "color": "Chocolate",
@@ -6557,9 +5851,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Dallas! Dallas is a charming, silky-coated Male Havanese puppy born on February 13, 2026. Sourced directly from premier AKC/USDA certified breeders, Dallas is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Dallas! Dallas is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Dallas is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6567,7 +5859,6 @@ const SITE_DATA = {
       "name": "Ember",
       "breed": "Havanese",
       "gender": "Female",
-      "birthday": "May 29, 2026",
       "age": "9 weeks old",
       "price": 2100,
       "color": "Chocolate",
@@ -6584,9 +5875,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Ember! Ember is a charming, silky-coated Female Havanese puppy born on May 29, 2026. Sourced directly from premier AKC/USDA certified breeders, Ember is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Ember! Ember is a charming, silky-coated Female Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Ember is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6594,7 +5883,6 @@ const SITE_DATA = {
       "name": "Fergus",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "May 8, 2026",
       "age": "12 weeks old",
       "price": 2100,
       "color": "Chocolate",
@@ -6611,9 +5899,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Fergus! Fergus is a charming, silky-coated Male Havanese puppy born on May 8, 2026. Sourced directly from premier AKC/USDA certified breeders, Fergus is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Fergus! Fergus is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Fergus is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6621,7 +5907,6 @@ const SITE_DATA = {
       "name": "Homer",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "April 29, 2026",
       "age": "13 weeks old",
       "price": 2100,
       "color": "Chocolate",
@@ -6638,9 +5923,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Homer! Homer is a charming, silky-coated Male Havanese puppy born on April 29, 2026. Sourced directly from premier AKC/USDA certified breeders, Homer is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Homer! Homer is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Homer is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6648,7 +5931,6 @@ const SITE_DATA = {
       "name": "Hunter",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "February 23, 2026",
       "age": "23 weeks old",
       "price": 2100,
       "color": "Chocolate Sable",
@@ -6665,9 +5947,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Hunter! Hunter is a charming, silky-coated Male Havanese puppy born on February 23, 2026. Sourced directly from premier AKC/USDA certified breeders, Hunter is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Hunter! Hunter is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Hunter is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6675,7 +5955,6 @@ const SITE_DATA = {
       "name": "Icon",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "May 4, 2026",
       "age": "13 weeks old",
       "price": 2100,
       "color": "Chocolate",
@@ -6692,9 +5971,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Icon! Icon is a charming, silky-coated Male Havanese puppy born on May 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Icon is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Icon! Icon is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Icon is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6702,7 +5979,6 @@ const SITE_DATA = {
       "name": "Indigo",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "May 4, 2026",
       "age": "13 weeks old",
       "price": 2100,
       "color": "Chocolate",
@@ -6719,9 +5995,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Indigo! Indigo is a charming, silky-coated Male Havanese puppy born on May 4, 2026. Sourced directly from premier AKC/USDA certified breeders, Indigo is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Indigo! Indigo is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Indigo is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6729,7 +6003,6 @@ const SITE_DATA = {
       "name": "Iris",
       "breed": "Havanese",
       "gender": "Female",
-      "birthday": "May 6, 2026",
       "age": "12 weeks old",
       "price": 2100,
       "color": "Chocolate Sable",
@@ -6746,9 +6019,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Iris! Iris is a charming, silky-coated Female Havanese puppy born on May 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Iris is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Iris! Iris is a charming, silky-coated Female Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Iris is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6756,7 +6027,6 @@ const SITE_DATA = {
       "name": "Irving",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "May 6, 2026",
       "age": "12 weeks old",
       "price": 2100,
       "color": "Chocolate",
@@ -6773,9 +6043,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Irving! Irving is a charming, silky-coated Male Havanese puppy born on May 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Irving is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Irving! Irving is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Irving is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6783,7 +6051,6 @@ const SITE_DATA = {
       "name": "Leo",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "May 20, 2026",
       "age": "10 weeks old",
       "price": 2100,
       "color": "Chocolate Sable",
@@ -6800,9 +6067,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Leo! Leo is a charming, silky-coated Male Havanese puppy born on May 20, 2026. Sourced directly from premier AKC/USDA certified breeders, Leo is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Leo! Leo is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Leo is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6810,7 +6075,6 @@ const SITE_DATA = {
       "name": "Pandora",
       "breed": "Havanese",
       "gender": "Female",
-      "birthday": "June 27, 2026",
       "age": "8 weeks old",
       "price": 2000,
       "color": "Gold Brindle",
@@ -6826,9 +6090,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Pandora! Pandora is a charming, silky-coated Female Havanese puppy born on June 27, 2026. Sourced directly from premier AKC/USDA certified breeders, Pandora is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Pandora! Pandora is a charming, silky-coated Female Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Pandora is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6836,7 +6098,6 @@ const SITE_DATA = {
       "name": "Pixel",
       "breed": "Havanese",
       "gender": "Female",
-      "birthday": "June 5, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black",
@@ -6853,9 +6114,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Pixel! Pixel is a charming, silky-coated Female Havanese puppy born on June 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Pixel is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Pixel! Pixel is a charming, silky-coated Female Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Pixel is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6863,7 +6122,6 @@ const SITE_DATA = {
       "name": "Princess",
       "breed": "Havanese",
       "gender": "Female",
-      "birthday": "April 20, 2026",
       "age": "15 weeks old",
       "price": 2100,
       "color": "Chocolate",
@@ -6880,9 +6138,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Princess! Princess is a charming, silky-coated Female Havanese puppy born on April 20, 2026. Sourced directly from premier AKC/USDA certified breeders, Princess is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Princess! Princess is a charming, silky-coated Female Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Princess is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6890,7 +6146,6 @@ const SITE_DATA = {
       "name": "Rally",
       "breed": "Havanese",
       "gender": "Female",
-      "birthday": "May 31, 2026",
       "age": "9 weeks old",
       "price": 2100,
       "color": "Gold Sable",
@@ -6907,9 +6162,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Rally! Rally is a charming, silky-coated Female Havanese puppy born on May 31, 2026. Sourced directly from premier AKC/USDA certified breeders, Rally is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Rally! Rally is a charming, silky-coated Female Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Rally is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6917,7 +6170,6 @@ const SITE_DATA = {
       "name": "Sienna",
       "breed": "Havanese",
       "gender": "Female",
-      "birthday": "June 17, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black",
@@ -6934,9 +6186,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Sienna! Sienna is a charming, silky-coated Female Havanese puppy born on June 17, 2026. Sourced directly from premier AKC/USDA certified breeders, Sienna is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Sienna! Sienna is a charming, silky-coated Female Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Sienna is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6944,7 +6194,6 @@ const SITE_DATA = {
       "name": "Skipper",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "January 29, 2026",
       "age": "26 weeks old",
       "price": 2100,
       "color": "Chocolate Sable",
@@ -6961,9 +6210,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Skipper! Skipper is a charming, silky-coated Male Havanese puppy born on January 29, 2026. Sourced directly from premier AKC/USDA certified breeders, Skipper is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Skipper! Skipper is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Skipper is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6971,7 +6218,6 @@ const SITE_DATA = {
       "name": "Waffle",
       "breed": "Havanese",
       "gender": "Male",
-      "birthday": "April 22, 2026",
       "age": "14 weeks old",
       "price": 2100,
       "color": "Chocolate",
@@ -6988,9 +6234,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Havanese (Mom)",
-      "dadBreed": "Havanese (Dad)",
-      "description": "Meet Waffle! Waffle is a charming, silky-coated Male Havanese puppy born on April 22, 2026. Sourced directly from premier AKC/USDA certified breeders, Waffle is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Waffle! Waffle is a charming, silky-coated Male Havanese puppy. Sourced directly from premier AKC/USDA certified breeders, Waffle is cheerful, highly trainable, non-shedding, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -6998,7 +6242,6 @@ const SITE_DATA = {
       "name": "Aspen",
       "breed": "Maltese",
       "gender": "Female",
-      "birthday": "May 21, 2026",
       "age": "10 weeks old",
       "price": 1900,
       "color": "White",
@@ -7015,9 +6258,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Maltese (Mom)",
-      "dadBreed": "Maltese (Dad)",
-      "description": "Meet Aspen! Aspen is a gentle, affectionate Female Maltese puppy born on May 21, 2026. Sourced directly from premier AKC/USDA certified breeders, Aspen is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Aspen! Aspen is a gentle, affectionate Female Maltese puppy. Sourced directly from premier AKC/USDA certified breeders, Aspen is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -7025,7 +6266,6 @@ const SITE_DATA = {
       "name": "Boomer",
       "breed": "Maltese",
       "gender": "Male",
-      "birthday": "May 17, 2026",
       "age": "11 weeks old",
       "price": 2100,
       "color": "White & Lemon",
@@ -7042,9 +6282,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Maltese (Mom)",
-      "dadBreed": "Maltese (Dad)",
-      "description": "Meet Boomer! Boomer is a gentle, affectionate Male Maltese puppy born on May 17, 2026. Sourced directly from premier AKC/USDA certified breeders, Boomer is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Boomer! Boomer is a gentle, affectionate Male Maltese puppy. Sourced directly from premier AKC/USDA certified breeders, Boomer is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -7052,7 +6290,6 @@ const SITE_DATA = {
       "name": "Donna",
       "breed": "Maltese",
       "gender": "Female",
-      "birthday": "June 5, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "White",
@@ -7068,9 +6305,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Maltese (Mom)",
-      "dadBreed": "Maltese (Dad)",
-      "description": "Meet Donna! Donna is a gentle, affectionate Female Maltese puppy born on June 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Donna is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Donna! Donna is a gentle, affectionate Female Maltese puppy. Sourced directly from premier AKC/USDA certified breeders, Donna is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -7078,7 +6313,6 @@ const SITE_DATA = {
       "name": "Frisco",
       "breed": "Maltese",
       "gender": "Male",
-      "birthday": "June 9, 2026",
       "age": "8 weeks old",
       "price": 2100,
       "color": "White & Lemon",
@@ -7094,9 +6328,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Maltese (Mom)",
-      "dadBreed": "Maltese (Dad)",
-      "description": "Meet Frisco! Frisco is a gentle, affectionate Male Maltese puppy born on June 9, 2026. Sourced directly from premier AKC/USDA certified breeders, Frisco is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Frisco! Frisco is a gentle, affectionate Male Maltese puppy. Sourced directly from premier AKC/USDA certified breeders, Frisco is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -7104,7 +6336,6 @@ const SITE_DATA = {
       "name": "Hank",
       "breed": "Maltese",
       "gender": "Male",
-      "birthday": "April 14, 2026",
       "age": "16 weeks old",
       "price": 1900,
       "color": "White",
@@ -7121,9 +6352,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Maltese (Mom)",
-      "dadBreed": "Maltese (Dad)",
-      "description": "Meet Hank! Hank is a gentle, affectionate Male Maltese puppy born on April 14, 2026. Sourced directly from premier AKC/USDA certified breeders, Hank is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Hank! Hank is a gentle, affectionate Male Maltese puppy. Sourced directly from premier AKC/USDA certified breeders, Hank is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -7131,7 +6360,6 @@ const SITE_DATA = {
       "name": "Maggie",
       "breed": "Maltese",
       "gender": "Female",
-      "birthday": "June 5, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "White",
@@ -7148,9 +6376,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Maltese (Mom)",
-      "dadBreed": "Maltese (Dad)",
-      "description": "Meet Maggie! Maggie is a gentle, affectionate Female Maltese puppy born on June 5, 2026. Sourced directly from premier AKC/USDA certified breeders, Maggie is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Maggie! Maggie is a gentle, affectionate Female Maltese puppy. Sourced directly from premier AKC/USDA certified breeders, Maggie is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -7158,7 +6384,6 @@ const SITE_DATA = {
       "name": "Nova",
       "breed": "Maltese",
       "gender": "Female",
-      "birthday": "June 6, 2026",
       "age": "8 weeks old",
       "price": 2100,
       "color": "White & Lemon",
@@ -7174,9 +6399,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Maltese (Mom)",
-      "dadBreed": "Maltese (Dad)",
-      "description": "Meet Nova! Nova is a gentle, affectionate Female Maltese puppy born on June 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Nova is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Nova! Nova is a gentle, affectionate Female Maltese puppy. Sourced directly from premier AKC/USDA certified breeders, Nova is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -7184,7 +6407,6 @@ const SITE_DATA = {
       "name": "Theo",
       "breed": "Maltese",
       "gender": "Male",
-      "birthday": "June 6, 2026",
       "age": "8 weeks old",
       "price": 1900,
       "color": "White",
@@ -7200,9 +6422,7 @@ const SITE_DATA = {
         "Microchipped",
         "Up to date on vaccinations"
       ],
-      "momBreed": "Maltese (Mom)",
-      "dadBreed": "Maltese (Dad)",
-      "description": "Meet Theo! Theo is a gentle, affectionate Male Maltese puppy born on June 6, 2026. Sourced directly from premier AKC/USDA certified breeders, Theo is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
+      "description": "Meet Theo! Theo is a gentle, affectionate Male Maltese puppy. Sourced directly from premier AKC/USDA certified breeders, Theo is playful, hypoallergenic, intelligent, and comes with a 10-Year Health Commitment.",
       "status": "Ready to go home"
     },
     {
@@ -7212,7 +6432,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 16, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7227,10 +6446,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-agnes-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100825617",
-      "description": "Meet Agnes! Agnes is a sweet Female Bernedoodle puppy born on June 16, 2026. Sourced directly from premier USDA certified breeders, Agnes is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Agnes! Agnes is a sweet Female Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Agnes is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 825634,
@@ -7239,7 +6456,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "July 9, 2026",
       "color": "Chocolate Merle & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7254,10 +6470,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-kevin-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100825634",
-      "description": "Meet Kevin! Kevin is a sweet Male Bernedoodle puppy born on July 9, 2026. Sourced directly from premier USDA certified breeders, Kevin is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Kevin! Kevin is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Kevin is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 822215,
@@ -7266,7 +6480,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "April 30, 2026",
       "color": "Black & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7280,10 +6493,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-capri-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100822215",
-      "description": "Meet Capri! Capri is a sweet Female Bernedoodle puppy born on April 30, 2026. Sourced directly from premier USDA certified breeders, Capri is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Capri! Capri is a sweet Female Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Capri is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 824480,
@@ -7292,7 +6503,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 6, 2026",
       "color": "Blue Merle, White & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7307,10 +6517,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-gizmo-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100824480",
-      "description": "Meet Gizmo! Gizmo is a sweet Male Bernedoodle puppy born on June 6, 2026. Sourced directly from premier USDA certified breeders, Gizmo is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Gizmo! Gizmo is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Gizmo is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 820530,
@@ -7319,7 +6527,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "April 25, 2026",
       "color": "Chocolate, Tan & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7334,10 +6541,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-blue-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100820530",
-      "description": "Meet Blue! Blue is a sweet Male Bernedoodle puppy born on April 25, 2026. Sourced directly from premier USDA certified breeders, Blue is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Blue! Blue is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Blue is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 825638,
@@ -7346,7 +6551,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "July 9, 2026",
       "color": "Chocolate Merle & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7361,10 +6565,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-wyatt-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100825638",
-      "description": "Meet Wyatt! Wyatt is a sweet Male Bernedoodle puppy born on July 9, 2026. Sourced directly from premier USDA certified breeders, Wyatt is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Wyatt! Wyatt is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Wyatt is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 825594,
@@ -7373,7 +6575,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 21, 2026",
       "color": "Blue Merle, White & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7388,10 +6589,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-harley-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100825594",
-      "description": "Meet Harley! Harley is a sweet Male Bernedoodle puppy born on June 21, 2026. Sourced directly from premier USDA certified breeders, Harley is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Harley! Harley is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Harley is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 821714,
@@ -7400,7 +6599,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 7, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7415,10 +6613,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-abe-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100821714",
-      "description": "Meet Abe! Abe is a sweet Male Bernedoodle puppy born on May 7, 2026. Sourced directly from premier USDA certified breeders, Abe is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Abe! Abe is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Abe is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 821995,
@@ -7427,7 +6623,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "April 28, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7442,10 +6637,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-copper-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100821995",
-      "description": "Meet Copper! Copper is a sweet Male Bernedoodle puppy born on April 28, 2026. Sourced directly from premier USDA certified breeders, Copper is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Copper! Copper is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Copper is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 825636,
@@ -7454,7 +6647,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "July 9, 2026",
       "color": "Chocolate, Tan & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7469,10 +6661,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-maverick-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100825636",
-      "description": "Meet Maverick! Maverick is a sweet Male Bernedoodle puppy born on July 9, 2026. Sourced directly from premier USDA certified breeders, Maverick is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Maverick! Maverick is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Maverick is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 822911,
@@ -7481,7 +6671,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 14, 2026",
       "color": "Blue Merle, White & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7496,10 +6685,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-celeste-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100822911",
-      "description": "Meet Celeste! Celeste is a sweet Female Bernedoodle puppy born on May 14, 2026. Sourced directly from premier USDA certified breeders, Celeste is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Celeste! Celeste is a sweet Female Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Celeste is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 821991,
@@ -7508,7 +6695,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "April 28, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7523,10 +6709,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-flora-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100821991",
-      "description": "Meet Flora! Flora is a sweet Female Bernedoodle puppy born on April 28, 2026. Sourced directly from premier USDA certified breeders, Flora is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Flora! Flora is a sweet Female Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Flora is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 823713,
@@ -7535,7 +6719,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 15, 2026",
       "color": "Red & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7550,10 +6733,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-rory-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100823713",
-      "description": "Meet Rory! Rory is a sweet Female Bernedoodle puppy born on May 15, 2026. Sourced directly from premier USDA certified breeders, Rory is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Rory! Rory is a sweet Female Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Rory is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 825595,
@@ -7562,7 +6743,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 21, 2026",
       "color": "Blue Merle, White & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7577,10 +6757,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-hope-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100825595",
-      "description": "Meet Hope! Hope is a sweet Female Bernedoodle puppy born on June 21, 2026. Sourced directly from premier USDA certified breeders, Hope is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Hope! Hope is a sweet Female Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Hope is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 823754,
@@ -7589,7 +6767,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 26, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7604,10 +6781,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-antony-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100823754",
-      "description": "Meet Antony! Antony is a sweet Male Bernedoodle puppy born on May 26, 2026. Sourced directly from premier USDA certified breeders, Antony is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Antony! Antony is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Antony is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 825592,
@@ -7616,7 +6791,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "June 21, 2026",
       "color": "Blue Merle, White & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7630,10 +6804,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-hank-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100825592",
-      "description": "Meet Hank! Hank is a sweet Male Bernedoodle puppy born on June 21, 2026. Sourced directly from premier USDA certified breeders, Hank is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Hank! Hank is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Hank is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 825627,
@@ -7642,7 +6814,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 16, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7657,10 +6828,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-kim-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100825627",
-      "description": "Meet Kim! Kim is a sweet Female Bernedoodle puppy born on June 16, 2026. Sourced directly from premier USDA certified breeders, Kim is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Kim! Kim is a sweet Female Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Kim is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 825701,
@@ -7669,7 +6838,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "July 1, 2026",
       "color": "Blue Merle, White & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7684,10 +6852,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-phil-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100825701",
-      "description": "Meet Phil! Phil is a sweet Male Bernedoodle puppy born on July 1, 2026. Sourced directly from premier USDA certified breeders, Phil is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Phil! Phil is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Phil is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 823714,
@@ -7696,7 +6862,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 15, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7711,10 +6876,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-thunder-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100823714",
-      "description": "Meet Thunder! Thunder is a sweet Male Bernedoodle puppy born on May 15, 2026. Sourced directly from premier USDA certified breeders, Thunder is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Thunder! Thunder is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Thunder is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 820507,
@@ -7723,7 +6886,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "April 21, 2026",
       "color": "Blue Merle & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7737,10 +6899,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-pretzel-exact-3.png"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100820507",
-      "description": "Meet Pretzel! Pretzel is a sweet Male Bernedoodle puppy born on April 21, 2026. Sourced directly from premier USDA certified breeders, Pretzel is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Pretzel! Pretzel is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Pretzel is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 820506,
@@ -7749,7 +6909,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "April 21, 2026",
       "color": "Chocolate & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7764,10 +6923,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-taco-exact-4.png"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100820506",
-      "description": "Meet Taco! Taco is a sweet Male Bernedoodle puppy born on April 21, 2026. Sourced directly from premier USDA certified breeders, Taco is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Taco! Taco is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Taco is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 823117,
@@ -7776,7 +6933,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "May 21, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7791,10 +6947,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-novia-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100823117",
-      "description": "Meet Novia! Novia is a sweet Female Bernedoodle puppy born on May 21, 2026. Sourced directly from premier USDA certified breeders, Novia is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Novia! Novia is a sweet Female Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Novia is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 822906,
@@ -7803,7 +6957,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Male",
       "age": "8 weeks",
-      "birthday": "May 14, 2026",
       "color": "Blue Merle, White & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7818,10 +6971,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-westley-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100822906",
-      "description": "Meet Westley! Westley is a sweet Male Bernedoodle puppy born on May 14, 2026. Sourced directly from premier USDA certified breeders, Westley is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Westley! Westley is a sweet Male Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Westley is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 824226,
@@ -7830,7 +6981,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 6, 2026",
       "color": "Black, Tan & White",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7845,10 +6995,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-lexi-exact-4.png"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100824226",
-      "description": "Meet Lexi! Lexi is a sweet Female Bernedoodle puppy born on June 6, 2026. Sourced directly from premier USDA certified breeders, Lexi is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Lexi! Lexi is a sweet Female Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Lexi is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 825593,
@@ -7857,7 +7005,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 21, 2026",
       "color": "Blue Merle, White & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7871,10 +7018,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-hailey-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100825593",
-      "description": "Meet Hailey! Hailey is a sweet Female Bernedoodle puppy born on June 21, 2026. Sourced directly from premier USDA certified breeders, Hailey is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Hailey! Hailey is a sweet Female Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Hailey is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     },
     {
       "id": 825596,
@@ -7883,7 +7028,6 @@ const SITE_DATA = {
       "breedGroup": "Hybrid / Designer",
       "gender": "Female",
       "age": "8 weeks",
-      "birthday": "June 21, 2026",
       "color": "Blue Merle, White & Tan",
       "status": "Ready to go home",
       "weight": "6.2 lbs",
@@ -7898,10 +7042,8 @@ const SITE_DATA = {
         "images/puppies/bernedoodle/bernedoodle-hallie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
-      "momBreed": "Bernese Mountain Dog",
-      "dadBreed": "Standard Poodle",
       "microchip": "98514100825596",
-      "description": "Meet Hallie! Hallie is a sweet Female Bernedoodle puppy born on June 21, 2026. Sourced directly from premier USDA certified breeders, Hallie is available with a 10-Year Health Commitment, health certificate, and microchip identification."
+      "description": "Meet Hallie! Hallie is a sweet Female Bernedoodle puppy. Sourced directly from premier USDA certified breeders, Hallie is available with a 10-Year Health Commitment, health certificate, and microchip identification."
     }
   ]
 };

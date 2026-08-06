@@ -129,10 +129,6 @@
               <span class="spec-val" id="specAge">8 weeks</span>
             </div>
             <div class="spec-card">
-              <span class="spec-label">Birthday</span>
-              <span class="spec-val" id="specBirthday">May 1, 2026</span>
-            </div>
-            <div class="spec-card">
               <span class="spec-label">Color</span>
               <span class="spec-val" id="specColor">Classic</span>
             </div>
@@ -155,15 +151,7 @@
                 <p class="breeder-name" id="breederName">Partner Breeder Network</p>
               </div>
             </div>
-            <div class="parents-row">
-              <div class="parent-item">
-                <span class="parent-role">Mom (Dam)</span>
-                <span class="parent-breed" id="momBreed">Mother Breed</span>
-              </div>
-              <div class="parent-item">
-                <span class="parent-role">Dad (Sire)</span>
-                <span class="parent-breed" id="dadBreed">Father Breed</span>
-              </div>
+            <div class="parents-row" style="grid-template-columns: 1fr !important;">
               <div class="parent-item">
                 <span class="parent-role">Microchip ID</span>
                 <span class="parent-breed" id="microchipId">985141000000000</span>
@@ -277,7 +265,7 @@
   </a>
 
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=1350"></script>
+  <script src="data/siteData.js?v=1360"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -374,15 +362,12 @@
         // Specs Grid
         document.getElementById('specGender').textContent = puppy.gender;
         document.getElementById('specAge').textContent = puppy.age;
-        document.getElementById('specBirthday').textContent = puppy.birthday || 'N/A';
         document.getElementById('specColor').textContent = puppy.color || 'Standard';
         document.getElementById('specWeight').textContent = puppy.weight || '3.5 lbs';
         document.getElementById('specEstWeight').textContent = puppy.estAdultWeight || '8 - 15 lbs';
 
         // Breeder Specs
         document.getElementById('breederName').textContent = puppy.breeder || 'USDA Certified Partner Breeder';
-        document.getElementById('momBreed').textContent = puppy.momBreed || puppy.breed + ' (Mom)';
-        document.getElementById('dadBreed').textContent = puppy.dadBreed || puppy.breed + ' (Dad)';
         document.getElementById('microchipId').textContent = puppy.microchip || '98514100' + puppy.id;
 
         // Description Story
