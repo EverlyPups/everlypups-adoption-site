@@ -2653,12 +2653,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-ayden-815773-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-ayden-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-ayden-815773-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-ayden-815773-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-ayden-815773-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-ayden-815773-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-ayden-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-ayden-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-ayden-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-ayden-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -2680,12 +2680,11 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-cassie-824092-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-cassie-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-cassie-824092-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-cassie-824092-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-cassie-824092-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-cassie-824092-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-cassie-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-cassie-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-cassie-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Maltese",
@@ -2707,12 +2706,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-felicia-824782-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-felicia-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-felicia-824782-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-felicia-824782-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-felicia-824782-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-felicia-824782-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-felicia-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-felicia-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-felicia-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-felicia-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Maltipoo",
@@ -2734,12 +2733,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-hannah-823243-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-hannah-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-hannah-823243-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-hannah-823243-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-hannah-823243-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-hannah-823243-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-hannah-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-hannah-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-hannah-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-hannah-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -2761,12 +2760,11 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-kirby-825505-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-kirby-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-kirby-825505-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-kirby-825505-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-kirby-825505-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-kirby-825505-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-kirby-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-kirby-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-kirby-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -2788,12 +2786,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-levi-825191-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-levi-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-levi-825191-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-levi-825191-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-levi-825191-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-levi-825191-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-levi-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-levi-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-levi-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-levi-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -2815,12 +2813,11 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-lily-825194-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-lily-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-lily-825194-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-lily-825194-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-lily-825194-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-lily-825194-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-lily-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-lily-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-lily-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -2842,12 +2839,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-lumara-824953-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-lumara-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-lumara-824953-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-lumara-824953-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-lumara-824953-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-lumara-824953-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-lumara-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-lumara-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-lumara-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-lumara-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -2869,12 +2866,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-luna-825192-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-luna-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-luna-825192-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-luna-825192-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-luna-825192-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-luna-825192-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-luna-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-luna-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-luna-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-luna-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -2896,12 +2893,11 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-magic-824862-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-magic-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-magic-824862-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-magic-824862-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-magic-824862-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-magic-824862-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-magic-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-magic-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-magic-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -2923,12 +2919,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-mossmallow-824955-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-mossmallow-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-mossmallow-824955-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-mossmallow-824955-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-mossmallow-824955-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-mossmallow-824955-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-mossmallow-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-mossmallow-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-mossmallow-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-mossmallow-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -2950,12 +2946,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-poppy-824089-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-poppy-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-poppy-824089-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-poppy-824089-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-poppy-824089-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-poppy-824089-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-poppy-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-poppy-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-poppy-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-poppy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Maltese",
@@ -2977,12 +2973,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-reggie-825506-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-reggie-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-reggie-825506-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-reggie-825506-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-reggie-825506-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-reggie-825506-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-reggie-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-reggie-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-reggie-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-reggie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -3004,12 +3000,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-ringo-820156-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-ringo-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-ringo-820156-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-ringo-820156-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-ringo-820156-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-ringo-820156-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-ringo-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-ringo-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-ringo-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-ringo-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -3031,12 +3027,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-silvermoon-824954-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-silvermoon-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-silvermoon-824954-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-silvermoon-824954-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-silvermoon-824954-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-silvermoon-824954-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-silvermoon-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-silvermoon-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-silvermoon-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-silvermoon-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Poodle",
@@ -3058,12 +3054,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 12 lbs",
       "price": 2200,
       "hypoallergenic": true,
-      "image": "images/puppies/maltipoo/maltipoo-tessa-822818-exact-1.jpg",
+      "image": "images/puppies/maltipoo/maltipoo-tessa-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltipoo/maltipoo-tessa-822818-exact-1.jpg",
-        "images/puppies/maltipoo/maltipoo-tessa-822818-exact-2.jpg",
-        "images/puppies/maltipoo/maltipoo-tessa-822818-exact-3.jpg",
-        "images/puppies/maltipoo/maltipoo-tessa-822818-exact-4.jpg"
+        "images/puppies/maltipoo/maltipoo-tessa-exact-1.jpg",
+        "images/puppies/maltipoo/maltipoo-tessa-exact-2.jpg",
+        "images/puppies/maltipoo/maltipoo-tessa-exact-3.jpg",
+        "images/puppies/maltipoo/maltipoo-tessa-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "is a Maltese",
