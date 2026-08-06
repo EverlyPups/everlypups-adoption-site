@@ -3509,12 +3509,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-auggie-824253-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-auggie-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-auggie-824253-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-auggie-824253-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-auggie-824253-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-auggie-824253-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-auggie-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-auggie-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-auggie-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-auggie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3536,12 +3536,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-cooper-824048-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-cooper-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-cooper-824048-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-cooper-824048-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-cooper-824048-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-cooper-824048-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-cooper-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-cooper-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-cooper-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-cooper-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3563,12 +3563,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-doll-819493-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-doll-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-doll-819493-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-doll-819493-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-doll-819493-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-doll-819493-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-doll-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-doll-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-doll-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-doll-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3590,12 +3590,11 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-emmie-824604-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-emmie-exact-1.jpeg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-emmie-824604-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-emmie-824604-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-emmie-824604-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-emmie-824604-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-emmie-exact-1.jpeg",
+        "images/puppies/dachshund/dachshund-emmie-exact-2.jpeg",
+        "images/puppies/dachshund/dachshund-emmie-exact-3.jpeg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3617,12 +3616,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-fisa-822039-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-fisa-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-fisa-822039-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-fisa-822039-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-fisa-822039-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-fisa-822039-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-fisa-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-fisa-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-fisa-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-fisa-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "ent with you a special memory",
@@ -3644,12 +3643,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-freeman-822037-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-freeman-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-freeman-822037-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-freeman-822037-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-freeman-822037-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-freeman-822037-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-freeman-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-freeman-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-freeman-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-freeman-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3671,12 +3670,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-gaylin-822107-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-gaylin-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-gaylin-822107-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-gaylin-822107-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-gaylin-822107-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-gaylin-822107-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-gaylin-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-gaylin-exact-2.webp",
+        "images/puppies/dachshund/dachshund-gaylin-exact-3.webp",
+        "images/puppies/dachshund/dachshund-gaylin-exact-4.webp"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3698,12 +3697,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-idris-824158-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-idris-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-idris-824158-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-idris-824158-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-idris-824158-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-idris-824158-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-idris-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-idris-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-idris-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-idris-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3725,12 +3724,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-jamie-823498-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-jamie-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-jamie-823498-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-jamie-823498-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-jamie-823498-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-jamie-823498-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-jamie-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-jamie-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-jamie-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-jamie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3752,12 +3751,11 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-paisley-822784-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-paisley-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-paisley-822784-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-paisley-822784-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-paisley-822784-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-paisley-822784-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-paisley-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-paisley-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-paisley-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3779,12 +3777,11 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-rumington-822782-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-rumington-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-rumington-822782-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-rumington-822782-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-rumington-822782-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-rumington-822782-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-rumington-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-rumington-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-rumington-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3806,12 +3803,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-sally-824279-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-sally-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-sally-824279-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-sally-824279-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-sally-824279-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-sally-824279-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-sally-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-sally-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-sally-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-sally-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3833,12 +3830,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-shimmer-821261-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-shimmer-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-shimmer-821261-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-shimmer-821261-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-shimmer-821261-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-shimmer-821261-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-shimmer-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-shimmer-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-shimmer-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-shimmer-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3860,12 +3857,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-tiger-824254-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-tiger-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-tiger-824254-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-tiger-824254-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-tiger-824254-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-tiger-824254-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-tiger-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-tiger-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-tiger-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-tiger-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "ents",
@@ -3887,12 +3884,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-vic-824969-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-vic-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-vic-824969-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-vic-824969-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-vic-824969-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-vic-824969-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-vic-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-vic-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-vic-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-vic-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3914,12 +3911,12 @@ const SITE_DATA = {
       "estAdultWeight": "11 - 16 lbs",
       "price": 2100,
       "hypoallergenic": false,
-      "image": "images/puppies/dachshund/dachshund-winnie-824877-exact-1.jpg",
+      "image": "images/puppies/dachshund/dachshund-winnie-exact-1.jpg",
       "gallery": [
-        "images/puppies/dachshund/dachshund-winnie-824877-exact-1.jpg",
-        "images/puppies/dachshund/dachshund-winnie-824877-exact-2.jpg",
-        "images/puppies/dachshund/dachshund-winnie-824877-exact-3.jpg",
-        "images/puppies/dachshund/dachshund-winnie-824877-exact-4.jpg"
+        "images/puppies/dachshund/dachshund-winnie-exact-1.jpg",
+        "images/puppies/dachshund/dachshund-winnie-exact-2.jpg",
+        "images/puppies/dachshund/dachshund-winnie-exact-3.jpg",
+        "images/puppies/dachshund/dachshund-winnie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
