@@ -2168,12 +2168,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-bell-822828-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-bell-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-bell-822828-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-bell-822828-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-bell-822828-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-bell-822828-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-bell-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-bell-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-bell-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-bell-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2195,12 +2195,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-bernard-822683-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-bernard-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-bernard-822683-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-bernard-822683-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-bernard-822683-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-bernard-822683-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-bernard-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-bernard-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-bernard-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-bernard-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2222,12 +2222,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-brooks-823539-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-brooks-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-brooks-823539-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-brooks-823539-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-brooks-823539-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-brooks-823539-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-brooks-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-brooks-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-brooks-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-brooks-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2249,12 +2249,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-celeste-824165-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-celeste-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-celeste-824165-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-celeste-824165-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-celeste-824165-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-celeste-824165-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-celeste-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-celeste-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-celeste-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-celeste-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2276,12 +2276,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-colt-825490-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-colt-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-colt-825490-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-colt-825490-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-colt-825490-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-colt-825490-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-colt-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-colt-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-colt-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-colt-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2303,12 +2303,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-conner-824060-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-conner-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-conner-824060-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-conner-824060-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-conner-824060-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-conner-824060-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-conner-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-conner-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-conner-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-conner-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2330,12 +2330,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-creed-825487-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-creed-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-creed-825487-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-creed-825487-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-creed-825487-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-creed-825487-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-creed-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-creed-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-creed-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-creed-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2357,12 +2357,11 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-dallas-824451-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-dallas-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-dallas-824451-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-dallas-824451-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-dallas-824451-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-dallas-824451-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-dallas-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-dallas-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-dallas-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2384,12 +2383,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-danica-825769-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-danica-exact-1.jpeg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-danica-825769-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-danica-825769-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-danica-825769-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-danica-825769-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-danica-exact-1.jpeg",
+        "images/puppies/golden-retriever/golden-retriever-danica-exact-2.jpeg",
+        "images/puppies/golden-retriever/golden-retriever-danica-exact-3.jpeg",
+        "images/puppies/golden-retriever/golden-retriever-danica-exact-4.jpeg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2411,12 +2410,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-darla-824456-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-darla-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-darla-824456-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-darla-824456-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-darla-824456-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-darla-824456-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-darla-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-darla-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-darla-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-darla-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2438,12 +2437,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-glo-824624-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-glo-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-glo-824624-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-glo-824624-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-glo-824624-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-glo-824624-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-glo-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-glo-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-glo-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-glo-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2465,12 +2464,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-gwen-820893-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-gwen-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-gwen-820893-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-gwen-820893-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-gwen-820893-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-gwen-820893-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-gwen-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-gwen-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-gwen-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-gwen-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2492,12 +2491,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-helen-822339-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-helen-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-helen-822339-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-helen-822339-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-helen-822339-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-helen-822339-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-helen-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-helen-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-helen-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-helen-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2519,12 +2518,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-henry-822348-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-henry-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-henry-822348-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-henry-822348-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-henry-822348-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-henry-822348-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-henry-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-henry-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-henry-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-henry-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2546,12 +2545,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-lane-823330-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-lane-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-lane-823330-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-lane-823330-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-lane-823330-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-lane-823330-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-lane-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-lane-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-lane-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-lane-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2573,12 +2572,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-layton-822125-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-layton-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-layton-822125-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-layton-822125-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-layton-822125-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-layton-822125-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-layton-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-layton-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-layton-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-layton-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2600,12 +2599,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-michelle-823314-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-michelle-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-michelle-823314-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-michelle-823314-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-michelle-823314-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-michelle-823314-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-michelle-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-michelle-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-michelle-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-michelle-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -2627,12 +2626,12 @@ const SITE_DATA = {
       "estAdultWeight": "55 - 75 lbs",
       "price": 2350,
       "hypoallergenic": false,
-      "image": "images/puppies/golden-retriever/golden-retriever-monica-823323-exact-1.jpg",
+      "image": "images/puppies/golden-retriever/golden-retriever-monica-exact-1.jpg",
       "gallery": [
-        "images/puppies/golden-retriever/golden-retriever-monica-823323-exact-1.jpg",
-        "images/puppies/golden-retriever/golden-retriever-monica-823323-exact-2.jpg",
-        "images/puppies/golden-retriever/golden-retriever-monica-823323-exact-3.jpg",
-        "images/puppies/golden-retriever/golden-retriever-monica-823323-exact-4.jpg"
+        "images/puppies/golden-retriever/golden-retriever-monica-exact-1.jpg",
+        "images/puppies/golden-retriever/golden-retriever-monica-exact-2.jpg",
+        "images/puppies/golden-retriever/golden-retriever-monica-exact-3.jpg",
+        "images/puppies/golden-retriever/golden-retriever-monica-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
