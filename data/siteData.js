@@ -5816,12 +5816,12 @@ const SITE_DATA = {
       "age": "14 weeks old",
       "price": 1900,
       "color": "Black",
-      "image": "images/puppies/pomeranian/pom-bonnie-821347-1.jpg",
+      "image": "images/puppies/pomeranian/pomeranian-bonnie-exact-1.jpg",
       "gallery": [
-        "images/puppies/pomeranian/pom-bonnie-821347-1.jpg",
-        "images/puppies/pomeranian/pom-bonnie-821347-2.jpg",
-        "images/puppies/pomeranian/pom-bonnie-821347-3.jpg",
-        "images/puppies/pomeranian/pom-bonnie-821347-4.jpg"
+        "images/puppies/pomeranian/pomeranian-bonnie-exact-1.jpg",
+        "images/puppies/pomeranian/pomeranian-bonnie-exact-2.jpg",
+        "images/puppies/pomeranian/pomeranian-bonnie-exact-3.jpg",
+        "images/puppies/pomeranian/pomeranian-bonnie-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5843,12 +5843,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Tri-Colored",
-      "image": "images/puppies/pomeranian/pom-ellie-825471-1.jpg",
+      "image": "images/puppies/pomeranian/pomeranian-ellie-exact-1.jpg",
       "gallery": [
-        "images/puppies/pomeranian/pom-ellie-825471-1.jpg",
-        "images/puppies/pomeranian/pom-ellie-825471-2.jpg",
-        "images/puppies/pomeranian/pom-ellie-825471-3.jpg",
-        "images/puppies/pomeranian/pom-ellie-825471-4.jpg"
+        "images/puppies/pomeranian/pomeranian-ellie-exact-1.jpg",
+        "images/puppies/pomeranian/pomeranian-ellie-exact-2.jpg",
+        "images/puppies/pomeranian/pomeranian-ellie-exact-3.jpg",
+        "images/puppies/pomeranian/pomeranian-ellie-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5870,12 +5870,12 @@ const SITE_DATA = {
       "age": "13 weeks old",
       "price": 2200,
       "color": "Blue Merle",
-      "image": "images/puppies/pomeranian/pom-hazel-821031-1.jpg",
+      "image": "images/puppies/pomeranian/pomeranian-hazel-exact-1.jpg",
       "gallery": [
-        "images/puppies/pomeranian/pom-hazel-821031-1.jpg",
-        "images/puppies/pomeranian/pom-hazel-821031-2.jpg",
-        "images/puppies/pomeranian/pom-hazel-821031-3.jpg",
-        "images/puppies/pomeranian/pom-hazel-821031-4.jpg"
+        "images/puppies/pomeranian/pomeranian-hazel-exact-1.jpg",
+        "images/puppies/pomeranian/pomeranian-hazel-exact-2.jpg",
+        "images/puppies/pomeranian/pomeranian-hazel-exact-3.jpg",
+        "images/puppies/pomeranian/pomeranian-hazel-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5897,12 +5897,12 @@ const SITE_DATA = {
       "age": "20 weeks old",
       "price": 2200,
       "color": "Cream",
-      "image": "images/puppies/pomeranian/pom-heidi-819859-1.jpg",
+      "image": "images/puppies/pomeranian/pomeranian-heidi-exact-1.jpg",
       "gallery": [
-        "images/puppies/pomeranian/pom-heidi-819859-1.jpg",
-        "images/puppies/pomeranian/pom-heidi-819859-2.jpg",
-        "images/puppies/pomeranian/pom-heidi-819859-3.jpg",
-        "images/puppies/pomeranian/pom-heidi-819859-4.jpg"
+        "images/puppies/pomeranian/pomeranian-heidi-exact-1.jpg",
+        "images/puppies/pomeranian/pomeranian-heidi-exact-2.jpg",
+        "images/puppies/pomeranian/pomeranian-heidi-exact-3.jpg",
+        "images/puppies/pomeranian/pomeranian-heidi-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5924,12 +5924,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Sable",
-      "image": "images/puppies/pomeranian/pom-jesse-824600-1.jpg",
+      "image": "images/puppies/pomeranian/pomeranian-jesse-exact-1.jpg",
       "gallery": [
-        "images/puppies/pomeranian/pom-jesse-824600-1.jpg",
-        "images/puppies/pomeranian/pom-jesse-824600-2.jpg",
-        "images/puppies/pomeranian/pom-jesse-824600-3.jpg",
-        "images/puppies/pomeranian/pom-jesse-824600-4.jpg"
+        "images/puppies/pomeranian/pomeranian-jesse-exact-1.jpg",
+        "images/puppies/pomeranian/pomeranian-jesse-exact-2.jpg",
+        "images/puppies/pomeranian/pomeranian-jesse-exact-3.jpg",
+        "images/puppies/pomeranian/pomeranian-jesse-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5951,12 +5951,12 @@ const SITE_DATA = {
       "age": "11 weeks old",
       "price": 1900,
       "color": "Black",
-      "image": "images/puppies/pomeranian/pom-joey-821605-1.jpg",
+      "image": "images/puppies/pomeranian/pomeranian-joey-exact-1.jpg",
       "gallery": [
-        "images/puppies/pomeranian/pom-joey-821605-1.jpg",
-        "images/puppies/pomeranian/pom-joey-821605-2.jpg",
-        "images/puppies/pomeranian/pom-joey-821605-3.jpg",
-        "images/puppies/pomeranian/pom-joey-821605-4.jpg"
+        "images/puppies/pomeranian/pomeranian-joey-exact-1.jpg",
+        "images/puppies/pomeranian/pomeranian-joey-exact-2.jpg",
+        "images/puppies/pomeranian/pomeranian-joey-exact-3.jpg",
+        "images/puppies/pomeranian/pomeranian-joey-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5978,12 +5978,12 @@ const SITE_DATA = {
       "age": "9 weeks old",
       "price": 2200,
       "color": "Cream",
-      "image": "images/puppies/pomeranian/pom-nemo-822614-1.jpg",
+      "image": "images/puppies/pomeranian/pomeranian-nemo-exact-1.jpg",
       "gallery": [
-        "images/puppies/pomeranian/pom-nemo-822614-1.jpg",
-        "images/puppies/pomeranian/pom-nemo-822614-2.jpg",
-        "images/puppies/pomeranian/pom-nemo-822614-3.jpg",
-        "images/puppies/pomeranian/pom-nemo-822614-4.jpg"
+        "images/puppies/pomeranian/pomeranian-nemo-exact-1.jpg",
+        "images/puppies/pomeranian/pomeranian-nemo-exact-2.jpg",
+        "images/puppies/pomeranian/pomeranian-nemo-exact-3.jpg",
+        "images/puppies/pomeranian/pomeranian-nemo-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6005,12 +6005,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black & Tan",
-      "image": "images/puppies/pomeranian/pom-ranger-823707-1.jpg",
+      "image": "images/puppies/pomeranian/pomeranian-ranger-exact-1.jpg",
       "gallery": [
-        "images/puppies/pomeranian/pom-ranger-823707-1.jpg",
-        "images/puppies/pomeranian/pom-ranger-823707-2.jpg",
-        "images/puppies/pomeranian/pom-ranger-823707-3.jpg",
-        "images/puppies/pomeranian/pom-ranger-823707-4.jpg"
+        "images/puppies/pomeranian/pomeranian-ranger-exact-1.jpg",
+        "images/puppies/pomeranian/pomeranian-ranger-exact-2.jpg",
+        "images/puppies/pomeranian/pomeranian-ranger-exact-3.jpg",
+        "images/puppies/pomeranian/pomeranian-ranger-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6032,12 +6032,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black",
-      "image": "images/puppies/pomeranian/pom-rocko-823745-1.jpg",
+      "image": "images/puppies/pomeranian/pomeranian-rocko-exact-1.jpg",
       "gallery": [
-        "images/puppies/pomeranian/pom-rocko-823745-1.jpg",
-        "images/puppies/pomeranian/pom-rocko-823745-2.jpg",
-        "images/puppies/pomeranian/pom-rocko-823745-3.jpg",
-        "images/puppies/pomeranian/pom-rocko-823745-4.jpg"
+        "images/puppies/pomeranian/pomeranian-rocko-exact-1.jpg",
+        "images/puppies/pomeranian/pomeranian-rocko-exact-2.jpg",
+        "images/puppies/pomeranian/pomeranian-rocko-exact-3.jpg",
+        "images/puppies/pomeranian/pomeranian-rocko-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6059,12 +6059,12 @@ const SITE_DATA = {
       "age": "13 weeks old",
       "price": 2200,
       "color": "Blue Merle",
-      "image": "images/puppies/pomeranian/pom-roxy-821033-1.jpg",
+      "image": "images/puppies/pomeranian/pomeranian-roxy-exact-1.jpg",
       "gallery": [
-        "images/puppies/pomeranian/pom-roxy-821033-1.jpg",
-        "images/puppies/pomeranian/pom-roxy-821033-2.jpg",
-        "images/puppies/pomeranian/pom-roxy-821033-3.jpg",
-        "images/puppies/pomeranian/pom-roxy-821033-4.jpg"
+        "images/puppies/pomeranian/pomeranian-roxy-exact-1.jpg",
+        "images/puppies/pomeranian/pomeranian-roxy-exact-2.jpg",
+        "images/puppies/pomeranian/pomeranian-roxy-exact-3.jpg",
+        "images/puppies/pomeranian/pomeranian-roxy-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
