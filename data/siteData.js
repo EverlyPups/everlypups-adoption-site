@@ -3081,12 +3081,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-axel-824336-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-axel-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-axel-824336-exact-1.jpg",
-        "images/puppies/poodle/poodle-axel-824336-exact-2.jpg",
-        "images/puppies/poodle/poodle-axel-824336-exact-3.jpg",
-        "images/puppies/poodle/poodle-axel-824336-exact-4.jpg"
+        "images/puppies/poodle/poodle-axel-exact-1.jpg",
+        "images/puppies/poodle/poodle-axel-exact-2.jpg",
+        "images/puppies/poodle/poodle-axel-exact-3.jpg",
+        "images/puppies/poodle/poodle-axel-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3108,12 +3108,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-brinley-825159-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-brinley-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-brinley-825159-exact-1.jpg",
-        "images/puppies/poodle/poodle-brinley-825159-exact-2.jpg",
-        "images/puppies/poodle/poodle-brinley-825159-exact-3.jpg",
-        "images/puppies/poodle/poodle-brinley-825159-exact-4.jpg"
+        "images/puppies/poodle/poodle-brinley-exact-1.jpg",
+        "images/puppies/poodle/poodle-brinley-exact-2.jpg",
+        "images/puppies/poodle/poodle-brinley-exact-3.jpg",
+        "images/puppies/poodle/poodle-brinley-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3135,12 +3135,11 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-chance-823418-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-chance-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-chance-823418-exact-1.jpg",
-        "images/puppies/poodle/poodle-chance-823418-exact-2.jpg",
-        "images/puppies/poodle/poodle-chance-823418-exact-3.jpg",
-        "images/puppies/poodle/poodle-chance-823418-exact-4.jpg"
+        "images/puppies/poodle/poodle-chance-exact-1.jpg",
+        "images/puppies/poodle/poodle-chance-exact-2.jpg",
+        "images/puppies/poodle/poodle-chance-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3162,12 +3161,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-dallas-821445-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-dallas-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-dallas-821445-exact-1.jpg",
-        "images/puppies/poodle/poodle-dallas-821445-exact-2.jpg",
-        "images/puppies/poodle/poodle-dallas-821445-exact-3.jpg",
-        "images/puppies/poodle/poodle-dallas-821445-exact-4.jpg"
+        "images/puppies/poodle/poodle-dallas-exact-1.jpg",
+        "images/puppies/poodle/poodle-dallas-exact-2.jpg",
+        "images/puppies/poodle/poodle-dallas-exact-3.jpg",
+        "images/puppies/poodle/poodle-dallas-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3189,12 +3188,11 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-gundo-824645-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-gundo-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-gundo-824645-exact-1.jpg",
-        "images/puppies/poodle/poodle-gundo-824645-exact-2.jpg",
-        "images/puppies/poodle/poodle-gundo-824645-exact-3.jpg",
-        "images/puppies/poodle/poodle-gundo-824645-exact-4.jpg"
+        "images/puppies/poodle/poodle-gundo-exact-1.jpg",
+        "images/puppies/poodle/poodle-gundo-exact-2.jpg",
+        "images/puppies/poodle/poodle-gundo-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3216,12 +3214,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-justin-824120-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-justin-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-justin-824120-exact-1.jpg",
-        "images/puppies/poodle/poodle-justin-824120-exact-2.jpg",
-        "images/puppies/poodle/poodle-justin-824120-exact-3.jpg",
-        "images/puppies/poodle/poodle-justin-824120-exact-4.jpg"
+        "images/puppies/poodle/poodle-justin-exact-1.jpg",
+        "images/puppies/poodle/poodle-justin-exact-2.jpg",
+        "images/puppies/poodle/poodle-justin-exact-3.jpg",
+        "images/puppies/poodle/poodle-justin-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3243,12 +3241,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-lenny-821754-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-lenny-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-lenny-821754-exact-1.jpg",
-        "images/puppies/poodle/poodle-lenny-821754-exact-2.jpg",
-        "images/puppies/poodle/poodle-lenny-821754-exact-3.jpg",
-        "images/puppies/poodle/poodle-lenny-821754-exact-4.jpg"
+        "images/puppies/poodle/poodle-lenny-exact-1.jpg",
+        "images/puppies/poodle/poodle-lenny-exact-2.jpg",
+        "images/puppies/poodle/poodle-lenny-exact-3.jpg",
+        "images/puppies/poodle/poodle-lenny-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3270,12 +3268,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-loki-814756-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-loki-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-loki-814756-exact-1.jpg",
-        "images/puppies/poodle/poodle-loki-814756-exact-2.jpg",
-        "images/puppies/poodle/poodle-loki-814756-exact-3.jpg",
-        "images/puppies/poodle/poodle-loki-814756-exact-4.jpg"
+        "images/puppies/poodle/poodle-loki-exact-1.jpg",
+        "images/puppies/poodle/poodle-loki-exact-2.jpg",
+        "images/puppies/poodle/poodle-loki-exact-3.jpg",
+        "images/puppies/poodle/poodle-loki-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "ent with you a special memory",
@@ -3297,12 +3295,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-luna-821915-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-luna-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-luna-821915-exact-1.jpg",
-        "images/puppies/poodle/poodle-luna-821915-exact-2.jpg",
-        "images/puppies/poodle/poodle-luna-821915-exact-3.jpg",
-        "images/puppies/poodle/poodle-luna-821915-exact-4.jpg"
+        "images/puppies/poodle/poodle-luna-exact-1.jpg",
+        "images/puppies/poodle/poodle-luna-exact-2.jpg",
+        "images/puppies/poodle/poodle-luna-exact-3.jpg",
+        "images/puppies/poodle/poodle-luna-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3324,12 +3322,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-mindy-823684-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-mindy-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-mindy-823684-exact-1.jpg",
-        "images/puppies/poodle/poodle-mindy-823684-exact-2.jpg",
-        "images/puppies/poodle/poodle-mindy-823684-exact-3.jpg",
-        "images/puppies/poodle/poodle-mindy-823684-exact-4.jpg"
+        "images/puppies/poodle/poodle-mindy-exact-1.jpg",
+        "images/puppies/poodle/poodle-mindy-exact-2.jpg",
+        "images/puppies/poodle/poodle-mindy-exact-3.jpg",
+        "images/puppies/poodle/poodle-mindy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3351,12 +3349,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-nova-824353-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-nova-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-nova-824353-exact-1.jpg",
-        "images/puppies/poodle/poodle-nova-824353-exact-2.jpg",
-        "images/puppies/poodle/poodle-nova-824353-exact-3.jpg",
-        "images/puppies/poodle/poodle-nova-824353-exact-4.jpg"
+        "images/puppies/poodle/poodle-nova-exact-1.jpg",
+        "images/puppies/poodle/poodle-nova-exact-2.jpg",
+        "images/puppies/poodle/poodle-nova-exact-3.jpg",
+        "images/puppies/poodle/poodle-nova-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3378,12 +3376,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-poppy-825764-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-poppy-exact-1.jpeg",
       "gallery": [
-        "images/puppies/poodle/poodle-poppy-825764-exact-1.jpg",
-        "images/puppies/poodle/poodle-poppy-825764-exact-2.jpg",
-        "images/puppies/poodle/poodle-poppy-825764-exact-3.jpg",
-        "images/puppies/poodle/poodle-poppy-825764-exact-4.jpg"
+        "images/puppies/poodle/poodle-poppy-exact-1.jpeg",
+        "images/puppies/poodle/poodle-poppy-exact-2.jpeg",
+        "images/puppies/poodle/poodle-poppy-exact-3.jpeg",
+        "images/puppies/poodle/poodle-poppy-exact-4.jpeg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3405,12 +3403,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-posy-823147-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-posy-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-posy-823147-exact-1.jpg",
-        "images/puppies/poodle/poodle-posy-823147-exact-2.jpg",
-        "images/puppies/poodle/poodle-posy-823147-exact-3.jpg",
-        "images/puppies/poodle/poodle-posy-823147-exact-4.jpg"
+        "images/puppies/poodle/poodle-posy-exact-1.jpg",
+        "images/puppies/poodle/poodle-posy-exact-2.jpg",
+        "images/puppies/poodle/poodle-posy-exact-3.jpg",
+        "images/puppies/poodle/poodle-posy-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3432,12 +3430,12 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-rayne-825386-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-rayne-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-rayne-825386-exact-1.jpg",
-        "images/puppies/poodle/poodle-rayne-825386-exact-2.jpg",
-        "images/puppies/poodle/poodle-rayne-825386-exact-3.jpg",
-        "images/puppies/poodle/poodle-rayne-825386-exact-4.jpg"
+        "images/puppies/poodle/poodle-rayne-exact-1.jpg",
+        "images/puppies/poodle/poodle-rayne-exact-2.jpg",
+        "images/puppies/poodle/poodle-rayne-exact-3.jpg",
+        "images/puppies/poodle/poodle-rayne-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3459,12 +3457,11 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-rihanna-825656-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-rihanna-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-rihanna-825656-exact-1.jpg",
-        "images/puppies/poodle/poodle-rihanna-825656-exact-2.jpg",
-        "images/puppies/poodle/poodle-rihanna-825656-exact-3.jpg",
-        "images/puppies/poodle/poodle-rihanna-825656-exact-4.jpg"
+        "images/puppies/poodle/poodle-rihanna-exact-1.jpg",
+        "images/puppies/poodle/poodle-rihanna-exact-2.jpg",
+        "images/puppies/poodle/poodle-rihanna-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -3486,12 +3483,11 @@ const SITE_DATA = {
       "estAdultWeight": "6 - 15 lbs",
       "price": 2250,
       "hypoallergenic": true,
-      "image": "images/puppies/poodle/poodle-rolex-825658-exact-1.jpg",
+      "image": "images/puppies/poodle/poodle-rolex-exact-1.jpg",
       "gallery": [
-        "images/puppies/poodle/poodle-rolex-825658-exact-1.jpg",
-        "images/puppies/poodle/poodle-rolex-825658-exact-2.jpg",
-        "images/puppies/poodle/poodle-rolex-825658-exact-3.jpg",
-        "images/puppies/poodle/poodle-rolex-825658-exact-4.jpg"
+        "images/puppies/poodle/poodle-rolex-exact-1.jpg",
+        "images/puppies/poodle/poodle-rolex-exact-2.jpg",
+        "images/puppies/poodle/poodle-rolex-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
