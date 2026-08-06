@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Editorial Design System Styles -->
-  <link rel="stylesheet" href="styles.css?v=23" />
+  <link rel="stylesheet" href="styles.css?v=810" />
 </head>
 <body class="puppy-detail-page-body">
 
@@ -193,16 +193,69 @@
       </div>
 
       <!-- ======================================================================
-           4. Other Available Puppies Carousel / Recommendations
+           4. Nationwide Delivery Video Gallery
            ====================================================================== -->
-      <section class="related-puppies-section">
-        <div class="related-section-header">
-          <h2>More Available Puppies You'll Love</h2>
-          <a href="index.html#catalog-section" class="link-view-all">View All <i class="fa-solid fa-arrow-right"></i></a>
+      <section class="delivery-gallery-section">
+        <div class="delivery-gallery-header-grid">
+          <div class="delivery-gallery-header-left">
+            <h2 class="delivery-gallery-title">Nationwide delivery no matter where you are</h2>
+          </div>
+          <div class="delivery-gallery-header-right">
+            <p class="delivery-gallery-desc">We deliver nationwide because your puppy’s health is our top priority. Our dedicated team and travel partners always put the health and wellbeing of your puppy first, making sure they arrive safely, and as quickly as possible. See our customers meet their new pup!</p>
+          </div>
         </div>
 
-        <div class="available-puppies-grid" id="relatedPuppiesGrid">
-          <!-- Populated via JS -->
+        <div class="delivery-video-grid">
+          <!-- Card 1 -->
+          <div class="delivery-video-card">
+            <div class="delivery-video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=600&h=800&q=80');">
+              <div class="delivery-video-overlay">
+                <button class="btn-watch-delivery">
+                  <i class="fa-solid fa-play"></i> Watch delivery
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="delivery-video-card">
+            <div class="delivery-video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&h=800&q=80');">
+              <div class="delivery-video-overlay">
+                <button class="btn-watch-delivery">
+                  <i class="fa-solid fa-play"></i> Watch delivery
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="delivery-video-card">
+            <div class="delivery-video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=600&h=800&q=80');">
+              <div class="delivery-video-overlay">
+                <button class="btn-watch-delivery">
+                  <i class="fa-solid fa-play"></i> Watch delivery
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="delivery-video-card">
+            <div class="delivery-video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=600&h=800&q=80');">
+              <div class="delivery-video-overlay">
+                <button class="btn-watch-delivery">
+                  <i class="fa-solid fa-play"></i> Watch delivery
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="delivery-video-card">
+            <div class="delivery-video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1537151608828-ea2b117b62e4?auto=format&fit=crop&w=600&h=800&q=80');">
+              <div class="delivery-video-overlay">
+                <button class="btn-watch-delivery">
+                  <i class="fa-solid fa-play"></i> Watch delivery
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -265,7 +318,7 @@
   </a>
 
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=1570"></script>
+  <script src="data/siteData.js?v=1580"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -374,37 +427,6 @@
         document.getElementById('storyPuppyName').textContent = puppy.name;
         document.getElementById('puppyDescription').textContent = puppy.description;
 
-        // Render Related Puppies Grid (4 other puppies)
-        const relatedGrid = document.getElementById('relatedPuppiesGrid');
-        if (relatedGrid) {
-          relatedGrid.innerHTML = '';
-          const otherPuppies = SITE_DATA.puppies.filter(p => p.id !== puppy.id).slice(0, 4);
-          otherPuppies.forEach(p => {
-            const card = document.createElement('article');
-            card.className = 'puppy-card';
-            card.innerHTML = `
-              <div class="puppy-card-img-wrap">
-                <img src="${p.image}" alt="${p.name}" class="puppy-card-img" />
-                <span class="puppy-badge">${p.status || 'Ready'}</span>
-              </div>
-              <div class="puppy-card-body">
-                <div class="puppy-card-header">
-                  <h3 class="puppy-card-name">${p.name}</h3>
-                  <span class="puppy-card-price">$${p.price.toLocaleString()}</span>
-                </div>
-                <p class="puppy-card-breed">${p.breed}</p>
-                <div class="puppy-card-meta">
-                  <span><i class="fa-solid fa-venus-mars"></i> ${p.gender}</span>
-                  <span><i class="fa-solid fa-cake-candles"></i> ${p.age}</span>
-                </div>
-                <a href="puppy-details.html?id=${p.id}" class="btn-card-reserve">
-                  View ${p.name}'s Details <i class="fa-solid fa-arrow-right"></i>
-                </a>
-              </div>
-            `;
-            relatedGrid.appendChild(card);
-          });
-        }
       }
     });
   </script>
