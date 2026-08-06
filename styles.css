@@ -3763,11 +3763,11 @@ img, video {
    Nationwide Delivery Video Gallery Styles
    ========================================================================== */
 .delivery-gallery-section {
-  background-color: #f2f6f4 !important;
-  padding: 3.5rem 3rem !important;
-  border-radius: 24px !important;
+  background-color: #F0FAF5 !important;
+  padding: 4rem 0 !important;
+  width: 100% !important;
   margin-top: 4rem !important;
-  margin-bottom: 2rem !important;
+  margin-bottom: 0 !important;
 }
 
 .delivery-gallery-header-grid {
@@ -3881,7 +3881,7 @@ img, video {
 
 @media (max-width: 768px) {
   .delivery-gallery-section {
-    padding: 2.5rem 2rem !important;
+    padding: 3rem 0 !important;
   }
 }
 
@@ -3891,7 +3891,7 @@ img, video {
     gap: 1rem !important;
   }
   .delivery-gallery-section {
-    padding: 2rem 1.5rem !important;
+    padding: 2.5rem 0 !important;
   }
   .delivery-gallery-title {
     font-size: 1.8rem !important;
