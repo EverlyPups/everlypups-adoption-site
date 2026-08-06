@@ -5276,12 +5276,12 @@ const SITE_DATA = {
       "age": "12 weeks old",
       "price": 2200,
       "color": "Chocolate, Gold & White",
-      "image": "images/puppies/yorkshire-terrier/yorkie-armani-823033-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-armani-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-armani-823033-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-armani-823033-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-armani-823033-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-armani-823033-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-armani-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-armani-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-armani-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-armani-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5303,12 +5303,12 @@ const SITE_DATA = {
       "age": "15 weeks old",
       "price": 1900,
       "color": "Black & Tan",
-      "image": "images/puppies/yorkshire-terrier/yorkie-fae-820384-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-fae-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-fae-820384-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-fae-820384-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-fae-820384-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-fae-820384-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-fae-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-fae-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-fae-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-fae-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5330,12 +5330,12 @@ const SITE_DATA = {
       "age": "14 weeks old",
       "price": 1900,
       "color": "Black & Tan",
-      "image": "images/puppies/yorkshire-terrier/yorkie-freda-820393-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-freda-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-freda-820393-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-freda-820393-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-freda-820393-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-freda-820393-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-freda-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-freda-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-freda-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-freda-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5357,12 +5357,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black & Tan",
-      "image": "images/puppies/yorkshire-terrier/yorkie-hendrix-824660-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-hendrix-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-hendrix-824660-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-hendrix-824660-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-hendrix-824660-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-hendrix-824660-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-hendrix-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-hendrix-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-hendrix-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-hendrix-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5384,12 +5384,12 @@ const SITE_DATA = {
       "age": "12 weeks old",
       "price": 1900,
       "color": "Black & Tan",
-      "image": "images/puppies/yorkshire-terrier/yorkie-jace-823626-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-jace-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-jace-823626-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-jace-823626-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-jace-823626-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-jace-823626-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-jace-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-jace-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-jace-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-jace-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5411,12 +5411,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black & Tan",
-      "image": "images/puppies/yorkshire-terrier/yorkie-juliet-823366-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-juliet-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-juliet-823366-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-juliet-823366-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-juliet-823366-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-juliet-823366-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-juliet-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-juliet-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-juliet-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-juliet-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5438,12 +5438,12 @@ const SITE_DATA = {
       "age": "17 weeks old",
       "price": 2000,
       "color": "Black, Tan & White",
-      "image": "images/puppies/yorkshire-terrier/yorkie-kassandra-819324-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-kassandra-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-kassandra-819324-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-kassandra-819324-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-kassandra-819324-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-kassandra-819324-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-kassandra-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-kassandra-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-kassandra-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-kassandra-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5465,12 +5465,12 @@ const SITE_DATA = {
       "age": "28 weeks old",
       "price": 2000,
       "color": "Black & Gold",
-      "image": "images/puppies/yorkshire-terrier/yorkie-kyle-813239-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-kyle-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-kyle-813239-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-kyle-813239-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-kyle-813239-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-kyle-813239-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-kyle-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-kyle-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-kyle-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-kyle-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5492,12 +5492,12 @@ const SITE_DATA = {
       "age": "12 weeks old",
       "price": 2200,
       "color": "Chocolate, Tan & White",
-      "image": "images/puppies/yorkshire-terrier/yorkie-louie-823034-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-louie-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-louie-823034-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-louie-823034-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-louie-823034-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-louie-823034-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-louie-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-louie-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-louie-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-louie-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5519,12 +5519,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2000,
       "color": "Black, Tan & White",
-      "image": "images/puppies/yorkshire-terrier/yorkie-max-825096-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-max-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-max-825096-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-max-825096-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-max-825096-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-max-825096-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-max-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-max-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-max-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-max-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5546,12 +5546,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black & Tan",
-      "image": "images/puppies/yorkshire-terrier/yorkie-ruby-825467-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-ruby-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-ruby-825467-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-ruby-825467-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-ruby-825467-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-ruby-825467-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-ruby-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-ruby-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-ruby-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-ruby-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5573,12 +5573,12 @@ const SITE_DATA = {
       "age": "10 weeks old",
       "price": 2200,
       "color": "Blue Merle & Gold",
-      "image": "images/puppies/yorkshire-terrier/yorkie-sapphire-821102-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-sapphire-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-sapphire-821102-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-sapphire-821102-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-sapphire-821102-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-sapphire-821102-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-sapphire-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-sapphire-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-sapphire-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-sapphire-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5600,12 +5600,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Black & Tan",
-      "image": "images/puppies/yorkshire-terrier/yorkie-sunny-824390-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-sunny-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-sunny-824390-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-sunny-824390-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-sunny-824390-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-sunny-824390-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-sunny-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-sunny-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-sunny-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-sunny-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -5627,12 +5627,12 @@ const SITE_DATA = {
       "age": "12 weeks old",
       "price": 2200,
       "color": "Chocolate, Gold & White",
-      "image": "images/puppies/yorkshire-terrier/yorkie-versace-823035-1.jpg",
+      "image": "images/puppies/yorkshire-terrier/yorkshire-terrier-versace-exact-1.jpg",
       "gallery": [
-        "images/puppies/yorkshire-terrier/yorkie-versace-823035-1.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-versace-823035-2.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-versace-823035-3.jpg",
-        "images/puppies/yorkshire-terrier/yorkie-versace-823035-4.jpg"
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-versace-exact-1.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-versace-exact-2.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-versace-exact-3.jpg",
+        "images/puppies/yorkshire-terrier/yorkshire-terrier-versace-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
