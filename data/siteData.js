@@ -4962,12 +4962,12 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-ellie-824503-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-ellie-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-ellie-824503-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-ellie-824503-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-ellie-824503-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-ellie-824503-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-ellie-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-ellie-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-ellie-exact-3.jpg",
+        "images/puppies/german-shepherd/german-shepherd-ellie-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -4989,12 +4989,12 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-gatlin-823386-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-gatlin-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-gatlin-823386-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-gatlin-823386-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-gatlin-823386-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-gatlin-823386-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-gatlin-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-gatlin-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-gatlin-exact-3.jpg",
+        "images/puppies/german-shepherd/german-shepherd-gatlin-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -5016,12 +5016,11 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-kara-825561-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-kara-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-kara-825561-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-kara-825561-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-kara-825561-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-kara-825561-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-kara-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-kara-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-kara-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -5043,12 +5042,11 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-kaylene-825557-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-kaylene-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-kaylene-825557-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-kaylene-825557-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-kaylene-825557-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-kaylene-825557-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-kaylene-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-kaylene-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-kaylene-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -5070,12 +5068,11 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-kevin-825680-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-kevin-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-kevin-825680-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-kevin-825680-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-kevin-825680-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-kevin-825680-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-kevin-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-kevin-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-kevin-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -5097,12 +5094,12 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-leo-822044-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-leo-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-leo-822044-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-leo-822044-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-leo-822044-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-leo-822044-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-leo-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-leo-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-leo-exact-3.jpg",
+        "images/puppies/german-shepherd/german-shepherd-leo-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -5124,12 +5121,11 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-nancy-825775-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-nancy-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-nancy-825775-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nancy-825775-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nancy-825775-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nancy-825775-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-nancy-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-nancy-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-nancy-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -5151,12 +5147,12 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-nick-825774-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-nick-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-nick-825774-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nick-825774-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nick-825774-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nick-825774-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-nick-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-nick-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-nick-exact-3.jpg",
+        "images/puppies/german-shepherd/german-shepherd-nick-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -5178,12 +5174,12 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-nora-825808-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-nora-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-nora-825808-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nora-825808-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nora-825808-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nora-825808-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-nora-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-nora-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-nora-exact-3.jpg",
+        "images/puppies/german-shepherd/german-shepherd-nora-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -5205,12 +5201,11 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-norman-825773-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-norman-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-norman-825773-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-norman-825773-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-norman-825773-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-norman-825773-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-norman-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-norman-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-norman-exact-3.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -5232,12 +5227,12 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-nova-821324-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-nova-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-nova-821324-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nova-821324-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nova-821324-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-nova-821324-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-nova-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-nova-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-nova-exact-3.jpg",
+        "images/puppies/german-shepherd/german-shepherd-nova-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
@@ -5259,12 +5254,12 @@ const SITE_DATA = {
       "estAdultWeight": "60 - 90 lbs",
       "price": 2450,
       "hypoallergenic": false,
-      "image": "images/puppies/german-shepherd/german-shepherd-otto-821075-exact-1.jpg",
+      "image": "images/puppies/german-shepherd/german-shepherd-otto-exact-1.jpg",
       "gallery": [
-        "images/puppies/german-shepherd/german-shepherd-otto-821075-exact-1.jpg",
-        "images/puppies/german-shepherd/german-shepherd-otto-821075-exact-2.jpg",
-        "images/puppies/german-shepherd/german-shepherd-otto-821075-exact-3.jpg",
-        "images/puppies/german-shepherd/german-shepherd-otto-821075-exact-4.jpg"
+        "images/puppies/german-shepherd/german-shepherd-otto-exact-1.jpg",
+        "images/puppies/german-shepherd/german-shepherd-otto-exact-2.jpg",
+        "images/puppies/german-shepherd/german-shepherd-otto-exact-3.jpg",
+        "images/puppies/german-shepherd/german-shepherd-otto-exact-4.jpg"
       ],
       "breeder": "USDA Certified Premier Breeder",
       "momBreed": "and littermates",
