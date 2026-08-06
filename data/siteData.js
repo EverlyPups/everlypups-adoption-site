@@ -6086,12 +6086,12 @@ const SITE_DATA = {
       "age": "13 weeks old",
       "price": 2100,
       "color": "Liver & White",
-      "image": "images/puppies/shih-tzu/shihtzu-benny-820889-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-benny-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-benny-820889-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-benny-820889-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-benny-820889-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-benny-820889-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-benny-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-benny-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-benny-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-benny-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6113,12 +6113,12 @@ const SITE_DATA = {
       "age": "18 weeks old",
       "price": 2000,
       "color": "Brindle & White",
-      "image": "images/puppies/shih-tzu/shihtzu-dawson-818481-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-dawson-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-dawson-818481-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-dawson-818481-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-dawson-818481-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-dawson-818481-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-dawson-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-dawson-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-dawson-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-dawson-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6140,12 +6140,12 @@ const SITE_DATA = {
       "age": "10 weeks old",
       "price": 2100,
       "color": "Liver & White",
-      "image": "images/puppies/shih-tzu/shihtzu-flower-823592-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-flower-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-flower-823592-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-flower-823592-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-flower-823592-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-flower-823592-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-flower-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-flower-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-flower-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-flower-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6167,12 +6167,12 @@ const SITE_DATA = {
       "age": "12 weeks old",
       "price": 2000,
       "color": "Brindle",
-      "image": "images/puppies/shih-tzu/shihtzu-gabe-822724-1.png",
+      "image": "images/puppies/shih-tzu/shih-tzu-gabe-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-gabe-822724-1.png",
-        "images/puppies/shih-tzu/shihtzu-gabe-822724-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-gabe-822724-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-gabe-822724-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-gabe-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-gabe-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-gabe-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-gabe-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6194,12 +6194,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Gold & White",
-      "image": "images/puppies/shih-tzu/shihtzu-kimberly-824824-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-kimberly-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-kimberly-824824-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-kimberly-824824-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-kimberly-824824-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-kimberly-824824-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-kimberly-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-kimberly-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-kimberly-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-kimberly-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6221,12 +6221,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2100,
       "color": "Liver",
-      "image": "images/puppies/shih-tzu/shihtzu-lilly-824361-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-lilly-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-lilly-824361-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-lilly-824361-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-lilly-824361-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-lilly-824361-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-lilly-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-lilly-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-lilly-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-lilly-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6248,12 +6248,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2100,
       "color": "Red & White",
-      "image": "images/puppies/shih-tzu/shihtzu-odina-824548-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-odina-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-odina-824548-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-odina-824548-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-odina-824548-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-odina-824548-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-odina-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-odina-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-odina-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-odina-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6275,12 +6275,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "Gold & White",
-      "image": "images/puppies/shih-tzu/shihtzu-quigley-825218-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-quigley-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-quigley-825218-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-quigley-825218-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-quigley-825218-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-quigley-825218-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-quigley-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-quigley-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-quigley-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-quigley-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6302,12 +6302,12 @@ const SITE_DATA = {
       "age": "10 weeks old",
       "price": 1900,
       "color": "Gold & White",
-      "image": "images/puppies/shih-tzu/shihtzu-rainy-823588-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-rainy-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-rainy-823588-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-rainy-823588-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-rainy-823588-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-rainy-823588-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-rainy-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-rainy-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-rainy-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-rainy-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6329,12 +6329,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2100,
       "color": "Red & White",
-      "image": "images/puppies/shih-tzu/shihtzu-reno-824822-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-reno-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-reno-824822-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-reno-824822-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-reno-824822-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-reno-824822-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-reno-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-reno-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-reno-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-reno-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6356,12 +6356,12 @@ const SITE_DATA = {
       "age": "11 weeks old",
       "price": 2100,
       "color": "Liver",
-      "image": "images/puppies/shih-tzu/shihtzu-skye-823582-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-skye-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-skye-823582-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-skye-823582-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-skye-823582-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-skye-823582-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-skye-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-skye-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-skye-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-skye-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6383,12 +6383,12 @@ const SITE_DATA = {
       "age": "10 weeks old",
       "price": 2000,
       "color": "Brindle & White",
-      "image": "images/puppies/shih-tzu/shihtzu-vader-822381-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-vader-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-vader-822381-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-vader-822381-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-vader-822381-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-vader-822381-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-vader-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-vader-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-vader-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-vader-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6410,12 +6410,12 @@ const SITE_DATA = {
       "age": "10 weeks old",
       "price": 2000,
       "color": "Brindle & White",
-      "image": "images/puppies/shih-tzu/shihtzu-volt-822382-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-volt-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-volt-822382-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-volt-822382-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-volt-822382-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-volt-822382-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-volt-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-volt-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-volt-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-volt-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -6437,12 +6437,12 @@ const SITE_DATA = {
       "age": "14 weeks old",
       "price": 2000,
       "color": "Brindle & White",
-      "image": "images/puppies/shih-tzu/shihtzu-wendelin-819984-1.jpg",
+      "image": "images/puppies/shih-tzu/shih-tzu-wendelin-exact-1.jpg",
       "gallery": [
-        "images/puppies/shih-tzu/shihtzu-wendelin-819984-1.jpg",
-        "images/puppies/shih-tzu/shihtzu-wendelin-819984-2.jpg",
-        "images/puppies/shih-tzu/shihtzu-wendelin-819984-3.jpg",
-        "images/puppies/shih-tzu/shihtzu-wendelin-819984-4.jpg"
+        "images/puppies/shih-tzu/shih-tzu-wendelin-exact-1.jpg",
+        "images/puppies/shih-tzu/shih-tzu-wendelin-exact-2.jpg",
+        "images/puppies/shih-tzu/shih-tzu-wendelin-exact-3.jpg",
+        "images/puppies/shih-tzu/shih-tzu-wendelin-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
