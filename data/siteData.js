@@ -7004,12 +7004,12 @@ const SITE_DATA = {
       "age": "10 weeks old",
       "price": 1900,
       "color": "White",
-      "image": "images/puppies/maltese/maltese-aspen-822648-1.jpg",
+      "image": "images/puppies/maltese/maltese-aspen-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltese/maltese-aspen-822648-1.jpg",
-        "images/puppies/maltese/maltese-aspen-822648-2.jpg",
-        "images/puppies/maltese/maltese-aspen-822648-3.jpg",
-        "images/puppies/maltese/maltese-aspen-822648-4.jpg"
+        "images/puppies/maltese/maltese-aspen-exact-1.jpg",
+        "images/puppies/maltese/maltese-aspen-exact-2.jpg",
+        "images/puppies/maltese/maltese-aspen-exact-3.jpg",
+        "images/puppies/maltese/maltese-aspen-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7031,12 +7031,12 @@ const SITE_DATA = {
       "age": "11 weeks old",
       "price": 2100,
       "color": "White & Lemon",
-      "image": "images/puppies/maltese/maltese-boomer-822777-1.jpg",
+      "image": "images/puppies/maltese/maltese-boomer-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltese/maltese-boomer-822777-1.jpg",
-        "images/puppies/maltese/maltese-boomer-822777-2.jpg",
-        "images/puppies/maltese/maltese-boomer-822777-3.jpg",
-        "images/puppies/maltese/maltese-boomer-822777-4.jpg"
+        "images/puppies/maltese/maltese-boomer-exact-1.jpg",
+        "images/puppies/maltese/maltese-boomer-exact-2.jpg",
+        "images/puppies/maltese/maltese-boomer-exact-3.jpg",
+        "images/puppies/maltese/maltese-boomer-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7058,12 +7058,11 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "White",
-      "image": "images/puppies/maltese/maltese-donna-822573-1.jpg",
+      "image": "images/puppies/maltese/maltese-donna-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltese/maltese-donna-822573-1.jpg",
-        "images/puppies/maltese/maltese-donna-822573-2.jpg",
-        "images/puppies/maltese/maltese-donna-822573-3.jpg",
-        "images/puppies/maltese/maltese-donna-822573-4.jpg"
+        "images/puppies/maltese/maltese-donna-exact-1.jpg",
+        "images/puppies/maltese/maltese-donna-exact-2.jpg",
+        "images/puppies/maltese/maltese-donna-exact-3.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7085,12 +7084,11 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2100,
       "color": "White & Lemon",
-      "image": "images/puppies/maltese/maltese-frisco-825494-1.jpg",
+      "image": "images/puppies/maltese/maltese-frisco-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltese/maltese-frisco-825494-1.jpg",
-        "images/puppies/maltese/maltese-frisco-825494-2.jpg",
-        "images/puppies/maltese/maltese-frisco-825494-3.jpg",
-        "images/puppies/maltese/maltese-frisco-825494-4.jpg"
+        "images/puppies/maltese/maltese-frisco-exact-1.jpg",
+        "images/puppies/maltese/maltese-frisco-exact-2.jpg",
+        "images/puppies/maltese/maltese-frisco-exact-3.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7112,12 +7110,12 @@ const SITE_DATA = {
       "age": "16 weeks old",
       "price": 1900,
       "color": "White",
-      "image": "images/puppies/maltese/maltese-hank-822002-1.jpg",
+      "image": "images/puppies/maltese/maltese-hank-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltese/maltese-hank-822002-1.jpg",
-        "images/puppies/maltese/maltese-hank-822002-2.jpg",
-        "images/puppies/maltese/maltese-hank-822002-3.jpg",
-        "images/puppies/maltese/maltese-hank-822002-4.jpg"
+        "images/puppies/maltese/maltese-hank-exact-1.jpg",
+        "images/puppies/maltese/maltese-hank-exact-2.jpg",
+        "images/puppies/maltese/maltese-hank-exact-3.jpg",
+        "images/puppies/maltese/maltese-hank-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7139,12 +7137,12 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "White",
-      "image": "images/puppies/maltese/maltese-maggie-824738-1.jpg",
+      "image": "images/puppies/maltese/maltese-maggie-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltese/maltese-maggie-824738-1.jpg",
-        "images/puppies/maltese/maltese-maggie-824738-2.jpg",
-        "images/puppies/maltese/maltese-maggie-824738-3.jpg",
-        "images/puppies/maltese/maltese-maggie-824738-4.jpg"
+        "images/puppies/maltese/maltese-maggie-exact-1.jpg",
+        "images/puppies/maltese/maltese-maggie-exact-2.jpg",
+        "images/puppies/maltese/maltese-maggie-exact-3.jpg",
+        "images/puppies/maltese/maltese-maggie-exact-4.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7166,12 +7164,11 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 2100,
       "color": "White & Lemon",
-      "image": "images/puppies/maltese/maltese-nova-824961-1.jpg",
+      "image": "images/puppies/maltese/maltese-nova-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltese/maltese-nova-824961-1.jpg",
-        "images/puppies/maltese/maltese-nova-824961-2.jpg",
-        "images/puppies/maltese/maltese-nova-824961-3.jpg",
-        "images/puppies/maltese/maltese-nova-824961-4.jpg"
+        "images/puppies/maltese/maltese-nova-exact-1.jpg",
+        "images/puppies/maltese/maltese-nova-exact-2.jpg",
+        "images/puppies/maltese/maltese-nova-exact-3.jpg"
       ],
       "health": [
         "Veterinarian Checked",
@@ -7193,12 +7190,11 @@ const SITE_DATA = {
       "age": "8 weeks old",
       "price": 1900,
       "color": "White",
-      "image": "images/puppies/maltese/maltese-theo-824962-1.jpg",
+      "image": "images/puppies/maltese/maltese-theo-exact-1.jpg",
       "gallery": [
-        "images/puppies/maltese/maltese-theo-824962-1.jpg",
-        "images/puppies/maltese/maltese-theo-824962-2.jpg",
-        "images/puppies/maltese/maltese-theo-824962-3.jpg",
-        "images/puppies/maltese/maltese-theo-824962-4.jpg"
+        "images/puppies/maltese/maltese-theo-exact-1.jpg",
+        "images/puppies/maltese/maltese-theo-exact-2.jpg",
+        "images/puppies/maltese/maltese-theo-exact-3.jpg"
       ],
       "health": [
         "Veterinarian Checked",
