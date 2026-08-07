@@ -3920,10 +3920,8 @@ img, video {
    Puppy Concierge Banner Styles
    ========================================================================== */
 .concierge-banner-section {
-  background-color: #ffffff !important;
+  background-color: #FAF9F6 !important;
   padding: 4rem 0 !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
   margin-top: 2rem !important;
   width: 100% !important;
 }
@@ -3969,14 +3967,14 @@ img, video {
   margin-left: 0 !important;
 }
 
-.btn-concierge-phone {
+.btn-concierge-whatsapp {
   display: inline-flex !important;
   align-items: center !important;
   gap: 0.65rem !important;
   padding: 0.8rem 1.85rem !important;
-  border: 1.5px solid #2D3748 !important;
+  border: 1.5px solid #25D366 !important;
   border-radius: 50px !important;
-  color: #2D3748 !important;
+  color: #25D366 !important;
   font-weight: 800 !important;
   font-size: 1.1rem !important;
   text-decoration: none !important;
@@ -3985,15 +3983,15 @@ img, video {
   font-family: 'Figtree', sans-serif !important;
 }
 
-.btn-concierge-phone:hover {
-  background-color: #2D3748 !important;
+.btn-concierge-whatsapp:hover {
+  background-color: #25D366 !important;
   color: #ffffff !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 6px 15px rgba(45, 55, 72, 0.15) !important;
+  box-shadow: 0 6px 15px rgba(37, 211, 102, 0.15) !important;
 }
 
-.btn-concierge-phone i {
-  font-size: 0.95rem !important;
+.btn-concierge-whatsapp i {
+  font-size: 1.1rem !important;
 }
 
 /* Mobile Responsiveness for Concierge Banner */
