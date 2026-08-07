@@ -3789,8 +3789,9 @@ img, video {
 }
 
 .delivery-gallery-desc {
-  font-size: 1.05rem !important;
-  line-height: 1.7 !important;
+  font-size: 22px !important;
+  line-height: 28px !important;
+  font-weight: 400 !important;
   color: #4A5568 !important;
   margin: 0 !important;
   font-family: 'Nunito', sans-serif !important;
