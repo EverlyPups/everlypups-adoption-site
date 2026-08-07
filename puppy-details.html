@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Editorial Design System Styles -->
-  <link rel="stylesheet" href="styles.css?v=880" />
+  <link rel="stylesheet" href="styles.css?v=890" />
 </head>
 <body class="puppy-detail-page-body">
 
@@ -210,52 +210,47 @@
         <div class="delivery-video-grid">
           <!-- Card 1 -->
           <div class="delivery-video-card">
-            <div class="delivery-video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=600&h=800&q=80');">
-              <div class="delivery-video-overlay">
-                <button class="btn-watch-delivery">
-                  <i class="fa-solid fa-play"></i> Watch delivery
-                </button>
-              </div>
+            <video class="delivery-video" src="assets/videos/review_video_1.mov" playsinline loop muted onclick="toggleVideoPlay(this)"></video>
+            <div class="delivery-video-overlay" onclick="toggleVideoPlay(this.previousElementSibling)">
+              <button class="btn-watch-delivery">
+                <i class="fa-solid fa-play"></i> Watch delivery
+              </button>
             </div>
           </div>
           <!-- Card 2 -->
           <div class="delivery-video-card">
-            <div class="delivery-video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&h=800&q=80');">
-              <div class="delivery-video-overlay">
-                <button class="btn-watch-delivery">
-                  <i class="fa-solid fa-play"></i> Watch delivery
-                </button>
-              </div>
+            <video class="delivery-video" src="assets/videos/review_video_2.mov" playsinline loop muted onclick="toggleVideoPlay(this)"></video>
+            <div class="delivery-video-overlay" onclick="toggleVideoPlay(this.previousElementSibling)">
+              <button class="btn-watch-delivery">
+                <i class="fa-solid fa-play"></i> Watch delivery
+              </button>
             </div>
           </div>
           <!-- Card 3 -->
           <div class="delivery-video-card">
-            <div class="delivery-video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=600&h=800&q=80');">
-              <div class="delivery-video-overlay">
-                <button class="btn-watch-delivery">
-                  <i class="fa-solid fa-play"></i> Watch delivery
-                </button>
-              </div>
+            <video class="delivery-video" src="assets/videos/review_video_3.mov" playsinline loop muted onclick="toggleVideoPlay(this)"></video>
+            <div class="delivery-video-overlay" onclick="toggleVideoPlay(this.previousElementSibling)">
+              <button class="btn-watch-delivery">
+                <i class="fa-solid fa-play"></i> Watch delivery
+              </button>
             </div>
           </div>
           <!-- Card 4 -->
           <div class="delivery-video-card">
-            <div class="delivery-video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=600&h=800&q=80');">
-              <div class="delivery-video-overlay">
-                <button class="btn-watch-delivery">
-                  <i class="fa-solid fa-play"></i> Watch delivery
-                </button>
-              </div>
+            <video class="delivery-video" src="assets/videos/review_video_4.mov" playsinline loop muted onclick="toggleVideoPlay(this)"></video>
+            <div class="delivery-video-overlay" onclick="toggleVideoPlay(this.previousElementSibling)">
+              <button class="btn-watch-delivery">
+                <i class="fa-solid fa-play"></i> Watch delivery
+              </button>
             </div>
           </div>
           <!-- Card 5 -->
           <div class="delivery-video-card">
-            <div class="delivery-video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1537151608828-ea2b117b62e4?auto=format&fit=crop&w=600&h=800&q=80');">
-              <div class="delivery-video-overlay">
-                <button class="btn-watch-delivery">
-                  <i class="fa-solid fa-play"></i> Watch delivery
-                </button>
-              </div>
+            <video class="delivery-video" src="assets/videos/review_video_5.mov" playsinline loop muted onclick="toggleVideoPlay(this)"></video>
+            <div class="delivery-video-overlay" onclick="toggleVideoPlay(this.previousElementSibling)">
+              <button class="btn-watch-delivery">
+                <i class="fa-solid fa-play"></i> Watch delivery
+              </button>
             </div>
           </div>
         </div>
@@ -320,7 +315,7 @@
   </a>
 
   <!-- Script Imports -->
-  <script src="data/siteData.js?v=1650"></script>
+  <script src="data/siteData.js?v=1660"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -431,6 +426,38 @@
 
       }
     });
+
+    function toggleVideoPlay(video) {
+      if (!video) return;
+      const card = video.closest('.delivery-video-card');
+      const overlay = card.querySelector('.delivery-video-overlay');
+      
+      // Pause all other playing videos first
+      document.querySelectorAll('.delivery-video').forEach(v => {
+        if (v !== video && !v.paused) {
+          v.pause();
+          v.muted = true;
+          v.removeAttribute('controls');
+          const otherOverlay = v.closest('.delivery-video-card').querySelector('.delivery-video-overlay');
+          if (otherOverlay) otherOverlay.style.display = 'flex';
+        }
+      });
+
+      if (video.paused) {
+        video.muted = false; // Play with sound
+        video.play().then(() => {
+          video.setAttribute('controls', 'true');
+          if (overlay) overlay.style.display = 'none';
+        }).catch(err => {
+          console.log("Play failed:", err);
+        });
+      } else {
+        video.pause();
+        video.muted = true;
+        video.removeAttribute('controls');
+        if (overlay) overlay.style.display = 'flex';
+      }
+    }
   </script>
 </body>
 </html>
