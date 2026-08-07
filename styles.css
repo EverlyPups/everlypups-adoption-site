@@ -3974,20 +3974,22 @@ img, video {
   padding: 0.8rem 1.85rem !important;
   border: 1.5px solid #25D366 !important;
   border-radius: 50px !important;
-  color: #25D366 !important;
+  color: #ffffff !important;
   font-weight: 800 !important;
   font-size: 1.1rem !important;
   text-decoration: none !important;
-  background-color: transparent !important;
+  background-color: #25D366 !important;
   transition: all 0.25s ease !important;
   font-family: 'Figtree', sans-serif !important;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2) !important;
 }
 
 .btn-concierge-whatsapp:hover {
-  background-color: #25D366 !important;
+  background-color: #128C7E !important;
+  border-color: #128C7E !important;
   color: #ffffff !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 6px 15px rgba(37, 211, 102, 0.15) !important;
+  box-shadow: 0 6px 15px rgba(18, 140, 126, 0.25) !important;
 }
 
 .btn-concierge-whatsapp i {
