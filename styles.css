@@ -3817,12 +3817,12 @@ img, video {
 }
 
 .delivery-video-grid::-webkit-scrollbar-thumb {
-  background: rgba(0, 182, 122, 0.15) !important;
+  background: #009E69 !important;
   border-radius: 10px !important;
 }
 
 .delivery-video-grid::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 182, 122, 0.3) !important;
+  background: #007D53 !important;
 }
 
 .delivery-video-card {
