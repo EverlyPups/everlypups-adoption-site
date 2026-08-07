@@ -3798,15 +3798,39 @@ img, video {
 }
 
 .delivery-video-grid {
-  display: grid !important;
-  grid-template-columns: repeat(5, 1fr) !important;
-  gap: 1.25rem !important;
+  display: flex !important;
+  gap: 1.5rem !important;
+  overflow-x: auto !important;
+  padding-bottom: 1.5rem !important;
+  scroll-snap-type: x mandatory !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+/* Beautiful custom scrollbar for the video grid */
+.delivery-video-grid::-webkit-scrollbar {
+  height: 6px !important;
+}
+
+.delivery-video-grid::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.03) !important;
+  border-radius: 10px !important;
+}
+
+.delivery-video-grid::-webkit-scrollbar-thumb {
+  background: rgba(0, 182, 122, 0.15) !important;
+  border-radius: 10px !important;
+}
+
+.delivery-video-grid::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 182, 122, 0.3) !important;
 }
 
 .delivery-video-card {
   position: relative !important;
-  width: 100% !important;
-  aspect-ratio: 9/16 !important;
+  width: 296px !important;
+  height: 480px !important;
+  flex-shrink: 0 !important;
+  scroll-snap-align: start !important;
   border-radius: 16px !important;
   overflow: hidden !important;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05) !important;
@@ -3872,9 +3896,6 @@ img, video {
     grid-template-columns: 1fr !important;
     gap: 1.25rem !important;
   }
-  .delivery-video-grid {
-    grid-template-columns: repeat(3, 1fr) !important;
-  }
   .delivery-gallery-title {
     font-size: 2rem !important;
   }
@@ -3887,10 +3908,6 @@ img, video {
 }
 
 @media (max-width: 600px) {
-  .delivery-video-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 1rem !important;
-  }
   .delivery-gallery-section {
     padding: 2.5rem 0 !important;
   }
