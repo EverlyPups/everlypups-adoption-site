@@ -3916,3 +3916,99 @@ img, video {
   }
 }
 
+/* ==========================================================================
+   Puppy Concierge Banner Styles
+   ========================================================================== */
+.concierge-banner-section {
+  background-color: #ffffff !important;
+  padding: 4rem 0 !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+  margin-top: 2rem !important;
+  width: 100% !important;
+}
+
+.concierge-banner-box {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  gap: 1.5rem !important;
+}
+
+.concierge-banner-title {
+  font-size: 1.85rem !important;
+  font-weight: 800 !important;
+  color: #012B3A !important;
+  margin: 0 !important;
+  max-width: 780px !important;
+  line-height: 1.35 !important;
+  font-family: 'Outfit', sans-serif !important;
+  letter-spacing: -0.01em !important;
+}
+
+.concierge-avatars-row {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0.25rem 0 !important;
+}
+
+.concierge-avatar {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  border: 3px solid #ffffff !important;
+  object-fit: cover !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12) !important;
+  margin-left: -14px !important;
+}
+
+.concierge-avatar:first-child {
+  margin-left: 0 !important;
+}
+
+.btn-concierge-phone {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.65rem !important;
+  padding: 0.8rem 1.85rem !important;
+  border: 1.5px solid #2D3748 !important;
+  border-radius: 50px !important;
+  color: #2D3748 !important;
+  font-weight: 800 !important;
+  font-size: 1.1rem !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+  transition: all 0.25s ease !important;
+  font-family: 'Figtree', sans-serif !important;
+}
+
+.btn-concierge-phone:hover {
+  background-color: #2D3748 !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 15px rgba(45, 55, 72, 0.15) !important;
+}
+
+.btn-concierge-phone i {
+  font-size: 0.95rem !important;
+}
+
+/* Mobile Responsiveness for Concierge Banner */
+@media (max-width: 768px) {
+  .concierge-banner-section {
+    padding: 3rem 0 !important;
+  }
+  .concierge-banner-title {
+    font-size: 1.5rem !important;
+    padding: 0 1rem !important;
+  }
+  .concierge-avatar {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+
