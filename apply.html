@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Adoption Application | PawHaven</title>
+  <title>Find the Right Puppy for Your Family | PawHaven</title>
   
-  <!-- Google Fonts: Nunito & Figtree & Outfit -->
+  <!-- Google Fonts: Nunito, Figtree, Outfit, Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   
   <!-- Font Awesome 6 Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
@@ -17,546 +17,708 @@
   <link rel="stylesheet" href="styles.css?v=945" />
 
   <style>
-    /* Specific styling for Adoption Application page */
+    /* Reset and theme styles matching PuppySpot details mockup */
     .apply-page-body {
       background-color: #FAF9F6 !important;
-      color: #012B3A !important;
-    }
-    
-    .apply-main-wrapper {
-      padding: 4rem 0 6rem 0 !important;
+      color: #333333 !important;
+      font-family: 'Inter', sans-serif !important;
     }
 
-    .apply-header {
-      margin-bottom: 3rem !important;
-      text-align: left !important;
+    /* Checkout Header Styles */
+    .checkout-header {
+      background-color: #ffffff !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      padding: 0.75rem 1.5rem !important;
+      border-bottom: 1px solid #E2E8F0 !important;
+      height: 70px !important;
+      box-sizing: border-box !important;
     }
 
-    .apply-title {
+    .checkout-header-logo {
       font-family: 'Outfit', sans-serif !important;
-      font-size: 2.8rem !important;
+      font-size: 1.5rem !important;
       font-weight: 900 !important;
-      color: #012B3A !important;
-      margin: 0 0 0.5rem 0 !important;
-      letter-spacing: -0.02em !important;
+      color: #000000 !important;
+      text-decoration: none !important;
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
     }
 
-    .apply-subtitle {
-      font-size: 1.15rem !important;
-      color: #555555 !important;
-      margin: 0 !important;
-      max-width: 600px !important;
-      line-height: 1.5 !important;
+    .checkout-header-logo i {
+      color: #000000 !important;
     }
 
-    /* Layout column wrapper */
-    .apply-grid-wrapper {
+    .checkout-header-right {
+      display: flex !important;
+      align-items: center !important;
+      gap: 1.25rem !important;
+    }
+
+    .header-badge {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      font-family: 'Nunito', sans-serif !important;
+      font-weight: 700 !important;
+      font-size: 0.95rem !important;
+      color: #333333 !important;
+    }
+
+    .header-divider {
+      width: 1px !important;
+      height: 20px !important;
+      background-color: #CBD5E1 !important;
+    }
+
+    .header-phone-link {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      font-family: 'Nunito', sans-serif !important;
+      color: #000000 !important;
+      text-decoration: none !important;
+      font-size: 0.95rem !important;
+    }
+
+    .header-phone-link span {
+      color: #666666 !important;
+    }
+
+    .header-phone-number {
+      font-weight: 800 !important;
+      text-decoration: underline !important;
+    }
+
+    /* Stepper / Progress Bar */
+    .stepper-container {
+      width: 100% !important;
+      max-width: 816px !important;
+      margin: 1.5rem auto 0 auto !important;
+      padding: 0 1.5rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .stepper-steps {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      position: relative !important;
+    }
+
+    .stepper-step {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      position: relative !important;
+      background: none !important;
+      border: none !important;
+      padding: 0 !important;
+      flex: 1 !important;
+      cursor: pointer !important;
+    }
+
+    .stepper-icon-wrapper {
+      position: relative !important;
+      z-index: 2 !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    .stepper-icon-bg {
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      fill: #A9E2C1 !important;
+      z-index: -1 !important;
+    }
+
+    .stepper-label {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.85rem !important;
+      color: #828282 !important;
+      font-weight: 700 !important;
+    }
+
+    .stepper-step.active .stepper-label {
+      color: #333333 !important;
+      font-weight: 800 !important;
+    }
+
+    .stepper-separator {
+      height: 4px !important;
+      background-color: #E2E8F0 !important;
+      flex: 1 !important;
+      margin: 0 10px !important;
+      border-radius: 99px !important;
+      position: relative !important;
+      top: -10px !important;
+      z-index: 1 !important;
+    }
+
+    .stepper-separator.active {
+      background-color: #333333 !important;
+    }
+
+    /* Main Grid Layout */
+    .checkout-section {
+      max-width: 1200px !important;
+      margin: 0 auto !important;
+      padding: 0 1.5rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .checkout-grid {
       display: grid !important;
       grid-template-columns: 1.85fr 1fr !important;
-      gap: 3rem !important;
+      gap: 2.5rem !important;
+      margin-top: 2rem !important;
+      margin-bottom: 4rem !important;
       align-items: start !important;
     }
 
-    /* Left form card customization */
-    .apply-form-card {
-      background: #FFFFFF !important;
-      padding: 3rem !important;
-      border-radius: 28px !important;
-      box-shadow: 0 16px 45px rgba(0, 0, 0, 0.04) !important;
-      border: 1px solid rgba(0, 0, 0, 0.05) !important;
-    }
-
-    .apply-form-section-title {
-      font-family: 'Outfit', sans-serif !important;
-      font-size: 1.35rem !important;
-      font-weight: 800 !important;
-      color: #012B3A !important;
-      margin: 2rem 0 1.25rem 0 !important;
-      padding-bottom: 0.5rem !important;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
-      display: flex !important;
-      align-items: center !important;
-      gap: 0.6rem !important;
-    }
-
-    .apply-form-section-title:first-of-type {
-      margin-top: 0 !important;
-    }
-
-    .apply-form-section-title i {
-      font-size: 1.1rem !important;
-      color: #00B67A !important;
-    }
-
-    .btn-apply-submit {
-      width: 100% !important;
-      background: #00B67A !important;
-      color: #ffffff !important;
-      border: none !important;
-      padding: 1.1rem 2rem !important;
-      border-radius: 14px !important;
-      font-weight: 800 !important;
-      font-size: 1.15rem !important;
-      cursor: pointer !important;
-      transition: all 0.25s ease !important;
-      box-shadow: 0 8px 24px rgba(0, 182, 122, 0.2) !important;
-      display: flex !important;
-      justify-content: center !important;
-      align-items: center !important;
-      gap: 0.75rem !important;
-      font-family: 'Figtree', sans-serif !important;
-      margin-top: 2rem !important;
-    }
-
-    .btn-apply-submit:hover {
-      background: #009E69 !important;
-      transform: translateY(-2px) !important;
-      box-shadow: 0 12px 28px rgba(0, 182, 122, 0.28) !important;
-    }
-
-    .btn-apply-submit:active {
-      transform: translateY(0) !important;
-    }
-
-    .submit-disclaimer {
-      font-size: 0.85rem !important;
-      color: #777777 !important;
-      text-align: center !important;
-      margin-top: 1rem !important;
-      line-height: 1.4 !important;
-    }
-
-    /* Right column summary card */
-    .summary-card {
-      background: #FFFFFF !important;
-      border-radius: 28px !important;
-      border: 1px solid rgba(0, 0, 0, 0.05) !important;
-      box-shadow: 0 16px 45px rgba(0, 0, 0, 0.04) !important;
-      padding: 2.2rem !important;
-      position: sticky !important;
-      top: 110px !important;
-    }
-
-    .summary-card-header {
-      border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
-      padding-bottom: 1.25rem !important;
-      margin-bottom: 1.5rem !important;
-    }
-
-    .summary-card-title {
-      font-family: 'Outfit', sans-serif !important;
-      font-size: 1.3rem !important;
-      font-weight: 800 !important;
-      color: #012B3A !important;
-      margin: 0 !important;
-    }
-
-    .summary-puppy-header {
-      display: flex !important;
-      gap: 1.25rem !important;
-      align-items: center !important;
-      margin-bottom: 1.5rem !important;
-    }
-
-    .summary-puppy-img-wrapper {
-      width: 90px !important;
-      height: 90px !important;
-      border-radius: 18px !important;
-      overflow: hidden !important;
-      border: 1px solid rgba(0, 0, 0, 0.05) !important;
-      flex-shrink: 0 !important;
-    }
-
-    .summary-puppy-img {
-      width: 100% !important;
-      height: 100% !important;
-      object-fit: cover !important;
-    }
-
-    .summary-puppy-info-meta {
+    /* Left Form Column */
+    .checkout-left-col {
       display: flex !important;
       flex-direction: column !important;
-      gap: 0.25rem !important;
+      gap: 1.85rem !important;
     }
 
-    .summary-puppy-name {
-      font-family: 'Outfit', sans-serif !important;
-      font-size: 1.4rem !important;
-      font-weight: 900 !important;
-      color: #012B3A !important;
-      margin: 0 !important;
+    /* Top Puppy Welcome Card */
+    .welcome-card {
+      background-color: #E8F5E9 !important; /* tw-bg-green-04 */
+      width: 100% !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 2rem 1.5rem 1rem 1.5rem !important;
+      border-radius: 20px !important;
+      box-sizing: border-box !important;
+      z-index: 10 !important;
     }
 
-    .summary-puppy-breed {
-      font-size: 0.9rem !important;
-      color: #666666 !important;
-      margin: 0 !important;
-      font-weight: 600 !important;
-    }
-
-    .summary-puppy-specs-grid {
-      display: grid !important;
-      grid-template-columns: repeat(2, 1fr) !important;
-      gap: 0.75rem !important;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
-      padding-bottom: 1.25rem !important;
+    .welcome-puppy-img {
+      width: 150px !important;
+      height: 150px !important;
+      border-radius: 16px !important;
+      object-fit: cover !important;
+      border: 1px solid rgba(0,0,0,0.05) !important;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
       margin-bottom: 1.25rem !important;
     }
 
-    .summary-spec-item {
-      background: #FAF9F6 !important;
+    .welcome-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 2rem !important;
+      font-weight: 900 !important;
+      color: #000000 !important;
+      line-height: 1.25 !important;
+      margin: 0 !important;
+      text-align: center !important;
+    }
+
+    .welcome-title strong {
+      text-transform: capitalize !important;
+    }
+
+    /* Form Details Wrapper */
+    .checkout-form-card {
+      background: #FFFFFF !important;
+      border-radius: 20px !important;
+      border: 1px solid #E2E8F0 !important;
+      padding: 2.5rem 2rem !important;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02) !important;
+      box-sizing: border-box !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.75rem !important;
+    }
+
+    .form-header-group {
+      margin-bottom: 0.5rem !important;
+    }
+
+    .form-section-heading {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.35rem !important;
+      font-weight: 800 !important;
+      color: #00B67A !important; /* tw-text-green-01 */
+      margin: 0 0 0.25rem 0 !important;
+    }
+
+    .form-section-subtext {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      color: #666666 !important; /* tw-text-gray-02 */
+      margin: 0 !important;
+      line-height: 1.4 !important;
+    }
+
+    .form-section-subtext span {
+      text-transform: capitalize !important;
+    }
+
+    .form-divider {
+      height: 1px !important;
+      background-color: #E2E8F0 !important;
+      border: none !important;
+      margin: 0 !important;
+    }
+
+    .form-divider-green {
+      height: 2px !important;
+      background-color: #00B67A !important;
+      border: none !important;
+      margin: 0 !important;
+      border-radius: 4px !important;
+    }
+
+    /* Restructured Form Inputs */
+    .fieldset-group {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1rem !important;
+      border: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .fieldset-legend {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.1rem !important;
+      font-weight: 800 !important;
+      color: #333333 !important; /* tw-text-gray-01 */
+      margin-bottom: 0.5rem !important;
+      padding: 0 !important;
+    }
+
+    .input-wrapper {
+      height: 60px !important;
+      border: 1px solid #CBD5E1 !important;
       border-radius: 10px !important;
-      padding: 0.6rem 0.8rem !important;
+      padding: 0 1rem !important;
+      display: flex !important;
+      align-items: center !important;
+      background-color: #ffffff !important;
+      transition: all 0.2s ease !important;
+      box-sizing: border-box !important;
+    }
+
+    .input-wrapper:focus-within {
+      border-color: #00B67A !important;
+      box-shadow: 0 0 0 2px rgba(0, 182, 122, 0.15) !important;
+    }
+
+    .input-field {
+      width: 100% !important;
+      height: 56px !important;
+      border: none !important;
+      outline: none !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 1rem !important;
+      color: #333333 !important;
+      background: transparent !important;
+      box-sizing: border-box !important;
+      padding: 0 !important;
+    }
+
+    .input-field::placeholder {
+      color: #94A3B8 !important;
+    }
+
+    .input-search-icon {
+      color: #828282 !important;
+      margin-right: 0.75rem !important;
+      font-size: 1.15rem !important;
+    }
+
+    .form-row-2col {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr !important;
+      gap: 1.25rem !important;
+    }
+
+    /* Select Dropdown styling */
+    .select-field {
+      width: 100% !important;
+      height: 56px !important;
+      border: none !important;
+      outline: none !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 1rem !important;
+      color: #94A3B8 !important;
+      background: transparent !important;
+      cursor: pointer !important;
+      appearance: none !important;
+      -webkit-appearance: none !important;
+      box-sizing: border-box !important;
+      padding: 0 1.5rem 0 0 !important;
+    }
+
+    .select-wrapper {
+      position: relative !important;
+      width: 100% !important;
+    }
+
+    .select-wrapper::after {
+      content: '\f107' !important;
+      font-family: 'Font Awesome 6 Free' !important;
+      font-weight: 900 !important;
+      position: absolute !important;
+      right: 0.25rem !important;
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+      color: #000000 !important;
+      font-size: 1.15rem !important;
+      pointer-events: none !important;
+    }
+
+    /* Valid states */
+    .select-field.selected-valid {
+      color: #333333 !important;
+    }
+
+    /* Error Validation States */
+    .input-error-border {
+      border-color: #EB5757 !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    .error-msg {
+      color: #EB5757 !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      margin-top: 0.25rem !important;
+      margin-bottom: 1rem !important;
+    }
+
+    .error-msg i {
+      font-size: 1rem !important;
+    }
+
+    /* Opt-in SMS checkbox */
+    .checkbox-container {
+      display: flex !important;
+      align-items: flex-start !important;
+      gap: 0.75rem !important;
+      margin-top: 0.5rem !important;
+      cursor: pointer !important;
+    }
+
+    .checkbox-input {
+      width: 20px !important;
+      height: 20px !important;
+      border: 1px solid #CBD5E1 !important;
+      border-radius: 4px !important;
+      cursor: pointer !important;
+      margin-top: 2px !important;
+      accent-color: #333333 !important;
+    }
+
+    .checkbox-label {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      color: #666666 !important;
+      line-height: 1.4 !important;
+      cursor: pointer !important;
+    }
+
+    .checkbox-label span {
+      text-transform: capitalize !important;
+    }
+
+    /* Age Verification Radio Cards */
+    .radio-cards-row {
+      display: flex !important;
+      gap: 1.25rem !important;
+      margin-top: 0.5rem !important;
+    }
+
+    .radio-card {
+      min-height: 80px !important;
+      min-width: 80px !important;
+      border: 1px solid #E2E8F0 !important;
+      background-color: #ffffff !important;
+      border-radius: 12px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      cursor: pointer !important;
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.15rem !important;
+      font-weight: 800 !important;
+      color: #333333 !important;
+      transition: all 0.2s ease !important;
+      box-sizing: border-box !important;
+      user-select: none !important;
+    }
+
+    .radio-card:hover {
+      border-color: #CBD5E1 !important;
+    }
+
+    .radio-card.selected {
+      background-color: #E8F5E9 !important; /* tw-bg-green-04 */
+      border-color: #00B67A !important;
+      border-width: 2px !important;
+    }
+
+    /* Continue Action Button styling */
+    .btn-checkout-continue {
+      width: 100% !important;
+      background-color: #012B3A !important; /* tw-bg-blue-01 */
+      color: #ffffff !important;
+      border: none !important;
+      height: 52px !important;
+      border-radius: 9999px !important;
+      font-family: 'Inter', sans-serif !important;
+      font-weight: 700 !important;
+      font-size: 1rem !important;
+      cursor: pointer !important;
+      transition: background-color 0.2s ease, transform 0.2s ease !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 0 1.5rem !important;
+      box-sizing: border-box !important;
+      margin: 1.5rem auto 0 auto !important;
+    }
+
+    .btn-checkout-continue:hover {
+      background-color: #0F3D4E !important;
+    }
+
+    .btn-checkout-continue:active {
+      transform: scale(0.99) !important;
+    }
+
+    /* Right Column Summary Card styling */
+    .summary-card {
+      background-color: #ffffff !important;
+      border-radius: 24px !important;
+      border: 1px solid #E2E8F0 !important;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.02) !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+      position: sticky !important;
+      top: 90px !important;
+    }
+
+    .summary-card-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.35rem !important;
+      font-weight: 700 !important;
+      color: #333333 !important;
+      padding: 1.25rem 1.5rem !important;
+      border-bottom: 1px solid #E2E8F0 !important;
+      margin: 0 !important;
+    }
+
+    .summary-card-body {
+      padding: 1.25rem 1.5rem 2rem 1.5rem !important;
+      display: flex !important;
+      flex-direction: column !important;
+    }
+
+    .summary-puppy-row {
+      display: flex !important;
+      gap: 1rem !important;
+      align-items: flex-start !important;
+    }
+
+    .summary-puppy-img {
+      width: 100px !important;
+      height: 100px !important;
+      border-radius: 12px !important;
+      object-fit: cover !important;
+      flex-shrink: 0 !important;
+    }
+
+    .summary-puppy-info {
       display: flex !important;
       flex-direction: column !important;
       gap: 0.15rem !important;
     }
 
-    .summary-spec-label {
-      font-size: 0.75rem !important;
-      text-transform: uppercase !important;
-      letter-spacing: 0.03em !important;
-      color: #777777 !important;
-      font-weight: 800 !important;
+    .summary-puppy-name {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.15rem !important;
+      font-weight: 700 !important;
+      color: #333333 !important;
+      text-transform: capitalize !important;
+      margin: 0 !important;
     }
 
-    .summary-spec-value {
-      font-size: 0.9rem !important;
-      font-weight: 700 !important;
-      color: #012B3A !important;
+    .summary-puppy-meta {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      color: #4B5563 !important;
+      margin: 0 !important;
+    }
+
+    .summary-puppy-meta.breed {
+      text-transform: capitalize !important;
+    }
+
+    .summary-divider {
+      height: 2px !important;
+      background-color: #FAF9F6 !important;
+      border: none !important;
+      margin: 1.25rem 0 !important;
+    }
+
+    .summary-pricing-list {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.25rem !important;
     }
 
     .summary-pricing-row {
       display: flex !important;
       justify-content: space-between !important;
-      align-items: center !important;
-      margin-bottom: 0.75rem !important;
-      font-size: 0.95rem !important;
-      color: #555555 !important;
+      align-items: flex-start !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 1rem !important;
+      color: #333333 !important;
     }
 
     .summary-pricing-row.total-row {
-      border-top: 1px solid rgba(0, 0, 0, 0.06) !important;
-      padding-top: 1rem !important;
-      margin-top: 0.75rem !important;
-      margin-bottom: 1.25rem !important;
-      color: #012B3A !important;
-      font-weight: 800 !important;
-      font-size: 1.15rem !important;
-    }
-
-    .summary-pricing-price {
-      font-weight: 800 !important;
-      color: #012B3A !important;
-    }
-
-    .summary-pricing-price.total-price {
-      color: #00B67A !important;
-      font-size: 1.25rem !important;
-    }
-
-    .summary-status-badge {
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-      gap: 0.5rem !important;
-      padding: 0.75rem !important;
-      border-radius: 12px !important;
-      font-weight: 800 !important;
-      font-size: 0.9rem !important;
-      width: 100% !important;
-      box-sizing: border-box !important;
-    }
-
-    .status-draft {
-      background-color: rgba(1, 43, 58, 0.06) !important;
-      color: #012B3A !important;
-    }
-
-    .status-submitted {
-      background-color: rgba(0, 182, 122, 0.08) !important;
-      color: #00B67A !important;
-    }
-
-    /* Fallback card if no puppy selected */
-    .no-puppy-card {
-      background: #FFFFFF !important;
-      padding: 4rem 3rem !important;
-      border-radius: 28px !important;
-      box-shadow: 0 16px 45px rgba(0, 0, 0, 0.04) !important;
-      border: 1px solid rgba(0, 0, 0, 0.05) !important;
-      text-align: center !important;
-      max-width: 600px !important;
-      margin: 2rem auto !important;
-    }
-
-    .no-puppy-icon {
-      font-size: 3.5rem !important;
-      color: #C86D51 !important;
-      margin-bottom: 1.5rem !important;
-    }
-
-    .no-puppy-title {
-      font-family: 'Outfit', sans-serif !important;
-      font-size: 1.8rem !important;
-      font-weight: 800 !important;
-      margin-bottom: 1rem !important;
-    }
-
-    .no-puppy-desc {
-      color: #666666 !important;
+      font-weight: 700 !important;
       font-size: 1.05rem !important;
-      margin-bottom: 2rem !important;
-      line-height: 1.5 !important;
     }
 
-    .btn-outline-back {
-      display: inline-flex !important;
-      align-items: center !important;
-      gap: 0.5rem !important;
-      border: 1.5px solid #012B3A !important;
-      color: #012B3A !important;
-      padding: 0.8rem 1.75rem !important;
-      border-radius: 50px !important;
-      font-weight: 800 !important;
-      text-decoration: none !important;
-      transition: all 0.25s ease !important;
-    }
-
-    .btn-outline-back:hover {
-      background-color: #012B3A !important;
-      color: #ffffff !important;
-      transform: translateY(-2px) !important;
-    }
-
-    /* Process steps block styling */
-    .process-section {
-      background: #ffffff !important;
-      border-top: 1px solid rgba(0,0,0,0.05) !important;
-      border-bottom: 1px solid rgba(0,0,0,0.05) !important;
-      padding: 5rem 0 !important;
-      margin-top: 3rem !important;
-    }
-
-    .process-container-width {
-      max-width: 1200px !important;
-      margin: 0 auto !important;
-      padding: 0 2rem !important;
-      box-sizing: border-box !important;
-    }
-
-    .process-header {
-      text-align: center !important;
-      margin-bottom: 3.5rem !important;
-    }
-
-    .process-title {
-      font-family: 'Outfit', sans-serif !important;
-      font-size: 2.2rem !important;
-      font-weight: 900 !important;
-      color: #012B3A !important;
-      margin: 0 0 0.5rem 0 !important;
-    }
-
-    .process-subtitle {
-      font-size: 1.1rem !important;
-      color: #666666 !important;
-      margin: 0 !important;
-    }
-
-    .steps-timeline {
-      display: flex !important;
-      justify-content: space-between !important;
-      position: relative !important;
-      list-style: none !important;
-      padding: 0 !important;
-      margin: 0 0 3rem 0 !important;
-    }
-
-    .steps-timeline::before {
-      content: '' !important;
-      position: absolute !important;
-      top: 24px !important;
-      left: 8% !important;
-      right: 8% !important;
-      height: 3px !important;
-      background: #FAF9F6 !important;
-      border: 1px solid rgba(0,0,0,0.03) !important;
-      z-index: 1 !important;
-    }
-
-    .timeline-step {
-      position: relative !important;
-      z-index: 2 !important;
+    .summary-pricing-row-left {
       display: flex !important;
       flex-direction: column !important;
-      align-items: center !important;
-      flex: 1 !important;
-      text-align: center !important;
+      gap: 0.15rem !important;
     }
 
-    .timeline-circle {
-      width: 50px !important;
-      height: 50px !important;
-      border-radius: 50% !important;
-      background: #FFFFFF !important;
-      border: 3px solid rgba(0, 0, 0, 0.05) !important;
-      color: #888888 !important;
-      font-family: 'Outfit', sans-serif !important;
-      font-weight: 800 !important;
-      font-size: 1.15rem !important;
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-      margin-bottom: 0.85rem !important;
-      transition: all 0.3s ease !important;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02) !important;
+    .summary-pricing-row-label {
+      text-transform: capitalize !important;
     }
 
-    .timeline-step.active .timeline-circle {
-      background: #00B67A !important;
-      border-color: #00B67A !important;
-      color: #FFFFFF !important;
-      box-shadow: 0 6px 15px rgba(0, 182, 122, 0.25) !important;
+    .summary-pricing-row-subtext {
+      font-size: 0.75rem !important;
+      color: #6B7280 !important;
+      max-width: 256px !important;
+      line-height: 1.35 !important;
     }
 
-    .timeline-step.pending .timeline-circle {
-      border-color: #012B3A !important;
-      color: #012B3A !important;
+    .summary-pricing-row-subtext button {
+      background: none !important;
+      border: none !important;
+      padding: 0 !important;
+      color: #6B7280 !important;
+      text-decoration: underline !important;
+      text-underline-offset: 2px !important;
+      cursor: pointer !important;
+      font-size: 0.75rem !important;
     }
 
-    .timeline-label {
-      font-family: 'Figtree', sans-serif !important;
-      font-size: 0.9rem !important;
-      font-weight: 800 !important;
-      color: #012B3A !important;
-      margin-bottom: 0.2rem !important;
+    .summary-pricing-row-subtext-tax {
+      font-size: 0.75rem !important;
+      color: #6B7280 !important;
+      margin-top: 0.15rem !important;
     }
 
-    .timeline-desc {
-      font-size: 0.8rem !important;
-      color: #666666 !important;
-      max-width: 140px !important;
-      line-height: 1.3 !important;
+    /* Checkout Footer Styles */
+    .checkout-footer {
+      border-top: 1px solid #E2E8F0 !important;
+      background-color: #FAF9F6 !important;
+      padding: 1.5rem 0 !important;
+      margin-top: auto !important;
     }
 
-    .process-footer-notice {
-      text-align: center !important;
-      background: #FAF9F6 !important;
-      padding: 1rem 2rem !important;
-      border-radius: 12px !important;
-      font-size: 0.95rem !important;
-      font-weight: 700 !important;
-      color: #012B3A !important;
-      border: 1px solid rgba(0,0,0,0.03) !important;
-      display: inline-block !important;
+    .checkout-footer-container {
+      max-width: 1200px !important;
       margin: 0 auto !important;
-      width: fit-content !important;
-    }
-
-    .process-footer-wrapper {
+      padding: 0 1.5rem !important;
       display: flex !important;
-      justify-content: center !important;
+      flex-direction: column !important;
+      gap: 1.25rem !important;
+      box-sizing: border-box !important;
     }
 
-    /* Payment methods block styling */
-    .payment-preview-section {
-      padding: 5rem 0 !important;
-      background: #FAF9F6 !important;
-    }
-
-    .payment-preview-header {
-      text-align: center !important;
-      margin-bottom: 3rem !important;
-    }
-
-    .payment-preview-title {
-      font-family: 'Outfit', sans-serif !important;
-      font-size: 2.2rem !important;
-      font-weight: 900 !important;
-      color: #012B3A !important;
-      margin: 0 0 0.5rem 0 !important;
-    }
-
-    .payment-preview-desc {
-      font-size: 1.05rem !important;
-      color: #666666 !important;
-      max-width: 600px !important;
-      margin: 0 auto !important;
-    }
-
-    .payment-cards-grid {
-      display: grid !important;
-      grid-template-columns: repeat(4, 1fr) !important;
+    .checkout-footer-top {
+      display: flex !important;
+      flex-direction: column !important;
       gap: 1.5rem !important;
     }
 
-    .payment-card {
-      background: #ffffff !important;
-      border-radius: 20px !important;
-      border: 1px solid rgba(0, 0, 0, 0.05) !important;
-      padding: 2rem !important;
-      transition: all 0.25s ease !important;
-      display: flex !important;
-      flex-direction: column !important;
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.02) !important;
-    }
-
-    .payment-card:hover {
-      border-color: #00B67A !important;
-      transform: translateY(-4px) !important;
-      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.06) !important;
-    }
-
-    .payment-card-icon {
-      font-size: 2.2rem !important;
-      color: #00B67A !important;
-      margin-bottom: 1.25rem !important;
-    }
-
-    .payment-card-title {
-      font-family: 'Outfit', sans-serif !important;
-      font-size: 1.25rem !important;
-      font-weight: 800 !important;
-      color: #012B3A !important;
-      margin: 0 0 0.75rem 0 !important;
-    }
-
-    .payment-card-bullets {
+    .footer-links-list {
       list-style: none !important;
       padding: 0 !important;
       margin: 0 !important;
-      font-size: 0.9rem !important;
-      color: #555555 !important;
       display: flex !important;
       flex-direction: column !important;
-      gap: 0.45rem !important;
+      gap: 1.5rem !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      color: rgba(0, 0, 0, 0.5) !important;
     }
 
-    .payment-card-bullets li {
-      position: relative !important;
-      padding-left: 1.2rem !important;
+    .footer-links-list li.copyright {
+      color: #333333 !important;
     }
 
-    .payment-card-bullets li::before {
-      content: '•' !important;
-      position: absolute !important;
-      left: 0.2rem !important;
-      color: #00B67A !important;
-      font-weight: bold !important;
+    .footer-links-list a {
+      color: rgba(0, 0, 0, 0.5) !important;
+      text-decoration: none !important;
+      white-space: nowrap !important;
     }
 
-    /* Success View Container */
+    .footer-links-list a:hover {
+      text-decoration: underline !important;
+    }
+
+    .footer-divider {
+      height: 1px !important;
+      background-color: #E2E8F0 !important;
+      border: none !important;
+      margin: 0 !important;
+    }
+
+    .footer-security-wrapper {
+      max-width: 400px !important;
+    }
+
+    .footer-security-badge {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.75rem !important;
+      color: #333333 !important;
+      font-weight: 700 !important;
+    }
+
+    .footer-security-text {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.75rem !important;
+      color: rgba(0, 0, 0, 0.5) !important;
+      margin-top: 0.5rem !important;
+      line-height: 1.4 !important;
+    }
+
+    /* Success State Container */
     .success-container {
       background: #FFFFFF !important;
       padding: 5rem 4rem !important;
-      border-radius: 28px !important;
-      box-shadow: 0 16px 45px rgba(0, 0, 0, 0.04) !important;
-      border: 1px solid rgba(0, 0, 0, 0.05) !important;
+      border-radius: 24px !important;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02) !important;
+      border: 1px solid #E2E8F0 !important;
       text-align: center !important;
       max-width: 650px !important;
       margin: 2rem auto !important;
       display: none;
+      box-sizing: border-box !important;
     }
 
     .success-icon-circle {
@@ -609,66 +771,47 @@
       box-shadow: 0 8px 20px rgba(0, 182, 122, 0.2) !important;
     }
 
-    /* Mobile Responsiveness styling */
-    @media (max-width: 992px) {
-      .apply-grid-wrapper {
-        grid-template-columns: 1.5fr 1fr !important;
-        gap: 2rem !important;
+    /* Responsive Style Overrides */
+    @media (min-width: 48em) {
+      .footer-links-list {
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 0.75rem !important;
       }
-      .payment-cards-grid {
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 1.25rem !important;
+      .footer-links-list li.dot-separator {
+        display: block !important;
       }
     }
 
-    @media (max-width: 768px) {
-      .apply-main-wrapper {
-        padding: 2.5rem 0 4rem 0 !important;
+    @media (max-width: 62em) {
+      .checkout-grid {
+        grid-template-columns: 1.5fr 1fr !important;
+        gap: 1.5rem !important;
       }
-      .apply-grid-wrapper {
+    }
+
+    @media (max-width: 48em) {
+      .checkout-header {
+        padding: 0 1rem !important;
+      }
+      .checkout-grid {
         grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
       }
       .summary-card {
-        order: -1 !important;
+        order: -1 !important; /* Move summary above form on mobile */
         position: static !important;
-        margin-bottom: 1.5rem !important;
+        margin-bottom: 0.5rem !important;
       }
-      .apply-form-card {
-        padding: 2rem !important;
+      .checkout-form-card {
+        padding: 1.75rem 1.25rem !important;
       }
-      .steps-timeline {
-        flex-direction: column !important;
-        align-items: flex-start !important;
-        gap: 2rem !important;
-        padding-left: 1.5rem !important;
-        margin-bottom: 2rem !important;
-      }
-      .steps-timeline::before {
-        left: 39px !important;
-        top: 10px !important;
-        bottom: 10px !important;
-        width: 3px !important;
-        height: auto !important;
-      }
-      .timeline-step {
-        flex-direction: row !important;
-        align-items: flex-start !important;
-        gap: 1.25rem !important;
-        text-align: left !important;
-      }
-      .timeline-circle {
-        margin-bottom: 0 !important;
-        flex-shrink: 0 !important;
-      }
-      .timeline-desc {
-        max-width: none !important;
-      }
-      .payment-cards-grid {
+      .form-row-2col {
         grid-template-columns: 1fr !important;
         gap: 1rem !important;
       }
-      .apply-title {
-        font-size: 2.2rem !important;
+      .btn-checkout-continue {
+        max-width: none !important;
       }
     }
   </style>
@@ -678,305 +821,384 @@
   <!-- ==========================================================================
        1. Navigation Header
        ========================================================================== -->
-  <header class="header header-static">
-    <div class="container">
-      <div class="nav-container-box">
-        <a href="index.html" class="logo">
-          <i class="fa-solid fa-paw logo-icon"></i> PawHaven
-        </a>
-
-        <nav class="nav-center-wrapper">
-          <ul class="nav-links">
-            <li><a href="index.html#catalog-section" class="nav-link">Browse Available Puppies</a></li>
-            <li><a href="index.html#reviews-section" class="nav-link">Reviews</a></li>
-            <li><a href="index.html#ofa-section" class="nav-link">OFA Certification</a></li>
-            <li><a href="index.html#delivery-section" class="nav-link">Delivery Process & Care</a></li>
-          </ul>
-        </nav>
-
-        <a href="contact.html" class="btn-nav-contact">
-          <i class="fa-solid fa-envelope"></i> Contact Us
-        </a>
+  <header class="checkout-header">
+    <a href="index.html" class="checkout-header-logo">
+      <i class="fa-solid fa-paw"></i> PawHaven
+    </a>
+    
+    <div class="checkout-header-right">
+      <div class="header-badge">
+        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 18.1685C6.01239 17.6383 4.37006 16.5052 3.05348 14.7286C1.67619 12.8702 1 10.8495 1 8.64009V3.58285L8 1.06283L15 3.58285V8.64009C15 10.8495 14.3238 12.8702 12.9465 14.7286C11.6299 16.5052 9.98761 17.6383 8 18.1685Z" stroke="#333333" stroke-width="2"></path>
+          <path d="M10.6654 7.59998L6.9987 11.2666L5.33203 9.59998" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <span>Secure Payment</span>
+      </div>
+      <div class="header-divider"></div>
+      <div class="header-phone-link">
+        <svg width="20" height="20" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.875 3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H5.175C5.30612 1.8751 5.43389 1.91644 5.54022 1.99316C5.64656 2.06988 5.72607 2.1781 5.7675 2.3025L6.70375 5.11063C6.75119 5.25334 6.74558 5.40837 6.68795 5.54728C6.63032 5.68619 6.52453 5.79966 6.39 5.86688L4.97938 6.57313C5.67082 8.10346 6.89654 9.32918 8.42687 10.0206L9.13312 8.61C9.20034 8.47547 9.31381 8.36968 9.45272 8.31205C9.59163 8.25442 9.74666 8.24881 9.88937 8.29625L12.6975 9.2325C12.822 9.27397 12.9303 9.35357 13.007 9.46003C13.0838 9.56649 13.125 9.6944 13.125 9.82562V11.875C13.125 12.2065 12.9933 12.5245 12.7589 12.7589C12.5245 12.9933 12.2065 13.125 11.875 13.125H11.25C6.0725 13.125 1.875 8.9275 1.875 3.75V3.125Z" stroke="black" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <a href="tel:+12136992673" class="sm:tw-hidden tw-font-nunito tw-underline tw-font-bold" style="color: #000; text-decoration: underline;">Call Us</a>
+        <span class="tw-hidden sm:tw-flex" style="color: #666; font-size: 0.95rem;">Need Help? Call us at</span>
+        <a href="tel:+12136992673" class="tw-font-bold tw-underline tw-hidden sm:tw-block" style="color: #000; text-decoration: underline; margin-left: 2px;">213-699-2673</a>
       </div>
     </div>
   </header>
 
   <!-- ==========================================================================
-       2. Main Content Wrapper
+       2. Stepper / Progress indicator
        ========================================================================== -->
-  <main id="content" class="apply-main-wrapper">
-    <div class="container">
-
-      <!-- Success View (Initially Hidden) -->
-      <div id="successView" class="success-container">
-        <div class="success-icon-circle">
-          <i class="fa-solid fa-check"></i>
+  <section class="stepper-container">
+    <div class="stepper-steps">
+      <!-- Step 1: Details -->
+      <div class="stepper-step active">
+        <div class="stepper-icon-wrapper">
+          <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M34.2506 11.3556C34.2734 4.79272 22.5008 4.92505 14.5283 8.00131C6.55583 11.0776 4.29612 11.7138 4.49606 17.5743C4.69599 23.4348 1.12881 32.7388 14.2103 33.0215C27.2919 33.3041 25.9985 31.5414 32.7334 26.5269C39.4683 21.5123 34.2278 17.9185 34.2506 11.3556Z" fill="#A9E2C1"></path>
+            <g clip-path="url(#clip0_4308_5518)">
+              <path d="M13 23L7 23C6.46957 23 5.96086 22.7893 5.58579 22.4142C5.21071 22.0391 5 21.5304 5 21L5 13L5 9C5 7.89543 5.89543 7 7 7L11 7L23 7C23.5304 7 24.0391 7.21071 24.4142 7.58579C24.7893 7.96086 25 8.46957 25 9L25 12" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M14 13H9" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M14 15H9" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M14 17H9" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <circle cx="20.8334" cy="15.3334" r="3.33342" fill="#333333"></circle>
+              <path d="M15.841 20.3724C16.4677 19.6019 17.0321 19.2311 18.0065 19.0389C19.1912 18.8053 19.7991 19.7871 21.0065 19.7871C22.214 19.7871 22.8242 18.7937 24.0065 19.0389C24.9621 19.2371 25.4999 19.6188 26.1199 20.3724C26.8757 21.2913 27.1075 22.1016 27.0065 23.2871C26.936 24.1156 26.7698 24.6158 26.2818 25.2891C25.0257 27.022 23.1031 26.2714 21.0065 26.2871C18.8236 26.3034 16.5976 27.1042 15.5065 25.2891C15.0914 24.5984 15.0338 24.0925 15.0065 23.2871C14.9665 22.1038 15.0939 21.2909 15.841 20.3724Z" fill="#333333"></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_4308_5518">
+                <rect width="24" height="24" fill="white" transform="translate(3 3)"></rect>
+              </clipPath>
+            </defs>
+          </svg>
         </div>
-        <h2 class="success-title">Application Submitted</h2>
-        <p class="success-desc">Thank you for your adoption application. Our team will review your details and contact you with the next steps.</p>
-        <a href="index.html#catalog-section" class="btn-success-action">
-          <i class="fa-solid fa-arrow-left"></i> Back to Puppies
-        </a>
+        <span class="stepper-label">Details</span>
       </div>
 
-      <!-- Main Form Layout (Wrapper for dynamic load toggling) -->
-      <div id="mainApplicationLayout">
+      <div class="stepper-separator"></div>
 
-        <!-- Page Header -->
-        <div class="apply-header">
-          <h1 class="apply-title">Adoption Application</h1>
-          <p class="apply-subtitle">Complete your details below to begin the adoption process for your selected puppy.</p>
+      <!-- Step 2: Delivery -->
+      <div class="stepper-step">
+        <div class="stepper-icon-wrapper">
+          <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13 21H4C2.89543 21 2 20.1046 2 19V9C2 7.89543 2.89543 7 4 7H20C21.0209 7 21.8632 7.76496 21.9849 8.75298M21.9849 8.75298C21.9949 8.83392 21.9849 9.5 21.9849 9.5V8.75298Z" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M16 9V3.66667C16 3.48986 15.7893 3.32029 15.4142 3.19526C15.0391 3.07024 14.5304 3 14 3H10C9.46957 3 8.96086 3.07024 8.58579 3.19526C8.21071 3.32029 8 3.48986 8 3.66667V9" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M16.9789 16.7258L16.9791 16.7257C18.081 15.746 19.7456 15.7459 20.8498 16.7235C20.9552 16.818 21.0603 16.9163 21.161 17.017C21.8252 17.6811 22.3322 18.4483 22.6311 19.2334L22.6312 19.2338C23.1574 20.6021 23 21.8549 22.2534 22.6016C21.9408 22.9136 21.5516 23.0254 21.1377 23.0274C20.7214 23.0294 20.2863 22.92 19.8933 22.795L19.8931 22.7949C19.2523 22.5923 18.5762 22.5923 17.9347 22.7949C17.5441 22.918 17.1134 23.0275 16.7003 23.0275C16.2851 23.0275 15.8923 22.9162 15.5778 22.6017L15.5777 22.6016C14.8292 21.855 14.6736 20.6037 15.1999 19.2337L15.2001 19.2334C15.4989 18.4476 16.0059 17.6819 16.67 17.0177C16.7699 16.9178 16.8729 16.8196 16.9789 16.7258Z" fill="#828282" stroke="#828282" stroke-width="0.2"></path>
+            <path d="M17.2751 15.6629L17.2516 15.5657C17.1558 15.5889 17.0627 15.6003 16.9686 15.6003C16.1911 15.6003 15.3845 14.8491 15.1166 13.7359L15.1166 13.7358C14.9672 13.117 15.0173 12.5148 15.2142 12.0432C15.4111 11.5715 15.751 11.2373 16.1801 11.1332C16.6099 11.03 17.0651 11.1721 17.4557 11.5018C17.8463 11.8314 18.1657 12.3442 18.3151 12.9631C18.4645 13.5819 18.4144 14.1841 18.2175 14.6557C18.0206 15.1275 17.6806 15.4616 17.2515 15.5658L17.2751 15.6629ZM17.2751 15.6629C17.172 15.6878 17.071 15.7003 16.9686 15.7003C16.1275 15.7003 15.2933 14.8979 15.0194 13.7593L17.2751 15.6629Z" fill="#828282" stroke="#828282" stroke-width="0.2"></path>
+            <path d="M14.926 15.9381L14.9261 15.9382C15.1534 16.4746 15.1973 17.0261 15.089 17.4811C14.9806 17.9362 14.7226 18.2874 14.3506 18.4439L14.3503 18.4441C14.2105 18.5035 14.0634 18.5316 13.9128 18.5316C13.2554 18.5316 12.5212 17.9893 12.151 17.1124L12.151 17.1123C11.924 16.5755 11.8802 16.0243 11.9886 15.5696C12.097 15.1148 12.3549 14.7637 12.7266 14.6064L12.7266 14.6064C13.0984 14.4492 13.5301 14.5086 13.932 14.7475C14.3339 14.9863 14.699 15.4014 14.926 15.9381Z" fill="#828282" stroke="#828282" stroke-width="0.2"></path>
+            <path d="M20.5805 15.5652L20.5805 15.5652C20.1513 15.4611 19.8114 15.1269 19.6147 14.6551C19.4181 14.1835 19.3685 13.5812 19.519 12.962L19.519 12.9619C19.6615 12.3738 19.9604 11.8598 20.3547 11.5177L20.3548 11.5177C20.7658 11.1608 21.2261 11.0317 21.6541 11.134C22.0816 11.237 22.4316 11.5635 22.6346 12.0692C22.8273 12.556 22.8592 13.1474 22.7168 13.7373C22.5743 14.3255 22.2754 14.8394 21.8811 15.1815L21.881 15.1816C21.5616 15.4593 21.2099 15.5997 20.8703 15.5997C20.7723 15.5997 20.6751 15.5882 20.5805 15.5652Z" fill="#828282" stroke="#828282" stroke-width="0.2"></path>
+            <path d="M25.1052 14.6063L25.1053 14.6063C25.477 14.7635 25.7349 15.1146 25.8435 15.5696C25.952 16.0245 25.9086 16.576 25.6822 17.1135C25.4657 17.6249 25.1207 18.0419 24.714 18.2931L24.7138 18.2932C24.4498 18.4571 24.1808 18.5369 23.9275 18.5369C23.7723 18.5369 23.6231 18.5075 23.4817 18.4473C23.1117 18.2887 22.8422 17.942 22.7343 17.4552L22.7343 17.4549C22.6295 16.9878 22.6893 16.4516 22.9059 15.9401C23.1224 15.4286 23.4674 15.0116 23.8742 14.7604L23.8742 14.7604C24.2987 14.4978 24.7356 14.4498 25.1052 14.6063Z" fill="#828282" stroke="#828282" stroke-width="0.2"></path>
+          </svg>
+        </div>
+        <span class="stepper-label">Delivery</span>
+      </div>
+
+      <div class="stepper-separator"></div>
+
+      <!-- Step 3: Essentials -->
+      <div class="stepper-step">
+        <div class="stepper-icon-wrapper">
+          <svg width="27" height="21" viewBox="0 0 27 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 17L11.4513 19.2318L3.67129 11.4518L2.61129 10.3918C1.5796 9.36013 1 7.96086 1 6.50183C1 5.04279 1.5796 3.64352 2.61129 2.61183C3.64298 1.58013 5.04226 1.00053 6.50129 1.00053C7.96032 1.00053 9.3596 1.58013 10.3913 2.61183L11.4513 3.67183L12.5113 2.61183C13.022 2.10083 13.6285 1.69547 14.2959 1.41891C14.9634 1.14235 15.6788 1 16.4013 1C17.1238 1 17.8392 1.14235 18.5066 1.41891C19.1741 1.69547 19.7805 2.10083 20.2913 2.61183C20.8023 3.12258 21.2076 3.72901 21.4842 4.39647C21.7608 5.06393 21.9031 5.77934 21.9031 6.50183" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M17.5991 13.7278L17.5992 13.7276C18.7011 12.748 20.3657 12.7478 21.4699 13.7255C21.5753 13.8199 21.6804 13.9182 21.7812 14.0189C22.4453 14.6831 22.9523 15.4503 23.2512 16.2354L23.2513 16.2357C23.7776 17.604 23.6201 18.8569 22.8735 19.6036C22.561 19.9155 22.1717 20.0273 21.7578 20.0293C21.3415 20.0313 20.9064 19.922 20.5134 19.7969L20.5132 19.7969C19.8724 19.5942 19.1963 19.5942 18.5549 19.7969C18.1642 19.92 17.7335 20.0295 17.3204 20.0295C16.9053 20.0295 16.5124 19.9182 16.1979 19.6036L16.1978 19.6035C15.4493 18.8569 15.2937 17.6057 15.8201 16.2357L15.8202 16.2354C16.119 15.4496 16.626 14.6838 17.2902 14.0196C17.39 13.9198 17.493 13.8216 17.5991 13.7278Z" fill="#828282" stroke="#828282" stroke-width="0.2"></path>
+            <path d="M17.8962 12.6649L17.8727 12.5677C17.7769 12.5908 17.6838 12.6022 17.5897 12.6022C16.8122 12.6022 16.0056 11.8511 15.7377 10.7379L15.7377 10.7378C15.5883 10.1189 15.6384 9.51671 15.8353 9.04511C16.0322 8.57343 16.3721 8.23925 16.8012 8.13511C17.231 8.03195 17.6862 8.17408 18.0768 8.50374C18.4674 8.83335 18.7867 9.34616 18.9362 9.96501C19.0856 10.5839 19.0355 11.1861 18.8386 11.6577C18.6417 12.1294 18.3017 12.4636 17.8726 12.5677L17.8962 12.6649ZM17.8962 12.6649C17.7931 12.6898 17.6921 12.7022 17.5897 12.7022C16.7486 12.7022 15.9144 11.8998 15.6405 10.7613L17.8962 12.6649Z" fill="#828282" stroke="#828282" stroke-width="0.2"></path>
+            <path d="M15.5471 12.9401L15.5472 12.9401C15.7745 13.4766 15.8184 14.0281 15.7101 14.4831C15.6017 14.9382 15.3437 15.2894 14.9717 15.4459L14.9714 15.446C14.8316 15.5055 14.6845 15.5335 14.5339 15.5335C13.8765 15.5335 13.1423 14.9912 12.7721 14.1143L12.7721 14.1143C12.5451 13.5775 12.5013 13.0263 12.6097 12.5715C12.7181 12.1167 12.976 11.7656 13.3477 11.6084L13.3477 11.6084C13.7195 11.4512 14.1512 11.5106 14.5531 11.7494C14.955 11.9882 15.3201 12.4033 15.5471 12.9401Z" fill="#828282" stroke="#828282" stroke-width="0.2"></path>
+            <path d="M21.2026 12.5672L21.2026 12.5671C20.7734 12.463 20.4335 12.1289 20.2368 11.6571C20.0402 11.1855 19.9906 10.5831 20.141 9.96392L20.141 9.96386C20.2835 9.37572 20.5825 8.86171 20.9768 8.51965L20.9768 8.51962C21.3878 8.16278 21.8482 8.03362 22.2762 8.13599C22.7037 8.23891 23.0537 8.56543 23.2567 9.07118C23.4494 9.55792 23.4813 10.1494 23.3389 10.7393C23.1964 11.3274 22.8974 11.8414 22.5031 12.1834L22.503 12.1835C22.1836 12.4613 21.8319 12.6017 21.4923 12.6017C21.3944 12.6017 21.2971 12.5901 21.2026 12.5672Z" fill="#828282" stroke="#828282" stroke-width="0.2"></path>
+            <path d="M25.7283 11.6082L25.7283 11.6082C26.1001 11.7654 26.3579 12.1165 26.4665 12.5715C26.575 13.0264 26.5316 13.578 26.3053 14.1155C26.0888 14.6269 25.7438 15.0439 25.337 15.295L25.3368 15.2952C25.0729 15.459 24.8039 15.5388 24.5505 15.5388C24.3953 15.5388 24.2461 15.5095 24.1048 15.4493C23.7348 15.2907 23.4653 14.944 23.3574 14.4571L23.3573 14.4569C23.2526 13.9898 23.3123 13.4536 23.5289 12.942C23.7454 12.4306 24.0904 12.0136 24.4972 11.7624L24.4973 11.7623C24.9217 11.4998 25.3586 11.4518 25.7283 11.6082Z" fill="#828282" stroke="#828282" stroke-width="0.2"></path>
+          </svg>
+        </div>
+        <span class="stepper-label">Essentials</span>
+      </div>
+
+      <div class="stepper-separator"></div>
+
+      <!-- Step 4: Payment -->
+      <div class="stepper-step">
+        <div class="stepper-icon-wrapper">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.1818 4H3.81818C2.81403 4 2 4.89543 2 6V18C2 19.1046 2.81403 20 3.81818 20H20.1818C21.186 20 22 19.1046 22 18V6C22 4.89543 21.186 4 20.1818 4Z" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M16.3712 15C16.3712 16.2286 15.3509 17.25 14.0606 17.25C12.7703 17.25 11.75 16.2286 11.75 15C11.75 13.7714 12.7703 12.75 14.0606 12.75C15.3509 12.75 16.3712 13.7714 16.3712 15Z" fill="white" stroke="#828282" stroke-width="1.5"></path>
+            <path d="M19.4298 15C19.4298 16.2286 18.4095 17.25 17.1192 17.25C15.8289 17.25 14.8086 16.2286 14.8086 15C14.8086 13.7714 15.8289 12.75 17.1192 12.75C18.4095 12.75 19.4298 13.7714 19.4298 15Z" fill="white" stroke="#828282" stroke-width="1.5"></path>
+          </svg>
+        </div>
+        <span class="stepper-label">Payment</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. Main Checkout Section Grid
+       ========================================================================== -->
+  <section class="checkout-section">
+    
+    <!-- Success View (Initially Hidden) -->
+    <div id="successView" class="success-container">
+      <div class="success-icon-circle">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <h2 class="success-title">Application Submitted</h2>
+      <p class="success-desc">Thank you for your adoption application. Our team will review your details and contact you with the next steps.</p>
+      <a href="index.html#catalog-section" class="btn-success-action">
+        <i class="fa-solid fa-arrow-left"></i> Back to Puppies
+      </a>
+    </div>
+
+    <!-- Main Dynamic Form Content -->
+    <div id="mainApplicationLayout" class="checkout-grid">
+      
+      <!-- LEFT COLUMN: Contact Form Cards -->
+      <div class="checkout-left-col">
+        
+        <!-- Welcome banner card with photo -->
+        <div class="welcome-card">
+          <img id="welcomePuppyPhoto" src="" alt="Selected Puppy" class="welcome-puppy-img" />
+          <h2 class="welcome-title">Let's bring <strong id="welcomePuppyName">Finn</strong> home!</h2>
         </div>
 
-        <!-- Fallback Card (No Puppy Selected) -->
-        <div id="noPuppySelectedCard" class="no-puppy-card" style="display: none;">
-          <div class="no-puppy-icon">
-            <i class="fa-solid fa-circle-exclamation"></i>
-          </div>
-          <h2 class="no-puppy-title">No Puppy Selected</h2>
-          <p class="no-puppy-desc">To fill out an adoption application, please choose a puppy from our available catalog first.</p>
-          <a href="index.html#catalog-section" class="btn-outline-back">
-            <i class="fa-solid fa-arrow-left"></i> Browse Available Puppies
-          </a>
-        </div>
-
-        <!-- Grid Container: Form & Summary -->
-        <div id="formContainer" class="apply-grid-wrapper" style="display: none;">
+        <!-- Form Fields Card -->
+        <div class="checkout-form-card">
           
-          <!-- LEFT COLUMN: Adoption Form -->
-          <div class="apply-left-col">
-            <div class="apply-form-card">
-              <form id="adoptionApplicationForm" onsubmit="handleApplicationSubmit(event)">
-                
-                <!-- Section A: Personal Information -->
-                <div class="apply-form-section-title">
-                  <i class="fa-solid fa-user-check"></i> Personal Information
-                </div>
-                
-                <div class="form-group" style="margin-bottom: 1.25rem;">
-                  <label for="fullName">Full Name <span class="req-star">*</span></label>
-                  <input type="text" id="fullName" placeholder="e.g. Jane Smith" required />
-                </div>
-
-                <div class="form-row-2col" style="margin-bottom: 1.25rem;">
-                  <div class="form-group">
-                    <label for="emailAddress">Email Address <span class="req-star">*</span></label>
-                    <input type="email" id="emailAddress" placeholder="jane@example.com" required />
-                  </div>
-                  <div class="form-group">
-                    <label for="phoneNumber">Phone Number <span class="req-star">*</span></label>
-                    <input type="tel" id="phoneNumber" placeholder="(555) 000-0000" required />
-                  </div>
-                </div>
-
-                <!-- Section B: Address -->
-                <div class="apply-form-section-title">
-                  <i class="fa-solid fa-house-chimney"></i> Address
-                </div>
-
-                <div class="form-row-2col" style="margin-bottom: 1.25rem;">
-                  <div class="form-group">
-                    <label for="addressCountry">Country <span class="req-star">*</span></label>
-                    <select id="addressCountry" required>
-                      <option value="" disabled selected>Select Country</option>
-                      <option value="United States">United States</option>
-                      <option value="Canada">Canada</option>
-                      <option value="United Kingdom">United Kingdom</option>
-                      <option value="Australia">Australia</option>
-                      <option value="Other">Other International</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <label for="addressState">State / Province <span class="req-star">*</span></label>
-                    <input type="text" id="addressState" placeholder="e.g. California" required />
-                  </div>
-                </div>
-
-                <div class="form-row-2col" style="margin-bottom: 1.25rem;">
-                  <div class="form-group">
-                    <label for="addressCity">City <span class="req-star">*</span></label>
-                    <input type="text" id="addressCity" placeholder="e.g. Los Angeles" required />
-                  </div>
-                  <div class="form-group">
-                    <label for="addressZip">ZIP / Postal Code <span class="req-star">*</span></label>
-                    <input type="text" id="addressZip" placeholder="90001" required />
-                  </div>
-                </div>
-
-                <div class="form-group" style="margin-bottom: 1.25rem;">
-                  <label for="fullAddress">Full Street Address <span class="req-star">*</span></label>
-                  <input type="text" id="fullAddress" placeholder="e.g. 123 Maple Street, Apt 4B" required />
-                </div>
-
-                <!-- Section C: Delivery Information -->
-                <div class="apply-form-section-title">
-                  <i class="fa-solid fa-truck-ramp-box"></i> Delivery Information
-                </div>
-
-                <div class="form-row-2col" style="margin-bottom: 1.25rem;">
-                  <div class="form-group">
-                    <label for="deliveryMethod">Preferred Delivery Method <span class="req-star">*</span></label>
-                    <select id="deliveryMethod" onchange="updateDeliverySummary(this.value)" required>
-                      <option value="" disabled selected>Select Method</option>
-                      <option value="Local Pickup">Local Breeder Pickup (Free)</option>
-                      <option value="Ground Transport">Direct Ground Transport ($295)</option>
-                      <option value="Flight Nanny">Air Travel with Cabin Nanny ($495)</option>
-                      <option value="Cargo Safe">Climate-Controlled Cargo ($395)</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <label for="deliveryDate">Preferred Delivery Date <span class="req-star">*</span></label>
-                    <input type="date" id="deliveryDate" required />
-                  </div>
-                </div>
-
-                <div class="form-group" style="margin-bottom: 1.25rem;">
-                  <label for="deliveryNotes">Additional Delivery Notes (Optional)</label>
-                  <textarea id="deliveryNotes" rows="3" placeholder="e.g. Gate codes, contact name on arrival, preferred times..."></textarea>
-                </div>
-
-
-
-                <!-- Submit Action Block -->
-                <button type="submit" class="btn-apply-submit">
-                  <i class="fa-solid fa-file-signature"></i> Submit Adoption Application
-                </button>
-                <div class="submit-disclaimer">
-                  By submitting this application, you confirm that the information provided is accurate and that you agree to our adoption terms.
-                </div>
-
-              </form>
-            </div>
+          <div class="form-header-group">
+            <h3 class="form-section-heading">Contact details</h3>
+            <p class="form-section-subtext">Tell us a bit about yourself so we can ensure <span id="subtextPuppyName">Finn</span> finds a safe and happy home!</p>
           </div>
 
-          <!-- RIGHT COLUMN: Puppy & Order Summary (Sticky) -->
-          <div class="apply-right-col">
-            <div id="puppySummaryCard" class="summary-card">
+          <hr class="form-divider-green" />
+
+          <!-- Form body -->
+          <form id="adoptionApplicationForm" onsubmit="handleApplicationSubmit(event)">
+            
+            <!-- Email section -->
+            <fieldset class="fieldset-group">
+              <legend class="fieldset-legend">Enter your email</legend>
+              <div class="input-wrapper" id="emailWrapper">
+                <input type="email" id="contactEmail" class="input-field" placeholder="Email*" required />
+              </div>
+              <div class="error-msg" id="emailError" style="display: none;">
+                <i class="fa-solid fa-circle-xmark"></i> Please enter a valid email address.
+              </div>
+            </fieldset>
+
+            <hr class="form-divider" />
+
+            <!-- Name section -->
+            <fieldset class="fieldset-group">
+              <legend class="fieldset-legend">Enter your name</legend>
+              <div class="form-row-2col">
+                <div class="input-wrapper" id="firstNameWrapper">
+                  <input type="text" id="contactFirstName" class="input-field" placeholder="First*" required />
+                </div>
+                <div class="input-wrapper" id="lastNameWrapper">
+                  <input type="text" id="contactLastName" class="input-field" placeholder="Last*" required />
+                </div>
+              </div>
+              <div class="error-msg" id="nameError" style="display: none;">
+                <i class="fa-solid fa-circle-xmark"></i> Please enter your first and last name.
+              </div>
+            </fieldset>
+
+            <hr class="form-divider" />
+
+            <!-- Phone Section -->
+            <fieldset class="fieldset-group">
+              <legend class="fieldset-legend">Enter your phone number</legend>
+              <p class="form-section-subtext" style="margin-bottom: 0.5rem !important;">In case our team need to call you about <span id="phoneSectionPuppyName">Finn</span>’s placement.</p>
+              <div class="input-wrapper" id="phoneWrapper">
+                <input type="tel" id="contactPhone" class="input-field" placeholder="Phone Number*" required />
+              </div>
+              <div class="error-msg" id="phoneError" style="display: none;">
+                <i class="fa-solid fa-circle-xmark"></i> Please enter a valid phone number.
+              </div>
+
+              <!-- SMS Opt-in -->
+              <label class="checkbox-container" for="smsOptInCheckbox">
+                <input type="checkbox" id="smsOptInCheckbox" class="checkbox-input" checked />
+                <span class="checkbox-label">Opt in for SMS updates on <span id="checkboxPuppyName">Finn</span>. You can opt out anytime.</span>
+              </label>
+            </fieldset>
+
+            <hr class="form-divider" />
+
+            <!-- Address Section -->
+            <fieldset class="fieldset-group">
+              <legend class="fieldset-legend">What will be <span id="addressSectionPuppyName">Finn</span>'s new home address?</legend>
+              <p class="form-section-subtext" style="margin-bottom: 0.5rem !important;">Full address is needed for <span id="addressSectionPuppyNameSub">Finn</span>’s Health Certificate and to help us determine available delivery programs.</p>
               
-              <div class="summary-card-header">
-                <h3 class="summary-card-title">Adoption Summary</h3>
+              <!-- Address field -->
+              <div class="input-wrapper" id="addressWrapper" style="margin-bottom: 1.25rem;">
+                <i class="fa-solid fa-magnifying-glass input-search-icon"></i>
+                <input type="text" id="contactAddress" class="input-field" placeholder="Start typing address*" required />
+              </div>
+              
+              <!-- Apt field -->
+              <div class="input-wrapper" style="margin-bottom: 1.25rem;">
+                <input type="text" id="contactApt" class="input-field" placeholder="Apartment/Unit (Optional)" />
               </div>
 
-              <!-- Puppy Details Header -->
-              <div class="summary-puppy-header">
-                <div class="summary-puppy-img-wrapper">
-                  <img id="summaryPuppyPhoto" src="" alt="Selected Puppy" class="summary-puppy-img" />
+              <!-- City field -->
+              <div class="input-wrapper" id="cityWrapper" style="margin-bottom: 1.25rem;">
+                <input type="text" id="contactCity" class="input-field" placeholder="City*" required />
+              </div>
+
+              <!-- Row: State & Zip -->
+              <div class="form-row-2col">
+                <div class="input-wrapper" id="stateWrapper">
+                  <div class="select-wrapper">
+                    <select id="contactState" class="select-field" onchange="this.classList.add('selected-valid')" required>
+                      <option value="" disabled selected>State*</option>
+                      <option value="AL">Alabama</option>
+                      <option value="AK">Alaska</option>
+                      <option value="AZ">Arizona</option>
+                      <option value="AR">Arkansas</option>
+                      <option value="CA">California</option>
+                      <option value="CO">Colorado</option>
+                      <option value="CT">Connecticut</option>
+                      <option value="DE">Delaware</option>
+                      <option value="DC">District of Columbia</option>
+                      <option value="FL">Florida</option>
+                      <option value="GA">Georgia</option>
+                      <option value="HI">Hawaii</option>
+                      <option value="ID">Idaho</option>
+                      <option value="IL">Illinois</option>
+                      <option value="IN">Indiana</option>
+                      <option value="IA">Iowa</option>
+                      <option value="KS">Kansas</option>
+                      <option value="KY">Kentucky</option>
+                      <option value="LA">Louisiana</option>
+                      <option value="ME">Maine</option>
+                      <option value="MD">Maryland</option>
+                      <option value="MA">Massachusetts</option>
+                      <option value="MI">Michigan</option>
+                      <option value="MN">Minnesota</option>
+                      <option value="MS">Mississippi</option>
+                      <option value="MO">Missouri</option>
+                      <option value="MT">Montana</option>
+                      <option value="NE">Nebraska</option>
+                      <option value="NV">Nevada</option>
+                      <option value="NH">New Hampshire</option>
+                      <option value="NJ">New Jersey</option>
+                      <option value="NM">New Mexico</option>
+                      <option value="NY">New York</option>
+                      <option value="NC">North Carolina</option>
+                      <option value="ND">North Dakota</option>
+                      <option value="OH">Ohio</option>
+                      <option value="OK">Oklahoma</option>
+                      <option value="OR">Oregon</option>
+                      <option value="PA">Pennsylvania</option>
+                      <option value="PR">Puerto Rico</option>
+                      <option value="RI">Rhode Island</option>
+                      <option value="SC">South Carolina</option>
+                      <option value="SD">South Dakota</option>
+                      <option value="TN">Tennessee</option>
+                      <option value="TX">Texas</option>
+                      <option value="UT">Utah</option>
+                      <option value="VT">Vermont</option>
+                      <option value="VA">Virginia</option>
+                      <option value="WA">Washington</option>
+                      <option value="WV">West Virginia</option>
+                      <option value="WI">Wisconsin</option>
+                      <option value="WY">Wyoming</option>
+                    </select>
+                  </div>
                 </div>
-                <div class="summary-puppy-info-meta">
-                  <h4 id="summaryPuppyName" class="summary-puppy-name">Puppy</h4>
-                  <p id="summaryPuppyBreed" class="summary-puppy-breed">Breed</p>
+
+                <div class="input-wrapper" id="zipWrapper">
+                  <input type="text" id="contactZip" class="input-field" placeholder="Zip Code*" required />
                 </div>
               </div>
 
-              <!-- Puppy Specs Grid -->
-              <div class="summary-puppy-specs-grid">
-                <div class="summary-spec-item">
-                  <span class="summary-spec-label">Gender</span>
-                  <span id="summaryPuppyGender" class="summary-spec-value">Gender</span>
+              <div class="error-msg" id="addressError" style="display: none; margin-top: 0.75rem;">
+                <i class="fa-solid fa-circle-xmark"></i> Please enter a valid address, city, state, and zip code.
+              </div>
+            </fieldset>
+
+            <hr class="form-divider" />
+
+            <!-- Age Verification Section -->
+            <fieldset class="fieldset-group">
+              <legend class="fieldset-legend">Are you at least 18 years old?</legend>
+              <div class="radio-cards-row">
+                <div id="ageYesCard" class="radio-card" onclick="selectAgeVerify(true)">Yes</div>
+                <div id="ageNoCard" class="radio-card" onclick="selectAgeVerify(false)">No</div>
+              </div>
+              <input type="hidden" id="ageVerifiedInput" required />
+              <div class="error-msg" id="ageError" style="display: none; margin-top: 0.5rem;">
+                <i class="fa-solid fa-circle-xmark"></i> You must confirm that you are at least 18 years old to adopt.
+              </div>
+            </fieldset>
+
+            <!-- Submit Continue Button -->
+            <button type="submit" class="btn-checkout-continue">
+              Continue to delivery options
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT COLUMN: Sticky Order Summary Card -->
+      <div class="checkout-right-col">
+        <div class="summary-card">
+          <h2 class="summary-card-title">Summary</h2>
+          
+          <div class="summary-card-body">
+            
+            <!-- Puppy block details -->
+            <div class="summary-puppy-row">
+              <img id="summaryPuppyPhoto" src="" alt="Finn" class="summary-puppy-img" />
+              <div class="summary-puppy-info">
+                <p id="summaryPuppyName" class="summary-puppy-name">Finn</p>
+                <p id="summaryPuppySpecs" class="summary-puppy-meta">Male • 5 weeks</p>
+                <p id="summaryPuppyBreed" class="summary-puppy-meta breed">Golden Cavalier</p>
+                <p id="summaryPuppyId" class="summary-puppy-meta">ID # 826079</p>
+              </div>
+            </div>
+
+            <hr class="summary-divider" />
+
+            <!-- Pricing rows breakdown -->
+            <div class="summary-pricing-list">
+              
+              <!-- Bring home fee -->
+              <div>
+                <div class="summary-pricing-row">
+                  <span class="summary-pricing-row-label">Bring home fee</span>
+                  <span id="pricingBringHomeFee" style="font-weight: 600;">$0.00</span>
                 </div>
-                <div class="summary-spec-item">
-                  <span class="summary-spec-label">Age</span>
-                  <span id="summaryPuppyAge" class="summary-spec-value">Age</span>
+                <div class="summary-pricing-row-subtext" style="margin-top: 0.15rem;">
+                  <span>Sold by <strong id="summaryBreederName">Pete</strong> &amp; backed by PawHaven’s services. <button type="button">See breakdown</button></span>
                 </div>
               </div>
 
-              <!-- Invoice details -->
+              <hr class="form-divider" />
+
+              <!-- Subtotal -->
               <div class="summary-pricing-row">
-                <span>Puppy Price</span>
-                <span id="summaryPuppyPrice" class="summary-pricing-price">$0</span>
-              </div>
-              <div class="summary-pricing-row">
-                <span>Delivery Status</span>
-                <span id="summaryDeliveryStatus" style="font-weight: 700;">Pending Method</span>
-              </div>
-              <div class="summary-pricing-row">
-                <span>Adoption Application Fee</span>
-                <span style="font-weight: 700; color: #00B67A;">FREE</span>
+                <span>Subtotal</span>
+                <span id="pricingSubtotal" style="font-weight: 600;">$0.00</span>
               </div>
 
+              <!-- Tax -->
+              <div>
+                <div class="summary-pricing-row">
+                  <span>Tax</span>
+                  <span style="font-weight: 600;">--</span>
+                </div>
+                <p class="summary-pricing-row-subtext-tax">Calculated once essentials are confirmed</p>
+              </div>
+
+              <hr class="form-divider" />
+
+              <!-- Total amount -->
               <div class="summary-pricing-row total-row">
-                <span>Total Amount Due</span>
-                <span id="summaryTotalPrice" class="summary-pricing-price total-price">$0</span>
-              </div>
-
-              <!-- Application Status Indicator -->
-              <div class="summary-pricing-row" style="margin-bottom: 0.5rem;">
-                <span style="font-weight: 800; font-size: 0.85rem; text-transform: uppercase; color: #777777; letter-spacing: 0.03em;">Application Status</span>
-              </div>
-              <div id="applicationStatusBadge" class="summary-status-badge status-draft">
-                <i class="fa-solid fa-pen-nib"></i> Draft State
+                <span>Total</span>
+                <span id="pricingTotal" style="color: #00B67A; font-size: 1.15rem;">$0.00</span>
               </div>
 
             </div>
+
           </div>
-
-        </div>
-
-      </div>
-    </div>
-  </main>
-
-  <!-- ==========================================================================
-       3. Payment Process Steps Information
-       ========================================================================== -->
-  <section class="process-section">
-    <div class="process-container-width">
-      
-      <div class="process-header">
-        <h2 class="process-title">Next Steps in the Process</h2>
-        <p class="process-subtitle">Here is a step-by-step roadmap of how your puppy adoption will progress after form submission.</p>
-      </div>
-
-      <ul class="steps-timeline">
-        
-        <!-- Step 1 -->
-        <li class="timeline-step active">
-          <div class="timeline-circle">1</div>
-          <h4 class="timeline-label">Submit Form</h4>
-          <p class="timeline-desc">Submit your details for counselor screening review.</p>
-        </li>
-
-        <!-- Step 2 -->
-        <li class="timeline-step">
-          <div class="timeline-circle">2</div>
-          <h4 class="timeline-label">Approval</h4>
-          <p class="timeline-desc">Counselor approves your home environment verification.</p>
-        </li>
-
-        <!-- Step 3 -->
-        <li class="timeline-step">
-          <div class="timeline-circle">3</div>
-          <h4 class="timeline-label">Invoice</h4>
-          <p class="timeline-desc">Adoption approval generates your formal invoice contract.</p>
-        </li>
-
-        <!-- Step 4 -->
-        <li class="timeline-step">
-          <div class="timeline-circle">4</div>
-          <h4 class="timeline-label">Payment</h4>
-          <p class="timeline-desc">Choose Zelle, Bank Wire, or Crypto checkout options.</p>
-        </li>
-
-        <!-- Step 5 -->
-        <li class="timeline-step">
-          <div class="timeline-circle">5</div>
-          <h4 class="timeline-label">Verification</h4>
-          <p class="timeline-desc">Team verifies funds transfers within 1 business day.</p>
-        </li>
-
-        <!-- Step 6 -->
-        <li class="timeline-step">
-          <div class="timeline-circle">6</div>
-          <h4 class="timeline-label">Scheduled</h4>
-          <p class="timeline-desc">Lock in delivery transport timelines for puppy travel.</p>
-        </li>
-
-      </ul>
-
-      <div class="process-footer-wrapper">
-        <div class="process-footer-notice">
-          <i class="fa-solid fa-circle-info" style="color: #00B67A; margin-right: 0.45rem;"></i>
-          Payment is requested only after your adoption application has been reviewed and approved.
         </div>
       </div>
 
@@ -984,125 +1206,36 @@
   </section>
 
   <!-- ==========================================================================
-       4. Payment Methods Preview (Informational only)
+       4. Checkout Footer
        ========================================================================== -->
-  <section class="payment-preview-section">
-    <div class="process-container-width">
+  <footer class="checkout-footer">
+    <div class="checkout-footer-container">
       
-      <div class="payment-preview-header">
-        <h2 class="payment-preview-title">Available Payment Methods</h2>
-        <p class="payment-preview-desc">Review our secure verification checkout pathways. We do not process payments directly on this form.</p>
+      <div class="checkout-footer-top">
+        <ul class="footer-links-list">
+          <li class="copyright">© 2026 PawHaven</li>
+          <li class="dot-separator tw-hidden lg:tw-block">•</li>
+          <li><a href="https://www.puppyspot.com/terms-of-use" target="_blank">Terms of Use</a></li>
+          <li class="dot-separator tw-hidden lg:tw-block">•</li>
+          <li><a href="https://www.puppyspot.com/privacy" target="_blank">Privacy Policy</a></li>
+          <li class="dot-separator tw-hidden lg:tw-block">•</li>
+          <li><a href="https://www.puppyspot.com/sitemap" target="_blank">Sitemap</a></li>
+        </ul>
       </div>
 
-      <div class="payment-cards-grid">
-        
-        <!-- Card 1: Crypto -->
-        <div class="payment-card">
-          <div class="payment-card-icon">
-            <i class="fa-brands fa-bitcoin"></i>
-          </div>
-          <h3 class="payment-card-title">Cryptocurrency</h3>
-          <ul class="payment-card-bullets">
-            <li>Bitcoin (BTC)</li>
-            <li>Ethereum (ETH)</li>
-            <li>USDT Stablecoin</li>
-            <li>USDC Stablecoin</li>
-            <li>Solana (SOL)</li>
-          </ul>
-        </div>
+      <div class="footer-divider"></div>
 
-        <!-- Card 2: Zelle -->
-        <div class="payment-card">
-          <div class="payment-card-icon">
-            <i class="fa-solid fa-mobile-screen-button"></i>
-          </div>
-          <h3 class="payment-card-title">Zelle</h3>
-          <ul class="payment-card-bullets">
-            <li>Direct transfer</li>
-            <li>Instant settlement</li>
-            <li>Zero sender fees</li>
-            <li>Mobile app native</li>
-          </ul>
+      <div class="footer-security-wrapper">
+        <div class="footer-security-badge">
+          <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 18.1685C6.01239 17.6383 4.37006 16.5052 3.05348 14.7286C1.67619 12.8702 1 10.8495 1 8.64009V3.58285L8 1.06283L15 3.58285V8.64009C15 10.8495 14.3238 12.8702 12.9465 14.7286C11.6299 16.5052 9.98761 17.6383 8 18.1685Z" stroke="#333333" stroke-width="2"></path>
+            <path d="M10.6654 7.59998L6.9987 11.2666L5.33203 9.59998" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <span>Secure Payment</span>
         </div>
-
-        <!-- Card 3: Domestic Bank -->
-        <div class="payment-card">
-          <div class="payment-card-icon">
-            <i class="fa-solid fa-building-columns"></i>
-          </div>
-          <h3 class="payment-card-title">Domestic Bank</h3>
-          <ul class="payment-card-bullets">
-            <li>ACH transfers</li>
-            <li>Local check drafts</li>
-            <li>Over-the-counter pay</li>
-            <li>FedNow support</li>
-          </ul>
-        </div>
-
-        <!-- Card 4: Wire Transfer -->
-        <div class="payment-card">
-          <div class="payment-card-icon">
-            <i class="fa-solid fa-globe"></i>
-          </div>
-          <h3 class="payment-card-title">International Wire</h3>
-          <ul class="payment-card-bullets">
-            <li>SWIFT network wire</li>
-            <li>Multi-currency wire</li>
-            <li>Secure corporate vault</li>
-            <li>Full routing transparency</li>
-          </ul>
-        </div>
-
+        <p class="footer-security-text">Your credit card details are secured. All the information is protected using Secure Sockets Layer (SSL) technology.</p>
       </div>
 
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       5. Footer
-       ========================================================================== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-top">
-        <div>
-          <a href="index.html" class="footer-logo">PawHaven</a>
-          <p style="color:rgba(255,255,255,0.6); margin-top:0.5rem; max-width:320px; font-size:0.9rem;">
-            Ethical canine adoption connecting verified USDA breeders with caring homes.
-          </p>
-        </div>
-
-        <div style="display:flex; gap:3rem;">
-          <div>
-            <h5 style="color:#fff; margin-bottom:1rem;">Explore</h5>
-            <div style="display:flex; flex-direction:column; gap:0.5rem; font-size:0.9rem; opacity:0.75;">
-              <a href="index.html#catalog-section">Browse available puppies</a>
-              <a href="index.html#reviews-section">Puppy parents reviews</a>
-              <a href="index.html#ofa-section">OFA Certification</a>
-              <a href="index.html#delivery-section">Delivery process & care</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <div>&copy; 2026 PawHaven Inc. All Rights Reserved.</div>
-        <div>10-Year Health Guarantee • USDA Licensed Partner Network</div>
-      </div>
-
-      <!-- Non-Clickable Legal & Compliance Information -->
-      <div class="footer-legal-info-nonclickable" style="margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.08); font-size: 0.85rem; color: #828282; font-family: 'Nunito', sans-serif; line-height: 1.6; text-align: left;">
-        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; row-gap: 0.2rem;">
-          <span>Terms of Use</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
-          <span>Privacy Policy</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
-          <span>Sitemap</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
-          <span>Accredited BBB</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
-          <span>Do Not Sell My Personal Information</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
-          <span>California and Maryland site</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
-        </div>
-        <div style="margin-top: 0.25rem;">
-          <span>Nationwide (Non-California, Non-Maryland) Site</span>
-        </div>
-      </div>
     </div>
   </footer>
 
@@ -1139,86 +1272,179 @@
       }
 
       const mainLayout = document.getElementById('mainApplicationLayout');
-      const noPuppyCard = document.getElementById('noPuppySelectedCard');
-      const formContainer = document.getElementById('formContainer');
+      const stepper = document.querySelector('.stepper-container');
 
       if (activePuppy) {
-        // Populate puppy summary card
+        // Parse basic specs
+        const priceStr = '$' + activePuppy.price.toLocaleString('.00') + '.00';
+        
+        // Welcome Card elements
+        document.getElementById('welcomePuppyPhoto').src = activePuppy.image;
+        document.getElementById('welcomePuppyPhoto').alt = activePuppy.name;
+        document.getElementById('welcomePuppyName').textContent = activePuppy.name;
+        
+        // Form details text replacements
+        document.getElementById('subtextPuppyName').textContent = activePuppy.name;
+        document.getElementById('phoneSectionPuppyName').textContent = activePuppy.name;
+        document.getElementById('checkboxPuppyName').textContent = activePuppy.name;
+        
+        // Loop replacements for titles
+        document.querySelectorAll('#addressSectionPuppyName').forEach(el => el.textContent = activePuppy.name);
+        document.querySelectorAll('#addressSectionPuppyNameSub').forEach(el => el.textContent = activePuppy.name);
+        
+        // Right Summary card populators
         document.getElementById('summaryPuppyPhoto').src = activePuppy.image;
         document.getElementById('summaryPuppyPhoto').alt = activePuppy.name;
         document.getElementById('summaryPuppyName').textContent = activePuppy.name;
+        document.getElementById('summaryPuppySpecs').textContent = activePuppy.gender + ' • ' + activePuppy.age;
         document.getElementById('summaryPuppyBreed').textContent = activePuppy.breed;
-        document.getElementById('summaryPuppyGender').textContent = activePuppy.gender;
-        document.getElementById('summaryPuppyAge').textContent = activePuppy.age;
-        document.getElementById('summaryPuppyPrice').textContent = '$' + activePuppy.price.toLocaleString();
+        document.getElementById('summaryPuppyId').textContent = 'ID # ' + activePuppy.id;
         
-        // Show actual layout
-        noPuppyCard.style.display = 'none';
-        formContainer.style.display = 'grid';
+        // Breeder & price binding
+        document.getElementById('summaryBreederName').textContent = activePuppy.breeder || 'Pete';
+        document.getElementById('pricingBringHomeFee').textContent = priceStr;
+        document.getElementById('pricingSubtotal').textContent = priceStr;
+        document.getElementById('pricingTotal').textContent = priceStr;
         
-        // Initial price calculations
-        updatePrices(0); // Free pickup initially
+        mainLayout.style.display = 'grid';
+        stepper.style.display = 'block';
       } else {
-        // Show warning card and hide main layout form elements
-        noPuppyCard.style.display = 'block';
-        formContainer.style.display = 'none';
+        // Fallback default details in case ID is missing (Finn default)
+        activePuppy = {
+          name: "Finn",
+          breed: "Golden Cavalier",
+          gender: "Male",
+          age: "5 weeks",
+          id: 826079,
+          price: 3446,
+          breeder: "Pete",
+          image: "images/puppies/cavalier-king-charles-spaniel/barnaby-inset-3.jpg" // fallback image
+        };
+        
+        // Check if there is an image in images/ folder first
+        document.getElementById('welcomePuppyPhoto').src = activePuppy.image;
+        document.getElementById('welcomePuppyName').textContent = activePuppy.name;
+        
+        document.getElementById('summaryPuppyPhoto').src = activePuppy.image;
+        document.getElementById('summaryPuppyName').textContent = activePuppy.name;
+        document.getElementById('summaryPuppySpecs').textContent = activePuppy.gender + ' • ' + activePuppy.age;
+        document.getElementById('summaryPuppyBreed').textContent = activePuppy.breed;
+        document.getElementById('summaryPuppyId').textContent = 'ID # ' + activePuppy.id;
+        
+        const priceStr = '$' + activePuppy.price.toLocaleString() + '.00';
+        document.getElementById('pricingBringHomeFee').textContent = priceStr;
+        document.getElementById('pricingSubtotal').textContent = priceStr;
+        document.getElementById('pricingTotal').textContent = priceStr;
+        
+        mainLayout.style.display = 'grid';
+        stepper.style.display = 'block';
       }
     });
 
-    function updateDeliverySummary(methodValue) {
-      let deliveryFee = 0;
-      let deliveryText = "Pending Method";
+    function selectAgeVerify(isOver18) {
+      const yesCard = document.getElementById('ageYesCard');
+      const noCard = document.getElementById('ageNoCard');
+      const hiddenInput = document.getElementById('ageVerifiedInput');
+      const ageError = document.getElementById('ageError');
 
-      if (methodValue === "Local Pickup") {
-        deliveryFee = 0;
-        deliveryText = "Local Pickup (Free)";
-      } else if (methodValue === "Ground Transport") {
-        deliveryFee = 295;
-        deliveryText = "Direct Ground ($295)";
-      } else if (methodValue === "Flight Nanny") {
-        deliveryFee = 495;
-        deliveryText = "Cabin Nanny ($495)";
-      } else if (methodValue === "Cargo Safe") {
-        deliveryFee = 395;
-        deliveryText = "Cargo Transit ($395)";
+      if (isOver18) {
+        yesCard.classList.add('selected');
+        noCard.classList.remove('selected');
+        hiddenInput.value = 'true';
+        ageError.style.display = 'none';
+      } else {
+        noCard.classList.add('selected');
+        yesCard.classList.remove('selected');
+        hiddenInput.value = '';
+        ageError.style.display = 'flex';
       }
-
-      document.getElementById('summaryDeliveryStatus').textContent = deliveryText;
-      updatePrices(deliveryFee);
-    }
-
-    function updatePrices(deliveryFee) {
-      if (!activePuppy) return;
-      const puppyPrice = activePuppy.price;
-      const totalAmount = puppyPrice + deliveryFee;
-
-      document.getElementById('summaryTotalPrice').textContent = '$' + totalAmount.toLocaleString();
     }
 
     function handleApplicationSubmit(event) {
       event.preventDefault();
       
-      // Perform form validations
-      const form = document.getElementById('adoptionApplicationForm');
-      if (!form.checkValidity()) {
-        form.reportValidity();
+      // Check inputs validity
+      const email = document.getElementById('contactEmail');
+      const first = document.getElementById('contactFirstName');
+      const last = document.getElementById('contactLastName');
+      const phone = document.getElementById('contactPhone');
+      const address = document.getElementById('contactAddress');
+      const city = document.getElementById('contactCity');
+      const state = document.getElementById('contactState');
+      const zip = document.getElementById('contactZip');
+      const ageInput = document.getElementById('ageVerifiedInput');
+
+      let isValid = true;
+
+      // Email validation
+      if (!email.checkValidity()) {
+        document.getElementById('emailWrapper').classList.add('input-error-border');
+        document.getElementById('emailError').style.display = 'flex';
+        isValid = false;
+      } else {
+        document.getElementById('emailWrapper').classList.remove('input-error-border');
+        document.getElementById('emailError').style.display = 'none';
+      }
+
+      // Name validation
+      if (!first.value || !last.value) {
+        document.getElementById('firstNameWrapper').classList.add('input-error-border');
+        document.getElementById('lastNameWrapper').classList.add('input-error-border');
+        document.getElementById('nameError').style.display = 'flex';
+        isValid = false;
+      } else {
+        document.getElementById('firstNameWrapper').classList.remove('input-error-border');
+        document.getElementById('lastNameWrapper').classList.remove('input-error-border');
+        document.getElementById('nameError').style.display = 'none';
+      }
+
+      // Phone validation
+      if (!phone.value || phone.value.trim().length < 7) {
+        document.getElementById('phoneWrapper').classList.add('input-error-border');
+        document.getElementById('phoneError').style.display = 'flex';
+        isValid = false;
+      } else {
+        document.getElementById('phoneWrapper').classList.remove('input-error-border');
+        document.getElementById('phoneError').style.display = 'none';
+      }
+
+      // Address validation
+      if (!address.value || !city.value || !state.value || !zip.value) {
+        if (!address.value) document.getElementById('addressWrapper').classList.add('input-error-border');
+        if (!city.value) document.getElementById('cityWrapper').classList.add('input-error-border');
+        if (!state.value) document.getElementById('stateWrapper').classList.add('input-error-border');
+        if (!zip.value) document.getElementById('zipWrapper').classList.add('input-error-border');
+        document.getElementById('addressError').style.display = 'flex';
+        isValid = false;
+      } else {
+        document.getElementById('addressWrapper').classList.remove('input-error-border');
+        document.getElementById('cityWrapper').classList.remove('input-error-border');
+        document.getElementById('stateWrapper').classList.remove('input-error-border');
+        document.getElementById('zipWrapper').classList.remove('input-error-border');
+        document.getElementById('addressError').style.display = 'none';
+      }
+
+      // Age validation
+      if (!ageInput.value) {
+        document.getElementById('ageError').style.display = 'flex';
+        isValid = false;
+      } else {
+        document.getElementById('ageError').style.display = 'none';
+      }
+
+      if (!isValid) {
         return;
       }
 
-      // Change status badge
-      const statusBadge = document.getElementById('applicationStatusBadge');
-      statusBadge.className = "summary-status-badge status-submitted";
-      statusBadge.innerHTML = '<i class="fa-solid fa-circle-check"></i> In Review';
-
-      // Hide layout & Show success view
+      // Form is fully validated -> Show Success State
       document.getElementById('mainApplicationLayout').style.display = 'none';
+      document.querySelector('.stepper-container').style.display = 'none';
       
-      // Scroll to top smoothly so they see the success state
+      // Scroll to top
       window.scrollTo({ top: 0, behavior: 'smooth' });
       
-      // Show success view container
-      const successView = document.getElementById('successView');
-      successView.style.display = 'block';
+      // Render success state container
+      document.getElementById('successView').style.display = 'block';
     }
   </script>
 </body>
