@@ -1223,8 +1223,7 @@
       const puppyIdStr = urlParams.get('id');
       
       if (puppyIdStr) {
-        const puppyId = parseInt(puppyIdStr);
-        activePuppy = SITE_DATA.puppies.find(p => p.id === puppyId);
+        activePuppy = SITE_DATA.puppies.find(p => String(p.id) === String(puppyIdStr));
       } else {
         const breedParam = urlParams.get('breed');
         const puppyParam = urlParams.get('puppy');
@@ -1274,16 +1273,16 @@
         mainLayout.style.display = 'grid';
         stepper.style.display = 'block';
       } else {
-        // Fallback default details in case ID is missing (Finn default)
+        // Fallback default details in case ID is missing (Finn default Beagle)
         activePuppy = {
           name: "Finn",
-          breed: "Golden Cavalier",
+          breed: "Beagle",
           gender: "Male",
-          age: "5 weeks",
-          id: 826079,
-          price: 3446,
-          breeder: "Pete",
-          image: "images/puppies/cavalier-king-charles-spaniel/barnaby-inset-3.jpg" // fallback image
+          age: "6 weeks",
+          id: 824597,
+          price: 2890,
+          breeder: "USDA Certified Star Breeder",
+          image: "https://photos.puppyspot.com/7/listing/824597/photo/505045813_medium.jpg"
         };
         
         // Check if there is an image in images/ folder first

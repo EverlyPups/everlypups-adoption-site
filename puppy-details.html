@@ -347,8 +347,7 @@
       let puppy = null;
 
       if (paramId) {
-        const numId = parseInt(paramId);
-        puppy = SITE_DATA.puppies.find(p => p.id === numId);
+        puppy = SITE_DATA.puppies.find(p => String(p.id) === String(paramId));
       }
 
       if (!puppy && paramName) {
