@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adoption Application | PawHaven</title>
+  
+  <!-- Google Fonts: Nunito & Figtree & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Editorial Design System Styles -->
+  <link rel="stylesheet" href="styles.css?v=930" />
+
+  <style>
+    /* Specific styling for Adoption Application page */
+    .apply-page-body {
+      background-color: #FAF9F6 !important;
+      color: #012B3A !important;
+    }
+    
+    .apply-main-wrapper {
+      padding: 4rem 0 6rem 0 !important;
+    }
+
+    .apply-header {
+      margin-bottom: 3rem !important;
+      text-align: left !important;
+    }
+
+    .apply-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 2.8rem !important;
+      font-weight: 900 !important;
+      color: #012B3A !important;
+      margin: 0 0 0.5rem 0 !important;
+      letter-spacing: -0.02em !important;
+    }
+
+    .apply-subtitle {
+      font-size: 1.15rem !important;
+      color: #555555 !important;
+      margin: 0 !important;
+      max-width: 600px !important;
+      line-height: 1.5 !important;
+    }
+
+    /* Layout column wrapper */
+    .apply-grid-wrapper {
+      display: grid !important;
+      grid-template-columns: 1.85fr 1fr !important;
+      gap: 3rem !important;
+      align-items: start !important;
+    }
+
+    /* Left form card customization */
+    .apply-form-card {
+      background: #FFFFFF !important;
+      padding: 3rem !important;
+      border-radius: 28px !important;
+      box-shadow: 0 16px 45px rgba(0, 0, 0, 0.04) !important;
+      border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    }
+
+    .apply-form-section-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 1.35rem !important;
+      font-weight: 800 !important;
+      color: #012B3A !important;
+      margin: 2rem 0 1.25rem 0 !important;
+      padding-bottom: 0.5rem !important;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.6rem !important;
+    }
+
+    .apply-form-section-title:first-of-type {
+      margin-top: 0 !important;
+    }
+
+    .apply-form-section-title i {
+      font-size: 1.1rem !important;
+      color: #00B67A !important;
+    }
+
+    .btn-apply-submit {
+      width: 100% !important;
+      background: #00B67A !important;
+      color: #ffffff !important;
+      border: none !important;
+      padding: 1.1rem 2rem !important;
+      border-radius: 14px !important;
+      font-weight: 800 !important;
+      font-size: 1.15rem !important;
+      cursor: pointer !important;
+      transition: all 0.25s ease !important;
+      box-shadow: 0 8px 24px rgba(0, 182, 122, 0.2) !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 0.75rem !important;
+      font-family: 'Figtree', sans-serif !important;
+      margin-top: 2rem !important;
+    }
+
+    .btn-apply-submit:hover {
+      background: #009E69 !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 12px 28px rgba(0, 182, 122, 0.28) !important;
+    }
+
+    .btn-apply-submit:active {
+      transform: translateY(0) !important;
+    }
+
+    .submit-disclaimer {
+      font-size: 0.85rem !important;
+      color: #777777 !important;
+      text-align: center !important;
+      margin-top: 1rem !important;
+      line-height: 1.4 !important;
+    }
+
+    /* Right column summary card */
+    .summary-card {
+      background: #FFFFFF !important;
+      border-radius: 28px !important;
+      border: 1px solid rgba(0, 0, 0, 0.05) !important;
+      box-shadow: 0 16px 45px rgba(0, 0, 0, 0.04) !important;
+      padding: 2.2rem !important;
+      position: sticky !important;
+      top: 110px !important;
+    }
+
+    .summary-card-header {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+      padding-bottom: 1.25rem !important;
+      margin-bottom: 1.5rem !important;
+    }
+
+    .summary-card-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 1.3rem !important;
+      font-weight: 800 !important;
+      color: #012B3A !important;
+      margin: 0 !important;
+    }
+
+    .summary-puppy-header {
+      display: flex !important;
+      gap: 1.25rem !important;
+      align-items: center !important;
+      margin-bottom: 1.5rem !important;
+    }
+
+    .summary-puppy-img-wrapper {
+      width: 90px !important;
+      height: 90px !important;
+      border-radius: 18px !important;
+      overflow: hidden !important;
+      border: 1px solid rgba(0, 0, 0, 0.05) !important;
+      flex-shrink: 0 !important;
+    }
+
+    .summary-puppy-img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+    }
+
+    .summary-puppy-info-meta {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.25rem !important;
+    }
+
+    .summary-puppy-name {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 1.4rem !important;
+      font-weight: 900 !important;
+      color: #012B3A !important;
+      margin: 0 !important;
+    }
+
+    .summary-puppy-breed {
+      font-size: 0.9rem !important;
+      color: #666666 !important;
+      margin: 0 !important;
+      font-weight: 600 !important;
+    }
+
+    .summary-puppy-specs-grid {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 0.75rem !important;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+      padding-bottom: 1.25rem !important;
+      margin-bottom: 1.25rem !important;
+    }
+
+    .summary-spec-item {
+      background: #FAF9F6 !important;
+      border-radius: 10px !important;
+      padding: 0.6rem 0.8rem !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.15rem !important;
+    }
+
+    .summary-spec-label {
+      font-size: 0.75rem !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.03em !important;
+      color: #777777 !important;
+      font-weight: 800 !important;
+    }
+
+    .summary-spec-value {
+      font-size: 0.9rem !important;
+      font-weight: 700 !important;
+      color: #012B3A !important;
+    }
+
+    .summary-pricing-row {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      margin-bottom: 0.75rem !important;
+      font-size: 0.95rem !important;
+      color: #555555 !important;
+    }
+
+    .summary-pricing-row.total-row {
+      border-top: 1px solid rgba(0, 0, 0, 0.06) !important;
+      padding-top: 1rem !important;
+      margin-top: 0.75rem !important;
+      margin-bottom: 1.25rem !important;
+      color: #012B3A !important;
+      font-weight: 800 !important;
+      font-size: 1.15rem !important;
+    }
+
+    .summary-pricing-price {
+      font-weight: 800 !important;
+      color: #012B3A !important;
+    }
+
+    .summary-pricing-price.total-price {
+      color: #00B67A !important;
+      font-size: 1.25rem !important;
+    }
+
+    .summary-status-badge {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 0.5rem !important;
+      padding: 0.75rem !important;
+      border-radius: 12px !important;
+      font-weight: 800 !important;
+      font-size: 0.9rem !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+    }
+
+    .status-draft {
+      background-color: rgba(1, 43, 58, 0.06) !important;
+      color: #012B3A !important;
+    }
+
+    .status-submitted {
+      background-color: rgba(0, 182, 122, 0.08) !important;
+      color: #00B67A !important;
+    }
+
+    /* Fallback card if no puppy selected */
+    .no-puppy-card {
+      background: #FFFFFF !important;
+      padding: 4rem 3rem !important;
+      border-radius: 28px !important;
+      box-shadow: 0 16px 45px rgba(0, 0, 0, 0.04) !important;
+      border: 1px solid rgba(0, 0, 0, 0.05) !important;
+      text-align: center !important;
+      max-width: 600px !important;
+      margin: 2rem auto !important;
+    }
+
+    .no-puppy-icon {
+      font-size: 3.5rem !important;
+      color: #C86D51 !important;
+      margin-bottom: 1.5rem !important;
+    }
+
+    .no-puppy-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 1.8rem !important;
+      font-weight: 800 !important;
+      margin-bottom: 1rem !important;
+    }
+
+    .no-puppy-desc {
+      color: #666666 !important;
+      font-size: 1.05rem !important;
+      margin-bottom: 2rem !important;
+      line-height: 1.5 !important;
+    }
+
+    .btn-outline-back {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      border: 1.5px solid #012B3A !important;
+      color: #012B3A !important;
+      padding: 0.8rem 1.75rem !important;
+      border-radius: 50px !important;
+      font-weight: 800 !important;
+      text-decoration: none !important;
+      transition: all 0.25s ease !important;
+    }
+
+    .btn-outline-back:hover {
+      background-color: #012B3A !important;
+      color: #ffffff !important;
+      transform: translateY(-2px) !important;
+    }
+
+    /* Process steps block styling */
+    .process-section {
+      background: #ffffff !important;
+      border-top: 1px solid rgba(0,0,0,0.05) !important;
+      border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+      padding: 5rem 0 !important;
+      margin-top: 3rem !important;
+    }
+
+    .process-container-width {
+      max-width: 1200px !important;
+      margin: 0 auto !important;
+      padding: 0 2rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .process-header {
+      text-align: center !important;
+      margin-bottom: 3.5rem !important;
+    }
+
+    .process-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 2.2rem !important;
+      font-weight: 900 !important;
+      color: #012B3A !important;
+      margin: 0 0 0.5rem 0 !important;
+    }
+
+    .process-subtitle {
+      font-size: 1.1rem !important;
+      color: #666666 !important;
+      margin: 0 !important;
+    }
+
+    .steps-timeline {
+      display: flex !important;
+      justify-content: space-between !important;
+      position: relative !important;
+      list-style: none !important;
+      padding: 0 !important;
+      margin: 0 0 3rem 0 !important;
+    }
+
+    .steps-timeline::before {
+      content: '' !important;
+      position: absolute !important;
+      top: 24px !important;
+      left: 8% !important;
+      right: 8% !important;
+      height: 3px !important;
+      background: #FAF9F6 !important;
+      border: 1px solid rgba(0,0,0,0.03) !important;
+      z-index: 1 !important;
+    }
+
+    .timeline-step {
+      position: relative !important;
+      z-index: 2 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      flex: 1 !important;
+      text-align: center !important;
+    }
+
+    .timeline-circle {
+      width: 50px !important;
+      height: 50px !important;
+      border-radius: 50% !important;
+      background: #FFFFFF !important;
+      border: 3px solid rgba(0, 0, 0, 0.05) !important;
+      color: #888888 !important;
+      font-family: 'Outfit', sans-serif !important;
+      font-weight: 800 !important;
+      font-size: 1.15rem !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      margin-bottom: 0.85rem !important;
+      transition: all 0.3s ease !important;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02) !important;
+    }
+
+    .timeline-step.active .timeline-circle {
+      background: #00B67A !important;
+      border-color: #00B67A !important;
+      color: #FFFFFF !important;
+      box-shadow: 0 6px 15px rgba(0, 182, 122, 0.25) !important;
+    }
+
+    .timeline-step.pending .timeline-circle {
+      border-color: #012B3A !important;
+      color: #012B3A !important;
+    }
+
+    .timeline-label {
+      font-family: 'Figtree', sans-serif !important;
+      font-size: 0.9rem !important;
+      font-weight: 800 !important;
+      color: #012B3A !important;
+      margin-bottom: 0.2rem !important;
+    }
+
+    .timeline-desc {
+      font-size: 0.8rem !important;
+      color: #666666 !important;
+      max-width: 140px !important;
+      line-height: 1.3 !important;
+    }
+
+    .process-footer-notice {
+      text-align: center !important;
+      background: #FAF9F6 !important;
+      padding: 1rem 2rem !important;
+      border-radius: 12px !important;
+      font-size: 0.95rem !important;
+      font-weight: 700 !important;
+      color: #012B3A !important;
+      border: 1px solid rgba(0,0,0,0.03) !important;
+      display: inline-block !important;
+      margin: 0 auto !important;
+      width: fit-content !important;
+    }
+
+    .process-footer-wrapper {
+      display: flex !important;
+      justify-content: center !important;
+    }
+
+    /* Payment methods block styling */
+    .payment-preview-section {
+      padding: 5rem 0 !important;
+      background: #FAF9F6 !important;
+    }
+
+    .payment-preview-header {
+      text-align: center !important;
+      margin-bottom: 3rem !important;
+    }
+
+    .payment-preview-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 2.2rem !important;
+      font-weight: 900 !important;
+      color: #012B3A !important;
+      margin: 0 0 0.5rem 0 !important;
+    }
+
+    .payment-preview-desc {
+      font-size: 1.05rem !important;
+      color: #666666 !important;
+      max-width: 600px !important;
+      margin: 0 auto !important;
+    }
+
+    .payment-cards-grid {
+      display: grid !important;
+      grid-template-columns: repeat(4, 1fr) !important;
+      gap: 1.5rem !important;
+    }
+
+    .payment-card {
+      background: #ffffff !important;
+      border-radius: 20px !important;
+      border: 1px solid rgba(0, 0, 0, 0.05) !important;
+      padding: 2rem !important;
+      transition: all 0.25s ease !important;
+      display: flex !important;
+      flex-direction: column !important;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.02) !important;
+    }
+
+    .payment-card:hover {
+      border-color: #00B67A !important;
+      transform: translateY(-4px) !important;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.06) !important;
+    }
+
+    .payment-card-icon {
+      font-size: 2.2rem !important;
+      color: #00B67A !important;
+      margin-bottom: 1.25rem !important;
+    }
+
+    .payment-card-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 1.25rem !important;
+      font-weight: 800 !important;
+      color: #012B3A !important;
+      margin: 0 0 0.75rem 0 !important;
+    }
+
+    .payment-card-bullets {
+      list-style: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      font-size: 0.9rem !important;
+      color: #555555 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.45rem !important;
+    }
+
+    .payment-card-bullets li {
+      position: relative !important;
+      padding-left: 1.2rem !important;
+    }
+
+    .payment-card-bullets li::before {
+      content: '•' !important;
+      position: absolute !important;
+      left: 0.2rem !important;
+      color: #00B67A !important;
+      font-weight: bold !important;
+    }
+
+    /* Success View Container */
+    .success-container {
+      background: #FFFFFF !important;
+      padding: 5rem 4rem !important;
+      border-radius: 28px !important;
+      box-shadow: 0 16px 45px rgba(0, 0, 0, 0.04) !important;
+      border: 1px solid rgba(0, 0, 0, 0.05) !important;
+      text-align: center !important;
+      max-width: 650px !important;
+      margin: 2rem auto !important;
+      display: none;
+    }
+
+    .success-icon-circle {
+      width: 80px !important;
+      height: 80px !important;
+      border-radius: 50% !important;
+      background: rgba(0, 182, 122, 0.08) !important;
+      color: #00B67A !important;
+      font-size: 2.5rem !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      margin: 0 auto 2rem auto !important;
+      box-shadow: 0 6px 20px rgba(0, 182, 122, 0.1) !important;
+    }
+
+    .success-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 2.2rem !important;
+      font-weight: 900 !important;
+      color: #012B3A !important;
+      margin: 0 0 1rem 0 !important;
+    }
+
+    .success-desc {
+      font-size: 1.1rem !important;
+      color: #555555 !important;
+      line-height: 1.6 !important;
+      margin: 0 0 2.5rem 0 !important;
+    }
+
+    .btn-success-action {
+      background: #012B3A !important;
+      color: #ffffff !important;
+      padding: 0.95rem 2.2rem !important;
+      border-radius: 50px !important;
+      font-weight: 800 !important;
+      font-size: 1.05rem !important;
+      text-decoration: none !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 0.6rem !important;
+      transition: all 0.25s ease !important;
+      border: none !important;
+    }
+
+    .btn-success-action:hover {
+      background: #00B67A !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 8px 20px rgba(0, 182, 122, 0.2) !important;
+    }
+
+    /* Mobile Responsiveness styling */
+    @media (max-width: 992px) {
+      .apply-grid-wrapper {
+        grid-template-columns: 1.5fr 1fr !important;
+        gap: 2rem !important;
+      }
+      .payment-cards-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1.25rem !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .apply-main-wrapper {
+        padding: 2.5rem 0 4rem 0 !important;
+      }
+      .apply-grid-wrapper {
+        grid-template-columns: 1fr !important;
+      }
+      .summary-card {
+        order: -1 !important;
+        position: static !important;
+        margin-bottom: 1.5rem !important;
+      }
+      .apply-form-card {
+        padding: 2rem !important;
+      }
+      .steps-timeline {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 2rem !important;
+        padding-left: 1.5rem !important;
+        margin-bottom: 2rem !important;
+      }
+      .steps-timeline::before {
+        left: 39px !important;
+        top: 10px !important;
+        bottom: 10px !important;
+        width: 3px !important;
+        height: auto !important;
+      }
+      .timeline-step {
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        gap: 1.25rem !important;
+        text-align: left !important;
+      }
+      .timeline-circle {
+        margin-bottom: 0 !important;
+        flex-shrink: 0 !important;
+      }
+      .timeline-desc {
+        max-width: none !important;
+      }
+      .payment-cards-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+      }
+      .apply-title {
+        font-size: 2.2rem !important;
+      }
+    }
+  </style>
+</head>
+<body class="apply-page-body">
+
+  <!-- ==========================================================================
+       1. Navigation Header
+       ========================================================================== -->
+  <header class="header header-static">
+    <div class="container">
+      <div class="nav-container-box">
+        <a href="index.html" class="logo">
+          <i class="fa-solid fa-paw logo-icon"></i> PawHaven
+        </a>
+
+        <nav class="nav-center-wrapper">
+          <ul class="nav-links">
+            <li><a href="index.html#catalog-section" class="nav-link">Browse Available Puppies</a></li>
+            <li><a href="index.html#reviews-section" class="nav-link">Reviews</a></li>
+            <li><a href="index.html#ofa-section" class="nav-link">OFA Certification</a></li>
+            <li><a href="index.html#delivery-section" class="nav-link">Delivery Process & Care</a></li>
+          </ul>
+        </nav>
+
+        <a href="contact.html" class="btn-nav-contact">
+          <i class="fa-solid fa-envelope"></i> Contact Us
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       2. Main Content Wrapper
+       ========================================================================== -->
+  <main id="content" class="apply-main-wrapper">
+    <div class="container">
+
+      <!-- Success View (Initially Hidden) -->
+      <div id="successView" class="success-container">
+        <div class="success-icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <h2 class="success-title">Application Submitted</h2>
+        <p class="success-desc">Thank you for your adoption application. Our team will review your details and contact you with the next steps.</p>
+        <a href="index.html#catalog-section" class="btn-success-action">
+          <i class="fa-solid fa-arrow-left"></i> Back to Puppies
+        </a>
+      </div>
+
+      <!-- Main Form Layout (Wrapper for dynamic load toggling) -->
+      <div id="mainApplicationLayout">
+
+        <!-- Page Header -->
+        <div class="apply-header">
+          <h1 class="apply-title">Adoption Application</h1>
+          <p class="apply-subtitle">Complete your details below to begin the adoption process for your selected puppy.</p>
+        </div>
+
+        <!-- Fallback Card (No Puppy Selected) -->
+        <div id="noPuppySelectedCard" class="no-puppy-card" style="display: none;">
+          <div class="no-puppy-icon">
+            <i class="fa-solid fa-circle-exclamation"></i>
+          </div>
+          <h2 class="no-puppy-title">No Puppy Selected</h2>
+          <p class="no-puppy-desc">To fill out an adoption application, please choose a puppy from our available catalog first.</p>
+          <a href="index.html#catalog-section" class="btn-outline-back">
+            <i class="fa-solid fa-arrow-left"></i> Browse Available Puppies
+          </a>
+        </div>
+
+        <!-- Grid Container: Form & Summary -->
+        <div id="formContainer" class="apply-grid-wrapper" style="display: none;">
+          
+          <!-- LEFT COLUMN: Adoption Form -->
+          <div class="apply-left-col">
+            <div class="apply-form-card">
+              <form id="adoptionApplicationForm" onsubmit="handleApplicationSubmit(event)">
+                
+                <!-- Section A: Personal Information -->
+                <div class="apply-form-section-title">
+                  <i class="fa-solid fa-user-check"></i> Personal Information
+                </div>
+                
+                <div class="form-group" style="margin-bottom: 1.25rem;">
+                  <label for="fullName">Full Name <span class="req-star">*</span></label>
+                  <input type="text" id="fullName" placeholder="e.g. Jane Smith" required />
+                </div>
+
+                <div class="form-row-2col" style="margin-bottom: 1.25rem;">
+                  <div class="form-group">
+                    <label for="emailAddress">Email Address <span class="req-star">*</span></label>
+                    <input type="email" id="emailAddress" placeholder="jane@example.com" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="phoneNumber">Phone Number <span class="req-star">*</span></label>
+                    <input type="tel" id="phoneNumber" placeholder="(555) 000-0000" required />
+                  </div>
+                </div>
+
+                <!-- Section B: Address -->
+                <div class="apply-form-section-title">
+                  <i class="fa-solid fa-house-chimney"></i> Address
+                </div>
+
+                <div class="form-row-2col" style="margin-bottom: 1.25rem;">
+                  <div class="form-group">
+                    <label for="addressCountry">Country <span class="req-star">*</span></label>
+                    <select id="addressCountry" required>
+                      <option value="" disabled selected>Select Country</option>
+                      <option value="United States">United States</option>
+                      <option value="Canada">Canada</option>
+                      <option value="United Kingdom">United Kingdom</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Other">Other International</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="addressState">State / Province <span class="req-star">*</span></label>
+                    <input type="text" id="addressState" placeholder="e.g. California" required />
+                  </div>
+                </div>
+
+                <div class="form-row-2col" style="margin-bottom: 1.25rem;">
+                  <div class="form-group">
+                    <label for="addressCity">City <span class="req-star">*</span></label>
+                    <input type="text" id="addressCity" placeholder="e.g. Los Angeles" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="addressZip">ZIP / Postal Code <span class="req-star">*</span></label>
+                    <input type="text" id="addressZip" placeholder="90001" required />
+                  </div>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1.25rem;">
+                  <label for="fullAddress">Full Street Address <span class="req-star">*</span></label>
+                  <input type="text" id="fullAddress" placeholder="e.g. 123 Maple Street, Apt 4B" required />
+                </div>
+
+                <!-- Section C: Delivery Information -->
+                <div class="apply-form-section-title">
+                  <i class="fa-solid fa-truck-ramp-box"></i> Delivery Information
+                </div>
+
+                <div class="form-row-2col" style="margin-bottom: 1.25rem;">
+                  <div class="form-group">
+                    <label for="deliveryMethod">Preferred Delivery Method <span class="req-star">*</span></label>
+                    <select id="deliveryMethod" onchange="updateDeliverySummary(this.value)" required>
+                      <option value="" disabled selected>Select Method</option>
+                      <option value="Local Pickup">Local Breeder Pickup (Free)</option>
+                      <option value="Ground Transport">Direct Ground Transport ($295)</option>
+                      <option value="Flight Nanny">Air Travel with Cabin Nanny ($495)</option>
+                      <option value="Cargo Safe">Climate-Controlled Cargo ($395)</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="deliveryDate">Preferred Delivery Date <span class="req-star">*</span></label>
+                    <input type="date" id="deliveryDate" required />
+                  </div>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1.25rem;">
+                  <label for="deliveryNotes">Additional Delivery Notes (Optional)</label>
+                  <textarea id="deliveryNotes" rows="3" placeholder="e.g. Gate codes, contact name on arrival, preferred times..."></textarea>
+                </div>
+
+                <!-- Section D: Adoption Information -->
+                <div class="apply-form-section-title">
+                  <i class="fa-solid fa-shield-heart"></i> Adoption Information
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1.25rem;">
+                  <label for="reasonAdopt">Why are you interested in adopting this puppy? <span class="req-star">*</span></label>
+                  <textarea id="reasonAdopt" rows="3" placeholder="Please share details about your home environment, lifestyle, and motivation..." required></textarea>
+                </div>
+
+                <div class="form-row-2col" style="margin-bottom: 1.25rem;">
+                  <div class="form-group">
+                    <label for="ownPets">Do you currently own any pets? <span class="req-star">*</span></label>
+                    <select id="ownPets" required>
+                      <option value="" disabled selected>Select option</option>
+                      <option value="No">No, I do not have other pets</option>
+                      <option value="Yes - Dogs">Yes, I own dog(s)</option>
+                      <option value="Yes - Cats">Yes, I own cat(s)</option>
+                      <option value="Yes - Multiple">Yes, dogs & cats / other pets</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="ownedBefore">Have you owned a dog before? <span class="req-star">*</span></label>
+                    <select id="ownedBefore" required>
+                      <option value="" disabled selected>Select option</option>
+                      <option value="Yes">Yes, I am an experienced dog owner</option>
+                      <option value="No">No, this is my first dog</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                  <label for="contactMethod">Preferred Contact Method <span class="req-star">*</span></label>
+                  <select id="contactMethod" required>
+                    <option value="" disabled selected>Select Preferred Method</option>
+                    <option value="Email">Email</option>
+                    <option value="Phone Call">Phone Call</option>
+                    <option value="SMS Text">SMS Text</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                  </select>
+                </div>
+
+                <!-- Submit Action Block -->
+                <button type="submit" class="btn-apply-submit">
+                  <i class="fa-solid fa-file-signature"></i> Submit Adoption Application
+                </button>
+                <div class="submit-disclaimer">
+                  By submitting this application, you confirm that the information provided is accurate and that you agree to our adoption terms.
+                </div>
+
+              </form>
+            </div>
+          </div>
+
+          <!-- RIGHT COLUMN: Puppy & Order Summary (Sticky) -->
+          <div class="apply-right-col">
+            <div id="puppySummaryCard" class="summary-card">
+              
+              <div class="summary-card-header">
+                <h3 class="summary-card-title">Adoption Summary</h3>
+              </div>
+
+              <!-- Puppy Details Header -->
+              <div class="summary-puppy-header">
+                <div class="summary-puppy-img-wrapper">
+                  <img id="summaryPuppyPhoto" src="" alt="Selected Puppy" class="summary-puppy-img" />
+                </div>
+                <div class="summary-puppy-info-meta">
+                  <h4 id="summaryPuppyName" class="summary-puppy-name">Puppy</h4>
+                  <p id="summaryPuppyBreed" class="summary-puppy-breed">Breed</p>
+                </div>
+              </div>
+
+              <!-- Puppy Specs Grid -->
+              <div class="summary-puppy-specs-grid">
+                <div class="summary-spec-item">
+                  <span class="summary-spec-label">Gender</span>
+                  <span id="summaryPuppyGender" class="summary-spec-value">Gender</span>
+                </div>
+                <div class="summary-spec-item">
+                  <span class="summary-spec-label">Age</span>
+                  <span id="summaryPuppyAge" class="summary-spec-value">Age</span>
+                </div>
+              </div>
+
+              <!-- Invoice details -->
+              <div class="summary-pricing-row">
+                <span>Puppy Price</span>
+                <span id="summaryPuppyPrice" class="summary-pricing-price">$0</span>
+              </div>
+              <div class="summary-pricing-row">
+                <span>Delivery Status</span>
+                <span id="summaryDeliveryStatus" style="font-weight: 700;">Pending Method</span>
+              </div>
+              <div class="summary-pricing-row">
+                <span>Adoption Application Fee</span>
+                <span style="font-weight: 700; color: #00B67A;">FREE</span>
+              </div>
+
+              <div class="summary-pricing-row total-row">
+                <span>Total Amount Due</span>
+                <span id="summaryTotalPrice" class="summary-pricing-price total-price">$0</span>
+              </div>
+
+              <!-- Application Status Indicator -->
+              <div class="summary-pricing-row" style="margin-bottom: 0.5rem;">
+                <span style="font-weight: 800; font-size: 0.85rem; text-transform: uppercase; color: #777777; letter-spacing: 0.03em;">Application Status</span>
+              </div>
+              <div id="applicationStatusBadge" class="summary-status-badge status-draft">
+                <i class="fa-solid fa-pen-nib"></i> Draft State
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       3. Payment Process Steps Information
+       ========================================================================== -->
+  <section class="process-section">
+    <div class="process-container-width">
+      
+      <div class="process-header">
+        <h2 class="process-title">Next Steps in the Process</h2>
+        <p class="process-subtitle">Here is a step-by-step roadmap of how your puppy adoption will progress after form submission.</p>
+      </div>
+
+      <ul class="steps-timeline">
+        
+        <!-- Step 1 -->
+        <li class="timeline-step active">
+          <div class="timeline-circle">1</div>
+          <h4 class="timeline-label">Submit Form</h4>
+          <p class="timeline-desc">Submit your details for counselor screening review.</p>
+        </li>
+
+        <!-- Step 2 -->
+        <li class="timeline-step">
+          <div class="timeline-circle">2</div>
+          <h4 class="timeline-label">Approval</h4>
+          <p class="timeline-desc">Counselor approves your home environment verification.</p>
+        </li>
+
+        <!-- Step 3 -->
+        <li class="timeline-step">
+          <div class="timeline-circle">3</div>
+          <h4 class="timeline-label">Invoice</h4>
+          <p class="timeline-desc">Adoption approval generates your formal invoice contract.</p>
+        </li>
+
+        <!-- Step 4 -->
+        <li class="timeline-step">
+          <div class="timeline-circle">4</div>
+          <h4 class="timeline-label">Payment</h4>
+          <p class="timeline-desc">Choose Zelle, Bank Wire, or Crypto checkout options.</p>
+        </li>
+
+        <!-- Step 5 -->
+        <li class="timeline-step">
+          <div class="timeline-circle">5</div>
+          <h4 class="timeline-label">Verification</h4>
+          <p class="timeline-desc">Team verifies funds transfers within 1 business day.</p>
+        </li>
+
+        <!-- Step 6 -->
+        <li class="timeline-step">
+          <div class="timeline-circle">6</div>
+          <h4 class="timeline-label">Scheduled</h4>
+          <p class="timeline-desc">Lock in delivery transport timelines for puppy travel.</p>
+        </li>
+
+      </ul>
+
+      <div class="process-footer-wrapper">
+        <div class="process-footer-notice">
+          <i class="fa-solid fa-circle-info" style="color: #00B67A; margin-right: 0.45rem;"></i>
+          Payment is requested only after your adoption application has been reviewed and approved.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. Payment Methods Preview (Informational only)
+       ========================================================================== -->
+  <section class="payment-preview-section">
+    <div class="process-container-width">
+      
+      <div class="payment-preview-header">
+        <h2 class="payment-preview-title">Available Payment Methods</h2>
+        <p class="payment-preview-desc">Review our secure verification checkout pathways. We do not process payments directly on this form.</p>
+      </div>
+
+      <div class="payment-cards-grid">
+        
+        <!-- Card 1: Crypto -->
+        <div class="payment-card">
+          <div class="payment-card-icon">
+            <i class="fa-brands fa-bitcoin"></i>
+          </div>
+          <h3 class="payment-card-title">Cryptocurrency</h3>
+          <ul class="payment-card-bullets">
+            <li>Bitcoin (BTC)</li>
+            <li>Ethereum (ETH)</li>
+            <li>USDT Stablecoin</li>
+            <li>USDC Stablecoin</li>
+            <li>Solana (SOL)</li>
+          </ul>
+        </div>
+
+        <!-- Card 2: Zelle -->
+        <div class="payment-card">
+          <div class="payment-card-icon">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <h3 class="payment-card-title">Zelle</h3>
+          <ul class="payment-card-bullets">
+            <li>Direct transfer</li>
+            <li>Instant settlement</li>
+            <li>Zero sender fees</li>
+            <li>Mobile app native</li>
+          </ul>
+        </div>
+
+        <!-- Card 3: Domestic Bank -->
+        <div class="payment-card">
+          <div class="payment-card-icon">
+            <i class="fa-solid fa-building-columns"></i>
+          </div>
+          <h3 class="payment-card-title">Domestic Bank</h3>
+          <ul class="payment-card-bullets">
+            <li>ACH transfers</li>
+            <li>Local check drafts</li>
+            <li>Over-the-counter pay</li>
+            <li>FedNow support</li>
+          </ul>
+        </div>
+
+        <!-- Card 4: Wire Transfer -->
+        <div class="payment-card">
+          <div class="payment-card-icon">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <h3 class="payment-card-title">International Wire</h3>
+          <ul class="payment-card-bullets">
+            <li>SWIFT network wire</li>
+            <li>Multi-currency wire</li>
+            <li>Secure corporate vault</li>
+            <li>Full routing transparency</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="footer-logo">PawHaven</a>
+          <p style="color:rgba(255,255,255,0.6); margin-top:0.5rem; max-width:320px; font-size:0.9rem;">
+            Ethical canine adoption connecting verified USDA breeders with caring homes.
+          </p>
+        </div>
+
+        <div style="display:flex; gap:3rem;">
+          <div>
+            <h5 style="color:#fff; margin-bottom:1rem;">Explore</h5>
+            <div style="display:flex; flex-direction:column; gap:0.5rem; font-size:0.9rem; opacity:0.75;">
+              <a href="index.html#catalog-section">Browse available puppies</a>
+              <a href="index.html#reviews-section">Puppy parents reviews</a>
+              <a href="index.html#ofa-section">OFA Certification</a>
+              <a href="index.html#delivery-section">Delivery process & care</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 PawHaven Inc. All Rights Reserved.</div>
+        <div>10-Year Health Guarantee • USDA Licensed Partner Network</div>
+      </div>
+
+      <!-- Non-Clickable Legal & Compliance Information -->
+      <div class="footer-legal-info-nonclickable" style="margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.08); font-size: 0.85rem; color: #828282; font-family: 'Nunito', sans-serif; line-height: 1.6; text-align: left;">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; row-gap: 0.2rem;">
+          <span>Terms of Use</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+          <span>Privacy Policy</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+          <span>Sitemap</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+          <span>Accredited BBB</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+          <span>Do Not Sell My Personal Information</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+          <span>California and Maryland site</span> <span style="color: #666666; font-weight: bold; margin: 0 0.15rem;">·</span>
+        </div>
+        <div style="margin-top: 0.25rem;">
+          <span>Nationwide (Non-California, Non-Maryland) Site</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Sticky WhatsApp Button -->
+  <a href="https://wa.me/15550192834?text=Hello%20PawHaven%2C%20I%20am%20interested%20in%20adopting%20a%20puppy!" target="_blank" rel="noopener noreferrer" class="whatsapp-sticky-btn" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-icon-wrapper">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <span class="whatsapp-tooltip">Chat with us</span>
+  </a>
+
+  <!-- Dynamic Content & Interactive Logic Scripts -->
+  <script src="data/siteData.js?v=1700"></script>
+  <script>
+    let activePuppy = null;
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // Find selected puppy in SITE_DATA
+      const urlParams = new URLSearchParams(window.location.search);
+      const puppyIdStr = urlParams.get('id');
+      
+      if (puppyIdStr) {
+        const puppyId = parseInt(puppyIdStr);
+        activePuppy = SITE_DATA.puppies.find(p => p.id === puppyId);
+      } else {
+        const breedParam = urlParams.get('breed');
+        const puppyParam = urlParams.get('puppy');
+        if (breedParam && puppyParam) {
+          activePuppy = SITE_DATA.puppies.find(p => 
+            p.breed.toLowerCase() === breedParam.toLowerCase() && 
+            p.name.toLowerCase() === puppyParam.toLowerCase()
+          );
+        }
+      }
+
+      const mainLayout = document.getElementById('mainApplicationLayout');
+      const noPuppyCard = document.getElementById('noPuppySelectedCard');
+      const formContainer = document.getElementById('formContainer');
+
+      if (activePuppy) {
+        // Populate puppy summary card
+        document.getElementById('summaryPuppyPhoto').src = activePuppy.image;
+        document.getElementById('summaryPuppyPhoto').alt = activePuppy.name;
+        document.getElementById('summaryPuppyName').textContent = activePuppy.name;
+        document.getElementById('summaryPuppyBreed').textContent = activePuppy.breed;
+        document.getElementById('summaryPuppyGender').textContent = activePuppy.gender;
+        document.getElementById('summaryPuppyAge').textContent = activePuppy.age;
+        document.getElementById('summaryPuppyPrice').textContent = '$' + activePuppy.price.toLocaleString();
+        
+        // Show actual layout
+        noPuppyCard.style.display = 'none';
+        formContainer.style.display = 'grid';
+        
+        // Initial price calculations
+        updatePrices(0); // Free pickup initially
+      } else {
+        // Show warning card and hide main layout form elements
+        noPuppyCard.style.display = 'block';
+        formContainer.style.display = 'none';
+      }
+    });
+
+    function updateDeliverySummary(methodValue) {
+      let deliveryFee = 0;
+      let deliveryText = "Pending Method";
+
+      if (methodValue === "Local Pickup") {
+        deliveryFee = 0;
+        deliveryText = "Local Pickup (Free)";
+      } else if (methodValue === "Ground Transport") {
+        deliveryFee = 295;
+        deliveryText = "Direct Ground ($295)";
+      } else if (methodValue === "Flight Nanny") {
+        deliveryFee = 495;
+        deliveryText = "Cabin Nanny ($495)";
+      } else if (methodValue === "Cargo Safe") {
+        deliveryFee = 395;
+        deliveryText = "Cargo Transit ($395)";
+      }
+
+      document.getElementById('summaryDeliveryStatus').textContent = deliveryText;
+      updatePrices(deliveryFee);
+    }
+
+    function updatePrices(deliveryFee) {
+      if (!activePuppy) return;
+      const puppyPrice = activePuppy.price;
+      const totalAmount = puppyPrice + deliveryFee;
+
+      document.getElementById('summaryTotalPrice').textContent = '$' + totalAmount.toLocaleString();
+    }
+
+    function handleApplicationSubmit(event) {
+      event.preventDefault();
+      
+      // Perform form validations
+      const form = document.getElementById('adoptionApplicationForm');
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      // Change status badge
+      const statusBadge = document.getElementById('applicationStatusBadge');
+      statusBadge.className = "summary-status-badge status-submitted";
+      statusBadge.innerHTML = '<i class="fa-solid fa-circle-check"></i> In Review';
+
+      // Hide layout & Show success view
+      document.getElementById('mainApplicationLayout').style.display = 'none';
+      
+      // Scroll to top smoothly so they see the success state
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      
+      // Show success view container
+      const successView = document.getElementById('successView');
+      successView.style.display = 'block';
+    }
+  </script>
+</body>
+</html>

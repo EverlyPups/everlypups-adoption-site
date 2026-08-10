@@ -112,7 +112,7 @@
               <span class="price-guarantee-note"><i class="fa-solid fa-circle-check text-green"></i> Backed by PawHaven 10-Year Guarantee</span>
             </div>
 
-            <a href="contact.html" id="btnReservePuppy" class="btn-reserve-hero">
+            <a href="apply.html" id="btnReservePuppy" class="btn-reserve-hero">
               <span>Reserve <span id="reservePuppyName">Puppy</span></span>
               <i class="fa-solid fa-arrow-right"></i>
             </a>
@@ -428,7 +428,7 @@
         document.getElementById('puppyPrice').textContent = '$' + puppy.price.toLocaleString();
         document.getElementById('reservePuppyName').textContent = puppy.name;
         const btnReserve = document.getElementById('btnReservePuppy');
-        btnReserve.href = 'contact.html?breed=' + encodeURIComponent(puppy.breed) + '&puppy=' + encodeURIComponent(puppy.name);
+        btnReserve.href = 'apply.html?id=' + puppy.id;
 
         // Specs Grid
         document.getElementById('specGender').textContent = puppy.gender;
