@@ -2148,8 +2148,6 @@ img, video {
   .as-seen-on-full-row { flex-direction: column; gap: 1.5rem; }
   .as-seen-logos-group { flex-wrap: wrap; justify-content: center; gap: 2rem; }
   .logo-pair { gap: 2rem; }
-  .spotted-by-badge { display: flex; }
-  .as-seen-label-desktop { display: none; }
   .available-puppies-grid { grid-template-columns: repeat(2, 1fr); }
   .standards-grid { grid-template-columns: 1fr 1fr; }
   .prev-btn { left: 1rem; }
