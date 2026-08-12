@@ -308,6 +308,10 @@
         <a href="contact.html" class="btn-nav-contact">
           <i class="fa-solid fa-envelope"></i> Contact Us
         </a>
+
+        <button class="btn-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </div>
     </div>
   </header>
@@ -331,10 +335,9 @@
            ====================================================================== -->
       <div class="puppy-detail-grid">
         
-        <!-- LEFT COLUMN: Image Gallery Carousel -->
-        <div class="puppy-gallery-col" style="width: 485px; max-width: 100%;">
-          <div class="main-image-frame" style="width: 485px; height: 485px; max-width: 100%; aspect-ratio: 1/1;">
-            <img id="mainPuppyImage" src="" alt="Puppy Photo" class="main-puppy-img" style="width: 485px; height: 485px; max-width: 100%; object-fit: cover;" />
+        <div class="puppy-gallery-col">
+          <div class="main-image-frame">
+            <img id="mainPuppyImage" src="" alt="Puppy Photo" class="main-puppy-img" />
             <div id="puppyStatusBadge" class="gallery-status-badge">Ready to go home</div>
             <div class="gallery-social-proof">
               <i class="fa-solid fa-fire text-amber"></i> <span id="viewingCount">4 families are viewing</span>
@@ -774,6 +777,51 @@
     };
 
     initMegaDropdown();
+
+    // Mobile Navigation Drawer Toggle
+    const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+    const mobileMenuClose = document.getElementById('mobileMenuClose');
+    const mobileNavDrawer = document.getElementById('mobileNavDrawer');
+    const mobileNavOverlay = document.getElementById('mobileNavOverlay');
+
+    function openMobileMenu() {
+      mobileNavDrawer.classList.add('open');
+      mobileNavOverlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobileMenu() {
+      mobileNavDrawer.classList.remove('open');
+      mobileNavOverlay.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    if (mobileMenuToggle) mobileMenuToggle.addEventListener('click', openMobileMenu);
+    if (mobileMenuClose) mobileMenuClose.addEventListener('click', closeMobileMenu);
+    if (mobileNavOverlay) mobileNavOverlay.addEventListener('click', closeMobileMenu);
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', closeMobileMenu);
+    });
   </script>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div class="mobile-nav-drawer-header">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-paw logo-icon"></i> EverlyPups
+      </a>
+      <button class="btn-menu-close" id="mobileMenuClose" aria-label="Close Navigation">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="browse-all-puppies.html" class="mobile-nav-link">Browse Available Puppies</a></li>
+      <li><a href="index.html#reviews-section" class="mobile-nav-link">Reviews</a></li>
+      <li><a href="index.html#ofa-section" class="mobile-nav-link">OFA Certification</a></li>
+      <li><a href="index.html#delivery-section" class="mobile-nav-link">Delivery Process & Care</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
 </body>
 </html>

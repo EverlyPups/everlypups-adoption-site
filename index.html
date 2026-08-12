@@ -321,6 +321,10 @@
         <a href="contact.html" class="btn-nav-contact">
           <i class="fa-solid fa-envelope"></i> Contact Us
         </a>
+
+        <button class="btn-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </div>
     </div>
   </header>
@@ -1688,7 +1692,53 @@
     <span class="whatsapp-tooltip">Chat with us</span>
   </a>
 
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div class="mobile-nav-drawer-header">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-paw logo-icon"></i> EverlyPups
+      </a>
+      <button class="btn-menu-close" id="mobileMenuClose" aria-label="Close Navigation">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="browse-all-puppies.html" class="mobile-nav-link">Browse Available Puppies</a></li>
+      <li><a href="#reviews-section" class="mobile-nav-link">Reviews</a></li>
+      <li><a href="#ofa-section" class="mobile-nav-link">OFA Certification</a></li>
+      <li><a href="#delivery-section" class="mobile-nav-link">Delivery Process & Care</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+
   <script src="data/siteData.js?v=1715"></script>
   <script src="app.js?v=1715"></script>
+  <script>
+    // Mobile Navigation Drawer Toggle
+    const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+    const mobileMenuClose = document.getElementById('mobileMenuClose');
+    const mobileNavDrawer = document.getElementById('mobileNavDrawer');
+    const mobileNavOverlay = document.getElementById('mobileNavOverlay');
+
+    function openMobileMenu() {
+      mobileNavDrawer.classList.add('open');
+      mobileNavOverlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobileMenu() {
+      mobileNavDrawer.classList.remove('open');
+      mobileNavOverlay.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    if (mobileMenuToggle) mobileMenuToggle.addEventListener('click', openMobileMenu);
+    if (mobileMenuClose) mobileMenuClose.addEventListener('click', closeMobileMenu);
+    if (mobileNavOverlay) mobileNavOverlay.addEventListener('click', closeMobileMenu);
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', closeMobileMenu);
+    });
+  </script>
 </body>
 </html>

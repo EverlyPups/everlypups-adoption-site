@@ -4011,4 +4011,324 @@ img, video {
   }
 }
 
+/* ==========================================================================
+   Mobile Hamburger Toggle and Sliding Navigation Drawer Styles
+   ========================================================================== */
+.btn-menu-toggle {
+  display: none !important;
+  background: transparent !important;
+  border: none !important;
+  font-size: 1.5rem !important;
+  color: var(--text-primary) !important;
+  cursor: pointer !important;
+  padding: 0.5rem !important;
+  z-index: 100 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  outline: none !important;
+  transition: transform 0.2s ease !important;
+}
+
+.btn-menu-toggle:active {
+  transform: scale(0.9) !important;
+}
+
+.mobile-nav-drawer {
+  position: fixed !important;
+  top: 0 !important;
+  right: -300px !important;
+  width: 280px !important;
+  height: 100% !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15) !important;
+  z-index: 9999 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 1.5rem !important;
+  box-sizing: border-box !important;
+  transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.mobile-nav-drawer.open {
+  right: 0 !important;
+}
+
+.mobile-nav-drawer-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 2rem !important;
+  width: 100% !important;
+}
+
+.btn-menu-close {
+  background: transparent !important;
+  border: none !important;
+  font-size: 1.5rem !important;
+  color: var(--text-secondary) !important;
+  cursor: pointer !important;
+  padding: 0.5rem !important;
+  outline: none !important;
+}
+
+.mobile-nav-links {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.25rem !important;
+}
+
+.mobile-nav-link {
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  color: var(--text-secondary) !important;
+  text-decoration: none !important;
+  display: block !important;
+  padding: 0.5rem 0 !important;
+  border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+  transition: color 0.2s ease !important;
+}
+
+.mobile-nav-link:hover,
+.mobile-nav-link:active {
+  color: var(--brand-primary) !important;
+}
+
+.mobile-nav-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(2px) !important;
+  z-index: 9998 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: opacity 0.3s ease !important;
+}
+
+.mobile-nav-overlay.open {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+@media (max-width: 768px) {
+  .btn-menu-toggle {
+    display: inline-flex !important;
+  }
+}
+
+/* ==========================================================================
+   Global Responsiveness Adjustments
+   ========================================================================== */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.2rem !important;
+  }
+  .logo-icon {
+    font-size: 1.1rem !important;
+  }
+  .btn-nav-contact {
+    font-size: 0.85rem !important;
+    padding: 0.45rem 1rem !important;
+  }
+}
+
+/* 1. Global Stepper Overrides for Checkout Pages (apply, delivery, payment) */
+body .stepper-container {
+  padding: 0 1rem !important;
+  margin-top: 1rem !important;
+}
+
+body .stepper-steps {
+  gap: 0.25rem !important;
+}
+
+body .stepper-label {
+  font-size: 0.725rem !important;
+}
+
+@media (max-width: 480px) {
+  body .stepper-label {
+    display: none !important; /* Hide labels on tiny mobile, just show active step or icon/number */
+  }
+  body .stepper-step.active .stepper-label {
+    display: block !important; /* Show only active label */
+    font-size: 0.75rem !important;
+    position: absolute !important;
+    top: 32px !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+  }
+  body .stepper-separator {
+    top: 0 !important;
+    margin: 0 5px !important;
+  }
+  body .stepper-container {
+    padding-bottom: 20px !important; /* spacing for absolute positioned label */
+  }
+}
+
+/* 2. Global Modal Content padding on Mobile */
+@media (max-width: 480px) {
+  body .modal-content {
+    padding: 1.5rem 1.25rem !important;
+    width: 95% !important;
+    border-radius: 20px !important;
+  }
+}
+
+/* 3. Header Container Box Padding fix (override !important padding-left) */
+@media (max-width: 768px) {
+  body .nav-container-box {
+    padding: 0.4rem 0.75rem 0.4rem 1.25rem !important;
+  }
+}
+
+/* 4. Responsive Circle Badge & SVG inside trust/guarantee banner */
+@media (max-width: 480px) {
+  body .pp__img-badge.pp__bg-gradient {
+    width: 270px !important;
+    height: 270px !important;
+    border-width: 4px !important;
+  }
+  body .pp__svg {
+    width: 90px !important;
+    height: 90px !important;
+  }
+}
+
+/* 5. Homepage Hero Section CTA button stack on small mobile */
+@media (max-width: 480px) {
+  body .hero-cta-group {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+    width: 100% !important;
+  }
+  body .hero-cta-group .btn-primary,
+  body .hero-cta-group .btn-stroke {
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* 6. Trustpilot Bar Wrap on Mobile */
+@media (max-width: 480px) {
+  body .trustpilot-bar-clean {
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+    padding-bottom: 1.25rem !important;
+  }
+}
+
+/* 7. Browse Puppies Search & Filters layout stacking on Mobile */
+@media (max-width: 480px) {
+  body .puppy-filter-row {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+  }
+  body .puppy-filter-row > .filter-pill-btn:not(.browse-gender-pill),
+  body .puppy-filter-row > .custom-breed-dropdown-wrapper {
+    width: 100% !important;
+    min-width: unset !important;
+    flex: 1 1 100% !important;
+  }
+  /* Layout gender buttons and reset button row nicely on mobile */
+  body .puppy-filter-row > .browse-gender-pill {
+    flex: 1 1 auto !important;
+  }
+}
+
+/* 8. Pagination Responsive sizing under 480px */
+@media (max-width: 480px) {
+  body #paginationContainer {
+    gap: 0.3rem !important;
+    margin-top: 2rem !important;
+  }
+  body .pagination-btn {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 0.825rem !important;
+  }
+  body .pagination-ellipsis {
+    font-size: 0.95rem !important;
+    padding: 0 0.15rem !important;
+  }
+}
+
+/* 9. Puppy Details Page - Image Aspect Ratio and Thumbnail row on Mobile */
+@media (max-width: 768px) {
+  body .main-image-frame,
+  body .main-image-card {
+    height: auto !important;
+    aspect-ratio: 1 / 1 !important;
+    width: 100% !important;
+  }
+  body .main-puppy-img,
+  body .main-puppy-image {
+    height: 100% !important;
+    width: 100% !important;
+    aspect-ratio: 1 / 1 !important;
+  }
+  body .detail-qa-strip {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
+    gap: 0.65rem !important;
+    padding: 1rem !important;
+  }
+  body .puppy-specs-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.75rem !important;
+  }
+}
+
+/* 10. Checkout Flow address column stacking in dynamic summary card */
+@media (max-width: 480px) {
+  body .summary-card .location-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.25rem !important;
+  }
+}
+
+/* 11. Custom Select trigger full width */
+@media (max-width: 480px) {
+  body .custom-select-container {
+    width: 100% !important;
+  }
+}
+
+/* 12. Footer Top & Bottom Stacking on Mobile & Tablet */
+@media (max-width: 768px) {
+  body .footer-top {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 2rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+  body .footer-bottom {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 1rem !important;
+  }
+}
+
+/* 13. Puppy Reviews Scroll Box Gutter Adjustment on Mobile */
+@media (max-width: 480px) {
+  body .puppy-reviews-scroll-box {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+
 
