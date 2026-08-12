@@ -4181,10 +4181,30 @@ body .stepper-label {
   }
 }
 
-/* 3. Header Container Box Padding fix (override !important padding-left) */
+/* 3. Mobile Header Layout (Logo Centered, Hamburger Left, Hide Contact Button) */
 @media (max-width: 768px) {
+  body .btn-nav-contact {
+    display: none !important;
+  }
   body .nav-container-box {
-    padding: 0.4rem 0.75rem 0.4rem 1.25rem !important;
+    display: flex !important;
+    align-items: center !important;
+    position: relative !important;
+    padding: 0.5rem 1rem !important;
+  }
+  body .logo {
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+    z-index: 10 !important;
+  }
+  body .btn-menu-toggle {
+    display: inline-flex !important;
+    order: -1 !important; /* Move to the left */
+    margin: 0 !important;
+    padding: 0.25rem !important;
+    z-index: 20 !important;
   }
 }
 
