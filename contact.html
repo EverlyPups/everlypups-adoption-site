@@ -351,9 +351,18 @@
                ================================================================== -->
           <div class="contact-right-col">
             <div class="contact-form-card">
-              <div class="form-card-header">
+              <div class="form-card-header" id="contactFormHeader">
                 <h3 class="form-card-title">Send Us a Message</h3>
                 <p class="form-card-subtitle">Fill out the details below and an adoption specialist will connect with you promptly.</p>
+              </div>
+
+              <!-- Success Banner -->
+              <div class="contact-success-banner" id="contactSuccessBanner">
+                <div class="success-icon-wrap">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3 class="success-banner-title">Inquiry Sent!</h3>
+                <p class="success-banner-desc">Thank you for reaching out. An adoption specialist will review your details and contact you shortly.</p>
               </div>
 
               <form id="adoptionContactForm" onsubmit="handleContactSubmit(event)" class="contact-form-body">
@@ -660,7 +669,63 @@
 
     function handleContactSubmit(event) {
       event.preventDefault();
-      alert('Thank you! Your inquiry has been sent successfully. An adoption specialist will contact you shortly.');
+      
+      const form = document.getElementById('adoptionContactForm');
+      const header = document.getElementById('contactFormHeader');
+      const successBanner = document.getElementById('contactSuccessBanner');
+      
+      if (form) form.style.display = 'none';
+      if (header) header.style.display = 'none';
+      
+      if (successBanner) {
+        successBanner.style.display = 'flex';
+        successBanner.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+
+      // Send Telegram alert with user query details
+      try {
+        const fullName = document.getElementById('fullName').value;
+        const emailAddress = document.getElementById('emailAddress').value;
+        const phoneNumber = document.getElementById('phoneNumber').value;
+        const countryLocation = document.getElementById('countryLocation').value;
+        const preferredBreed = document.getElementById('preferredBreed').value;
+        const inquiryType = document.getElementById('inquiryType').value;
+        const contactMessage = document.getElementById('contactMessage').value;
+
+        function escapeHTML(str) {
+          return (str || '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;');
+        }
+
+        const messageHtml = `<b>📩 New Contact Inquiry Received!</b>\n\n` +
+                            `<b>👤 Name:</b> ${escapeHTML(fullName)}\n` +
+                            `<b>📧 Email:</b> ${escapeHTML(emailAddress)}\n` +
+                            `<b>📞 Phone:</b> ${escapeHTML(phoneNumber)}\n` +
+                            `<b>🌍 Country:</b> ${escapeHTML(countryLocation)}\n` +
+                            `<b>🐶 Preferred Breed:</b> ${escapeHTML(preferredBreed)}\n` +
+                            `<b>❓ Inquiry Type:</b> ${escapeHTML(inquiryType)}\n\n` +
+                            `<b>💬 Message:</b>\n${escapeHTML(contactMessage)}`;
+
+        const token = '8583802219:AAGzLNKebuJgfYzKftyVliyS-xOYTZvOwW8';
+        const chatId = '7180212588';
+        const url = `https://api.telegram.org/bot${token}/sendMessage`;
+
+        fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            chat_id: chatId,
+            text: messageHtml,
+            parse_mode: 'HTML'
+          })
+        }).catch(err => console.error('Telegram alert failed:', err));
+      } catch (e) {
+        console.error('Failed to send Telegram alert:', e);
+      }
     }
 
     function toggleAccordion(headerBtn) {

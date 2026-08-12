@@ -4466,6 +4466,47 @@ body .stepper-label {
     padding-right: 0.5rem !important;
   }
 }
+/* --- Contact Form Success Banner --- */
+.contact-success-banner {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1.5rem !important;
+  background: #FFFFFF !important;
+  border-radius: 20px !important;
+  min-height: 400px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+}
 
+.success-icon-wrap {
+  font-size: 4rem !important;
+  color: #00B67A !important;
+  margin-bottom: 1.5rem !important;
+  animation: scaleIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
 
+.success-banner-title {
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 2rem !important;
+  font-weight: 800 !important;
+  color: #012B3A !important;
+  margin-bottom: 1rem !important;
+}
 
+.success-banner-desc {
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  color: #555555 !important;
+  line-height: 1.6 !important;
+  max-width: 380px !important;
+  margin: 0 auto !important;
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
