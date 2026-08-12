@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Find the Right Puppy for Your Family | PawHaven</title>
+  <title>Find the Right Puppy for Your Family | EverlyPups</title>
   
   <!-- Google Fonts: Nunito, Figtree, Outfit, Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -266,7 +266,7 @@
       height: 1px !important;
       background-color: #E2E8F0 !important;
       border: none !important;
-      margin: 0 !important;
+      margin: 1.5rem 0 1.75rem 0 !important;
     }
 
     .form-divider-green {
@@ -287,12 +287,19 @@
       margin: 0 !important;
     }
 
+    .fieldset-header-group {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.35rem !important;
+      margin-bottom: 0 !important;
+    }
+
     .fieldset-legend {
       font-family: 'Nunito', sans-serif !important;
       font-size: 1.1rem !important;
       font-weight: 800 !important;
       color: #333333 !important; /* tw-text-gray-01 */
-      margin-bottom: 0.5rem !important;
+      margin: 0 !important;
       padding: 0 !important;
     }
 
@@ -359,27 +366,97 @@
       padding: 0 1.5rem 0 0 !important;
     }
 
-    .select-wrapper {
+    .custom-select-container {
       position: relative !important;
       width: 100% !important;
+      cursor: pointer !important;
+      user-select: none !important;
     }
 
-    .select-wrapper::after {
-      content: '\f107' !important;
-      font-family: 'Font Awesome 6 Free' !important;
-      font-weight: 900 !important;
-      position: absolute !important;
-      right: 0.25rem !important;
-      top: 50% !important;
-      transform: translateY(-50%) !important;
-      color: #000000 !important;
-      font-size: 1.15rem !important;
-      pointer-events: none !important;
+    .custom-select-trigger {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      width: 100% !important;
+      height: 56px !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 1rem !important;
+      box-sizing: border-box !important;
     }
 
-    /* Valid states */
-    .select-field.selected-valid {
+    .custom-select-placeholder {
+      color: #94A3B8 !important;
+    }
+
+    .custom-select-placeholder.selected-val {
       color: #333333 !important;
+    }
+
+    .custom-select-arrow {
+      color: #333333 !important;
+      font-size: 0.875rem !important;
+      transition: transform 0.2s ease !important;
+    }
+
+    .custom-select-container.open .custom-select-arrow {
+      transform: rotate(180deg) !important;
+    }
+
+    .custom-select-dropdown {
+      position: absolute !important;
+      top: calc(100% + 8px) !important;
+      left: -1rem !important;
+      right: -1rem !important;
+      background-color: #ffffff !important;
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 12px !important;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+      z-index: 9999 !important;
+      max-height: 220px !important;
+      overflow-y: auto !important;
+      padding: 6px !important;
+      box-sizing: border-box !important;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar {
+      width: 6px !important;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar-track {
+      background: transparent !important;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar-thumb {
+      background-color: #CBD5E1 !important;
+      border-radius: 3px !important;
+    }
+
+    .custom-select-option {
+      padding: 10px 14px !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.95rem !important;
+      color: #334155 !important;
+      border-radius: 8px !important;
+      transition: background-color 0.15s ease, color 0.15s ease !important;
+      cursor: pointer !important;
+      text-align: left !important;
+    }
+
+    .custom-select-option:hover {
+      background-color: #F1F5F9 !important;
+      color: #1E293B !important;
+    }
+
+    .custom-select-option.selected {
+      background-color: #EFF6FF !important;
+      color: #2563EB !important;
+      font-weight: 600 !important;
+    }
+
+    .input-wrapper.open,
+    .input-wrapper:focus-within {
+      border-color: #00B67A !important;
+      box-shadow: 0 0 0 2px rgba(0, 182, 122, 0.15) !important;
     }
 
     /* Error Validation States */
@@ -392,7 +469,6 @@
       color: #EB5757 !important;
       font-family: 'Inter', sans-serif !important;
       font-size: 0.875rem !important;
-      display: flex !important;
       align-items: center !important;
       gap: 0.5rem !important;
       margin-top: 0.25rem !important;
@@ -442,18 +518,18 @@
     }
 
     .radio-card {
-      min-height: 80px !important;
-      min-width: 80px !important;
+      min-height: 52px !important;
+      width: 68px !important;
       border: 1px solid #E2E8F0 !important;
       background-color: #ffffff !important;
-      border-radius: 12px !important;
+      border-radius: 8px !important;
       display: flex !important;
       align-items: center !important;
       justify-content: center !important;
       cursor: pointer !important;
       font-family: 'Nunito', sans-serif !important;
-      font-size: 1.15rem !important;
-      font-weight: 800 !important;
+      font-size: 1rem !important;
+      font-weight: 700 !important;
       color: #333333 !important;
       transition: all 0.2s ease !important;
       box-sizing: border-box !important;
@@ -465,24 +541,25 @@
     }
 
     .radio-card.selected {
-      background-color: #E8F5E9 !important; /* tw-bg-green-04 */
-      border-color: #00B67A !important;
+      background-color: #EBF0FF !important;
+      border-color: #3054FF !important;
       border-width: 2px !important;
     }
 
     /* Continue Action Button styling */
     .btn-checkout-continue {
       width: 100% !important;
-      background-color: #012B3A !important; /* tw-bg-blue-01 */
+      background-color: #219653 !important;
       color: #ffffff !important;
       border: none !important;
       height: 52px !important;
       border-radius: 9999px !important;
       font-family: 'Inter', sans-serif !important;
-      font-weight: 700 !important;
-      font-size: 1rem !important;
+      font-weight: 800 !important;
+      font-size: 0.95rem !important;
       cursor: pointer !important;
-      transition: background-color 0.2s ease, transform 0.2s ease !important;
+      box-shadow: 0 4px 20px rgba(33, 150, 83, 0.4) !important;
+      transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease !important;
       display: flex !important;
       align-items: center !important;
       justify-content: center !important;
@@ -491,12 +568,23 @@
       margin: 1.5rem auto 0 auto !important;
     }
 
-    .btn-checkout-continue:hover {
-      background-color: #0F3D4E !important;
+    .btn-checkout-continue:hover:not(:disabled) {
+      background-color: #1B7A43 !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 6px 24px rgba(33, 150, 83, 0.5) !important;
     }
 
-    .btn-checkout-continue:active {
-      transform: scale(0.99) !important;
+    .btn-checkout-continue:active:not(:disabled) {
+      transform: translateY(0) scale(0.98) !important;
+      box-shadow: 0 2px 10px rgba(33, 150, 83, 0.3) !important;
+    }
+
+    .btn-checkout-continue:disabled {
+      background-color: #E2E8F0 !important;
+      color: #94A3B8 !important;
+      cursor: not-allowed !important;
+      transform: none !important;
+      box-shadow: none !important;
     }
 
     /* Right Column Summary Card styling */
@@ -814,6 +902,90 @@
         max-width: none !important;
       }
     }
+
+    /* Included With Your Adoption list styles */
+    .included-section {
+      margin-top: 1rem !important;
+      margin-bottom: 1rem !important;
+    }
+    .included-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.95rem !important;
+      font-weight: 800 !important;
+      color: #012B3A !important;
+      margin-bottom: 0.75rem !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.05em !important;
+    }
+    .included-list {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.85rem !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      list-style: none !important;
+    }
+    .included-item {
+      display: flex !important;
+      align-items: flex-start !important;
+      gap: 0.5rem !important;
+    }
+    .included-item-check {
+      color: #00B67A !important;
+      font-weight: 900 !important;
+      font-size: 1rem !important;
+      flex-shrink: 0 !important;
+    }
+    .included-item-content {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.1rem !important;
+    }
+    .included-item-title {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      font-weight: 700 !important;
+      color: #333333 !important;
+      line-height: 1.25 !important;
+    }
+    .included-item-desc {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.75rem !important;
+      color: #666666 !important;
+      line-height: 1.35 !important;
+    }
+
+    /* Travel Support styles */
+    .travel-support-section {
+      margin-top: 0.5rem !important;
+      margin-bottom: 0.5rem !important;
+      background-color: #F8FAFC !important;
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 12px !important;
+      padding: 0.85rem 1rem !important;
+    }
+    .travel-support-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.85rem !important;
+      font-weight: 800 !important;
+      color: #012B3A !important;
+      margin-bottom: 0.4rem !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.05em !important;
+    }
+    .travel-support-heading {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      font-weight: 700 !important;
+      color: #333333 !important;
+      margin-bottom: 0.15rem !important;
+    }
+    .travel-support-desc {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.75rem !important;
+      color: #666666 !important;
+      line-height: 1.35 !important;
+    }
   </style>
 </head>
 <body class="apply-page-body">
@@ -823,26 +995,13 @@
        ========================================================================== -->
   <header class="checkout-header">
     <a href="index.html" class="checkout-header-logo">
-      <i class="fa-solid fa-paw"></i> PawHaven
+      <i class="fa-solid fa-paw"></i> EverlyPups
     </a>
     
     <div class="checkout-header-right">
-      <div class="header-badge">
-        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M8 18.1685C6.01239 17.6383 4.37006 16.5052 3.05348 14.7286C1.67619 12.8702 1 10.8495 1 8.64009V3.58285L8 1.06283L15 3.58285V8.64009C15 10.8495 14.3238 12.8702 12.9465 14.7286C11.6299 16.5052 9.98761 17.6383 8 18.1685Z" stroke="#333333" stroke-width="2"></path>
-          <path d="M10.6654 7.59998L6.9987 11.2666L5.33203 9.59998" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-        </svg>
-        <span>Secure Payment</span>
-      </div>
-      <div class="header-divider"></div>
-      <div class="header-phone-link">
-        <svg width="20" height="20" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.875 3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H5.175C5.30612 1.8751 5.43389 1.91644 5.54022 1.99316C5.64656 2.06988 5.72607 2.1781 5.7675 2.3025L6.70375 5.11063C6.75119 5.25334 6.74558 5.40837 6.68795 5.54728C6.63032 5.68619 6.52453 5.79966 6.39 5.86688L4.97938 6.57313C5.67082 8.10346 6.89654 9.32918 8.42687 10.0206L9.13312 8.61C9.20034 8.47547 9.31381 8.36968 9.45272 8.31205C9.59163 8.25442 9.74666 8.24881 9.88937 8.29625L12.6975 9.2325C12.822 9.27397 12.9303 9.35357 13.007 9.46003C13.0838 9.56649 13.125 9.6944 13.125 9.82562V11.875C13.125 12.2065 12.9933 12.5245 12.7589 12.7589C12.5245 12.9933 12.2065 13.125 11.875 13.125H11.25C6.0725 13.125 1.875 8.9275 1.875 3.75V3.125Z" stroke="black" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
-        </svg>
-        <a href="tel:+12136992673" class="sm:tw-hidden tw-font-nunito tw-underline tw-font-bold" style="color: #000; text-decoration: underline;">Call Us</a>
-        <span class="tw-hidden sm:tw-flex" style="color: #666; font-size: 0.95rem;">Need Help? Call us at</span>
-        <a href="tel:+12136992673" class="tw-font-bold tw-underline tw-hidden sm:tw-block" style="color: #000; text-decoration: underline; margin-left: 2px;">213-699-2673</a>
-      </div>
+      <a href="contact.html" class="btn-nav-contact">
+        <i class="fa-solid fa-envelope"></i> Contact Us
+      </a>
     </div>
   </header>
 
@@ -876,13 +1035,28 @@
 
       <div class="stepper-separator"></div>
 
-      <!-- Step 2: Payment -->
+      <!-- Step 2: Delivery -->
       <div class="stepper-step">
-        <div class="stepper-icon-wrapper">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20.1818 4H3.81818C2.81403 4 2 4.89543 2 6V18C2 19.1046 2.81403 20 3.81818 20H20.1818C21.186 20 22 19.1046 22 18V6C22 4.89543 21.186 4 20.1818 4Z" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M16.3712 15C16.3712 16.2286 15.3509 17.25 14.0606 17.25C12.7703 17.25 11.75 16.2286 11.75 15C11.75 13.7714 12.7703 12.75 14.0606 12.75C15.3509 12.75 16.3712 13.7714 16.3712 15Z" fill="white" stroke="#828282" stroke-width="1.5"></path>
-            <path d="M19.4298 15C19.4298 16.2286 18.4095 17.25 17.1192 17.25C15.8289 17.25 14.8086 16.2286 14.8086 15C14.8086 13.7714 15.8289 12.75 17.1192 12.75C18.4095 12.75 19.4298 13.7714 19.4298 15Z" fill="white" stroke="#828282" stroke-width="1.5"></path>
+        <div class="stepper-icon-wrapper" style="width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#828282" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="1" y="3" width="15" height="13" rx="2" ry="2" />
+            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+            <circle cx="5.5" cy="18.5" r="2.5" />
+            <circle cx="18.5" cy="18.5" r="2.5" />
+          </svg>
+        </div>
+        <span class="stepper-label">Delivery</span>
+      </div>
+
+      <div class="stepper-separator"></div>
+
+      <!-- Step 3: Payment -->
+      <div class="stepper-step">
+        <div class="stepper-icon-wrapper" style="width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#828282" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.1818 4H3.81818C2.81403 4 2 4.89543 2 6V18C2 19.1046 2.81403 20 3.81818 20H20.1818C21.186 20 22 19.1046 22 18V6C22 4.89543 21.186 4 20.1818 4Z"></path>
+            <path d="M16.3712 15C16.3712 16.2286 15.3509 17.25 14.0606 17.25C12.7703 17.25 11.75 16.2286 11.75 15C11.75 13.7714 12.7703 12.75 14.0606 12.75C15.3509 12.75 16.3712 13.7714 16.3712 15Z" fill="white"></path>
+            <path d="M19.4298 15C19.4298 16.2286 18.4095 17.25 17.1192 17.25C15.8289 17.25 14.8086 16.2286 14.8086 15C14.8086 13.7714 15.8289 12.75 17.1192 12.75C18.4095 12.75 19.4298 13.7714 19.4298 15Z" fill="white"></path>
           </svg>
         </div>
         <span class="stepper-label">Payment</span>
@@ -965,8 +1139,10 @@
 
             <!-- Phone Section -->
             <fieldset class="fieldset-group">
-              <legend class="fieldset-legend">Enter your phone number</legend>
-              <p class="form-section-subtext" style="margin-bottom: 0.5rem !important;">In case our team need to call you about <span id="phoneSectionPuppyName">Finn</span>’s placement.</p>
+              <div class="fieldset-header-group">
+                <legend class="fieldset-legend">Enter your phone number</legend>
+                <p class="form-section-subtext">In case our team need to call you about <span id="phoneSectionPuppyName">Finn</span>’s placement.</p>
+              </div>
               <div class="input-wrapper" id="phoneWrapper">
                 <input type="tel" id="contactPhone" class="input-field" placeholder="Phone Number*" required />
               </div>
@@ -985,8 +1161,25 @@
 
             <!-- Address Section -->
             <fieldset class="fieldset-group">
-              <legend class="fieldset-legend">What will be <span id="addressSectionPuppyName">Finn</span>'s new home address?</legend>
-              <p class="form-section-subtext" style="margin-bottom: 0.5rem !important;">Full address is needed for <span id="addressSectionPuppyNameSub">Finn</span>’s Health Certificate and to help us determine available delivery programs.</p>
+              <div class="fieldset-header-group">
+                <legend class="fieldset-legend">What will be <span id="addressSectionPuppyName">Finn</span>'s new home address?</legend>
+                <p class="form-section-subtext">Full address is needed for <span id="addressSectionPuppyNameSub">Finn</span>’s Health Certificate and to help us determine available delivery programs.</p>
+              </div>
+
+              <!-- Country field -->
+              <div class="input-wrapper" id="countryWrapper" style="margin-bottom: 1.25rem; position: relative;">
+                <div class="custom-select-container" id="customCountryContainer">
+                  <div class="custom-select-trigger" id="customCountryTrigger">
+                    <span class="custom-select-placeholder selected-val">United States</span>
+                    <i class="fa-solid fa-chevron-down custom-select-arrow"></i>
+                  </div>
+                  <div class="custom-select-dropdown" id="customCountryDropdown" style="display: none;">
+                    <div class="custom-select-option selected" data-value="US">United States</div>
+                    <div class="custom-select-option" data-value="CA">Canada</div>
+                  </div>
+                </div>
+                <input type="hidden" id="contactCountry" name="country" value="US" required />
+              </div>
               
               <!-- Address field -->
               <div class="input-wrapper" id="addressWrapper" style="margin-bottom: 1.25rem;">
@@ -1004,71 +1197,23 @@
                 <input type="text" id="contactCity" class="input-field" placeholder="City*" required />
               </div>
 
-              <!-- Row: State & Zip -->
-              <div class="form-row-2col">
-                <div class="input-wrapper" id="stateWrapper">
-                  <div class="select-wrapper">
-                    <select id="contactState" class="select-field" onchange="this.classList.add('selected-valid')" required>
-                      <option value="" disabled selected>State*</option>
-                      <option value="AL">Alabama</option>
-                      <option value="AK">Alaska</option>
-                      <option value="AZ">Arizona</option>
-                      <option value="AR">Arkansas</option>
-                      <option value="CA">California</option>
-                      <option value="CO">Colorado</option>
-                      <option value="CT">Connecticut</option>
-                      <option value="DE">Delaware</option>
-                      <option value="DC">District of Columbia</option>
-                      <option value="FL">Florida</option>
-                      <option value="GA">Georgia</option>
-                      <option value="HI">Hawaii</option>
-                      <option value="ID">Idaho</option>
-                      <option value="IL">Illinois</option>
-                      <option value="IN">Indiana</option>
-                      <option value="IA">Iowa</option>
-                      <option value="KS">Kansas</option>
-                      <option value="KY">Kentucky</option>
-                      <option value="LA">Louisiana</option>
-                      <option value="ME">Maine</option>
-                      <option value="MD">Maryland</option>
-                      <option value="MA">Massachusetts</option>
-                      <option value="MI">Michigan</option>
-                      <option value="MN">Minnesota</option>
-                      <option value="MS">Mississippi</option>
-                      <option value="MO">Missouri</option>
-                      <option value="MT">Montana</option>
-                      <option value="NE">Nebraska</option>
-                      <option value="NV">Nevada</option>
-                      <option value="NH">New Hampshire</option>
-                      <option value="NJ">New Jersey</option>
-                      <option value="NM">New Mexico</option>
-                      <option value="NY">New York</option>
-                      <option value="NC">North Carolina</option>
-                      <option value="ND">North Dakota</option>
-                      <option value="OH">Ohio</option>
-                      <option value="OK">Oklahoma</option>
-                      <option value="OR">Oregon</option>
-                      <option value="PA">Pennsylvania</option>
-                      <option value="PR">Puerto Rico</option>
-                      <option value="RI">Rhode Island</option>
-                      <option value="SC">South Carolina</option>
-                      <option value="SD">South Dakota</option>
-                      <option value="TN">Tennessee</option>
-                      <option value="TX">Texas</option>
-                      <option value="UT">Utah</option>
-                      <option value="VT">Vermont</option>
-                      <option value="VA">Virginia</option>
-                      <option value="WA">Washington</option>
-                      <option value="WV">West Virginia</option>
-                      <option value="WI">Wisconsin</option>
-                      <option value="WY">Wyoming</option>
-                    </select>
+              <!-- State field -->
+              <div class="input-wrapper" id="stateWrapper" style="margin-bottom: 1.25rem; position: relative;">
+                <div class="custom-select-container" id="customStateContainer">
+                  <div class="custom-select-trigger" id="customStateTrigger">
+                    <span class="custom-select-placeholder">State*</span>
+                    <i class="fa-solid fa-chevron-down custom-select-arrow"></i>
+                  </div>
+                  <div class="custom-select-dropdown" id="customStateDropdown" style="display: none;">
+                    <!-- Options populated via JS -->
                   </div>
                 </div>
+                <input type="hidden" id="contactState" name="state" required />
+              </div>
 
-                <div class="input-wrapper" id="zipWrapper">
-                  <input type="text" id="contactZip" class="input-field" placeholder="Zip Code*" required />
-                </div>
+              <!-- Zip field -->
+              <div class="input-wrapper" id="zipWrapper" style="margin-bottom: 1.25rem;">
+                <input type="text" id="contactZip" class="input-field" placeholder="Zip Code*" required />
               </div>
 
               <div class="error-msg" id="addressError" style="display: none; margin-top: 0.75rem;">
@@ -1076,24 +1221,9 @@
               </div>
             </fieldset>
 
-            <hr class="form-divider" />
-
-            <!-- Age Verification Section -->
-            <fieldset class="fieldset-group">
-              <legend class="fieldset-legend">Are you at least 18 years old?</legend>
-              <div class="radio-cards-row">
-                <div id="ageYesCard" class="radio-card" onclick="selectAgeVerify(true)">Yes</div>
-                <div id="ageNoCard" class="radio-card" onclick="selectAgeVerify(false)">No</div>
-              </div>
-              <input type="hidden" id="ageVerifiedInput" required />
-              <div class="error-msg" id="ageError" style="display: none; margin-top: 0.5rem;">
-                <i class="fa-solid fa-circle-xmark"></i> You must confirm that you are at least 18 years old to adopt.
-              </div>
-            </fieldset>
-
             <!-- Submit Continue Button -->
-            <button type="submit" class="btn-checkout-continue">
-              Continue to delivery options
+            <button type="submit" id="btnContinue" class="btn-checkout-continue" disabled>
+              Continue
             </button>
 
           </form>
@@ -1125,18 +1255,76 @@
             <!-- Pricing rows breakdown -->
             <div class="summary-pricing-list">
               
-              <!-- Bring home fee -->
+              <!-- Puppy Price -->
               <div>
                 <div class="summary-pricing-row">
-                  <span class="summary-pricing-row-label">Bring home fee</span>
+                  <span class="summary-pricing-row-label" style="font-weight: 700;">Puppy Price</span>
                   <span id="pricingBringHomeFee" style="font-weight: 600;">$0.00</span>
                 </div>
                 <div class="summary-pricing-row-subtext" style="margin-top: 0.15rem;">
-                  <span>Sold by <strong id="summaryBreederName">Pete</strong> &amp; backed by PawHaven’s services. <button type="button">See breakdown</button></span>
+                  <span>Sold by <strong id="summaryBreederName">Pete</strong> &amp; backed by EverlyPups’s services.</span>
                 </div>
               </div>
 
-              <hr class="form-divider" />
+              <!-- Travel Support Section -->
+              <div class="travel-support-section">
+                <div class="travel-support-title">Travel Support</div>
+                <div class="travel-support-heading">White Glove Travel Chaperone</div>
+                <div class="travel-support-desc">Premium travel support options are available for your puppy's journey.</div>
+              </div>
+
+              <hr class="form-divider" style="margin: 0.5rem 0 !important;" />
+
+              <!-- Included With Your Adoption Section -->
+              <div class="included-section">
+                <div class="included-title">Included With Your Adoption</div>
+                <ul class="included-list">
+                  <li class="included-item">
+                    <span class="included-item-check">✓</span>
+                    <div class="included-item-content">
+                      <span class="included-item-title">Free Nationwide Delivery</span>
+                      <span class="included-item-desc">Your puppy's first delivery is included at no additional cost.</span>
+                    </div>
+                  </li>
+                  <li class="included-item">
+                    <span class="included-item-check">✓</span>
+                    <div class="included-item-content">
+                      <span class="included-item-title">10-Year Health Commitment &amp; Guarantee</span>
+                      <span class="included-item-desc">Long-term health support included with your adoption.</span>
+                    </div>
+                  </li>
+                  <li class="included-item">
+                    <span class="included-item-check">✓</span>
+                    <div class="included-item-content">
+                      <span class="included-item-title">Complete Veterinary Health Record</span>
+                      <span class="included-item-desc">Full nose-to-tail veterinary health documentation.</span>
+                    </div>
+                  </li>
+                  <li class="included-item">
+                    <span class="included-item-check">✓</span>
+                    <div class="included-item-content">
+                      <span class="included-item-title">Microchipped for Lifetime Safety</span>
+                      <span class="included-item-desc">Your puppy arrives microchipped for identification.</span>
+                    </div>
+                  </li>
+                  <li class="included-item">
+                    <span class="included-item-check">✓</span>
+                    <div class="included-item-content">
+                      <span class="included-item-title">Vaccinations &amp; Deworming</span>
+                      <span class="included-item-desc">Up-to-date vaccinations and deworming before delivery.</span>
+                    </div>
+                  </li>
+                  <li class="included-item">
+                    <span class="included-item-check">✓</span>
+                    <div class="included-item-content">
+                      <span class="included-item-title">Starter Kit</span>
+                      <span class="included-item-desc">Mom scent blanket, food, and toy included.</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <hr class="form-divider" style="margin: 0.5rem 0 !important;" />
 
               <!-- Subtotal -->
               <div class="summary-pricing-row">
@@ -1178,7 +1366,7 @@
       
       <div class="checkout-footer-top">
         <ul class="footer-links-list">
-          <li class="copyright">© 2026 PawHaven</li>
+          <li class="copyright">© 2026 EverlyPups</li>
           <li class="dot-separator tw-hidden lg:tw-block">•</li>
           <li><a href="https://www.puppyspot.com/terms-of-use" target="_blank">Terms of Use</a></li>
           <li class="dot-separator tw-hidden lg:tw-block">•</li>
@@ -1188,24 +1376,13 @@
         </ul>
       </div>
 
-      <div class="footer-divider"></div>
 
-      <div class="footer-security-wrapper">
-        <div class="footer-security-badge">
-          <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 18.1685C6.01239 17.6383 4.37006 16.5052 3.05348 14.7286C1.67619 12.8702 1 10.8495 1 8.64009V3.58285L8 1.06283L15 3.58285V8.64009C15 10.8495 14.3238 12.8702 12.9465 14.7286C11.6299 16.5052 9.98761 17.6383 8 18.1685Z" stroke="#333333" stroke-width="2"></path>
-            <path d="M10.6654 7.59998L6.9987 11.2666L5.33203 9.59998" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-          <span>Secure Payment</span>
-        </div>
-        <p class="footer-security-text">Your credit card details are secured. All the information is protected using Secure Sockets Layer (SSL) technology.</p>
-      </div>
 
     </div>
   </footer>
 
   <!-- Floating Sticky WhatsApp Button -->
-  <a href="https://wa.me/15550192834?text=Hello%20PawHaven%2C%20I%20am%20interested%20in%20adopting%20a%20puppy!" target="_blank" rel="noopener noreferrer" class="whatsapp-sticky-btn" aria-label="Chat on WhatsApp">
+  <a href="https://wa.me/17124191465?text=Hello%20EverlyPups%2C%20I%20am%20interested%20in%20adopting%20a%20puppy!" target="_blank" rel="noopener noreferrer" class="whatsapp-sticky-btn" aria-label="Chat on WhatsApp">
     <div class="whatsapp-icon-wrapper">
       <i class="fa-brands fa-whatsapp"></i>
     </div>
@@ -1216,6 +1393,40 @@
   <script src="data/siteData.js?v=1715"></script>
   <script>
     let activePuppy = null;
+
+    // Setup change/input listeners to toggle Continue button disabled state
+    const fields = [
+      'contactEmail',
+      'contactFirstName',
+      'contactLastName',
+      'contactPhone',
+      'contactCountry',
+      'contactAddress',
+      'contactCity',
+      'contactState',
+      'contactZip'
+    ];
+    
+    function checkFormFilled() {
+      const email = document.getElementById('contactEmail').value.trim();
+      const first = document.getElementById('contactFirstName').value.trim();
+      const last = document.getElementById('contactLastName').value.trim();
+      const phone = document.getElementById('contactPhone').value.trim();
+      const country = document.getElementById('contactCountry').value;
+      const address = document.getElementById('contactAddress').value.trim();
+      const city = document.getElementById('contactCity').value.trim();
+      const state = document.getElementById('contactState').value;
+      const zip = document.getElementById('contactZip').value.trim();
+      
+      const btn = document.getElementById('btnContinue');
+      const isFilled = email !== "" && first !== "" && last !== "" && phone !== "" && country !== "" && address !== "" && city !== "" && state !== "" && state !== null && zip !== "";
+      
+      if (isFilled) {
+        btn.removeAttribute('disabled');
+      } else {
+        btn.setAttribute('disabled', 'true');
+      }
+    }
 
     document.addEventListener('DOMContentLoaded', function() {
       // Find selected puppy in SITE_DATA
@@ -1235,12 +1446,26 @@
         }
       }
 
+      // Fallback default details in case ID or puppy is missing (Finn default Beagle)
+      if (!activePuppy) {
+        activePuppy = {
+          name: "Finn",
+          breed: "Beagle",
+          gender: "Male",
+          age: "6 weeks",
+          id: 824597,
+          price: 2890,
+          breeder: "USDA Certified Star Breeder",
+          image: "https://photos.puppyspot.com/7/listing/824597/photo/505045813_medium.jpg"
+        };
+      }
+
       const mainLayout = document.getElementById('mainApplicationLayout');
       const stepper = document.querySelector('.stepper-container');
 
       if (activePuppy) {
         // Parse basic specs
-        const priceStr = '$' + activePuppy.price.toLocaleString('.00') + '.00';
+        const priceStr = '$' + activePuppy.price.toLocaleString() + '.00';
         
         // Welcome Card elements
         document.getElementById('welcomePuppyPhoto').src = activePuppy.image;
@@ -1272,57 +1497,346 @@
         
         mainLayout.style.display = 'grid';
         stepper.style.display = 'block';
-      } else {
-        // Fallback default details in case ID is missing (Finn default Beagle)
-        activePuppy = {
-          name: "Finn",
-          breed: "Beagle",
-          gender: "Male",
-          age: "6 weeks",
-          id: 824597,
-          price: 2890,
-          breeder: "USDA Certified Star Breeder",
-          image: "https://photos.puppyspot.com/7/listing/824597/photo/505045813_medium.jpg"
-        };
-        
-        // Check if there is an image in images/ folder first
-        document.getElementById('welcomePuppyPhoto').src = activePuppy.image;
-        document.getElementById('welcomePuppyName').textContent = activePuppy.name;
-        
-        document.getElementById('summaryPuppyPhoto').src = activePuppy.image;
-        document.getElementById('summaryPuppyName').textContent = activePuppy.name;
-        document.getElementById('summaryPuppySpecs').textContent = activePuppy.gender + ' • ' + activePuppy.age;
-        document.getElementById('summaryPuppyBreed').textContent = activePuppy.breed;
-        document.getElementById('summaryPuppyId').textContent = 'ID # ' + activePuppy.id;
-        
-        const priceStr = '$' + activePuppy.price.toLocaleString() + '.00';
-        document.getElementById('pricingBringHomeFee').textContent = priceStr;
-        document.getElementById('pricingSubtotal').textContent = priceStr;
-        document.getElementById('pricingTotal').textContent = priceStr;
-        
-        mainLayout.style.display = 'grid';
-        stepper.style.display = 'block';
       }
+
+      // Restore details if saved in localStorage
+      const savedDetails = localStorage.getItem('everlypups_checkout_details');
+      if (savedDetails) {
+        try {
+          const details = JSON.parse(savedDetails);
+          document.getElementById('contactEmail').value = details.email || '';
+          document.getElementById('contactFirstName').value = details.firstName || '';
+          document.getElementById('contactLastName').value = details.lastName || '';
+          document.getElementById('contactPhone').value = details.phone || '';
+          document.getElementById('contactCountry').value = details.country || '';
+          document.getElementById('contactAddress').value = details.address || '';
+          document.getElementById('contactCity').value = details.city || '';
+          document.getElementById('contactState').value = details.state || '';
+          document.getElementById('contactZip').value = details.zip || '';
+          
+          const countryOption = document.querySelector(`.custom-select-option[data-value="${details.country}"]`);
+          if (countryOption) {
+            document.querySelector('#customCountryTrigger .selected-val').textContent = countryOption.textContent;
+          }
+          
+          if (details.country) {
+            populateStateDropdown(details.country);
+            setTimeout(() => {
+              document.getElementById('contactState').value = details.state || '';
+              const stateOption = document.querySelector(`.custom-select-option[data-value="${details.state}"]`);
+              if (stateOption) {
+                document.querySelector('#customStateTrigger .selected-val').textContent = stateOption.textContent;
+              }
+              checkFormFilled();
+            }, 50);
+          }
+        } catch (e) {
+          console.error("Error restoring checkout details from localStorage", e);
+        }
+      }
+      
+      // Initialize custom selects
+      setupCustomSelect('customCountryTrigger', 'customCountryDropdown', 'contactCountry', (val) => {
+        populateStateDropdown(val);
+      });
+      setupCustomSelect('customStateTrigger', 'customStateDropdown', 'contactState');
+      populateStateDropdown('US');
+
+      fields.forEach(fieldId => {
+        const el = document.getElementById(fieldId);
+        if (el) {
+          el.addEventListener('input', checkFormFilled);
+          el.addEventListener('change', checkFormFilled);
+        }
+      });
+
+      // Email dynamic live validation
+      const emailInput = document.getElementById('contactEmail');
+      const emailWrapper = document.getElementById('emailWrapper');
+      const emailError = document.getElementById('emailError');
+      
+      if (emailInput && emailWrapper && emailError) {
+        emailInput.addEventListener('blur', () => {
+          if (emailInput.value.trim() !== '') {
+            if (!emailInput.checkValidity()) {
+              emailWrapper.classList.add('input-error-border');
+              emailError.style.display = 'flex';
+            } else {
+              emailWrapper.classList.remove('input-error-border');
+              emailError.style.display = 'none';
+            }
+          }
+        });
+        
+        emailInput.addEventListener('input', () => {
+          if (emailError.style.display === 'flex' && emailInput.checkValidity()) {
+            emailWrapper.classList.remove('input-error-border');
+            emailError.style.display = 'none';
+          }
+        });
+      }
+
+      // Name dynamic live validation
+      const firstInput = document.getElementById('contactFirstName');
+      const lastInput = document.getElementById('contactLastName');
+      const firstWrapper = document.getElementById('firstNameWrapper');
+      const lastWrapper = document.getElementById('lastNameWrapper');
+      const nameError = document.getElementById('nameError');
+
+      const validateName = () => {
+        if (firstInput.value.trim() === '' || lastInput.value.trim() === '') {
+          if (firstInput.value.trim() === '') firstWrapper.classList.add('input-error-border');
+          if (lastInput.value.trim() === '') lastWrapper.classList.add('input-error-border');
+          nameError.style.display = 'flex';
+        } else {
+          firstWrapper.classList.remove('input-error-border');
+          lastWrapper.classList.remove('input-error-border');
+          nameError.style.display = 'none';
+        }
+      };
+
+      if (firstInput && lastInput && nameError) {
+        firstInput.addEventListener('blur', () => {
+          if (firstInput.value.trim() !== '' || lastInput.value.trim() !== '') {
+            validateName();
+          }
+        });
+        lastInput.addEventListener('blur', () => {
+          if (firstInput.value.trim() !== '' || lastInput.value.trim() !== '') {
+            validateName();
+          }
+        });
+        firstInput.addEventListener('input', () => {
+          if (nameError.style.display === 'flex' && firstInput.value.trim() !== '' && lastInput.value.trim() !== '') {
+            firstWrapper.classList.remove('input-error-border');
+            lastWrapper.classList.remove('input-error-border');
+            nameError.style.display = 'none';
+          }
+        });
+        lastInput.addEventListener('input', () => {
+          if (nameError.style.display === 'flex' && firstInput.value.trim() !== '' && lastInput.value.trim() !== '') {
+            firstWrapper.classList.remove('input-error-border');
+            lastWrapper.classList.remove('input-error-border');
+            nameError.style.display = 'none';
+          }
+        });
+      }
+
+      // Phone dynamic live validation
+      const phoneInput = document.getElementById('contactPhone');
+      const phoneWrapper = document.getElementById('phoneWrapper');
+      const phoneError = document.getElementById('phoneError');
+
+      if (phoneInput && phoneWrapper && phoneError) {
+        phoneInput.addEventListener('blur', () => {
+          if (phoneInput.value.trim() !== '') {
+            if (phoneInput.value.trim().length < 7) {
+              phoneWrapper.classList.add('input-error-border');
+              phoneError.style.display = 'flex';
+            } else {
+              phoneWrapper.classList.remove('input-error-border');
+              phoneError.style.display = 'none';
+            }
+          }
+        });
+        phoneInput.addEventListener('input', () => {
+          if (phoneError.style.display === 'flex' && phoneInput.value.trim().length >= 7) {
+            phoneWrapper.classList.remove('input-error-border');
+            phoneError.style.display = 'none';
+          }
+        });
+      }
+      
+      // Run once on load in case fields are autofilled
+      checkFormFilled();
     });
 
-    function selectAgeVerify(isOver18) {
-      const yesCard = document.getElementById('ageYesCard');
-      const noCard = document.getElementById('ageNoCard');
-      const hiddenInput = document.getElementById('ageVerifiedInput');
-      const ageError = document.getElementById('ageError');
+    // Custom select datasets
+    const US_STATES = [
+      { code: 'AL', name: 'Alabama' },
+      { code: 'AK', name: 'Alaska' },
+      { code: 'AZ', name: 'Arizona' },
+      { code: 'AR', name: 'Arkansas' },
+      { code: 'CA', name: 'California' },
+      { code: 'CO', name: 'Colorado' },
+      { code: 'CT', name: 'Connecticut' },
+      { code: 'DE', name: 'Delaware' },
+      { code: 'DC', name: 'District of Columbia' },
+      { code: 'FL', name: 'Florida' },
+      { code: 'GA', name: 'Georgia' },
+      { code: 'HI', name: 'Hawaii' },
+      { code: 'ID', name: 'Idaho' },
+      { code: 'IL', name: 'Illinois' },
+      { code: 'IN', name: 'Indiana' },
+      { code: 'IA', name: 'Iowa' },
+      { code: 'KS', name: 'Kansas' },
+      { code: 'KY', name: 'Kentucky' },
+      { code: 'LA', name: 'Louisiana' },
+      { code: 'ME', name: 'Maine' },
+      { code: 'MD', name: 'Maryland' },
+      { code: 'MA', name: 'Massachusetts' },
+      { code: 'MI', name: 'Michigan' },
+      { code: 'MN', name: 'Minnesota' },
+      { code: 'MS', name: 'Mississippi' },
+      { code: 'MO', name: 'Missouri' },
+      { code: 'MT', name: 'Montana' },
+      { code: 'NE', name: 'Nebraska' },
+      { code: 'NV', name: 'Nevada' },
+      { code: 'NH', name: 'New Hampshire' },
+      { code: 'NJ', name: 'New Jersey' },
+      { code: 'NM', name: 'New Mexico' },
+      { code: 'NY', name: 'New York' },
+      { code: 'NC', name: 'North Carolina' },
+      { code: 'ND', name: 'North Dakota' },
+      { code: 'OH', name: 'Ohio' },
+      { code: 'OK', name: 'Oklahoma' },
+      { code: 'OR', name: 'Oregon' },
+      { code: 'PA', name: 'Pennsylvania' },
+      { code: 'PR', name: 'Puerto Rico' },
+      { code: 'RI', name: 'Rhode Island' },
+      { code: 'SC', name: 'South Carolina' },
+      { code: 'SD', name: 'South Dakota' },
+      { code: 'TN', name: 'Tennessee' },
+      { code: 'TX', name: 'Texas' },
+      { code: 'UT', name: 'Utah' },
+      { code: 'VT', name: 'Vermont' },
+      { code: 'VA', name: 'Virginia' },
+      { code: 'WA', name: 'Washington' },
+      { code: 'WV', name: 'West Virginia' },
+      { code: 'WI', name: 'Wisconsin' },
+      { code: 'WY', name: 'Wyoming' }
+    ];
 
-      if (isOver18) {
-        yesCard.classList.add('selected');
-        noCard.classList.remove('selected');
-        hiddenInput.value = 'true';
-        ageError.style.display = 'none';
-      } else {
-        noCard.classList.add('selected');
-        yesCard.classList.remove('selected');
-        hiddenInput.value = '';
-        ageError.style.display = 'flex';
-      }
+    const CA_PROVINCES = [
+      { code: 'AB', name: 'Alberta' },
+      { code: 'BC', name: 'British Columbia' },
+      { code: 'MB', name: 'Manitoba' },
+      { code: 'NB', name: 'New Brunswick' },
+      { code: 'NL', name: 'Newfoundland and Labrador' },
+      { code: 'NS', name: 'Nova Scotia' },
+      { code: 'ON', name: 'Ontario' },
+      { code: 'PE', name: 'Prince Edward Island' },
+      { code: 'QC', name: 'Quebec' },
+      { code: 'SK', name: 'Saskatchewan' },
+      { code: 'NT', name: 'Northwest Territories' },
+      { code: 'NU', name: 'Nunavut' },
+      { code: 'YT', name: 'Yukon' }
+    ];
+
+    // Setup custom select listeners
+    function setupCustomSelect(triggerId, dropdownId, hiddenInputId, onSelectCallback) {
+      const trigger = document.getElementById(triggerId);
+      const dropdown = document.getElementById(dropdownId);
+      const hiddenInput = document.getElementById(hiddenInputId);
+      const container = trigger.closest('.custom-select-container');
+      const inputWrapper = trigger.closest('.input-wrapper');
+
+      trigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        
+        // Close all other dropdowns
+        document.querySelectorAll('.custom-select-dropdown').forEach(d => {
+          if (d !== dropdown) {
+            d.style.display = 'none';
+            const c = d.closest('.custom-select-container');
+            const w = d.closest('.input-wrapper');
+            if (c) c.classList.remove('open');
+            if (w) w.classList.remove('open');
+          }
+        });
+
+        const isOpen = dropdown.style.display === 'block';
+        dropdown.style.display = isOpen ? 'none' : 'block';
+        container.classList.toggle('open', !isOpen);
+        if (inputWrapper) {
+          inputWrapper.classList.toggle('open', !isOpen);
+        }
+      });
+
+      // Selection handling
+      dropdown.addEventListener('click', (e) => {
+        const option = e.target.closest('.custom-select-option');
+        if (!option) return;
+
+        const val = option.getAttribute('data-value');
+        const text = option.textContent;
+
+        hiddenInput.value = val;
+        
+        // Update trigger presentation
+        const placeholderSpan = trigger.querySelector('.custom-select-placeholder');
+        placeholderSpan.textContent = text;
+        placeholderSpan.classList.add('selected-val');
+
+        // Select item visual toggle
+        dropdown.querySelectorAll('.custom-select-option').forEach(o => o.classList.remove('selected'));
+        option.classList.add('selected');
+
+        dropdown.style.display = 'none';
+        container.classList.remove('open');
+        if (inputWrapper) {
+          inputWrapper.classList.remove('open');
+        }
+
+        // Dispatch changes for validation
+        hiddenInput.dispatchEvent(new Event('input', { bubbles: true }));
+        hiddenInput.dispatchEvent(new Event('change', { bubbles: true }));
+
+        if (typeof onSelectCallback === 'function') {
+          onSelectCallback(val);
+        }
+      });
     }
+
+    // Populate dynamic choices
+    function populateStateDropdown(countryCode) {
+      const dropdown = document.getElementById('customStateDropdown');
+      const hiddenInput = document.getElementById('contactState');
+      const triggerSpan = document.querySelector('#customStateTrigger .custom-select-placeholder');
+      const zipInput = document.getElementById('contactZip');
+
+      dropdown.innerHTML = '';
+      hiddenInput.value = '';
+      triggerSpan.classList.remove('selected-val');
+
+      if (countryCode === 'CA') {
+        triggerSpan.textContent = 'Province*';
+        zipInput.placeholder = 'Postal Code*';
+
+        CA_PROVINCES.forEach(p => {
+          const div = document.createElement('div');
+          div.className = 'custom-select-option';
+          div.setAttribute('data-value', p.code);
+          div.textContent = p.name;
+          dropdown.appendChild(div);
+        });
+      } else {
+        triggerSpan.textContent = 'State*';
+        zipInput.placeholder = 'Zip Code*';
+
+        US_STATES.forEach(s => {
+          const div = document.createElement('div');
+          div.className = 'custom-select-option';
+          div.setAttribute('data-value', s.code);
+          div.textContent = s.name;
+          dropdown.appendChild(div);
+        });
+      }
+      
+      hiddenInput.dispatchEvent(new Event('input', { bubbles: true }));
+      hiddenInput.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+
+    // Global listener to close options
+    document.addEventListener('click', () => {
+      document.querySelectorAll('.custom-select-dropdown').forEach(d => {
+        d.style.display = 'none';
+        const c = d.closest('.custom-select-container');
+        const w = d.closest('.input-wrapper');
+        if (c) c.classList.remove('open');
+        if (w) w.classList.remove('open');
+      });
+    });
 
     function handleApplicationSubmit(event) {
       event.preventDefault();
@@ -1332,11 +1846,11 @@
       const first = document.getElementById('contactFirstName');
       const last = document.getElementById('contactLastName');
       const phone = document.getElementById('contactPhone');
+      const country = document.getElementById('contactCountry');
       const address = document.getElementById('contactAddress');
       const city = document.getElementById('contactCity');
       const state = document.getElementById('contactState');
       const zip = document.getElementById('contactZip');
-      const ageInput = document.getElementById('ageVerifiedInput');
 
       let isValid = true;
 
@@ -1373,7 +1887,8 @@
       }
 
       // Address validation
-      if (!address.value || !city.value || !state.value || !zip.value) {
+      if (!country.value || !address.value || !city.value || !state.value || !zip.value) {
+        if (!country.value) document.getElementById('countryWrapper').classList.add('input-error-border');
         if (!address.value) document.getElementById('addressWrapper').classList.add('input-error-border');
         if (!city.value) document.getElementById('cityWrapper').classList.add('input-error-border');
         if (!state.value) document.getElementById('stateWrapper').classList.add('input-error-border');
@@ -1381,6 +1896,7 @@
         document.getElementById('addressError').style.display = 'flex';
         isValid = false;
       } else {
+        document.getElementById('countryWrapper').classList.remove('input-error-border');
         document.getElementById('addressWrapper').classList.remove('input-error-border');
         document.getElementById('cityWrapper').classList.remove('input-error-border');
         document.getElementById('stateWrapper').classList.remove('input-error-border');
@@ -1388,27 +1904,29 @@
         document.getElementById('addressError').style.display = 'none';
       }
 
-      // Age validation
-      if (!ageInput.value) {
-        document.getElementById('ageError').style.display = 'flex';
-        isValid = false;
-      } else {
-        document.getElementById('ageError').style.display = 'none';
-      }
-
       if (!isValid) {
         return;
       }
 
-      // Form is fully validated -> Show Success State
-      document.getElementById('mainApplicationLayout').style.display = 'none';
-      document.querySelector('.stepper-container').style.display = 'none';
-      
-      // Scroll to top
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      
-      // Render success state container
-      document.getElementById('successView').style.display = 'block';
+      // Form is fully validated -> Save to localStorage and redirect to Delivery step
+      const detailsData = {
+        email: email.value,
+        firstName: first.value,
+        lastName: last.value,
+        phone: phone.value,
+        country: country.value,
+        address: address.value,
+        city: city.value,
+        state: state.value,
+        zip: zip.value
+      };
+      localStorage.setItem('everlypups_checkout_details', JSON.stringify(detailsData));
+
+      if (activePuppy && activePuppy.id) {
+        window.location.href = 'delivery.html?id=' + activePuppy.id;
+      } else {
+        window.location.href = 'delivery.html';
+      }
     }
   </script>
 </body>

@@ -1,12 +1,12 @@
 /* ==========================================================================
-   PawHaven - High-End Editorial JavaScript Application Engine
+   EverlyPups - High-End Editorial JavaScript Application Engine
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
   const state = {
     puppies: SITE_DATA.puppies || [],
     filteredPuppies: [],
-    favorites: JSON.parse(localStorage.getItem('pawhaven_favs')) || [],
+    favorites: JSON.parse(localStorage.getItem('everlypups_favs')) || [],
     filters: {
       search: '',
       breeds: [],
@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!faqList) return;
     const faqs = (SITE_DATA && SITE_DATA.faqs && SITE_DATA.faqs.length >= 7) ? SITE_DATA.faqs : [
       {
-        question: "How does PawHaven vet breeders?",
+        question: "How does EverlyPups vet breeders?",
         answer: "Every breeder in our network undergoes rigorous background checks, facility evaluations, and unannounced USDA compliance audits."
       },
       {
@@ -541,7 +541,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       state.favorites.push(id);
     }
-    localStorage.setItem('pawhaven_favs', JSON.stringify(state.favorites));
+    localStorage.setItem('everlypups_favs', JSON.stringify(state.favorites));
     renderCatalog();
   };
 
@@ -561,7 +561,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.openContactModal = function(e) {
     if (e) e.preventDefault();
     if (document.getElementById('reserve-desc')) {
-      document.getElementById('reserve-desc').innerHTML = `Get in touch with a PawHaven Puppy Concierge regarding adoption &amp; standards.`;
+      document.getElementById('reserve-desc').innerHTML = `Get in touch with a EverlyPups Puppy Concierge regarding adoption &amp; standards.`;
     }
     if (reserveModal) reserveModal.classList.add('active');
   };
@@ -576,7 +576,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (reserveForm) {
     reserveForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      alert('Thank you for your adoption application! Our PawHaven Specialist will reach out to you within 2 hours.');
+      alert('Thank you for your adoption application! Our EverlyPups Specialist will reach out to you within 2 hours.');
       reserveModal.classList.remove('active');
       reserveForm.reset();
     });

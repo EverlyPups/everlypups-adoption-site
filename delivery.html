@@ -1,0 +1,1739 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adoption & Delivery Details | EverlyPups</title>
+  
+  <!-- Google Fonts: Nunito, Figtree, Outfit, Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Editorial Design System Styles -->
+  <link rel="stylesheet" href="styles.css?v=945" />
+
+  <style>
+    
+    /* Reset and theme styles matching PuppySpot details mockup */
+    .apply-page-body {
+      background-color: #FAF9F6 !important;
+      color: #333333 !important;
+      font-family: 'Inter', sans-serif !important;
+    }
+
+    /* Checkout Header Styles */
+    .checkout-header {
+      background-color: #ffffff !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      padding: 0.75rem 1.5rem !important;
+      border-bottom: 1px solid #E2E8F0 !important;
+      height: 70px !important;
+      box-sizing: border-box !important;
+    }
+
+    .checkout-header-logo {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 1.5rem !important;
+      font-weight: 900 !important;
+      color: #000000 !important;
+      text-decoration: none !important;
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+    }
+
+    .checkout-header-logo i {
+      color: #000000 !important;
+    }
+
+    .checkout-header-right {
+      display: flex !important;
+      align-items: center !important;
+      gap: 1.25rem !important;
+    }
+
+    .header-badge {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      font-family: 'Nunito', sans-serif !important;
+      font-weight: 700 !important;
+      font-size: 0.95rem !important;
+      color: #333333 !important;
+    }
+
+    .header-divider {
+      width: 1px !important;
+      height: 20px !important;
+      background-color: #CBD5E1 !important;
+    }
+
+    .header-phone-link {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      font-family: 'Nunito', sans-serif !important;
+      color: #000000 !important;
+      text-decoration: none !important;
+      font-size: 0.95rem !important;
+    }
+
+    .header-phone-link span {
+      color: #666666 !important;
+    }
+
+    .header-phone-number {
+      font-weight: 800 !important;
+      text-decoration: underline !important;
+    }
+
+    /* Stepper / Progress Bar */
+    .stepper-container {
+      width: 100% !important;
+      max-width: 816px !important;
+      margin: 1.5rem auto 0 auto !important;
+      padding: 0 1.5rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .stepper-steps {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      position: relative !important;
+    }
+
+    .stepper-step {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      position: relative !important;
+      background: none !important;
+      border: none !important;
+      padding: 0 !important;
+      flex: 1 !important;
+      cursor: pointer !important;
+    }
+
+    .stepper-icon-wrapper {
+      position: relative !important;
+      z-index: 2 !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    .stepper-icon-bg {
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      fill: #A9E2C1 !important;
+      z-index: -1 !important;
+    }
+
+    .stepper-label {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.85rem !important;
+      color: #828282 !important;
+      font-weight: 700 !important;
+    }
+
+    .stepper-step.active .stepper-label {
+      color: #333333 !important;
+      font-weight: 800 !important;
+    }
+
+    .stepper-separator {
+      height: 4px !important;
+      background-color: #E2E8F0 !important;
+      flex: 1 !important;
+      margin: 0 10px !important;
+      border-radius: 99px !important;
+      position: relative !important;
+      top: -10px !important;
+      z-index: 1 !important;
+    }
+
+    .stepper-separator.active {
+      background-color: #333333 !important;
+    }
+
+    /* Main Grid Layout */
+    .checkout-section {
+      max-width: 1200px !important;
+      margin: 0 auto !important;
+      padding: 0 1.5rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .checkout-grid {
+      display: grid !important;
+      grid-template-columns: 1.85fr 1fr !important;
+      gap: 2.5rem !important;
+      margin-top: 2rem !important;
+      margin-bottom: 4rem !important;
+      align-items: start !important;
+    }
+
+    /* Left Form Column */
+    .checkout-left-col {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.85rem !important;
+    }
+
+    /* Top Puppy Welcome Card */
+    .welcome-card {
+      background-color: #E8F5E9 !important; /* tw-bg-green-04 */
+      width: 100% !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 2rem 1.5rem 1rem 1.5rem !important;
+      border-radius: 20px !important;
+      box-sizing: border-box !important;
+      z-index: 10 !important;
+    }
+
+    .welcome-puppy-img {
+      width: 150px !important;
+      height: 150px !important;
+      border-radius: 16px !important;
+      object-fit: cover !important;
+      border: 1px solid rgba(0,0,0,0.05) !important;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
+      margin-bottom: 1.25rem !important;
+    }
+
+    .welcome-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 2rem !important;
+      font-weight: 900 !important;
+      color: #000000 !important;
+      line-height: 1.25 !important;
+      margin: 0 !important;
+      text-align: center !important;
+    }
+
+    .welcome-title strong {
+      text-transform: capitalize !important;
+    }
+
+    /* Form Details Wrapper */
+    .checkout-form-card {
+      background: #FFFFFF !important;
+      border-radius: 20px !important;
+      border: 1px solid #E2E8F0 !important;
+      padding: 2.5rem 2rem !important;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02) !important;
+      box-sizing: border-box !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.75rem !important;
+    }
+
+    .form-header-group {
+      margin-bottom: 0.5rem !important;
+    }
+
+    .form-section-heading {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.35rem !important;
+      font-weight: 800 !important;
+      color: #00B67A !important; /* tw-text-green-01 */
+      margin: 0 0 0.25rem 0 !important;
+    }
+
+    .form-section-subtext {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      color: #666666 !important; /* tw-text-gray-02 */
+      margin: 0 !important;
+      line-height: 1.4 !important;
+    }
+
+    .form-section-subtext span {
+      text-transform: capitalize !important;
+    }
+
+    .form-divider {
+      height: 1px !important;
+      background-color: #E2E8F0 !important;
+      border: none !important;
+      margin: 1.5rem 0 1.75rem 0 !important;
+    }
+
+    .form-divider-green {
+      height: 2px !important;
+      background-color: #00B67A !important;
+      border: none !important;
+      margin: 0 !important;
+      border-radius: 4px !important;
+    }
+
+    /* Restructured Form Inputs */
+    .fieldset-group {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1rem !important;
+      border: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .fieldset-header-group {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.35rem !important;
+      margin-bottom: 0 !important;
+    }
+
+    .fieldset-legend {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.1rem !important;
+      font-weight: 800 !important;
+      color: #333333 !important; /* tw-text-gray-01 */
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .input-wrapper {
+      height: 60px !important;
+      border: 1px solid #CBD5E1 !important;
+      border-radius: 10px !important;
+      padding: 0 1rem !important;
+      display: flex !important;
+      align-items: center !important;
+      background-color: #ffffff !important;
+      transition: all 0.2s ease !important;
+      box-sizing: border-box !important;
+    }
+
+    .input-wrapper:focus-within {
+      border-color: #00B67A !important;
+      box-shadow: 0 0 0 2px rgba(0, 182, 122, 0.15) !important;
+    }
+
+    .input-field {
+      width: 100% !important;
+      height: 56px !important;
+      border: none !important;
+      outline: none !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 1rem !important;
+      color: #333333 !important;
+      background: transparent !important;
+      box-sizing: border-box !important;
+      padding: 0 !important;
+    }
+
+    .input-field::placeholder {
+      color: #94A3B8 !important;
+    }
+
+    .input-search-icon {
+      color: #828282 !important;
+      margin-right: 0.75rem !important;
+      font-size: 1.15rem !important;
+    }
+
+    .form-row-2col {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr !important;
+      gap: 1.25rem !important;
+    }
+
+    /* Select Dropdown styling */
+    .select-field {
+      width: 100% !important;
+      height: 56px !important;
+      border: none !important;
+      outline: none !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 1rem !important;
+      color: #94A3B8 !important;
+      background: transparent !important;
+      cursor: pointer !important;
+      appearance: none !important;
+      -webkit-appearance: none !important;
+      box-sizing: border-box !important;
+      padding: 0 1.5rem 0 0 !important;
+    }
+
+    .custom-select-container {
+      position: relative !important;
+      width: 100% !important;
+      cursor: pointer !important;
+      user-select: none !important;
+    }
+
+    .custom-select-trigger {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      width: 100% !important;
+      height: 56px !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 1rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .custom-select-placeholder {
+      color: #94A3B8 !important;
+    }
+
+    .custom-select-placeholder.selected-val {
+      color: #333333 !important;
+    }
+
+    .custom-select-arrow {
+      color: #333333 !important;
+      font-size: 0.875rem !important;
+      transition: transform 0.2s ease !important;
+    }
+
+    .custom-select-container.open .custom-select-arrow {
+      transform: rotate(180deg) !important;
+    }
+
+    .custom-select-dropdown {
+      position: absolute !important;
+      top: calc(100% + 8px) !important;
+      left: -1rem !important;
+      right: -1rem !important;
+      background-color: #ffffff !important;
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 12px !important;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+      z-index: 9999 !important;
+      max-height: 220px !important;
+      overflow-y: auto !important;
+      padding: 6px !important;
+      box-sizing: border-box !important;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar {
+      width: 6px !important;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar-track {
+      background: transparent !important;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar-thumb {
+      background-color: #CBD5E1 !important;
+      border-radius: 3px !important;
+    }
+
+    .custom-select-option {
+      padding: 10px 14px !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.95rem !important;
+      color: #334155 !important;
+      border-radius: 8px !important;
+      transition: background-color 0.15s ease, color 0.15s ease !important;
+      cursor: pointer !important;
+      text-align: left !important;
+    }
+
+    .custom-select-option:hover {
+      background-color: #F1F5F9 !important;
+      color: #1E293B !important;
+    }
+
+    .custom-select-option.selected {
+      background-color: #EFF6FF !important;
+      color: #2563EB !important;
+      font-weight: 600 !important;
+    }
+
+    .input-wrapper.open,
+    .input-wrapper:focus-within {
+      border-color: #00B67A !important;
+      box-shadow: 0 0 0 2px rgba(0, 182, 122, 0.15) !important;
+    }
+
+    /* Error Validation States */
+    .input-error-border {
+      border-color: #EB5757 !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    .error-msg {
+      color: #EB5757 !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      margin-top: 0.25rem !important;
+      margin-bottom: 1rem !important;
+    }
+
+    .error-msg i {
+      font-size: 1rem !important;
+    }
+
+    /* Opt-in SMS checkbox */
+    .checkbox-container {
+      display: flex !important;
+      align-items: flex-start !important;
+      gap: 0.75rem !important;
+      margin-top: 0.5rem !important;
+      cursor: pointer !important;
+    }
+
+    .checkbox-input {
+      width: 20px !important;
+      height: 20px !important;
+      border: 1px solid #CBD5E1 !important;
+      border-radius: 4px !important;
+      cursor: pointer !important;
+      margin-top: 2px !important;
+      accent-color: #333333 !important;
+    }
+
+    .checkbox-label {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      color: #666666 !important;
+      line-height: 1.4 !important;
+      cursor: pointer !important;
+    }
+
+    .checkbox-label span {
+      text-transform: capitalize !important;
+    }
+
+    /* Age Verification Radio Cards */
+    .radio-cards-row {
+      display: flex !important;
+      gap: 1.25rem !important;
+      margin-top: 0.5rem !important;
+    }
+
+    .radio-card {
+      min-height: 52px !important;
+      width: 68px !important;
+      border: 1px solid #E2E8F0 !important;
+      background-color: #ffffff !important;
+      border-radius: 8px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      cursor: pointer !important;
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1rem !important;
+      font-weight: 700 !important;
+      color: #333333 !important;
+      transition: all 0.2s ease !important;
+      box-sizing: border-box !important;
+      user-select: none !important;
+    }
+
+    .radio-card:hover {
+      border-color: #CBD5E1 !important;
+    }
+
+    .radio-card.selected {
+      background-color: #EBF0FF !important;
+      border-color: #3054FF !important;
+      border-width: 2px !important;
+    }
+
+    /* Continue Action Button styling */
+    .btn-checkout-continue {
+      width: 100% !important;
+      background-color: #219653 !important;
+      color: #ffffff !important;
+      border: none !important;
+      height: 52px !important;
+      border-radius: 9999px !important;
+      font-family: 'Inter', sans-serif !important;
+      font-weight: 800 !important;
+      font-size: 0.95rem !important;
+      cursor: pointer !important;
+      box-shadow: 0 4px 20px rgba(33, 150, 83, 0.4) !important;
+      transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 0 1.5rem !important;
+      box-sizing: border-box !important;
+      margin: 1.5rem auto 0 auto !important;
+    }
+
+    .btn-checkout-continue:hover:not(:disabled) {
+      background-color: #1B7A43 !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 6px 24px rgba(33, 150, 83, 0.5) !important;
+    }
+
+    .btn-checkout-continue:active:not(:disabled) {
+      transform: translateY(0) scale(0.98) !important;
+      box-shadow: 0 2px 10px rgba(33, 150, 83, 0.3) !important;
+    }
+
+    .btn-checkout-continue:disabled {
+      background-color: #E2E8F0 !important;
+      color: #94A3B8 !important;
+      cursor: not-allowed !important;
+      transform: none !important;
+      box-shadow: none !important;
+    }
+
+    /* Right Column Summary Card styling */
+    .summary-card {
+      background-color: #ffffff !important;
+      border-radius: 24px !important;
+      border: 1px solid #E2E8F0 !important;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.02) !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+      position: sticky !important;
+      top: 90px !important;
+    }
+
+    .summary-card-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.35rem !important;
+      font-weight: 700 !important;
+      color: #333333 !important;
+      padding: 1.25rem 1.5rem !important;
+      border-bottom: 1px solid #E2E8F0 !important;
+      margin: 0 !important;
+    }
+
+    .summary-card-body {
+      padding: 1.25rem 1.5rem 2rem 1.5rem !important;
+      display: flex !important;
+      flex-direction: column !important;
+    }
+
+    .summary-puppy-row {
+      display: flex !important;
+      gap: 1rem !important;
+      align-items: flex-start !important;
+    }
+
+    .summary-puppy-img {
+      width: 100px !important;
+      height: 100px !important;
+      border-radius: 12px !important;
+      object-fit: cover !important;
+      flex-shrink: 0 !important;
+    }
+
+    .summary-puppy-info {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.15rem !important;
+    }
+
+    .summary-puppy-name {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.15rem !important;
+      font-weight: 700 !important;
+      color: #333333 !important;
+      text-transform: capitalize !important;
+      margin: 0 !important;
+    }
+
+    .summary-puppy-meta {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      color: #4B5563 !important;
+      margin: 0 !important;
+    }
+
+    .summary-puppy-meta.breed {
+      text-transform: capitalize !important;
+    }
+
+    .summary-divider {
+      height: 2px !important;
+      background-color: #FAF9F6 !important;
+      border: none !important;
+      margin: 1.25rem 0 !important;
+    }
+
+    .summary-pricing-list {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.25rem !important;
+    }
+
+    .summary-pricing-row {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: flex-start !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 1rem !important;
+      color: #333333 !important;
+    }
+
+    .summary-pricing-row.total-row {
+      font-weight: 700 !important;
+      font-size: 1.05rem !important;
+    }
+
+    .summary-pricing-row-left {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.15rem !important;
+    }
+
+    .summary-pricing-row-label {
+      text-transform: capitalize !important;
+    }
+
+    .summary-pricing-row-subtext {
+      font-size: 0.75rem !important;
+      color: #6B7280 !important;
+      max-width: 256px !important;
+      line-height: 1.35 !important;
+    }
+
+    .summary-pricing-row-subtext button {
+      background: none !important;
+      border: none !important;
+      padding: 0 !important;
+      color: #6B7280 !important;
+      text-decoration: underline !important;
+      text-underline-offset: 2px !important;
+      cursor: pointer !important;
+      font-size: 0.75rem !important;
+    }
+
+    .summary-pricing-row-subtext-tax {
+      font-size: 0.75rem !important;
+      color: #6B7280 !important;
+      margin-top: 0.15rem !important;
+    }
+
+    /* Checkout Footer Styles */
+    .checkout-footer {
+      border-top: 1px solid #E2E8F0 !important;
+      background-color: #FAF9F6 !important;
+      padding: 1.5rem 0 !important;
+      margin-top: auto !important;
+    }
+
+    .checkout-footer-container {
+      max-width: 1200px !important;
+      margin: 0 auto !important;
+      padding: 0 1.5rem !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.25rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .checkout-footer-top {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.5rem !important;
+    }
+
+    .footer-links-list {
+      list-style: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.5rem !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      color: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .footer-links-list li.copyright {
+      color: #333333 !important;
+    }
+
+    .footer-links-list a {
+      color: rgba(0, 0, 0, 0.5) !important;
+      text-decoration: none !important;
+      white-space: nowrap !important;
+    }
+
+    .footer-links-list a:hover {
+      text-decoration: underline !important;
+    }
+
+    .footer-divider {
+      height: 1px !important;
+      background-color: #E2E8F0 !important;
+      border: none !important;
+      margin: 0 !important;
+    }
+
+    .footer-security-wrapper {
+      max-width: 400px !important;
+    }
+
+    .footer-security-badge {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.75rem !important;
+      color: #333333 !important;
+      font-weight: 700 !important;
+    }
+
+    .footer-security-text {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.75rem !important;
+      color: rgba(0, 0, 0, 0.5) !important;
+      margin-top: 0.5rem !important;
+      line-height: 1.4 !important;
+    }
+
+    /* Success State Container */
+    .success-container {
+      background: #FFFFFF !important;
+      padding: 5rem 4rem !important;
+      border-radius: 24px !important;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02) !important;
+      border: 1px solid #E2E8F0 !important;
+      text-align: center !important;
+      max-width: 650px !important;
+      margin: 2rem auto !important;
+      display: none;
+      box-sizing: border-box !important;
+    }
+
+    .success-icon-circle {
+      width: 80px !important;
+      height: 80px !important;
+      border-radius: 50% !important;
+      background: rgba(0, 182, 122, 0.08) !important;
+      color: #00B67A !important;
+      font-size: 2.5rem !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      margin: 0 auto 2rem auto !important;
+      box-shadow: 0 6px 20px rgba(0, 182, 122, 0.1) !important;
+    }
+
+    .success-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 2.2rem !important;
+      font-weight: 900 !important;
+      color: #012B3A !important;
+      margin: 0 0 1rem 0 !important;
+    }
+
+    .success-desc {
+      font-size: 1.1rem !important;
+      color: #555555 !important;
+      line-height: 1.6 !important;
+      margin: 0 0 2.5rem 0 !important;
+    }
+
+    .btn-success-action {
+      background: #012B3A !important;
+      color: #ffffff !important;
+      padding: 0.95rem 2.2rem !important;
+      border-radius: 50px !important;
+      font-weight: 800 !important;
+      font-size: 1.05rem !important;
+      text-decoration: none !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 0.6rem !important;
+      transition: all 0.25s ease !important;
+      border: none !important;
+    }
+
+    .btn-success-action:hover {
+      background: #00B67A !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 8px 20px rgba(0, 182, 122, 0.2) !important;
+    }
+
+    /* Responsive Style Overrides */
+    @media (min-width: 48em) {
+      .footer-links-list {
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 0.75rem !important;
+      }
+      .footer-links-list li.dot-separator {
+        display: block !important;
+      }
+    }
+
+    @media (max-width: 62em) {
+      .checkout-grid {
+        grid-template-columns: 1.5fr 1fr !important;
+        gap: 1.5rem !important;
+      }
+    }
+
+    @media (max-width: 48em) {
+      .checkout-header {
+        padding: 0 1rem !important;
+      }
+      .checkout-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+      }
+      .summary-card {
+        order: -1 !important; /* Move summary above form on mobile */
+        position: static !important;
+        margin-bottom: 0.5rem !important;
+      }
+      .checkout-form-card {
+        padding: 1.75rem 1.25rem !important;
+      }
+      .form-row-2col {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+      }
+      .btn-checkout-continue {
+        max-width: none !important;
+      }
+    }
+
+    /* Included With Your Adoption list styles */
+    .included-section {
+      margin-top: 1rem !important;
+      margin-bottom: 1rem !important;
+    }
+    .included-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.95rem !important;
+      font-weight: 800 !important;
+      color: #012B3A !important;
+      margin-bottom: 0.75rem !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.05em !important;
+    }
+    .included-list {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.85rem !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      list-style: none !important;
+    }
+    .included-item {
+      display: flex !important;
+      align-items: flex-start !important;
+      gap: 0.5rem !important;
+    }
+    .included-item-check {
+      color: #00B67A !important;
+      font-weight: 900 !important;
+      font-size: 1rem !important;
+      flex-shrink: 0 !important;
+    }
+    .included-item-content {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.1rem !important;
+    }
+    .included-item-title {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      font-weight: 700 !important;
+      color: #333333 !important;
+      line-height: 1.25 !important;
+    }
+    .included-item-desc {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.75rem !important;
+      color: #666666 !important;
+      line-height: 1.35 !important;
+    }
+
+    /* Travel Support styles */
+    .travel-support-section {
+      margin-top: 0.5rem !important;
+      margin-bottom: 0.5rem !important;
+      background-color: #F8FAFC !important;
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 12px !important;
+      padding: 0.85rem 1rem !important;
+    }
+    .travel-support-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.85rem !important;
+      font-weight: 800 !important;
+      color: #012B3A !important;
+      margin-bottom: 0.4rem !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.05em !important;
+    }
+    .travel-support-heading {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      font-weight: 700 !important;
+      color: #333333 !important;
+      margin-bottom: 0.15rem !important;
+    }
+    .travel-support-desc {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.75rem !important;
+      color: #666666 !important;
+      line-height: 1.35 !important;
+    }
+  
+    /* Segmented ownership control */
+    .segment-control {
+      display: flex !important;
+      gap: 0.5rem !important;
+      margin-top: 0.5rem !important;
+      margin-bottom: 1.25rem !important;
+    }
+    .segment-btn {
+      flex: 1 !important;
+      padding: 0.85rem 1rem !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.9rem !important;
+      font-weight: 600 !important;
+      color: #4A5568 !important;
+      background-color: #FFFFFF !important;
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 12px !important;
+      cursor: pointer !important;
+      transition: all 0.2s ease !important;
+      text-align: center !important;
+    }
+    .segment-btn:hover {
+      border-color: #CBD5E0 !important;
+      background-color: #F7FAFC !important;
+    }
+    .segment-btn.active {
+      color: #1E293B !important;
+      background-color: #E8F5E9 !important;
+      border-color: #A9E2C1 !important;
+      box-shadow: 0 0 0 1px #A9E2C1 !important;
+    }
+
+    /* Option delivery selection cards */
+    .delivery-option-cards {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1rem !important;
+      margin-top: 0.75rem !important;
+      margin-bottom: 1.5rem !important;
+    }
+    .delivery-card {
+      display: flex !important;
+      align-items: center !important;
+      padding: 1.25rem !important;
+      background-color: #FFFFFF !important;
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 16px !important;
+      cursor: pointer !important;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      position: relative !important;
+    }
+    .delivery-card:hover {
+      border-color: #CBD5E0 !important;
+      background-color: #F8FAFC !important;
+    }
+    .delivery-card.active {
+      background-color: #E8F5E9 !important;
+      border-color: #A9E2C1 !important;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.01) !important;
+    }
+    .card-radio-circle {
+      width: 20px !important;
+      height: 20px !important;
+      border: 2px solid #CBD5E0 !important;
+      border-radius: 50% !important;
+      margin-right: 1rem !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-shrink: 0 !important;
+      background-color: #FFFFFF !important;
+      transition: all 0.2s ease !important;
+    }
+    .delivery-card.active .card-radio-circle {
+      border-color: #2E7D32 !important;
+    }
+    .delivery-card.active .card-radio-circle::after {
+      content: "" !important;
+      width: 10px !important;
+      height: 10px !important;
+      background-color: #2E7D32 !important;
+      border-radius: 50% !important;
+      display: block !important;
+    }
+    .card-icon {
+      font-size: 1.5rem !important;
+      color: #4A5568 !important;
+      margin-right: 1.25rem !important;
+      width: 44px !important;
+      height: 44px !important;
+      background-color: #F7FAFC !important;
+      border-radius: 12px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-shrink: 0 !important;
+      transition: all 0.2s ease !important;
+    }
+    .delivery-card.active .card-icon {
+      background-color: #FFFFFF !important;
+      color: #2E7D32 !important;
+    }
+    .card-content {
+      flex: 1 !important;
+    }
+    .card-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.05rem !important;
+      font-weight: 800 !important;
+      color: #1E293B !important;
+      margin: 0 0 0.15rem 0 !important;
+    }
+    .card-desc {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.85rem !important;
+      color: #64748B !important;
+      margin: 0 !important;
+      line-height: 1.35 !important;
+    }
+
+    /* Collapsible forms address sections */
+    .delivery-details-section {
+      display: none;
+      flex-direction: column !important;
+      gap: 1rem !important;
+      background-color: #F8FAFC !important;
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 16px !important;
+      padding: 1.25rem !important;
+      margin-bottom: 1.5rem !important;
+      animation: slideDown 0.3s ease-out !important;
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Terms block typography improvements */
+    .terms-block {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.25rem !important;
+      margin-top: 0.75rem !important;
+      margin-bottom: 1.5rem !important;
+    }
+    .term-item {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.25rem !important;
+    }
+    .term-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-weight: 800 !important;
+      font-size: 0.95rem !important;
+      color: #1E293B !important;
+      margin: 0 !important;
+    }
+    .term-text {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.85rem !important;
+      color: #64748B !important;
+      margin: 0 !important;
+      line-height: 1.45 !important;
+    }
+
+    /* Checkbox list spacing */
+    .agreement-list {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.85rem !important;
+      margin-bottom: 1.75rem !important;
+    }
+    .agreement-list .checkbox-container {
+      margin-bottom: 0 !important;
+    }
+    
+    /* Navigation Back Buttons */
+    .btn-secondary-link {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 0.5rem !important;
+      background: none !important;
+      border: 1px solid #CBD5E0 !important;
+      color: #4A5568 !important;
+      font-family: 'Nunito', sans-serif !important;
+      font-weight: 800 !important;
+      font-size: 1rem !important;
+      padding: 0.85rem 1.75rem !important;
+      border-radius: 12px !important;
+      cursor: pointer !important;
+      transition: all 0.2s ease !important;
+      text-decoration: none !important;
+      box-sizing: border-box !important;
+    }
+    .btn-secondary-link:hover {
+      background-color: #EDF2F7 !important;
+      border-color: #A0AEC0 !important;
+      color: #2D3748 !important;
+    }
+    
+    .button-group-row {
+      display: flex !important;
+      gap: 1rem !important;
+      align-items: center !important;
+      margin-top: 1.5rem !important;
+    }
+
+  </style>
+</head>
+<body class="apply-page-body">
+
+  <!-- ==========================================================================
+       1. Navigation Header
+       ========================================================================== -->
+  <header class="checkout-header">
+    <a href="index.html" class="checkout-header-logo">
+      <i class="fa-solid fa-paw"></i> EverlyPups
+    </a>
+    
+    <div class="checkout-header-right">
+      <a href="contact.html" class="btn-nav-contact">
+        <i class="fa-solid fa-envelope"></i> Contact Us
+      </a>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       2. Stepper / Progress indicator
+       ========================================================================== -->
+  <section class="stepper-container">
+    <div class="stepper-steps">
+      <!-- Step 1: Details -->
+      <div class="stepper-step">
+        <div class="stepper-icon-wrapper" style="width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+        </div>
+        <span class="stepper-label" style="color: #2E7D32;">Details</span>
+      </div>
+
+      <div class="stepper-separator active"></div>
+
+      <!-- Step 2: Delivery -->
+      <div class="stepper-step active">
+        <div class="stepper-icon-wrapper">
+          <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M34.2506 11.3556C34.2734 4.79272 22.5008 4.92505 14.5283 8.00131C6.55583 11.0776 4.29612 11.7138 4.49606 17.5743C4.69599 23.4348 1.12881 32.7388 14.2103 33.0215C27.2919 33.3041 25.9985 31.5414 32.7334 26.5269C39.4683 21.5123 34.2278 17.9185 34.2506 11.3556Z" fill="#A9E2C1"></path>
+            <g transform="translate(8,8)" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="1" y="3" width="15" height="13" rx="2" ry="2" />
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+              <circle cx="5.5" cy="18.5" r="2.5" />
+              <circle cx="18.5" cy="18.5" r="2.5" />
+            </g>
+          </svg>
+        </div>
+        <span class="stepper-label">Delivery</span>
+      </div>
+
+      <div class="stepper-separator"></div>
+
+      <!-- Step 3: Payment -->
+      <div class="stepper-step">
+        <div class="stepper-icon-wrapper" style="width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#828282" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.1818 4H3.81818C2.81403 4 2 4.89543 2 6V18C2 19.1046 2.81403 20 3.81818 20H20.1818C21.186 20 22 19.1046 22 18V6C22 4.89543 21.186 4 20.1818 4Z"></path>
+            <path d="M16.3712 15C16.3712 16.2286 15.3509 17.25 14.0606 17.25C12.7703 17.25 11.75 16.2286 11.75 15C11.75 13.7714 12.7703 12.75 14.0606 12.75C15.3509 12.75 16.3712 13.7714 16.3712 15Z" fill="white"></path>
+            <path d="M19.4298 15C19.4298 16.2286 18.4095 17.25 17.1192 17.25C15.8289 17.25 14.8086 16.2286 14.8086 15C14.8086 13.7714 15.8289 12.75 17.1192 12.75C18.4095 12.75 19.4298 13.7714 19.4298 15Z" fill="white"></path>
+          </svg>
+        </div>
+        <span class="stepper-label">Payment</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. Main Checkout Section Grid
+       ========================================================================== -->
+  <section class="checkout-section">
+    <div id="mainApplicationLayout" class="checkout-grid" style="display: none;">
+      
+      <!-- LEFT COLUMN: Adoption & Delivery Form -->
+      <div class="checkout-left-col">
+        
+        <!-- Welcome banner card with photo -->
+        <div class="welcome-card">
+          <img id="welcomePuppyPhoto" src="" alt="Selected Puppy" class="welcome-puppy-img" />
+          <h2 class="welcome-title">Let's arrange <strong id="welcomePuppyName">Finn</strong>'s homecoming!</h2>
+        </div>
+
+        <!-- Form Fields Card -->
+        <div class="checkout-form-card">
+          
+          <div class="form-header-group">
+            <h3 class="form-section-heading">Adoption & Delivery</h3>
+            <p class="form-section-subtext">Configure your ownership details and choose how you would like to receive <span id="subtextPuppyName">Finn</span>.</p>
+          </div>
+
+          <hr class="form-divider-green" />
+
+          <!-- Form body -->
+          <form id="adoptionDeliveryForm" onsubmit="handleDeliverySubmit(event)">
+            
+            <!-- SECTION 1: Puppy Ownership -->
+            <fieldset class="fieldset-group">
+              <legend class="fieldset-legend" style="font-size: 1.15rem; font-weight: 800; color: #1E293B; margin-bottom: 0.5rem;">Puppy Ownership</legend>
+              
+              <div class="form-group-label" style="font-family: 'Nunito', sans-serif; font-size: 0.95rem; font-weight: 700; color: #4A5568; margin-bottom: 0.25rem;">Are you a first-time dog owner?</div>
+              <div class="segment-control" id="firstTimeOwnerGroup">
+                <button type="button" class="segment-btn" data-value="yes">Yes</button>
+                <button type="button" class="segment-btn" data-value="no">No</button>
+              </div>
+
+              <div class="form-group-label" style="font-family: 'Nunito', sans-serif; font-size: 0.95rem; font-weight: 700; color: #4A5568; margin-bottom: 0.25rem;">How many dogs currently live in your home?</div>
+              <div class="segment-control" id="dogsCountGroup">
+                <button type="button" class="segment-btn" data-value="0">0</button>
+                <button type="button" class="segment-btn" data-value="1">1</button>
+                <button type="button" class="segment-btn" data-value="2+">2+</button>
+              </div>
+            </fieldset>
+
+            <hr class="form-divider" />
+
+            <!-- SECTION 2: Delivery Location -->
+            <fieldset class="fieldset-group">
+              <legend class="fieldset-legend" style="font-size: 1.15rem; font-weight: 800; color: #1E293B; margin-bottom: 0.25rem;">Delivery Location</legend>
+              <p class="form-section-subtext" style="margin-bottom: 1rem;">Your puppy will be safely delivered directly to the address provided during checkout.</p>
+
+              <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 16px; padding: 1.25rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                  <span style="font-family: 'Nunito', sans-serif; font-size: 0.95rem; font-weight: 800; color: #1E293B;">Delivery Address</span>
+                  <a href="#" id="btnEditAddress" style="font-family: 'Nunito', sans-serif; font-size: 0.9rem; font-weight: 700; color: #FF7A30; text-decoration: none; display: flex; align-items: center; gap: 0.25rem; transition: color 0.2s ease;">
+                    <i class="fa-solid fa-pen-to-square"></i> Edit address
+                  </a>
+                </div>
+                <div style="border-top: 1px solid #E2E8F0; padding-top: 0.75rem; font-family: 'Inter', sans-serif; font-size: 0.9rem; color: #4A5568; line-height: 1.5; font-weight: 500;">
+                  <div id="addrStreet" style="font-weight: 600; color: #1E293B;"></div>
+                  <div id="addrCityProv"></div>
+                  <div id="addrPostal"></div>
+                  <div id="addrCountry" style="text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.05em; color: #718096; margin-top: 0.25rem;"></div>
+                </div>
+              </div>
+            </fieldset>
+
+            <hr class="form-divider" />
+
+            <!-- SECTION 3: Adoption Terms -->
+            <fieldset class="fieldset-group">
+              <legend class="fieldset-legend" style="font-size: 1.15rem; font-weight: 800; color: #1E293B; margin-bottom: 0.25rem;">Adoption Terms</legend>
+              <p class="form-section-subtext" style="margin-bottom: 0.75rem;">Please review the following terms before continuing.</p>
+
+              <div class="terms-block">
+                <div class="term-item">
+                  <h5 class="term-title">Health Guarantee</h5>
+                  <p class="term-text">Your puppy is covered by EverlyPups’s Health Guarantee.</p>
+                </div>
+                <div class="term-item">
+                  <h5 class="term-title">Payment & Reservation</h5>
+                  <p class="term-text">Full payment is required to reserve a puppy. Your puppy will only be reserved once the full payment has been received and confirmed.</p>
+                </div>
+                <div class="term-item">
+                  <h5 class="term-title">Pickup & Delivery</h5>
+                  <p class="term-text">Your selected pickup or delivery option will determine the next steps. EverlyPups will contact you with the required arrangements after payment verification.</p>
+                </div>
+                <div class="term-item">
+                  <h5 class="term-title">Holding Period</h5>
+                  <p class="term-text">If you need EverlyPups to hold your puppy beyond the agreed delivery date, additional holding fees may apply. Any holding arrangement must be approved by EverlyPups after purchase.</p>
+                </div>
+                <div class="term-item">
+                  <h5 class="term-title">Cancellation & Refunds</h5>
+                  <p class="term-text">Payments, cancellations, and refunds are subject to EverlyPups’s current Adoption Terms.</p>
+                </div>
+                <div class="term-item">
+                  <h5 class="term-title">Final Sale</h5>
+                  <p class="term-text">Please review all puppy details, health information, payment terms, and delivery arrangements before completing your purchase.</p>
+                </div>
+              </div>
+            </fieldset>
+
+            <hr class="form-divider" />
+
+            <!-- SECTION 4: Required Agreements -->
+            <fieldset class="fieldset-group">
+              <legend class="fieldset-legend" style="font-size: 1.15rem; font-weight: 800; color: #1E293B; margin-bottom: 0.5rem;">Required Agreements</legend>
+              
+              <div class="agreement-list">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="agreeTerms1" class="checkbox-input" onchange="validateForm()" style="accent-color: #219653 !important;" />
+                  <label for="agreeTerms1" class="checkbox-label" style="color: #4A5568; font-weight: 500; margin-top: 0 !important; cursor: pointer;">
+                    I have read and understand EverlyPups’s Adoption Terms and Health Guarantee.
+                  </label>
+                </div>
+
+                <div class="checkbox-container">
+                  <input type="checkbox" id="agreeTerms2" class="checkbox-input" onchange="validateForm()" style="accent-color: #219653 !important;" />
+                  <label for="agreeTerms2" class="checkbox-label" style="color: #4A5568; font-weight: 500; margin-top: 0 !important; cursor: pointer;">
+                    I agree to EverlyPups’s Terms of Use, Adoption Terms, and Health Guarantee.
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- Buttons -->
+            <div class="button-group-row">
+              <a href="apply.html" id="btnBackToDetails" class="btn-secondary-link">
+                <i class="fa-solid fa-arrow-left"></i> Back
+              </a>
+              <button type="submit" id="btnContinue" class="btn-checkout-continue" disabled style="margin: 0 !important; flex: 1; height: 50px; font-weight: 800; display: flex; align-items: center; justify-content: center;">
+                Continue to Payment <i class="fa-solid fa-arrow-right" style="margin-left: 0.5rem;"></i>
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Order Summary (Spans on right on desktop) -->
+      <aside class="order-summary">
+        <div class="summary-card">
+          <h2 class="summary-card-title">Summary</h2>
+          
+          <div class="summary-card-body">
+            <div class="summary-puppy-row">
+              <img id="summaryPuppyPhoto" src="" alt="Puppy" class="summary-puppy-img" />
+              <div class="summary-puppy-info">
+                <p id="summaryPuppyName" class="summary-puppy-name">Finn</p>
+                <p id="summaryPuppySpecs" class="summary-puppy-meta">Male • 6 weeks</p>
+                <p id="summaryPuppyBreed" class="summary-puppy-meta breed">Beagle</p>
+                <p id="summaryPuppyId" class="summary-puppy-meta">ID # 824597</p>
+              </div>
+            </div>
+
+            <hr class="summary-divider" />
+
+            <div class="summary-pricing-list">
+              <!-- Adoption price -->
+              <div class="summary-pricing-row">
+                <span class="summary-pricing-row-label" style="font-weight: 700;">Puppy Price</span>
+                <span class="summary-pricing-row-val" id="pricingBringHomeFee" style="font-weight: 700;">$2,890.00</span>
+              </div>
+              <div class="summary-pricing-row-subtext" style="margin-top: 0.15rem; margin-bottom: 0.75rem;">
+                <span>Sold by <strong id="summaryBreederName">USDA Certified Breeder</strong> &amp; backed by EverlyPups’s services.</span>
+              </div>
+
+              <!-- Dyn details: Pickup/Delivery -->
+              <div class="summary-pricing-row" id="summaryDeliveryRow" style="border-top: 1px dashed #E2E8F0; padding-top: 0.75rem; margin-top: 0.5rem;">
+                <span class="summary-pricing-row-label">Pickup / Delivery</span>
+                <span class="summary-pricing-row-val" id="summaryDeliveryVal" style="font-weight: 600; color: #1E293B;">Awaiting selection</span>
+              </div>
+
+              <!-- Dyn details: Location -->
+              <div class="summary-pricing-row" id="summaryLocationRow" style="display: none; flex-direction: column; align-items: flex-start; gap: 0.2rem; padding-top: 0.5rem;">
+                <span class="summary-pricing-row-label" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B;">Location</span>
+                <span class="summary-pricing-row-val address-font" id="summaryLocationVal" style="font-weight: 500; font-size: 0.85rem; color: #4A5568; text-align: left; line-height: 1.4; padding-left: 0;">-</span>
+              </div>
+
+              <!-- Dyn details: Payment -->
+              <div class="summary-pricing-row" id="summaryPaymentRow" style="padding-top: 0.25rem;">
+                <span class="summary-pricing-row-label">Payment</span>
+                <span class="summary-pricing-row-val" id="summaryPaymentVal" style="font-weight: 500; color: #4A5568;">Not selected</span>
+              </div>
+
+              <hr class="summary-divider" />
+
+              <div class="summary-pricing-row total-row">
+                <span class="summary-pricing-row-label">Total Due</span>
+                <span class="summary-pricing-row-val" id="pricingTotal">$2,890.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. Subtle Trust Footer Row
+       ========================================================================== -->
+  <footer style="background-color: #FFFFFF; border-top: 1px solid #E2E8F0; padding: 2.5rem 1.5rem; margin-top: 4rem;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 1.5rem; align-items: center; justify-content: space-between;">
+      <div style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; font-weight: 900; color: #000;">
+        <i class="fa-solid fa-paw"></i> EverlyPups
+      </div>
+      <p style="font-family: 'Inter', sans-serif; font-size: 0.85rem; color: #94A3B8; margin: 0; text-align: center;">
+        &copy; 2026 EverlyPups South Africa. A secure and verified animal placement service.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data/siteData.js?v=1715"></script>
+  <script>
+    let activePuppy = null;
+    let selectedFirstTimeOwner = null;
+    let selectedDogsCount = null;
+    let selectedDeliveryOption = 'delivery';
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // Find selected puppy in SITE_DATA
+      const urlParams = new URLSearchParams(window.location.search);
+      const puppyIdStr = urlParams.get('id');
+      
+      if (puppyIdStr) {
+        activePuppy = SITE_DATA.puppies.find(p => String(p.id) === String(puppyIdStr));
+      } else {
+        const breedParam = urlParams.get('breed');
+        const puppyParam = urlParams.get('puppy');
+        if (breedParam && puppyParam) {
+          activePuppy = SITE_DATA.puppies.find(p => 
+            p.breed.toLowerCase() === breedParam.toLowerCase() && 
+            p.name.toLowerCase() === puppyParam.toLowerCase()
+          );
+        }
+      }
+
+      // Fallback default details in case ID or puppy is missing
+      if (!activePuppy) {
+        activePuppy = {
+          name: "Finn",
+          breed: "Beagle",
+          gender: "Male",
+          age: "6 weeks",
+          id: 824597,
+          price: 2890,
+          breeder: "USDA Certified Star Breeder",
+          image: "https://photos.puppyspot.com/7/listing/824597/photo/505045813_medium.jpg"
+        };
+      }
+
+      const mainLayout = document.getElementById('mainApplicationLayout');
+
+      if (activePuppy) {
+        const priceStr = '$' + activePuppy.price.toLocaleString() + '.00';
+        
+        // Welcome Banner and info texts
+        document.getElementById('welcomePuppyPhoto').src = activePuppy.image;
+        document.getElementById('welcomePuppyPhoto').alt = activePuppy.name;
+        document.getElementById('welcomePuppyName').textContent = activePuppy.name;
+        document.getElementById('subtextPuppyName').textContent = activePuppy.name;
+        
+        // Right Summary card
+        document.getElementById('summaryPuppyPhoto').src = activePuppy.image;
+        document.getElementById('summaryPuppyPhoto').alt = activePuppy.name;
+        document.getElementById('summaryPuppyName').textContent = activePuppy.name;
+        document.getElementById('summaryPuppySpecs').textContent = activePuppy.gender + ' • ' + activePuppy.age;
+        document.getElementById('summaryPuppyBreed').textContent = activePuppy.breed;
+        document.getElementById('summaryPuppyId').textContent = 'ID # ' + activePuppy.id;
+        
+        document.getElementById('summaryBreederName').textContent = activePuppy.breeder || 'USDA Certified Breeder';
+        document.getElementById('pricingBringHomeFee').textContent = priceStr;
+        document.getElementById('pricingTotal').textContent = priceStr;
+        
+        mainLayout.style.display = 'grid';
+      }
+
+      // Dynamic Back link with puppy ID
+      const backLink = document.getElementById('btnBackToDetails');
+      if (backLink && activePuppy) {
+        backLink.href = 'apply.html?id=' + activePuppy.id;
+      }
+
+      // Register segment listeners for first-time owner
+      const firstTimeOwnerButtons = document.querySelectorAll('#firstTimeOwnerGroup .segment-btn');
+      firstTimeOwnerButtons.forEach(btn => {
+        btn.addEventListener('click', function() {
+          firstTimeOwnerButtons.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          selectedFirstTimeOwner = this.getAttribute('data-value');
+          validateForm();
+        });
+      });
+
+      // Register segment listeners for dogs count
+      const dogsCountButtons = document.querySelectorAll('#dogsCountGroup .segment-btn');
+      dogsCountButtons.forEach(btn => {
+        btn.addEventListener('click', function() {
+          dogsCountButtons.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          selectedDogsCount = this.getAttribute('data-value');
+          validateForm();
+        });
+      });
+
+      // Populate doorstep delivery address from step 1
+      const savedDetails = localStorage.getItem('everlypups_checkout_details');
+      if (savedDetails) {
+        try {
+          const detailsData = JSON.parse(savedDetails);
+          if (detailsData) {
+            document.getElementById('addrStreet').textContent = detailsData.address || '-';
+            document.getElementById('addrCityProv').textContent = (detailsData.city || '') + (detailsData.city && detailsData.state ? ', ' : '') + (detailsData.state || '');
+            document.getElementById('addrPostal').textContent = detailsData.zip || '';
+            document.getElementById('addrCountry').textContent = detailsData.country || '';
+          }
+        } catch (e) {
+          console.error("Error reading checkout details", e);
+        }
+      }
+
+      // Hook edit address link
+      const btnEdit = document.getElementById('btnEditAddress');
+      if (btnEdit && activePuppy) {
+        btnEdit.href = 'apply.html?id=' + activePuppy.id;
+      }
+
+      // Restore saved delivery values if any
+      restoreSavedDeliveryData();
+    });
+
+    function updateOrderSummary() {
+      const deliveryVal = document.getElementById('summaryDeliveryVal');
+      const locationRow = document.getElementById('summaryLocationRow');
+      const locationVal = document.getElementById('summaryLocationVal');
+
+      deliveryVal.textContent = 'Doorstep Delivery';
+      
+      const savedDetails = localStorage.getItem('everlypups_checkout_details');
+      let locText = "";
+      if (savedDetails) {
+        try {
+          const detailsData = JSON.parse(savedDetails);
+          if (detailsData.address) {
+            locText = `${detailsData.address}, ${detailsData.city || ''}, ${detailsData.state || ''} ${detailsData.zip || ''}`;
+          }
+        } catch (e) {
+          console.error(e);
+        }
+      }
+      
+      locationRow.style.display = locText ? 'flex' : 'none';
+      locationVal.textContent = locText || '-';
+    }
+
+    function validateForm() {
+      const agree1 = document.getElementById('agreeTerms1').checked;
+      const agree2 = document.getElementById('agreeTerms2').checked;
+      const btn = document.getElementById('btnContinue');
+
+      let isValid = true;
+
+      // Validate ownership answers
+      if (!selectedFirstTimeOwner || !selectedDogsCount) {
+        isValid = false;
+      }
+
+      // Check if address was provided in Step 1
+      const savedDetails = localStorage.getItem('everlypups_checkout_details');
+      if (!savedDetails) {
+        isValid = false;
+      } else {
+        try {
+          const detailsData = JSON.parse(savedDetails);
+          if (!detailsData.address) isValid = false;
+        } catch (e) {
+          isValid = false;
+        }
+      }
+
+      // Validate checkboxes
+      if (!agree1 || !agree2) {
+        isValid = false;
+      }
+
+      if (isValid) {
+        btn.removeAttribute('disabled');
+      } else {
+        btn.setAttribute('disabled', 'true');
+      }
+    }
+
+    function handleDeliverySubmit(event) {
+      event.preventDefault();
+      
+      const savedDetails = localStorage.getItem('everlypups_checkout_details');
+      let locText = "";
+      let addressDetails = {};
+      if (savedDetails) {
+        try {
+          const detailsData = JSON.parse(savedDetails);
+          locText = `${detailsData.address}, ${detailsData.city || ''}, ${detailsData.state || ''} ${detailsData.zip || ''}`;
+          addressDetails = {
+            street: detailsData.address,
+            city: detailsData.city,
+            province: detailsData.state,
+            postal: detailsData.zip
+          };
+        } catch (e) {
+          console.error(e);
+        }
+      }
+
+      const deliveryData = {
+        firstTimeOwner: selectedFirstTimeOwner,
+        dogsCount: selectedDogsCount,
+        deliveryOption: 'doorstep',
+        locationText: locText,
+        addressDetails: addressDetails,
+        termsAgreed: true
+      };
+
+      localStorage.setItem('everlypups_checkout_delivery', JSON.stringify(deliveryData));
+
+      if (activePuppy && activePuppy.id) {
+        window.location.href = 'payment.html?id=' + activePuppy.id;
+      } else {
+        window.location.href = 'payment.html';
+      }
+    }
+
+    function restoreSavedDeliveryData() {
+      const savedDelivery = localStorage.getItem('everlypups_checkout_delivery');
+      if (savedDelivery) {
+        try {
+          const data = JSON.parse(savedDelivery);
+          
+          // First time owner
+          if (data.firstTimeOwner) {
+            selectedFirstTimeOwner = data.firstTimeOwner;
+            const btn = document.querySelector(`#firstTimeOwnerGroup .segment-btn[data-value="${selectedFirstTimeOwner}"]`);
+            if (btn) btn.classList.add('active');
+          }
+
+          // Dogs count
+          if (data.dogsCount) {
+            selectedDogsCount = data.dogsCount;
+            const btn = document.querySelector(`#dogsCountGroup .segment-btn[data-value="${selectedDogsCount}"]`);
+            if (btn) btn.classList.add('active');
+          }
+
+          // Checkboxes
+          if (data.termsAgreed) {
+            document.getElementById('agreeTerms1').checked = true;
+            document.getElementById('agreeTerms2').checked = true;
+          }
+
+          updateOrderSummary();
+          validateForm();
+        } catch (e) {
+          console.error("Error restoring checkout delivery details", e);
+        }
+      }
+    }
+  </script>
+</body>
+</html>

