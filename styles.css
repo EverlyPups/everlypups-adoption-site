@@ -3141,9 +3141,14 @@ img, video {
   transition: color 0.25s ease !important;
 }
 
-.accordion-item.active .acc-title,
-.accordion-header:hover .acc-title {
+.accordion-item.active .acc-title {
   color: #00B67A !important;
+}
+
+@media (hover: hover) {
+  .accordion-header:hover .acc-title {
+    color: #00B67A !important;
+  }
 }
 
 .acc-icon {
@@ -4412,6 +4417,53 @@ body .stepper-label {
 @media (max-width: 1024px) {
   body img[src*="track-path-gray-vertical"] {
     display: none !important;
+  }
+}
+
+/* 15. FAQ Accordion mobile adjustments */
+@media (max-width: 768px) {
+  body .accordion-header {
+    gap: 1rem !important;
+    padding: 1.25rem 0.25rem !important;
+  }
+  body .acc-title {
+    font-size: 1.05rem !important;
+  }
+  body .accordion-content {
+    padding-left: 2.75rem !important;
+  }
+  body .accordion-item.active .accordion-content {
+    max-height: 500px !important;
+    padding-left: 2.75rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  body .accordion-header {
+    gap: 0.75rem !important;
+    padding: 1rem 0.25rem !important;
+  }
+  body .acc-title {
+    font-size: 0.95rem !important;
+  }
+  body .acc-num {
+    min-width: 32px !important;
+    padding: 0.25rem 0.5rem !important;
+    font-size: 0.75rem !important;
+  }
+  body .acc-icon {
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 0.8rem !important;
+  }
+  body .accordion-content {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  body .accordion-item.active .accordion-content {
+    max-height: 500px !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
 }
 
