@@ -4375,5 +4375,12 @@ body .stepper-label {
   }
 }
 
+/* 14. Hide vertical dotted connector lines in How It Works on mobile/tablet */
+@media (max-width: 1024px) {
+  body img[src*="track-path-gray-vertical"] {
+    display: none !important;
+  }
+}
+
 
 
