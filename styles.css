@@ -4320,11 +4320,37 @@ body .stepper-label {
   }
 }
 
-/* 13. Puppy Reviews Scroll Box Gutter Adjustment on Mobile */
-@media (max-width: 480px) {
+/* 13. Puppy Reviews Mobile Responsiveness and Swipe/Scroll Fix */
+@media (max-width: 768px) {
+  body .review-right-carousel {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
   body .puppy-reviews-scroll-box {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    scrollbar-width: none !important;
+  }
+  body .puppy-reviews-scroll-box::-webkit-scrollbar {
+    display: none !important;
+  }
+  body .review-slide-card {
+    flex: 0 0 290px !important;
+    width: 290px !important;
+    min-height: 480px !important;
+    scroll-snap-align: start !important;
+  }
+  body .review-slide-img {
+    height: 220px !important;
+  }
+  body .reviews-carousel-arrow {
+    display: none !important;
   }
 }
 
