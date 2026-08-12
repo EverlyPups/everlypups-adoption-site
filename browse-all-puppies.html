@@ -85,7 +85,275 @@
 
         <nav class="nav-center-wrapper">
           <ul class="nav-links">
-            <li><a href="browse-all-puppies.html" class="nav-link active">Browse all puppies</a></li>
+            <li class="nav-item-dropdown">
+              <a href="browse-all-puppies.html" class="nav-link active nav-pill-btn">Browse available puppies</a>
+
+              <!-- Mega Dropdown Card -->
+              <div class="mega-dropdown-card" id="mega-dropdown">
+                <div class="mega-dropdown-inner">
+                  <!-- Left Sidebar Tabs -->
+                  <div class="mega-sidebar">
+                    <ul class="mega-tab-list">
+                      <li class="mega-tab-item active" data-tab="popular">
+                        <span class="tab-link">Popular breeds</span>
+                      </li>
+                      <li class="mega-tab-item" data-tab="purebreds">
+                        <span class="tab-link">Popular purebreds</span>
+                      </li>
+                      <li class="mega-tab-item" data-tab="doodles">
+                        <span class="tab-link">Doodle breeds</span>
+                      </li>
+                    </ul>
+
+                    <a href="browse-all-puppies.html" class="btn-mega-browse">Browse all puppies</a>
+                  </div>
+
+                  <!-- Right Content Panel -->
+                  <div class="mega-content">
+                    <!-- Panel 1: Popular Breeds -->
+                    <div class="mega-panel active" id="panel-popular">
+                      <div class="mega-panel-title">Popular breeds</div>
+                      <div class="mega-breed-grid">
+                        <div class="mega-breed-item" onclick="filterByBreed('Goldendoodle')">
+                          <img src="assets/breeds/Goldendoodle.webp" alt="Goldendoodle" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Goldendoodle</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('Cavapoo')">
+                          <img src="assets/breeds/Cavapoo.webp" alt="Cavapoo" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Cavapoo</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('Labrador Retriever')">
+                          <img src="assets/breeds/Labrador Retriever.webp" alt="Labrador Retriever" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Labrador Retriever</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Dachshund')">
+                          <img src="assets/breeds/Dachshund.webp" alt="Dachshund" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Dachshund</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('Maltipoo')">
+                          <img src="assets/breeds/Maltipoo.webp" alt="Maltipoo" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Maltipoo</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('French Bulldog')">
+                          <img src="assets/breeds/French Bulldog.webp" alt="French Bulldog" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">French Bulldog</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Golden Retriever')">
+                          <img src="assets/breeds/Golden Retriever.webp" alt="Golden Retriever" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Golden Retriever</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('Cavalier King Charles Spaniel')">
+                          <img src="assets/breeds/Cavalier King Charles Spaniel.webp" alt="Cavalier King Charles Spaniel" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Cavalier King Charles Spaniel</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-footer-link">
+                          <a href="browse-all-puppies.html">All available breeds A-Z</a>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Bernedoodle')">
+                          <img src="assets/breeds/Bernedoodle.webp" alt="Bernedoodle" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Bernedoodle</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('Poodle')">
+                          <img src="assets/breeds/Poodle.webp" alt="Poodle" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Poodle</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Panel 2: Popular Purebreds -->
+                    <div class="mega-panel" id="panel-purebreds">
+                      <div class="mega-panel-title">Popular purebreds</div>
+                      <div class="mega-breed-grid">
+                        <div class="mega-breed-item" onclick="filterByBreed('Dachshund')">
+                          <img src="assets/breeds/Dachshund.webp" alt="Dachshund" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Dachshund</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('Poodle')">
+                          <img src="assets/breeds/Poodle.webp" alt="Poodle" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Poodle</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('Yorkshire Terrier')">
+                          <img src="assets/breeds/Yorkshire Terrier.webp" alt="Yorkshire Terrier" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Yorkshire Terrier</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Golden Retriever')">
+                          <img src="assets/breeds/Golden Retriever.webp" alt="Golden Retriever" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Golden Retriever</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('Labrador Retriever')">
+                          <img src="assets/breeds/Labrador Retriever.webp" alt="Labrador Retriever" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Labrador Retriever</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('German Shepherd Dog')">
+                          <img src="assets/breeds/German Shepard.webp" alt="German Shepherd Dog" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">German Shepherd Dog</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Cavalier King Charles Spaniel')">
+                          <img src="assets/breeds/Cavalier King Charles Spaniel.webp" alt="Cavalier King Charles Spaniel" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Cavalier King Charles Spaniel</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('French Bulldog')">
+                          <img src="assets/breeds/French Bulldog.webp" alt="French Bulldog" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">French Bulldog</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-item" onclick="filterByBreed('Shih Tzu')">
+                          <img src="https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?auto=format&fit=crop&w=200&q=80" alt="Shih Tzu" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Shih Tzu</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Havanese')">
+                          <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=200&q=80" alt="Havanese" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Havanese</span>
+                          </div>
+                        </div>
+                        <div class="mega-breed-footer-link" style="grid-column: 2 / span 2;">
+                          <a href="browse-all-puppies.html">All available purebreds</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Panel 3: Doodle Breeds -->
+                    <div class="mega-panel" id="panel-doodles">
+                      <div class="mega-panel-title">Doodle breeds</div>
+                      
+                      <div class="mega-breed-grid">
+                        <div class="mega-breed-item" onclick="filterByBreed('Goldendoodle')">
+                          <img src="assets/breeds/Goldendoodle.webp" alt="Goldendoodle" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name underline">Goldendoodle</span>
+                            <span class="mega-breed-subtext">Poodle x Golden Retriever</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Cockapoo')">
+                          <img src="https://images.unsplash.com/photo-1591160690555-5debfba289f0?auto=format&fit=crop&w=200&q=80" alt="Cockapoo" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Cockapoo</span>
+                            <span class="mega-breed-subtext">Poodle x Cocker Spaniel</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Yorkiepoo')">
+                          <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=200&q=80" alt="Yorkiepoo" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Yorkiepoo</span>
+                            <span class="mega-breed-subtext">Poodle x Yorkshire Terrier</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Bernedoodle')">
+                          <img src="assets/breeds/Bernedoodle.webp" alt="Bernedoodle" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Bernedoodle</span>
+                            <span class="mega-breed-subtext">Poodle x Bernese Mountain Dog</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Aussiedoodle')">
+                          <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=200&q=80" alt="Aussiedoodle" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Aussiedoodle</span>
+                            <span class="mega-breed-subtext">Poodle x Australian Shepherd</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Bichonpoo')">
+                          <img src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?auto=format&fit=crop&w=200&q=80" alt="Bichonpoo" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Bichonpoo</span>
+                            <span class="mega-breed-subtext">Poodle x Bichon Frise</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Cavapoo')">
+                          <img src="assets/breeds/Cavapoo.webp" alt="Cavapoo" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Cavapoo</span>
+                            <span class="mega-breed-subtext">Poodle x Cavalier King Charles Spaniel</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Labradoodle')">
+                          <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=200&q=80" alt="Labradoodle" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Labradoodle</span>
+                            <span class="mega-breed-subtext">Poodle x Labrador Retriever</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-footer-link">
+                          <a href="browse-all-puppies.html">View all doodle breeds</a>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Maltipoo')">
+                          <img src="assets/breeds/Maltipoo.webp" alt="Maltipoo" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Maltipoo</span>
+                            <span class="mega-breed-subtext">Poodle x Maltese</span>
+                          </div>
+                        </div>
+
+                        <div class="mega-breed-item" onclick="filterByBreed('Havapoo')">
+                          <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=200&q=80" alt="Havapoo" class="mega-breed-thumb" />
+                          <div class="mega-breed-info">
+                            <span class="mega-breed-name">Havapoo</span>
+                            <span class="mega-breed-subtext">Poodle x Havanese</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mega-doodle-banner">
+                        A doodle is a mix between a Poodle and another purebred breed, blending traits from both. The exact percentage of each breed can vary, especially across different generations. No two are exactly alike.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
             <li><a href="index.html#reviews-section" class="nav-link">Reviews</a></li>
             <li><a href="index.html#ofa-section" class="nav-link">OFA Certification</a></li>
             <li><a href="index.html#delivery-section" class="nav-link">Delivery Process & Care</a></li>
@@ -591,6 +859,45 @@
       };
 
       document.getElementById('browseResetBtn').addEventListener('click', window.resetBrowseFilters);
+
+      // Mega Dropdown Tab Switcher
+      function initMegaDropdown() {
+        const tabItems = document.querySelectorAll('.mega-tab-item');
+        const panels = document.querySelectorAll('.mega-panel');
+
+        tabItems.forEach(tab => {
+          const activateTab = () => {
+            const targetTab = tab.getAttribute('data-tab');
+            
+            tabItems.forEach(t => t.classList.remove('active'));
+            panels.forEach(p => p.classList.remove('active'));
+
+            tab.classList.add('active');
+            const targetPanel = document.getElementById(`panel-${targetTab}`);
+            if (targetPanel) targetPanel.classList.add('active');
+          };
+
+          tab.addEventListener('mouseenter', activateTab);
+          tab.addEventListener('click', activateTab);
+        });
+      }
+
+      window.filterByBreed = function(breedName) {
+        const matched = fullBreedsSet.find(b => isBreedMatch(b, breedName));
+        if (matched) {
+          selectedBreedValue = matched;
+          const count = puppies.filter(p => isBreedMatch(p.breed, matched)).length;
+          customBreedLabel.textContent = `${matched} (${count})`;
+        } else {
+          selectedBreedValue = '';
+          customBreedLabel.textContent = `All Breeds (${fullBreedsSet.length})`;
+        }
+        currentPage = 1;
+        renderBrowseGrid();
+        renderBreedOptions();
+      };
+
+      initMegaDropdown();
 
       // Initial Render
       renderBrowseGrid();
