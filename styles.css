@@ -4210,15 +4210,48 @@ body .stepper-label {
 }
 
 /* 4. Responsive Circle Badge & SVG inside trust/guarantee banner */
+@media (max-width: 768px) {
+  body .pp__img-badge.pp__bg-gradient {
+    width: 300px !important;
+    height: 300px !important;
+    border-width: 5px !important;
+    padding: 1.5rem !important;
+  }
+  body .pp__svg {
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 0.35rem !important;
+  }
+  body .pp__img-badge span {
+    font-size: 1.1rem !important;
+    line-height: 1.2 !important;
+  }
+  body .pp__img-badge strong {
+    font-size: 1.6rem !important;
+    margin-top: 0.2rem !important;
+  }
+}
+
 @media (max-width: 480px) {
   body .pp__img-badge.pp__bg-gradient {
     width: 270px !important;
     height: 270px !important;
     border-width: 4px !important;
+    padding: 1.25rem !important;
   }
   body .pp__svg {
-    width: 90px !important;
-    height: 90px !important;
+    width: 85px !important;
+    height: 85px !important;
+    margin-bottom: 0.25rem !important;
+  }
+  body .pp__img-badge span {
+    font-size: 0.95rem !important;
+    line-height: 1.2 !important;
+  }
+  body .pp__img-badge strong {
+    font-size: 1.35rem !important;
+    margin-top: 0.15rem !important;
+    letter-spacing: 0.04em !important;
   }
 }
 
