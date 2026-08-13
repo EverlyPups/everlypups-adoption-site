@@ -1336,6 +1336,24 @@
       .summary-card-title {
         display: none !important;
       }
+
+      /* Compact mobile circle Back button & stretched Continue button */
+      .back-btn-text {
+        display: none !important;
+      }
+      .btn-secondary-link {
+        width: 52px !important;
+        height: 52px !important;
+        padding: 0 !important;
+        justify-content: center !important;
+        align-items: center !important;
+        display: inline-flex !important;
+        border-radius: 50% !important; /* Circle shape */
+        flex-shrink: 0 !important;
+      }
+      .btn-checkout-continue {
+        white-space: nowrap !important;
+      }
     }
   </style>
 </head>
@@ -1547,10 +1565,10 @@
 
             <!-- Buttons -->
             <div class="button-group-row">
-              <a href="apply.html" id="btnBackToDetails" class="btn-secondary-link">
-                <i class="fa-solid fa-arrow-left"></i> Back
+              <a href="apply.html" id="btnBackToDetails" class="btn-secondary-link" aria-label="Back">
+                <i class="fa-solid fa-arrow-left"></i><span class="back-btn-text"> Back</span>
               </a>
-              <button type="submit" id="btnContinue" class="btn-checkout-continue" disabled style="margin: 0 !important; flex: 1; height: 50px; font-weight: 800; display: flex; align-items: center; justify-content: center;">
+              <button type="submit" id="btnContinue" class="btn-checkout-continue" disabled style="margin: 0 !important; flex: 1; height: 52px; font-weight: 800; display: flex; align-items: center; justify-content: center;">
                 Continue to Payment <i class="fa-solid fa-arrow-right" style="margin-left: 0.5rem;"></i>
               </button>
             </div>
