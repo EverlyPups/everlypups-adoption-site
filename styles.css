@@ -2352,17 +2352,26 @@ img, video {
   .favorite-breeds-title { font-size: 2.2rem; }
   .ofa-headline { font-size: 1.85rem; }
 
-  /* Stack counter bar and push USDA vetted text to the right on mobile */
+  /* Keep counter bar side-by-side on same line with wrap alignments on mobile */
   .filter-counter-bar {
-    flex-direction: column !important;
-    align-items: stretch !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
     gap: 0.5rem !important;
     margin-bottom: 1.5rem !important;
   }
+  .results-count-label {
+    flex: 1 !important;
+    text-align: left !important;
+    font-size: 0.85rem !important;
+    line-height: 1.3 !important;
+  }
   .usda-vetted-label {
+    flex: 1 !important;
     text-align: right !important;
     display: block !important;
-    width: 100% !important;
+    font-size: 0.8rem !important;
+    line-height: 1.3 !important;
   }
 }
 
