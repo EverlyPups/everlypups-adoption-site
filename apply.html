@@ -1051,16 +1051,19 @@
         background: rgba(1, 43, 58, 0.5) !important; /* Backdrop color */
         backdrop-filter: blur(4px) !important;
         z-index: 2000 !important;
-        display: none !important;
+        display: flex !important;
         align-items: flex-end !important;
         justify-content: center !important;
         opacity: 0 !important;
-        transition: opacity 0.25s ease-out !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
+        transition: opacity 0.3s ease, visibility 0.3s ease !important;
       }
 
       .checkout-right-col.active {
-        display: flex !important;
         opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: auto !important;
       }
 
       /* Slide-up sheet wrapper */
@@ -1070,14 +1073,15 @@
         background: #FFFFFF !important;
         border-radius: 28px 28px 0 0 !important;
         box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.15) !important;
-        padding: 1.5rem 1.5rem 2.5rem 1.5rem !important;
-        max-height: 80vh !important;
+        padding: 1.5rem 1.5rem 3.5rem 1.5rem !important; /* Increased bottom padding */
+        max-height: 85vh !important; /* Increased height limit */
         overflow-y: auto !important;
         transform: translateY(100%) !important;
-        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+        transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
         position: relative !important;
         margin-bottom: 0 !important;
         border: none !important;
+        -webkit-overflow-scrolling: touch !important; /* Smooth inertial scrolling on iOS */
       }
 
       .checkout-right-col.active .summary-card {
