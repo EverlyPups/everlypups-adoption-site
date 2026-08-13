@@ -2328,7 +2328,24 @@ img, video {
 @media (max-width: 768px) {
   .nav-links { display: none; }
   .hero-headline { font-size: 2.25rem; }
-  .available-puppies-grid { grid-template-columns: 1fr; }
+  .available-puppies-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.25rem 0.75rem !important;
+  }
+  .available-puppy-media {
+    aspect-ratio: 1 / 1 !important;
+    border-radius: 16px !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .puppy-card-name-label {
+    font-size: 1.2rem !important;
+    margin: 0.05rem 0 0.15rem 0 !important;
+  }
+  .puppy-card-breed-label,
+  .puppy-card-specs-label,
+  .puppy-card-status-label {
+    font-size: 0.775rem !important;
+  }
   .standards-grid { grid-template-columns: 1fr; }
   .editorial-section { padding: 5rem 0; }
   .nav-container-box { padding: 0.5rem 1rem; }
