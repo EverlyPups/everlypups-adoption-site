@@ -337,7 +337,7 @@
         
         <div class="puppy-gallery-col">
           <div class="main-image-frame">
-            <img id="mainPuppyImage" src="" alt="Puppy Photo" class="main-puppy-img" />
+            <img id="mainPuppyImage" src="" alt="Puppy Photo" class="main-puppy-img" referrerpolicy="no-referrer" />
             <div id="puppyStatusBadge" class="gallery-status-badge">Ready to go home</div>
             <div class="gallery-social-proof">
               <i class="fa-solid fa-fire text-amber"></i> <span id="viewingCount">4 families are viewing</span>
@@ -669,6 +669,7 @@
           gallery.forEach((imgUrl, idx) => {
             const thumb = document.createElement('img');
             thumb.src = imgUrl;
+            thumb.setAttribute('referrerpolicy', 'no-referrer');
             thumb.className = 'thumb-img' + (idx === 0 ? ' active' : '');
             thumb.alt = (puppy.name || 'Puppy') + ' preview photo ' + (idx + 1);
             thumb.onclick = function() {
