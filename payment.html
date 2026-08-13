@@ -2734,7 +2734,7 @@
       s5.querySelector('.progress-indicator').innerHTML = '○';
     }
 
-    function setCryptoState(state) {
+        function setCryptoState(state) {
       currentCryptoState = state;
       
       const awaitingDiv = document.getElementById('cryptoAwaitingState');
@@ -2742,56 +2742,57 @@
       const confirmedDiv = document.getElementById('cryptoConfirmedState');
       const failedDiv = document.getElementById('cryptoFailedState');
       
-      awaitingDiv.style.display = 'none';
-      verificationDiv.style.display = 'none';
-      confirmedDiv.style.display = 'none';
+      if (awaitingDiv) awaitingDiv.style.display = 'none';
+      if (verificationDiv) verificationDiv.style.display = 'none';
+      if (confirmedDiv) confirmedDiv.style.display = 'none';
       if (failedDiv) failedDiv.style.display = 'none';
+
+      if (state === 'awaiting') {
+        if (awaitingDiv) awaitingDiv.style.display = 'block';
+      } else if (state === 'verification') {
+        if (verificationDiv) verificationDiv.style.display = 'block';
+      } else if (state === 'confirmed') {
+        if (confirmedDiv) confirmedDiv.style.display = 'block';
+      } else if (state === 'failed') {
+        if (failedDiv) failedDiv.style.display = 'block';
+      }
 
       const s3 = document.getElementById('step3'); // Awaiting Payment
       const s4 = document.getElementById('step4'); // Payment Verification
       const s5 = document.getElementById('step5'); // Delivery Scheduled
 
       if (s3 && s4 && s5) {
-
-      if (state === 'awaiting') {
-        awaitingDiv.style.display = 'block';
-        
-        s3.className = "progress-step active";
-        s3.querySelector('.progress-indicator').innerHTML = '●';
-        s4.className = "progress-step";
-        s4.querySelector('.progress-indicator').innerHTML = '○';
-        s5.className = "progress-step";
-        s5.querySelector('.progress-indicator').innerHTML = '○';
-      } else if (state === 'verification') {
-        verificationDiv.style.display = 'block';
-        
-        s3.className = "progress-step completed";
-        s3.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
-        s4.className = "progress-step active";
-        s4.querySelector('.progress-indicator').innerHTML = '●';
-        s5.className = "progress-step";
-        s5.querySelector('.progress-indicator').innerHTML = '○';
-      } else if (state === 'confirmed') {
-        confirmedDiv.style.display = 'block';
-        
-        s3.className = "progress-step completed";
-        s3.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
-        s4.className = "progress-step completed";
-        s4.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
-        s5.className = "progress-step active";
-        s5.querySelector('.progress-indicator').innerHTML = '●';
-      } else if (state === 'failed') {
-        if (failedDiv) failedDiv.style.display = 'block';
-        
-        s3.className = "progress-step completed";
-        s3.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
-        s4.className = "progress-step active";
-        s4.querySelector('.progress-indicator').innerHTML = '✕';
-        s5.className = "progress-step";
-        s5.querySelector('.progress-indicator').innerHTML = '○';
+        if (state === 'awaiting') {
+          s3.className = "progress-step active";
+          s3.querySelector('.progress-indicator').innerHTML = '●';
+          s4.className = "progress-step";
+          s4.querySelector('.progress-indicator').innerHTML = '○';
+          s5.className = "progress-step";
+          s5.querySelector('.progress-indicator').innerHTML = '○';
+        } else if (state === 'verification') {
+          s3.className = "progress-step completed";
+          s3.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
+          s4.className = "progress-step active";
+          s4.querySelector('.progress-indicator').innerHTML = '●';
+          s5.className = "progress-step";
+          s5.querySelector('.progress-indicator').innerHTML = '○';
+        } else if (state === 'confirmed') {
+          s3.className = "progress-step completed";
+          s3.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
+          s4.className = "progress-step completed";
+          s4.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
+          s5.className = "progress-step active";
+          s5.querySelector('.progress-indicator').innerHTML = '●';
+        } else if (state === 'failed') {
+          s3.className = "progress-step completed";
+          s3.querySelector('.progress-indicator').innerHTML = '<i class="fa-solid fa-check"></i>';
+          s4.className = "progress-step active";
+          s4.querySelector('.progress-indicator').innerHTML = '✕';
+          s5.className = "progress-step";
+          s5.querySelector('.progress-indicator').innerHTML = '○';
+        }
       }
     }
-}
 
     // Submit Action Simulation state machines
     function submitCryptoSent() {
