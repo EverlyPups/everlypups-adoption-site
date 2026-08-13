@@ -1354,6 +1354,30 @@
       .btn-checkout-continue {
         white-space: nowrap !important;
       }
+
+      /* Sticky Bottom Action Bar for Mobile */
+      .button-group-row {
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        background: #FFFFFF !important;
+        border-top: 1px solid #E2E8F0 !important;
+        padding: 0.85rem 1.25rem !important;
+        margin-top: 0 !important;
+        z-index: 1000 !important;
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 0.75rem !important;
+        box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08) !important;
+        box-sizing: border-box !important;
+        padding-bottom: calc(0.85rem + env(safe-area-inset-bottom, 0px)) !important;
+      }
+
+      /* Add safety padding to the form container to avoid sticky bar occlusion */
+      .checkout-form-card {
+        padding-bottom: 7.5rem !important;
+      }
     }
   </style>
 </head>
