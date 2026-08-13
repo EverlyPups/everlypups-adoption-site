@@ -680,8 +680,8 @@
       const header = document.getElementById('contactFormHeader');
       const successBanner = document.getElementById('contactSuccessBanner');
       
-      if (form) form.style.display = 'none';
-      if (header) header.style.display = 'none';
+      if (form) form.classList.add('hidden');
+      if (header) header.classList.add('hidden');
       
       if (successBanner) {
         successBanner.style.display = 'flex';
