@@ -1574,7 +1574,7 @@
               <i class="fa-solid fa-coins"></i>
             </div>
             <div class="selector-card-info">
-              <div class="selector-card-title">Cryptocurrency</div>
+              <div class="selector-card-title">Crypto</div>
               <div class="selector-card-desc">Pay securely using cryptocurrency.</div>
             </div>
             <div class="selector-card-radio"></div>
@@ -2431,7 +2431,7 @@
       // Initial selectPaymentMethod sets the payment method
       if (typeof selectedMethod !== 'undefined' && selectedMethod) {
         let methodLabel = "";
-        if (selectedMethod === 'crypto') methodLabel = 'Cryptocurrency';
+        if (selectedMethod === 'crypto') methodLabel = 'Crypto';
         else if (selectedMethod === 'zelle') methodLabel = 'Zelle Transfer';
         else if (selectedMethod === 'bank') methodLabel = 'Bank Transfer';
         if (summaryDetailPayment) summaryDetailPayment.textContent = methodLabel;
@@ -2710,7 +2710,7 @@
       const paymentVal = document.getElementById('summaryDetailPayment');
       if (paymentVal) {
         if (method === 'crypto') {
-          paymentVal.textContent = 'Cryptocurrency';
+          paymentVal.textContent = 'Crypto';
         } else if (method === 'zelle') {
           paymentVal.textContent = 'Zelle Transfer';
         } else if (method === 'bank') {
