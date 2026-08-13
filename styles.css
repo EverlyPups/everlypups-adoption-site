@@ -3698,8 +3698,24 @@ img, video {
     grid-template-columns: 1fr !important;
     gap: 2.5rem !important;
   }
-  .main-image-frame {
-    height: 360px !important;
+  .puppy-gallery-col {
+    width: 100% !important;
+    max-width: 100% !important;
+    align-items: center !important;
+  }
+  .main-image-frame,
+  .main-image-card {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1 !important;
+    max-width: 500px !important;
+    margin: 0 auto !important;
+  }
+  .main-puppy-img,
+  .main-puppy-image {
+    width: 100% !important;
+    height: 100% !important;
+    aspect-ratio: 1 / 1 !important;
   }
   .puppy-specs-grid {
     grid-template-columns: repeat(2, 1fr) !important;
@@ -4514,4 +4530,31 @@ body .stepper-label {
 /* Global Hidden Helper Utility */
 .hidden {
   display: none !important;
+}
+
+/* 16. Puppy Details Page Mobile Optimization */
+@media (max-width: 576px) {
+  body .detail-puppy-name {
+    font-size: 2.25rem !important;
+  }
+  body .detail-price-box {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    text-align: center !important;
+    gap: 1.25rem !important;
+    padding: 1.5rem 1.25rem !important;
+  }
+  body .price-guarantee-note {
+    justify-content: center !important;
+    text-align: center !important;
+    margin-top: 0.35rem !important;
+  }
+  body .btn-reserve-hero {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+  body .detail-story-card,
+  body .detail-included-card {
+    padding: 1.5rem 1.25rem !important;
+  }
 }
