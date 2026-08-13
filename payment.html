@@ -1544,14 +1544,14 @@
       <section class="method-selector">
         <div class="payment-method-selector">
           
-          <!-- Selector: Crypto -->
-          <div class="selector-card active" id="cardCryptoSelector" onclick="selectPaymentMethod('crypto')">
+          <!-- Selector: Bank Transfer -->
+          <div class="selector-card active" id="cardBankSelector" onclick="selectPaymentMethod('bank')">
             <div class="selector-card-icon">
-              <i class="fa-solid fa-coins"></i>
+              <i class="fa-solid fa-building-columns"></i>
             </div>
             <div class="selector-card-info">
-              <div class="selector-card-title">Cryptocurrency</div>
-              <div class="selector-card-desc">Pay securely using cryptocurrency.</div>
+              <div class="selector-card-title">Bank Transfer</div>
+              <div class="selector-card-desc">Pay using domestic or international bank transfer.</div>
             </div>
             <div class="selector-card-radio"></div>
           </div>
@@ -1568,14 +1568,14 @@
             <div class="selector-card-radio"></div>
           </div>
 
-          <!-- Selector: Bank Transfer -->
-          <div class="selector-card" id="cardBankSelector" onclick="selectPaymentMethod('bank')">
+          <!-- Selector: Crypto -->
+          <div class="selector-card" id="cardCryptoSelector" onclick="selectPaymentMethod('crypto')">
             <div class="selector-card-icon">
-              <i class="fa-solid fa-building-columns"></i>
+              <i class="fa-solid fa-coins"></i>
             </div>
             <div class="selector-card-info">
-              <div class="selector-card-title">Bank Transfer</div>
-              <div class="selector-card-desc">Pay using domestic or international bank transfer.</div>
+              <div class="selector-card-title">Cryptocurrency</div>
+              <div class="selector-card-desc">Pay securely using cryptocurrency.</div>
             </div>
             <div class="selector-card-radio"></div>
           </div>
@@ -1587,7 +1587,7 @@
       <section class="active-method-container">
         
         <!-- Cryptocurrency state -->
-        <div class="method-detail-card" id="activeCrypto" style="display: block;">
+        <div class="method-detail-card" id="activeCrypto" style="display: none;">
           
           <!-- State 1: Awaiting Payment -->
           <div id="cryptoAwaitingState" style="display: block;">
@@ -1929,7 +1929,7 @@
         </div>
 
         <!-- Bank Transfer state -->
-        <div class="method-detail-card" id="activeBank" style="display: none;">
+        <div class="method-detail-card" id="activeBank" style="display: block;">
           <!-- State 1: Awaiting Instructions -->
           <div id="bankAwaitingState" style="display: block;">
             <div class="card-header">Bank Transfer</div>
@@ -2094,7 +2094,7 @@
             </div>
             <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-family: 'Inter', sans-serif;">
               <span style="color: var(--text-muted); font-weight: 500;">Payment</span>
-              <span id="summaryDetailPayment" style="color: #1E293B; font-weight: 600;">Not selected</span>
+              <span id="summaryDetailPayment" style="color: #1E293B; font-weight: 600;">Bank Transfer</span>
             </div>
           </div>
 
@@ -2324,7 +2324,7 @@
   <script src="data/siteData.js?v=1719"></script>
   <script>
     let activePuppy = null;
-    let selectedMethod = 'crypto';
+    let selectedMethod = 'bank';
     let currentCryptoState = 'awaiting'; // awaiting, verification, confirmed
 
     document.addEventListener('DOMContentLoaded', () => {
