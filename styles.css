@@ -2351,6 +2351,19 @@ img, video {
   .nav-container-box { padding: 0.5rem 1rem; }
   .favorite-breeds-title { font-size: 2.2rem; }
   .ofa-headline { font-size: 1.85rem; }
+
+  /* Stack counter bar and push USDA vetted text to the right on mobile */
+  .filter-counter-bar {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .usda-vetted-label {
+    text-align: right !important;
+    display: block !important;
+    width: 100% !important;
+  }
 }
 
 /* --------------------------------------------------------------------------
