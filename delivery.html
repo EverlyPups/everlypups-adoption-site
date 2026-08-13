@@ -888,11 +888,7 @@
         grid-template-columns: 1fr !important;
         gap: 1.5rem !important;
       }
-      .summary-card {
-        order: -1 !important; /* Move summary above form on mobile */
-        position: static !important;
-        margin-bottom: 0.5rem !important;
-      }
+      /* Summary card layout is handled below in bottom-sheet configurations */
       .checkout-form-card {
         padding: 1.75rem 1.25rem !important;
       }
@@ -1197,6 +1193,166 @@
       margin-top: 1.5rem !important;
     }
 
+    /* Hide mobile summary components by default on desktop */
+    .mobile-summary-toggle-bar {
+      display: none !important;
+    }
+    .summary-card-mobile-header {
+      display: none !important;
+    }
+
+    @media (max-width: 48em) {
+      /* Mobile Summary Toggle Bar Styling */
+      .mobile-summary-toggle-bar {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        background: #F0FDF4 !important; /* Soft green theme background */
+        border: 1px solid #DCFCE7 !important;
+        border-radius: 14px !important;
+        padding: 0.95rem 1.25rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 0.5rem !important;
+        cursor: pointer !important;
+        transition: all 0.2s ease !important;
+        box-shadow: 0 4px 12px rgba(0, 182, 122, 0.06) !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+      }
+      .mobile-summary-toggle-bar:hover {
+        background: #DCFCE7 !important;
+      }
+      .toggle-left {
+        display: flex !important;
+        align-items: center !important;
+        gap: 0.5rem !important;
+        font-family: 'Nunito', sans-serif !important;
+        font-size: 0.95rem !important;
+        font-weight: 800 !important;
+        color: #00B67A !important;
+      }
+      .toggle-left i {
+        font-size: 1.1rem !important;
+      }
+      .toggle-right {
+        display: flex !important;
+        align-items: center !important;
+        gap: 0.6rem !important;
+        font-family: 'Outfit', sans-serif !important;
+        color: #012B3A !important;
+      }
+      .toggle-right strong {
+        font-size: 1.1rem !important;
+        font-weight: 800 !important;
+      }
+      .toggle-right i {
+        font-size: 0.85rem !important;
+        color: #00B67A !important;
+        transition: transform 0.2s ease !important;
+      }
+
+      /* Transform order-summary column into Overlay bottom sheet modal on mobile */
+      .order-summary {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        background: rgba(1, 43, 58, 0.5) !important; /* Backdrop color */
+        backdrop-filter: blur(4px) !important;
+        z-index: 2000 !important;
+        display: flex !important;
+        align-items: flex-end !important;
+        justify-content: center !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
+        transition: opacity 0.3s ease, visibility 0.3s ease !important;
+      }
+
+      .order-summary.active {
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: auto !important;
+      }
+
+      /* Slide-up sheet wrapper */
+      .summary-card {
+        width: 100% !important;
+        max-width: 480px !important; /* Cap width for larger mobile phones/tablets */
+        background: #FFFFFF !important;
+        border-radius: 28px 28px 0 0 !important;
+        box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.15) !important;
+        padding: 1.5rem 1.5rem 5.5rem 1.5rem !important; /* Generous breathing space at bottom */
+        max-height: 85vh !important; /* Increased height limit */
+        overflow-y: auto !important;
+        transform: translateY(100%) !important;
+        transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+        position: relative !important;
+        margin-bottom: 0 !important;
+        border: none !important;
+        -webkit-overflow-scrolling: touch !important; /* Smooth inertial scrolling on iOS */
+      }
+
+      .order-summary.active .summary-card {
+        transform: translateY(0) !important;
+      }
+
+      /* Mobile-only Header styling */
+      .summary-card-mobile-header {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        margin-bottom: 1.25rem !important;
+        padding-bottom: 0.75rem !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+      }
+      .summary-card-mobile-header h3 {
+        font-family: 'Outfit', sans-serif !important;
+        font-size: 1.35rem !important;
+        font-weight: 800 !important;
+        color: #012B3A !important;
+        margin: 0 !important;
+      }
+      .btn-close-summary {
+        background: #F4F4F5 !important;
+        border: none !important;
+        width: 32px !important;
+        height: 32px !important;
+        border-radius: 50% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        cursor: pointer !important;
+        color: #71717A !important;
+        font-size: 0.95rem !important;
+        transition: all 0.2s ease !important;
+      }
+      .btn-close-summary:hover {
+        background: #E4E4E7 !important;
+        color: #18181B !important;
+      }
+
+      /* Hide standard desktop header on mobile */
+      .summary-card-title {
+        display: none !important;
+      }
+
+      /* Stack checkout buttons vertically on mobile to prevent text wrapping */
+      .button-group-row {
+        flex-direction: column-reverse !important;
+        align-items: stretch !important;
+        gap: 0.75rem !important;
+      }
+      .btn-secondary-link {
+        width: 100% !important;
+        justify-content: center !important;
+        display: flex !important;
+      }
+      .btn-checkout-continue {
+        white-space: nowrap !important;
+      }
+    }
   </style>
 </head>
 <body class="apply-page-body">
@@ -1279,6 +1435,18 @@
         <div class="welcome-card">
           <img id="welcomePuppyPhoto" src="" alt="Selected Puppy" class="welcome-puppy-img" />
           <h2 class="welcome-title">Let's arrange <strong id="welcomePuppyName">Finn</strong>'s homecoming!</h2>
+          
+          <!-- Mobile Summary Toggle Bar -->
+          <div class="mobile-summary-toggle-bar" onclick="openMobileSummary()">
+            <span class="toggle-left">
+              <i class="fa-solid fa-receipt"></i>
+              <span>Show Summary</span>
+            </span>
+            <span class="toggle-right">
+              <strong id="mobileSummaryAmount">$0.00</strong>
+              <i class="fa-solid fa-chevron-up"></i>
+            </span>
+          </div>
         </div>
 
         <!-- Form Fields Card -->
@@ -1408,8 +1576,17 @@
       </div>
 
       <!-- RIGHT COLUMN: Order Summary (Spans on right on desktop) -->
-      <aside class="order-summary">
-        <div class="summary-card">
+      <aside class="order-summary" id="checkoutSidebar" onclick="closeMobileSummary()">
+        <div class="summary-card" onclick="event.stopPropagation()">
+          
+          <!-- Mobile-only Header with Close toggle -->
+          <div class="summary-card-mobile-header">
+            <h3>Summary</h3>
+            <button type="button" class="btn-close-summary" onclick="closeMobileSummary()" aria-label="Close Summary">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+
           <h2 class="summary-card-title">Summary</h2>
           
           <div class="summary-card-body">
@@ -1543,6 +1720,12 @@
         document.getElementById('summaryBreederName').textContent = activePuppy.breeder || 'USDA Certified Breeder';
         document.getElementById('pricingBringHomeFee').textContent = priceStr;
         document.getElementById('pricingTotal').textContent = priceStr;
+        
+        // Mobile summary amount
+        const mobileSummaryAmount = document.getElementById('mobileSummaryAmount');
+        if (mobileSummaryAmount) {
+          mobileSummaryAmount.textContent = priceStr;
+        }
         
         mainLayout.style.display = 'grid';
       }
@@ -1732,6 +1915,22 @@
         } catch (e) {
           console.error("Error restoring checkout delivery details", e);
         }
+      }
+    }
+
+    function openMobileSummary() {
+      const sidebar = document.getElementById('checkoutSidebar');
+      if (sidebar) {
+        sidebar.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeMobileSummary() {
+      const sidebar = document.getElementById('checkoutSidebar');
+      if (sidebar) {
+        sidebar.classList.remove('active');
+        document.body.style.overflow = '';
       }
     }
   </script>
