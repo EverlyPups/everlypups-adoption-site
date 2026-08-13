@@ -4340,6 +4340,9 @@ body .stepper-label {
 
 /* 9. Puppy Details Page - Image Aspect Ratio and Thumbnail row on Mobile */
 @media (max-width: 768px) {
+  body .detail-breadcrumb {
+    display: none !important;
+  }
   body .main-image-frame,
   body .main-image-card {
     height: auto !important;
