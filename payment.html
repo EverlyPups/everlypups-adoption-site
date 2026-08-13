@@ -2035,39 +2035,7 @@
 
       </section>
 
-      <!-- 2.4 PAYMENT PROGRESS -->
-      <section class="payment-progress">
-        <div class="compact-progress-tracker">
-          <div class="progress-step completed" id="step1">
-            <span class="progress-indicator"><i class="fa-solid fa-check"></i></span>
-            <span class="progress-text">Adoption Approved</span>
-          </div>
-          <div class="progress-arrow"><i class="fa-solid fa-chevron-right"></i></div>
-          
-          <div class="progress-step completed" id="step2">
-            <span class="progress-indicator"><i class="fa-solid fa-check"></i></span>
-            <span class="progress-text">Invoice Sent</span>
-          </div>
-          <div class="progress-arrow"><i class="fa-solid fa-chevron-right"></i></div>
-          
-          <div class="progress-step active" id="step3">
-            <span class="progress-indicator">●</span>
-            <span class="progress-text">Awaiting Payment</span>
-          </div>
-          <div class="progress-arrow"><i class="fa-solid fa-chevron-right"></i></div>
-          
-          <div class="progress-step" id="step4">
-            <span class="progress-indicator">○</span>
-            <span class="progress-text">Payment Verification</span>
-          </div>
-          <div class="progress-arrow"><i class="fa-solid fa-chevron-right"></i></div>
-          
-          <div class="progress-step" id="step5">
-            <span class="progress-indicator">○</span>
-            <span class="progress-text">Delivery Scheduled</span>
-          </div>
-        </div>
-      </section>
+      
 
       <!-- 2.5 STICKY ORDER SUMMARY (Spans on right on desktop) -->
       <aside class="order-summary">
@@ -2744,6 +2712,7 @@
       const s3 = document.getElementById('step3');
       const s4 = document.getElementById('step4');
       const s5 = document.getElementById('step5');
+      if (!s3 || !s4 || !s5) return;
       
       s3.className = "progress-step active";
       s3.querySelector('.progress-indicator').innerHTML = '●';
@@ -2769,6 +2738,8 @@
       const s3 = document.getElementById('step3'); // Awaiting Payment
       const s4 = document.getElementById('step4'); // Payment Verification
       const s5 = document.getElementById('step5'); // Delivery Scheduled
+
+      if (s3 && s4 && s5) {
 
       if (state === 'awaiting') {
         awaitingDiv.style.display = 'block';
@@ -2808,6 +2779,7 @@
         s5.querySelector('.progress-indicator').innerHTML = '○';
       }
     }
+}
 
     // Submit Action Simulation state machines
     function submitCryptoSent() {
