@@ -538,44 +538,19 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.5 lbs",
       "estAdultWeight": "18 - 30 lbs",
-      "price": 3092,
+      "price": 1850,
       "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/7/listing/824677/photo/505042776_medium.jpg",
+      "image": "images/puppies/beagle/scout-1.jpg",
       "gallery": [
-        "https://photos.puppyspot.com/7/listing/824677/photo/505042776_medium.jpg",
-        "https://photos.puppyspot.com/7/listing/824677/photo/505042783_medium.jpg",
-        "https://photos.puppyspot.com/7/listing/824677/photo/505042780_medium.jpg",
-        "https://photos.puppyspot.com/7/listing/824677/photo/505042781_medium.jpg"
+        "images/puppies/beagle/scout-1.jpg",
+        "images/puppies/beagle/scout-2.jpg",
+        "images/puppies/beagle/scout-3.jpg",
+        "images/puppies/beagle/scout-4.jpg"
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
       "microchip": "98514100824677",
       "description": "Meet Scout! Scout is an exceptionally handsome Male Beagle puppy with a rich Black, Tan & White coat, soft soulful eyes, and iconic velvety floppy ears. Raised with love and utmost care by a USDA Licensed Star Breeder with champion bloodlines, Scout is energetic, curious, and loves nose-to-ground exploring as well as cozy lap cuddles. He comes 100% vet-checked, microchipped, fully vaccinated, and backed by our signature 10-Year Health Guarantee!"
-    },
-    {
-      "id": 824597,
-      "name": "Finn",
-      "breed": "Beagle",
-      "breedGroup": "Hound",
-      "gender": "Male",
-      "age": "6 weeks",
-      "color": "Tri-Color Classic",
-      "status": "Ready to go home",
-      "weight": "3.8 lbs",
-      "estAdultWeight": "18 - 28 lbs",
-      "price": 2890,
-      "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/7/listing/824597/photo/505045813_medium.jpg",
-      "gallery": [
-        "https://photos.puppyspot.com/7/listing/824597/photo/505045813_medium.jpg",
-        "https://photos.puppyspot.com/7/listing/824597/photo/505045812_medium.jpg",
-        "https://photos.puppyspot.com/7/listing/824597/photo/505045818_medium.jpg",
-        "https://photos.puppyspot.com/7/listing/824597/photo/505045819_medium.jpg"
-      ],
-      "location": "Columbus, OH",
-      "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "microchip": "98514100824597",
-      "description": "Meet Finn! Finn is a charming, playful Male Beagle puppy with striking tri-color markings, deep brown expressive eyes, and soft velvety ears. Raised in a loving home environment by a licensed USDA Star Breeder, Finn is energetic, sweet-natured, and loves cuddles after a fun game of chase. Vet-checked, microchipped, fully vaccinated, and backed by a 10-Year Health Guarantee!"
     },
     {
       "id": 816975,
@@ -588,7 +563,7 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.2 lbs",
       "estAdultWeight": "20 - 30 lbs",
-      "price": 1500,
+      "price": 1800,
       "hypoallergenic": false,
       "image": "images/puppies/barnaby/barnaby-real-1.jpg",
       "gallery": [
@@ -614,14 +589,14 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.4 lbs",
       "estAdultWeight": "18 - 30 lbs",
-      "price": 3092,
+      "price": 1950,
       "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/6/listing/824676/photo/505042785_medium.jpg",
+      "image": "images/puppies/beagle/rusty-1.jpg",
       "gallery": [
-        "https://photos.puppyspot.com/6/listing/824676/photo/505042785_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/824676/photo/505042779_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/824676/photo/505042784_medium.jpg",
-        "https://photos.puppyspot.com/6/listing/824676/photo/505042782_medium.jpg"
+        "images/puppies/beagle/rusty-1.jpg",
+        "images/puppies/beagle/rusty-2.jpg",
+        "images/puppies/beagle/rusty-3.jpg",
+        "images/puppies/beagle/rusty-4.jpg"
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
@@ -639,44 +614,19 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "3.6 lbs",
       "estAdultWeight": "18 - 28 lbs",
-      "price": 3092,
+      "price": 1880,
       "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/9/listing/824599/photo/505046059_medium.jpg",
+      "image": "images/puppies/beagle/clover-1.jpg",
       "gallery": [
-        "https://photos.puppyspot.com/9/listing/824599/photo/505046059_medium.jpg",
-        "https://photos.puppyspot.com/9/listing/824599/photo/505046057_medium.jpg",
-        "https://photos.puppyspot.com/9/listing/824599/photo/505046056_medium.jpg",
-        "https://photos.puppyspot.com/9/listing/824599/photo/505046058_medium.jpg"
+        "images/puppies/beagle/clover-1.jpg",
+        "images/puppies/beagle/clover-2.jpg",
+        "images/puppies/beagle/clover-3.jpg",
+        "images/puppies/beagle/clover-4.jpg"
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
       "microchip": "98514100824599",
       "description": "Meet Clover! Clover is an adorable Female Beagle puppy with a gorgeous Black, Tan & White coat, expressive eyes, and classic velvety floppy ears. Born from champion bloodlines and raised with care by a USDA Licensed Star Breeder, Clover is sweet, gentle, and loves cuddling up after playful outdoor explorations. Clover is 100% vet-checked, microchipped, up-to-date on vaccinations, and comes with our signature 10-Year Health Guarantee!"
-    },
-    {
-      "id": 824635,
-      "name": "Penny",
-      "breed": "Beagle",
-      "breedGroup": "Hound",
-      "gender": "Female",
-      "age": "6 weeks",
-      "color": "Black, Tan & White",
-      "status": "Ready to go home",
-      "weight": "3.5 lbs",
-      "estAdultWeight": "18 - 28 lbs",
-      "price": 3092,
-      "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/5/listing/824635/photo/505042775_medium.jpg",
-      "gallery": [
-        "https://photos.puppyspot.com/5/listing/824635/photo/505042775_medium.jpg",
-        "https://photos.puppyspot.com/5/listing/824635/photo/505042774_medium.jpg",
-        "https://photos.puppyspot.com/5/listing/824635/photo/505042772_medium.jpg",
-        "https://photos.puppyspot.com/5/listing/824635/photo/505042773_medium.jpg"
-      ],
-      "location": "Columbus, OH",
-      "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
-      "microchip": "98514100824635",
-      "description": "Meet Penny! Penny is an adorable Female Beagle puppy with a rich Black, Tan & White coat, soft soulful eyes, and iconic velvety floppy ears. Raised with love and utmost care by a USDA Licensed Star Breeder with champion bloodlines, Penny is playful, inquisitive, and loves cuddle sessions after energetic garden explorations. She comes 100% vet-checked, microchipped, fully vaccinated, and backed by our signature 10-Year Health Guarantee!"
     },
     {
       "id": 824598,
@@ -689,14 +639,14 @@ const SITE_DATA = {
       "status": "Ready to go home",
       "weight": "4.1 lbs",
       "estAdultWeight": "18 - 30 lbs",
-      "price": 3092,
+      "price": 1920,
       "hypoallergenic": false,
-      "image": "https://photos.puppyspot.com/8/listing/824598/photo/505014882_medium.jpg",
+      "image": "images/puppies/beagle/dolly-1.jpg",
       "gallery": [
-        "https://photos.puppyspot.com/8/listing/824598/photo/505014882_medium.jpg",
-        "https://photos.puppyspot.com/8/listing/824598/photo/505019269_medium.jpg",
-        "https://photos.puppyspot.com/8/listing/824598/photo/505014888_medium.jpg",
-        "https://photos.puppyspot.com/8/listing/824598/photo/505014886_medium.jpg"
+        "images/puppies/beagle/dolly-1.jpg",
+        "images/puppies/beagle/dolly-2.jpg",
+        "images/puppies/beagle/dolly-3.jpg",
+        "images/puppies/beagle/dolly-4.jpg"
       ],
       "location": "Columbus, OH",
       "breeder": "USDA Certified Star Breeder (Champion Bloodline)",
@@ -7047,3 +6997,7 @@ const SITE_DATA = {
     }
   ]
 };
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = SITE_DATA;
+}
