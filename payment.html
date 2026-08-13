@@ -1429,6 +1429,30 @@
         color: #1E293B !important;
         border-color: #CBD5E0 !important;
       }
+
+      /* Center/stretch modal buttons on mobile to prevent excessive whitespace on the left */
+      .modal-footer {
+        display: flex !important;
+        justify-content: space-between !important;
+        gap: 0.65rem !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+      }
+      .modal-footer .btn-secondary-action,
+      .modal-footer .btn-primary-action {
+        flex: 1 !important;
+        width: 50% !important;
+        min-width: 0 !important;
+        text-align: center !important;
+        justify-content: center !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        padding: 0 0.5rem !important;
+        box-sizing: border-box !important;
+        white-space: nowrap !important;
+        font-size: 0.775rem !important;
+        height: 46px !important;
+      }
     }
   </style>
 </head>
