@@ -1455,14 +1455,6 @@
       }
     }
   
-    .payment-process-subtitle {
-      color: #64748B !important;
-      font-family: 'Inter', sans-serif !important;
-      font-size: 0.875rem !important;
-      margin-top: 0.25rem !important;
-      margin-bottom: 1.25rem !important;
-      line-height: 1.45 !important;
-    }
     .payment-protection-box {
       background-color: #F8FAFC !important;
       border: 1px solid #E2E8F0 !important;
@@ -1600,40 +1592,6 @@
           <!-- State 1: Awaiting Payment -->
           <div id="cryptoAwaitingState" style="display: block;">
             <div class="card-header">Crypto Payment</div>
-
-            <div class="how-it-works-title">Your Payment Process</div>
-            <div class="payment-process-subtitle">Here’s exactly what happens after your adoption is approved.</div>
-
-            <div class="steps-flow" style="margin-bottom: 1.5rem;">
-              <div class="step-flow-item">
-                <div class="step-flow-num">01</div>
-                <div class="step-flow-text">
-                  <div class="step-flow-heading">Receive Your Invoice</div>
-                  <div class="step-flow-desc">Your invoice will be sent to your email with your puppy details, total amount due, and payment instructions.</div>
-                </div>
-              </div>
-              <div class="step-flow-item">
-                <div class="step-flow-num">02</div>
-                <div class="step-flow-text">
-                  <div class="step-flow-heading">Review &amp; Complete Payment</div>
-                  <div class="step-flow-desc">Review your invoice carefully and send the exact amount to the crypto wallet shown in your invoice.</div>
-                </div>
-              </div>
-              <div class="step-flow-item">
-                <div class="step-flow-num">03</div>
-                <div class="step-flow-text">
-                  <div class="step-flow-heading">Submit Your Payment Receipt</div>
-                  <div class="step-flow-desc">After payment, upload your receipt and transaction details through EverlyPups so our team can verify your payment.</div>
-                </div>
-              </div>
-              <div class="step-flow-item">
-                <div class="step-flow-num">04</div>
-                <div class="step-flow-text">
-                  <div class="step-flow-heading">Payment Confirmed</div>
-                  <div class="step-flow-desc">Our team will verify your payment and confirm your order before your delivery is scheduled.</div>
-                </div>
-              </div>
-            </div>
             
             <div class="crypto-amount-row">
               <span class="amount-label">Amount Due</span>
@@ -1689,26 +1647,6 @@
               <button class="crypto-action-btn highlight-btn" onclick="openQrModal()">
                 <i class="fa-solid fa-qrcode"></i> View QR Code
               </button>
-            </div>
-
-                        <div class="info-alert-card" style="margin-top: 1.25rem;">
-              <i class="fa-solid fa-circle-info info-alert-icon-blue"></i>
-              <div class="info-alert-text">
-                <strong>Your Payment Instructions</strong><br/>
-                Your invoice contains the payment details needed to complete your order. Review the invoice before sending payment.
-              </div>
-            </div>
-
-            <div class="payment-protection-box">
-              <div class="protection-box-title">
-                <i class="fa-solid fa-shield-halved"></i> Payment Protection &amp; Verification
-              </div>
-              <ul class="protection-list">
-                <li><i class="fa-solid fa-circle-check protection-check"></i> Invoice provided before payment</li>
-                <li><i class="fa-solid fa-circle-check protection-check"></i> Exact amount shown on your invoice</li>
-                <li><i class="fa-solid fa-circle-check protection-check"></i> Payment receipt submitted for verification</li>
-                <li><i class="fa-solid fa-circle-check protection-check"></i> Order confirmed after payment verification</li>
-              </ul>
             </div>
 
             <button class="btn-primary-action" id="btnSentCrypto" onclick="submitCryptoSent()">
@@ -1889,36 +1827,34 @@
               <span class="amount-value" id="zelleAmountUsd">$2,497.00</span>
             </div>
 
-            <div class="how-it-works-title">Your Payment Process</div>
-            <div class="payment-process-subtitle">Here’s exactly what happens after your adoption is approved.</div>
-            
+            <div class="how-it-works-title">How it works</div>
             <div class="steps-flow">
               <div class="step-flow-item">
                 <div class="step-flow-num">01</div>
                 <div class="step-flow-text">
-                  <div class="step-flow-heading">Receive Your Invoice</div>
-                  <div class="step-flow-desc">Your invoice will be sent to your email with your puppy details, total amount due, and payment instructions.</div>
+                  <div class="step-flow-heading">Receive your invoice</div>
+                  <div class="step-flow-desc">Your invoice and Zelle payment instructions will be sent to your email.</div>
                 </div>
               </div>
               <div class="step-flow-item">
                 <div class="step-flow-num">02</div>
                 <div class="step-flow-text">
-                  <div class="step-flow-heading">Review &amp; Complete Payment</div>
-                  <div class="step-flow-desc">Review your invoice carefully and send the exact amount using the payment instructions provided.</div>
+                  <div class="step-flow-heading">Complete payment</div>
+                  <div class="step-flow-desc">Use the payment information provided in your invoice.</div>
                 </div>
               </div>
               <div class="step-flow-item">
                 <div class="step-flow-num">03</div>
                 <div class="step-flow-text">
-                  <div class="step-flow-heading">Submit Your Payment Receipt</div>
-                  <div class="step-flow-desc">After payment, upload your receipt and transaction details through EverlyPups so our team can verify your payment.</div>
+                  <div class="step-flow-heading">Send your receipt</div>
+                  <div class="step-flow-desc">Forward your Zelle payment receipt to our support email.</div>
                 </div>
               </div>
               <div class="step-flow-item">
                 <div class="step-flow-num">04</div>
                 <div class="step-flow-text">
-                  <div class="step-flow-heading">Payment Confirmed</div>
-                  <div class="step-flow-desc">Our team will verify your payment and confirm your order before your delivery is scheduled.</div>
+                  <div class="step-flow-heading">Payment verification</div>
+                  <div class="step-flow-desc">Our team will verify your payment before delivery is scheduled.</div>
                 </div>
               </div>
             </div>
@@ -1944,7 +1880,7 @@
             </div>
 
             <button class="btn-primary-action" id="btnSentZelle" onclick="submitZelleSent()">
-              View Payment Instructions
+              Send Zelle Instructions
             </button>
           </div>
 
@@ -1963,16 +1899,12 @@
               
               <hr class="confirmed-divider" />
               
-              <p class="sent-instruction-body">After completing your payment, upload your receipt and transaction details through EverlyPups for verification.</p>
+              <p class="sent-instruction-body">After completing your payment, forward your receipt to our support email for verification.</p>
               
               <div class="sent-status-badge-row">
                 <span class="sent-status-lbl">Status:</span>
                 <span class="sent-status-badge">Awaiting Payment</span>
               </div>
-
-              <button class="btn-primary-action" onclick="openReceiptModal()" style="margin-top: 1.25rem;">
-                <i class="fa-solid fa-upload"></i> Upload Payment Receipt
-              </button>
             </div>
           </div>
         </div>
@@ -1993,36 +1925,34 @@
               <span class="bank-label-tag">International Wire Transfer</span>
             </div>
 
-            <div class="how-it-works-title">Your Payment Process</div>
-            <div class="payment-process-subtitle">Here’s exactly what happens after your adoption is approved.</div>
-            
+            <div class="how-it-works-title">How it works</div>
             <div class="steps-flow">
               <div class="step-flow-item">
                 <div class="step-flow-num">01</div>
                 <div class="step-flow-text">
-                  <div class="step-flow-heading">Receive Your Invoice</div>
-                  <div class="step-flow-desc">Your invoice will be sent to your email with your puppy details, total amount due, and payment instructions.</div>
+                  <div class="step-flow-heading">Receive your invoice</div>
+                  <div class="step-flow-desc">Your invoice and bank account details will be sent to your email.</div>
                 </div>
               </div>
               <div class="step-flow-item">
                 <div class="step-flow-num">02</div>
                 <div class="step-flow-text">
-                  <div class="step-flow-heading">Review &amp; Complete Payment</div>
-                  <div class="step-flow-desc">Review your invoice carefully and send the exact amount using the bank details shown in your invoice.</div>
+                  <div class="step-flow-heading">Complete the transfer</div>
+                  <div class="step-flow-desc">Use the account details provided in your invoice.</div>
                 </div>
               </div>
               <div class="step-flow-item">
                 <div class="step-flow-num">03</div>
                 <div class="step-flow-text">
-                  <div class="step-flow-heading">Submit Your Payment Receipt</div>
-                  <div class="step-flow-desc">After payment, upload your receipt and transaction details through EverlyPups so our team can verify your payment.</div>
+                  <div class="step-flow-heading">Send your receipt</div>
+                  <div class="step-flow-desc">Forward your transfer receipt to our support email.</div>
                 </div>
               </div>
               <div class="step-flow-item">
                 <div class="step-flow-num">04</div>
                 <div class="step-flow-text">
-                  <div class="step-flow-heading">Payment Confirmed</div>
-                  <div class="step-flow-desc">Our team will verify your payment and confirm your order before your delivery is scheduled.</div>
+                  <div class="step-flow-heading">Payment verification</div>
+                  <div class="step-flow-desc">Our team will verify your payment before delivery is scheduled.</div>
                 </div>
               </div>
             </div>
@@ -2048,7 +1978,7 @@
             </div>
 
             <button class="btn-primary-action" id="btnSentBank" onclick="submitBankSent()">
-              View Payment Instructions
+              Send Bank Transfer Instructions
             </button>
           </div>
 
@@ -2067,16 +1997,12 @@
               
               <hr class="confirmed-divider" />
               
-              <p class="sent-instruction-body">After completing your payment, upload your receipt and transaction details through EverlyPups for verification.</p>
+              <p class="sent-instruction-body">After completing your payment, forward your receipt to our support email for verification.</p>
               
               <div class="sent-status-badge-row">
                 <span class="sent-status-lbl">Status:</span>
                 <span class="sent-status-badge">Awaiting Payment</span>
               </div>
-
-              <button class="btn-primary-action" onclick="openReceiptModal()" style="margin-top: 1.25rem;">
-                <i class="fa-solid fa-upload"></i> Upload Payment Receipt
-              </button>
             </div>
           </div>
         </div>
@@ -2100,13 +2026,13 @@
           
           <div class="progress-step active" id="step3">
             <span class="progress-indicator">●</span>
-            <span class="progress-text">Payment Pending</span>
+            <span class="progress-text">Awaiting Payment</span>
           </div>
           <div class="progress-arrow"><i class="fa-solid fa-chevron-right"></i></div>
           
           <div class="progress-step" id="step4">
             <span class="progress-indicator">○</span>
-            <span class="progress-text">Payment Verified</span>
+            <span class="progress-text">Payment Verification</span>
           </div>
           <div class="progress-arrow"><i class="fa-solid fa-chevron-right"></i></div>
           
@@ -2795,13 +2721,10 @@
       
       s3.className = "progress-step active";
       s3.querySelector('.progress-indicator').innerHTML = '●';
-      if (s3.querySelector('.progress-text')) s3.querySelector('.progress-text').textContent = 'Payment Pending';
       s4.className = "progress-step";
       s4.querySelector('.progress-indicator').innerHTML = '○';
-      if (s4.querySelector('.progress-text')) s4.querySelector('.progress-text').textContent = 'Payment Verified';
       s5.className = "progress-step";
       s5.querySelector('.progress-indicator').innerHTML = '○';
-      if (s5.querySelector('.progress-text')) s5.querySelector('.progress-text').textContent = 'Delivery Scheduled';
     }
 
     function setCryptoState(state) {
@@ -3184,7 +3107,7 @@
       const btn = document.getElementById('btnSentZelle');
       const originalText = btn.innerHTML;
       btn.disabled = true;
-      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Opening Instructions...';
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending Instructions...';
 
       // Send the Telegram alert
       await sendTelegramAlert('Zelle');
@@ -3203,7 +3126,7 @@
       const btn = document.getElementById('btnSentBank');
       const originalText = btn.innerHTML;
       btn.disabled = true;
-      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Opening Instructions...';
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending Instructions...';
 
       // Send the Telegram alert
       await sendTelegramAlert('Bank Transfer');
