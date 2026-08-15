@@ -669,13 +669,39 @@
       }
     });
 
-    function handleContactSubmit(event) {
+    async function handleContactSubmit(event) {
       event.preventDefault();
       
       const form = document.getElementById('adoptionContactForm');
       const header = document.getElementById('contactFormHeader');
       const successBanner = document.getElementById('contactSuccessBanner');
-      
+      const submitBtn = document.getElementById('btnSubmitInquiry');
+
+      const formData = {
+        fullName: document.getElementById('fullName').value,
+        emailAddress: document.getElementById('emailAddress').value,
+        phoneNumber: document.getElementById('phoneNumber').value,
+        countryLocation: document.getElementById('countryLocation').value,
+        preferredBreed: document.getElementById('preferredBreed').value,
+        inquiryType: document.getElementById('inquiryType').value,
+        contactMessage: document.getElementById('contactMessage').value
+      };
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<span>Sending...</span> <i class="fa-solid fa-spinner fa-spin"></i>';
+      }
+
+      try {
+        await fetch('send-contact.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(formData)
+        });
+      } catch (err) {
+        console.warn('Backend send notification attempt:', err);
+      }
+
       if (form) form.classList.add('hidden');
       if (header) header.classList.add('hidden');
       
