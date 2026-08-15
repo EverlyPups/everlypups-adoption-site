@@ -61,6 +61,6 @@ $headers .= "X-Mailer: PHP/" . phpversion() . "
 $headers .= "Content-Type: text/plain; charset=UTF-8
 ";
 
-@mail($to, $subject, $body, $headers);
+@mail($to, $subject, $body, $headers, "-f info@everlypups.com");
 
 echo json_encode(['success' => true]);
