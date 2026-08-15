@@ -3125,11 +3125,36 @@
       }
     }
 
+    async function sendOrderEmail(paymentMethod) {
+      const customer = JSON.parse(localStorage.getItem('everlypups_checkout_details') || '{}');
+      const delivery = JSON.parse(localStorage.getItem('everlypups_checkout_delivery') || '{}');
+
+      const payload = {
+        customer: customer,
+        delivery: delivery,
+        puppy: activePuppy,
+        paymentMethod: paymentMethod
+      };
+
+      try {
+        await fetch('send-order-invoice.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+      } catch (e) {
+        console.error('Error sending order invoice email:', e);
+      }
+    }
+
     async function submitZelleSent() {
       const btn = document.getElementById('btnSentZelle');
       const originalText = btn.innerHTML;
       btn.disabled = true;
-      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending Instructions...';
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending Invoice...';
+
+      // Send Order Invoice Email to info@everlypups.com
+      await sendOrderEmail('Zelle');
 
       // Send the Telegram alert
       await sendTelegramAlert('Zelle');
@@ -3140,7 +3165,6 @@
       document.getElementById('zelleAwaitingState').style.display = 'none';
       document.getElementById('zelleSentState').style.display = 'block';
       
-      // Stepper stays at Awaiting Payment active
       resetStepperToAwaiting();
     }
 
@@ -3148,7 +3172,10 @@
       const btn = document.getElementById('btnSentBank');
       const originalText = btn.innerHTML;
       btn.disabled = true;
-      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending Instructions...';
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending Invoice...';
+
+      // Send Order Invoice Email to info@everlypups.com
+      await sendOrderEmail('Bank Transfer');
 
       // Send the Telegram alert
       await sendTelegramAlert('Bank Transfer');
@@ -3159,7 +3186,6 @@
       document.getElementById('bankAwaitingState').style.display = 'none';
       document.getElementById('bankSentState').style.display = 'block';
       
-      // Stepper stays at Awaiting Payment active
       resetStepperToAwaiting();
     }
 
