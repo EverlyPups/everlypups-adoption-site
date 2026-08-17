@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         question: "Are there local puppy sales near me?",
-        answer: "Yes, we offer nationwide delivery, so no matter where you are, you can get a puppy from Premier Pups."
+        answer: "Yes, we offer nationwide delivery, so no matter where you are, you can get a puppy from EverlyPups."
       },
       {
         question: "What should I expect when ordering a puppy from our nationwide \"puppy sales near me\" service?",
