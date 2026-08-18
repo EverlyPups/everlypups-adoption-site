@@ -51,4 +51,4 @@ External URLs count: 0
 ### Footer Links Audit
 Verified that Terms of Use, Privacy Policy, and Sitemap links are non-functional on all pages:
 * Checkout & payment flow forms (`apply.html`, `payment.html`) utilize `href="javascript:void(0)"`.
-* Other pages (`index.html`, `puppy-details.html`, `contact.html`) format these elements as static, non-clickable `<span>` tags.
+* Other pages (`homepage.html`, `puppy-details.html`, `contact.html`) format these elements as static, non-clickable `<span>` tags.
