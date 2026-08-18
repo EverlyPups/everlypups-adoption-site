@@ -1150,12 +1150,12 @@
        1. Navigation Header
        ========================================================================== -->
   <header class="checkout-header">
-    <a href="homepage.html" class="checkout-header-logo">
+    <a href="homepage" class="checkout-header-logo">
       <i class="fa-solid fa-paw"></i> EverlyPups
     </a>
     
     <div class="checkout-header-right">
-      <a href="contact.html" class="btn-nav-contact">
+      <a href="contact" class="btn-nav-contact">
         <i class="fa-solid fa-envelope"></i> Contact Us
       </a>
     </div>
@@ -1232,7 +1232,7 @@
       </div>
       <h2 class="success-title">Application Submitted</h2>
       <p class="success-desc">Thank you for your adoption application. Our team will review your details and contact you with the next steps.</p>
-      <a href="homepage.html#catalog-section" class="btn-success-action">
+      <a href="homepage#catalog-section" class="btn-success-action">
         <i class="fa-solid fa-arrow-left"></i> Back to Puppies
       </a>
     </div>
@@ -2106,9 +2106,9 @@
       localStorage.setItem('everlypups_checkout_details', JSON.stringify(detailsData));
 
       if (activePuppy && activePuppy.id) {
-        window.location.href = 'delivery.html?id=' + activePuppy.id;
+        window.location.href = 'delivery?id=' + activePuppy.id;
       } else {
-        window.location.href = 'delivery.html';
+        window.location.href = 'delivery';
       }
     }
 

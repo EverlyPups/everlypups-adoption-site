@@ -2,7 +2,11 @@ DirectoryIndex homepage.html index.html
 
 RewriteEngine On
 
-# Allow clean URLs without .html extension (e.g. /puppies or /homepage or /contact)
+# Redirect /filename.html to clean URL /filename in browser address bar
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Resolve clean URL /filename internally to /filename.html
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [L]

@@ -93,14 +93,14 @@
   <header class="header header-static">
     <div class="container">
       <div class="nav-container-box">
-        <a href="homepage.html" class="logo">
+        <a href="homepage" class="logo">
           <i class="fa-solid fa-paw logo-icon"></i> EverlyPups
         </a>
 
         <nav class="nav-center-wrapper">
           <ul class="nav-links">
             <li class="nav-item-dropdown">
-              <a href="puppies.html" class="nav-link active nav-pill-btn">Browse available puppies</a>
+              <a href="puppies" class="nav-link active nav-pill-btn">Browse available puppies</a>
 
               <!-- Mega Dropdown Card -->
               <div class="mega-dropdown-card" id="mega-dropdown">
@@ -119,7 +119,7 @@
                       </li>
                     </ul>
 
-                    <a href="puppies.html" class="btn-mega-browse">Browse all puppies</a>
+                    <a href="puppies" class="btn-mega-browse">Browse all puppies</a>
                   </div>
 
                   <!-- Right Content Panel -->
@@ -179,7 +179,7 @@
                           </div>
                         </div>
                         <div class="mega-breed-footer-link">
-                          <a href="puppies.html">All available breeds A-Z</a>
+                          <a href="puppies">All available breeds A-Z</a>
                         </div>
 
                         <div class="mega-breed-item" onclick="filterByBreed('Bernedoodle')">
@@ -265,7 +265,7 @@
                           </div>
                         </div>
                         <div class="mega-breed-footer-link" style="grid-column: 2 / span 2;">
-                          <a href="puppies.html">All available purebreds</a>
+                          <a href="puppies">All available purebreds</a>
                         </div>
                       </div>
                     </div>
@@ -340,7 +340,7 @@
                         </div>
 
                         <div class="mega-breed-footer-link">
-                          <a href="puppies.html">View all doodle breeds</a>
+                          <a href="puppies">View all doodle breeds</a>
                         </div>
 
                         <div class="mega-breed-item" onclick="filterByBreed('Maltipoo')">
@@ -368,13 +368,13 @@
                 </div>
               </div>
             </li>
-            <li><a href="homepage.html#reviews-section" class="nav-link">Reviews</a></li>
-            <li><a href="homepage.html#ofa-section" class="nav-link">OFA Certification</a></li>
-            <li><a href="homepage.html#delivery-section" class="nav-link">Delivery Process & Care</a></li>
+            <li><a href="homepage#reviews-section" class="nav-link">Reviews</a></li>
+            <li><a href="homepage#ofa-section" class="nav-link">OFA Certification</a></li>
+            <li><a href="homepage#delivery-section" class="nav-link">Delivery Process & Care</a></li>
           </ul>
         </nav>
 
-        <a href="contact.html" class="btn-nav-contact">
+        <a href="contact" class="btn-nav-contact">
           <i class="fa-solid fa-envelope"></i> Contact Us
         </a>
 
@@ -510,7 +510,7 @@
     <div class="container">
       <div class="footer-top">
         <div>
-          <a href="homepage.html" class="footer-logo">EverlyPups</a>
+          <a href="homepage" class="footer-logo">EverlyPups</a>
           <p style="color:rgba(255,255,255,0.6); margin-top:0.5rem; max-width:320px; font-size:0.9rem;">
             Ethical canine adoption connecting verified USDA breeders with caring homes.
           </p>
@@ -520,10 +520,10 @@
           <div>
             <h5 style="color:#fff; margin-bottom:1rem;">Explore</h5>
             <div style="display:flex; flex-direction:column; gap:0.5rem; font-size:0.9rem; opacity:0.75;">
-              <a href="puppies.html">Browse all puppies</a>
-              <a href="homepage.html#reviews-section">Puppy parents reviews</a>
-              <a href="homepage.html#ofa-section">OFA Certification</a>
-              <a href="homepage.html#delivery-section">Delivery process & care</a>
+              <a href="puppies">Browse all puppies</a>
+              <a href="homepage#reviews-section">Puppy parents reviews</a>
+              <a href="homepage#ofa-section">OFA Certification</a>
+              <a href="homepage#delivery-section">Delivery process & care</a>
             </div>
           </div>
         </div>
@@ -818,7 +818,7 @@
           const pageFiltered = filtered.slice(startIndex, startIndex + itemsPerPage);
 
           grid.innerHTML = pageFiltered.map(p => `
-            <a href="puppy-details.html?id=${p.id}&breed=${encodeURIComponent(p.breed)}" class="available-puppy-card" style="text-decoration: none; color: inherit; display: block; cursor: pointer;">
+            <a href="puppy-details?id=${p.id}&breed=${encodeURIComponent(p.breed)}" class="available-puppy-card" style="text-decoration: none; color: inherit; display: block; cursor: pointer;">
               <div class="available-puppy-media">
                 <img src="${p.image}" alt="${p.name}" class="available-puppy-img" loading="lazy" referrerpolicy="no-referrer" />
                 ${(p.hasVideo || p.videoUrl) ? `<div class="puppy-video-badge" title="Live Video Available"><i class="fa-solid fa-video"></i></div>` : ''}
@@ -950,7 +950,7 @@
   <!-- Mobile Navigation Drawer -->
   <div class="mobile-nav-drawer" id="mobileNavDrawer">
     <div class="mobile-nav-drawer-header">
-      <a href="homepage.html" class="logo">
+      <a href="homepage" class="logo">
         <i class="fa-solid fa-paw logo-icon"></i> EverlyPups
       </a>
       <button class="btn-menu-close" id="mobileMenuClose" aria-label="Close Navigation">
@@ -958,11 +958,11 @@
       </button>
     </div>
     <ul class="mobile-nav-links">
-      <li><a href="puppies.html" class="mobile-nav-link">Browse Available Puppies</a></li>
-      <li><a href="homepage.html#reviews-section" class="mobile-nav-link">Reviews</a></li>
-      <li><a href="homepage.html#ofa-section" class="mobile-nav-link">OFA Certification</a></li>
-      <li><a href="homepage.html#delivery-section" class="mobile-nav-link">Delivery Process & Care</a></li>
-      <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+      <li><a href="puppies" class="mobile-nav-link">Browse Available Puppies</a></li>
+      <li><a href="homepage#reviews-section" class="mobile-nav-link">Reviews</a></li>
+      <li><a href="homepage#ofa-section" class="mobile-nav-link">OFA Certification</a></li>
+      <li><a href="homepage#delivery-section" class="mobile-nav-link">Delivery Process & Care</a></li>
+      <li><a href="contact" class="mobile-nav-link">Contact Us</a></li>
     </ul>
   </div>
   <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>

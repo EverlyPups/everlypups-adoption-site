@@ -38,14 +38,14 @@
   <header class="header header-static">
     <div class="container">
       <div class="nav-container-box">
-        <a href="homepage.html" class="logo">
+        <a href="homepage" class="logo">
           <i class="fa-solid fa-paw logo-icon"></i> EverlyPups
         </a>
 
         <nav class="nav-center-wrapper">
           <ul class="nav-links">
             <li class="nav-item-dropdown">
-              <a href="puppies.html" class="nav-link nav-pill-btn">Browse available puppies</a>
+              <a href="puppies" class="nav-link nav-pill-btn">Browse available puppies</a>
 
               <!-- Mega Dropdown Card -->
               <div class="mega-dropdown-card" id="mega-dropdown">
@@ -64,7 +64,7 @@
                       </li>
                     </ul>
 
-                    <a href="puppies.html" class="btn-mega-browse">Browse all puppies</a>
+                    <a href="puppies" class="btn-mega-browse">Browse all puppies</a>
                   </div>
 
                   <!-- Right Content Panel -->
@@ -124,7 +124,7 @@
                           </div>
                         </div>
                         <div class="mega-breed-footer-link">
-                          <a href="puppies.html">All available breeds A-Z</a>
+                          <a href="puppies">All available breeds A-Z</a>
                         </div>
 
                         <div class="mega-breed-item" onclick="filterByBreed('Bernedoodle')">
@@ -210,7 +210,7 @@
                           </div>
                         </div>
                         <div class="mega-breed-footer-link" style="grid-column: 2 / span 2;">
-                          <a href="puppies.html">All available purebreds</a>
+                          <a href="puppies">All available purebreds</a>
                         </div>
                       </div>
                     </div>
@@ -285,7 +285,7 @@
                         </div>
 
                         <div class="mega-breed-footer-link">
-                          <a href="puppies.html">View all doodle breeds</a>
+                          <a href="puppies">View all doodle breeds</a>
                         </div>
 
                         <div class="mega-breed-item" onclick="filterByBreed('Maltipoo')">
@@ -313,13 +313,13 @@
                 </div>
               </div>
             </li>
-            <li><a href="homepage.html#reviews-section" class="nav-link">Reviews</a></li>
-            <li><a href="homepage.html#ofa-section" class="nav-link">OFA Certification</a></li>
-            <li><a href="homepage.html#delivery-section" class="nav-link">Delivery Process & Care</a></li>
+            <li><a href="homepage#reviews-section" class="nav-link">Reviews</a></li>
+            <li><a href="homepage#ofa-section" class="nav-link">OFA Certification</a></li>
+            <li><a href="homepage#delivery-section" class="nav-link">Delivery Process & Care</a></li>
           </ul>
         </nav>
 
-        <a href="contact.html" class="btn-nav-contact">
+        <a href="contact" class="btn-nav-contact">
           <i class="fa-solid fa-envelope"></i> Contact Us
         </a>
 
@@ -335,7 +335,7 @@
       
       <!-- Back Navigation & Breadcrumb -->
       <div class="detail-breadcrumb">
-        <a href="puppies.html" class="back-link" id="detailBackLink">
+        <a href="puppies" class="back-link" id="detailBackLink">
           <i class="fa-solid fa-arrow-left"></i> <span id="backLinkText">Back to Available Puppies</span>
         </a>
         <span class="bc-sep">/</span>
@@ -397,7 +397,7 @@
               <span class="price-guarantee-note"><i class="fa-solid fa-circle-check text-green"></i> Backed by EverlyPups 10-Year Guarantee</span>
             </div>
 
-            <a href="apply.html" id="btnReservePuppy" class="btn-reserve-hero">
+            <a href="apply" id="btnReservePuppy" class="btn-reserve-hero">
               <span>Reserve <span id="reservePuppyName">Puppy</span></span>
               <i class="fa-solid fa-arrow-right"></i>
             </a>
@@ -572,7 +572,7 @@
     <div class="container">
       <div class="footer-top">
         <div>
-          <a href="homepage.html" class="footer-logo">EverlyPups</a>
+          <a href="homepage" class="footer-logo">EverlyPups</a>
           <p style="color:rgba(255,255,255,0.6); margin-top:0.5rem; max-width:320px; font-size:0.9rem;">
             Ethical canine adoption connecting verified USDA breeders with caring homes.
           </p>
@@ -582,10 +582,10 @@
           <div>
             <h5 style="color:#fff; margin-bottom:1rem;">Explore</h5>
             <div style="display:flex; flex-direction:column; gap:0.5rem; font-size:0.9rem; opacity:0.75;">
-              <a href="homepage.html#catalog-section">Browse available puppies</a>
-              <a href="homepage.html#reviews-section">Puppy parents reviews</a>
-              <a href="homepage.html#ofa-section">OFA Certification</a>
-              <a href="homepage.html#delivery-section">Delivery process & care</a>
+              <a href="homepage#catalog-section">Browse available puppies</a>
+              <a href="homepage#reviews-section">Puppy parents reviews</a>
+              <a href="homepage#ofa-section">OFA Certification</a>
+              <a href="homepage#delivery-section">Delivery process & care</a>
             </div>
           </div>
         </div>
@@ -651,7 +651,7 @@
 
         if (targetBreed) {
           if (backLinkEl) {
-            backLinkEl.href = `puppies.html?breed=${encodeURIComponent(targetBreed)}`;
+            backLinkEl.href = `puppies?breed=${encodeURIComponent(targetBreed)}`;
           }
           if (backLinkTextEl) {
             backLinkTextEl.textContent = `Back to ${targetBreed} Puppies`;
@@ -709,7 +709,7 @@
         document.getElementById('puppyPrice').textContent = '$' + puppy.price.toLocaleString();
         document.getElementById('reservePuppyName').textContent = puppy.name;
         const btnReserve = document.getElementById('btnReservePuppy');
-        btnReserve.href = 'apply.html?id=' + puppy.id;
+        btnReserve.href = 'apply?id=' + puppy.id;
 
         // Specs Grid
         document.getElementById('specGender').textContent = puppy.gender;
@@ -784,7 +784,7 @@
     }
 
     window.filterByBreed = function(breedName) {
-      window.location.href = 'puppies.html?breed=' + encodeURIComponent(breedName);
+      window.location.href = 'puppies?breed=' + encodeURIComponent(breedName);
     };
 
     initMegaDropdown();
@@ -818,7 +818,7 @@
   <!-- Mobile Navigation Drawer -->
   <div class="mobile-nav-drawer" id="mobileNavDrawer">
     <div class="mobile-nav-drawer-header">
-      <a href="homepage.html" class="logo">
+      <a href="homepage" class="logo">
         <i class="fa-solid fa-paw logo-icon"></i> EverlyPups
       </a>
       <button class="btn-menu-close" id="mobileMenuClose" aria-label="Close Navigation">
@@ -826,11 +826,11 @@
       </button>
     </div>
     <ul class="mobile-nav-links">
-      <li><a href="puppies.html" class="mobile-nav-link">Browse Available Puppies</a></li>
-      <li><a href="homepage.html#reviews-section" class="mobile-nav-link">Reviews</a></li>
-      <li><a href="homepage.html#ofa-section" class="mobile-nav-link">OFA Certification</a></li>
-      <li><a href="homepage.html#delivery-section" class="mobile-nav-link">Delivery Process & Care</a></li>
-      <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+      <li><a href="puppies" class="mobile-nav-link">Browse Available Puppies</a></li>
+      <li><a href="homepage#reviews-section" class="mobile-nav-link">Reviews</a></li>
+      <li><a href="homepage#ofa-section" class="mobile-nav-link">OFA Certification</a></li>
+      <li><a href="homepage#delivery-section" class="mobile-nav-link">Delivery Process & Care</a></li>
+      <li><a href="contact" class="mobile-nav-link">Contact Us</a></li>
     </ul>
   </div>
   <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>

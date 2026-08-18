@@ -14,7 +14,7 @@ For the Beagle puppies whose remote images were returning `403 Forbidden` errors
 ### 2. Puppy Record Deletions
 * **Penny** (`id: 824635`): Removed from the database.
 * **Finn** (`id: 824597`): Removed from the database.
-* **Checkout Fallbacks**: Changed the checkout/application forms fallback default puppy from Finn to Dolly in `apply.html` and `delivery.html`, and from Finn to Caleb in `payment.html`.
+* **Checkout Fallbacks**: Changed the checkout/application forms fallback default puppy from Finn to Dolly in `apply` and `delivery`, and from Finn to Caleb in `payment`.
 
 ### 3. Price Adjustments
 * Set the prices of all remaining Beagles (Scout, Barnaby, Rusty, Clover, Dolly) to vary within the requested **$1,800 to $2,000** range.
@@ -50,5 +50,5 @@ External URLs count: 0
 
 ### Footer Links Audit
 Verified that Terms of Use, Privacy Policy, and Sitemap links are non-functional on all pages:
-* Checkout & payment flow forms (`apply.html`, `payment.html`) utilize `href="javascript:void(0)"`.
-* Other pages (`homepage.html`, `puppy-details.html`, `contact.html`) format these elements as static, non-clickable `<span>` tags.
+* Checkout & payment flow forms (`apply`, `payment`) utilize `href="javascript:void(0)"`.
+* Other pages (`homepage`, `puppy-details`, `contact`) format these elements as static, non-clickable `<span>` tags.

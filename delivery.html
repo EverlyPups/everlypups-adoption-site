@@ -1401,12 +1401,12 @@
        1. Navigation Header
        ========================================================================== -->
   <header class="checkout-header">
-    <a href="homepage.html" class="checkout-header-logo">
+    <a href="homepage" class="checkout-header-logo">
       <i class="fa-solid fa-paw"></i> EverlyPups
     </a>
     
     <div class="checkout-header-right">
-      <a href="contact.html" class="btn-nav-contact">
+      <a href="contact" class="btn-nav-contact">
         <i class="fa-solid fa-envelope"></i> Contact Us
       </a>
     </div>
@@ -1603,7 +1603,7 @@
 
             <!-- Buttons -->
             <div class="button-group-row">
-              <a href="apply.html" id="btnBackToDetails" class="btn-secondary-link" aria-label="Back">
+              <a href="apply" id="btnBackToDetails" class="btn-secondary-link" aria-label="Back">
                 <i class="fa-solid fa-arrow-left"></i><span class="back-btn-text"> Back</span>
               </a>
               <button type="submit" id="btnContinue" class="btn-checkout-continue" disabled style="margin: 0 !important; flex: 1; height: 52px; font-weight: 800; display: flex; align-items: center; justify-content: center;">
@@ -1773,7 +1773,7 @@
       // Dynamic Back link with puppy ID
       const backLink = document.getElementById('btnBackToDetails');
       if (backLink && activePuppy) {
-        backLink.href = 'apply.html?id=' + activePuppy.id;
+        backLink.href = 'apply?id=' + activePuppy.id;
       }
 
       // Register segment listeners for first-time owner
@@ -1817,7 +1817,7 @@
       // Hook edit address link
       const btnEdit = document.getElementById('btnEditAddress');
       if (btnEdit && activePuppy) {
-        btnEdit.href = 'apply.html?id=' + activePuppy.id;
+        btnEdit.href = 'apply?id=' + activePuppy.id;
       }
 
       // Restore saved delivery values if any
@@ -1918,9 +1918,9 @@
       localStorage.setItem('everlypups_checkout_delivery', JSON.stringify(deliveryData));
 
       if (activePuppy && activePuppy.id) {
-        window.location.href = 'payment.html?id=' + activePuppy.id;
+        window.location.href = 'payment?id=' + activePuppy.id;
       } else {
-        window.location.href = 'payment.html';
+        window.location.href = 'payment';
       }
     }
 
