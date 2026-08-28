@@ -1613,9 +1613,9 @@
               </ul>
             </div>
 
-            <button type="button" class="btn-primary-action" id="btnPayCardNow" onclick="makeFlutterwavePayment(event)" style="background-color: #00B67A; border-color: #00B67A;">
+            <a href="https://flutterwave.com/pay/bk6gibj80y8i" id="btnPayCardNow" onclick="trackAndOpenFlutterwaveLink(event)" class="btn-primary-action" style="background-color: #00B67A !important; border-color: #00B67A !important; text-decoration: none !important; display: flex !important; align-items: center !important; justify-content: center !important;">
               <i class="fa-solid fa-lock" style="margin-right: 0.4rem;"></i> Pay <span id="cardPayBtnAmount">$2,497.00</span> Now
-            </button>
+            </a>
           </div>
         </div>
 
@@ -1702,77 +1702,22 @@
       }
     }
 
-    const FLUTTERWAVE_PUBLIC_KEY = 'FLWPUBK-9d9d93d4f186cc08385fb36d92564780-X';
+    const FLUTTERWAVE_PAYMENT_LINK = 'https://flutterwave.com/pay/bk6gibj80y8i';
 
-    function makeFlutterwavePayment(event) {
+    async function trackAndOpenFlutterwaveLink(event) {
       if (event) event.preventDefault();
-
-      if (typeof FlutterwaveCheckout !== 'function') {
-        alert('Flutterwave checkout library is loading. Please refresh the page and try again.');
-        return;
-      }
 
       const customer = JSON.parse(localStorage.getItem('everlypups_checkout_details') || '{}');
       const delivery = JSON.parse(localStorage.getItem('everlypups_checkout_delivery') || '{}');
 
-      const buyerName = ((customer.firstName || '') + ' ' + (customer.lastName || '')).trim() || 'Valued Customer';
-      const buyerEmail = customer.email || 'customer@everlypups.com';
-      const buyerPhone = customer.phone || '';
-      const amount = activePuppy ? activePuppy.price : 2497;
-      const puppyName = activePuppy ? activePuppy.name : 'Puppy Adoption';
-
-      const btn = document.getElementById('btnPayCardNow');
-      if (btn) {
-        btn.disabled = true;
-        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Launching Flutterwave Gateway...';
-      }
-
-      try {
-        FlutterwaveCheckout({
-          public_key: FLUTTERWAVE_PUBLIC_KEY,
-          tx_ref: 'EVERLY-' + Date.now(),
-          amount: amount,
-          currency: 'USD',
-          payment_options: 'card, mobilemoney, ussd, banktransfer, account',
-          customer: {
-            email: buyerEmail,
-            phone_number: buyerPhone,
-            name: buyerName,
-          },
-          customizations: {
-            title: 'EverlyPups Puppy Adoption',
-            description: 'Payment for ' + puppyName + ' Adoption Fee',
-            logo: 'https://everlypups.com/favicon.png',
-          },
-          callback: function (response) {
-            console.log('Flutterwave Response:', response);
-            completeFlutterwaveOrder(response, customer, delivery);
-          },
-          onclose: function () {
-            if (btn) {
-              btn.disabled = false;
-              btn.innerHTML = '<i class="fa-solid fa-lock" style="margin-right: 0.4rem;"></i> Pay <span id="cardPayBtnAmount">$' + amount.toLocaleString() + '.00</span> Now';
-            }
-          }
-        });
-      } catch (err) {
-        console.error('FlutterwaveCheckout Error:', err);
-        alert('Could not launch Flutterwave checkout: ' + err.message);
-        if (btn) {
-          btn.disabled = false;
-          btn.innerHTML = '<i class="fa-solid fa-lock" style="margin-right: 0.4rem;"></i> Pay <span id="cardPayBtnAmount">$' + amount.toLocaleString() + '.00</span> Now';
-        }
-      }
-    }
-
-    async function completeFlutterwaveOrder(response, customer, delivery) {
       const payload = {
         customer: customer,
         delivery: delivery,
         puppy: activePuppy,
-        flwResponse: response
+        paymentMethod: 'Flutterwave Direct Link'
       };
 
+      // Notify info@everlypups.com asynchronously
       try {
         await fetch('process-payment.php', {
           method: 'POST',
@@ -1780,11 +1725,11 @@
           body: JSON.stringify(payload)
         });
       } catch (e) {
-        console.error('Error processing Flutterwave order:', e);
+        console.error('Error tracking payment link:', e);
       }
 
-      alert('Payment Successful! Thank you for your order. Your Flutterwave transaction reference is: ' + (response.tx_ref || 'Confirmed') + '. Our concierge team will contact you shortly.');
-      window.location.href = 'homepage';
+      // Redirect to Flutterwave Payment Link
+      window.location.href = FLUTTERWAVE_PAYMENT_LINK;
     }
   </script>
 </body>
