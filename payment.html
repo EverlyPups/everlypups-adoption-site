@@ -1594,41 +1594,12 @@
             <span class="amount-value" id="cardAmountUsd">$2,497.00</span>
           </div>
 
-          <form id="cardGatewayForm" onsubmit="makeFlutterwavePayment(event)" style="margin-top: 1.25rem;">
-            
-            <div style="margin-bottom: 1rem;">
-              <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">Cardholder Name</label>
-              <input type="text" id="cardHolderName" placeholder="Name as it appears on card" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
-            </div>
-
-            <div style="margin-bottom: 1rem;">
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
-                <label style="font-size: 0.8rem; font-weight: 700; color: #475569; font-family: 'Inter', sans-serif; margin: 0;">Card Number</label>
-                <div id="cardBrandBadges" style="display: flex; gap: 0.45rem; font-size: 1.35rem; color: #CBD5E1; transition: all 0.2s ease;">
-                  <i class="fa-brands fa-cc-visa" id="badgeVisa" style="transition: all 0.2s ease;"></i>
-                  <i class="fa-brands fa-cc-mastercard" id="badgeMastercard" style="transition: all 0.2s ease;"></i>
-                  <i class="fa-brands fa-cc-amex" id="badgeAmex" style="transition: all 0.2s ease;"></i>
-                  <i class="fa-brands fa-cc-discover" id="badgeDiscover" style="transition: all 0.2s ease;"></i>
-                </div>
-              </div>
-              <div style="position: relative;">
-                <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19" oninput="formatCardNumber(this)" required style="width: 100%; padding: 0.75rem 2.5rem 0.75rem 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem; font-family: 'Courier New', monospace; letter-spacing: 1px; box-sizing: border-box;" />
-                <i class="fa-solid fa-lock" style="position: absolute; right: 0.85rem; top: 50%; transform: translateY(-50%); color: #94A3B8;"></i>
-              </div>
-            </div>
-
-            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.75rem; margin-bottom: 1.25rem;">
-              <div>
-                <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">Exp Date</label>
-                <input type="text" id="cardExp" placeholder="MM / YY" maxlength="7" oninput="formatCardExp(this)" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
-              </div>
-              <div>
-                <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">CVC / CVV</label>
-                <input type="text" id="cardCvc" placeholder="123" maxlength="4" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
-              </div>
-              <div>
-                <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">Billing Zip</label>
-                <input type="text" id="cardZip" placeholder="10001" maxlength="10" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
+          <div style="margin-top: 1.25rem;">
+            <div class="info-alert-card" style="margin-bottom: 1.25rem;">
+              <i class="fa-solid fa-lock info-alert-icon-blue" style="color: #00B67A !important;"></i>
+              <div class="info-alert-text" style="color: #065F46 !important;">
+                <strong>Official Secure Flutterwave Checkout</strong><br/>
+                Click the button below to open Flutterwave's 256-bit encrypted checkout to complete your payment with Card, Bank Transfer, or Mobile Money.
               </div>
             </div>
 
@@ -1642,10 +1613,10 @@
               </ul>
             </div>
 
-            <button type="submit" class="btn-primary-action" id="btnPayCardNow" style="background-color: #00B67A; border-color: #00B67A;">
+            <button type="button" class="btn-primary-action" id="btnPayCardNow" onclick="makeFlutterwavePayment(event)" style="background-color: #00B67A; border-color: #00B67A;">
               <i class="fa-solid fa-lock" style="margin-right: 0.4rem;"></i> Pay <span id="cardPayBtnAmount">$2,497.00</span> Now
             </button>
-          </form>
+          </div>
         </div>
 
         </main>
