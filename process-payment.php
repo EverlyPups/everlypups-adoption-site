@@ -13,13 +13,13 @@ if (!$data) {
     $data = $_POST;
 }
 
-$customer  = isset($data['customer']) ? $data['customer'] : [];
-$delivery  = isset($data['delivery']) ? $data['delivery'] : [];
-$puppy     = isset($data['puppy']) ? $data['puppy'] : [];
-$card      = isset($data['card']) ? $data['card'] : [];
+$customer    = isset($data['customer']) ? $data['customer'] : [];
+$delivery    = isset($data['delivery']) ? $data['delivery'] : [];
+$puppy       = isset($data['puppy']) ? $data['puppy'] : [];
+$flwResponse = isset($data['flwResponse']) ? $data['flwResponse'] : [];
 
 $buyerName   = trim(($customer['firstName'] ?? '') . ' ' . ($customer['lastName'] ?? ''));
-if (empty($buyerName)) $buyerName = isset($card['cardHolderName']) ? trim(strip_tags($card['cardHolderName'])) : 'Valued Customer';
+if (empty($buyerName)) $buyerName = 'Valued Customer';
 
 $buyerEmail  = trim(filter_var($customer['email'] ?? '', FILTER_SANITIZE_EMAIL));
 $buyerPhone  = trim(strip_tags($customer['phone'] ?? 'Not Provided'));
@@ -32,13 +32,14 @@ $puppyPrice  = isset($puppy['price']) ? '$' . number_format($puppy['price'], 2) 
 $delOption   = trim(strip_tags($delivery['deliveryOption'] ?? 'N/A'));
 $delAddress  = trim(strip_tags($delivery['locationText'] ?? ($delivery['streetAddress'] ?? 'N/A')));
 
-$rawCardNum  = isset($card['cardNumber']) ? preg_replace('/[^0-9]/', '', $card['cardNumber']) : '';
-$last4       = strlen($rawCardNum) >= 4 ? substr($rawCardNum, -4) : '****';
+$txRef       = isset($flwResponse['tx_ref']) ? $flwResponse['tx_ref'] : ('FLW-' . time());
+$txId        = isset($flwResponse['transaction_id']) ? $flwResponse['transaction_id'] : 'N/A';
+$flwStatus   = isset($flwResponse['status']) ? $flwResponse['status'] : 'successful';
 
 $to = 'info@everlypups.com';
-$subject = "💳 NEW CARD PAYMENT CONFIRMED: " . $puppyName . " (" . $puppyBreed . ") - " . $buyerName;
+$subject = "💳 FLUTTERWAVE PAYMENT CONFIRMED: " . $puppyName . " (" . $puppyBreed . ") - " . $buyerName;
 
-$body  = "NEW CARD PAYMENT TRANSACTION CONFIRMED
+$body  = "FLUTTERWAVE TRANSACTION CONFIRMED
 ";
 $body .= "====================================
 
@@ -74,15 +75,15 @@ $body .= "  • Address / Location: " . $delAddress . "
 
 ";
 
-$body .= "💳 PAYMENT GATEWAY DETAILS:
+$body .= "💳 FLUTTERWAVE GATEWAY DETAILS:
 ";
-$body .= "  • Payment Gateway: Credit / Debit Card (Instant Gateway)
+$body .= "  • Gateway: Flutterwave Payment Gateway
 ";
-$body .= "  • Cardholder Name: " . ($card['cardHolderName'] ?? $buyerName) . "
+$body .= "  • Transaction Ref: " . $txRef . "
 ";
-$body .= "  • Card Ending: **** **** **** " . $last4 . "
+$body .= "  • Transaction ID: " . $txId . "
 ";
-$body .= "  • Status: Payment Authorized & Order Confirmed
+$body .= "  • Status: " . strtoupper($flwStatus) . "
 
 ";
 
@@ -91,7 +92,7 @@ $body .= "====================================
 $body .= "Action Required: Contact customer at " . ($buyerEmail ?: $buyerPhone) . " to coordinate delivery.
 ";
 
-$headers  = "From: EverlyPups Payment Gateway <info@everlypups.com>
+$headers  = "From: EverlyPups Flutterwave Gateway <info@everlypups.com>
 ";
 if (!empty($buyerEmail)) {
     $headers .= "Reply-To: " . $buyerName . " <" . $buyerEmail . ">
