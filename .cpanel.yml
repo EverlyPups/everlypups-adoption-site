@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/everkeol/public_html
     - /bin/cp -R * $DEPLOYPATH
+    - /bin/rm -f $DEPLOYPATH/payment.html
