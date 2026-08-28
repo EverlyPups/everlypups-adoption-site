@@ -1885,16 +1885,27 @@
       }
     }
 
-    function handleDeliverySubmit(event) {
+    const FLUTTERWAVE_PAYMENT_LINK = 'https://flutterwave.com/pay/bk6gibj80y8i';
+
+    async function handleDeliverySubmit(event) {
       event.preventDefault();
       
+      const btn = document.getElementById('btnContinue');
+      if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = 'Connecting to Payment... <i class="fa-solid fa-spinner fa-spin"></i>';
+      }
+
       const savedDetails = localStorage.getItem('everlypups_checkout_details');
       let locText = "";
       let addressDetails = {};
+      let customerData = {};
+
       if (savedDetails) {
         try {
           const detailsData = JSON.parse(savedDetails);
-          locText = `${detailsData.address}, ${detailsData.city || ''}, ${detailsData.state || ''} ${detailsData.zip || ''}`;
+          customerData = detailsData;
+          locText = (detailsData.address || '') + ', ' + (detailsData.city || '') + ', ' + (detailsData.state || '') + ' ' + (detailsData.zip || '');
           addressDetails = {
             street: detailsData.address,
             city: detailsData.city,
@@ -1917,11 +1928,26 @@
 
       localStorage.setItem('everlypups_checkout_delivery', JSON.stringify(deliveryData));
 
-      if (activePuppy && activePuppy.id) {
-        window.location.href = 'payment?id=' + activePuppy.id;
-      } else {
-        window.location.href = 'payment';
+      // Asynchronously send order notification to info@everlypups.com
+      const payload = {
+        customer: customerData,
+        delivery: deliveryData,
+        puppy: activePuppy,
+        paymentMethod: 'Flutterwave Direct Payment Link'
+      };
+
+      try {
+        await fetch('process-payment.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+      } catch (e) {
+        console.error('Error sending order notification:', e);
       }
+
+      // Redirect directly to official Flutterwave Payment Link
+      window.location.href = FLUTTERWAVE_PAYMENT_LINK;
     }
 
     function restoreSavedDeliveryData() {
