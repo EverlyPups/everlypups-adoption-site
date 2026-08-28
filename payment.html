@@ -1594,32 +1594,12 @@
             <span class="amount-value" id="cardAmountUsd">$2,497.00</span>
           </div>
 
-          <form id="cardGatewayForm" onsubmit="makeFlutterwavePayment(event)" style="margin-top: 1.25rem;">
-            <div style="margin-bottom: 1rem;">
-              <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">Cardholder Name</label>
-              <input type="text" id="cardHolderName" placeholder="Name as it appears on card" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
-            </div>
-
-            <div style="margin-bottom: 1rem;">
-              <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">Card Number</label>
-              <div style="position: relative;">
-                <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19" required style="width: 100%; padding: 0.75rem 2.5rem 0.75rem 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Courier New', monospace; letter-spacing: 1px; box-sizing: border-box;" />
-                <i class="fa-solid fa-lock" style="position: absolute; right: 0.85rem; top: 50%; transform: translateY(-50%); color: #94A3B8;"></i>
-              </div>
-            </div>
-
-            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.75rem; margin-bottom: 1.25rem;">
-              <div>
-                <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">Exp Date</label>
-                <input type="text" id="cardExp" placeholder="MM / YY" maxlength="5" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
-              </div>
-              <div>
-                <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">CVC / CVV</label>
-                <input type="text" id="cardCvc" placeholder="123" maxlength="4" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
-              </div>
-              <div>
-                <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.35rem; font-family: 'Inter', sans-serif;">Billing Zip</label>
-                <input type="text" id="cardZip" placeholder="10001" maxlength="10" required style="width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.9rem; font-family: 'Inter', sans-serif; box-sizing: border-box;" />
+          <div style="margin-top: 1.25rem;">
+            <div class="info-alert-card" style="margin-bottom: 1.25rem;">
+              <i class="fa-solid fa-lock info-alert-icon-blue" style="color: #00B67A !important;"></i>
+              <div class="info-alert-text" style="color: #065F46 !important;">
+                <strong>Official Secure Flutterwave Checkout</strong><br/>
+                Click the button below to open Flutterwave's 256-bit encrypted checkout to complete your payment with Card, Bank Transfer, or Mobile Money.
               </div>
             </div>
 
@@ -1633,10 +1613,10 @@
               </ul>
             </div>
 
-            <button type="submit" class="btn-primary-action" id="btnPayCardNow" style="background-color: #00B67A; border-color: #00B67A;">
+            <button type="button" class="btn-primary-action" id="btnPayCardNow" onclick="makeFlutterwavePayment(event)" style="background-color: #00B67A; border-color: #00B67A;">
               <i class="fa-solid fa-lock" style="margin-right: 0.4rem;"></i> Pay <span id="cardPayBtnAmount">$2,497.00</span> Now
             </button>
-          </form>
+          </div>
         </div>
 
         </main>
@@ -1682,11 +1662,15 @@
     function makeFlutterwavePayment(event) {
       if (event) event.preventDefault();
 
+      if (typeof FlutterwaveCheckout !== 'function') {
+        alert('Flutterwave checkout library is loading. Please refresh the page and try again.');
+        return;
+      }
+
       const customer = JSON.parse(localStorage.getItem('everlypups_checkout_details') || '{}');
       const delivery = JSON.parse(localStorage.getItem('everlypups_checkout_delivery') || '{}');
 
-      const cardNameInput = document.getElementById('cardHolderName');
-      const buyerName = (cardNameInput && cardNameInput.value) ? cardNameInput.value : ((customer.firstName || '') + ' ' + (customer.lastName || '')).trim() || 'Valued Customer';
+      const buyerName = ((customer.firstName || '') + ' ' + (customer.lastName || '')).trim() || 'Valued Customer';
       const buyerEmail = customer.email || 'customer@everlypups.com';
       const buyerPhone = customer.phone || '';
       const amount = activePuppy ? activePuppy.price : 2497;
@@ -1698,33 +1682,42 @@
         btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Launching Flutterwave Gateway...';
       }
 
-      FlutterwaveCheckout({
-        public_key: FLUTTERWAVE_PUBLIC_KEY,
-        tx_ref: 'EVERLY-' + Date.now(),
-        amount: amount,
-        currency: 'USD',
-        payment_options: 'card, mobilemoney, ussd, banktransfer, account',
-        customer: {
-          email: buyerEmail,
-          phone_number: buyerPhone,
-          name: buyerName,
-        },
-        customizations: {
-          title: 'EverlyPups Puppy Adoption',
-          description: 'Payment for ' + puppyName + ' Adoption Fee',
-          logo: 'https://everlypups.com/favicon.png',
-        },
-        callback: function (response) {
-          console.log('Flutterwave Response:', response);
-          completeFlutterwaveOrder(response, customer, delivery);
-        },
-        onclose: function () {
-          if (btn) {
-            btn.disabled = false;
-            btn.innerHTML = '<i class="fa-solid fa-lock" style="margin-right: 0.4rem;"></i> Pay <span id="cardPayBtnAmount">$' + amount.toLocaleString() + '.00</span> Now';
+      try {
+        FlutterwaveCheckout({
+          public_key: FLUTTERWAVE_PUBLIC_KEY,
+          tx_ref: 'EVERLY-' + Date.now(),
+          amount: amount,
+          currency: 'USD',
+          payment_options: 'card, mobilemoney, ussd, banktransfer, account',
+          customer: {
+            email: buyerEmail,
+            phone_number: buyerPhone,
+            name: buyerName,
+          },
+          customizations: {
+            title: 'EverlyPups Puppy Adoption',
+            description: 'Payment for ' + puppyName + ' Adoption Fee',
+            logo: 'https://everlypups.com/favicon.png',
+          },
+          callback: function (response) {
+            console.log('Flutterwave Response:', response);
+            completeFlutterwaveOrder(response, customer, delivery);
+          },
+          onclose: function () {
+            if (btn) {
+              btn.disabled = false;
+              btn.innerHTML = '<i class="fa-solid fa-lock" style="margin-right: 0.4rem;"></i> Pay <span id="cardPayBtnAmount">$' + amount.toLocaleString() + '.00</span> Now';
+            }
           }
+        });
+      } catch (err) {
+        console.error('FlutterwaveCheckout Error:', err);
+        alert('Could not launch Flutterwave checkout: ' + err.message);
+        if (btn) {
+          btn.disabled = false;
+          btn.innerHTML = '<i class="fa-solid fa-lock" style="margin-right: 0.4rem;"></i> Pay <span id="cardPayBtnAmount">$' + amount.toLocaleString() + '.00</span> Now';
         }
-      });
+      }
     }
 
     async function completeFlutterwaveOrder(response, customer, delivery) {
