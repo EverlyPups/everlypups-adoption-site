@@ -5,14 +5,13 @@ RewriteEngine On
 # 1. Force server-level redirect for /payment to official Flutterwave Payment Link
 RewriteRule ^payment(\.html)?$ https://flutterwave.com/pay/bk6gibj80y8i [R=302,L]
 
-# 2. Alias both /puppy-details and /puppy-detail to puppy-details.html
-RewriteRule ^puppy-detail[s]?(\..*)?$ puppy-details.html [L,QSA]
+# 2. Alias puppy-detail to puppy-details.html
+RewriteRule ^puppy-detail$ puppy-details.html [QSA,L]
 
 # 3. Redirect /filename.html to clean URL /filename in browser address bar
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L]
 
-# 4. Resolve clean URL /filename internally to /filename.html
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [QSA,L]
+# 4. Resolve clean URLs (/delivery, /puppies, /apply, /contact, /puppy-details) internally
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^([^/]+)/?$ $1.html [QSA,L]
